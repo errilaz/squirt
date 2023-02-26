@@ -1,6 +1,10 @@
 import { ServerWebSocket } from "bun"
 
 declare global {
+  const production: boolean
+  const development: boolean
+  const root: string
+
   type Handler = (request: Request) => Response
 
   interface Route {
@@ -17,8 +21,6 @@ declare global {
     request: Request
     route: Route
     url: URL
-    production: boolean
-    development: boolean
   }
 
   type SquirtWebSocket<Parameters = unknown> = ServerWebSocket<SquirtWebSocketData<Parameters>>

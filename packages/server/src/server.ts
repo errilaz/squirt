@@ -5,6 +5,7 @@ import "@squirt/markup/src/globals.ts"
 import "./plugins"
 import createRouter from "./router"
 import createLoader from "./loader"
+import defineGlobals from "./globals"
 
 const sourcePattern = /\.(tsx?|jsx?|civet|json|toml)$/
 const globalsPattern = /^common\/globals\.(tsx?|jsx?|civet)$/
@@ -25,6 +26,8 @@ export default async function createServer(root: string, production = false) {
       drain: router.drain,
     }
   })
+
+  defineGlobals(root, production)
 
   console.log(`== squirt listening on :${server.port} at "${root}"`)
   return server

@@ -53,7 +53,7 @@ All routes are modules. Named exports matching HTTP methods (in lowercase) will 
 
 Pages and stylesheets can `export default` to match `GET`, while API routes with `export default` will match **all** methods. All WebSocket routes should `export default`, as `GET` is the only valid method to upgrade the connection.
 
-The export can be an object or a function. If it is a function, it will be called and passed a `Context` object, which contains the `request`, `route`, `url`, and `development` and `production` booleans. If the route is dynamic, a second object will be passed containing the route parameters and values.
+The export can be an object or a function. If it is a function, it will be called and passed a `Context` object, which contains the `request`, `route`, and `url` properties. If the route is dynamic, a second object will be passed containing the route parameters and values.
 
 ### Page Routes
 
@@ -292,4 +292,18 @@ Layouts and partials can be defined simply as functions, imported from a non-rou
 
 ## Live Reload
 
-The `liveReload()` function can be called, which will embed a `<script>` tag which reloads the page when the source changes. Currently this reloads any page when any source changes. You can pass a boolean to enable/disable this setting.
+The `liveReload()` function can be called, which will embed a `<script>` tag which reloads the page when the source changes. Currently this reloads any page when any source changes. You can pass an optional boolean to enable/disable this setting.
+
+## Globals
+
+The global `root` refers to the root directory of the site.
+
+`production` and `development` are booleans.
+
+Site-defined globals can be the default export of one of the following paths:
+
+`src/common/globals.civet`
+`src/common/globals.ts`
+`src/common/globals.js`
+
+These will also be reloaded when changed.

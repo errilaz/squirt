@@ -34,13 +34,14 @@ export default async function createRouter(root: string, loader: Loader, product
     if (method === null) return null
 
     // TODO: different Context if type is socket
-    const result = (typeof method !== "function") ? method : await Promise.resolve(method({
+    const context: Context = {
       request,
       route,
       url,
-      production,
-      development: !production,
-    }, parameters))
+    }
+    const result = (typeof method !== "function")
+      ? method
+      : await Promise.resolve(method(context, parameters))
 
     if (route.type === "api") {
       if (result instanceof Response) {
@@ -109,8 +110,6 @@ export default async function createRouter(root: string, loader: Loader, product
     return (typeof method !== "function") ? method : await Promise.resolve(method(parameters, {
       route,
       url,
-      production,
-      development: !production,
     }))
   }
 

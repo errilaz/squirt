@@ -31,22 +31,4 @@ export module Primitives {
   export const doctype = {
     html5: raw("<!DOCTYPE html>")
   }
-
-  /** Live reload script. TODO: move to @squirt/server */
-  export function liveReload(enabled?: boolean) {
-    if (enabled === false) return null
-    return new Element("script", false, [new Raw(`
-    (function() {
-      const url = new URL(document.location.toString())
-      url.protocol = url.protocol === "http:" ? "ws:" : "wss:"
-      url.pathname = "_live_reload_"
-      const ws = new WebSocket(url)
-      ws.addEventListener("message", event => {
-        if (event.data === "reload") {
-          document.location.reload()
-        }
-      })
-    })()
-  `)])
-  }
 }

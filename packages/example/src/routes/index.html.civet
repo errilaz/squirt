@@ -1,4 +1,4 @@
-export default ({ request, production }: Context) => list $,
+export default ({ request }: Context) => list $,
   doctype.html5
   html $,
     head $,
@@ -11,4 +11,4 @@ export default ({ request, production }: Context) => list $,
     body $,
       div.hello `hello! ${request.url}`, color "lime"
       input { type: "password" }
-      liveReload !production
+      liveReload development
