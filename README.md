@@ -302,8 +302,8 @@ The global `root` refers to the root directory of the site.
 
 Site-defined globals can be the default export of one of the following paths:
 
-`src/common/globals.civet`
-`src/common/globals.ts`
-`src/common/globals.js`
+- `src/common/globals.civet`
+- `src/common/globals.ts`
+- `src/common/globals.js`
 
 These will also be reloaded when changed.
