@@ -15,6 +15,9 @@
   "keywords": [
     "squirt"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "module": "src/markup.ts",
   "types": "src/index.d.ts",
   "scripts": {

@@ -5,6 +5,7 @@
   "type": "module",
   "module": "src/generate.ts",
   "license": "MIT",
+  "private": true,
   "author": {
     "name": "errilaz",
     "url": "http://github.com/errilaz"

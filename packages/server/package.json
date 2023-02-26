@@ -17,6 +17,9 @@
   "keywords": [
     "squirt"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@types/split": "^1.0.2",
     "bun-types": "^0.5.6"

@@ -12,6 +12,8 @@ Squirt is a (🚧 pre-alpha 🚧) do-everything SSR/HOTW/AHAH server and framewo
 - Hyperscript-style HTML/CSS (all elements, properties, and at-rules are available on `globalThis` 😆)
 - SOON: tiny client-side runtime for declarative interactivity
 
+## Routing
+
 These types of routes are supported:
 
 ```
