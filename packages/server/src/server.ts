@@ -10,14 +10,22 @@ import defineGlobals from "./globals"
 const sourcePattern = /\.(tsx?|jsx?|civet|json|toml)$/
 const globalsPattern = /^common\/globals\.(tsx?|jsx?|civet)$/
 
-export default async function createServer(root: string, production = false) {
+export interface ServerOptions {
+  root: string
+  production: boolean
+  hostname?: string
+  port?: number
+}
+
+export default async function createServer({ root, production, hostname, port }: ServerOptions) {
   const globals: Set<string> = new Set()
   const loader = createLoader()
   const router = await createRouter(root, loader, production)
   createWatcher()
 
   const server: Server = Bun.serve({
-    port: 3000,
+    hostname,
+    port: port || 3000,
     fetch,
     websocket: {
       open,
@@ -67,8 +75,8 @@ export default async function createServer(root: string, production = false) {
     const watcher = watch(Path.join(root, "src"), {
       recursive: true,
       ignoreDuplicatesMs: 50,
+      ignoreSubsequent: production,
       reject: /\/\./,
-      // skipSubsequent: production,
     })
 
     watcher.on("add", ({ path }) => {

@@ -1,6 +1,6 @@
 {
   "name": "@squirt/server",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Squirt Server",
   "type": "module",
   "module": "src/server.ts",
@@ -27,7 +27,7 @@
   "dependencies": {
     "@danielx/civet": "^0.5.73",
     "@squirt/markup": "workspace:*",
-    "inwatch": "*",
+    "inwatch": "0.0.6",
     "regexparam": "^2.0.1",
     "split": "^1.0.1",
     "toptions": "^1.0.2"

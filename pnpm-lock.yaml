@@ -43,14 +43,14 @@ importers:
       '@squirt/markup': workspace:*
       '@types/split': ^1.0.2
       bun-types: ^0.5.6
-      inwatch: '*'
+      inwatch: 0.0.6
       regexparam: ^2.0.1
       split: ^1.0.1
       toptions: ^1.0.2
     dependencies:
       '@danielx/civet': 0.5.73
       '@squirt/markup': link:../markup
-      inwatch: 0.0.5
+      inwatch: 0.0.6
       regexparam: 2.0.1
       split: 1.0.1
       toptions: 1.0.2
@@ -102,8 +102,8 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /inwatch/0.0.5:
-    resolution: {integrity: sha512-tB48wZ6uwORWhKJIjGCjSSglR/AwzXGC/RfMruyuycKzpnXxPaPcpoyVm2enbqRNXepq3GAh0aG6lV22I1OJnw==}
+  /inwatch/0.0.6:
+    resolution: {integrity: sha512-SAasnDYG0PrZlLN8idTo/E5UHMiszhQOjxGdykcDGXowdxcHDfbzx6Cr5rJCesr1gDZmJWufUJLkcuvcvwtqyw==}
     dependencies:
       split: 1.0.1
       typed-emitter: 2.1.0
