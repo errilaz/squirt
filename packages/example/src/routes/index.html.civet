@@ -1,4 +1,4 @@
-export default ({}, { request, production }: Context) => list $,
+export default ({ request, production }: Context) => list $,
   doctype.html5
   html $,
     head $,

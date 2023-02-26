@@ -1,4 +1,4 @@
-export default ({ user }: { user: string }) => [
+export default ({}, { user }: { user: string }) => [
   doctype.html5,
   html(
     head(

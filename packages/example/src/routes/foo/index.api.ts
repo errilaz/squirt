@@ -1,3 +1,3 @@
-export function get({}, { request }: Context) {
+export function get({ request }: Context) {
   return new Response("FOO " + request.url)
 }
