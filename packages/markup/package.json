@@ -1,0 +1,31 @@
+{
+  "name": "@squirt/markup",
+  "version": "0.0.1",
+  "description": "Squirt Markup",
+  "type": "module",
+  "license": "MIT",
+  "author": {
+    "name": "errilaz",
+    "url": "http://github.com/errilaz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/errilaz/squirt.git"
+  },
+  "keywords": [
+    "squirt"
+  ],
+  "module": "src/markup.ts",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "generate": "bun node_modules/@squirt/generate/src/generate.ts"
+  },
+  "devDependencies": {
+    "@squirt/generate": "workspace:*",
+    "@types/cssesc": "^3.0.0",
+    "bun-types": "^0.5.6"
+  },
+  "dependencies": {
+    "cssesc": "^3.0.0"
+  }
+}

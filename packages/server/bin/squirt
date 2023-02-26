@@ -1,0 +1,3 @@
+#!/bin/bash
+SQUIRT=$(realpath "$(dirname $(readlink -f $BASH_SOURCE))/..")
+bun -e *.css --tsconfig-override "$SQUIRT/tsconfig.json" "$SQUIRT/src/squirt.ts" "$@"

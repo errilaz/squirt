@@ -1,0 +1,16 @@
+export default [
+  "charset",
+  "import",
+  "namespace",
+  "media",
+  "supports",
+  "page",
+  "keyframes",
+  "counter-style",
+  "font-feature-values",
+  "layer",
+  "color-profile",
+  "container",
+  "font-palette-values",
+  "font-face",
+]

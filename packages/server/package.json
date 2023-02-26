@@ -1,0 +1,32 @@
+{
+  "name": "@squirt/server",
+  "version": "0.0.1",
+  "description": "Squirt Server",
+  "type": "module",
+  "module": "src/server.ts",
+  "types": "src/types.d.ts",
+  "license": "MIT",
+  "author": {
+    "name": "errilaz",
+    "url": "http://github.com/errilaz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/errilaz/squirt.git"
+  },
+  "keywords": [
+    "squirt"
+  ],
+  "devDependencies": {
+    "@types/split": "^1.0.2",
+    "bun-types": "^0.5.6"
+  },
+  "dependencies": {
+    "@danielx/civet": "^0.5.73",
+    "@squirt/markup": "workspace:*",
+    "inwatch": "*",
+    "regexparam": "^2.0.1",
+    "split": "^1.0.1",
+    "toptions": "^1.0.2"
+  }
+}

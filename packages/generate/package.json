@@ -1,0 +1,26 @@
+{
+  "name": "@squirt/generate",
+  "version": "0.0.1",
+  "description": "Squirt Code Generator",
+  "type": "module",
+  "module": "src/generate.ts",
+  "license": "MIT",
+  "author": {
+    "name": "errilaz",
+    "url": "http://github.com/errilaz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/errilaz/squirt.git"
+  },
+  "keywords": [
+    "squirt"
+  ],
+  "devDependencies": {
+    "bun-types": "^0.5.6"
+  },
+  "dependencies": {
+    "html-tags": "^3.2.0",
+    "known-css-properties": "^0.26.0"
+  }
+}
