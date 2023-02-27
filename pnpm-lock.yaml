@@ -46,14 +46,14 @@ importers:
       inwatch: 0.0.6
       regexparam: ^2.0.1
       split: ^1.0.1
-      toptions: ^1.0.2
+      toptions: ^2.0.0
     dependencies:
       '@danielx/civet': 0.5.73
       '@squirt/markup': link:../markup
       inwatch: 0.0.6
       regexparam: 2.0.1
       split: 1.0.1
-      toptions: 1.0.2
+      toptions: 2.0.0
     devDependencies:
       '@types/split': 1.0.2
       bun-types: 0.5.6
@@ -136,8 +136,8 @@ packages:
     resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
     dev: false
 
-  /toptions/1.0.2:
-    resolution: {integrity: sha512-0g9tu895STABq+bqDJUntvBqCbu6S6M43fzxT7MEKeCQd1u008300oO1CdOLFLhsLWFy3fd5X8enBHl0TGW1Wg==}
+  /toptions/2.0.0:
+    resolution: {integrity: sha512-1L4/G0KCZpgIwq+2PI+qlDuQztTHYiT5vjdu+j6nVWPDPNlyr2SFL/fwAmHK/eoSF0LKgHcW0qzzmOFyYYP9cg==}
     dev: false
 
   /tslib/2.5.0:

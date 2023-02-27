@@ -24,7 +24,7 @@ async function main() {
   createServer({
     root,
     production,
-    hostname: hostname || undefined,
+    hostname,
     port: port ? Number.parseInt(port) : undefined,
   })
 }

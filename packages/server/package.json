@@ -30,6 +30,6 @@
     "inwatch": "0.0.6",
     "regexparam": "^2.0.1",
     "split": "^1.0.1",
-    "toptions": "^1.0.2"
+    "toptions": "^2.0.0"
   }
 }
