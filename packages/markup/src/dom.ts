@@ -36,7 +36,7 @@ export class Element {
         if (this.attributes[key]) {
           this.attributes[key] += " " + content[key].toString()
         }
-        else {
+        else if (content[key]) {
           this.attributes[key] = content[key].toString()
         }
       }
