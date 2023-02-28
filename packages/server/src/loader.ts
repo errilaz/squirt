@@ -20,6 +20,7 @@ export default function createLoader() {
   function track(specifier: string) {
     tracked[specifier] = true
     for (const dependency of Loader.dependencyKeysIfEvaluated(specifier)) {
+      if (/\/node_modules\//.test(dependency)) continue
       let dependants = dependantLookup[dependency]
       if (!dependants) dependants = dependantLookup[dependency] = []
       dependants.push(specifier)

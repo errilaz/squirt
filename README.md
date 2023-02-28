@@ -65,7 +65,7 @@ Page routes return HTML, typically created with the [`@squirt/markup`](#markup) 
 
 ```ts
 // index.html.ts
-export default ({ url, production }) => [
+export default ({ url }) => [
   doctype.html5,
   html(
     head(
@@ -84,7 +84,7 @@ export default ({ url, production }) => [
         `hello from ${url.pathname}!`,
         color("lime")
       ),
-      liveReload(!production),
+      liveReload(development),
     ),
   ),
 ]
