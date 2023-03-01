@@ -70,6 +70,9 @@ export default async function createRouter(root: string, loader: Loader, product
     }
     else {
       const contentType = route.type === "html" ? "text/html" : "text/css"
+      if (result instanceof Response) {
+        return result
+      }
       return new Response(print(result), {
         headers: { "Content-Type": contentType }
       })
