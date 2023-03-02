@@ -9,7 +9,7 @@ import defineGlobals from "./globals"
 import serveStatic from "serve-static-bun"
 
 const sourcePattern = /\.(tsx?|jsx?|civet|json|toml)$/
-const globalsPattern = /^common\/globals\.(tsx?|jsx?|civet)$/
+const globalPattern = /\.global\.(ts|js|civet)$/
 
 export interface ServerOptions {
   root: string
@@ -19,9 +19,12 @@ export interface ServerOptions {
 }
 
 export default async function createServer({ root, production, hostname, port }: ServerOptions) {
-  const globals: Set<string> = new Set()
   const loader = createLoader()
   const router = await createRouter(root, loader, production)
+  const globalExtensions: Map<string, Set<string>> = new Map()
+  const fetchPublic = serveStatic("public")
+
+  defineGlobals(root, production)
   createWatcher()
 
   const server: Server = Bun.serve({
@@ -36,11 +39,7 @@ export default async function createServer({ root, production, hostname, port }:
     }
   })
 
-  const fetchPublic = serveStatic("public")
-
-  defineGlobals(root, production)
-
-  console.log(`== squirt listening on :${server.port} at "${root}"`)
+  console.log(`🌭 Squirt listening on :${server.port} at "${root}"`)
   return server
 
   async function fetch(request: Request) {
@@ -82,8 +81,8 @@ export default async function createServer({ root, production, hostname, port }:
     })
 
     watcher.on("add", ({ path }) => {
-      if (globalsPattern.test(path)) {
-        addGlobals(absolute(path))
+      if (globalPattern.test(path)) {
+        addGlobal(absolute(path))
       }
       else {
         router.addFile(path)
@@ -91,11 +90,9 @@ export default async function createServer({ root, production, hostname, port }:
     })
 
     watcher.on("change", ({ path }) => {
-      if (globalsPattern.test(path)) {
-        console.log("reloading globals")
-        purgeGlobals()
-        loader.expire(path)
-        addGlobals(absolute(path))
+      const [, type] = globalPattern.exec(path) || []
+      if (globalPattern.test(path)) {
+        changeGlobal(absolute(path))
       }
       else if (sourcePattern.test(path)) {
         loader.expire(absolute(path))
@@ -104,9 +101,9 @@ export default async function createServer({ root, production, hostname, port }:
     })
 
     watcher.on("remove", ({ path }) => {
-      if (globalsPattern.test(path)) {
-        purgeGlobals()
-        loader.expire(path)
+      const [, type] = globalPattern.exec(path) || []
+      if (globalPattern.test(path)) {
+        removeGlobal(absolute(path))
       }
       else if (sourcePattern.test(path)) {
         path = absolute(path)
@@ -117,23 +114,32 @@ export default async function createServer({ root, production, hostname, port }:
     })
   }
 
-  async function addGlobals(path: string) {
+  async function addGlobal(path: string) {
     const module = await loader.module(path)
-    for (const key in module.default) {
+    const globals = new Set<string>()
+    globalExtensions.set(path, globals)
+    const dictionary = module.default ?? module
+    for (const key in dictionary) {
       globals.add(key)
       Object.defineProperty(globalThis, key, {
         configurable: true,
-        value: module.default[key],
+        value: dictionary[key],
       })
     }
   }
 
-  async function purgeGlobals() {
-    for (const key of globals.keys()) {
+  function changeGlobal(path: string) {
+    removeGlobal(path)
+    addGlobal(path)
+  }
+
+  function removeGlobal(path: string) {
+    const globals = globalExtensions.get(path)!
+    for (const key of globals) {
       delete (globalThis as any)[key]
     }
-    globals.clear()
-    loader.purge()
+    globalExtensions.delete(path)
+    loader.expire(path)
   }
 
   function absolute(path: string) {

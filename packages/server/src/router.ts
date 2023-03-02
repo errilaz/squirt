@@ -5,6 +5,7 @@ import { Loader } from "./loader"
 import { Server } from "bun"
 
 const routePattern = /^routes(\/?.*\/([^/]+))\.(html|css|api|socket)\.(ts|js|civet)$/
+const contextPattern = /\.context\.(ts|js|civet)$/
 const paramPattern = /\[([^\]]+)\]/g
 const wildPattern = /\[\.\.\.(.+)\]$/
 const unroutablePattern = /\/_/
@@ -12,6 +13,7 @@ const unroutablePattern = /\/_/
 export default async function createRouter(root: string, loader: Loader, production: boolean) {
   // TODO: route precedence
   const routes: Route[] = []
+  const contextExtensions: Set<string> = new Set()
 
   return {
     addFile,
@@ -34,11 +36,18 @@ export default async function createRouter(root: string, loader: Loader, product
     if (method === null) return null
 
     // TODO: different Context if type is socket
-    const context: Context = {
+    let context: Context = {
       request,
       route,
       url,
     }
+    
+    for (const extension of contextExtensions) {
+      const module = await loader.module(extension)
+      const props = module.default(context)
+      context = { ...props, ...context }
+    }
+
     const result = (typeof method !== "function")
       ? method
       : await Promise.resolve(method(context, parameters))
@@ -153,6 +162,9 @@ export default async function createRouter(root: string, loader: Loader, product
   }
 
   function addFile(path: string) {
+    if (contextPattern.test(path)) {
+      contextExtensions.add(absolute(path))
+    }
     const route = createRoute(path)
     if (!route) return
 
@@ -160,6 +172,7 @@ export default async function createRouter(root: string, loader: Loader, product
   }
 
   function removeFile(path: string) {
+    contextExtensions.delete(path)
     const routeIndex = routes.findIndex(r => r.path === path)
     if (routeIndex > -1) {
       routes.splice(routeIndex, 1)
@@ -185,8 +198,8 @@ export default async function createRouter(root: string, loader: Loader, product
       url = url.replace(/\[([^\]]+)\]/g, ":$1")
     }
 
-    const matcher = {
-      path: Path.join(root, "src", path),
+    const route: Route = {
+      path: absolute(path),
       type,
       language,
       isParam,
@@ -194,8 +207,12 @@ export default async function createRouter(root: string, loader: Loader, product
       ...RegexParam.parse(url),
     }
     if (wildKey) {
-      matcher.keys[matcher.keys.length - 1] = wildKey
+      route.keys[route.keys.length - 1] = wildKey
     }
-    return matcher
+    return route
+  }
+
+  function absolute(path: string) {
+    return Path.join(root, "src", path)
   }
 }
