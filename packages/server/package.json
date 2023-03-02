@@ -1,6 +1,6 @@
 {
   "name": "@squirt/server",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Squirt Server",
   "type": "module",
   "module": "src/server.ts",

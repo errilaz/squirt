@@ -7,7 +7,7 @@
 Squirt is a (🚧 pre-alpha 🚧) do-everything SSR/HOTW/AHAH server and framework built on [Bun](https://bun.sh).
 
 - [Civet](https://civet.dev) support
-- Next/Astro style filesystem routing
+- Next/Astro-style filesystem routing
 - Live reload
 - Hyperscript-style HTML/CSS (all elements, properties, and at-rules are available on `globalThis` 😆)
 - SOON: tiny client-side runtime for declarative interactivity
@@ -27,7 +27,6 @@ If you are using TypeScript and/or Civet, configure your `tsconfig.json`:
 ```json
 {
   "compilerOptions": {
-    ...
     "types": [
       "bun-types",
       "@squirt/markup",
@@ -63,7 +62,7 @@ Use `src/public` for static files.
 - `*.html.ts`
 - `*.html.js`
 
-Page routes return HTML, typically created with the [`@squirt/markup`](#markup) builder DSL.
+Page routes return HTML, typically created with the [`@squirt/markup`](#markup) builder DSL. Simple example:
 
 ```ts
 // index.html.ts
@@ -71,26 +70,20 @@ export default ({ url }) => [
   doctype.html5,
   html(
     head(
-      style(
-        rule("body",
-          backgroundColor("black"),
-          color("silver"),
-        ),
-        rule(".hello",
-          fontWeight("bold")
-        ),
-      ),
+      title("hello world!"),
+      liveReload(development),
     ),
     body(
       div.hello(
         `hello from ${url.pathname}!`,
         color("lime")
       ),
-      liveReload(development),
     ),
   ),
 ]
 ```
+
+Page routes can also directly return a `Response` to override rendering.
 
 ### Stylesheet Routes
 
@@ -153,9 +146,91 @@ Routes can be parameterized with square-braced file or directory names (such as 
 
 Rest-style dynamic routes work, as well: `[...myParam].html.ts`
 
+## Live Reload
+
+The `liveReload()` function can be called, which will embed a `<script>` tag which reloads the page when the source changes. Currently this reloads any page when any source changes. You can pass an optional boolean to enable/disable this setting.
+
+⚠️ **Note**: Currently hitting an error page or restarting the server [will break Live Reload](https://github.com/errilaz/squirt/issues/1).
+
+## Globals
+
+- `root`: absolute path to the project's root directory.
+- `production`: true in production
+- `development`: true in development
+- `redirect(location: string, temporary: boolean = false)`: returns a 302 redirect `Response`, or 307 if `temporary` is `true`.
+
+### Extending Globals
+
+Squirt is crazy with globals, so it provides the ability to define your own. Project-specific globals can be defined in files matching these patterns:
+
+- `*.global.civet`
+- `*.global.ts`
+- `*.global.js`
+
+These will work with Live Reload. You can use the default export with an object containing keys, or use named exports. Example:
+
+```ts
+// db.global.ts
+import _db from "./db"
+
+declare global {
+  const db: typeof _db
+}
+
+export default {
+  db: _db
+}
+```
+
+## Extending Context
+
+Files matching these patterns are `Context` extensions:
+
+- `*.context.civet`
+- `*.context.ts`
+- `*.context.js`
+
+These are run on each request to augment the `Context` object with your own values. They should export a default function which returns an object containing additional keys/values. Example:
+
+```ts
+// session.global.ts
+declare global {
+  type SessionContext = Context & {
+    session?: MySessionType
+  }
+}
+
+export default ({ request }: Context) => {
+  const session = getMySession(request)
+  return { session }
+}
+```
+
+## Layouts & Partials
+
+Layouts and partial views can be simply be defined as functions and imported.
+
+```ts
+// site.layout.ts
+export default (_title: any, _content: any) => [
+  doctype.html5,
+  html(
+    head(
+      meta({ charset: "UTF-8" }),
+      meta({ name: "viewport", content: "width=device-width, initial-scale=1.0" }),
+      title(_title),
+      liveReload(development),
+    ),
+    body(_content),
+  )
+]
+```
+
 ## Markup
 
 All HTML element and CSS property/at-rule names are defined globally as functions which create virtual DOM nodes. At render time, these are converted to HTML and CSS.
+
+TypeScript/JavaScript example:
 
 ```ts
 div(
@@ -210,7 +285,7 @@ All standard CSS properties are included. The `continue` property is called `_co
 
 ### Inline Styles
 
-You can apply CSS properties directly on elements:
+You can add CSS properties directly to elements:
 
 ```ts
 div(
@@ -233,7 +308,7 @@ rule(".danger",
 )
 ```
 
-Child selectors can be combined with the parent selector, similar to Sass and Less.js. This results in a second rule with the selector `.danger.large`:
+Child selectors can be combined with the parent selector, similar to Sass and Less.js. This example produces two rules, the second with the selector `.danger.large`:
 
 ```ts
 rule(".danger",
@@ -287,25 +362,3 @@ $layer(
   )
 )
 ```
-
-### Layouts & Partials
-
-Layouts and partials can be defined simply as functions, imported from a non-routable file.
-
-## Live Reload
-
-The `liveReload()` function can be called, which will embed a `<script>` tag which reloads the page when the source changes. Currently this reloads any page when any source changes. You can pass an optional boolean to enable/disable this setting.
-
-## Globals
-
-The global `root` refers to the root directory of the site.
-
-`production` and `development` are booleans.
-
-Site-defined globals can be the default export of one of the following paths:
-
-- `src/common/globals.civet`
-- `src/common/globals.ts`
-- `src/common/globals.js`
-
-These will also be reloaded when changed.
