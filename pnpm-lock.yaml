@@ -45,6 +45,7 @@ importers:
       bun-types: ^0.5.6
       inwatch: 0.0.6
       regexparam: ^2.0.1
+      serve-static-bun: ^0.5.0
       split: ^1.0.1
       toptions: ^2.0.0
     dependencies:
@@ -52,6 +53,7 @@ importers:
       '@squirt/markup': link:../markup
       inwatch: 0.0.6
       regexparam: 2.0.1
+      serve-static-bun: 0.5.0
       split: 1.0.1
       toptions: 2.0.0
     devDependencies:
@@ -125,6 +127,10 @@ packages:
       tslib: 2.5.0
     dev: false
     optional: true
+
+  /serve-static-bun/0.5.0:
+    resolution: {integrity: sha512-vWKqglkwPcFVZiRrtoUJzrnybliNSyXBG+27yNZuVGr5uwIihzMj/etMVkmN/BmS3G9Z1HBjyOqLUlHgBI3m3Q==}
+    dev: false
 
   /split/1.0.1:
     resolution: {integrity: sha512-mTyOoPbrivtXnwnIxZRFYRrPNtEFKlpB2fvjSnCQUiAA6qAZzqwna5envK4uk6OIeP17CsdF3rSBGYVBsU0Tkg==}

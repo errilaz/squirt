@@ -4,6 +4,8 @@ declare global {
   const production: boolean
   const development: boolean
   const root: string
+  function liveReload(enabled?: boolean): Element | null
+  function redirect(location: string, temporary = false): Response
 
   type Handler = (request: Request) => Response
 

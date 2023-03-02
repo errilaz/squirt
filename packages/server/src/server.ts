@@ -6,6 +6,7 @@ import "./plugins"
 import createRouter from "./router"
 import createLoader from "./loader"
 import defineGlobals from "./globals"
+import serveStatic from "serve-static-bun"
 
 const sourcePattern = /\.(tsx?|jsx?|civet|json|toml)$/
 const globalsPattern = /^common\/globals\.(tsx?|jsx?|civet)$/
@@ -35,6 +36,8 @@ export default async function createServer({ root, production, hostname, port }:
     }
   })
 
+  const fetchPublic = serveStatic("public")
+
   defineGlobals(root, production)
 
   console.log(`== squirt listening on :${server.port} at "${root}"`)
@@ -47,11 +50,10 @@ export default async function createServer({ root, production, hostname, port }:
       return await connectLiveReload(request)
     }
     const response = await router.request(request, server)
-    if (response === null) {
-      return new Response("Not found.", { status: 404 })
+    if (response !== null) {
+      return response
     }
-    // TODO: serve /public
-    return response
+    return fetchPublic(request)
   }
 
   async function open(ws: SquirtWebSocket) {

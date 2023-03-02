@@ -5,10 +5,20 @@ export default function defineGlobals(root: string, production: boolean) {
   Object.defineProperty(globalThis, "production", { value: production })
   Object.defineProperty(globalThis, "development", { value: !production })
   Object.defineProperty(globalThis, "liveReload", { value: liveReload })
+  Object.defineProperty(globalThis, "redirect", { value: redirect })
+}
+
+function redirect(location: string, temporary = false) {
+  return new Response(null, {
+    status: temporary ? 307 : 302,
+    headers: {
+      Location: location
+    },
+  })
 }
 
 /** Live reload script. TODO: move to @squirt/server */
-export function liveReload(enabled?: boolean) {
+function liveReload(enabled?: boolean) {
   if (enabled === false) return null
   return new Element("script", false, [new Raw(`
     (function() {
