@@ -55,6 +55,8 @@ Pages and stylesheets can `export default` to match `GET`, while API routes with
 
 The export can be an object or a function. If it is a function, it will be called and passed a `Context` object, which contains the `request`, `route`, and `url` properties. If the route is dynamic, a second object will be passed containing the route parameters and values.
 
+Use `src/public` for static files.
+
 ### Page Routes
 
 - `*.html.civet`
