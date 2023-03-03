@@ -148,7 +148,7 @@ Rest-style dynamic routes work, as well: `[...myParam].html.ts`
 
 ## Live Reload
 
-The `liveReload()` function can be called, which will embed a `<script>` tag which reloads the page when the source changes. Currently this reloads any page when any source changes. You can pass an optional boolean to enable/disable this setting.
+The `liveReload()` function can be included in a page - this will embed a `<script>` tag which reloads the page when the source changes. Currently this reloads any page when any source changes. You can pass an optional boolean to enable/disable this setting.
 
 ## Globals
 
