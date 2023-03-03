@@ -1,6 +1,6 @@
 {
   "name": "@squirt/markup",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "Squirt Markup",
   "type": "module",
   "license": "MIT",
@@ -16,7 +16,11 @@
     "squirt",
     "bun",
     "ssr",
-    "hotw"
+    "hotw",
+    "markup",
+    "html",
+    "css",
+    "hyperscript"
   ],
   "publishConfig": {
     "access": "public"
