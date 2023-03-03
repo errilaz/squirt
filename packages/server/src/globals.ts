@@ -1,4 +1,5 @@
 import { Element, Raw } from "@squirt/markup/src/dom"
+import * as Path from "path"
 
 export default function defineGlobals(root: string, production: boolean) {
   Object.defineProperty(globalThis, "root", { value: root })
@@ -17,20 +18,10 @@ function redirect(location: string, temporary = false) {
   })
 }
 
+const liveReloadJs = await Bun.file(Path.join(import.meta.dir, "liveReload.js")).text()
+
 /** Live reload script. TODO: move to @squirt/server */
 function liveReload(enabled?: boolean) {
   if (enabled === false) return null
-  return new Element("script", false, [new Raw(`
-    (function() {
-      const url = new URL(document.location.toString())
-      url.protocol = url.protocol === "http:" ? "ws:" : "wss:"
-      url.pathname = "_live_reload_"
-      const ws = new WebSocket(url)
-      ws.addEventListener("message", event => {
-        if (event.data === "reload") {
-          document.location.reload()
-        }
-      })
-    })()
-  `)])
+  return new Element("script", false, [new Raw(liveReloadJs)])
 }
