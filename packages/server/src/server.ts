@@ -7,6 +7,7 @@ import createRouter from "./router"
 import createLoader from "./loader"
 import defineGlobals from "./globals"
 import serveStatic from "serve-static-bun"
+import errorPage from "./error"
 
 const sourcePattern = /\.(tsx?|jsx?|civet|json|toml)$/
 const globalPattern = /\.global\.(ts|js|civet)$/
@@ -40,19 +41,33 @@ export default async function createServer({ root, production, hostname, port }:
   })
 
   console.log(`🌭 Squirt listening on :${server.port} at "${root}"`)
+  
+  if (!production) setTimeout(() => {
+    server.publish("_live_reload_", "reload")
+  }, 2100)
+
   return server
 
   async function fetch(request: Request) {
     console.log(request.method, request.url)
-    const url = new URL(request.url)
-    if (!production && url.pathname === "/_live_reload_") {
-      return await connectLiveReload(request)
+    try {
+      const url = new URL(request.url)
+      if (!production && url.pathname === "/_live_reload_") {
+        return await connectLiveReload(request)
+      }
+      const response = await router.request(request, server)
+      if (response !== null) {
+        return response
+      }
+      return fetchPublic(request)
     }
-    const response = await router.request(request, server)
-    if (response !== null) {
-      return response
+    catch (error) {
+      console.error(error)
+      return new Response(render(errorPage(request, error)), {
+        status: 500,
+        headers: { "Content-Type": "text/html" },
+      })
     }
-    return fetchPublic(request)
   }
 
   async function open(ws: SquirtWebSocket) {

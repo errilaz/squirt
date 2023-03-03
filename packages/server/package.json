@@ -15,7 +15,10 @@
     "url": "https://github.com/errilaz/squirt.git"
   },
   "keywords": [
-    "squirt"
+    "squirt",
+    "bun",
+    "ssr",
+    "hotw"
   ],
   "publishConfig": {
     "access": "public"

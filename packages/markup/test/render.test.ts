@@ -1,11 +1,11 @@
 import { describe, it, expect } from "bun:test"
 import { AtRule, Element, Property, Raw, Rule } from "../src/dom"
-import { print } from "../src/print"
+import { render } from "../src/render"
 
-describe("print", () => {
+describe("render", () => {
 
   it("renders elements", () => {
-    const output = print(new Element("div", false, [
+    const output = render(new Element("div", false, [
       "hello"
     ]))
 
@@ -13,13 +13,13 @@ describe("print", () => {
   })
 
   it("renders void elements", () => {
-    const output = print(new Element("hr", true, []))
+    const output = render(new Element("hr", true, []))
 
     expect(output).toBe("<hr>")
   })
 
   it("renders element attributes", () => {
-    const output = print(new Element("div", false, [
+    const output = render(new Element("div", false, [
       { class: "foo" },
       "hello"
     ]))
@@ -28,7 +28,7 @@ describe("print", () => {
   })
 
   it("escapes literal content", () => {
-    const output = print(new Element("div", false, [
+    const output = render(new Element("div", false, [
       "<hello>"
     ]))
 
@@ -36,7 +36,7 @@ describe("print", () => {
   })
 
   it("doesn't escape raw content", () => {
-    const output = print(new Element("div", false, [
+    const output = render(new Element("div", false, [
       new Raw("<hr>")
     ]))
 
@@ -44,7 +44,7 @@ describe("print", () => {
   })
 
   it("renders compact rules", () => {
-    const output = print(new Rule(".foo", [
+    const output = render(new Rule(".foo", [
       new Property("color", "red"),
       new Property("background", "blue")
     ]))
@@ -53,7 +53,7 @@ describe("print", () => {
   })
 
   it("renders nested rules", () => {
-    const output = print(new Rule(".foo", [
+    const output = render(new Rule(".foo", [
       new Property("color", "red"),
       new Rule(".bar", [
         new Property("color", "blue")
@@ -64,7 +64,7 @@ describe("print", () => {
   })
 
   it("renders only nested rule when parent has no properties", () => {
-    const output = print(new Rule(".foo", [
+    const output = render(new Rule(".foo", [
       new Rule(".bar", [
         new Property("color", "blue")
       ])
@@ -74,7 +74,7 @@ describe("print", () => {
   })
 
   it("renders combined nested rules", () => {
-    const output = print(new Rule(".foo", [
+    const output = render(new Rule(".foo", [
       new Rule("&.bar", [
         new Property("color", "blue")
       ])
@@ -84,7 +84,7 @@ describe("print", () => {
   })
 
   it("renders nested rules with pseudo-classes", () => {
-    const output = print(new Rule(".foo", [
+    const output = render(new Rule(".foo", [
       new Property("color", "red"),
       new Rule(":hover", [
         new Property("color", "blue")
@@ -95,7 +95,7 @@ describe("print", () => {
   })
 
   it("renders nested rules with multiple selectors in parent", () => {
-    const output = print(new Rule(".foo, .bar", [
+    const output = render(new Rule(".foo, .bar", [
       new Property("color", "red"),
       new Rule(".baz", [
         new Property("color", "green")
@@ -106,7 +106,7 @@ describe("print", () => {
   })
 
   it("renders nested rules with multiple selectors in child", () => {
-    const output = print(new Rule(".foo", [
+    const output = render(new Rule(".foo", [
       new Rule(".bar,.baz", [
         new Property("color", "purple")
       ])
@@ -116,7 +116,7 @@ describe("print", () => {
   })
 
   it("renders nested rules with multiple selectors at both levels", () => {
-    const output = print(new Rule(".foo, .bar", [
+    const output = render(new Rule(".foo, .bar", [
       new Rule(".baz,.buz", [
         new Property("color", "green")
       ])
@@ -126,13 +126,13 @@ describe("print", () => {
   })
 
   it("renders regular at-rules", () => {
-    const output = print(new AtRule("import", "url(foo.css)", []))
+    const output = render(new AtRule("import", "url(foo.css)", []))
 
     expect(output).toBe("@import url(foo.css);")
   })
 
   it("renders block at-rules", () => {
-    const output = print(new AtRule("font-face", null, [
+    const output = render(new AtRule("font-face", null, [
       new Property("font-family", `"Consolas"`)
     ]))
 
@@ -140,7 +140,7 @@ describe("print", () => {
   })
 
   it("renders nested at-rules containing rules", () => {
-    const output = print(new AtRule("media", "(min-width: 600px)", [
+    const output = render(new AtRule("media", "(min-width: 600px)", [
       new Rule(".foo", [
         new Property("color", "red")
       ])
@@ -150,7 +150,7 @@ describe("print", () => {
   })
 
   it("renders nested at-rules containing nested rules", () => {
-    const output = print(new AtRule("media", "(min-width: 600px)", [
+    const output = render(new AtRule("media", "(min-width: 600px)", [
       new Rule(".foo", [
         new Property("color", "red"),
         new Rule(".bar", [
@@ -163,7 +163,7 @@ describe("print", () => {
   })
 
   it("renders nested at-rules nested inside other nested at-rule", () => {
-    const output = print(new AtRule("supports", "(display: flex)", [
+    const output = render(new AtRule("supports", "(display: flex)", [
       new AtRule("media", "(min-width: 900px)", [
         new Rule(".foo", [
           new Property("display", "flex")
@@ -175,13 +175,13 @@ describe("print", () => {
   })
 
   it("renders nested at-rules without contents", () => {
-    const output = print(new AtRule("layer", "utilities", []))
+    const output = render(new AtRule("layer", "utilities", []))
 
     expect(output).toBe("@layer utilities;")
   })
 
   it("renders nested at-rules with properties", () => {
-    const output = print(new AtRule("counter-style", "thumbs", [
+    const output = render(new AtRule("counter-style", "thumbs", [
       new Property("system", "cyclic")
     ]))
 
@@ -189,7 +189,7 @@ describe("print", () => {
   })
 
   it("renders nested at-rules without a rule", () => {
-    const output = print(new AtRule("layer", null, [
+    const output = render(new AtRule("layer", null, [
       new Rule("p", [
         new Property("color", "red")
       ])

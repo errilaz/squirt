@@ -1,10 +1,10 @@
 import defineGeneratedGlobals from "./generated/globals"
 import { Primitives } from "./primitives"
-import { print } from "./print"
+import { render } from "./render"
 
 defineGeneratedGlobals()
 
-Object.defineProperty(globalThis, "print", { value: print })
+Object.defineProperty(globalThis, "render", { value: render })
 
 const primitives = Primitives as any
 for (const name in primitives) {

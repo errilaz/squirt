@@ -1,6 +1,6 @@
 import * as RegexParam from "regexparam"
 import * as Path from "path"
-import { print } from "@squirt/markup/src/print"
+import { render } from "@squirt/markup/src/render"
 import { Loader } from "./loader"
 import { Server } from "bun"
 
@@ -82,7 +82,7 @@ export default async function createRouter(root: string, loader: Loader, product
       if (result instanceof Response) {
         return result
       }
-      return new Response(print(result), {
+      return new Response(render(result), {
         headers: { "Content-Type": contentType }
       })
     }
