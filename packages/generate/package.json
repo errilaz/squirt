@@ -21,6 +21,10 @@
     "bun-types": "^0.5.6"
   },
   "dependencies": {
+    "@types/css-tree": "^2.3.1",
+    "@webref/css": "^6.4.1",
+    "@webref/elements": "^2.1.0",
+    "css-tree": "^2.3.1",
     "html-tags": "^3.2.0",
     "known-css-properties": "^0.26.0"
   }
