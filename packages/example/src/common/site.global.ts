@@ -5,11 +5,9 @@
  */
 
 declare global {
-  const $: null
-  const list: (...args: any[]) => any[]
+  const siteName: string
 }
 
 export default {
-  $: null,
-  list: (...args: any[]) => [...args]
+  siteName: "Squirt Example",
 }
