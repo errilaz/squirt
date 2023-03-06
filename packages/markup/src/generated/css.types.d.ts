@@ -46,14 +46,8 @@ declare global {
   /** `@-webkit-keyframes` atrule. */
   function $webkitKeyframes(...contents: any[]): AtRule
 
-  /** `@media` atrule. */
-  function $media(...contents: any[]): AtRule
-
   /** `@custom-media` atrule. */
   function $customMedia(...contents: any[]): AtRule
-
-  /** `@media` atrule. */
-  function $media(...contents: any[]): AtRule
 
   /** `@property` atrule. */
   function $property(...contents: any[]): AtRule
@@ -112,14 +106,8 @@ declare global {
   /** `@right-bottom` atrule. */
   function $rightBottom(...contents: any[]): AtRule
 
-  /** `@media` atrule. */
-  function $media(...contents: any[]): AtRule
-
   /** `@viewport` atrule. */
   function $viewport(...contents: any[]): AtRule
-
-  /** `@font-face` atrule. */
-  function $fontFace(...contents: any[]): AtRule
 
   /** `@font-feature-values` atrule. */
   function $fontFeatureValues(...contents: any[]): AtRule
@@ -129,18 +117,6 @@ declare global {
 
   /** The @scope block at-rule allows authors to scope style rules in CSS, with the application of weak scoping proximity between the scoping root and the subject of each style rule. */
   function $scope(...contents: any[]): AtRule
-
-  /** `@media` atrule. */
-  function $media(...contents: any[]): AtRule
-
-  /** The @import rule allows users to import style rules from other style sheets. In CSS 2, any @import rules must precede all other rules (except the @charset rule, if present). See the section on parsing for when user agents must ignore @import rules. The @import keyword must be followed by the URI of the style sheet to include. A string is also allowed; it will be interpreted as if it had url(...) around it. */
-  function $import(...contents: any[]): AtRule
-
-  /** `@media` atrule. */
-  function $media(...contents: any[]): AtRule
-
-  /** Authors can specify the margins of a page box inside an @page rule. An @page rule consists of the keyword "@page", followed by an optional page selector, followed by a block containing declarations and at-rules. Comments and white space are allowed, but optional, between the @page token and the page selector and between the page selector and the block. The declarations in an @page rule are said to be in the page context. */
-  function $page(...contents: any[]): AtRule
 
   /** `@custom-selector` atrule. */
   function $customSelector(...contents: any[]): AtRule

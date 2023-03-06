@@ -107,6 +107,7 @@ export default async function getCssSymbols() {
 
   // Collect Atrules
 
+  const atrulesDefined: { [name: string]: boolean | undefined } = {}
   const atrules = Object.keys(refs)
     .flatMap(key => refs[key].atrules)
     .map(atrule => ({
@@ -114,6 +115,11 @@ export default async function getCssSymbols() {
       jsName: camelize(jsName(atrule.name.substring(1))),
       help: atrule.prose,
     }))
+    .filter(atrule => {
+      const duplicate = !!atrulesDefined[atrule.name]
+      atrulesDefined[atrule.name] = true
+      return !duplicate
+    })
 
   return {
     properties,

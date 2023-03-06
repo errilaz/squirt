@@ -70,6 +70,7 @@ async function generateCss() {
   for (const atrule of atrules) {
     types += `  /** ${atrule.help ?? `\`${atrule.name}\` atrule.`} */\n`
     types += `  function $${atrule.jsName}(...contents: any[]): AtRule\n\n`
+    define += `  Object.defineProperty(globalThis, "$${atrule.jsName}", { value: Factory.atRule("${atrule.name}") })\n`
   }
 
   // Properties
