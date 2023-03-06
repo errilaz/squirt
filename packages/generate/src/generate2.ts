@@ -1,4 +1,4 @@
-import getCssSymbols, { SpecProperty } from "./css"
+import getCssSymbols, { Spec, SpecValue } from "./css"
 
 await Promise.all([
   writeCss(),
@@ -25,17 +25,19 @@ async function generateCss() {
 
   // Module
   types += "declare global {\n\n"
-  define += "export default function defineCssGlobals() {\n\n"
+  define += "export default function defineCssGlobals() {\n"
 
   // Properties
   for (const property of properties) {
     types += `  /** Create a \`${property.name}\` property. \`${printSpecs(property)}\` */\n`
     types += `  function ${property.jsName}(value: any): Property\n`
+    define += `  Object.defineProperty(globalThis, "${property.jsName}", { value: Factory.property("${property.name}")})\n`
     if (property.values.length > 0) {
       types += `  module ${property.jsName} {\n`
       for (const value of property.values) {
-        types += `    /** ${value.help ?? "`" + value.name + "` keyword"}. \`${value.spec.shortName}\` */\n`
+        types += `    /** ${printValueHelp(value)} */\n`
         types += `    const ${value.jsName}: string\n`
+        define += `  Object.defineProperty(globalThis.${property.jsName}, "${value.jsName}", { value: Factory.propertyValue("${property.name}", "${value.name}") })\n`
       }
       types += `  }\n`
     }
@@ -49,6 +51,15 @@ async function generateCss() {
   return { types, define }
 }
 
-function printSpecs(property: SpecProperty) {
-  return property.specs.map(s => s.shortName).join(", ")
+function printSpecs({ specs }: { specs: Spec[] }) {
+  return specs.map(s => s.shortName).join(", ")
+}
+
+function printValueHelp(value: SpecValue) {
+  if (value.helps.length === 1) {
+    return `${value.helps[0].help ?? "`" + value.name + "` keyword"}. \`${value.helps[0].spec.shortName}\``
+  }
+  return value.helps
+    .map(help => `\`${help.spec.shortName}\`: ${help.help ?? "`" + value.name + "` keyword."}`)
+    .join("\n\n    ")
 }

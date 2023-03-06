@@ -3,658 +3,658 @@ import type { ElementBuilder, Property, AtRule } from "../dom"
 
 declare global {
 
-  /** Create a `-apple-color-filter` property. `unknown` */
+  /** Create a `-apple-color-filter` property. `unknown-spec` */
   function appleColorFilter(value: any): Property
 
-  /** Create a `-apple-dashboard-region` property. `unknown` */
+  /** Create a `-apple-dashboard-region` property. `unknown-spec` */
   function appleDashboardRegion(value: any): Property
 
-  /** Create a `-apple-pay-button-style` property. `unknown` */
+  /** Create a `-apple-pay-button-style` property. `unknown-spec` */
   function applePayButtonStyle(value: any): Property
 
-  /** Create a `-apple-pay-button-type` property. `unknown` */
+  /** Create a `-apple-pay-button-type` property. `unknown-spec` */
   function applePayButtonType(value: any): Property
 
-  /** Create a `-apple-trailing-word` property. `unknown` */
+  /** Create a `-apple-trailing-word` property. `unknown-spec` */
   function appleTrailingWord(value: any): Property
 
-  /** Create a `-epub-caption-side` property. `unknown` */
+  /** Create a `-epub-caption-side` property. `unknown-spec` */
   function epubCaptionSide(value: any): Property
 
-  /** Create a `-epub-hyphens` property. `unknown` */
+  /** Create a `-epub-hyphens` property. `unknown-spec` */
   function epubHyphens(value: any): Property
 
-  /** Create a `-epub-text-combine` property. `unknown` */
+  /** Create a `-epub-text-combine` property. `unknown-spec` */
   function epubTextCombine(value: any): Property
 
-  /** Create a `-epub-text-emphasis` property. `unknown` */
+  /** Create a `-epub-text-emphasis` property. `unknown-spec` */
   function epubTextEmphasis(value: any): Property
 
-  /** Create a `-epub-text-emphasis-color` property. `unknown` */
+  /** Create a `-epub-text-emphasis-color` property. `unknown-spec` */
   function epubTextEmphasisColor(value: any): Property
 
-  /** Create a `-epub-text-emphasis-style` property. `unknown` */
+  /** Create a `-epub-text-emphasis-style` property. `unknown-spec` */
   function epubTextEmphasisStyle(value: any): Property
 
-  /** Create a `-epub-text-orientation` property. `unknown` */
+  /** Create a `-epub-text-orientation` property. `unknown-spec` */
   function epubTextOrientation(value: any): Property
 
-  /** Create a `-epub-text-transform` property. `unknown` */
+  /** Create a `-epub-text-transform` property. `unknown-spec` */
   function epubTextTransform(value: any): Property
 
-  /** Create a `-epub-word-break` property. `unknown` */
+  /** Create a `-epub-word-break` property. `unknown-spec` */
   function epubWordBreak(value: any): Property
 
-  /** Create a `-epub-writing-mode` property. `unknown` */
+  /** Create a `-epub-writing-mode` property. `unknown-spec` */
   function epubWritingMode(value: any): Property
 
-  /** Create a `-internal-text-autosizing-status` property. `unknown` */
+  /** Create a `-internal-text-autosizing-status` property. `unknown-spec` */
   function internalTextAutosizingStatus(value: any): Property
 
-  /** Create a `-moz-animation` property. `unknown` */
+  /** Create a `-moz-animation` property. `unknown-spec` */
   function mozAnimation(value: any): Property
 
-  /** Create a `-moz-animation-delay` property. `unknown` */
+  /** Create a `-moz-animation-delay` property. `unknown-spec` */
   function mozAnimationDelay(value: any): Property
 
-  /** Create a `-moz-animation-direction` property. `unknown` */
+  /** Create a `-moz-animation-direction` property. `unknown-spec` */
   function mozAnimationDirection(value: any): Property
 
-  /** Create a `-moz-animation-duration` property. `unknown` */
+  /** Create a `-moz-animation-duration` property. `unknown-spec` */
   function mozAnimationDuration(value: any): Property
 
-  /** Create a `-moz-animation-fill-mode` property. `unknown` */
+  /** Create a `-moz-animation-fill-mode` property. `unknown-spec` */
   function mozAnimationFillMode(value: any): Property
 
-  /** Create a `-moz-animation-iteration-count` property. `unknown` */
+  /** Create a `-moz-animation-iteration-count` property. `unknown-spec` */
   function mozAnimationIterationCount(value: any): Property
 
-  /** Create a `-moz-animation-name` property. `unknown` */
+  /** Create a `-moz-animation-name` property. `unknown-spec` */
   function mozAnimationName(value: any): Property
 
-  /** Create a `-moz-animation-play-state` property. `unknown` */
+  /** Create a `-moz-animation-play-state` property. `unknown-spec` */
   function mozAnimationPlayState(value: any): Property
 
-  /** Create a `-moz-animation-timing-function` property. `unknown` */
+  /** Create a `-moz-animation-timing-function` property. `unknown-spec` */
   function mozAnimationTimingFunction(value: any): Property
 
-  /** Create a `-moz-appearance` property. `unknown` */
+  /** Create a `-moz-appearance` property. `unknown-spec` */
   function mozAppearance(value: any): Property
 
-  /** Create a `-moz-backface-visibility` property. `unknown` */
+  /** Create a `-moz-backface-visibility` property. `unknown-spec` */
   function mozBackfaceVisibility(value: any): Property
 
-  /** Create a `-moz-background-clip` property. `unknown` */
+  /** Create a `-moz-background-clip` property. `unknown-spec` */
   function mozBackgroundClip(value: any): Property
 
-  /** Create a `-moz-background-inline-policy` property. `unknown` */
+  /** Create a `-moz-background-inline-policy` property. `unknown-spec` */
   function mozBackgroundInlinePolicy(value: any): Property
 
-  /** Create a `-moz-background-origin` property. `unknown` */
+  /** Create a `-moz-background-origin` property. `unknown-spec` */
   function mozBackgroundOrigin(value: any): Property
 
-  /** Create a `-moz-background-size` property. `unknown` */
+  /** Create a `-moz-background-size` property. `unknown-spec` */
   function mozBackgroundSize(value: any): Property
 
-  /** Create a `-moz-binding` property. `unknown` */
+  /** Create a `-moz-binding` property. `unknown-spec` */
   function mozBinding(value: any): Property
 
-  /** Create a `-moz-border-bottom-colors` property. `unknown` */
+  /** Create a `-moz-border-bottom-colors` property. `unknown-spec` */
   function mozBorderBottomColors(value: any): Property
 
-  /** Create a `-moz-border-end` property. `unknown` */
+  /** Create a `-moz-border-end` property. `unknown-spec` */
   function mozBorderEnd(value: any): Property
 
-  /** Create a `-moz-border-end-color` property. `unknown` */
+  /** Create a `-moz-border-end-color` property. `unknown-spec` */
   function mozBorderEndColor(value: any): Property
 
-  /** Create a `-moz-border-end-style` property. `unknown` */
+  /** Create a `-moz-border-end-style` property. `unknown-spec` */
   function mozBorderEndStyle(value: any): Property
 
-  /** Create a `-moz-border-end-width` property. `unknown` */
+  /** Create a `-moz-border-end-width` property. `unknown-spec` */
   function mozBorderEndWidth(value: any): Property
 
-  /** Create a `-moz-border-image` property. `unknown` */
+  /** Create a `-moz-border-image` property. `unknown-spec` */
   function mozBorderImage(value: any): Property
 
-  /** Create a `-moz-border-left-colors` property. `unknown` */
+  /** Create a `-moz-border-left-colors` property. `unknown-spec` */
   function mozBorderLeftColors(value: any): Property
 
-  /** Create a `-moz-border-radius` property. `unknown` */
+  /** Create a `-moz-border-radius` property. `unknown-spec` */
   function mozBorderRadius(value: any): Property
 
-  /** Create a `-moz-border-radius-bottomleft` property. `unknown` */
+  /** Create a `-moz-border-radius-bottomleft` property. `unknown-spec` */
   function mozBorderRadiusBottomleft(value: any): Property
 
-  /** Create a `-moz-border-radius-bottomright` property. `unknown` */
+  /** Create a `-moz-border-radius-bottomright` property. `unknown-spec` */
   function mozBorderRadiusBottomright(value: any): Property
 
-  /** Create a `-moz-border-radius-topleft` property. `unknown` */
+  /** Create a `-moz-border-radius-topleft` property. `unknown-spec` */
   function mozBorderRadiusTopleft(value: any): Property
 
-  /** Create a `-moz-border-radius-topright` property. `unknown` */
+  /** Create a `-moz-border-radius-topright` property. `unknown-spec` */
   function mozBorderRadiusTopright(value: any): Property
 
-  /** Create a `-moz-border-right-colors` property. `unknown` */
+  /** Create a `-moz-border-right-colors` property. `unknown-spec` */
   function mozBorderRightColors(value: any): Property
 
-  /** Create a `-moz-border-start` property. `unknown` */
+  /** Create a `-moz-border-start` property. `unknown-spec` */
   function mozBorderStart(value: any): Property
 
-  /** Create a `-moz-border-start-color` property. `unknown` */
+  /** Create a `-moz-border-start-color` property. `unknown-spec` */
   function mozBorderStartColor(value: any): Property
 
-  /** Create a `-moz-border-start-style` property. `unknown` */
+  /** Create a `-moz-border-start-style` property. `unknown-spec` */
   function mozBorderStartStyle(value: any): Property
 
-  /** Create a `-moz-border-start-width` property. `unknown` */
+  /** Create a `-moz-border-start-width` property. `unknown-spec` */
   function mozBorderStartWidth(value: any): Property
 
-  /** Create a `-moz-border-top-colors` property. `unknown` */
+  /** Create a `-moz-border-top-colors` property. `unknown-spec` */
   function mozBorderTopColors(value: any): Property
 
-  /** Create a `-moz-box-align` property. `unknown` */
+  /** Create a `-moz-box-align` property. `unknown-spec` */
   function mozBoxAlign(value: any): Property
 
-  /** Create a `-moz-box-direction` property. `unknown` */
+  /** Create a `-moz-box-direction` property. `unknown-spec` */
   function mozBoxDirection(value: any): Property
 
-  /** Create a `-moz-box-flex` property. `unknown` */
+  /** Create a `-moz-box-flex` property. `unknown-spec` */
   function mozBoxFlex(value: any): Property
 
-  /** Create a `-moz-box-ordinal-group` property. `unknown` */
+  /** Create a `-moz-box-ordinal-group` property. `unknown-spec` */
   function mozBoxOrdinalGroup(value: any): Property
 
-  /** Create a `-moz-box-orient` property. `unknown` */
+  /** Create a `-moz-box-orient` property. `unknown-spec` */
   function mozBoxOrient(value: any): Property
 
-  /** Create a `-moz-box-pack` property. `unknown` */
+  /** Create a `-moz-box-pack` property. `unknown-spec` */
   function mozBoxPack(value: any): Property
 
-  /** Create a `-moz-box-shadow` property. `unknown` */
+  /** Create a `-moz-box-shadow` property. `unknown-spec` */
   function mozBoxShadow(value: any): Property
 
-  /** Create a `-moz-box-sizing` property. `unknown` */
+  /** Create a `-moz-box-sizing` property. `unknown-spec` */
   function mozBoxSizing(value: any): Property
 
-  /** Create a `-moz-column-count` property. `unknown` */
+  /** Create a `-moz-column-count` property. `unknown-spec` */
   function mozColumnCount(value: any): Property
 
-  /** Create a `-moz-column-fill` property. `unknown` */
+  /** Create a `-moz-column-fill` property. `unknown-spec` */
   function mozColumnFill(value: any): Property
 
-  /** Create a `-moz-column-gap` property. `unknown` */
+  /** Create a `-moz-column-gap` property. `unknown-spec` */
   function mozColumnGap(value: any): Property
 
-  /** Create a `-moz-column-rule` property. `unknown` */
+  /** Create a `-moz-column-rule` property. `unknown-spec` */
   function mozColumnRule(value: any): Property
 
-  /** Create a `-moz-column-rule-color` property. `unknown` */
+  /** Create a `-moz-column-rule-color` property. `unknown-spec` */
   function mozColumnRuleColor(value: any): Property
 
-  /** Create a `-moz-column-rule-style` property. `unknown` */
+  /** Create a `-moz-column-rule-style` property. `unknown-spec` */
   function mozColumnRuleStyle(value: any): Property
 
-  /** Create a `-moz-column-rule-width` property. `unknown` */
+  /** Create a `-moz-column-rule-width` property. `unknown-spec` */
   function mozColumnRuleWidth(value: any): Property
 
-  /** Create a `-moz-column-span` property. `unknown` */
+  /** Create a `-moz-column-span` property. `unknown-spec` */
   function mozColumnSpan(value: any): Property
 
-  /** Create a `-moz-column-width` property. `unknown` */
+  /** Create a `-moz-column-width` property. `unknown-spec` */
   function mozColumnWidth(value: any): Property
 
-  /** Create a `-moz-columns` property. `unknown` */
+  /** Create a `-moz-columns` property. `unknown-spec` */
   function mozColumns(value: any): Property
 
-  /** Create a `-moz-float-edge` property. `unknown` */
+  /** Create a `-moz-float-edge` property. `unknown-spec` */
   function mozFloatEdge(value: any): Property
 
-  /** Create a `-moz-font-feature-settings` property. `unknown` */
+  /** Create a `-moz-font-feature-settings` property. `unknown-spec` */
   function mozFontFeatureSettings(value: any): Property
 
-  /** Create a `-moz-font-language-override` property. `unknown` */
+  /** Create a `-moz-font-language-override` property. `unknown-spec` */
   function mozFontLanguageOverride(value: any): Property
 
-  /** Create a `-moz-force-broken-image-icon` property. `unknown` */
+  /** Create a `-moz-force-broken-image-icon` property. `unknown-spec` */
   function mozForceBrokenImageIcon(value: any): Property
 
-  /** Create a `-moz-hyphens` property. `unknown` */
+  /** Create a `-moz-hyphens` property. `unknown-spec` */
   function mozHyphens(value: any): Property
 
-  /** Create a `-moz-image-region` property. `unknown` */
+  /** Create a `-moz-image-region` property. `unknown-spec` */
   function mozImageRegion(value: any): Property
 
-  /** Create a `-moz-margin-end` property. `unknown` */
+  /** Create a `-moz-margin-end` property. `unknown-spec` */
   function mozMarginEnd(value: any): Property
 
-  /** Create a `-moz-margin-start` property. `unknown` */
+  /** Create a `-moz-margin-start` property. `unknown-spec` */
   function mozMarginStart(value: any): Property
 
-  /** Create a `-moz-opacity` property. `unknown` */
+  /** Create a `-moz-opacity` property. `unknown-spec` */
   function mozOpacity(value: any): Property
 
-  /** Create a `-moz-orient` property. `unknown` */
+  /** Create a `-moz-orient` property. `unknown-spec` */
   function mozOrient(value: any): Property
 
-  /** Create a `-moz-osx-font-smoothing` property. `unknown` */
+  /** Create a `-moz-osx-font-smoothing` property. `unknown-spec` */
   function mozOsxFontSmoothing(value: any): Property
 
-  /** Create a `-moz-outline` property. `unknown` */
+  /** Create a `-moz-outline` property. `unknown-spec` */
   function mozOutline(value: any): Property
 
-  /** Create a `-moz-outline-color` property. `unknown` */
+  /** Create a `-moz-outline-color` property. `unknown-spec` */
   function mozOutlineColor(value: any): Property
 
-  /** Create a `-moz-outline-offset` property. `unknown` */
+  /** Create a `-moz-outline-offset` property. `unknown-spec` */
   function mozOutlineOffset(value: any): Property
 
-  /** Create a `-moz-outline-radius` property. `unknown` */
+  /** Create a `-moz-outline-radius` property. `unknown-spec` */
   function mozOutlineRadius(value: any): Property
 
-  /** Create a `-moz-outline-radius-bottomleft` property. `unknown` */
+  /** Create a `-moz-outline-radius-bottomleft` property. `unknown-spec` */
   function mozOutlineRadiusBottomleft(value: any): Property
 
-  /** Create a `-moz-outline-radius-bottomright` property. `unknown` */
+  /** Create a `-moz-outline-radius-bottomright` property. `unknown-spec` */
   function mozOutlineRadiusBottomright(value: any): Property
 
-  /** Create a `-moz-outline-radius-topleft` property. `unknown` */
+  /** Create a `-moz-outline-radius-topleft` property. `unknown-spec` */
   function mozOutlineRadiusTopleft(value: any): Property
 
-  /** Create a `-moz-outline-radius-topright` property. `unknown` */
+  /** Create a `-moz-outline-radius-topright` property. `unknown-spec` */
   function mozOutlineRadiusTopright(value: any): Property
 
-  /** Create a `-moz-outline-style` property. `unknown` */
+  /** Create a `-moz-outline-style` property. `unknown-spec` */
   function mozOutlineStyle(value: any): Property
 
-  /** Create a `-moz-outline-width` property. `unknown` */
+  /** Create a `-moz-outline-width` property. `unknown-spec` */
   function mozOutlineWidth(value: any): Property
 
-  /** Create a `-moz-padding-end` property. `unknown` */
+  /** Create a `-moz-padding-end` property. `unknown-spec` */
   function mozPaddingEnd(value: any): Property
 
-  /** Create a `-moz-padding-start` property. `unknown` */
+  /** Create a `-moz-padding-start` property. `unknown-spec` */
   function mozPaddingStart(value: any): Property
 
-  /** Create a `-moz-perspective` property. `unknown` */
+  /** Create a `-moz-perspective` property. `unknown-spec` */
   function mozPerspective(value: any): Property
 
-  /** Create a `-moz-perspective-origin` property. `unknown` */
+  /** Create a `-moz-perspective-origin` property. `unknown-spec` */
   function mozPerspectiveOrigin(value: any): Property
 
-  /** Create a `-moz-stack-sizing` property. `unknown` */
+  /** Create a `-moz-stack-sizing` property. `unknown-spec` */
   function mozStackSizing(value: any): Property
 
-  /** Create a `-moz-tab-size` property. `unknown` */
+  /** Create a `-moz-tab-size` property. `unknown-spec` */
   function mozTabSize(value: any): Property
 
-  /** Create a `-moz-text-align-last` property. `unknown` */
+  /** Create a `-moz-text-align-last` property. `unknown-spec` */
   function mozTextAlignLast(value: any): Property
 
-  /** Create a `-moz-text-blink` property. `unknown` */
+  /** Create a `-moz-text-blink` property. `unknown-spec` */
   function mozTextBlink(value: any): Property
 
-  /** Create a `-moz-text-decoration-color` property. `unknown` */
+  /** Create a `-moz-text-decoration-color` property. `unknown-spec` */
   function mozTextDecorationColor(value: any): Property
 
-  /** Create a `-moz-text-decoration-line` property. `unknown` */
+  /** Create a `-moz-text-decoration-line` property. `unknown-spec` */
   function mozTextDecorationLine(value: any): Property
 
-  /** Create a `-moz-text-decoration-style` property. `unknown` */
+  /** Create a `-moz-text-decoration-style` property. `unknown-spec` */
   function mozTextDecorationStyle(value: any): Property
 
-  /** Create a `-moz-text-size-adjust` property. `unknown` */
+  /** Create a `-moz-text-size-adjust` property. `unknown-spec` */
   function mozTextSizeAdjust(value: any): Property
 
-  /** Create a `-moz-transform` property. `unknown` */
+  /** Create a `-moz-transform` property. `unknown-spec` */
   function mozTransform(value: any): Property
 
-  /** Create a `-moz-transform-origin` property. `unknown` */
+  /** Create a `-moz-transform-origin` property. `unknown-spec` */
   function mozTransformOrigin(value: any): Property
 
-  /** Create a `-moz-transform-style` property. `unknown` */
+  /** Create a `-moz-transform-style` property. `unknown-spec` */
   function mozTransformStyle(value: any): Property
 
-  /** Create a `-moz-transition` property. `unknown` */
+  /** Create a `-moz-transition` property. `unknown-spec` */
   function mozTransition(value: any): Property
 
-  /** Create a `-moz-transition-delay` property. `unknown` */
+  /** Create a `-moz-transition-delay` property. `unknown-spec` */
   function mozTransitionDelay(value: any): Property
 
-  /** Create a `-moz-transition-duration` property. `unknown` */
+  /** Create a `-moz-transition-duration` property. `unknown-spec` */
   function mozTransitionDuration(value: any): Property
 
-  /** Create a `-moz-transition-property` property. `unknown` */
+  /** Create a `-moz-transition-property` property. `unknown-spec` */
   function mozTransitionProperty(value: any): Property
 
-  /** Create a `-moz-transition-timing-function` property. `unknown` */
+  /** Create a `-moz-transition-timing-function` property. `unknown-spec` */
   function mozTransitionTimingFunction(value: any): Property
 
-  /** Create a `-moz-user-focus` property. `unknown` */
+  /** Create a `-moz-user-focus` property. `unknown-spec` */
   function mozUserFocus(value: any): Property
 
-  /** Create a `-moz-user-input` property. `unknown` */
+  /** Create a `-moz-user-input` property. `unknown-spec` */
   function mozUserInput(value: any): Property
 
-  /** Create a `-moz-user-modify` property. `unknown` */
+  /** Create a `-moz-user-modify` property. `unknown-spec` */
   function mozUserModify(value: any): Property
 
-  /** Create a `-moz-user-select` property. `unknown` */
+  /** Create a `-moz-user-select` property. `unknown-spec` */
   function mozUserSelect(value: any): Property
 
-  /** Create a `-moz-window-dragging` property. `unknown` */
+  /** Create a `-moz-window-dragging` property. `unknown-spec` */
   function mozWindowDragging(value: any): Property
 
-  /** Create a `-moz-window-shadow` property. `unknown` */
+  /** Create a `-moz-window-shadow` property. `unknown-spec` */
   function mozWindowShadow(value: any): Property
 
-  /** Create a `-ms-animation` property. `unknown` */
+  /** Create a `-ms-animation` property. `unknown-spec` */
   function msAnimation(value: any): Property
 
-  /** Create a `-ms-animation-delay` property. `unknown` */
+  /** Create a `-ms-animation-delay` property. `unknown-spec` */
   function msAnimationDelay(value: any): Property
 
-  /** Create a `-ms-animation-direction` property. `unknown` */
+  /** Create a `-ms-animation-direction` property. `unknown-spec` */
   function msAnimationDirection(value: any): Property
 
-  /** Create a `-ms-animation-duration` property. `unknown` */
+  /** Create a `-ms-animation-duration` property. `unknown-spec` */
   function msAnimationDuration(value: any): Property
 
-  /** Create a `-ms-animation-fill-mode` property. `unknown` */
+  /** Create a `-ms-animation-fill-mode` property. `unknown-spec` */
   function msAnimationFillMode(value: any): Property
 
-  /** Create a `-ms-animation-iteration-count` property. `unknown` */
+  /** Create a `-ms-animation-iteration-count` property. `unknown-spec` */
   function msAnimationIterationCount(value: any): Property
 
-  /** Create a `-ms-animation-name` property. `unknown` */
+  /** Create a `-ms-animation-name` property. `unknown-spec` */
   function msAnimationName(value: any): Property
 
-  /** Create a `-ms-animation-play-state` property. `unknown` */
+  /** Create a `-ms-animation-play-state` property. `unknown-spec` */
   function msAnimationPlayState(value: any): Property
 
-  /** Create a `-ms-animation-timing-function` property. `unknown` */
+  /** Create a `-ms-animation-timing-function` property. `unknown-spec` */
   function msAnimationTimingFunction(value: any): Property
 
-  /** Create a `-ms-backface-visibility` property. `unknown` */
+  /** Create a `-ms-backface-visibility` property. `unknown-spec` */
   function msBackfaceVisibility(value: any): Property
 
-  /** Create a `-ms-block-progression` property. `unknown` */
+  /** Create a `-ms-block-progression` property. `unknown-spec` */
   function msBlockProgression(value: any): Property
 
-  /** Create a `-ms-content-zoom-chaining` property. `unknown` */
+  /** Create a `-ms-content-zoom-chaining` property. `unknown-spec` */
   function msContentZoomChaining(value: any): Property
 
-  /** Create a `-ms-content-zoom-limit` property. `unknown` */
+  /** Create a `-ms-content-zoom-limit` property. `unknown-spec` */
   function msContentZoomLimit(value: any): Property
 
-  /** Create a `-ms-content-zoom-limit-max` property. `unknown` */
+  /** Create a `-ms-content-zoom-limit-max` property. `unknown-spec` */
   function msContentZoomLimitMax(value: any): Property
 
-  /** Create a `-ms-content-zoom-limit-min` property. `unknown` */
+  /** Create a `-ms-content-zoom-limit-min` property. `unknown-spec` */
   function msContentZoomLimitMin(value: any): Property
 
-  /** Create a `-ms-content-zoom-snap` property. `unknown` */
+  /** Create a `-ms-content-zoom-snap` property. `unknown-spec` */
   function msContentZoomSnap(value: any): Property
 
-  /** Create a `-ms-content-zoom-snap-points` property. `unknown` */
+  /** Create a `-ms-content-zoom-snap-points` property. `unknown-spec` */
   function msContentZoomSnapPoints(value: any): Property
 
-  /** Create a `-ms-content-zoom-snap-type` property. `unknown` */
+  /** Create a `-ms-content-zoom-snap-type` property. `unknown-spec` */
   function msContentZoomSnapType(value: any): Property
 
-  /** Create a `-ms-content-zooming` property. `unknown` */
+  /** Create a `-ms-content-zooming` property. `unknown-spec` */
   function msContentZooming(value: any): Property
 
-  /** Create a `-ms-filter` property. `unknown` */
+  /** Create a `-ms-filter` property. `unknown-spec` */
   function msFilter(value: any): Property
 
-  /** Create a `-ms-flex` property. `unknown` */
+  /** Create a `-ms-flex` property. `unknown-spec` */
   function msFlex(value: any): Property
 
-  /** Create a `-ms-flex-align` property. `unknown` */
+  /** Create a `-ms-flex-align` property. `unknown-spec` */
   function msFlexAlign(value: any): Property
 
-  /** Create a `-ms-flex-direction` property. `unknown` */
+  /** Create a `-ms-flex-direction` property. `unknown-spec` */
   function msFlexDirection(value: any): Property
 
-  /** Create a `-ms-flex-flow` property. `unknown` */
+  /** Create a `-ms-flex-flow` property. `unknown-spec` */
   function msFlexFlow(value: any): Property
 
-  /** Create a `-ms-flex-item-align` property. `unknown` */
+  /** Create a `-ms-flex-item-align` property. `unknown-spec` */
   function msFlexItemAlign(value: any): Property
 
-  /** Create a `-ms-flex-line-pack` property. `unknown` */
+  /** Create a `-ms-flex-line-pack` property. `unknown-spec` */
   function msFlexLinePack(value: any): Property
 
-  /** Create a `-ms-flex-negative` property. `unknown` */
+  /** Create a `-ms-flex-negative` property. `unknown-spec` */
   function msFlexNegative(value: any): Property
 
-  /** Create a `-ms-flex-order` property. `unknown` */
+  /** Create a `-ms-flex-order` property. `unknown-spec` */
   function msFlexOrder(value: any): Property
 
-  /** Create a `-ms-flex-pack` property. `unknown` */
+  /** Create a `-ms-flex-pack` property. `unknown-spec` */
   function msFlexPack(value: any): Property
 
-  /** Create a `-ms-flex-positive` property. `unknown` */
+  /** Create a `-ms-flex-positive` property. `unknown-spec` */
   function msFlexPositive(value: any): Property
 
-  /** Create a `-ms-flex-preferred-size` property. `unknown` */
+  /** Create a `-ms-flex-preferred-size` property. `unknown-spec` */
   function msFlexPreferredSize(value: any): Property
 
-  /** Create a `-ms-flex-wrap` property. `unknown` */
+  /** Create a `-ms-flex-wrap` property. `unknown-spec` */
   function msFlexWrap(value: any): Property
 
-  /** Create a `-ms-flow-from` property. `unknown` */
+  /** Create a `-ms-flow-from` property. `unknown-spec` */
   function msFlowFrom(value: any): Property
 
-  /** Create a `-ms-flow-into` property. `unknown` */
+  /** Create a `-ms-flow-into` property. `unknown-spec` */
   function msFlowInto(value: any): Property
 
-  /** Create a `-ms-font-feature-settings` property. `unknown` */
+  /** Create a `-ms-font-feature-settings` property. `unknown-spec` */
   function msFontFeatureSettings(value: any): Property
 
-  /** Create a `-ms-grid-column` property. `unknown` */
+  /** Create a `-ms-grid-column` property. `unknown-spec` */
   function msGridColumn(value: any): Property
 
-  /** Create a `-ms-grid-column-align` property. `unknown` */
+  /** Create a `-ms-grid-column-align` property. `unknown-spec` */
   function msGridColumnAlign(value: any): Property
 
-  /** Create a `-ms-grid-column-span` property. `unknown` */
+  /** Create a `-ms-grid-column-span` property. `unknown-spec` */
   function msGridColumnSpan(value: any): Property
 
-  /** Create a `-ms-grid-columns` property. `unknown` */
+  /** Create a `-ms-grid-columns` property. `unknown-spec` */
   function msGridColumns(value: any): Property
 
-  /** Create a `-ms-grid-row` property. `unknown` */
+  /** Create a `-ms-grid-row` property. `unknown-spec` */
   function msGridRow(value: any): Property
 
-  /** Create a `-ms-grid-row-align` property. `unknown` */
+  /** Create a `-ms-grid-row-align` property. `unknown-spec` */
   function msGridRowAlign(value: any): Property
 
-  /** Create a `-ms-grid-row-span` property. `unknown` */
+  /** Create a `-ms-grid-row-span` property. `unknown-spec` */
   function msGridRowSpan(value: any): Property
 
-  /** Create a `-ms-grid-rows` property. `unknown` */
+  /** Create a `-ms-grid-rows` property. `unknown-spec` */
   function msGridRows(value: any): Property
 
-  /** Create a `-ms-high-contrast-adjust` property. `unknown` */
+  /** Create a `-ms-high-contrast-adjust` property. `unknown-spec` */
   function msHighContrastAdjust(value: any): Property
 
-  /** Create a `-ms-hyphenate-limit-chars` property. `unknown` */
+  /** Create a `-ms-hyphenate-limit-chars` property. `unknown-spec` */
   function msHyphenateLimitChars(value: any): Property
 
-  /** Create a `-ms-hyphenate-limit-lines` property. `unknown` */
+  /** Create a `-ms-hyphenate-limit-lines` property. `unknown-spec` */
   function msHyphenateLimitLines(value: any): Property
 
-  /** Create a `-ms-hyphenate-limit-zone` property. `unknown` */
+  /** Create a `-ms-hyphenate-limit-zone` property. `unknown-spec` */
   function msHyphenateLimitZone(value: any): Property
 
-  /** Create a `-ms-hyphens` property. `unknown` */
+  /** Create a `-ms-hyphens` property. `unknown-spec` */
   function msHyphens(value: any): Property
 
-  /** Create a `-ms-ime-align` property. `unknown` */
+  /** Create a `-ms-ime-align` property. `unknown-spec` */
   function msImeAlign(value: any): Property
 
-  /** Create a `-ms-interpolation-mode` property. `unknown` */
+  /** Create a `-ms-interpolation-mode` property. `unknown-spec` */
   function msInterpolationMode(value: any): Property
 
-  /** Create a `-ms-overflow-style` property. `unknown` */
+  /** Create a `-ms-overflow-style` property. `unknown-spec` */
   function msOverflowStyle(value: any): Property
 
-  /** Create a `-ms-perspective` property. `unknown` */
+  /** Create a `-ms-perspective` property. `unknown-spec` */
   function msPerspective(value: any): Property
 
-  /** Create a `-ms-perspective-origin` property. `unknown` */
+  /** Create a `-ms-perspective-origin` property. `unknown-spec` */
   function msPerspectiveOrigin(value: any): Property
 
-  /** Create a `-ms-scroll-chaining` property. `unknown` */
+  /** Create a `-ms-scroll-chaining` property. `unknown-spec` */
   function msScrollChaining(value: any): Property
 
-  /** Create a `-ms-scroll-limit` property. `unknown` */
+  /** Create a `-ms-scroll-limit` property. `unknown-spec` */
   function msScrollLimit(value: any): Property
 
-  /** Create a `-ms-scroll-limit-x-max` property. `unknown` */
+  /** Create a `-ms-scroll-limit-x-max` property. `unknown-spec` */
   function msScrollLimitXMax(value: any): Property
 
-  /** Create a `-ms-scroll-limit-x-min` property. `unknown` */
+  /** Create a `-ms-scroll-limit-x-min` property. `unknown-spec` */
   function msScrollLimitXMin(value: any): Property
 
-  /** Create a `-ms-scroll-limit-y-max` property. `unknown` */
+  /** Create a `-ms-scroll-limit-y-max` property. `unknown-spec` */
   function msScrollLimitYMax(value: any): Property
 
-  /** Create a `-ms-scroll-limit-y-min` property. `unknown` */
+  /** Create a `-ms-scroll-limit-y-min` property. `unknown-spec` */
   function msScrollLimitYMin(value: any): Property
 
-  /** Create a `-ms-scroll-rails` property. `unknown` */
+  /** Create a `-ms-scroll-rails` property. `unknown-spec` */
   function msScrollRails(value: any): Property
 
-  /** Create a `-ms-scroll-snap-points-x` property. `unknown` */
+  /** Create a `-ms-scroll-snap-points-x` property. `unknown-spec` */
   function msScrollSnapPointsX(value: any): Property
 
-  /** Create a `-ms-scroll-snap-points-y` property. `unknown` */
+  /** Create a `-ms-scroll-snap-points-y` property. `unknown-spec` */
   function msScrollSnapPointsY(value: any): Property
 
-  /** Create a `-ms-scroll-snap-type` property. `unknown` */
+  /** Create a `-ms-scroll-snap-type` property. `unknown-spec` */
   function msScrollSnapType(value: any): Property
 
-  /** Create a `-ms-scroll-snap-x` property. `unknown` */
+  /** Create a `-ms-scroll-snap-x` property. `unknown-spec` */
   function msScrollSnapX(value: any): Property
 
-  /** Create a `-ms-scroll-snap-y` property. `unknown` */
+  /** Create a `-ms-scroll-snap-y` property. `unknown-spec` */
   function msScrollSnapY(value: any): Property
 
-  /** Create a `-ms-scroll-translation` property. `unknown` */
+  /** Create a `-ms-scroll-translation` property. `unknown-spec` */
   function msScrollTranslation(value: any): Property
 
-  /** Create a `-ms-text-combine-horizontal` property. `unknown` */
+  /** Create a `-ms-text-combine-horizontal` property. `unknown-spec` */
   function msTextCombineHorizontal(value: any): Property
 
-  /** Create a `-ms-text-size-adjust` property. `unknown` */
+  /** Create a `-ms-text-size-adjust` property. `unknown-spec` */
   function msTextSizeAdjust(value: any): Property
 
-  /** Create a `-ms-touch-action` property. `unknown` */
+  /** Create a `-ms-touch-action` property. `unknown-spec` */
   function msTouchAction(value: any): Property
 
-  /** Create a `-ms-touch-select` property. `unknown` */
+  /** Create a `-ms-touch-select` property. `unknown-spec` */
   function msTouchSelect(value: any): Property
 
-  /** Create a `-ms-transform` property. `unknown` */
+  /** Create a `-ms-transform` property. `unknown-spec` */
   function msTransform(value: any): Property
 
-  /** Create a `-ms-transform-origin` property. `unknown` */
+  /** Create a `-ms-transform-origin` property. `unknown-spec` */
   function msTransformOrigin(value: any): Property
 
-  /** Create a `-ms-transform-style` property. `unknown` */
+  /** Create a `-ms-transform-style` property. `unknown-spec` */
   function msTransformStyle(value: any): Property
 
-  /** Create a `-ms-transition` property. `unknown` */
+  /** Create a `-ms-transition` property. `unknown-spec` */
   function msTransition(value: any): Property
 
-  /** Create a `-ms-transition-delay` property. `unknown` */
+  /** Create a `-ms-transition-delay` property. `unknown-spec` */
   function msTransitionDelay(value: any): Property
 
-  /** Create a `-ms-transition-duration` property. `unknown` */
+  /** Create a `-ms-transition-duration` property. `unknown-spec` */
   function msTransitionDuration(value: any): Property
 
-  /** Create a `-ms-transition-property` property. `unknown` */
+  /** Create a `-ms-transition-property` property. `unknown-spec` */
   function msTransitionProperty(value: any): Property
 
-  /** Create a `-ms-transition-timing-function` property. `unknown` */
+  /** Create a `-ms-transition-timing-function` property. `unknown-spec` */
   function msTransitionTimingFunction(value: any): Property
 
-  /** Create a `-ms-user-select` property. `unknown` */
+  /** Create a `-ms-user-select` property. `unknown-spec` */
   function msUserSelect(value: any): Property
 
-  /** Create a `-ms-wrap-flow` property. `unknown` */
+  /** Create a `-ms-wrap-flow` property. `unknown-spec` */
   function msWrapFlow(value: any): Property
 
-  /** Create a `-ms-wrap-margin` property. `unknown` */
+  /** Create a `-ms-wrap-margin` property. `unknown-spec` */
   function msWrapMargin(value: any): Property
 
-  /** Create a `-ms-wrap-through` property. `unknown` */
+  /** Create a `-ms-wrap-through` property. `unknown-spec` */
   function msWrapThrough(value: any): Property
 
-  /** Create a `-o-border-image` property. `unknown` */
+  /** Create a `-o-border-image` property. `unknown-spec` */
   function oBorderImage(value: any): Property
 
-  /** Create a `-o-link` property. `unknown` */
+  /** Create a `-o-link` property. `unknown-spec` */
   function oLink(value: any): Property
 
-  /** Create a `-o-link-source` property. `unknown` */
+  /** Create a `-o-link-source` property. `unknown-spec` */
   function oLinkSource(value: any): Property
 
-  /** Create a `-o-object-fit` property. `unknown` */
+  /** Create a `-o-object-fit` property. `unknown-spec` */
   function oObjectFit(value: any): Property
 
-  /** Create a `-o-object-position` property. `unknown` */
+  /** Create a `-o-object-position` property. `unknown-spec` */
   function oObjectPosition(value: any): Property
 
-  /** Create a `-o-tab-size` property. `unknown` */
+  /** Create a `-o-tab-size` property. `unknown-spec` */
   function oTabSize(value: any): Property
 
-  /** Create a `-o-table-baseline` property. `unknown` */
+  /** Create a `-o-table-baseline` property. `unknown-spec` */
   function oTableBaseline(value: any): Property
 
-  /** Create a `-o-transform` property. `unknown` */
+  /** Create a `-o-transform` property. `unknown-spec` */
   function oTransform(value: any): Property
 
-  /** Create a `-o-transform-origin` property. `unknown` */
+  /** Create a `-o-transform-origin` property. `unknown-spec` */
   function oTransformOrigin(value: any): Property
 
-  /** Create a `-o-transition` property. `unknown` */
+  /** Create a `-o-transition` property. `unknown-spec` */
   function oTransition(value: any): Property
 
-  /** Create a `-o-transition-delay` property. `unknown` */
+  /** Create a `-o-transition-delay` property. `unknown-spec` */
   function oTransitionDelay(value: any): Property
 
-  /** Create a `-o-transition-duration` property. `unknown` */
+  /** Create a `-o-transition-duration` property. `unknown-spec` */
   function oTransitionDuration(value: any): Property
 
-  /** Create a `-o-transition-property` property. `unknown` */
+  /** Create a `-o-transition-property` property. `unknown-spec` */
   function oTransitionProperty(value: any): Property
 
-  /** Create a `-o-transition-timing-function` property. `unknown` */
+  /** Create a `-o-transition-timing-function` property. `unknown-spec` */
   function oTransitionTimingFunction(value: any): Property
 
-  /** Create a `-wap-accesskey` property. `unknown` */
+  /** Create a `-wap-accesskey` property. `unknown-spec` */
   function wapAccesskey(value: any): Property
 
-  /** Create a `-wap-input-format` property. `unknown` */
+  /** Create a `-wap-input-format` property. `unknown-spec` */
   function wapInputFormat(value: any): Property
 
-  /** Create a `-wap-input-required` property. `unknown` */
+  /** Create a `-wap-input-required` property. `unknown-spec` */
   function wapInputRequired(value: any): Property
 
-  /** Create a `-wap-marquee-dir` property. `unknown` */
+  /** Create a `-wap-marquee-dir` property. `unknown-spec` */
   function wapMarqueeDir(value: any): Property
 
-  /** Create a `-wap-marquee-loop` property. `unknown` */
+  /** Create a `-wap-marquee-loop` property. `unknown-spec` */
   function wapMarqueeLoop(value: any): Property
 
-  /** Create a `-wap-marquee-speed` property. `unknown` */
+  /** Create a `-wap-marquee-speed` property. `unknown-spec` */
   function wapMarqueeSpeed(value: any): Property
 
-  /** Create a `-wap-marquee-style` property. `unknown` */
+  /** Create a `-wap-marquee-style` property. `unknown-spec` */
   function wapMarqueeStyle(value: any): Property
 
   /** Create a `-webkit-align-content` property. `compat` */
@@ -666,7 +666,7 @@ declare global {
   /** Create a `-webkit-align-self` property. `compat` */
   function webkitAlignSelf(value: any): Property
 
-  /** Create a `-webkit-alt` property. `unknown` */
+  /** Create a `-webkit-alt` property. `unknown-spec` */
   function webkitAlt(value: any): Property
 
   /** Create a `-webkit-animation` property. `compat` */
@@ -696,82 +696,82 @@ declare global {
   /** Create a `-webkit-animation-timing-function` property. `compat` */
   function webkitAnimationTimingFunction(value: any): Property
 
-  /** Create a `-webkit-animation-trigger` property. `unknown` */
+  /** Create a `-webkit-animation-trigger` property. `unknown-spec` */
   function webkitAnimationTrigger(value: any): Property
 
-  /** Create a `-webkit-app-region` property. `unknown` */
+  /** Create a `-webkit-app-region` property. `unknown-spec` */
   function webkitAppRegion(value: any): Property
 
   /** Create a `-webkit-appearance` property. `css-ui` */
   function webkitAppearance(value: any): Property
 
-  /** Create a `-webkit-aspect-ratio` property. `unknown` */
+  /** Create a `-webkit-aspect-ratio` property. `unknown-spec` */
   function webkitAspectRatio(value: any): Property
 
-  /** Create a `-webkit-backdrop-filter` property. `unknown` */
+  /** Create a `-webkit-backdrop-filter` property. `unknown-spec` */
   function webkitBackdropFilter(value: any): Property
 
   /** Create a `-webkit-backface-visibility` property. `compat` */
   function webkitBackfaceVisibility(value: any): Property
 
-  /** Create a `-webkit-background` property. `unknown` */
+  /** Create a `-webkit-background` property. `unknown-spec` */
   function webkitBackground(value: any): Property
 
-  /** Create a `-webkit-background-attachment` property. `unknown` */
+  /** Create a `-webkit-background-attachment` property. `unknown-spec` */
   function webkitBackgroundAttachment(value: any): Property
 
   /** Create a `-webkit-background-clip` property. `compat` */
   function webkitBackgroundClip(value: any): Property
 
-  /** Create a `-webkit-background-color` property. `unknown` */
+  /** Create a `-webkit-background-color` property. `unknown-spec` */
   function webkitBackgroundColor(value: any): Property
 
-  /** Create a `-webkit-background-composite` property. `unknown` */
+  /** Create a `-webkit-background-composite` property. `unknown-spec` */
   function webkitBackgroundComposite(value: any): Property
 
-  /** Create a `-webkit-background-image` property. `unknown` */
+  /** Create a `-webkit-background-image` property. `unknown-spec` */
   function webkitBackgroundImage(value: any): Property
 
   /** Create a `-webkit-background-origin` property. `compat` */
   function webkitBackgroundOrigin(value: any): Property
 
-  /** Create a `-webkit-background-position` property. `unknown` */
+  /** Create a `-webkit-background-position` property. `unknown-spec` */
   function webkitBackgroundPosition(value: any): Property
 
-  /** Create a `-webkit-background-position-x` property. `unknown` */
+  /** Create a `-webkit-background-position-x` property. `unknown-spec` */
   function webkitBackgroundPositionX(value: any): Property
 
-  /** Create a `-webkit-background-position-y` property. `unknown` */
+  /** Create a `-webkit-background-position-y` property. `unknown-spec` */
   function webkitBackgroundPositionY(value: any): Property
 
-  /** Create a `-webkit-background-repeat` property. `unknown` */
+  /** Create a `-webkit-background-repeat` property. `unknown-spec` */
   function webkitBackgroundRepeat(value: any): Property
 
   /** Create a `-webkit-background-size` property. `compat` */
   function webkitBackgroundSize(value: any): Property
 
-  /** Create a `-webkit-border-after` property. `unknown` */
+  /** Create a `-webkit-border-after` property. `unknown-spec` */
   function webkitBorderAfter(value: any): Property
 
-  /** Create a `-webkit-border-after-color` property. `unknown` */
+  /** Create a `-webkit-border-after-color` property. `unknown-spec` */
   function webkitBorderAfterColor(value: any): Property
 
-  /** Create a `-webkit-border-after-style` property. `unknown` */
+  /** Create a `-webkit-border-after-style` property. `unknown-spec` */
   function webkitBorderAfterStyle(value: any): Property
 
-  /** Create a `-webkit-border-after-width` property. `unknown` */
+  /** Create a `-webkit-border-after-width` property. `unknown-spec` */
   function webkitBorderAfterWidth(value: any): Property
 
-  /** Create a `-webkit-border-before` property. `unknown` */
+  /** Create a `-webkit-border-before` property. `unknown-spec` */
   function webkitBorderBefore(value: any): Property
 
-  /** Create a `-webkit-border-before-color` property. `unknown` */
+  /** Create a `-webkit-border-before-color` property. `unknown-spec` */
   function webkitBorderBeforeColor(value: any): Property
 
-  /** Create a `-webkit-border-before-style` property. `unknown` */
+  /** Create a `-webkit-border-before-style` property. `unknown-spec` */
   function webkitBorderBeforeStyle(value: any): Property
 
-  /** Create a `-webkit-border-before-width` property. `unknown` */
+  /** Create a `-webkit-border-before-width` property. `unknown-spec` */
   function webkitBorderBeforeWidth(value: any): Property
 
   /** Create a `-webkit-border-bottom-left-radius` property. `compat` */
@@ -780,55 +780,55 @@ declare global {
   /** Create a `-webkit-border-bottom-right-radius` property. `compat` */
   function webkitBorderBottomRightRadius(value: any): Property
 
-  /** Create a `-webkit-border-end` property. `unknown` */
+  /** Create a `-webkit-border-end` property. `unknown-spec` */
   function webkitBorderEnd(value: any): Property
 
-  /** Create a `-webkit-border-end-color` property. `unknown` */
+  /** Create a `-webkit-border-end-color` property. `unknown-spec` */
   function webkitBorderEndColor(value: any): Property
 
-  /** Create a `-webkit-border-end-style` property. `unknown` */
+  /** Create a `-webkit-border-end-style` property. `unknown-spec` */
   function webkitBorderEndStyle(value: any): Property
 
-  /** Create a `-webkit-border-end-width` property. `unknown` */
+  /** Create a `-webkit-border-end-width` property. `unknown-spec` */
   function webkitBorderEndWidth(value: any): Property
 
-  /** Create a `-webkit-border-fit` property. `unknown` */
+  /** Create a `-webkit-border-fit` property. `unknown-spec` */
   function webkitBorderFit(value: any): Property
 
-  /** Create a `-webkit-border-horizontal-spacing` property. `unknown` */
+  /** Create a `-webkit-border-horizontal-spacing` property. `unknown-spec` */
   function webkitBorderHorizontalSpacing(value: any): Property
 
-  /** Create a `-webkit-border-image` property. `unknown` */
+  /** Create a `-webkit-border-image` property. `unknown-spec` */
   function webkitBorderImage(value: any): Property
 
-  /** Create a `-webkit-border-image-outset` property. `unknown` */
+  /** Create a `-webkit-border-image-outset` property. `unknown-spec` */
   function webkitBorderImageOutset(value: any): Property
 
-  /** Create a `-webkit-border-image-repeat` property. `unknown` */
+  /** Create a `-webkit-border-image-repeat` property. `unknown-spec` */
   function webkitBorderImageRepeat(value: any): Property
 
-  /** Create a `-webkit-border-image-slice` property. `unknown` */
+  /** Create a `-webkit-border-image-slice` property. `unknown-spec` */
   function webkitBorderImageSlice(value: any): Property
 
-  /** Create a `-webkit-border-image-source` property. `unknown` */
+  /** Create a `-webkit-border-image-source` property. `unknown-spec` */
   function webkitBorderImageSource(value: any): Property
 
-  /** Create a `-webkit-border-image-width` property. `unknown` */
+  /** Create a `-webkit-border-image-width` property. `unknown-spec` */
   function webkitBorderImageWidth(value: any): Property
 
   /** Create a `-webkit-border-radius` property. `compat` */
   function webkitBorderRadius(value: any): Property
 
-  /** Create a `-webkit-border-start` property. `unknown` */
+  /** Create a `-webkit-border-start` property. `unknown-spec` */
   function webkitBorderStart(value: any): Property
 
-  /** Create a `-webkit-border-start-color` property. `unknown` */
+  /** Create a `-webkit-border-start-color` property. `unknown-spec` */
   function webkitBorderStartColor(value: any): Property
 
-  /** Create a `-webkit-border-start-style` property. `unknown` */
+  /** Create a `-webkit-border-start-style` property. `unknown-spec` */
   function webkitBorderStartStyle(value: any): Property
 
-  /** Create a `-webkit-border-start-width` property. `unknown` */
+  /** Create a `-webkit-border-start-width` property. `unknown-spec` */
   function webkitBorderStartWidth(value: any): Property
 
   /** Create a `-webkit-border-top-left-radius` property. `compat` */
@@ -837,25 +837,25 @@ declare global {
   /** Create a `-webkit-border-top-right-radius` property. `compat` */
   function webkitBorderTopRightRadius(value: any): Property
 
-  /** Create a `-webkit-border-vertical-spacing` property. `unknown` */
+  /** Create a `-webkit-border-vertical-spacing` property. `unknown-spec` */
   function webkitBorderVerticalSpacing(value: any): Property
 
   /** Create a `-webkit-box-align` property. `compat` */
   function webkitBoxAlign(value: any): Property
 
-  /** Create a `-webkit-box-decoration-break` property. `unknown` */
+  /** Create a `-webkit-box-decoration-break` property. `unknown-spec` */
   function webkitBoxDecorationBreak(value: any): Property
 
-  /** Create a `-webkit-box-direction` property. `unknown` */
+  /** Create a `-webkit-box-direction` property. `unknown-spec` */
   function webkitBoxDirection(value: any): Property
 
   /** Create a `-webkit-box-flex` property. `compat` */
   function webkitBoxFlex(value: any): Property
 
-  /** Create a `-webkit-box-flex-group` property. `unknown` */
+  /** Create a `-webkit-box-flex-group` property. `unknown-spec` */
   function webkitBoxFlexGroup(value: any): Property
 
-  /** Create a `-webkit-box-lines` property. `unknown` */
+  /** Create a `-webkit-box-lines` property. `unknown-spec` */
   function webkitBoxLines(value: any): Property
 
   /** Create a `-webkit-box-ordinal-group` property. `compat` */
@@ -867,7 +867,7 @@ declare global {
   /** Create a `-webkit-box-pack` property. `compat` */
   function webkitBoxPack(value: any): Property
 
-  /** Create a `-webkit-box-reflect` property. `unknown` */
+  /** Create a `-webkit-box-reflect` property. `unknown-spec` */
   function webkitBoxReflect(value: any): Property
 
   /** Create a `-webkit-box-shadow` property. `compat` */
@@ -876,67 +876,67 @@ declare global {
   /** Create a `-webkit-box-sizing` property. `compat` */
   function webkitBoxSizing(value: any): Property
 
-  /** Create a `-webkit-clip-path` property. `unknown` */
+  /** Create a `-webkit-clip-path` property. `unknown-spec` */
   function webkitClipPath(value: any): Property
 
-  /** Create a `-webkit-color-correction` property. `unknown` */
+  /** Create a `-webkit-color-correction` property. `unknown-spec` */
   function webkitColorCorrection(value: any): Property
 
-  /** Create a `-webkit-column-axis` property. `unknown` */
+  /** Create a `-webkit-column-axis` property. `unknown-spec` */
   function webkitColumnAxis(value: any): Property
 
-  /** Create a `-webkit-column-break-after` property. `unknown` */
+  /** Create a `-webkit-column-break-after` property. `unknown-spec` */
   function webkitColumnBreakAfter(value: any): Property
 
-  /** Create a `-webkit-column-break-before` property. `unknown` */
+  /** Create a `-webkit-column-break-before` property. `unknown-spec` */
   function webkitColumnBreakBefore(value: any): Property
 
-  /** Create a `-webkit-column-break-inside` property. `unknown` */
+  /** Create a `-webkit-column-break-inside` property. `unknown-spec` */
   function webkitColumnBreakInside(value: any): Property
 
-  /** Create a `-webkit-column-count` property. `unknown` */
+  /** Create a `-webkit-column-count` property. `unknown-spec` */
   function webkitColumnCount(value: any): Property
 
-  /** Create a `-webkit-column-fill` property. `unknown` */
+  /** Create a `-webkit-column-fill` property. `unknown-spec` */
   function webkitColumnFill(value: any): Property
 
-  /** Create a `-webkit-column-gap` property. `unknown` */
+  /** Create a `-webkit-column-gap` property. `unknown-spec` */
   function webkitColumnGap(value: any): Property
 
-  /** Create a `-webkit-column-progression` property. `unknown` */
+  /** Create a `-webkit-column-progression` property. `unknown-spec` */
   function webkitColumnProgression(value: any): Property
 
-  /** Create a `-webkit-column-rule` property. `unknown` */
+  /** Create a `-webkit-column-rule` property. `unknown-spec` */
   function webkitColumnRule(value: any): Property
 
-  /** Create a `-webkit-column-rule-color` property. `unknown` */
+  /** Create a `-webkit-column-rule-color` property. `unknown-spec` */
   function webkitColumnRuleColor(value: any): Property
 
-  /** Create a `-webkit-column-rule-style` property. `unknown` */
+  /** Create a `-webkit-column-rule-style` property. `unknown-spec` */
   function webkitColumnRuleStyle(value: any): Property
 
-  /** Create a `-webkit-column-rule-width` property. `unknown` */
+  /** Create a `-webkit-column-rule-width` property. `unknown-spec` */
   function webkitColumnRuleWidth(value: any): Property
 
-  /** Create a `-webkit-column-span` property. `unknown` */
+  /** Create a `-webkit-column-span` property. `unknown-spec` */
   function webkitColumnSpan(value: any): Property
 
-  /** Create a `-webkit-column-width` property. `unknown` */
+  /** Create a `-webkit-column-width` property. `unknown-spec` */
   function webkitColumnWidth(value: any): Property
 
-  /** Create a `-webkit-columns` property. `unknown` */
+  /** Create a `-webkit-columns` property. `unknown-spec` */
   function webkitColumns(value: any): Property
 
-  /** Create a `-webkit-composition-fill-color` property. `unknown` */
+  /** Create a `-webkit-composition-fill-color` property. `unknown-spec` */
   function webkitCompositionFillColor(value: any): Property
 
-  /** Create a `-webkit-composition-frame-color` property. `unknown` */
+  /** Create a `-webkit-composition-frame-color` property. `unknown-spec` */
   function webkitCompositionFrameColor(value: any): Property
 
-  /** Create a `-webkit-cursor-visibility` property. `unknown` */
+  /** Create a `-webkit-cursor-visibility` property. `unknown-spec` */
   function webkitCursorVisibility(value: any): Property
 
-  /** Create a `-webkit-dashboard-region` property. `unknown` */
+  /** Create a `-webkit-dashboard-region` property. `unknown-spec` */
   function webkitDashboardRegion(value: any): Property
 
   /** Create a `-webkit-filter` property. `compat` */
@@ -945,7 +945,7 @@ declare global {
   /** Create a `-webkit-flex` property. `compat` */
   function webkitFlex(value: any): Property
 
-  /** Create a `-webkit-flex-align` property. `unknown` */
+  /** Create a `-webkit-flex-align` property. `unknown-spec` */
   function webkitFlexAlign(value: any): Property
 
   /** Create a `-webkit-flex-basis` property. `compat` */
@@ -960,16 +960,16 @@ declare global {
   /** Create a `-webkit-flex-grow` property. `compat` */
   function webkitFlexGrow(value: any): Property
 
-  /** Create a `-webkit-flex-item-align` property. `unknown` */
+  /** Create a `-webkit-flex-item-align` property. `unknown-spec` */
   function webkitFlexItemAlign(value: any): Property
 
-  /** Create a `-webkit-flex-line-pack` property. `unknown` */
+  /** Create a `-webkit-flex-line-pack` property. `unknown-spec` */
   function webkitFlexLinePack(value: any): Property
 
-  /** Create a `-webkit-flex-order` property. `unknown` */
+  /** Create a `-webkit-flex-order` property. `unknown-spec` */
   function webkitFlexOrder(value: any): Property
 
-  /** Create a `-webkit-flex-pack` property. `unknown` */
+  /** Create a `-webkit-flex-pack` property. `unknown-spec` */
   function webkitFlexPack(value: any): Property
 
   /** Create a `-webkit-flex-shrink` property. `compat` */
@@ -978,97 +978,97 @@ declare global {
   /** Create a `-webkit-flex-wrap` property. `compat` */
   function webkitFlexWrap(value: any): Property
 
-  /** Create a `-webkit-flow-from` property. `unknown` */
+  /** Create a `-webkit-flow-from` property. `unknown-spec` */
   function webkitFlowFrom(value: any): Property
 
-  /** Create a `-webkit-flow-into` property. `unknown` */
+  /** Create a `-webkit-flow-into` property. `unknown-spec` */
   function webkitFlowInto(value: any): Property
 
-  /** Create a `-webkit-font-feature-settings` property. `unknown` */
+  /** Create a `-webkit-font-feature-settings` property. `unknown-spec` */
   function webkitFontFeatureSettings(value: any): Property
 
-  /** Create a `-webkit-font-kerning` property. `unknown` */
+  /** Create a `-webkit-font-kerning` property. `unknown-spec` */
   function webkitFontKerning(value: any): Property
 
-  /** Create a `-webkit-font-size-delta` property. `unknown` */
+  /** Create a `-webkit-font-size-delta` property. `unknown-spec` */
   function webkitFontSizeDelta(value: any): Property
 
-  /** Create a `-webkit-font-smoothing` property. `unknown` */
+  /** Create a `-webkit-font-smoothing` property. `unknown-spec` */
   function webkitFontSmoothing(value: any): Property
 
-  /** Create a `-webkit-font-variant-ligatures` property. `unknown` */
+  /** Create a `-webkit-font-variant-ligatures` property. `unknown-spec` */
   function webkitFontVariantLigatures(value: any): Property
 
-  /** Create a `-webkit-grid-after` property. `unknown` */
+  /** Create a `-webkit-grid-after` property. `unknown-spec` */
   function webkitGridAfter(value: any): Property
 
-  /** Create a `-webkit-grid-auto-columns` property. `unknown` */
+  /** Create a `-webkit-grid-auto-columns` property. `unknown-spec` */
   function webkitGridAutoColumns(value: any): Property
 
-  /** Create a `-webkit-grid-auto-flow` property. `unknown` */
+  /** Create a `-webkit-grid-auto-flow` property. `unknown-spec` */
   function webkitGridAutoFlow(value: any): Property
 
-  /** Create a `-webkit-grid-auto-rows` property. `unknown` */
+  /** Create a `-webkit-grid-auto-rows` property. `unknown-spec` */
   function webkitGridAutoRows(value: any): Property
 
-  /** Create a `-webkit-grid-before` property. `unknown` */
+  /** Create a `-webkit-grid-before` property. `unknown-spec` */
   function webkitGridBefore(value: any): Property
 
-  /** Create a `-webkit-grid-column` property. `unknown` */
+  /** Create a `-webkit-grid-column` property. `unknown-spec` */
   function webkitGridColumn(value: any): Property
 
-  /** Create a `-webkit-grid-columns` property. `unknown` */
+  /** Create a `-webkit-grid-columns` property. `unknown-spec` */
   function webkitGridColumns(value: any): Property
 
-  /** Create a `-webkit-grid-end` property. `unknown` */
+  /** Create a `-webkit-grid-end` property. `unknown-spec` */
   function webkitGridEnd(value: any): Property
 
-  /** Create a `-webkit-grid-row` property. `unknown` */
+  /** Create a `-webkit-grid-row` property. `unknown-spec` */
   function webkitGridRow(value: any): Property
 
-  /** Create a `-webkit-grid-rows` property. `unknown` */
+  /** Create a `-webkit-grid-rows` property. `unknown-spec` */
   function webkitGridRows(value: any): Property
 
-  /** Create a `-webkit-grid-start` property. `unknown` */
+  /** Create a `-webkit-grid-start` property. `unknown-spec` */
   function webkitGridStart(value: any): Property
 
-  /** Create a `-webkit-highlight` property. `unknown` */
+  /** Create a `-webkit-highlight` property. `unknown-spec` */
   function webkitHighlight(value: any): Property
 
-  /** Create a `-webkit-hyphenate-character` property. `unknown` */
+  /** Create a `-webkit-hyphenate-character` property. `unknown-spec` */
   function webkitHyphenateCharacter(value: any): Property
 
-  /** Create a `-webkit-hyphenate-limit-after` property. `unknown` */
+  /** Create a `-webkit-hyphenate-limit-after` property. `unknown-spec` */
   function webkitHyphenateLimitAfter(value: any): Property
 
-  /** Create a `-webkit-hyphenate-limit-before` property. `unknown` */
+  /** Create a `-webkit-hyphenate-limit-before` property. `unknown-spec` */
   function webkitHyphenateLimitBefore(value: any): Property
 
-  /** Create a `-webkit-hyphenate-limit-lines` property. `unknown` */
+  /** Create a `-webkit-hyphenate-limit-lines` property. `unknown-spec` */
   function webkitHyphenateLimitLines(value: any): Property
 
-  /** Create a `-webkit-hyphens` property. `unknown` */
+  /** Create a `-webkit-hyphens` property. `unknown-spec` */
   function webkitHyphens(value: any): Property
 
-  /** Create a `-webkit-initial-letter` property. `unknown` */
+  /** Create a `-webkit-initial-letter` property. `unknown-spec` */
   function webkitInitialLetter(value: any): Property
 
   /** Create a `-webkit-justify-content` property. `compat` */
   function webkitJustifyContent(value: any): Property
 
-  /** Create a `-webkit-justify-items` property. `unknown` */
+  /** Create a `-webkit-justify-items` property. `unknown-spec` */
   function webkitJustifyItems(value: any): Property
 
-  /** Create a `-webkit-justify-self` property. `unknown` */
+  /** Create a `-webkit-justify-self` property. `unknown-spec` */
   function webkitJustifySelf(value: any): Property
 
-  /** Create a `-webkit-line-align` property. `unknown` */
+  /** Create a `-webkit-line-align` property. `unknown-spec` */
   function webkitLineAlign(value: any): Property
 
-  /** Create a `-webkit-line-box-contain` property. `unknown` */
+  /** Create a `-webkit-line-box-contain` property. `unknown-spec` */
   function webkitLineBoxContain(value: any): Property
 
-  /** Create a `-webkit-line-break` property. `unknown` */
+  /** Create a `-webkit-line-break` property. `unknown-spec` */
   function webkitLineBreak(value: any): Property
 
   /** Create a `-webkit-line-clamp` property. `css-overflow-4` */
@@ -1078,73 +1078,73 @@ declare global {
     const none: string
   }
 
-  /** Create a `-webkit-line-grid` property. `unknown` */
+  /** Create a `-webkit-line-grid` property. `unknown-spec` */
   function webkitLineGrid(value: any): Property
 
-  /** Create a `-webkit-line-grid-snap` property. `unknown` */
+  /** Create a `-webkit-line-grid-snap` property. `unknown-spec` */
   function webkitLineGridSnap(value: any): Property
 
-  /** Create a `-webkit-line-snap` property. `unknown` */
+  /** Create a `-webkit-line-snap` property. `unknown-spec` */
   function webkitLineSnap(value: any): Property
 
-  /** Create a `-webkit-locale` property. `unknown` */
+  /** Create a `-webkit-locale` property. `unknown-spec` */
   function webkitLocale(value: any): Property
 
-  /** Create a `-webkit-logical-height` property. `unknown` */
+  /** Create a `-webkit-logical-height` property. `unknown-spec` */
   function webkitLogicalHeight(value: any): Property
 
-  /** Create a `-webkit-logical-width` property. `unknown` */
+  /** Create a `-webkit-logical-width` property. `unknown-spec` */
   function webkitLogicalWidth(value: any): Property
 
-  /** Create a `-webkit-margin-after` property. `unknown` */
+  /** Create a `-webkit-margin-after` property. `unknown-spec` */
   function webkitMarginAfter(value: any): Property
 
-  /** Create a `-webkit-margin-after-collapse` property. `unknown` */
+  /** Create a `-webkit-margin-after-collapse` property. `unknown-spec` */
   function webkitMarginAfterCollapse(value: any): Property
 
-  /** Create a `-webkit-margin-before` property. `unknown` */
+  /** Create a `-webkit-margin-before` property. `unknown-spec` */
   function webkitMarginBefore(value: any): Property
 
-  /** Create a `-webkit-margin-before-collapse` property. `unknown` */
+  /** Create a `-webkit-margin-before-collapse` property. `unknown-spec` */
   function webkitMarginBeforeCollapse(value: any): Property
 
-  /** Create a `-webkit-margin-bottom-collapse` property. `unknown` */
+  /** Create a `-webkit-margin-bottom-collapse` property. `unknown-spec` */
   function webkitMarginBottomCollapse(value: any): Property
 
-  /** Create a `-webkit-margin-collapse` property. `unknown` */
+  /** Create a `-webkit-margin-collapse` property. `unknown-spec` */
   function webkitMarginCollapse(value: any): Property
 
-  /** Create a `-webkit-margin-end` property. `unknown` */
+  /** Create a `-webkit-margin-end` property. `unknown-spec` */
   function webkitMarginEnd(value: any): Property
 
-  /** Create a `-webkit-margin-start` property. `unknown` */
+  /** Create a `-webkit-margin-start` property. `unknown-spec` */
   function webkitMarginStart(value: any): Property
 
-  /** Create a `-webkit-margin-top-collapse` property. `unknown` */
+  /** Create a `-webkit-margin-top-collapse` property. `unknown-spec` */
   function webkitMarginTopCollapse(value: any): Property
 
-  /** Create a `-webkit-marquee` property. `unknown` */
+  /** Create a `-webkit-marquee` property. `unknown-spec` */
   function webkitMarquee(value: any): Property
 
-  /** Create a `-webkit-marquee-direction` property. `unknown` */
+  /** Create a `-webkit-marquee-direction` property. `unknown-spec` */
   function webkitMarqueeDirection(value: any): Property
 
-  /** Create a `-webkit-marquee-increment` property. `unknown` */
+  /** Create a `-webkit-marquee-increment` property. `unknown-spec` */
   function webkitMarqueeIncrement(value: any): Property
 
-  /** Create a `-webkit-marquee-repetition` property. `unknown` */
+  /** Create a `-webkit-marquee-repetition` property. `unknown-spec` */
   function webkitMarqueeRepetition(value: any): Property
 
-  /** Create a `-webkit-marquee-speed` property. `unknown` */
+  /** Create a `-webkit-marquee-speed` property. `unknown-spec` */
   function webkitMarqueeSpeed(value: any): Property
 
-  /** Create a `-webkit-marquee-style` property. `unknown` */
+  /** Create a `-webkit-marquee-style` property. `unknown-spec` */
   function webkitMarqueeStyle(value: any): Property
 
   /** Create a `-webkit-mask` property. `compat` */
   function webkitMask(value: any): Property
 
-  /** Create a `-webkit-mask-attachment` property. `unknown` */
+  /** Create a `-webkit-mask-attachment` property. `unknown-spec` */
   function webkitMaskAttachment(value: any): Property
 
   /** Create a `-webkit-mask-box-image` property. `compat` */
@@ -1180,64 +1180,64 @@ declare global {
   /** Create a `-webkit-mask-position` property. `compat` */
   function webkitMaskPosition(value: any): Property
 
-  /** Create a `-webkit-mask-position-x` property. `unknown` */
+  /** Create a `-webkit-mask-position-x` property. `unknown-spec` */
   function webkitMaskPositionX(value: any): Property
 
-  /** Create a `-webkit-mask-position-y` property. `unknown` */
+  /** Create a `-webkit-mask-position-y` property. `unknown-spec` */
   function webkitMaskPositionY(value: any): Property
 
   /** Create a `-webkit-mask-repeat` property. `compat` */
   function webkitMaskRepeat(value: any): Property
 
-  /** Create a `-webkit-mask-repeat-x` property. `unknown` */
+  /** Create a `-webkit-mask-repeat-x` property. `unknown-spec` */
   function webkitMaskRepeatX(value: any): Property
 
-  /** Create a `-webkit-mask-repeat-y` property. `unknown` */
+  /** Create a `-webkit-mask-repeat-y` property. `unknown-spec` */
   function webkitMaskRepeatY(value: any): Property
 
   /** Create a `-webkit-mask-size` property. `compat` */
   function webkitMaskSize(value: any): Property
 
-  /** Create a `-webkit-mask-source-type` property. `unknown` */
+  /** Create a `-webkit-mask-source-type` property. `unknown-spec` */
   function webkitMaskSourceType(value: any): Property
 
-  /** Create a `-webkit-match-nearest-mail-blockquote-color` property. `unknown` */
+  /** Create a `-webkit-match-nearest-mail-blockquote-color` property. `unknown-spec` */
   function webkitMatchNearestMailBlockquoteColor(value: any): Property
 
-  /** Create a `-webkit-max-logical-height` property. `unknown` */
+  /** Create a `-webkit-max-logical-height` property. `unknown-spec` */
   function webkitMaxLogicalHeight(value: any): Property
 
-  /** Create a `-webkit-max-logical-width` property. `unknown` */
+  /** Create a `-webkit-max-logical-width` property. `unknown-spec` */
   function webkitMaxLogicalWidth(value: any): Property
 
-  /** Create a `-webkit-min-logical-height` property. `unknown` */
+  /** Create a `-webkit-min-logical-height` property. `unknown-spec` */
   function webkitMinLogicalHeight(value: any): Property
 
-  /** Create a `-webkit-min-logical-width` property. `unknown` */
+  /** Create a `-webkit-min-logical-width` property. `unknown-spec` */
   function webkitMinLogicalWidth(value: any): Property
 
-  /** Create a `-webkit-nbsp-mode` property. `unknown` */
+  /** Create a `-webkit-nbsp-mode` property. `unknown-spec` */
   function webkitNbspMode(value: any): Property
 
-  /** Create a `-webkit-opacity` property. `unknown` */
+  /** Create a `-webkit-opacity` property. `unknown-spec` */
   function webkitOpacity(value: any): Property
 
   /** Create a `-webkit-order` property. `compat` */
   function webkitOrder(value: any): Property
 
-  /** Create a `-webkit-overflow-scrolling` property. `unknown` */
+  /** Create a `-webkit-overflow-scrolling` property. `unknown-spec` */
   function webkitOverflowScrolling(value: any): Property
 
-  /** Create a `-webkit-padding-after` property. `unknown` */
+  /** Create a `-webkit-padding-after` property. `unknown-spec` */
   function webkitPaddingAfter(value: any): Property
 
-  /** Create a `-webkit-padding-before` property. `unknown` */
+  /** Create a `-webkit-padding-before` property. `unknown-spec` */
   function webkitPaddingBefore(value: any): Property
 
-  /** Create a `-webkit-padding-end` property. `unknown` */
+  /** Create a `-webkit-padding-end` property. `unknown-spec` */
   function webkitPaddingEnd(value: any): Property
 
-  /** Create a `-webkit-padding-start` property. `unknown` */
+  /** Create a `-webkit-padding-start` property. `unknown-spec` */
   function webkitPaddingStart(value: any): Property
 
   /** Create a `-webkit-perspective` property. `compat` */
@@ -1246,103 +1246,103 @@ declare global {
   /** Create a `-webkit-perspective-origin` property. `compat` */
   function webkitPerspectiveOrigin(value: any): Property
 
-  /** Create a `-webkit-perspective-origin-x` property. `unknown` */
+  /** Create a `-webkit-perspective-origin-x` property. `unknown-spec` */
   function webkitPerspectiveOriginX(value: any): Property
 
-  /** Create a `-webkit-perspective-origin-y` property. `unknown` */
+  /** Create a `-webkit-perspective-origin-y` property. `unknown-spec` */
   function webkitPerspectiveOriginY(value: any): Property
 
-  /** Create a `-webkit-print-color-adjust` property. `unknown` */
+  /** Create a `-webkit-print-color-adjust` property. `unknown-spec` */
   function webkitPrintColorAdjust(value: any): Property
 
-  /** Create a `-webkit-region-break-after` property. `unknown` */
+  /** Create a `-webkit-region-break-after` property. `unknown-spec` */
   function webkitRegionBreakAfter(value: any): Property
 
-  /** Create a `-webkit-region-break-before` property. `unknown` */
+  /** Create a `-webkit-region-break-before` property. `unknown-spec` */
   function webkitRegionBreakBefore(value: any): Property
 
-  /** Create a `-webkit-region-break-inside` property. `unknown` */
+  /** Create a `-webkit-region-break-inside` property. `unknown-spec` */
   function webkitRegionBreakInside(value: any): Property
 
-  /** Create a `-webkit-region-fragment` property. `unknown` */
+  /** Create a `-webkit-region-fragment` property. `unknown-spec` */
   function webkitRegionFragment(value: any): Property
 
-  /** Create a `-webkit-region-overflow` property. `unknown` */
+  /** Create a `-webkit-region-overflow` property. `unknown-spec` */
   function webkitRegionOverflow(value: any): Property
 
-  /** Create a `-webkit-rtl-ordering` property. `unknown` */
+  /** Create a `-webkit-rtl-ordering` property. `unknown-spec` */
   function webkitRtlOrdering(value: any): Property
 
-  /** Create a `-webkit-ruby-position` property. `unknown` */
+  /** Create a `-webkit-ruby-position` property. `unknown-spec` */
   function webkitRubyPosition(value: any): Property
 
-  /** Create a `-webkit-scroll-snap-coordinate` property. `unknown` */
+  /** Create a `-webkit-scroll-snap-coordinate` property. `unknown-spec` */
   function webkitScrollSnapCoordinate(value: any): Property
 
-  /** Create a `-webkit-scroll-snap-destination` property. `unknown` */
+  /** Create a `-webkit-scroll-snap-destination` property. `unknown-spec` */
   function webkitScrollSnapDestination(value: any): Property
 
-  /** Create a `-webkit-scroll-snap-points-x` property. `unknown` */
+  /** Create a `-webkit-scroll-snap-points-x` property. `unknown-spec` */
   function webkitScrollSnapPointsX(value: any): Property
 
-  /** Create a `-webkit-scroll-snap-points-y` property. `unknown` */
+  /** Create a `-webkit-scroll-snap-points-y` property. `unknown-spec` */
   function webkitScrollSnapPointsY(value: any): Property
 
-  /** Create a `-webkit-scroll-snap-type` property. `unknown` */
+  /** Create a `-webkit-scroll-snap-type` property. `unknown-spec` */
   function webkitScrollSnapType(value: any): Property
 
-  /** Create a `-webkit-shape-image-threshold` property. `unknown` */
+  /** Create a `-webkit-shape-image-threshold` property. `unknown-spec` */
   function webkitShapeImageThreshold(value: any): Property
 
-  /** Create a `-webkit-shape-inside` property. `unknown` */
+  /** Create a `-webkit-shape-inside` property. `unknown-spec` */
   function webkitShapeInside(value: any): Property
 
-  /** Create a `-webkit-shape-margin` property. `unknown` */
+  /** Create a `-webkit-shape-margin` property. `unknown-spec` */
   function webkitShapeMargin(value: any): Property
 
-  /** Create a `-webkit-shape-outside` property. `unknown` */
+  /** Create a `-webkit-shape-outside` property. `unknown-spec` */
   function webkitShapeOutside(value: any): Property
 
-  /** Create a `-webkit-shape-padding` property. `unknown` */
+  /** Create a `-webkit-shape-padding` property. `unknown-spec` */
   function webkitShapePadding(value: any): Property
 
-  /** Create a `-webkit-svg-shadow` property. `unknown` */
+  /** Create a `-webkit-svg-shadow` property. `unknown-spec` */
   function webkitSvgShadow(value: any): Property
 
-  /** Create a `-webkit-tap-highlight-color` property. `unknown` */
+  /** Create a `-webkit-tap-highlight-color` property. `unknown-spec` */
   function webkitTapHighlightColor(value: any): Property
 
-  /** Create a `-webkit-text-combine` property. `unknown` */
+  /** Create a `-webkit-text-combine` property. `unknown-spec` */
   function webkitTextCombine(value: any): Property
 
-  /** Create a `-webkit-text-decoration` property. `unknown` */
+  /** Create a `-webkit-text-decoration` property. `unknown-spec` */
   function webkitTextDecoration(value: any): Property
 
-  /** Create a `-webkit-text-decoration-color` property. `unknown` */
+  /** Create a `-webkit-text-decoration-color` property. `unknown-spec` */
   function webkitTextDecorationColor(value: any): Property
 
-  /** Create a `-webkit-text-decoration-line` property. `unknown` */
+  /** Create a `-webkit-text-decoration-line` property. `unknown-spec` */
   function webkitTextDecorationLine(value: any): Property
 
-  /** Create a `-webkit-text-decoration-skip` property. `unknown` */
+  /** Create a `-webkit-text-decoration-skip` property. `unknown-spec` */
   function webkitTextDecorationSkip(value: any): Property
 
-  /** Create a `-webkit-text-decoration-style` property. `unknown` */
+  /** Create a `-webkit-text-decoration-style` property. `unknown-spec` */
   function webkitTextDecorationStyle(value: any): Property
 
-  /** Create a `-webkit-text-decorations-in-effect` property. `unknown` */
+  /** Create a `-webkit-text-decorations-in-effect` property. `unknown-spec` */
   function webkitTextDecorationsInEffect(value: any): Property
 
-  /** Create a `-webkit-text-emphasis` property. `unknown` */
+  /** Create a `-webkit-text-emphasis` property. `unknown-spec` */
   function webkitTextEmphasis(value: any): Property
 
-  /** Create a `-webkit-text-emphasis-color` property. `unknown` */
+  /** Create a `-webkit-text-emphasis-color` property. `unknown-spec` */
   function webkitTextEmphasisColor(value: any): Property
 
-  /** Create a `-webkit-text-emphasis-position` property. `unknown` */
+  /** Create a `-webkit-text-emphasis-position` property. `unknown-spec` */
   function webkitTextEmphasisPosition(value: any): Property
 
-  /** Create a `-webkit-text-emphasis-style` property. `unknown` */
+  /** Create a `-webkit-text-emphasis-style` property. `unknown-spec` */
   function webkitTextEmphasisStyle(value: any): Property
 
   /** Create a `-webkit-text-fill-color` property. `compat` */
@@ -1352,10 +1352,10 @@ declare global {
     const color: string
   }
 
-  /** Create a `-webkit-text-orientation` property. `unknown` */
+  /** Create a `-webkit-text-orientation` property. `unknown-spec` */
   function webkitTextOrientation(value: any): Property
 
-  /** Create a `-webkit-text-security` property. `unknown` */
+  /** Create a `-webkit-text-security` property. `unknown-spec` */
   function webkitTextSecurity(value: any): Property
 
   /** Create a `-webkit-text-size-adjust` property. `compat` */
@@ -1392,13 +1392,13 @@ declare global {
     const thick: string
   }
 
-  /** Create a `-webkit-text-underline-position` property. `unknown` */
+  /** Create a `-webkit-text-underline-position` property. `unknown-spec` */
   function webkitTextUnderlinePosition(value: any): Property
 
-  /** Create a `-webkit-text-zoom` property. `unknown` */
+  /** Create a `-webkit-text-zoom` property. `unknown-spec` */
   function webkitTextZoom(value: any): Property
 
-  /** Create a `-webkit-touch-callout` property. `unknown` */
+  /** Create a `-webkit-touch-callout` property. `unknown-spec` */
   function webkitTouchCallout(value: any): Property
 
   /** Create a `-webkit-transform` property. `compat` */
@@ -1407,13 +1407,13 @@ declare global {
   /** Create a `-webkit-transform-origin` property. `compat` */
   function webkitTransformOrigin(value: any): Property
 
-  /** Create a `-webkit-transform-origin-x` property. `unknown` */
+  /** Create a `-webkit-transform-origin-x` property. `unknown-spec` */
   function webkitTransformOriginX(value: any): Property
 
-  /** Create a `-webkit-transform-origin-y` property. `unknown` */
+  /** Create a `-webkit-transform-origin-y` property. `unknown-spec` */
   function webkitTransformOriginY(value: any): Property
 
-  /** Create a `-webkit-transform-origin-z` property. `unknown` */
+  /** Create a `-webkit-transform-origin-z` property. `unknown-spec` */
   function webkitTransformOriginZ(value: any): Property
 
   /** Create a `-webkit-transform-style` property. `compat` */
@@ -1434,43 +1434,43 @@ declare global {
   /** Create a `-webkit-transition-timing-function` property. `compat` */
   function webkitTransitionTimingFunction(value: any): Property
 
-  /** Create a `-webkit-user-drag` property. `unknown` */
+  /** Create a `-webkit-user-drag` property. `unknown-spec` */
   function webkitUserDrag(value: any): Property
 
-  /** Create a `-webkit-user-modify` property. `unknown` */
+  /** Create a `-webkit-user-modify` property. `unknown-spec` */
   function webkitUserModify(value: any): Property
 
   /** Create a `-webkit-user-select` property. `css-ui` */
   function webkitUserSelect(value: any): Property
 
-  /** Create a `-webkit-widget-region` property. `unknown` */
+  /** Create a `-webkit-widget-region` property. `unknown-spec` */
   function webkitWidgetRegion(value: any): Property
 
-  /** Create a `-webkit-wrap` property. `unknown` */
+  /** Create a `-webkit-wrap` property. `unknown-spec` */
   function webkitWrap(value: any): Property
 
-  /** Create a `-webkit-wrap-flow` property. `unknown` */
+  /** Create a `-webkit-wrap-flow` property. `unknown-spec` */
   function webkitWrapFlow(value: any): Property
 
-  /** Create a `-webkit-wrap-margin` property. `unknown` */
+  /** Create a `-webkit-wrap-margin` property. `unknown-spec` */
   function webkitWrapMargin(value: any): Property
 
-  /** Create a `-webkit-wrap-padding` property. `unknown` */
+  /** Create a `-webkit-wrap-padding` property. `unknown-spec` */
   function webkitWrapPadding(value: any): Property
 
-  /** Create a `-webkit-wrap-shape-inside` property. `unknown` */
+  /** Create a `-webkit-wrap-shape-inside` property. `unknown-spec` */
   function webkitWrapShapeInside(value: any): Property
 
-  /** Create a `-webkit-wrap-shape-outside` property. `unknown` */
+  /** Create a `-webkit-wrap-shape-outside` property. `unknown-spec` */
   function webkitWrapShapeOutside(value: any): Property
 
-  /** Create a `-webkit-wrap-through` property. `unknown` */
+  /** Create a `-webkit-wrap-through` property. `unknown-spec` */
   function webkitWrapThrough(value: any): Property
 
-  /** Create a `-webkit-writing-mode` property. `unknown` */
+  /** Create a `-webkit-writing-mode` property. `unknown-spec` */
   function webkitWritingMode(value: any): Property
 
-  /** Create a `accelerator` property. `unknown` */
+  /** Create a `accelerator` property. `unknown-spec` */
   function accelerator(value: any): Property
 
   /** Create a `accent-color` property. `css-ui` */
@@ -1482,7 +1482,7 @@ declare global {
     const color: string
   }
 
-  /** Create a `additive-symbols` property. `unknown` */
+  /** Create a `additive-symbols` property. `unknown-spec` */
   function additiveSymbols(value: any): Property
 
   /** Create a `align-content` property. `css-align` */
@@ -1659,7 +1659,7 @@ declare global {
     const revertLayer: string
   }
 
-  /** Create a `alt` property. `unknown` */
+  /** Create a `alt` property. `unknown-spec` */
   function alt(value: any): Property
 
   /** Create a `anchor-default` property. `css-anchor-position` */
@@ -1690,10 +1690,10 @@ declare global {
   /** Create a `animation-delay` property. `css-animations` */
   function animationDelay(value: any): Property
 
-  /** Create a `animation-delay-end` property. `unknown` */
+  /** Create a `animation-delay-end` property. `unknown-spec` */
   function animationDelayEnd(value: any): Property
 
-  /** Create a `animation-delay-start` property. `unknown` */
+  /** Create a `animation-delay-start` property. `unknown-spec` */
   function animationDelayStart(value: any): Property
 
   /** Create a `animation-direction` property. `css-animations` */
@@ -1751,7 +1751,7 @@ declare global {
     const linear: string
   }
 
-  /** Create a `app-region` property. `unknown` */
+  /** Create a `app-region` property. `unknown-spec` */
   function appRegion(value: any): Property
 
   /** Create a `appearance` property. `css-ui` */
@@ -1763,7 +1763,7 @@ declare global {
     const auto: string
   }
 
-  /** Create a `ascent-override` property. `unknown` */
+  /** Create a `ascent-override` property. `unknown-spec` */
   function ascentOverride(value: any): Property
 
   /** Create a `aspect-ratio` property. `css-sizing-4` */
@@ -1773,10 +1773,10 @@ declare global {
     const auto: string
   }
 
-  /** Create a `audio-level` property. `unknown` */
+  /** Create a `audio-level` property. `unknown-spec` */
   function audioLevel(value: any): Property
 
-  /** Create a `azimuth` property. `unknown` */
+  /** Create a `azimuth` property. `unknown-spec` */
   function azimuth(value: any): Property
 
   /** Create a `backdrop-filter` property. `filter-effects-2` */
@@ -1884,16 +1884,16 @@ declare global {
   /** Create a `background-repeat` property. `css-backgrounds` */
   function backgroundRepeat(value: any): Property
 
-  /** Create a `background-repeat-x` property. `unknown` */
+  /** Create a `background-repeat-x` property. `unknown-spec` */
   function backgroundRepeatX(value: any): Property
 
-  /** Create a `background-repeat-y` property. `unknown` */
+  /** Create a `background-repeat-y` property. `unknown-spec` */
   function backgroundRepeatY(value: any): Property
 
   /** Create a `background-size` property. `css-backgrounds` */
   function backgroundSize(value: any): Property
 
-  /** Create a `base-palette` property. `unknown` */
+  /** Create a `base-palette` property. `unknown-spec` */
   function basePalette(value: any): Property
 
   /** Create a `baseline-shift` property. `css-inline` */
@@ -1922,7 +1922,7 @@ declare global {
     const last: string
   }
 
-  /** Create a `behavior` property. `unknown` */
+  /** Create a `behavior` property. `unknown-spec` */
   function behavior(value: any): Property
 
   /** Create a `block-ellipsis` property. `css-overflow-4` */
@@ -2118,9 +2118,9 @@ declare global {
   /** Create a `border-bottom-color` property. `css-backgrounds, css-backgrounds-4` */
   function borderBottomColor(value: any): Property
   module borderBottomColor {
-    /** `color` keyword. `css-backgrounds` */
-    const color: string
-    /** `color` keyword. `css-backgrounds-4` */
+    /** `css-backgrounds`: `color` keyword.
+
+    `css-backgrounds-4`: `color` keyword. */
     const color: string
   }
 
@@ -2237,9 +2237,9 @@ declare global {
   /** Create a `border-color` property. `css-backgrounds, css-backgrounds-4` */
   function borderColor(value: any): Property
   module borderColor {
-    /** `color` keyword. `css-backgrounds` */
-    const color: string
-    /** `color` keyword. `css-backgrounds-4` */
+    /** `css-backgrounds`: `color` keyword.
+
+    `css-backgrounds-4`: `color` keyword. */
     const color: string
   }
 
@@ -2375,9 +2375,9 @@ declare global {
   /** Create a `border-left-color` property. `css-backgrounds, css-backgrounds-4` */
   function borderLeftColor(value: any): Property
   module borderLeftColor {
-    /** `color` keyword. `css-backgrounds` */
-    const color: string
-    /** `color` keyword. `css-backgrounds-4` */
+    /** `css-backgrounds`: `color` keyword.
+
+    `css-backgrounds-4`: `color` keyword. */
     const color: string
   }
 
@@ -2478,9 +2478,9 @@ declare global {
   /** Create a `border-right-color` property. `css-backgrounds, css-backgrounds-4` */
   function borderRightColor(value: any): Property
   module borderRightColor {
-    /** `color` keyword. `css-backgrounds` */
-    const color: string
-    /** `color` keyword. `css-backgrounds-4` */
+    /** `css-backgrounds`: `color` keyword.
+
+    `css-backgrounds-4`: `color` keyword. */
     const color: string
   }
 
@@ -2593,9 +2593,9 @@ declare global {
   /** Create a `border-top-color` property. `css-backgrounds, css-backgrounds-4` */
   function borderTopColor(value: any): Property
   module borderTopColor {
-    /** `color` keyword. `css-backgrounds` */
-    const color: string
-    /** `color` keyword. `css-backgrounds-4` */
+    /** `css-backgrounds`: `color` keyword.
+
+    `css-backgrounds-4`: `color` keyword. */
     const color: string
   }
 
@@ -2785,7 +2785,7 @@ declare global {
     const avoidRegion: string
   }
 
-  /** Create a `buffered-rendering` property. `unknown` */
+  /** Create a `buffered-rendering` property. `unknown-spec` */
   function bufferedRendering(value: any): Property
 
   /** Create a `caption-side` property. `css-tables` */
@@ -2822,7 +2822,7 @@ declare global {
     const underscore: string
   }
 
-  /** Create a `chains` property. `unknown` */
+  /** Create a `chains` property. `unknown-spec` */
   function chains(value: any): Property
 
   /** Create a `clear` property. `css-page-floats` */
@@ -2903,10 +2903,10 @@ declare global {
     const linearRGB: string
   }
 
-  /** Create a `color-profile` property. `unknown` */
+  /** Create a `color-profile` property. `unknown-spec` */
   function colorProfile(value: any): Property
 
-  /** Create a `color-rendering` property. `unknown` */
+  /** Create a `color-rendering` property. `unknown-spec` */
   function colorRendering(value: any): Property
 
   /** Create a `color-scheme` property. `css-color-adjust` */
@@ -2947,7 +2947,7 @@ declare global {
     const normal: string
   }
 
-  /** Create a `column-progression` property. `unknown` */
+  /** Create a `column-progression` property. `unknown-spec` */
   function columnProgression(value: any): Property
 
   /** Create a `column-rule` property. `css-multicol` */
@@ -2999,16 +2999,16 @@ declare global {
   /** Create a `column-span` property. `css-multicol-2, css-multicol` */
   function columnSpan(value: any): Property
   module columnSpan {
-    /** Add final content from previous level. `css-multicol-2` */
+    /** `css-multicol-2`: Add final content from previous level
+
+    `css-multicol`: The element does not span multiple columns. */
     const none: string
-    /** Add final content from previous level. `css-multicol-2` */
+    /** `css-multicol-2`: Add final content from previous level
+
+    `css-multicol`: The element forces a column break and is taken out of flow to span across all columns of the nearest multicol ancestor in the same block formatting context. Content in the normal flow that appears before the element is automatically balanced across all columns in the immediately preceding multi-column line before the element appears, and any subsequent content flows into a new multi-column line after the element. The element establishes an independent formatting context. */
     const all: string
     /** The number of columns spanned by the element depends on its min-content outer size in the inline direction of the multi-column container. If it is smaller than the used value of column-width, this is the same as if column-span: none had been specified. Otherwise, the number of columns spanned is the smallest positive integer n for which n × column-width + (n - 1) × column-gap is larger than the min-content outer size. If this would be larger than the number of columns, the number of columns spanned will be the same as if column-span: all had been specified. If column-span: 1 does not do the same as column-span: none, should this behave as column-span: 1 or as column-span: none when the element is small enough?. `css-multicol-2` */
     const auto: string
-    /** The element does not span multiple columns.. `css-multicol` */
-    const none: string
-    /** The element forces a column break and is taken out of flow to span across all columns of the nearest multicol ancestor in the same block formatting context. Content in the normal flow that appears before the element is automatically balanced across all columns in the immediately preceding multi-column line before the element appears, and any subsequent content flows into a new multi-column line after the element. The element establishes an independent formatting context.. `css-multicol` */
-    const all: string
   }
 
   /** Create a `column-width` property. `css-sizing, css-multicol` */
@@ -3288,7 +3288,7 @@ declare global {
     const none: string
   }
 
-  /** Create a `descent-override` property. `unknown` */
+  /** Create a `descent-override` property. `unknown-spec` */
   function descentOverride(value: any): Property
 
   /** Create a `direction` property. `css-writing-modes` */
@@ -3359,7 +3359,7 @@ declare global {
     const inlineGrid: string
   }
 
-  /** Create a `display-align` property. `unknown` */
+  /** Create a `display-align` property. `unknown-spec` */
   function displayAlign(value: any): Property
 
   /** Create a `dominant-baseline` property. `css-inline` */
@@ -3385,7 +3385,7 @@ declare global {
     const textTop: string
   }
 
-  /** Create a `elevation` property. `unknown` */
+  /** Create a `elevation` property. `unknown-spec` */
   function elevation(value: any): Property
 
   /** Create a `empty-cells` property. `css-tables` */
@@ -3397,40 +3397,40 @@ declare global {
     const hide: string
   }
 
-  /** Create a `enable-background` property. `unknown` */
+  /** Create a `enable-background` property. `unknown-spec` */
   function enableBackground(value: any): Property
 
-  /** Create a `epub-caption-side` property. `unknown` */
+  /** Create a `epub-caption-side` property. `unknown-spec` */
   function epubCaptionSide(value: any): Property
 
-  /** Create a `epub-hyphens` property. `unknown` */
+  /** Create a `epub-hyphens` property. `unknown-spec` */
   function epubHyphens(value: any): Property
 
-  /** Create a `epub-text-combine` property. `unknown` */
+  /** Create a `epub-text-combine` property. `unknown-spec` */
   function epubTextCombine(value: any): Property
 
-  /** Create a `epub-text-emphasis` property. `unknown` */
+  /** Create a `epub-text-emphasis` property. `unknown-spec` */
   function epubTextEmphasis(value: any): Property
 
-  /** Create a `epub-text-emphasis-color` property. `unknown` */
+  /** Create a `epub-text-emphasis-color` property. `unknown-spec` */
   function epubTextEmphasisColor(value: any): Property
 
-  /** Create a `epub-text-emphasis-style` property. `unknown` */
+  /** Create a `epub-text-emphasis-style` property. `unknown-spec` */
   function epubTextEmphasisStyle(value: any): Property
 
-  /** Create a `epub-text-orientation` property. `unknown` */
+  /** Create a `epub-text-orientation` property. `unknown-spec` */
   function epubTextOrientation(value: any): Property
 
-  /** Create a `epub-text-transform` property. `unknown` */
+  /** Create a `epub-text-transform` property. `unknown-spec` */
   function epubTextTransform(value: any): Property
 
-  /** Create a `epub-word-break` property. `unknown` */
+  /** Create a `epub-word-break` property. `unknown-spec` */
   function epubWordBreak(value: any): Property
 
-  /** Create a `epub-writing-mode` property. `unknown` */
+  /** Create a `epub-writing-mode` property. `unknown-spec` */
   function epubWritingMode(value: any): Property
 
-  /** Create a `fallback` property. `unknown` */
+  /** Create a `fallback` property. `unknown-spec` */
   function fallback(value: any): Property
 
   /** Create a `fill` property. `svg` */
@@ -3619,7 +3619,7 @@ declare global {
   /** Create a `flood-opacity` property. `filter-effects` */
   function floodOpacity(value: any): Property
 
-  /** Create a `flow` property. `unknown` */
+  /** Create a `flow` property. `unknown-spec` */
   function flow(value: any): Property
 
   /** Create a `flow-from` property. `css-regions` */
@@ -3657,7 +3657,7 @@ declare global {
     const statusBar: string
   }
 
-  /** Create a `font-display` property. `unknown` */
+  /** Create a `font-display` property. `unknown-spec` */
   function fontDisplay(value: any): Property
 
   /** Create a `font-family` property. `css-fonts` */
@@ -3746,7 +3746,9 @@ declare global {
   /** Create a `font-size-adjust` property. `css-fonts-5, css-fonts` */
   function fontSizeAdjust(value: any): Property
   module fontSizeAdjust {
-    /** No special font-size adjustment is applied.. `css-fonts-5` */
+    /** `css-fonts-5`: No special font-size adjustment is applied.
+
+    `css-fonts`: Do not preserve the font’s x-height. */
     const none: string
     /** Normalize the aspect value of the fonts, using the x-height divided by the font size.. `css-fonts-5` */
     const exHeight: string
@@ -3760,8 +3762,6 @@ declare global {
     const icHeight: string
     /** Computes to the <number> corresponding to the specified metric of the first available font. w3c/csswg-drafts/6384[css-fonts-5] font-size-adjust with missing metrics. `css-fonts-5` */
     const fromFont: string
-    /** Do not preserve the font’s x-height.. `css-fonts` */
-    const none: string
   }
 
   /** Create a `font-stretch` property. `css-fonts` */
@@ -4010,7 +4010,7 @@ declare global {
   /** Create a `gap` property. `css-align` */
   function gap(value: any): Property
 
-  /** Create a `glyph-orientation-horizontal` property. `unknown` */
+  /** Create a `glyph-orientation-horizontal` property. `unknown-spec` */
   function glyphOrientationHorizontal(value: any): Property
 
   /** Create a `glyph-orientation-vertical` property. `css-writing-modes` */
@@ -4023,13 +4023,13 @@ declare global {
   /** Create a `grid` property. `css-grid` */
   function grid(value: any): Property
   module grid {
-    /** `auto-flow` keyword. `css-grid` */
+    /** `css-grid`: `auto-flow` keyword.
+
+    `css-grid`: `auto-flow` keyword. */
     const autoFlow: string
-    /** `dense` keyword. `css-grid` */
-    const dense: string
-    /** `auto-flow` keyword. `css-grid` */
-    const autoFlow: string
-    /** `dense` keyword. `css-grid` */
+    /** `css-grid`: `dense` keyword.
+
+    `css-grid`: `dense` keyword. */
     const dense: string
   }
 
@@ -4115,25 +4115,25 @@ declare global {
   /** Create a `hanging-punctuation` property. `css-text-4, css-text` */
   function hangingPunctuation(value: any): Property
   module hangingPunctuation {
-    /** No punctuation character is made to hang.. `css-text-4` */
+    /** `css-text-4`: No punctuation character is made to hang.
+
+    `css-text`: `none` keyword. */
     const none: string
-    /** An opening bracket, quote, or ideographic space at the start of the first formatted line of an element hangs. This applies to all characters in the Unicode categories Ps, Pf, Pi plus the ASCII quote marks U+0027 ' APOSTROPHE and U+0022 " QUOTATION MARK and the IDEOGRAPHIC SPACE U+3000.. `css-text-4` */
+    /** `css-text-4`: An opening bracket, quote, or ideographic space at the start of the first formatted line of an element hangs. This applies to all characters in the Unicode categories Ps, Pf, Pi plus the ASCII quote marks U+0027 ' APOSTROPHE and U+0022 " QUOTATION MARK and the IDEOGRAPHIC SPACE U+3000.
+
+    `css-text`: An opening bracket or quote at the start of the first formatted line of an element hangs. This applies to all characters in the Unicode categories Ps, Pf, Pi plus the ASCII quote marks U+0027 ' APOSTROPHE and U+0022 " QUOTATION MARK. */
     const first: string
-    /** A stop or comma at the end of a line hangs.. `css-text-4` */
+    /** `css-text-4`: A stop or comma at the end of a line hangs.
+
+    `css-text`: `force-end` keyword. */
     const forceEnd: string
-    /** A stop or comma at the end of a line conditionally hangs.. `css-text-4` */
+    /** `css-text-4`: A stop or comma at the end of a line conditionally hangs.
+
+    `css-text`: `allow-end` keyword. */
     const allowEnd: string
-    /** A closing bracket or quote at the end of the last formatted line of an element hangs. This applies to all characters in the Unicode categories Pe, Pf, Pi plus the ASCII quote marks U+0027 ' APOSTROPHE and U+0022 " QUOTATION MARK.. `css-text-4` */
-    const last: string
-    /** No punctuation character is made to hang.. `css-text` */
-    const none: string
-    /** An opening bracket or quote at the start of the first formatted line of an element hangs. This applies to all characters in the Unicode categories Ps, Pf, Pi plus the ASCII quote marks U+0027 ' APOSTROPHE and U+0022 " QUOTATION MARK.. `css-text` */
-    const first: string
-    /** A stop or comma at the end of a line hangs.. `css-text` */
-    const forceEnd: string
-    /** A stop or comma at the end of a line conditionally hangs.. `css-text` */
-    const allowEnd: string
-    /** A closing bracket or quote at the end of the last formatted line of an element hangs. This applies to all characters in the Unicode categories Pe, Pf, Pi plus the ASCII quote marks U+0027 ' APOSTROPHE and U+0022 " QUOTATION MARK.. `css-text` */
+    /** `css-text-4`: A closing bracket or quote at the end of the last formatted line of an element hangs. This applies to all characters in the Unicode categories Pe, Pf, Pi plus the ASCII quote marks U+0027 ' APOSTROPHE and U+0022 " QUOTATION MARK.
+
+    `css-text`: `last` keyword. */
     const last: string
   }
 
@@ -4190,17 +4190,17 @@ declare global {
   /** Create a `hyphens` property. `css-text-4, css-text` */
   function hyphens(value: any): Property
   module hyphens {
-    /** Words are not hyphenated, even if characters inside the word explicitly define hyphenation opportunities.. `css-text-4` */
+    /** `css-text-4`: Words are not hyphenated, even if characters inside the word explicitly define hyphenation opportunities.
+
+    `css-text`: `none` keyword. */
     const none: string
-    /** Words are only hyphenated where there are characters inside the word that explicitly suggest hyphenation opportunities. The UA must use the appropriate language-specific hyphenation character(s) and should apply any appropriate spelling changes just as for automatic hyphenation at the same point. In Unicode, U+00AD is a conditional "soft hyphen" and U+2010 is an unconditional hyphen. Unicode Standard Annex #14 describes the role of soft hyphens in Unicode line breaking. [UAX14] In HTML, &shy; represents the soft hyphen character, which suggests a hyphenation opportunity. ex&shy;ample. `css-text-4` */
+    /** `css-text-4`: Words are only hyphenated where there are characters inside the word that explicitly suggest hyphenation opportunities. The UA must use the appropriate language-specific hyphenation character(s) and should apply any appropriate spelling changes just as for automatic hyphenation at the same point. In Unicode, U+00AD is a conditional "soft hyphen" and U+2010 is an unconditional hyphen. Unicode Standard Annex #14 describes the role of soft hyphens in Unicode line breaking. [UAX14] In HTML, &shy; represents the soft hyphen character, which suggests a hyphenation opportunity. ex&shy;ample
+
+    `css-text`: `manual` keyword. */
     const manual: string
-    /** Words may be broken at hyphenation opportunities determined automatically by a language-appropriate hyphenation resource in addition to those indicated explicitly by a conditional hyphen. Automatic hyphenation opportunities elsewhere within a word must be ignored if the word contains a conditional hyphen (&shy; or U+00AD SOFT HYPHEN), in favor of the conditional hyphen(s). However, if, even after breaking at such opportunities, a portion of that word is still too long to fit on one line, an automatic hyphenation opportunity may be used.. `css-text-4` */
-    const auto: string
-    /** Words are not hyphenated, even if characters inside the word explicitly define hyphenation opportunities.. `css-text` */
-    const none: string
-    /** Words are only hyphenated where there are characters inside the word that explicitly suggest hyphenation opportunities. The UA must use the appropriate language-specific hyphenation character(s) and should apply any appropriate spelling changes just as for automatic hyphenation at the same point. In Unicode, U+00AD is a conditional "soft hyphen" and U+2010 is an unconditional hyphen. Unicode Standard Annex #14 describes the role of soft hyphens in Unicode line breaking. [UAX14] In HTML, &shy; represents the soft hyphen character, which suggests a hyphenation opportunity. ex&shy;ample. `css-text` */
-    const manual: string
-    /** Words may be broken at hyphenation opportunities determined automatically by a language-appropriate hyphenation resource in addition to those indicated explicitly by a conditional hyphen. Automatic hyphenation opportunities elsewhere within a word must be ignored if the word contains a conditional hyphen (&shy; or U+00AD SOFT HYPHEN), in favor of the conditional hyphen(s). However, if, even after breaking at such opportunities, a portion of that word is still too long to fit on one line, an automatic hyphenation opportunity may be used.. `css-text` */
+    /** `css-text-4`: Words may be broken at hyphenation opportunities determined automatically by a language-appropriate hyphenation resource in addition to those indicated explicitly by a conditional hyphen. Automatic hyphenation opportunities elsewhere within a word must be ignored if the word contains a conditional hyphen (&shy; or U+00AD SOFT HYPHEN), in favor of the conditional hyphen(s). However, if, even after breaking at such opportunities, a portion of that word is still too long to fit on one line, an automatic hyphenation opportunity may be used.
+
+    `css-text`: `auto` keyword. */
     const auto: string
   }
 
@@ -4239,10 +4239,10 @@ declare global {
     const snap: string
   }
 
-  /** Create a `ime-mode` property. `unknown` */
+  /** Create a `ime-mode` property. `unknown-spec` */
   function imeMode(value: any): Property
 
-  /** Create a `inherits` property. `unknown` */
+  /** Create a `inherits` property. `unknown-spec` */
   function inherits(value: any): Property
 
   /** Create a `initial-letter` property. `css-inline` */
@@ -4284,7 +4284,7 @@ declare global {
     const grid: string
   }
 
-  /** Create a `initial-value` property. `unknown` */
+  /** Create a `initial-value` property. `unknown-spec` */
   function initialValue(value: any): Property
 
   /** Create a `inline-size` property. `css-logical, css-sizing-4` */
@@ -4299,7 +4299,7 @@ declare global {
     const stretch: string
   }
 
-  /** Create a `input-format` property. `unknown` */
+  /** Create a `input-format` property. `unknown-spec` */
   function inputFormat(value: any): Property
 
   /** Create a `input-security` property. `css-ui` */
@@ -4413,7 +4413,9 @@ declare global {
     const safe: string
     /** Regardless of the relative sizes of the alignment subject and alignment container, the given alignment value is honored.. `css-align` */
     const unsafe: string
-    /** Centers the alignment subject within its alignment container.. `css-align` */
+    /** `css-align`: Centers the alignment subject within its alignment container.
+
+    `css-align`: `center` keyword. */
     const center: string
     /** Aligns the alignment subject to be flush with the alignment container’s start edge in the appropriate axis.. `css-align` */
     const start: string
@@ -4427,20 +4429,18 @@ declare global {
     const flexStart: string
     /** Only used in flex layout. Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the flex container’s main-end or cross-end side, as appropriate. When used outside of a flex formatting context, this value behaves as end. That is, on boxes that are not flex items (or pretending to be flex items, such as when determining the static position of an absolutely-positioned box that is a child of a flex container), this value behaves as end when used in the self-alignment properties, and on boxes that are not flex containers, this value behaves as end when used in the content-distribution properties.. `css-align` */
     const flexEnd: string
-    /** Aligns the alignment subject to be flush with the alignment container’s line-left or physical left edge, whichever is in the appropriate axis. If the property’s axis is not parallel with either left↔right axis, this value behaves as start. Currently, the only case where the property’s axis is not parallel with either left↔right axis is in a column flexbox.. `css-align` */
+    /** `css-align`: Aligns the alignment subject to be flush with the alignment container’s line-left or physical left edge, whichever is in the appropriate axis. If the property’s axis is not parallel with either left↔right axis, this value behaves as start. Currently, the only case where the property’s axis is not parallel with either left↔right axis is in a column flexbox.
+
+    `css-align`: `left` keyword. */
     const left: string
-    /** Aligns the alignment subject to be flush with the alignment container’s line-right or physical right edge, whichever is in the appropriate axis. If the property’s axis is not parallel with either left↔right axis, this value behaves as start. Currently, the only case where the property’s axis is not parallel with either left↔right axis is in a column flexbox.. `css-align` */
+    /** `css-align`: Aligns the alignment subject to be flush with the alignment container’s line-right or physical right edge, whichever is in the appropriate axis. If the property’s axis is not parallel with either left↔right axis, this value behaves as start. Currently, the only case where the property’s axis is not parallel with either left↔right axis is in a column flexbox.
+
+    `css-align`: `right` keyword. */
     const right: string
-    /** This keyword causes the value to effectively inherit into descendants. If the legacy keyword appears on its own (without an accompanying left, right, or center keyword): if the inherited value of justify-items includes the legacy keyword, this value computes to the inherited value; otherwise it computes to normal. When justify-self:auto references the value of justify-items, only the alignment keyword, not the legacy keyword, is referenced by it. It exists to implement the legacy alignment behavior of HTML’s <center> element and align attribute.. `css-align` */
+    /** `css-align`: This keyword causes the value to effectively inherit into descendants. If the legacy keyword appears on its own (without an accompanying left, right, or center keyword): if the inherited value of justify-items includes the legacy keyword, this value computes to the inherited value; otherwise it computes to normal. When justify-self:auto references the value of justify-items, only the alignment keyword, not the legacy keyword, is referenced by it. It exists to implement the legacy alignment behavior of HTML’s <center> element and align attribute.
+
+    `css-align`: `legacy` keyword. */
     const legacy: string
-    /** This keyword causes the value to effectively inherit into descendants. If the legacy keyword appears on its own (without an accompanying left, right, or center keyword): if the inherited value of justify-items includes the legacy keyword, this value computes to the inherited value; otherwise it computes to normal. When justify-self:auto references the value of justify-items, only the alignment keyword, not the legacy keyword, is referenced by it. It exists to implement the legacy alignment behavior of HTML’s <center> element and align attribute.. `css-align` */
-    const legacy: string
-    /** Aligns the alignment subject to be flush with the alignment container’s line-left or physical left edge, whichever is in the appropriate axis. If the property’s axis is not parallel with either left↔right axis, this value behaves as start. Currently, the only case where the property’s axis is not parallel with either left↔right axis is in a column flexbox.. `css-align` */
-    const left: string
-    /** Aligns the alignment subject to be flush with the alignment container’s line-right or physical right edge, whichever is in the appropriate axis. If the property’s axis is not parallel with either left↔right axis, this value behaves as start. Currently, the only case where the property’s axis is not parallel with either left↔right axis is in a column flexbox.. `css-align` */
-    const right: string
-    /** `center` keyword. `css-align` */
-    const center: string
   }
 
   /** Create a `justify-self` property. `css-align` */
@@ -4515,25 +4515,25 @@ declare global {
     const right: string
   }
 
-  /** Create a `kerning` property. `unknown` */
+  /** Create a `kerning` property. `unknown-spec` */
   function kerning(value: any): Property
 
-  /** Create a `layout-flow` property. `unknown` */
+  /** Create a `layout-flow` property. `unknown-spec` */
   function layoutFlow(value: any): Property
 
-  /** Create a `layout-grid` property. `unknown` */
+  /** Create a `layout-grid` property. `unknown-spec` */
   function layoutGrid(value: any): Property
 
-  /** Create a `layout-grid-char` property. `unknown` */
+  /** Create a `layout-grid-char` property. `unknown-spec` */
   function layoutGridChar(value: any): Property
 
-  /** Create a `layout-grid-line` property. `unknown` */
+  /** Create a `layout-grid-line` property. `unknown-spec` */
   function layoutGridLine(value: any): Property
 
-  /** Create a `layout-grid-mode` property. `unknown` */
+  /** Create a `layout-grid-mode` property. `unknown-spec` */
   function layoutGridMode(value: any): Property
 
-  /** Create a `layout-grid-type` property. `unknown` */
+  /** Create a `layout-grid-type` property. `unknown-spec` */
   function layoutGridType(value: any): Property
 
   /** Create a `layout-order` property. `css-display` */
@@ -4562,9 +4562,9 @@ declare global {
   /** Create a `letter-spacing` property. `css-text-4, css-text` */
   function letterSpacing(value: any): Property
   module letterSpacing {
-    /** No additional spacing is applied. Computes to zero.. `css-text-4` */
-    const normal: string
-    /** No additional spacing is applied. Computes to zero.. `css-text` */
+    /** `css-text-4`: No additional spacing is applied. Computes to zero.
+
+    `css-text`: `normal` keyword. */
     const normal: string
   }
 
@@ -4578,25 +4578,25 @@ declare global {
   /** Create a `line-break` property. `css-text-4, css-text` */
   function lineBreak(value: any): Property
   module lineBreak {
-    /** The UA determines the set of line-breaking restrictions to use, and it may vary the restrictions based on the length of the line; e.g., use a less restrictive set of line-break rules for short lines.. `css-text-4` */
+    /** `css-text-4`: The UA determines the set of line-breaking restrictions to use, and it may vary the restrictions based on the length of the line; e.g., use a less restrictive set of line-break rules for short lines.
+
+    `css-text`: `auto` keyword. */
     const auto: string
-    /** Breaks text using the least restrictive set of line-breaking rules. Typically used for short lines, such as in newspapers.. `css-text-4` */
+    /** `css-text-4`: Breaks text using the least restrictive set of line-breaking rules. Typically used for short lines, such as in newspapers.
+
+    `css-text`: `loose` keyword. */
     const loose: string
-    /** Breaks text using the most common set of line-breaking rules.. `css-text-4` */
+    /** `css-text-4`: Breaks text using the most common set of line-breaking rules.
+
+    `css-text`: `normal` keyword. */
     const normal: string
-    /** Breaks text using the most stringent set of line-breaking rules.. `css-text-4` */
+    /** `css-text-4`: Breaks text using the most stringent set of line-breaking rules.
+
+    `css-text`: `strict` keyword. */
     const strict: string
-    /** There is a soft wrap opportunity around every typographic character unit, including around any punctuation character or preserved white spaces, or in the middle of words, disregarding any prohibition against line breaks, even those introduced by characters with the GL, WJ, or ZWJ line breaking classes or mandated by the word-break property. [UAX14] The different wrapping opportunities must not be prioritized. Hyphenation is not applied.. `css-text-4` */
-    const anywhere: string
-    /** The UA determines the set of line-breaking restrictions to use, and it may vary the restrictions based on the length of the line; e.g., use a less restrictive set of line-break rules for short lines.. `css-text` */
-    const auto: string
-    /** Breaks text using the least restrictive set of line-breaking rules. Typically used for short lines, such as in newspapers.. `css-text` */
-    const loose: string
-    /** Breaks text using the most common set of line-breaking rules.. `css-text` */
-    const normal: string
-    /** Breaks text using the most stringent set of line-breaking rules.. `css-text` */
-    const strict: string
-    /** There is a soft wrap opportunity around every typographic character unit, including around any punctuation character or preserved white spaces, or in the middle of words, disregarding any prohibition against line breaks, even those introduced by characters with the GL, WJ, or ZWJ line breaking classes or mandated by the word-break property. [UAX14] The different wrapping opportunities must not be prioritized. Hyphenation is not applied.. `css-text` */
+    /** `css-text-4`: There is a soft wrap opportunity around every typographic character unit, including around any punctuation character or preserved white spaces, or in the middle of words, disregarding any prohibition against line breaks, even those introduced by characters with the GL, WJ, or ZWJ line breaking classes or mandated by the word-break property. [UAX14] The different wrapping opportunities must not be prioritized. Hyphenation is not applied.
+
+    `css-text`: `anywhere` keyword. */
     const anywhere: string
   }
 
@@ -4607,7 +4607,7 @@ declare global {
     const none: string
   }
 
-  /** Create a `line-gap-override` property. `unknown` */
+  /** Create a `line-gap-override` property. `unknown-spec` */
   function lineGapOverride(value: any): Property
 
   /** Create a `line-grid` property. `css-line-grid` */
@@ -4629,7 +4629,7 @@ declare global {
   /** Create a `line-height-step` property. `css-rhythm` */
   function lineHeightStep(value: any): Property
 
-  /** Create a `line-increment` property. `unknown` */
+  /** Create a `line-increment` property. `unknown-spec` */
   function lineIncrement(value: any): Property
 
   /** Create a `line-padding` property. `css-text-4` */
@@ -4786,10 +4786,10 @@ declare global {
     const none: string
   }
 
-  /** Create a `marker-knockout-left` property. `unknown` */
+  /** Create a `marker-knockout-left` property. `unknown-spec` */
   function markerKnockoutLeft(value: any): Property
 
-  /** Create a `marker-knockout-right` property. `unknown` */
+  /** Create a `marker-knockout-right` property. `unknown-spec` */
   function markerKnockoutRight(value: any): Property
 
   /** Create a `marker-mid` property. `svg` */
@@ -4799,13 +4799,13 @@ declare global {
     const none: string
   }
 
-  /** Create a `marker-offset` property. `unknown` */
+  /** Create a `marker-offset` property. `unknown-spec` */
   function markerOffset(value: any): Property
 
-  /** Create a `marker-pattern` property. `unknown` */
+  /** Create a `marker-pattern` property. `unknown-spec` */
   function markerPattern(value: any): Property
 
-  /** Create a `marker-segment` property. `unknown` */
+  /** Create a `marker-segment` property. `unknown-spec` */
   function markerSegment(value: any): Property
 
   /** Create a `marker-side` property. `css-lists` */
@@ -4824,7 +4824,7 @@ declare global {
     const none: string
   }
 
-  /** Create a `marks` property. `unknown` */
+  /** Create a `marks` property. `unknown-spec` */
   function marks(value: any): Property
 
   /** Create a `mask` property. `css-masking` */
@@ -4901,10 +4901,10 @@ declare global {
   /** Create a `mask-position` property. `css-masking` */
   function maskPosition(value: any): Property
 
-  /** Create a `mask-position-x` property. `unknown` */
+  /** Create a `mask-position-x` property. `unknown-spec` */
   function maskPositionX(value: any): Property
 
-  /** Create a `mask-position-y` property. `unknown` */
+  /** Create a `mask-position-y` property. `unknown-spec` */
   function maskPositionY(value: any): Property
 
   /** Create a `mask-repeat` property. `css-masking` */
@@ -4913,7 +4913,7 @@ declare global {
   /** Create a `mask-size` property. `css-masking` */
   function maskSize(value: any): Property
 
-  /** Create a `mask-source-type` property. `unknown` */
+  /** Create a `mask-source-type` property. `unknown-spec` */
   function maskSourceType(value: any): Property
 
   /** Create a `mask-type` property. `css-masking` */
@@ -4998,7 +4998,7 @@ declare global {
     const maxContent: string
   }
 
-  /** Create a `max-zoom` property. `unknown` */
+  /** Create a `max-zoom` property. `unknown-spec` */
   function maxZoom(value: any): Property
 
   /** Create a `min-block-size` property. `css-logical, css-sizing-4` */
@@ -5040,7 +5040,7 @@ declare global {
     const maxContent: string
   }
 
-  /** Create a `min-zoom` property. `unknown` */
+  /** Create a `min-zoom` property. `unknown-spec` */
   function minZoom(value: any): Property
 
   /** Create a `mix-blend-mode` property. `compositing` */
@@ -5084,16 +5084,16 @@ declare global {
     const plusLighter: string
   }
 
-  /** Create a `motion` property. `unknown` */
+  /** Create a `motion` property. `unknown-spec` */
   function motion(value: any): Property
 
-  /** Create a `motion-offset` property. `unknown` */
+  /** Create a `motion-offset` property. `unknown-spec` */
   function motionOffset(value: any): Property
 
-  /** Create a `motion-path` property. `unknown` */
+  /** Create a `motion-path` property. `unknown-spec` */
   function motionPath(value: any): Property
 
-  /** Create a `motion-rotation` property. `unknown` */
+  /** Create a `motion-rotation` property. `unknown-spec` */
   function motionRotation(value: any): Property
 
   /** Create a `nav-down` property. `css-ui` */
@@ -5107,7 +5107,7 @@ declare global {
     const root: string
   }
 
-  /** Create a `nav-index` property. `unknown` */
+  /** Create a `nav-index` property. `unknown-spec` */
   function navIndex(value: any): Property
 
   /** Create a `nav-left` property. `css-ui` */
@@ -5143,31 +5143,31 @@ declare global {
     const root: string
   }
 
-  /** Create a `negative` property. `unknown` */
+  /** Create a `negative` property. `unknown-spec` */
   function negative(value: any): Property
 
   /** Create a `object-fit` property. `css-images, css-images-4` */
   function objectFit(value: any): Property
   module objectFit {
-    /** The replaced content is sized to fill the element’s content box: the object’s concrete object size is the element’s used width and height.. `css-images` */
+    /** `css-images`: The replaced content is sized to fill the element’s content box: the object’s concrete object size is the element’s used width and height.
+
+    `css-images-4`: `fill` keyword. */
     const fill: string
-    /** The replaced content is sized to maintain its natural aspect ratio while fitting within the element’s content box: its concrete object size is resolved as a contain constraint against the element’s used width and height.. `css-images` */
+    /** `css-images`: The replaced content is sized to maintain its natural aspect ratio while fitting within the element’s content box: its concrete object size is resolved as a contain constraint against the element’s used width and height.
+
+    `css-images-4`: The replaced content is sized to maintain its aspect ratio while fitting within the element’s content box: its concrete object size is resolved as a contain constraint against the element’s used width and height. If the scale-down flag is used, size the content as if none or contain were specified, whichever would result in a smaller concrete object size. */
     const contain: string
-    /** The replaced content is sized to maintain its natural aspect ratio while filling the element’s entire content box: its concrete object size is resolved as a cover constraint against the element’s used width and height.. `css-images` */
+    /** `css-images`: The replaced content is sized to maintain its natural aspect ratio while filling the element’s entire content box: its concrete object size is resolved as a cover constraint against the element’s used width and height.
+
+    `css-images-4`: The replaced content is sized to maintain its aspect ratio while filling the element’s entire content box: its concrete object size is resolved as a cover constraint against the element’s used width and height. If the scale-down flag is used, size the content as if none or cover were specified, whichever would result in a smaller concrete object size. */
     const cover: string
-    /** The replaced content is not resized to fit inside the element’s content box: determine the object’s concrete object size using the default sizing algorithm with no specified size, and a default object size equal to the replaced element’s used width and height.. `css-images` */
+    /** `css-images`: The replaced content is not resized to fit inside the element’s content box: determine the object’s concrete object size using the default sizing algorithm with no specified size, and a default object size equal to the replaced element’s used width and height.
+
+    `css-images-4`: `none` keyword. */
     const none: string
-    /** Size the content as if none or contain were specified, whichever would result in a smaller concrete object size.. `css-images` */
-    const scaleDown: string
-    /** The replaced content is sized to fill the element’s content box: the object’s concrete object size is the element’s used width and height.. `css-images-4` */
-    const fill: string
-    /** The replaced content is not resized to fit inside the element’s content box: determine the object’s concrete object size using the default sizing algorithm with no specified size, and a default object size equal to the replaced element’s used width and height.. `css-images-4` */
-    const none: string
-    /** The replaced content is sized to maintain its aspect ratio while fitting within the element’s content box: its concrete object size is resolved as a contain constraint against the element’s used width and height. If the scale-down flag is used, size the content as if none or contain were specified, whichever would result in a smaller concrete object size.. `css-images-4` */
-    const contain: string
-    /** The replaced content is sized to maintain its aspect ratio while filling the element’s entire content box: its concrete object size is resolved as a cover constraint against the element’s used width and height. If the scale-down flag is used, size the content as if none or cover were specified, whichever would result in a smaller concrete object size.. `css-images-4` */
-    const cover: string
-    /** Equivalent to contain scale-down.. `css-images-4` */
+    /** `css-images`: Size the content as if none or contain were specified, whichever would result in a smaller concrete object size.
+
+    `css-images-4`: Equivalent to contain scale-down. */
     const scaleDown: string
   }
 
@@ -5191,19 +5191,19 @@ declare global {
     const auto: string
   }
 
-  /** Create a `offset-block-end` property. `unknown` */
+  /** Create a `offset-block-end` property. `unknown-spec` */
   function offsetBlockEnd(value: any): Property
 
-  /** Create a `offset-block-start` property. `unknown` */
+  /** Create a `offset-block-start` property. `unknown-spec` */
   function offsetBlockStart(value: any): Property
 
   /** Create a `offset-distance` property. `motion` */
   function offsetDistance(value: any): Property
 
-  /** Create a `offset-inline-end` property. `unknown` */
+  /** Create a `offset-inline-end` property. `unknown-spec` */
   function offsetInlineEnd(value: any): Property
 
-  /** Create a `offset-inline-start` property. `unknown` */
+  /** Create a `offset-inline-start` property. `unknown-spec` */
   function offsetInlineStart(value: any): Property
 
   /** Create a `offset-path` property. `motion` */
@@ -5229,7 +5229,7 @@ declare global {
     const reverse: string
   }
 
-  /** Create a `offset-rotation` property. `unknown` */
+  /** Create a `offset-rotation` property. `unknown-spec` */
   function offsetRotation(value: any): Property
 
   /** Create a `opacity` property. `css-color` */
@@ -5244,7 +5244,7 @@ declare global {
     const layout: string
   }
 
-  /** Create a `orientation` property. `unknown` */
+  /** Create a `orientation` property. `unknown-spec` */
   function orientation(value: any): Property
 
   /** Create a `orphans` property. `css-break` */
@@ -5373,17 +5373,17 @@ declare global {
   /** Create a `overflow-wrap` property. `css-text-4, css-text` */
   function overflowWrap(value: any): Property
   module overflowWrap {
-    /** Lines may break only at allowed break points. However, the restrictions introduced by word-break: keep-all may be relaxed to match word-break: normal if there are no otherwise-acceptable break points in the line.. `css-text-4` */
+    /** `css-text-4`: Lines may break only at allowed break points. However, the restrictions introduced by word-break: keep-all may be relaxed to match word-break: normal if there are no otherwise-acceptable break points in the line.
+
+    `css-text`: `normal` keyword. */
     const normal: string
-    /** As for anywhere except that soft wrap opportunities introduced by break-word are not considered when calculating min-content intrinsic sizes.. `css-text-4` */
+    /** `css-text-4`: As for anywhere except that soft wrap opportunities introduced by break-word are not considered when calculating min-content intrinsic sizes.
+
+    `css-text`: `break-word` keyword. */
     const breakWord: string
-    /** An otherwise unbreakable sequence of characters may be broken at an arbitrary point if there are no otherwise-acceptable break points in the line. Shaping characters are still shaped as if the word were not broken, and grapheme clusters must stay together as one unit. No hyphenation character is inserted at the break point. Soft wrap opportunities introduced by anywhere are considered when calculating min-content intrinsic sizes.. `css-text-4` */
-    const anywhere: string
-    /** Lines may break only at allowed break points. However, the restrictions introduced by word-break: keep-all may be relaxed to match word-break: normal if there are no otherwise-acceptable break points in the line.. `css-text` */
-    const normal: string
-    /** As for anywhere except that soft wrap opportunities introduced by break-word are not considered when calculating min-content intrinsic sizes.. `css-text` */
-    const breakWord: string
-    /** An otherwise unbreakable sequence of characters may be broken at an arbitrary point if there are no otherwise-acceptable break points in the line. Shaping characters are still shaped as if the word were not broken, and grapheme clusters must stay together as one unit. No hyphenation character is inserted at the break point. Soft wrap opportunities introduced by anywhere are considered when calculating min-content intrinsic sizes.. `css-text` */
+    /** `css-text-4`: An otherwise unbreakable sequence of characters may be broken at an arbitrary point if there are no otherwise-acceptable break points in the line. Shaping characters are still shaped as if the word were not broken, and grapheme clusters must stay together as one unit. No hyphenation character is inserted at the break point. Soft wrap opportunities introduced by anywhere are considered when calculating min-content intrinsic sizes.
+
+    `css-text`: `anywhere` keyword. */
     const anywhere: string
   }
 
@@ -5417,7 +5417,7 @@ declare global {
     const auto: string
   }
 
-  /** Create a `override-colors` property. `unknown` */
+  /** Create a `override-colors` property. `unknown-spec` */
   function overrideColors(value: any): Property
 
   /** Create a `overscroll-behavior` property. `css-overscroll` */
@@ -5475,7 +5475,7 @@ declare global {
     const auto: string
   }
 
-  /** Create a `pad` property. `unknown` */
+  /** Create a `pad` property. `unknown-spec` */
   function pad(value: any): Property
 
   /** Create a `padding` property. `css-box` */
@@ -5563,10 +5563,10 @@ declare global {
     const inherit: string
   }
 
-  /** Create a `page-orientation` property. `unknown` */
+  /** Create a `page-orientation` property. `unknown-spec` */
   function pageOrientation(value: any): Property
 
-  /** Create a `page-transition-tag` property. `unknown` */
+  /** Create a `page-transition-tag` property. `unknown-spec` */
   function pageTransitionTag(value: any): Property
 
   /** Create a `paint-order` property. `svg` */
@@ -5619,7 +5619,7 @@ declare global {
     const xStrong: string
   }
 
-  /** Create a `pen-action` property. `unknown` */
+  /** Create a `pen-action` property. `unknown-spec` */
   function penAction(value: any): Property
 
   /** Create a `perspective` property. `css-transforms-2` */
@@ -5632,16 +5632,16 @@ declare global {
   /** Create a `perspective-origin` property. `css-transforms-2` */
   function perspectiveOrigin(value: any): Property
 
-  /** Create a `perspective-origin-x` property. `unknown` */
+  /** Create a `perspective-origin-x` property. `unknown-spec` */
   function perspectiveOriginX(value: any): Property
 
-  /** Create a `perspective-origin-y` property. `unknown` */
+  /** Create a `perspective-origin-y` property. `unknown-spec` */
   function perspectiveOriginY(value: any): Property
 
-  /** Create a `pitch` property. `unknown` */
+  /** Create a `pitch` property. `unknown-spec` */
   function pitch(value: any): Property
 
-  /** Create a `pitch-range` property. `unknown` */
+  /** Create a `pitch-range` property. `unknown-spec` */
   function pitchRange(value: any): Property
 
   /** Create a `place-content` property. `css-align` */
@@ -5653,7 +5653,7 @@ declare global {
   /** Create a `place-self` property. `css-align` */
   function placeSelf(value: any): Property
 
-  /** Create a `play-during` property. `unknown` */
+  /** Create a `play-during` property. `unknown-spec` */
   function playDuring(value: any): Property
 
   /** Create a `pointer-events` property. `svg` */
@@ -5705,7 +5705,7 @@ declare global {
     const none: string
   }
 
-  /** Create a `prefix` property. `unknown` */
+  /** Create a `prefix` property. `unknown-spec` */
   function prefix(value: any): Property
 
   /** Create a `print-color-adjust` property. `css-color-adjust` */
@@ -5717,7 +5717,7 @@ declare global {
     const exact: string
   }
 
-  /** Create a `property-name` property. `unknown` */
+  /** Create a `property-name` property. `unknown-spec` */
   function propertyName(value: any): Property
 
   /** Create a `quotes` property. `css-content` */
@@ -5732,7 +5732,7 @@ declare global {
   /** Create a `r` property. `svg` */
   function r(value: any): Property
 
-  /** Create a `range` property. `unknown` */
+  /** Create a `range` property. `unknown-spec` */
   function range(value: any): Property
 
   /** Create a `reading-order` property. `css-display` */
@@ -5801,7 +5801,7 @@ declare global {
     const xStrong: string
   }
 
-  /** Create a `richness` property. `unknown` */
+  /** Create a `richness` property. `unknown-spec` */
   function richness(value: any): Property
 
   /** Create a `right` property. `css-position` */
@@ -5877,7 +5877,7 @@ declare global {
     const interCharacter: string
   }
 
-  /** Create a `running` property. `unknown` */
+  /** Create a `running` property. `unknown-spec` */
   function running(value: any): Property
 
   /** Create a `rx` property. `svg` */
@@ -6033,31 +6033,31 @@ declare global {
     const center: string
   }
 
-  /** Create a `scroll-snap-coordinate` property. `unknown` */
+  /** Create a `scroll-snap-coordinate` property. `unknown-spec` */
   function scrollSnapCoordinate(value: any): Property
 
-  /** Create a `scroll-snap-destination` property. `unknown` */
+  /** Create a `scroll-snap-destination` property. `unknown-spec` */
   function scrollSnapDestination(value: any): Property
 
-  /** Create a `scroll-snap-margin` property. `unknown` */
+  /** Create a `scroll-snap-margin` property. `unknown-spec` */
   function scrollSnapMargin(value: any): Property
 
-  /** Create a `scroll-snap-margin-bottom` property. `unknown` */
+  /** Create a `scroll-snap-margin-bottom` property. `unknown-spec` */
   function scrollSnapMarginBottom(value: any): Property
 
-  /** Create a `scroll-snap-margin-left` property. `unknown` */
+  /** Create a `scroll-snap-margin-left` property. `unknown-spec` */
   function scrollSnapMarginLeft(value: any): Property
 
-  /** Create a `scroll-snap-margin-right` property. `unknown` */
+  /** Create a `scroll-snap-margin-right` property. `unknown-spec` */
   function scrollSnapMarginRight(value: any): Property
 
-  /** Create a `scroll-snap-margin-top` property. `unknown` */
+  /** Create a `scroll-snap-margin-top` property. `unknown-spec` */
   function scrollSnapMarginTop(value: any): Property
 
-  /** Create a `scroll-snap-points-x` property. `unknown` */
+  /** Create a `scroll-snap-points-x` property. `unknown-spec` */
   function scrollSnapPointsX(value: any): Property
 
-  /** Create a `scroll-snap-points-y` property. `unknown` */
+  /** Create a `scroll-snap-points-y` property. `unknown-spec` */
   function scrollSnapPointsY(value: any): Property
 
   /** Create a `scroll-snap-stop` property. `css-scroll-snap` */
@@ -6090,10 +6090,10 @@ declare global {
     const proximity: string
   }
 
-  /** Create a `scroll-snap-type-x` property. `unknown` */
+  /** Create a `scroll-snap-type-x` property. `unknown-spec` */
   function scrollSnapTypeX(value: any): Property
 
-  /** Create a `scroll-snap-type-y` property. `unknown` */
+  /** Create a `scroll-snap-type-y` property. `unknown-spec` */
   function scrollSnapTypeY(value: any): Property
 
   /** Create a `scroll-start` property. `css-scroll-snap-2` */
@@ -6201,10 +6201,10 @@ declare global {
     const none: string
   }
 
-  /** Create a `scrollbar-arrow-color` property. `unknown` */
+  /** Create a `scrollbar-arrow-color` property. `unknown-spec` */
   function scrollbarArrowColor(value: any): Property
 
-  /** Create a `scrollbar-base-color` property. `unknown` */
+  /** Create a `scrollbar-base-color` property. `unknown-spec` */
   function scrollbarBaseColor(value: any): Property
 
   /** Create a `scrollbar-color` property. `css-scrollbars` */
@@ -6216,13 +6216,13 @@ declare global {
     const color: string
   }
 
-  /** Create a `scrollbar-dark-shadow-color` property. `unknown` */
+  /** Create a `scrollbar-dark-shadow-color` property. `unknown-spec` */
   function scrollbarDarkShadowColor(value: any): Property
 
-  /** Create a `scrollbar-darkshadow-color` property. `unknown` */
+  /** Create a `scrollbar-darkshadow-color` property. `unknown-spec` */
   function scrollbarDarkshadowColor(value: any): Property
 
-  /** Create a `scrollbar-face-color` property. `unknown` */
+  /** Create a `scrollbar-face-color` property. `unknown-spec` */
   function scrollbarFaceColor(value: any): Property
 
   /** Create a `scrollbar-gutter` property. `css-overflow` */
@@ -6236,13 +6236,13 @@ declare global {
     const bothEdges: string
   }
 
-  /** Create a `scrollbar-highlight-color` property. `unknown` */
+  /** Create a `scrollbar-highlight-color` property. `unknown-spec` */
   function scrollbarHighlightColor(value: any): Property
 
-  /** Create a `scrollbar-shadow-color` property. `unknown` */
+  /** Create a `scrollbar-shadow-color` property. `unknown-spec` */
   function scrollbarShadowColor(value: any): Property
 
-  /** Create a `scrollbar-track-color` property. `unknown` */
+  /** Create a `scrollbar-track-color` property. `unknown-spec` */
   function scrollbarTrackColor(value: any): Property
 
   /** Create a `scrollbar-width` property. `css-scrollbars` */
@@ -6256,10 +6256,10 @@ declare global {
     const none: string
   }
 
-  /** Create a `scrollbar3d-light-color` property. `unknown` */
+  /** Create a `scrollbar3d-light-color` property. `unknown-spec` */
   function scrollbar3dLightColor(value: any): Property
 
-  /** Create a `scrollbar3dlight-color` property. `unknown` */
+  /** Create a `scrollbar3dlight-color` property. `unknown-spec` */
   function scrollbar3dlightColor(value: any): Property
 
   /** Create a `shape-image-threshold` property. `css-shapes` */
@@ -6319,19 +6319,19 @@ declare global {
     const none: string
   }
 
-  /** Create a `size` property. `unknown` */
+  /** Create a `size` property. `unknown-spec` */
   function size(value: any): Property
 
-  /** Create a `size-adjust` property. `unknown` */
+  /** Create a `size-adjust` property. `unknown-spec` */
   function sizeAdjust(value: any): Property
 
-  /** Create a `snap-height` property. `unknown` */
+  /** Create a `snap-height` property. `unknown-spec` */
   function snapHeight(value: any): Property
 
-  /** Create a `solid-color` property. `unknown` */
+  /** Create a `solid-color` property. `unknown-spec` */
   function solidColor(value: any): Property
 
-  /** Create a `solid-opacity` property. `unknown` */
+  /** Create a `solid-opacity` property. `unknown-spec` */
   function solidOpacity(value: any): Property
 
   /** Create a `spatial-navigation-action` property. `css-nav` */
@@ -6389,19 +6389,19 @@ declare global {
     const noPunctuation: string
   }
 
-  /** Create a `speak-header` property. `unknown` */
+  /** Create a `speak-header` property. `unknown-spec` */
   function speakHeader(value: any): Property
 
-  /** Create a `speak-numeral` property. `unknown` */
+  /** Create a `speak-numeral` property. `unknown-spec` */
   function speakNumeral(value: any): Property
 
-  /** Create a `speak-punctuation` property. `unknown` */
+  /** Create a `speak-punctuation` property. `unknown-spec` */
   function speakPunctuation(value: any): Property
 
-  /** Create a `speech-rate` property. `unknown` */
+  /** Create a `speech-rate` property. `unknown-spec` */
   function speechRate(value: any): Property
 
-  /** Create a `src` property. `unknown` */
+  /** Create a `src` property. `unknown-spec` */
   function src(value: any): Property
 
   /** Create a `stop-color` property. `svg` */
@@ -6410,7 +6410,7 @@ declare global {
   /** Create a `stop-opacity` property. `svg` */
   function stopOpacity(value: any): Property
 
-  /** Create a `stress` property. `unknown` */
+  /** Create a `stress` property. `unknown-spec` */
   function stress(value: any): Property
 
   /** Create a `string-set` property. `css-content` */
@@ -6591,19 +6591,19 @@ declare global {
   /** Create a `stroke-width` property. `fill-stroke` */
   function strokeWidth(value: any): Property
 
-  /** Create a `suffix` property. `unknown` */
+  /** Create a `suffix` property. `unknown-spec` */
   function suffix(value: any): Property
 
-  /** Create a `supported-color-schemes` property. `unknown` */
+  /** Create a `supported-color-schemes` property. `unknown-spec` */
   function supportedColorSchemes(value: any): Property
 
-  /** Create a `symbols` property. `unknown` */
+  /** Create a `symbols` property. `unknown-spec` */
   function symbols(value: any): Property
 
-  /** Create a `syntax` property. `unknown` */
+  /** Create a `syntax` property. `unknown-spec` */
   function syntax(value: any): Property
 
-  /** Create a `system` property. `unknown` */
+  /** Create a `system` property. `unknown-spec` */
   function system(value: any): Property
 
   /** Create a `tab-size` property. `css-text-4, css-text` */
@@ -6621,107 +6621,107 @@ declare global {
   /** Create a `text-align` property. `css-text-4, css-text` */
   function textAlign(value: any): Property
   module textAlign {
-    /** Inline-level content is aligned to the start edge of the line box.. `css-text-4` */
+    /** `css-text-4`: Inline-level content is aligned to the start edge of the line box.
+
+    `css-text`: `start` keyword. */
     const start: string
-    /** Inline-level content is aligned to the end edge of the line box.. `css-text-4` */
+    /** `css-text-4`: Inline-level content is aligned to the end edge of the line box.
+
+    `css-text`: `end` keyword. */
     const end: string
-    /** Inline-level content is aligned to the line-left edge of the line box. (In vertical writing modes, this can be either the physical top or bottom, depending on writing-mode.) [CSS-WRITING-MODES-4]. `css-text-4` */
+    /** `css-text-4`: Inline-level content is aligned to the line-left edge of the line box. (In vertical writing modes, this can be either the physical top or bottom, depending on writing-mode.) [CSS-WRITING-MODES-4]
+
+    `css-text`: `left` keyword. */
     const left: string
-    /** Inline-level content is aligned to the line-right edge of the line box. (In vertical writing modes, this can be either the physical top or bottom, depending on writing-mode.) [CSS-WRITING-MODES-4]. `css-text-4` */
+    /** `css-text-4`: Inline-level content is aligned to the line-right edge of the line box. (In vertical writing modes, this can be either the physical top or bottom, depending on writing-mode.) [CSS-WRITING-MODES-4]
+
+    `css-text`: `right` keyword. */
     const right: string
-    /** Inline-level content is centered within the line box.. `css-text-4` */
+    /** `css-text-4`: Inline-level content is centered within the line box.
+
+    `css-text`: `center` keyword. */
     const center: string
-    /** Text is justified according to the method specified by the text-justify property, in order to exactly fill the line box. Unless otherwise specified by text-align-last, the last line before a forced break or the end of the block is start-aligned.. `css-text-4` */
+    /** `css-text-4`: Text is justified according to the method specified by the text-justify property, in order to exactly fill the line box. Unless otherwise specified by text-align-last, the last line before a forced break or the end of the block is start-aligned.
+
+    `css-text`: `justify` keyword. */
     const justify: string
-    /** This value behaves the same as inherit (computes to its parent’s computed value) except that an inherited value of start or end is interpreted against the parent’s direction value and results in a computed value of either left or right. Computes to start when specified on the root element. When specified on the text-align shorthand, sets both text-align-all and text-align-last to match-parent.. `css-text-4` */
+    /** `css-text-4`: This value behaves the same as inherit (computes to its parent’s computed value) except that an inherited value of start or end is interpreted against the parent’s direction value and results in a computed value of either left or right. Computes to start when specified on the root element. When specified on the text-align shorthand, sets both text-align-all and text-align-last to match-parent.
+
+    `css-text`: `match-parent` keyword. */
     const matchParent: string
-    /** Sets both text-align-all and text-align-last to justify, forcing the last line to justify as well.. `css-text-4` */
-    const justifyAll: string
-    /** Inline-level content is aligned to the start edge of the line box.. `css-text` */
-    const start: string
-    /** Inline-level content is aligned to the end edge of the line box.. `css-text` */
-    const end: string
-    /** Inline-level content is aligned to the line-left edge of the line box. (In vertical writing modes, this can be either the physical top or bottom, depending on writing-mode.) [CSS-WRITING-MODES-4]. `css-text` */
-    const left: string
-    /** Inline-level content is aligned to the line-right edge of the line box. (In vertical writing modes, this can be either the physical top or bottom, depending on writing-mode.) [CSS-WRITING-MODES-4]. `css-text` */
-    const right: string
-    /** Inline-level content is centered within the line box.. `css-text` */
-    const center: string
-    /** Text is justified according to the method specified by the text-justify property, in order to exactly fill the line box. Unless otherwise specified by text-align-last, the last line before a forced break or the end of the block is start-aligned.. `css-text` */
-    const justify: string
-    /** This value behaves the same as inherit (computes to its parent’s computed value) except that an inherited value of start or end is interpreted against the parent’s direction value and results in a computed value of either left or right. Computes to start when specified on the root element. When specified on the text-align shorthand, sets both text-align-all and text-align-last to match-parent.. `css-text` */
-    const matchParent: string
-    /** Sets both text-align-all and text-align-last to justify, forcing the last line to justify as well.. `css-text` */
+    /** `css-text-4`: Sets both text-align-all and text-align-last to justify, forcing the last line to justify as well.
+
+    `css-text`: `justify-all` keyword. */
     const justifyAll: string
   }
 
   /** Create a `text-align-all` property. `css-text-4, css-text` */
   function textAlignAll(value: any): Property
   module textAlignAll {
-    /** `start` keyword. `css-text-4` */
+    /** `css-text-4`: `start` keyword.
+
+    `css-text`: `start` keyword. */
     const start: string
-    /** `end` keyword. `css-text-4` */
+    /** `css-text-4`: `end` keyword.
+
+    `css-text`: `end` keyword. */
     const end: string
-    /** `left` keyword. `css-text-4` */
+    /** `css-text-4`: `left` keyword.
+
+    `css-text`: `left` keyword. */
     const left: string
-    /** `right` keyword. `css-text-4` */
+    /** `css-text-4`: `right` keyword.
+
+    `css-text`: `right` keyword. */
     const right: string
-    /** `center` keyword. `css-text-4` */
+    /** `css-text-4`: `center` keyword.
+
+    `css-text`: `center` keyword. */
     const center: string
-    /** `justify` keyword. `css-text-4` */
+    /** `css-text-4`: `justify` keyword.
+
+    `css-text`: `justify` keyword. */
     const justify: string
-    /** `match-parent` keyword. `css-text-4` */
-    const matchParent: string
-    /** `start` keyword. `css-text` */
-    const start: string
-    /** `end` keyword. `css-text` */
-    const end: string
-    /** `left` keyword. `css-text` */
-    const left: string
-    /** `right` keyword. `css-text` */
-    const right: string
-    /** `center` keyword. `css-text` */
-    const center: string
-    /** `justify` keyword. `css-text` */
-    const justify: string
-    /** `match-parent` keyword. `css-text` */
+    /** `css-text-4`: `match-parent` keyword.
+
+    `css-text`: `match-parent` keyword. */
     const matchParent: string
   }
 
   /** Create a `text-align-last` property. `css-text-4, css-text` */
   function textAlignLast(value: any): Property
   module textAlignLast {
-    /** If auto is specified, content on the affected line is aligned per text-align-all unless text-align-all is set to justify, in which case it is start-aligned. All other values are interpreted as described for text-align.. `css-text-4` */
+    /** `css-text-4`: If auto is specified, content on the affected line is aligned per text-align-all unless text-align-all is set to justify, in which case it is start-aligned. All other values are interpreted as described for text-align.
+
+    `css-text`: `auto` keyword. */
     const auto: string
-    /** `start` keyword. `css-text-4` */
+    /** `css-text-4`: `start` keyword.
+
+    `css-text`: `start` keyword. */
     const start: string
-    /** `end` keyword. `css-text-4` */
+    /** `css-text-4`: `end` keyword.
+
+    `css-text`: `end` keyword. */
     const end: string
-    /** `left` keyword. `css-text-4` */
+    /** `css-text-4`: `left` keyword.
+
+    `css-text`: `left` keyword. */
     const left: string
-    /** `right` keyword. `css-text-4` */
+    /** `css-text-4`: `right` keyword.
+
+    `css-text`: `right` keyword. */
     const right: string
-    /** `center` keyword. `css-text-4` */
+    /** `css-text-4`: `center` keyword.
+
+    `css-text`: `center` keyword. */
     const center: string
-    /** `justify` keyword. `css-text-4` */
+    /** `css-text-4`: `justify` keyword.
+
+    `css-text`: `justify` keyword. */
     const justify: string
-    /** `match-parent` keyword. `css-text-4` */
-    const matchParent: string
-    /** If auto is specified, content on the affected line is aligned per text-align-all unless text-align-all is set to justify, in which case it is start-aligned. All other values are interpreted as described for text-align.. `css-text` */
-    const auto: string
-    /** `start` keyword. `css-text` */
-    const start: string
-    /** `end` keyword. `css-text` */
-    const end: string
-    /** `left` keyword. `css-text` */
-    const left: string
-    /** `right` keyword. `css-text` */
-    const right: string
-    /** `center` keyword. `css-text` */
-    const center: string
-    /** `justify` keyword. `css-text` */
-    const justify: string
-    /** `match-parent` keyword. `css-text` */
+    /** `css-text-4`: `match-parent` keyword.
+
+    `css-text`: `match-parent` keyword. */
     const matchParent: string
   }
 
@@ -6757,54 +6757,54 @@ declare global {
   /** Create a `text-decoration` property. `css-text-decor-4, css-text-decor` */
   function textDecoration(value: any): Property
 
-  /** Create a `text-decoration-blink` property. `unknown` */
+  /** Create a `text-decoration-blink` property. `unknown-spec` */
   function textDecorationBlink(value: any): Property
 
   /** Create a `text-decoration-color` property. `css-text-decor-4, css-text-decor` */
   function textDecorationColor(value: any): Property
   module textDecorationColor {
-    /** `color` keyword. `css-text-decor-4` */
-    const color: string
-    /** `color` keyword. `css-text-decor` */
+    /** `css-text-decor-4`: `color` keyword.
+
+    `css-text-decor`: `color` keyword. */
     const color: string
   }
 
   /** Create a `text-decoration-line` property. `css-text-decor-4, css-text-decor` */
   function textDecorationLine(value: any): Property
   module textDecorationLine {
-    /** Neither produces nor inhibits text decoration.. `css-text-decor-4` */
+    /** `css-text-decor-4`: Neither produces nor inhibits text decoration.
+
+    `css-text-decor`: `none` keyword. */
     const none: string
-    /** Each line of text is underlined.. `css-text-decor-4` */
+    /** `css-text-decor-4`: Each line of text is underlined.
+
+    `css-text-decor`: `underline` keyword. */
     const underline: string
-    /** Each line of text has a line over it (i.e. on the opposite side from an underline).. `css-text-decor-4` */
+    /** `css-text-decor-4`: Each line of text has a line over it (i.e. on the opposite side from an underline).
+
+    `css-text-decor`: `overline` keyword. */
     const overline: string
-    /** Each line of text has a line through the middle.. `css-text-decor-4` */
+    /** `css-text-decor-4`: Each line of text has a line through the middle.
+
+    `css-text-decor`: `line-through` keyword. */
     const lineThrough: string
-    /** The text blinks (alternates between visible and invisible). Conforming user agents may simply not blink the text. Note that not blinking the text is one technique to satisfy checkpoint 3.3 of WAI-UAAG. This value is deprecated in favor of Animations [CSS3-ANIMATIONS].. `css-text-decor-4` */
+    /** `css-text-decor-4`: The text blinks (alternates between visible and invisible). Conforming user agents may simply not blink the text. Note that not blinking the text is one technique to satisfy checkpoint 3.3 of WAI-UAAG. This value is deprecated in favor of Animations [CSS3-ANIMATIONS].
+
+    `css-text-decor`: The text blinks (alternates between visible and invisible). Conforming user agents may simply not blink the text. Note that not blinking the text is one technique to satisfy checkpoint 3.3 of WAI-UAAG. This value is deprecated in favor of Animations [CSS-ANIMATIONS-1]. */
     const blink: string
     /** This value indicates the type of text decoration used by the user agent to highlight spelling mistakes. Its appearance is UA-defined, and may be platform-dependent.. `css-text-decor-4` */
     const spellingError: string
     /** This value indicates the type of text decoration used by the user agent to highlight grammar mistakes. Its appearance is UA defined, and may be platform-dependent.. `css-text-decor-4` */
     const grammarError: string
-    /** Neither produces nor inhibits text decoration.. `css-text-decor` */
-    const none: string
-    /** Each line of text is underlined.. `css-text-decor` */
-    const underline: string
-    /** Each line of text has a line over it (i.e. on the opposite side from an underline).. `css-text-decor` */
-    const overline: string
-    /** Each line of text has a line through the middle.. `css-text-decor` */
-    const lineThrough: string
-    /** The text blinks (alternates between visible and invisible). Conforming user agents may simply not blink the text. Note that not blinking the text is one technique to satisfy checkpoint 3.3 of WAI-UAAG. This value is deprecated in favor of Animations [CSS-ANIMATIONS-1].. `css-text-decor` */
-    const blink: string
   }
 
-  /** Create a `text-decoration-line-through` property. `unknown` */
+  /** Create a `text-decoration-line-through` property. `unknown-spec` */
   function textDecorationLineThrough(value: any): Property
 
-  /** Create a `text-decoration-none` property. `unknown` */
+  /** Create a `text-decoration-none` property. `unknown-spec` */
   function textDecorationNone(value: any): Property
 
-  /** Create a `text-decoration-overline` property. `unknown` */
+  /** Create a `text-decoration-overline` property. `unknown-spec` */
   function textDecorationOverline(value: any): Property
 
   /** Create a `text-decoration-skip` property. `css-text-decor-4` */
@@ -6836,7 +6836,7 @@ declare global {
     const all: string
   }
 
-  /** Create a `text-decoration-skip-inset` property. `unknown` */
+  /** Create a `text-decoration-skip-inset` property. `unknown-spec` */
   function textDecorationSkipInset(value: any): Property
 
   /** Create a `text-decoration-skip-self` property. `css-text-decor-4` */
@@ -6872,25 +6872,25 @@ declare global {
   /** Create a `text-decoration-style` property. `css-text-decor-4, css-text-decor` */
   function textDecorationStyle(value: any): Property
   module textDecorationStyle {
-    /** `solid` keyword. `css-text-decor-4` */
+    /** `css-text-decor-4`: `solid` keyword.
+
+    `css-text-decor`: `solid` keyword. */
     const solid: string
-    /** `double` keyword. `css-text-decor-4` */
+    /** `css-text-decor-4`: `double` keyword.
+
+    `css-text-decor`: `double` keyword. */
     const double: string
-    /** `dotted` keyword. `css-text-decor-4` */
+    /** `css-text-decor-4`: `dotted` keyword.
+
+    `css-text-decor`: `dotted` keyword. */
     const dotted: string
-    /** `dashed` keyword. `css-text-decor-4` */
+    /** `css-text-decor-4`: `dashed` keyword.
+
+    `css-text-decor`: `dashed` keyword. */
     const dashed: string
-    /** Values have the same meaning as for the border-style properties [CSS-BACKGROUNDS-3]. wavy indicates a wavy line.. `css-text-decor-4` */
-    const wavy: string
-    /** `solid` keyword. `css-text-decor` */
-    const solid: string
-    /** `double` keyword. `css-text-decor` */
-    const double: string
-    /** `dotted` keyword. `css-text-decor` */
-    const dotted: string
-    /** `dashed` keyword. `css-text-decor` */
-    const dashed: string
-    /** `wavy` keyword. `css-text-decor` */
+    /** `css-text-decor-4`: Values have the same meaning as for the border-style properties [CSS-BACKGROUNDS-3]. wavy indicates a wavy line.
+
+    `css-text-decor`: `wavy` keyword. */
     const wavy: string
   }
 
@@ -6910,7 +6910,7 @@ declare global {
     const auto: string
   }
 
-  /** Create a `text-decoration-underline` property. `unknown` */
+  /** Create a `text-decoration-underline` property. `unknown-spec` */
   function textDecorationUnderline(value: any): Property
 
   /** Create a `text-edge` property. `css-inline` */
@@ -6918,24 +6918,24 @@ declare global {
   module textEdge {
     /** Use the ascent/descent plus any positive half-leading. Margin/padding/border is ignored for the purpose of sizing the line box.. `css-inline` */
     const leading: string
-    /** Use the text-over baseline/text-under baseline.. `css-inline` */
+    /** `css-inline`: Use the text-over baseline/text-under baseline.
+
+    `css-inline`: `text` keyword. */
     const text: string
     /** Use the cap-height baseline.. `css-inline` */
     const cap: string
     /** Use the x-height baseline.. `css-inline` */
     const ex: string
-    /** Use the ideographic-over baseline/ideographic-under baseline.. `css-inline` */
+    /** `css-inline`: Use the ideographic-over baseline/ideographic-under baseline.
+
+    `css-inline`: `ideographic` keyword. */
     const ideographic: string
-    /** Use the ideographic-ink-over baseline/ideographic-ink-under baseline.. `css-inline` */
+    /** `css-inline`: Use the ideographic-ink-over baseline/ideographic-ink-under baseline.
+
+    `css-inline`: `ideographic-ink` keyword. */
     const ideographicInk: string
-    /** Use the text-over baseline/text-under baseline.. `css-inline` */
-    const text: string
     /** Use the alphabetic baseline.. `css-inline` */
     const alphabetic: string
-    /** Use the ideographic-over baseline/ideographic-under baseline.. `css-inline` */
-    const ideographic: string
-    /** Use the ideographic-ink-over baseline/ideographic-ink-under baseline.. `css-inline` */
-    const ideographicInk: string
   }
 
   /** Create a `text-emphasis` property. `css-text-decor-4, css-text-decor` */
@@ -6944,30 +6944,30 @@ declare global {
   /** Create a `text-emphasis-color` property. `css-text-decor-4, css-text-decor` */
   function textEmphasisColor(value: any): Property
   module textEmphasisColor {
-    /** `color` keyword. `css-text-decor-4` */
-    const color: string
-    /** `color` keyword. `css-text-decor` */
+    /** `css-text-decor-4`: `color` keyword.
+
+    `css-text-decor`: `color` keyword. */
     const color: string
   }
 
   /** Create a `text-emphasis-position` property. `css-text-decor-4, css-text-decor` */
   function textEmphasisPosition(value: any): Property
   module textEmphasisPosition {
-    /** Draw marks over the text in horizontal typographic modes.. `css-text-decor-4` */
+    /** `css-text-decor-4`: Draw marks over the text in horizontal typographic modes.
+
+    `css-text-decor`: `over` keyword. */
     const over: string
-    /** Draw marks under the text in horizontal typographic modes.. `css-text-decor-4` */
+    /** `css-text-decor-4`: Draw marks under the text in horizontal typographic modes.
+
+    `css-text-decor`: `under` keyword. */
     const under: string
-    /** Draw marks to the right of the text in vertical typographic modes.. `css-text-decor-4` */
+    /** `css-text-decor-4`: Draw marks to the right of the text in vertical typographic modes.
+
+    `css-text-decor`: `right` keyword. */
     const right: string
-    /** Draw marks to the left of the text in vertical typographic modes.. `css-text-decor-4` */
-    const left: string
-    /** Draw marks over the text in horizontal typographic modes.. `css-text-decor` */
-    const over: string
-    /** Draw marks under the text in horizontal typographic modes.. `css-text-decor` */
-    const under: string
-    /** Draw marks to the right of the text in vertical typographic modes.. `css-text-decor` */
-    const right: string
-    /** Draw marks to the left of the text in vertical typographic modes.. `css-text-decor` */
+    /** `css-text-decor-4`: Draw marks to the left of the text in vertical typographic modes.
+
+    `css-text-decor`: `left` keyword. */
     const left: string
   }
 
@@ -6987,37 +6987,37 @@ declare global {
   /** Create a `text-emphasis-style` property. `css-text-decor-4, css-text-decor` */
   function textEmphasisStyle(value: any): Property
   module textEmphasisStyle {
-    /** No emphasis marks.. `css-text-decor-4` */
+    /** `css-text-decor-4`: No emphasis marks.
+
+    `css-text-decor`: `none` keyword. */
     const none: string
-    /** The shape is filled with solid color.. `css-text-decor-4` */
+    /** `css-text-decor-4`: The shape is filled with solid color.
+
+    `css-text-decor`: `filled` keyword. */
     const filled: string
-    /** `open` keyword. `css-text-decor-4` */
+    /** `css-text-decor-4`: `open` keyword.
+
+    `css-text-decor`: `open` keyword. */
     const open: string
-    /** Display small circles as marks. The filled dot is U+2022 '•', and the open dot is U+25E6 '◦'.. `css-text-decor-4` */
+    /** `css-text-decor-4`: Display small circles as marks. The filled dot is U+2022 '•', and the open dot is U+25E6 '◦'.
+
+    `css-text-decor`: `dot` keyword. */
     const dot: string
-    /** Display large circles as marks. The filled circle is U+25CF '●', and the open circle is U+25CB '○'.. `css-text-decor-4` */
+    /** `css-text-decor-4`: Display large circles as marks. The filled circle is U+25CF '●', and the open circle is U+25CB '○'.
+
+    `css-text-decor`: `circle` keyword. */
     const circle: string
-    /** Display double circles as marks. The filled double-circle is U+25C9 '◉', and the open double-circle is U+25CE '◎'.. `css-text-decor-4` */
+    /** `css-text-decor-4`: Display double circles as marks. The filled double-circle is U+25C9 '◉', and the open double-circle is U+25CE '◎'.
+
+    `css-text-decor`: `double-circle` keyword. */
     const doubleCircle: string
-    /** Display triangles as marks. The filled triangle is U+25B2 '▲', and the open triangle is U+25B3 '△'.. `css-text-decor-4` */
+    /** `css-text-decor-4`: Display triangles as marks. The filled triangle is U+25B2 '▲', and the open triangle is U+25B3 '△'.
+
+    `css-text-decor`: `triangle` keyword. */
     const triangle: string
-    /** Display sesames as marks. The filled sesame is U+FE45 '﹅', and the open sesame is U+FE46 '﹆'.. `css-text-decor-4` */
-    const sesame: string
-    /** No emphasis marks.. `css-text-decor` */
-    const none: string
-    /** The shape is filled with solid color.. `css-text-decor` */
-    const filled: string
-    /** `open` keyword. `css-text-decor` */
-    const open: string
-    /** Display small circles as marks. The filled dot is U+2022 '•', and the open dot is U+25E6 '◦'.. `css-text-decor` */
-    const dot: string
-    /** Display large circles as marks. The filled circle is U+25CF '●', and the open circle is U+25CB '○'.. `css-text-decor` */
-    const circle: string
-    /** Display double circles as marks. The filled double-circle is U+25C9 '◉', and the open double-circle is U+25CE '◎'.. `css-text-decor` */
-    const doubleCircle: string
-    /** Display triangles as marks. The filled triangle is U+25B2 '▲', and the open triangle is U+25B3 '△'.. `css-text-decor` */
-    const triangle: string
-    /** Display sesames as marks. The filled sesame is U+FE45 '﹅', and the open sesame is U+FE46 '﹆'.. `css-text-decor` */
+    /** `css-text-decor-4`: Display sesames as marks. The filled sesame is U+FE45 '﹅', and the open sesame is U+FE46 '﹆'.
+
+    `css-text-decor`: `sesame` keyword. */
     const sesame: string
   }
 
@@ -7041,61 +7041,61 @@ declare global {
   /** Create a `text-indent` property. `css-text-4, css-text` */
   function textIndent(value: any): Property
   module textIndent {
-    /** Inverts which lines are affected.. `css-text-4` */
+    /** `css-text-4`: Inverts which lines are affected.
+
+    `css-text`: `hanging` keyword. */
     const hanging: string
-    /** Indentation affects the first line of each block container and each line after a forced line break (but not lines after a soft wrap break).. `css-text-4` */
-    const eachLine: string
-    /** Inverts which lines are affected.. `css-text` */
-    const hanging: string
-    /** Indentation affects the first line of each block container and each line after a forced line break (but not lines after a soft wrap break).. `css-text` */
+    /** `css-text-4`: Indentation affects the first line of each block container and each line after a forced line break (but not lines after a soft wrap break).
+
+    `css-text`: `each-line` keyword. */
     const eachLine: string
   }
 
   /** Create a `text-justify` property. `css-text-4, css-text` */
   function textJustify(value: any): Property
   module textJustify {
-    /** The UA determines the justification algorithm to follow, based on a balance between performance and adequate presentation quality. Since justification rules vary by writing system and language, UAs should, where possible, use a justification algorithm appropriate to the text. For example, the UA could use by default a justification method that is a simple universal compromise for all writing systems—such as primarily expanding word separators and between CJK typographic letter units along with secondarily expanding between Southeast Asian typographic letter units. Then, in cases where the content language of the paragraph is known, it could choose a more language-tailored justification behavior e.g. following the Requirements for Japanese Text Layout for Japanese [JLREQ], using cursive elongation for Arabic, using inter-word for German, etc. An example of cursively-justified Arabic text, rendered by Tasmeem. Like English, Arabic can be justified by adjusting the spacing between words, but in most styles it can also be justified by calligraphically elongating or compressing the letterforms themselves. In this example, the upper text is extended to fill the line by the use of elongated (kashida) forms and swash forms, while the bottom line is compressed slightly by using a stacked combination for the characters between ت and م. By employing traditional calligraphic techniques, a typesetter can justify the line while preserving flow and color, providing a very high quality justification effect. However, this is by its nature a very script-specific effect. Mixed-script text with text-justify: auto: this interpretation uses a universal-compromise justification method, expanding at spaces as well as between CJK and Southeast Asian letters. This effectively uses inter-word + inter-ideograph spacing for lines that have word-separators and/or CJK characters and falls back to inter-cluster behavior for lines that don’t or for which the space stretches too far.. `css-text-4` */
+    /** `css-text-4`: The UA determines the justification algorithm to follow, based on a balance between performance and adequate presentation quality. Since justification rules vary by writing system and language, UAs should, where possible, use a justification algorithm appropriate to the text. For example, the UA could use by default a justification method that is a simple universal compromise for all writing systems—such as primarily expanding word separators and between CJK typographic letter units along with secondarily expanding between Southeast Asian typographic letter units. Then, in cases where the content language of the paragraph is known, it could choose a more language-tailored justification behavior e.g. following the Requirements for Japanese Text Layout for Japanese [JLREQ], using cursive elongation for Arabic, using inter-word for German, etc. An example of cursively-justified Arabic text, rendered by Tasmeem. Like English, Arabic can be justified by adjusting the spacing between words, but in most styles it can also be justified by calligraphically elongating or compressing the letterforms themselves. In this example, the upper text is extended to fill the line by the use of elongated (kashida) forms and swash forms, while the bottom line is compressed slightly by using a stacked combination for the characters between ت and م. By employing traditional calligraphic techniques, a typesetter can justify the line while preserving flow and color, providing a very high quality justification effect. However, this is by its nature a very script-specific effect. Mixed-script text with text-justify: auto: this interpretation uses a universal-compromise justification method, expanding at spaces as well as between CJK and Southeast Asian letters. This effectively uses inter-word + inter-ideograph spacing for lines that have word-separators and/or CJK characters and falls back to inter-cluster behavior for lines that don’t or for which the space stretches too far.
+
+    `css-text`: `auto` keyword. */
     const auto: string
-    /** Justification is disabled: there are no justification opportunities within the text. Mixed-script text with text-justify: none. `css-text-4` */
+    /** `css-text-4`: Justification is disabled: there are no justification opportunities within the text. Mixed-script text with text-justify: none
+
+    `css-text`: `none` keyword. */
     const none: string
-    /** Justification adjusts spacing at word separators only (effectively varying the used word-spacing on the line). This behavior is typical for languages that separate words using spaces, like English or Korean. Mixed-script text with text-justify: inter-word. `css-text-4` */
+    /** `css-text-4`: Justification adjusts spacing at word separators only (effectively varying the used word-spacing on the line). This behavior is typical for languages that separate words using spaces, like English or Korean. Mixed-script text with text-justify: inter-word
+
+    `css-text`: `inter-word` keyword. */
     const interWord: string
-    /** Justification adjusts spacing between each pair of adjacent typographic character units (effectively varying the used letter-spacing on the line). This value is sometimes used in East Asian systems such as Japanese. Mixed-script text with text-justify: inter-character For legacy reasons, UAs must also support the alternate keyword distribute which must compute to inter-character, thus having the exact same meaning and behavior. UAs may treat this as a legacy value alias.. `css-text-4` */
+    /** `css-text-4`: Justification adjusts spacing between each pair of adjacent typographic character units (effectively varying the used letter-spacing on the line). This value is sometimes used in East Asian systems such as Japanese. Mixed-script text with text-justify: inter-character For legacy reasons, UAs must also support the alternate keyword distribute which must compute to inter-character, thus having the exact same meaning and behavior. UAs may treat this as a legacy value alias.
+
+    `css-text`: `inter-character` keyword. */
     const interCharacter: string
     /** Justification must not compress spacing controlled by text-spacing-trim or text-autospace. (If this value is not specified, the justification process may reduce such spacing except when the spacing is at the start or end of the line.) This keyword used to be part of text-spacing; it might need renaming to be more specific now that it’s here, as it implies that e.g. U+0020 cannot be compressed.. `css-text-4` */
     const noCompress: string
-    /** The UA determines the justification algorithm to follow, based on a balance between performance and adequate presentation quality. Since justification rules vary by writing system and language, UAs should, where possible, use a justification algorithm appropriate to the text. For example, the UA could use by default a justification method that is a simple universal compromise for all writing systems—such as primarily expanding word separators and between CJK typographic letter units along with secondarily expanding between Southeast Asian typographic letter units. Then, in cases where the content language of the paragraph is known, it could choose a more language-tailored justification behavior e.g. following the Requirements for Japanese Text Layout for Japanese [JLREQ], using cursive elongation for Arabic, using inter-word for German, etc. An example of cursively-justified Arabic text, rendered by Tasmeem. Like English, Arabic can be justified by adjusting the spacing between words, but in most styles it can also be justified by calligraphically elongating or compressing the letterforms themselves. In this example, the upper text is extended to fill the line by the use of elongated (kashida) forms and swash forms, while the bottom line is compressed slightly by using a stacked combination for the characters between ت and م. By employing traditional calligraphic techniques, a typesetter can justify the line while preserving flow and color, providing a very high quality justification effect. However, this is by its nature a very script-specific effect. Mixed-script text with text-justify: auto: this interpretation uses a universal-compromise justification method, expanding at spaces as well as between CJK and Southeast Asian letters. This effectively uses inter-word + inter-ideograph spacing for lines that have word-separators and/or CJK characters and falls back to inter-cluster behavior for lines that don’t or for which the space stretches too far.. `css-text` */
-    const auto: string
-    /** Justification is disabled: there are no justification opportunities within the text. Mixed-script text with text-justify: none. `css-text` */
-    const none: string
-    /** Justification adjusts spacing at word separators only (effectively varying the used word-spacing on the line). This behavior is typical for languages that separate words using spaces, like English or Korean. Mixed-script text with text-justify: inter-word. `css-text` */
-    const interWord: string
-    /** Justification adjusts spacing between each pair of adjacent typographic character units (effectively varying the used letter-spacing on the line). This value is sometimes used in East Asian systems such as Japanese. Mixed-script text with text-justify: inter-character For legacy reasons, UAs must also support the alternate keyword distribute which must compute to inter-character, thus having the exact same meaning and behavior. UAs may treat this as a legacy value alias.. `css-text` */
-    const interCharacter: string
   }
 
-  /** Create a `text-justify-trim` property. `unknown` */
+  /** Create a `text-justify-trim` property. `unknown-spec` */
   function textJustifyTrim(value: any): Property
 
-  /** Create a `text-kashida` property. `unknown` */
+  /** Create a `text-kashida` property. `unknown-spec` */
   function textKashida(value: any): Property
 
-  /** Create a `text-kashida-space` property. `unknown` */
+  /** Create a `text-kashida-space` property. `unknown-spec` */
   function textKashidaSpace(value: any): Property
 
-  /** Create a `text-line-through` property. `unknown` */
+  /** Create a `text-line-through` property. `unknown-spec` */
   function textLineThrough(value: any): Property
 
-  /** Create a `text-line-through-color` property. `unknown` */
+  /** Create a `text-line-through-color` property. `unknown-spec` */
   function textLineThroughColor(value: any): Property
 
-  /** Create a `text-line-through-mode` property. `unknown` */
+  /** Create a `text-line-through-mode` property. `unknown-spec` */
   function textLineThroughMode(value: any): Property
 
-  /** Create a `text-line-through-style` property. `unknown` */
+  /** Create a `text-line-through-style` property. `unknown-spec` */
   function textLineThroughStyle(value: any): Property
 
-  /** Create a `text-line-through-width` property. `unknown` */
+  /** Create a `text-line-through-width` property. `unknown-spec` */
   function textLineThroughWidth(value: any): Property
 
   /** Create a `text-orientation` property. `css-writing-modes` */
@@ -7112,31 +7112,31 @@ declare global {
   /** Create a `text-overflow` property. `css-overflow-4, css-overflow` */
   function textOverflow(value: any): Property
   module textOverflow {
-    /** Clip inline content that overflows its block container element. Characters may be only partially rendered.. `css-overflow-4` */
+    /** `css-overflow-4`: Clip inline content that overflows its block container element. Characters may be only partially rendered.
+
+    `css-overflow`: `clip` keyword. */
     const clip: string
-    /** Render an ellipsis character (U+2026) to represent clipped inline content. Implementations may substitute a more language, script, or writing-mode appropriate ellipsis character, or three dots "..." if the ellipsis character is unavailable.. `css-overflow-4` */
+    /** `css-overflow-4`: Render an ellipsis character (U+2026) to represent clipped inline content. Implementations may substitute a more language, script, or writing-mode appropriate ellipsis character, or three dots "..." if the ellipsis character is unavailable.
+
+    `css-overflow`: `ellipsis` keyword. */
     const ellipsis: string
     /** Same as fade(), but the distance over which the fading effect is applied is determined by the UA. 1em is suggested as a reasonable value.. `css-overflow-4` */
     const fade: string
-    /** Clip inline content that overflows its block container element. Characters may be only partially rendered.. `css-overflow` */
-    const clip: string
-    /** Render an ellipsis character (U+2026) to represent clipped inline content. Implementations may substitute a more language, script, or writing-mode appropriate ellipsis character, or three dots "..." if the ellipsis character is unavailable.. `css-overflow` */
-    const ellipsis: string
   }
 
-  /** Create a `text-overline` property. `unknown` */
+  /** Create a `text-overline` property. `unknown-spec` */
   function textOverline(value: any): Property
 
-  /** Create a `text-overline-color` property. `unknown` */
+  /** Create a `text-overline-color` property. `unknown-spec` */
   function textOverlineColor(value: any): Property
 
-  /** Create a `text-overline-mode` property. `unknown` */
+  /** Create a `text-overline-mode` property. `unknown-spec` */
   function textOverlineMode(value: any): Property
 
-  /** Create a `text-overline-style` property. `unknown` */
+  /** Create a `text-overline-style` property. `unknown-spec` */
   function textOverlineStyle(value: any): Property
 
-  /** Create a `text-overline-width` property. `unknown` */
+  /** Create a `text-overline-width` property. `unknown-spec` */
   function textOverlineWidth(value: any): Property
 
   /** Create a `text-rendering` property. `svg` */
@@ -7155,9 +7155,9 @@ declare global {
   /** Create a `text-shadow` property. `css-text-decor-4, css-text-decor` */
   function textShadow(value: any): Property
   module textShadow {
-    /** `none` keyword. `css-text-decor-4` */
-    const none: string
-    /** `none` keyword. `css-text-decor` */
+    /** `css-text-decor-4`: `none` keyword.
+
+    `css-text-decor`: `none` keyword. */
     const none: string
     /** `color` keyword. `css-text-decor` */
     const color: string
@@ -7221,39 +7221,39 @@ declare global {
   /** Create a `text-transform` property. `mathml-core, css-text-4, css-text` */
   function textTransform(value: any): Property
   module textTransform {
-    /** No effects.. `css-text-4` */
+    /** `css-text-4`: No effects.
+
+    `css-text`: `none` keyword. */
     const none: string
-    /** Puts the first typographic letter unit of each word, if lowercase, in titlecase; other characters are unaffected.. `css-text-4` */
+    /** `css-text-4`: Puts the first typographic letter unit of each word, if lowercase, in titlecase; other characters are unaffected.
+
+    `css-text`: `capitalize` keyword. */
     const capitalize: string
-    /** Puts all letters in uppercase.. `css-text-4` */
+    /** `css-text-4`: Puts all letters in uppercase.
+
+    `css-text`: `uppercase` keyword. */
     const uppercase: string
-    /** Puts all letters in lowercase.. `css-text-4` */
+    /** `css-text-4`: Puts all letters in lowercase.
+
+    `css-text`: `lowercase` keyword. */
     const lowercase: string
-    /** Puts all typographic character units in full-width form. If a character does not have a corresponding full-width form, it is left as is. This value is typically used to typeset Latin letters and digits as if they were ideographic characters.. `css-text-4` */
+    /** `css-text-4`: Puts all typographic character units in full-width form. If a character does not have a corresponding full-width form, it is left as is. This value is typically used to typeset Latin letters and digits as if they were ideographic characters.
+
+    `css-text`: `full-width` keyword. */
     const fullWidth: string
-    /** Converts all small Kana characters to the equivalent full-size Kana. This value is typically used for ruby annotation text, where authors may want all small Kana to be drawn as large Kana to compensate for legibility issues at the small font sizes typically used in ruby.. `css-text-4` */
-    const fullSizeKana: string
-    /** No effects.. `css-text` */
-    const none: string
-    /** Puts the first typographic letter unit of each word, if lowercase, in titlecase; other characters are unaffected.. `css-text` */
-    const capitalize: string
-    /** Puts all letters in uppercase.. `css-text` */
-    const uppercase: string
-    /** Puts all letters in lowercase.. `css-text` */
-    const lowercase: string
-    /** Puts all typographic character units in full-width form. If a character does not have a corresponding full-width form, it is left as is. This value is typically used to typeset Latin letters and digits as if they were ideographic characters.. `css-text` */
-    const fullWidth: string
-    /** Converts all small Kana characters to the equivalent full-size Kana. This value is typically used for ruby annotation text, where authors may want all small Kana to be drawn as large Kana to compensate for legibility issues at the small font sizes typically used in ruby.. `css-text` */
+    /** `css-text-4`: Converts all small Kana characters to the equivalent full-size Kana. This value is typically used for ruby annotation text, where authors may want all small Kana to be drawn as large Kana to compensate for legibility issues at the small font sizes typically used in ruby.
+
+    `css-text`: `full-size-kana` keyword. */
     const fullSizeKana: string
   }
 
-  /** Create a `text-underline` property. `unknown` */
+  /** Create a `text-underline` property. `unknown-spec` */
   function textUnderline(value: any): Property
 
-  /** Create a `text-underline-color` property. `unknown` */
+  /** Create a `text-underline-color` property. `unknown-spec` */
   function textUnderlineColor(value: any): Property
 
-  /** Create a `text-underline-mode` property. `unknown` */
+  /** Create a `text-underline-mode` property. `unknown-spec` */
   function textUnderlineMode(value: any): Property
 
   /** Create a `text-underline-offset` property. `css-text-decor-4` */
@@ -7266,30 +7266,30 @@ declare global {
   /** Create a `text-underline-position` property. `css-text-decor-4, css-text-decor` */
   function textUnderlinePosition(value: any): Property
   module textUnderlinePosition {
-    /** The user agent may use any algorithm to determine the underline’s position; however it must be placed at or under the alphabetic baseline. A typical “alphabetic” underline is positioned just below the alphabetic baseline. `css-text-decor-4` */
+    /** `css-text-decor-4`: The user agent may use any algorithm to determine the underline’s position; however it must be placed at or under the alphabetic baseline. A typical “alphabetic” underline is positioned just below the alphabetic baseline
+
+    `css-text-decor`: `auto` keyword. */
     const auto: string
     /** If the first available font has metrics indicating a preferred underline offset, use that offset, otherwise behaves as auto.. `css-text-decor-4` */
     const fromFont: string
-    /** The underline is positioned under the element’s text content. In this case the underline usually does not cross the descenders. (This is sometimes called “accounting” underline.) This value can be combined with left or right if a particular side is preferred in vertical typographic modes. text-underline-position: under Because text-underline-position inherits, and is not reset by the text-decoration shorthand, the following example switches the document to use under underlining, which can be more appropriate for writing systems with long, complicated descenders. It is also often useful for mathematical or chemical texts that use many subscripts. :root { text-underline-position: under; }. `css-text-decor-4` */
+    /** `css-text-decor-4`: The underline is positioned under the element’s text content. In this case the underline usually does not cross the descenders. (This is sometimes called “accounting” underline.) This value can be combined with left or right if a particular side is preferred in vertical typographic modes. text-underline-position: under Because text-underline-position inherits, and is not reset by the text-decoration shorthand, the following example switches the document to use under underlining, which can be more appropriate for writing systems with long, complicated descenders. It is also often useful for mathematical or chemical texts that use many subscripts. :root { text-underline-position: under; }
+
+    `css-text-decor`: `under` keyword. */
     const under: string
-    /** In vertical typographic modes, the underline is aligned as for under, except it is always aligned to the left edge of the text. If this causes the underline to be drawn on the "over" side of the text, then an overline also switches sides and is drawn on the "under" side.. `css-text-decor-4` */
+    /** `css-text-decor-4`: In vertical typographic modes, the underline is aligned as for under, except it is always aligned to the left edge of the text. If this causes the underline to be drawn on the "over" side of the text, then an overline also switches sides and is drawn on the "under" side.
+
+    `css-text-decor`: `left` keyword. */
     const left: string
-    /** In vertical typographic modes, the underline is aligned as for under, except it is always aligned to the right edge of the text. If this causes the underline to be drawn on the "over" side of the text, then an overline also switches sides and is drawn on the "under" side.. `css-text-decor-4` */
-    const right: string
-    /** The user agent may use any algorithm to determine the underline’s position; however it must be placed at or under the alphabetic baseline. A typical “alphabetic” underline is positioned just below the alphabetic baseline. `css-text-decor` */
-    const auto: string
-    /** The underline is positioned under the element’s text content. In this case the underline usually does not cross the descenders. (This is sometimes called “accounting” underline.) This value can be combined with left or right if a particular side is preferred in vertical typographic modes. text-underline-position: under Because text-underline-position inherits, and is not reset by the text-decoration shorthand, the following example switches the document to use under underlining, which can be more appropriate for writing systems with long, complicated descenders. It is also often useful for mathematical or chemical texts that use many subscripts. :root { text-underline-position: under; }. `css-text-decor` */
-    const under: string
-    /** In vertical typographic modes, the underline is aligned as for under, except it is always aligned to the left edge of the text. If this causes the underline to be drawn on the "over" side of the text, then an overline also switches sides and is drawn on the "under" side.. `css-text-decor` */
-    const left: string
-    /** In vertical typographic modes, the underline is aligned as for under, except it is always aligned to the right edge of the text. If this causes the underline to be drawn on the "over" side of the text, then an overline also switches sides and is drawn on the "under" side.. `css-text-decor` */
+    /** `css-text-decor-4`: In vertical typographic modes, the underline is aligned as for under, except it is always aligned to the right edge of the text. If this causes the underline to be drawn on the "over" side of the text, then an overline also switches sides and is drawn on the "under" side.
+
+    `css-text-decor`: `right` keyword. */
     const right: string
   }
 
-  /** Create a `text-underline-style` property. `unknown` */
+  /** Create a `text-underline-style` property. `unknown-spec` */
   function textUnderlineStyle(value: any): Property
 
-  /** Create a `text-underline-width` property. `unknown` */
+  /** Create a `text-underline-width` property. `unknown-spec` */
   function textUnderlineWidth(value: any): Property
 
   /** Create a `text-wrap` property. `css-text-4` */
@@ -7339,7 +7339,7 @@ declare global {
     const manipulation: string
   }
 
-  /** Create a `touch-action-delay` property. `unknown` */
+  /** Create a `touch-action-delay` property. `unknown-spec` */
   function touchActionDelay(value: any): Property
 
   /** Create a `transform` property. `css-transforms` */
@@ -7367,49 +7367,49 @@ declare global {
   /** Create a `transform-origin` property. `css-transforms` */
   function transformOrigin(value: any): Property
   module transformOrigin {
-    /** Computes to 0% for the horizontal position.. `css-transforms` */
+    /** `css-transforms`: Computes to 0% for the horizontal position.
+
+    `css-transforms`: `left` keyword.
+
+    `css-transforms`: `left` keyword. */
     const left: string
-    /** Computes to 50% (left 50%) for the horizontal position if the horizontal position is not otherwise specified, or 50% (top 50%) for the vertical position if it is.. `css-transforms` */
+    /** `css-transforms`: Computes to 50% (left 50%) for the horizontal position if the horizontal position is not otherwise specified, or 50% (top 50%) for the vertical position if it is.
+
+    `css-transforms`: `center` keyword.
+
+    `css-transforms`: `center` keyword.
+
+    `css-transforms`: `center` keyword.
+
+    `css-transforms`: `center` keyword. */
     const center: string
-    /** Computes to 100% for the horizontal position.. `css-transforms` */
+    /** `css-transforms`: Computes to 100% for the horizontal position.
+
+    `css-transforms`: `right` keyword.
+
+    `css-transforms`: `right` keyword. */
     const right: string
-    /** Computes to 0% for the vertical position.. `css-transforms` */
+    /** `css-transforms`: Computes to 0% for the vertical position.
+
+    `css-transforms`: `top` keyword.
+
+    `css-transforms`: `top` keyword. */
     const top: string
-    /** Computes to 100% for the vertical position.. `css-transforms` */
-    const bottom: string
-    /** Computes to 0% for the horizontal position.. `css-transforms` */
-    const left: string
-    /** Computes to 50% (left 50%) for the horizontal position if the horizontal position is not otherwise specified, or 50% (top 50%) for the vertical position if it is.. `css-transforms` */
-    const center: string
-    /** Computes to 100% for the horizontal position.. `css-transforms` */
-    const right: string
-    /** Computes to 0% for the vertical position.. `css-transforms` */
-    const top: string
-    /** Computes to 50% (left 50%) for the horizontal position if the horizontal position is not otherwise specified, or 50% (top 50%) for the vertical position if it is.. `css-transforms` */
-    const center: string
-    /** Computes to 100% for the vertical position.. `css-transforms` */
-    const bottom: string
-    /** Computes to 50% (left 50%) for the horizontal position if the horizontal position is not otherwise specified, or 50% (top 50%) for the vertical position if it is.. `css-transforms` */
-    const center: string
-    /** Computes to 0% for the horizontal position.. `css-transforms` */
-    const left: string
-    /** Computes to 100% for the horizontal position.. `css-transforms` */
-    const right: string
-    /** Computes to 50% (left 50%) for the horizontal position if the horizontal position is not otherwise specified, or 50% (top 50%) for the vertical position if it is.. `css-transforms` */
-    const center: string
-    /** Computes to 0% for the vertical position.. `css-transforms` */
-    const top: string
-    /** Computes to 100% for the vertical position.. `css-transforms` */
+    /** `css-transforms`: Computes to 100% for the vertical position.
+
+    `css-transforms`: `bottom` keyword.
+
+    `css-transforms`: `bottom` keyword. */
     const bottom: string
   }
 
-  /** Create a `transform-origin-x` property. `unknown` */
+  /** Create a `transform-origin-x` property. `unknown-spec` */
   function transformOriginX(value: any): Property
 
-  /** Create a `transform-origin-y` property. `unknown` */
+  /** Create a `transform-origin-y` property. `unknown-spec` */
   function transformOriginY(value: any): Property
 
-  /** Create a `transform-origin-z` property. `unknown` */
+  /** Create a `transform-origin-z` property. `unknown-spec` */
   function transformOriginZ(value: any): Property
 
   /** Create a `transform-style` property. `css-transforms-2` */
@@ -7451,10 +7451,10 @@ declare global {
     const none: string
   }
 
-  /** Create a `uc-alt-skin` property. `unknown` */
+  /** Create a `uc-alt-skin` property. `unknown-spec` */
   function ucAltSkin(value: any): Property
 
-  /** Create a `uc-skin` property. `unknown` */
+  /** Create a `uc-skin` property. `unknown-spec` */
   function ucSkin(value: any): Property
 
   /** Create a `unicode-bidi` property. `css-writing-modes` */
@@ -7474,7 +7474,7 @@ declare global {
     const plaintext: string
   }
 
-  /** Create a `unicode-range` property. `unknown` */
+  /** Create a `unicode-range` property. `unknown-spec` */
   function unicodeRange(value: any): Property
 
   /** Create a `user-select` property. `css-ui` */
@@ -7492,7 +7492,7 @@ declare global {
     const all: string
   }
 
-  /** Create a `user-zoom` property. `unknown` */
+  /** Create a `user-zoom` property. `unknown-spec` */
   function userZoom(value: any): Property
 
   /** Create a `vector-effect` property. `svg` */
@@ -7556,13 +7556,13 @@ declare global {
     const none: string
   }
 
-  /** Create a `viewport-fill` property. `unknown` */
+  /** Create a `viewport-fill` property. `unknown-spec` */
   function viewportFill(value: any): Property
 
-  /** Create a `viewport-fill-opacity` property. `unknown` */
+  /** Create a `viewport-fill-opacity` property. `unknown-spec` */
   function viewportFillOpacity(value: any): Property
 
-  /** Create a `viewport-fit` property. `unknown` */
+  /** Create a `viewport-fit` property. `unknown-spec` */
   function viewportFit(value: any): Property
 
   /** Create a `visibility` property. `css-display` */
@@ -7688,35 +7688,35 @@ declare global {
     const xLoud: string
   }
 
-  /** Create a `volume` property. `unknown` */
+  /** Create a `volume` property. `unknown-spec` */
   function volume(value: any): Property
 
   /** Create a `white-space` property. `css-text-4, css-text` */
   function whiteSpace(value: any): Property
   module whiteSpace {
-    /** This value directs user agents to collapse sequences of white space into a single character (or in some cases, no character). Lines may wrap at allowed soft wrap opportunities, as determined by the line-breaking rules in effect, in order to minimize inline-axis overflow.. `css-text-4` */
+    /** `css-text-4`: This value directs user agents to collapse sequences of white space into a single character (or in some cases, no character). Lines may wrap at allowed soft wrap opportunities, as determined by the line-breaking rules in effect, in order to minimize inline-axis overflow.
+
+    `css-text`: `normal` keyword. */
     const normal: string
-    /** This value prevents user agents from collapsing sequences of white space. Segment breaks such as line feeds are preserved as forced line breaks. Lines only break at forced line breaks; content that does not fit within the block container overflows it.. `css-text-4` */
+    /** `css-text-4`: This value prevents user agents from collapsing sequences of white space. Segment breaks such as line feeds are preserved as forced line breaks. Lines only break at forced line breaks; content that does not fit within the block container overflows it.
+
+    `css-text`: `pre` keyword. */
     const pre: string
-    /** Like normal, this value collapses white space; but like pre, it does not allow wrapping.. `css-text-4` */
+    /** `css-text-4`: Like normal, this value collapses white space; but like pre, it does not allow wrapping.
+
+    `css-text`: `nowrap` keyword. */
     const nowrap: string
-    /** Like pre, this value preserves white space; but like normal, it allows wrapping.. `css-text-4` */
+    /** `css-text-4`: Like pre, this value preserves white space; but like normal, it allows wrapping.
+
+    `css-text`: `pre-wrap` keyword. */
     const preWrap: string
-    /** The behavior is identical to that of pre-wrap, except that: Any sequence of preserved white space or other space separators always takes up space, including at the end of the line. Tests white-space-intrinsic-size-001.html (live test) (source) white-space-intrinsic-size-002.html (live test) (source) A line breaking opportunity exists after every preserved white space character and after every other space separator (including between adjacent spaces). Tests overflow-wrap-break-word-002.html (live test) (source) overflow-wrap-anywhere-002.html (live test) (source) break-spaces-001.html (live test) (source) break-spaces-002.html (live test) (source) break-spaces-003.html (live test) (source) break-spaces-004.html (live test) (source) break-spaces-005.html (live test) (source) break-spaces-006.html (live test) (source) break-spaces-007.html (live test) (source) break-spaces-008.html (live test) (source) break-spaces-009.html (live test) (source) break-spaces-010.html (live test) (source) break-spaces-051.html (live test) (source) break-spaces-052.html (live test) (source) white-space-pre-034.html (live test) (source) textarea-break-spaces-001.html (live test) (source) textarea-break-spaces-002.html (live test) (source) break-spaces-before-first-char-001.html (live test) (source) break-spaces-before-first-char-002.html (live test) (source) break-spaces-before-first-char-003.html (live test) (source) break-spaces-before-first-char-004.html (live test) (source) break-spaces-before-first-char-005.html (live test) (source) break-spaces-before-first-char-006.html (live test) (source) break-spaces-before-first-char-007.html (live test) (source) break-spaces-before-first-char-008.html (live test) (source) break-spaces-before-first-char-009.html (live test) (source) break-spaces-before-first-char-010.html (live test) (source) break-spaces-before-first-char-011.html (live test) (source) break-spaces-before-first-char-012.html (live test) (source) break-spaces-before-first-char-013.html (live test) (source) break-spaces-before-first-char-014.html (live test) (source) break-spaces-before-first-char-015.html (live test) (source) break-spaces-before-first-char-016.html (live test) (source) break-spaces-before-first-char-017.html (live test) (source) break-spaces-before-first-char-018.html (live test) (source) break-spaces-before-first-ideographic-char-001.html (live test) (source) break-spaces-before-first-ideographic-char-002.html (live test) (source) break-spaces-before-first-ideographic-char-003.html (live test) (source) break-spaces-before-first-ideographic-char-004.html (live test) (source) break-spaces-before-first-ideographic-char-005.html (live test) (source) break-spaces-before-first-ideographic-char-006.html (live test) (source) break-spaces-before-first-ideographic-char-007.html (live test) (source) break-spaces-before-first-ideographic-char-008.html (live test) (source) break-spaces-before-first-ideographic-char-009.html (live test) (source) break-spaces-before-first-ideographic-char-010.html (live test) (source) break-spaces-before-first-ideographic-char-011.html (live test) (source) break-spaces-before-first-ideographic-char-012.html (live test) (source) break-spaces-before-first-ideographic-char-013.html (live test) (source) break-spaces-before-first-ideographic-char-014.html (live test) (source) break-spaces-before-first-ideographic-char-015.html (live test) (source) break-spaces-before-first-ideographic-char-016.html (live test) (source) break-spaces-before-first-ideographic-char-017.html (live test) (source) break-spaces-before-first-ideographic-char-018.html (live test) (source) tab-stop-threshold-005.html (live test) (source) tab-stop-threshold-006.html (live test) (source) word-break-break-all-017.html (live test) (source) break-spaces-tab-001.html (live test) (source) break-spaces-tab-002.html (live test) (source) break-spaces-tab-003.html (live test) (source) break-spaces-tab-004.html (live test) (source) break-spaces-tab-005.html (live test) (source) break-spaces-tab-006.html (live test) (source) break-spaces-with-overflow-wrap-001.html (live test) (source) break-spaces-with-overflow-wrap-002.html (live test) (source) break-spaces-with-overflow-wrap-003.html (live test) (source) break-spaces-with-overflow-wrap-004.html (live test) (source) break-spaces-with-overflow-wrap-005.html (live test) (source) break-spaces-with-overflow-wrap-006.html (live test) (source) break-spaces-with-overflow-wrap-007.html (live test) (source) break-spaces-with-overflow-wrap-008.html (live test) (source) break-spaces-with-overflow-wrap-009.html (live test) (source) break-spaces-with-overflow-wrap-010.html (live test) (source) break-spaces-with-ideographic-space-001.html (live test) (source) break-spaces-with-ideographic-space-002.html (live test) (source) break-spaces-with-ideographic-space-003.html (live test) (source) break-spaces-with-ideographic-space-004.html (live test) (source) break-spaces-with-ideographic-space-005.html (live test) (source) break-spaces-with-ideographic-space-006.html (live test) (source) break-spaces-with-ideographic-space-007.html (live test) (source) break-spaces-with-ideographic-space-008.html (live test) (source) break-spaces-with-ideographic-space-009.html (live test) (source) break-spaces-with-ideographic-space-010.html (live test) (source) line-break-anywhere-and-white-space-008.html (live test) (source) line-break-anywhere-and-white-space-009.html (live test) (source) ws-break-spaces-applies-to-001.html (live test) (source) ws-break-spaces-applies-to-002.html (live test) (source) ws-break-spaces-applies-to-003.html (live test) (source) ws-break-spaces-applies-to-005.html (live test) (source) ws-break-spaces-applies-to-006.html (live test) (source) ws-break-spaces-applies-to-007.html (live test) (source) ws-break-spaces-applies-to-008.html (live test) (source) ws-break-spaces-applies-to-009.html (live test) (source) ws-break-spaces-applies-to-010.html (live test) (source) ws-break-spaces-applies-to-011.html (live test) (source) ws-break-spaces-applies-to-012.html (live test) (source) ws-break-spaces-applies-to-013.html (live test) (source) ws-break-spaces-applies-to-014.html (live test) (source) ws-break-spaces-applies-to-015.html (live test) (source) break-spaces-newline-011.html (live test) (source) break-spaces-newline-012.html (live test) (source) break-spaces-newline-013.html (live test) (source) break-spaces-newline-014.html (live test) (source) break-spaces-newline-015.html (live test) (source) break-spaces-newline-016.html (live test) (source) trailing-ideographic-space-break-spaces-001.html (live test) (source) trailing-ideographic-space-break-spaces-002.html (live test) (source) trailing-ideographic-space-break-spaces-003.html (live test) (source) trailing-ideographic-space-break-spaces-004.html (live test) (source) trailing-ideographic-space-break-spaces-005.html (live test) (source) trailing-ideographic-space-break-spaces-006.html (live test) (source) trailing-ideographic-space-break-spaces-007.html (live test) (source) trailing-ideographic-space-break-spaces-008.html (live test) (source). `css-text-4` */
+    /** `css-text-4`: The behavior is identical to that of pre-wrap, except that: Any sequence of preserved white space or other space separators always takes up space, including at the end of the line. Tests white-space-intrinsic-size-001.html (live test) (source) white-space-intrinsic-size-002.html (live test) (source) A line breaking opportunity exists after every preserved white space character and after every other space separator (including between adjacent spaces). Tests overflow-wrap-break-word-002.html (live test) (source) overflow-wrap-anywhere-002.html (live test) (source) break-spaces-001.html (live test) (source) break-spaces-002.html (live test) (source) break-spaces-003.html (live test) (source) break-spaces-004.html (live test) (source) break-spaces-005.html (live test) (source) break-spaces-006.html (live test) (source) break-spaces-007.html (live test) (source) break-spaces-008.html (live test) (source) break-spaces-009.html (live test) (source) break-spaces-010.html (live test) (source) break-spaces-051.html (live test) (source) break-spaces-052.html (live test) (source) white-space-pre-034.html (live test) (source) textarea-break-spaces-001.html (live test) (source) textarea-break-spaces-002.html (live test) (source) break-spaces-before-first-char-001.html (live test) (source) break-spaces-before-first-char-002.html (live test) (source) break-spaces-before-first-char-003.html (live test) (source) break-spaces-before-first-char-004.html (live test) (source) break-spaces-before-first-char-005.html (live test) (source) break-spaces-before-first-char-006.html (live test) (source) break-spaces-before-first-char-007.html (live test) (source) break-spaces-before-first-char-008.html (live test) (source) break-spaces-before-first-char-009.html (live test) (source) break-spaces-before-first-char-010.html (live test) (source) break-spaces-before-first-char-011.html (live test) (source) break-spaces-before-first-char-012.html (live test) (source) break-spaces-before-first-char-013.html (live test) (source) break-spaces-before-first-char-014.html (live test) (source) break-spaces-before-first-char-015.html (live test) (source) break-spaces-before-first-char-016.html (live test) (source) break-spaces-before-first-char-017.html (live test) (source) break-spaces-before-first-char-018.html (live test) (source) break-spaces-before-first-ideographic-char-001.html (live test) (source) break-spaces-before-first-ideographic-char-002.html (live test) (source) break-spaces-before-first-ideographic-char-003.html (live test) (source) break-spaces-before-first-ideographic-char-004.html (live test) (source) break-spaces-before-first-ideographic-char-005.html (live test) (source) break-spaces-before-first-ideographic-char-006.html (live test) (source) break-spaces-before-first-ideographic-char-007.html (live test) (source) break-spaces-before-first-ideographic-char-008.html (live test) (source) break-spaces-before-first-ideographic-char-009.html (live test) (source) break-spaces-before-first-ideographic-char-010.html (live test) (source) break-spaces-before-first-ideographic-char-011.html (live test) (source) break-spaces-before-first-ideographic-char-012.html (live test) (source) break-spaces-before-first-ideographic-char-013.html (live test) (source) break-spaces-before-first-ideographic-char-014.html (live test) (source) break-spaces-before-first-ideographic-char-015.html (live test) (source) break-spaces-before-first-ideographic-char-016.html (live test) (source) break-spaces-before-first-ideographic-char-017.html (live test) (source) break-spaces-before-first-ideographic-char-018.html (live test) (source) tab-stop-threshold-005.html (live test) (source) tab-stop-threshold-006.html (live test) (source) word-break-break-all-017.html (live test) (source) break-spaces-tab-001.html (live test) (source) break-spaces-tab-002.html (live test) (source) break-spaces-tab-003.html (live test) (source) break-spaces-tab-004.html (live test) (source) break-spaces-tab-005.html (live test) (source) break-spaces-tab-006.html (live test) (source) break-spaces-with-overflow-wrap-001.html (live test) (source) break-spaces-with-overflow-wrap-002.html (live test) (source) break-spaces-with-overflow-wrap-003.html (live test) (source) break-spaces-with-overflow-wrap-004.html (live test) (source) break-spaces-with-overflow-wrap-005.html (live test) (source) break-spaces-with-overflow-wrap-006.html (live test) (source) break-spaces-with-overflow-wrap-007.html (live test) (source) break-spaces-with-overflow-wrap-008.html (live test) (source) break-spaces-with-overflow-wrap-009.html (live test) (source) break-spaces-with-overflow-wrap-010.html (live test) (source) break-spaces-with-ideographic-space-001.html (live test) (source) break-spaces-with-ideographic-space-002.html (live test) (source) break-spaces-with-ideographic-space-003.html (live test) (source) break-spaces-with-ideographic-space-004.html (live test) (source) break-spaces-with-ideographic-space-005.html (live test) (source) break-spaces-with-ideographic-space-006.html (live test) (source) break-spaces-with-ideographic-space-007.html (live test) (source) break-spaces-with-ideographic-space-008.html (live test) (source) break-spaces-with-ideographic-space-009.html (live test) (source) break-spaces-with-ideographic-space-010.html (live test) (source) line-break-anywhere-and-white-space-008.html (live test) (source) line-break-anywhere-and-white-space-009.html (live test) (source) ws-break-spaces-applies-to-001.html (live test) (source) ws-break-spaces-applies-to-002.html (live test) (source) ws-break-spaces-applies-to-003.html (live test) (source) ws-break-spaces-applies-to-005.html (live test) (source) ws-break-spaces-applies-to-006.html (live test) (source) ws-break-spaces-applies-to-007.html (live test) (source) ws-break-spaces-applies-to-008.html (live test) (source) ws-break-spaces-applies-to-009.html (live test) (source) ws-break-spaces-applies-to-010.html (live test) (source) ws-break-spaces-applies-to-011.html (live test) (source) ws-break-spaces-applies-to-012.html (live test) (source) ws-break-spaces-applies-to-013.html (live test) (source) ws-break-spaces-applies-to-014.html (live test) (source) ws-break-spaces-applies-to-015.html (live test) (source) break-spaces-newline-011.html (live test) (source) break-spaces-newline-012.html (live test) (source) break-spaces-newline-013.html (live test) (source) break-spaces-newline-014.html (live test) (source) break-spaces-newline-015.html (live test) (source) break-spaces-newline-016.html (live test) (source) trailing-ideographic-space-break-spaces-001.html (live test) (source) trailing-ideographic-space-break-spaces-002.html (live test) (source) trailing-ideographic-space-break-spaces-003.html (live test) (source) trailing-ideographic-space-break-spaces-004.html (live test) (source) trailing-ideographic-space-break-spaces-005.html (live test) (source) trailing-ideographic-space-break-spaces-006.html (live test) (source) trailing-ideographic-space-break-spaces-007.html (live test) (source) trailing-ideographic-space-break-spaces-008.html (live test) (source)
+
+    `css-text`: The behavior is identical to that of pre-wrap, except that: Any sequence of preserved white space or other space separators always takes up space, including at the end of the line. A line breaking opportunity exists after every preserved white space character and after every other space separator (including between adjacent spaces). */
     const breakSpaces: string
-    /** Like normal, this value collapses consecutive white space characters and allows wrapping, but it preserves segment breaks in the source as forced line breaks.. `css-text-4` */
-    const preLine: string
-    /** This value directs user agents to collapse sequences of white space into a single character (or in some cases, no character). Lines may wrap at allowed soft wrap opportunities, as determined by the line-breaking rules in effect, in order to minimize inline-axis overflow.. `css-text` */
-    const normal: string
-    /** This value prevents user agents from collapsing sequences of white space. Segment breaks such as line feeds are preserved as forced line breaks. Lines only break at forced line breaks; content that does not fit within the block container overflows it.. `css-text` */
-    const pre: string
-    /** Like normal, this value collapses white space; but like pre, it does not allow wrapping.. `css-text` */
-    const nowrap: string
-    /** Like pre, this value preserves white space; but like normal, it allows wrapping.. `css-text` */
-    const preWrap: string
-    /** The behavior is identical to that of pre-wrap, except that: Any sequence of preserved white space or other space separators always takes up space, including at the end of the line. A line breaking opportunity exists after every preserved white space character and after every other space separator (including between adjacent spaces).. `css-text` */
-    const breakSpaces: string
-    /** Like normal, this value collapses consecutive white space characters and allows wrapping, but it preserves segment breaks in the source as forced line breaks.. `css-text` */
+    /** `css-text-4`: Like normal, this value collapses consecutive white space characters and allows wrapping, but it preserves segment breaks in the source as forced line breaks.
+
+    `css-text`: `pre-line` keyword. */
     const preLine: string
   }
 
@@ -7764,47 +7764,47 @@ declare global {
   /** Create a `word-break` property. `css-text-4, css-text` */
   function wordBreak(value: any): Property
   module wordBreak {
-    /** Words break according to their customary rules, as described above. Korean, which commonly exhibits two different behaviors, allows breaks between any two consecutive Hangul/Hanja. For Ethiopic, which also exhibits two different behaviors, such breaks within words are not allowed.. `css-text-4` */
+    /** `css-text-4`: Words break according to their customary rules, as described above. Korean, which commonly exhibits two different behaviors, allows breaks between any two consecutive Hangul/Hanja. For Ethiopic, which also exhibits two different behaviors, such breaks within words are not allowed.
+
+    `css-text`: `normal` keyword. */
     const normal: string
-    /** Breaking is forbidden within “words”: implicit soft wrap opportunities between typographic letter units (or other typographic character units belonging to the NU, AL, AI, or ID Unicode line breaking classes [UAX14]) are suppressed, i.e. breaks are prohibited between pairs of such characters (regardless of line-break settings other than anywhere) except where opportunities exist due to dictionary-based breaking. Otherwise this option is equivalent to normal. In this style, sequences of CJK characters do not break.. `css-text-4` */
+    /** `css-text-4`: Breaking is forbidden within “words”: implicit soft wrap opportunities between typographic letter units (or other typographic character units belonging to the NU, AL, AI, or ID Unicode line breaking classes [UAX14]) are suppressed, i.e. breaks are prohibited between pairs of such characters (regardless of line-break settings other than anywhere) except where opportunities exist due to dictionary-based breaking. Otherwise this option is equivalent to normal. In this style, sequences of CJK characters do not break.
+
+    `css-text`: `keep-all` keyword. */
     const keepAll: string
-    /** Breaking is allowed within “words”: specifically, in addition to soft wrap opportunities allowed for normal, any typographic letter units (and any typographic character units resolving to the NU (“numeric”), AL (“alphabetic”), or SA (“Southeast Asian”) line breaking classes [UAX14]) are instead treated as ID (“ideographic characters”) for the purpose of line-breaking. Hyphenation is not applied.. `css-text-4` */
+    /** `css-text-4`: Breaking is allowed within “words”: specifically, in addition to soft wrap opportunities allowed for normal, any typographic letter units (and any typographic character units resolving to the NU (“numeric”), AL (“alphabetic”), or SA (“Southeast Asian”) line breaking classes [UAX14]) are instead treated as ID (“ideographic characters”) for the purpose of line-breaking. Hyphenation is not applied.
+
+    `css-text`: `break-all` keyword. */
     const breakAll: string
-    /** For compatibility with legacy content, the word-break property also supports a deprecated break-word keyword. When specified, this has the same effect as word-break: normal and overflow-wrap: anywhere, regardless of the actual value of the overflow-wrap property.. `css-text-4` */
-    const breakWord: string
-    /** Words break according to their customary rules, as described above. Korean, which commonly exhibits two different behaviors, allows breaks between any two consecutive Hangul/Hanja. For Ethiopic, which also exhibits two different behaviors, such breaks within words are not allowed.. `css-text` */
-    const normal: string
-    /** Breaking is forbidden within “words”: implicit soft wrap opportunities between typographic letter units (or other typographic character units belonging to the NU, AL, AI, or ID Unicode line breaking classes [UAX14]) are suppressed, i.e. breaks are prohibited between pairs of such characters (regardless of line-break settings other than anywhere) except where opportunities exist due to dictionary-based breaking. Otherwise this option is equivalent to normal. In this style, sequences of CJK characters do not break.. `css-text` */
-    const keepAll: string
-    /** Breaking is allowed within “words”: specifically, in addition to soft wrap opportunities allowed for normal, any typographic letter units (and any typographic character units resolving to the NU (“numeric”), AL (“alphabetic”), or SA (“Southeast Asian”) line breaking classes [UAX14]) are instead treated as ID (“ideographic characters”) for the purpose of line-breaking. Hyphenation is not applied.. `css-text` */
-    const breakAll: string
-    /** For compatibility with legacy content, the word-break property also supports a deprecated break-word keyword. When specified, this has the same effect as word-break: normal and overflow-wrap: anywhere, regardless of the actual value of the overflow-wrap property.. `css-text` */
+    /** `css-text-4`: For compatibility with legacy content, the word-break property also supports a deprecated break-word keyword. When specified, this has the same effect as word-break: normal and overflow-wrap: anywhere, regardless of the actual value of the overflow-wrap property.
+
+    `css-text`: `break-word` keyword. */
     const breakWord: string
   }
 
   /** Create a `word-spacing` property. `css-text-4, css-text` */
   function wordSpacing(value: any): Property
   module wordSpacing {
-    /** No additional spacing is applied. Computes to zero.. `css-text-4` */
-    const normal: string
-    /** No additional spacing is applied. Computes to zero.. `css-text` */
+    /** `css-text-4`: No additional spacing is applied. Computes to zero.
+
+    `css-text`: `normal` keyword. */
     const normal: string
   }
 
   /** Create a `word-wrap` property. `css-text-4, css-text` */
   function wordWrap(value: any): Property
   module wordWrap {
-    /** `normal` keyword. `css-text-4` */
+    /** `css-text-4`: `normal` keyword.
+
+    `css-text`: `normal` keyword. */
     const normal: string
-    /** `break-word` keyword. `css-text-4` */
+    /** `css-text-4`: `break-word` keyword.
+
+    `css-text`: `break-word` keyword. */
     const breakWord: string
-    /** `anywhere` keyword. `css-text-4` */
-    const anywhere: string
-    /** `normal` keyword. `css-text` */
-    const normal: string
-    /** `break-word` keyword. `css-text` */
-    const breakWord: string
-    /** `anywhere` keyword. `css-text` */
+    /** `css-text-4`: `anywhere` keyword.
+
+    `css-text`: `anywhere` keyword. */
     const anywhere: string
   }
 
@@ -7909,7 +7909,7 @@ declare global {
     const inherit: string
   }
 
-  /** Create a `zoom` property. `unknown` */
+  /** Create a `zoom` property. `unknown-spec` */
   function zoom(value: any): Property
 
 }

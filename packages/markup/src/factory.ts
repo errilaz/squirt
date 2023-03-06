@@ -43,6 +43,11 @@ export module Factory {
     }
   }
 
+  /** Helper for generated property modules. */
+  export function propertyValue(name: string, value: any) {
+    return new Property(name, value)
+  }
+
   /** Factory at-rules. */
   export function atRule(keyword: string) {
     return function nestedAtRule(...contents: any[]) {

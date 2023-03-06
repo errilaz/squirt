@@ -6,6 +6,8 @@ export default async function getCssSymbols() {
   const properties: SpecProperty[] = []
   const propLookup: Record<string, SpecProperty | undefined> = {}
 
+  // Generate properties from @webref/css
+
   const refs = await getCssRefs()
 
   const excludedTypes = [
@@ -49,23 +51,11 @@ export default async function getCssSymbols() {
             enter(node) {
               if (node.type === "Keyword" && /^[a-z]/.test(node.name)) {
                 const help = refProp.values?.find(v => v.name === node.name)?.prose
-                property!.values.push({
-                  type: "keyword",
-                  name: node.name,
-                  jsName: camelize(jsName(node.name)),
-                  help,
-                  spec,
-                })
+                addValue(property!, "keyword", node.name, spec, help)
               }
               else if (node.type === "Type" && node.name === "color") {
                 const help = refProp.values?.find(v => v.name === node.name)?.prose
-                property!.values.push({
-                  type: "color",
-                  name: node.name,
-                  jsName: camelize(jsName(node.name)),
-                  help,
-                  spec,
-                })
+                addValue(property!, "color", node.name, spec, help)
               }
               else if (node.type === "Type") {
                 const valuesType = findValuesType(node.name)
@@ -73,13 +63,7 @@ export default async function getCssSymbols() {
                   for (const value of valuesType.values!) {
                     if (value.name.includes("<") || value.name.includes("(")) continue
                     if (excludedValues.includes(value.name)) continue
-                    property!.values.push({
-                      type: "keyword",
-                      name: value.name,
-                      jsName: camelize(jsName(value.name)),
-                      spec,
-                      help: value.prose,
-                    })
+                    addValue(property!, "keyword", value.name, spec, value.prose)
                   }
                 }
               }
@@ -88,6 +72,32 @@ export default async function getCssSymbols() {
         }
       }
     }
+  }
+
+  // Generate properties from known-css-properties
+
+  const unknownSpec: Spec = {
+    title: "Unknown Specification",
+    shortName: "unknown-spec",
+  }
+
+  for (const name of knownCssProperties) {
+    if (propLookup.hasOwnProperty(name)) continue
+
+    properties.push({
+      name,
+      jsName: camelize(jsName(name)),
+      specs: [unknownSpec],
+      values: [],
+    })
+  }
+  
+  // Sort properties
+
+  properties.sort((a, b) => a.name.localeCompare(b.name))
+
+  return {
+    properties,
   }
 
   function findValuesType(name: string) {
@@ -101,27 +111,20 @@ export default async function getCssSymbols() {
     }
     return undefined
   }
+}
 
-  const unknownSpec: Spec = {
-    title: "Unknown Specification",
-    shortName: "unknown",
-  }
-
-  for (const name of knownCssProperties) {
-    if (propLookup.hasOwnProperty(name)) continue
-
-    properties.push({
-      name,
+function addValue(property: SpecProperty, type: SpecValue["type"], name: string, spec: Spec, help: string | undefined) {
+  const original = property.values.find(v => v.name === name)
+  if (!original) {
+    property!.values.push({
+      type: "keyword",
+      name: name,
       jsName: camelize(jsName(name)),
-      specs: [unknownSpec],
-      values: [],
+      helps: [{ spec, help }],
     })
   }
-
-  properties.sort((a, b) => a.name.localeCompare(b.name))
-
-  return {
-    properties,
+  else {
+    original.helps.push({ spec, help: help === original.helps[0].help ? undefined : help })
   }
 }
 
@@ -140,8 +143,12 @@ export interface SpecProperty {
 export interface SpecValue {
   name: string
   jsName: string
-  spec: Spec
   type: "keyword" | "color"
+  helps: SpecValueHelp[]
+}
+
+export interface SpecValueHelp {
+  spec: Spec
   help?: string
 }
 
