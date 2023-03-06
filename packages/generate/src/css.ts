@@ -111,7 +111,7 @@ export default async function getCssSymbols() {
   const atrules = Object.keys(refs)
     .flatMap(key => refs[key].atrules)
     .map(atrule => ({
-      name: atrule.name,
+      name: atrule.name.substring(1),
       jsName: camelize(jsName(atrule.name.substring(1))),
       help: atrule.prose,
     }))
