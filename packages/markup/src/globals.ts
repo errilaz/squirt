@@ -4,7 +4,6 @@ import { Primitives } from "./primitives"
 import { render } from "./render"
 
 defineHtmlGlobals()
-console.log(defineCssGlobals)
 defineCssGlobals()
 
 Object.defineProperty(globalThis, "render", { value: render })
