@@ -58,8 +58,8 @@ Use `src/public` for static files.
 
 ### Page Routes
 
-- `*.html.civet`
 - `*.html.ts`
+- `*.html.civet`
 - `*.html.js`
 
 Page routes return HTML, typically created with the [`@squirt/markup`](#markup) builder DSL. Simple example:
@@ -87,8 +87,8 @@ Page routes can also directly return a `Response` to override rendering.
 
 ### Stylesheet Routes
 
-- `*.css.civet`
 - `*.css.ts`
+- `*.css.civet`
 - `*.css.js`
 
 Stylesheet routes return CSS, also typically created with the [`@squirt/markup`](#markup) builder DSL. Unlike other routes, the `.css` extension is matched in the URL.
@@ -105,8 +105,8 @@ export default [
 
 ### API Routes
 
-- `*.api.civet`
 - `*.api.ts`
+- `*.api.civet`
 - `*.api.js`
 
 API routes should return a Response object.
@@ -120,8 +120,8 @@ export function get({ url }: Context) {
 
 ### WebSocket Routes
 
-- `*.socket.civet`
 - `*.socket.ts`
+- `*.socket.civet`
 - `*.socket.js`
 
 Socket routes should return an object with methods matching the [Bun WebSocket event handlers](https://bun.sh/docs/api/websockets):
@@ -161,8 +161,8 @@ The `liveReload()` function can be included in a page - this will embed a `<scri
 
 Squirt is crazy with globals, so it provides the ability to define your own. Project-specific globals can be defined in files matching these patterns:
 
-- `*.global.civet`
 - `*.global.ts`
+- `*.global.civet`
 - `*.global.js`
 
 These will work with Live Reload. You can use the default export with an object containing keys, or use named exports. Example:
@@ -184,8 +184,8 @@ export default {
 
 Files matching these patterns are `Context` extensions:
 
-- `*.context.civet`
 - `*.context.ts`
+- `*.context.civet`
 - `*.context.js`
 
 These are run on each request to augment the `Context` object with your own values. They should export a default function which returns an object containing additional keys/values. Example:
@@ -267,19 +267,34 @@ Class names are automatically converted to `kebab-case`.
 
 ### Styles
 
-Style tags can use the `rule` function to define CSS rules. Custom properties may use the `prop` function:
+All standard and known vendor-specific CSS properties are global functions:
+
+```ts
+color("#ff0000"),
+border("solid 1px red"),
+webkitBorderImageWidth("4px"),
+_continue("auto"),  // conflicts with JS keywords are prefixed with underscore
+```
+
+Standard values are also available as properties on these functions:
+
+```ts
+color.red,
+borderStyle.dashed,
+_continue.auto,
+```
+
+The `rule` function can be used within style elements to define CSS rules. Custom properties may use the `prop` function.
 
 ```ts
 style(
   rule(".red-bold",
-    color("red"),
-    fontWeight("bold"),
+    color.red,
+    fontWeight.bold,
     prop("-some-nonstandard", "value"),
   )
 )
 ```
-
-All standard CSS properties are included. The `continue` property is called `_continue` due to conflict with the JS keyword. Known vendor-specific properties are also available, without the leading `-`.
 
 ### Inline Styles
 
@@ -287,8 +302,8 @@ You can add CSS properties directly to elements:
 
 ```ts
 div(
-  color("red"),
-  fontWeight("bold"),
+  color.red,
+  fontWeight.bold,
   "this is bold and red!",
 )
 ```
@@ -299,9 +314,9 @@ Rules may be nested:
 
 ```ts
 rule(".danger",
-  color("red"),
+  color.red,
   rule(".icon",
-    float("right"),
+    float.right,
   ),
 )
 ```
@@ -310,7 +325,7 @@ Child selectors can be combined with the parent selector, similar to Sass and Le
 
 ```ts
 rule(".danger",
-  color("red"),
+  color.red,
   rule("&.large",
     fontSize("40px")
   ),
@@ -321,9 +336,9 @@ Nested selectors with pseudo-classes do the same:
 
 ```ts
 rule("a",
-  color("red"),
+  color.red,
   rule(":hover",
-    textDecoration("underline"),
+    textDecoration.underline,
   ),
 )
 ```
@@ -334,7 +349,7 @@ Squirt detects multiple selectors in a rule and will generate the necessary CSS:
 rule("input, textarea",
   border("solid 1px gray"),
   rule(":hover, :focus",
-    borderColor("black"),
+    borderColor.black,
   ),
 )
 ```
@@ -356,7 +371,7 @@ $media("(prefers-color-scheme: dark)",
 ```ts
 $layer(
   rule("p",
-    color("red"),
+    color.red,
   )
 )
 ```
