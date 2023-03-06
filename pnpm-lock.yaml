@@ -15,10 +15,18 @@ importers:
 
   packages/generate:
     specifiers:
+      '@types/css-tree': ^2.3.1
+      '@webref/css': ^6.4.1
+      '@webref/elements': ^2.1.0
       bun-types: ^0.5.6
+      css-tree: ^2.3.1
       html-tags: ^3.2.0
       known-css-properties: ^0.26.0
     dependencies:
+      '@types/css-tree': 2.3.1
+      '@webref/css': 6.4.1_css-tree@2.3.1
+      '@webref/elements': 2.1.0
+      css-tree: 2.3.1
       html-tags: 3.2.0
       known-css-properties: 0.26.0
     devDependencies:
@@ -68,6 +76,10 @@ packages:
     hasBin: true
     dev: false
 
+  /@types/css-tree/2.3.1:
+    resolution: {integrity: sha512-3m636Jz4d9d+lHVMp6FNLsUWQrfOx1xpm1SBxPbQYSNNgXMe+XswcsDeo1ldyULiuzYyWKk1kmvkLTgNq+215Q==}
+    dev: false
+
   /@types/cssesc/3.0.0:
     resolution: {integrity: sha512-4mBnOrTpVKn+tYzlnMO7cwDkDa6wlQ2bBXW+79/6ahMd36GF216kxWYxgz+S4d5Ev1ByFbnQbPGxV4P5BSL8MA==}
     dev: true
@@ -89,9 +101,29 @@ packages:
       '@types/node': 18.13.0
     dev: true
 
+  /@webref/css/6.4.1_css-tree@2.3.1:
+    resolution: {integrity: sha512-1PmCCRiJUMZeZqbf+AJg0gEJvqZiM3TWqaUTPk+p2ujDb/ylDm0lgKNG7q3Sf7aQUsS8SGXcj8N7rByiDLwjZw==}
+    peerDependencies:
+      css-tree: ^2.3.1
+    dependencies:
+      css-tree: 2.3.1
+    dev: false
+
+  /@webref/elements/2.1.0:
+    resolution: {integrity: sha512-voCK9fWmUyWG55GNrHyowrdxI3zg/zLWfmZxWVNI94KjINcgnW0oi6amR3ZofIPbw26Eaqj7JrgAX0CADvDCyQ==}
+    dev: false
+
   /bun-types/0.5.6:
     resolution: {integrity: sha512-c4XXSAo4gA03XE3EIOB1bcLxUvWMzhiE9AQdoZi+3fplNLpyeOw7UJM3o1UCtk00NYZQIbgC/eJ88QrlSdxhxg==}
     dev: true
+
+  /css-tree/2.3.1:
+    resolution: {integrity: sha512-6Fv1DV/TYw//QF5IzQdqsNDjx/wc8TrMBZsqjL9eW01tWb7R7k/mq+/VXfJCl7SoD5emsJop9cOByJZfs8hYIw==}
+    engines: {node: ^10 || ^12.20.0 || ^14.13.0 || >=15.0.0}
+    dependencies:
+      mdn-data: 2.0.30
+      source-map-js: 1.0.2
+    dev: false
 
   /cssesc/3.0.0:
     resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==}
@@ -115,6 +147,10 @@ packages:
     resolution: {integrity: sha512-5FZRzrZzNTBruuurWpvZnvP9pum+fe0HcK8z/ooo+U+Hmp4vtbyp1/QDsqmufirXy4egGzbaH/y2uCZf+6W5Kg==}
     dev: false
 
+  /mdn-data/2.0.30:
+    resolution: {integrity: sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA==}
+    dev: false
+
   /regexparam/2.0.1:
     resolution: {integrity: sha512-zRgSaYemnNYxUv+/5SeoHI0eJIgTL/A2pUtXUPLHQxUldagouJ9p+K6IbIZ/JiQuCEv2E2B1O11SjVQy3aMCkw==}
     engines: {node: '>=8'}
@@ -130,6 +166,11 @@ packages:
 
   /serve-static-bun/0.5.0:
     resolution: {integrity: sha512-vWKqglkwPcFVZiRrtoUJzrnybliNSyXBG+27yNZuVGr5uwIihzMj/etMVkmN/BmS3G9Z1HBjyOqLUlHgBI3m3Q==}
+    dev: false
+
+  /source-map-js/1.0.2:
+    resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
+    engines: {node: '>=0.10.0'}
     dev: false
 
   /split/1.0.1:

@@ -1,4 +1,5 @@
-import "./generated/definitions"
+import "./generated/html.types"
+import "./generated/css.types"
 
 declare global {
   function render(x: any): string

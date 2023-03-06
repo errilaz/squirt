@@ -5,6 +5,7 @@
     "target": "ESNext",
     "moduleResolution": "node",
     "strict": true,
+    "noEmit": true,
     "noImplicitReturns": true,
     "downlevelIteration": true,
     "skipLibCheck": true,

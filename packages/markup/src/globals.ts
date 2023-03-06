@@ -1,8 +1,10 @@
-import defineGeneratedGlobals from "./generated/globals"
+import defineHtmlGlobals from "./generated/html.define"
+import defineCssGlobals from "./generated/css.define"
 import { Primitives } from "./primitives"
 import { render } from "./render"
 
-defineGeneratedGlobals()
+defineHtmlGlobals()
+defineCssGlobals()
 
 Object.defineProperty(globalThis, "render", { value: render })
 
