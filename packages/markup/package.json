@@ -28,7 +28,7 @@
   "module": "src/markup.ts",
   "types": "src/index.d.ts",
   "scripts": {
-    "generate": "bun node_modules/@squirt/generate/src/generate2.ts"
+    "generate": "bun node_modules/@squirt/generate/src/generate.ts"
   },
   "devDependencies": {
     "@squirt/generate": "workspace:*",

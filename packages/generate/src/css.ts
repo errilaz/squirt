@@ -83,6 +83,7 @@ export default async function getCssSymbols() {
 
   for (const name of knownCssProperties) {
     if (propLookup.hasOwnProperty(name)) continue
+    if (name.startsWith("-epub")) continue
 
     properties.push({
       name,
@@ -102,6 +103,7 @@ export default async function getCssSymbols() {
     .find(v => v.name === "<color>")!
     .values!
     .map(v => v.name)
+    .filter(c => c !== "none")
 
   // Collect Atrules
 
