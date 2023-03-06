@@ -3,6325 +3,7913 @@ import type { ElementBuilder, Property, AtRule } from "../dom"
 
 declare global {
 
-  /** Create a `-apple-color-filter` property (`unknown`). */
+  /** Create a `-apple-color-filter` property. `unknown` */
   function appleColorFilter(value: any): Property
 
-  /** Create a `-apple-dashboard-region` property (`unknown`). */
+  /** Create a `-apple-dashboard-region` property. `unknown` */
   function appleDashboardRegion(value: any): Property
 
-  /** Create a `-apple-pay-button-style` property (`unknown`). */
+  /** Create a `-apple-pay-button-style` property. `unknown` */
   function applePayButtonStyle(value: any): Property
 
-  /** Create a `-apple-pay-button-type` property (`unknown`). */
+  /** Create a `-apple-pay-button-type` property. `unknown` */
   function applePayButtonType(value: any): Property
 
-  /** Create a `-apple-trailing-word` property (`unknown`). */
+  /** Create a `-apple-trailing-word` property. `unknown` */
   function appleTrailingWord(value: any): Property
 
-  /** Create a `-epub-caption-side` property (`unknown`). */
+  /** Create a `-epub-caption-side` property. `unknown` */
   function epubCaptionSide(value: any): Property
 
-  /** Create a `-epub-hyphens` property (`unknown`). */
+  /** Create a `-epub-hyphens` property. `unknown` */
   function epubHyphens(value: any): Property
 
-  /** Create a `-epub-text-combine` property (`unknown`). */
+  /** Create a `-epub-text-combine` property. `unknown` */
   function epubTextCombine(value: any): Property
 
-  /** Create a `-epub-text-emphasis` property (`unknown`). */
+  /** Create a `-epub-text-emphasis` property. `unknown` */
   function epubTextEmphasis(value: any): Property
 
-  /** Create a `-epub-text-emphasis-color` property (`unknown`). */
+  /** Create a `-epub-text-emphasis-color` property. `unknown` */
   function epubTextEmphasisColor(value: any): Property
 
-  /** Create a `-epub-text-emphasis-style` property (`unknown`). */
+  /** Create a `-epub-text-emphasis-style` property. `unknown` */
   function epubTextEmphasisStyle(value: any): Property
 
-  /** Create a `-epub-text-orientation` property (`unknown`). */
+  /** Create a `-epub-text-orientation` property. `unknown` */
   function epubTextOrientation(value: any): Property
 
-  /** Create a `-epub-text-transform` property (`unknown`). */
+  /** Create a `-epub-text-transform` property. `unknown` */
   function epubTextTransform(value: any): Property
 
-  /** Create a `-epub-word-break` property (`unknown`). */
+  /** Create a `-epub-word-break` property. `unknown` */
   function epubWordBreak(value: any): Property
 
-  /** Create a `-epub-writing-mode` property (`unknown`). */
+  /** Create a `-epub-writing-mode` property. `unknown` */
   function epubWritingMode(value: any): Property
 
-  /** Create a `-internal-text-autosizing-status` property (`unknown`). */
+  /** Create a `-internal-text-autosizing-status` property. `unknown` */
   function internalTextAutosizingStatus(value: any): Property
 
-  /** Create a `-moz-animation` property (`unknown`). */
+  /** Create a `-moz-animation` property. `unknown` */
   function mozAnimation(value: any): Property
 
-  /** Create a `-moz-animation-delay` property (`unknown`). */
+  /** Create a `-moz-animation-delay` property. `unknown` */
   function mozAnimationDelay(value: any): Property
 
-  /** Create a `-moz-animation-direction` property (`unknown`). */
+  /** Create a `-moz-animation-direction` property. `unknown` */
   function mozAnimationDirection(value: any): Property
 
-  /** Create a `-moz-animation-duration` property (`unknown`). */
+  /** Create a `-moz-animation-duration` property. `unknown` */
   function mozAnimationDuration(value: any): Property
 
-  /** Create a `-moz-animation-fill-mode` property (`unknown`). */
+  /** Create a `-moz-animation-fill-mode` property. `unknown` */
   function mozAnimationFillMode(value: any): Property
 
-  /** Create a `-moz-animation-iteration-count` property (`unknown`). */
+  /** Create a `-moz-animation-iteration-count` property. `unknown` */
   function mozAnimationIterationCount(value: any): Property
 
-  /** Create a `-moz-animation-name` property (`unknown`). */
+  /** Create a `-moz-animation-name` property. `unknown` */
   function mozAnimationName(value: any): Property
 
-  /** Create a `-moz-animation-play-state` property (`unknown`). */
+  /** Create a `-moz-animation-play-state` property. `unknown` */
   function mozAnimationPlayState(value: any): Property
 
-  /** Create a `-moz-animation-timing-function` property (`unknown`). */
+  /** Create a `-moz-animation-timing-function` property. `unknown` */
   function mozAnimationTimingFunction(value: any): Property
 
-  /** Create a `-moz-appearance` property (`unknown`). */
+  /** Create a `-moz-appearance` property. `unknown` */
   function mozAppearance(value: any): Property
 
-  /** Create a `-moz-backface-visibility` property (`unknown`). */
+  /** Create a `-moz-backface-visibility` property. `unknown` */
   function mozBackfaceVisibility(value: any): Property
 
-  /** Create a `-moz-background-clip` property (`unknown`). */
+  /** Create a `-moz-background-clip` property. `unknown` */
   function mozBackgroundClip(value: any): Property
 
-  /** Create a `-moz-background-inline-policy` property (`unknown`). */
+  /** Create a `-moz-background-inline-policy` property. `unknown` */
   function mozBackgroundInlinePolicy(value: any): Property
 
-  /** Create a `-moz-background-origin` property (`unknown`). */
+  /** Create a `-moz-background-origin` property. `unknown` */
   function mozBackgroundOrigin(value: any): Property
 
-  /** Create a `-moz-background-size` property (`unknown`). */
+  /** Create a `-moz-background-size` property. `unknown` */
   function mozBackgroundSize(value: any): Property
 
-  /** Create a `-moz-binding` property (`unknown`). */
+  /** Create a `-moz-binding` property. `unknown` */
   function mozBinding(value: any): Property
 
-  /** Create a `-moz-border-bottom-colors` property (`unknown`). */
+  /** Create a `-moz-border-bottom-colors` property. `unknown` */
   function mozBorderBottomColors(value: any): Property
 
-  /** Create a `-moz-border-end` property (`unknown`). */
+  /** Create a `-moz-border-end` property. `unknown` */
   function mozBorderEnd(value: any): Property
 
-  /** Create a `-moz-border-end-color` property (`unknown`). */
+  /** Create a `-moz-border-end-color` property. `unknown` */
   function mozBorderEndColor(value: any): Property
 
-  /** Create a `-moz-border-end-style` property (`unknown`). */
+  /** Create a `-moz-border-end-style` property. `unknown` */
   function mozBorderEndStyle(value: any): Property
 
-  /** Create a `-moz-border-end-width` property (`unknown`). */
+  /** Create a `-moz-border-end-width` property. `unknown` */
   function mozBorderEndWidth(value: any): Property
 
-  /** Create a `-moz-border-image` property (`unknown`). */
+  /** Create a `-moz-border-image` property. `unknown` */
   function mozBorderImage(value: any): Property
 
-  /** Create a `-moz-border-left-colors` property (`unknown`). */
+  /** Create a `-moz-border-left-colors` property. `unknown` */
   function mozBorderLeftColors(value: any): Property
 
-  /** Create a `-moz-border-radius` property (`unknown`). */
+  /** Create a `-moz-border-radius` property. `unknown` */
   function mozBorderRadius(value: any): Property
 
-  /** Create a `-moz-border-radius-bottomleft` property (`unknown`). */
+  /** Create a `-moz-border-radius-bottomleft` property. `unknown` */
   function mozBorderRadiusBottomleft(value: any): Property
 
-  /** Create a `-moz-border-radius-bottomright` property (`unknown`). */
+  /** Create a `-moz-border-radius-bottomright` property. `unknown` */
   function mozBorderRadiusBottomright(value: any): Property
 
-  /** Create a `-moz-border-radius-topleft` property (`unknown`). */
+  /** Create a `-moz-border-radius-topleft` property. `unknown` */
   function mozBorderRadiusTopleft(value: any): Property
 
-  /** Create a `-moz-border-radius-topright` property (`unknown`). */
+  /** Create a `-moz-border-radius-topright` property. `unknown` */
   function mozBorderRadiusTopright(value: any): Property
 
-  /** Create a `-moz-border-right-colors` property (`unknown`). */
+  /** Create a `-moz-border-right-colors` property. `unknown` */
   function mozBorderRightColors(value: any): Property
 
-  /** Create a `-moz-border-start` property (`unknown`). */
+  /** Create a `-moz-border-start` property. `unknown` */
   function mozBorderStart(value: any): Property
 
-  /** Create a `-moz-border-start-color` property (`unknown`). */
+  /** Create a `-moz-border-start-color` property. `unknown` */
   function mozBorderStartColor(value: any): Property
 
-  /** Create a `-moz-border-start-style` property (`unknown`). */
+  /** Create a `-moz-border-start-style` property. `unknown` */
   function mozBorderStartStyle(value: any): Property
 
-  /** Create a `-moz-border-start-width` property (`unknown`). */
+  /** Create a `-moz-border-start-width` property. `unknown` */
   function mozBorderStartWidth(value: any): Property
 
-  /** Create a `-moz-border-top-colors` property (`unknown`). */
+  /** Create a `-moz-border-top-colors` property. `unknown` */
   function mozBorderTopColors(value: any): Property
 
-  /** Create a `-moz-box-align` property (`unknown`). */
+  /** Create a `-moz-box-align` property. `unknown` */
   function mozBoxAlign(value: any): Property
 
-  /** Create a `-moz-box-direction` property (`unknown`). */
+  /** Create a `-moz-box-direction` property. `unknown` */
   function mozBoxDirection(value: any): Property
 
-  /** Create a `-moz-box-flex` property (`unknown`). */
+  /** Create a `-moz-box-flex` property. `unknown` */
   function mozBoxFlex(value: any): Property
 
-  /** Create a `-moz-box-ordinal-group` property (`unknown`). */
+  /** Create a `-moz-box-ordinal-group` property. `unknown` */
   function mozBoxOrdinalGroup(value: any): Property
 
-  /** Create a `-moz-box-orient` property (`unknown`). */
+  /** Create a `-moz-box-orient` property. `unknown` */
   function mozBoxOrient(value: any): Property
 
-  /** Create a `-moz-box-pack` property (`unknown`). */
+  /** Create a `-moz-box-pack` property. `unknown` */
   function mozBoxPack(value: any): Property
 
-  /** Create a `-moz-box-shadow` property (`unknown`). */
+  /** Create a `-moz-box-shadow` property. `unknown` */
   function mozBoxShadow(value: any): Property
 
-  /** Create a `-moz-box-sizing` property (`unknown`). */
+  /** Create a `-moz-box-sizing` property. `unknown` */
   function mozBoxSizing(value: any): Property
 
-  /** Create a `-moz-column-count` property (`unknown`). */
+  /** Create a `-moz-column-count` property. `unknown` */
   function mozColumnCount(value: any): Property
 
-  /** Create a `-moz-column-fill` property (`unknown`). */
+  /** Create a `-moz-column-fill` property. `unknown` */
   function mozColumnFill(value: any): Property
 
-  /** Create a `-moz-column-gap` property (`unknown`). */
+  /** Create a `-moz-column-gap` property. `unknown` */
   function mozColumnGap(value: any): Property
 
-  /** Create a `-moz-column-rule` property (`unknown`). */
+  /** Create a `-moz-column-rule` property. `unknown` */
   function mozColumnRule(value: any): Property
 
-  /** Create a `-moz-column-rule-color` property (`unknown`). */
+  /** Create a `-moz-column-rule-color` property. `unknown` */
   function mozColumnRuleColor(value: any): Property
 
-  /** Create a `-moz-column-rule-style` property (`unknown`). */
+  /** Create a `-moz-column-rule-style` property. `unknown` */
   function mozColumnRuleStyle(value: any): Property
 
-  /** Create a `-moz-column-rule-width` property (`unknown`). */
+  /** Create a `-moz-column-rule-width` property. `unknown` */
   function mozColumnRuleWidth(value: any): Property
 
-  /** Create a `-moz-column-span` property (`unknown`). */
+  /** Create a `-moz-column-span` property. `unknown` */
   function mozColumnSpan(value: any): Property
 
-  /** Create a `-moz-column-width` property (`unknown`). */
+  /** Create a `-moz-column-width` property. `unknown` */
   function mozColumnWidth(value: any): Property
 
-  /** Create a `-moz-columns` property (`unknown`). */
+  /** Create a `-moz-columns` property. `unknown` */
   function mozColumns(value: any): Property
 
-  /** Create a `-moz-float-edge` property (`unknown`). */
+  /** Create a `-moz-float-edge` property. `unknown` */
   function mozFloatEdge(value: any): Property
 
-  /** Create a `-moz-font-feature-settings` property (`unknown`). */
+  /** Create a `-moz-font-feature-settings` property. `unknown` */
   function mozFontFeatureSettings(value: any): Property
 
-  /** Create a `-moz-font-language-override` property (`unknown`). */
+  /** Create a `-moz-font-language-override` property. `unknown` */
   function mozFontLanguageOverride(value: any): Property
 
-  /** Create a `-moz-force-broken-image-icon` property (`unknown`). */
+  /** Create a `-moz-force-broken-image-icon` property. `unknown` */
   function mozForceBrokenImageIcon(value: any): Property
 
-  /** Create a `-moz-hyphens` property (`unknown`). */
+  /** Create a `-moz-hyphens` property. `unknown` */
   function mozHyphens(value: any): Property
 
-  /** Create a `-moz-image-region` property (`unknown`). */
+  /** Create a `-moz-image-region` property. `unknown` */
   function mozImageRegion(value: any): Property
 
-  /** Create a `-moz-margin-end` property (`unknown`). */
+  /** Create a `-moz-margin-end` property. `unknown` */
   function mozMarginEnd(value: any): Property
 
-  /** Create a `-moz-margin-start` property (`unknown`). */
+  /** Create a `-moz-margin-start` property. `unknown` */
   function mozMarginStart(value: any): Property
 
-  /** Create a `-moz-opacity` property (`unknown`). */
+  /** Create a `-moz-opacity` property. `unknown` */
   function mozOpacity(value: any): Property
 
-  /** Create a `-moz-orient` property (`unknown`). */
+  /** Create a `-moz-orient` property. `unknown` */
   function mozOrient(value: any): Property
 
-  /** Create a `-moz-osx-font-smoothing` property (`unknown`). */
+  /** Create a `-moz-osx-font-smoothing` property. `unknown` */
   function mozOsxFontSmoothing(value: any): Property
 
-  /** Create a `-moz-outline` property (`unknown`). */
+  /** Create a `-moz-outline` property. `unknown` */
   function mozOutline(value: any): Property
 
-  /** Create a `-moz-outline-color` property (`unknown`). */
+  /** Create a `-moz-outline-color` property. `unknown` */
   function mozOutlineColor(value: any): Property
 
-  /** Create a `-moz-outline-offset` property (`unknown`). */
+  /** Create a `-moz-outline-offset` property. `unknown` */
   function mozOutlineOffset(value: any): Property
 
-  /** Create a `-moz-outline-radius` property (`unknown`). */
+  /** Create a `-moz-outline-radius` property. `unknown` */
   function mozOutlineRadius(value: any): Property
 
-  /** Create a `-moz-outline-radius-bottomleft` property (`unknown`). */
+  /** Create a `-moz-outline-radius-bottomleft` property. `unknown` */
   function mozOutlineRadiusBottomleft(value: any): Property
 
-  /** Create a `-moz-outline-radius-bottomright` property (`unknown`). */
+  /** Create a `-moz-outline-radius-bottomright` property. `unknown` */
   function mozOutlineRadiusBottomright(value: any): Property
 
-  /** Create a `-moz-outline-radius-topleft` property (`unknown`). */
+  /** Create a `-moz-outline-radius-topleft` property. `unknown` */
   function mozOutlineRadiusTopleft(value: any): Property
 
-  /** Create a `-moz-outline-radius-topright` property (`unknown`). */
+  /** Create a `-moz-outline-radius-topright` property. `unknown` */
   function mozOutlineRadiusTopright(value: any): Property
 
-  /** Create a `-moz-outline-style` property (`unknown`). */
+  /** Create a `-moz-outline-style` property. `unknown` */
   function mozOutlineStyle(value: any): Property
 
-  /** Create a `-moz-outline-width` property (`unknown`). */
+  /** Create a `-moz-outline-width` property. `unknown` */
   function mozOutlineWidth(value: any): Property
 
-  /** Create a `-moz-padding-end` property (`unknown`). */
+  /** Create a `-moz-padding-end` property. `unknown` */
   function mozPaddingEnd(value: any): Property
 
-  /** Create a `-moz-padding-start` property (`unknown`). */
+  /** Create a `-moz-padding-start` property. `unknown` */
   function mozPaddingStart(value: any): Property
 
-  /** Create a `-moz-perspective` property (`unknown`). */
+  /** Create a `-moz-perspective` property. `unknown` */
   function mozPerspective(value: any): Property
 
-  /** Create a `-moz-perspective-origin` property (`unknown`). */
+  /** Create a `-moz-perspective-origin` property. `unknown` */
   function mozPerspectiveOrigin(value: any): Property
 
-  /** Create a `-moz-stack-sizing` property (`unknown`). */
+  /** Create a `-moz-stack-sizing` property. `unknown` */
   function mozStackSizing(value: any): Property
 
-  /** Create a `-moz-tab-size` property (`unknown`). */
+  /** Create a `-moz-tab-size` property. `unknown` */
   function mozTabSize(value: any): Property
 
-  /** Create a `-moz-text-align-last` property (`unknown`). */
+  /** Create a `-moz-text-align-last` property. `unknown` */
   function mozTextAlignLast(value: any): Property
 
-  /** Create a `-moz-text-blink` property (`unknown`). */
+  /** Create a `-moz-text-blink` property. `unknown` */
   function mozTextBlink(value: any): Property
 
-  /** Create a `-moz-text-decoration-color` property (`unknown`). */
+  /** Create a `-moz-text-decoration-color` property. `unknown` */
   function mozTextDecorationColor(value: any): Property
 
-  /** Create a `-moz-text-decoration-line` property (`unknown`). */
+  /** Create a `-moz-text-decoration-line` property. `unknown` */
   function mozTextDecorationLine(value: any): Property
 
-  /** Create a `-moz-text-decoration-style` property (`unknown`). */
+  /** Create a `-moz-text-decoration-style` property. `unknown` */
   function mozTextDecorationStyle(value: any): Property
 
-  /** Create a `-moz-text-size-adjust` property (`unknown`). */
+  /** Create a `-moz-text-size-adjust` property. `unknown` */
   function mozTextSizeAdjust(value: any): Property
 
-  /** Create a `-moz-transform` property (`unknown`). */
+  /** Create a `-moz-transform` property. `unknown` */
   function mozTransform(value: any): Property
 
-  /** Create a `-moz-transform-origin` property (`unknown`). */
+  /** Create a `-moz-transform-origin` property. `unknown` */
   function mozTransformOrigin(value: any): Property
 
-  /** Create a `-moz-transform-style` property (`unknown`). */
+  /** Create a `-moz-transform-style` property. `unknown` */
   function mozTransformStyle(value: any): Property
 
-  /** Create a `-moz-transition` property (`unknown`). */
+  /** Create a `-moz-transition` property. `unknown` */
   function mozTransition(value: any): Property
 
-  /** Create a `-moz-transition-delay` property (`unknown`). */
+  /** Create a `-moz-transition-delay` property. `unknown` */
   function mozTransitionDelay(value: any): Property
 
-  /** Create a `-moz-transition-duration` property (`unknown`). */
+  /** Create a `-moz-transition-duration` property. `unknown` */
   function mozTransitionDuration(value: any): Property
 
-  /** Create a `-moz-transition-property` property (`unknown`). */
+  /** Create a `-moz-transition-property` property. `unknown` */
   function mozTransitionProperty(value: any): Property
 
-  /** Create a `-moz-transition-timing-function` property (`unknown`). */
+  /** Create a `-moz-transition-timing-function` property. `unknown` */
   function mozTransitionTimingFunction(value: any): Property
 
-  /** Create a `-moz-user-focus` property (`unknown`). */
+  /** Create a `-moz-user-focus` property. `unknown` */
   function mozUserFocus(value: any): Property
 
-  /** Create a `-moz-user-input` property (`unknown`). */
+  /** Create a `-moz-user-input` property. `unknown` */
   function mozUserInput(value: any): Property
 
-  /** Create a `-moz-user-modify` property (`unknown`). */
+  /** Create a `-moz-user-modify` property. `unknown` */
   function mozUserModify(value: any): Property
 
-  /** Create a `-moz-user-select` property (`unknown`). */
+  /** Create a `-moz-user-select` property. `unknown` */
   function mozUserSelect(value: any): Property
 
-  /** Create a `-moz-window-dragging` property (`unknown`). */
+  /** Create a `-moz-window-dragging` property. `unknown` */
   function mozWindowDragging(value: any): Property
 
-  /** Create a `-moz-window-shadow` property (`unknown`). */
+  /** Create a `-moz-window-shadow` property. `unknown` */
   function mozWindowShadow(value: any): Property
 
-  /** Create a `-ms-animation` property (`unknown`). */
+  /** Create a `-ms-animation` property. `unknown` */
   function msAnimation(value: any): Property
 
-  /** Create a `-ms-animation-delay` property (`unknown`). */
+  /** Create a `-ms-animation-delay` property. `unknown` */
   function msAnimationDelay(value: any): Property
 
-  /** Create a `-ms-animation-direction` property (`unknown`). */
+  /** Create a `-ms-animation-direction` property. `unknown` */
   function msAnimationDirection(value: any): Property
 
-  /** Create a `-ms-animation-duration` property (`unknown`). */
+  /** Create a `-ms-animation-duration` property. `unknown` */
   function msAnimationDuration(value: any): Property
 
-  /** Create a `-ms-animation-fill-mode` property (`unknown`). */
+  /** Create a `-ms-animation-fill-mode` property. `unknown` */
   function msAnimationFillMode(value: any): Property
 
-  /** Create a `-ms-animation-iteration-count` property (`unknown`). */
+  /** Create a `-ms-animation-iteration-count` property. `unknown` */
   function msAnimationIterationCount(value: any): Property
 
-  /** Create a `-ms-animation-name` property (`unknown`). */
+  /** Create a `-ms-animation-name` property. `unknown` */
   function msAnimationName(value: any): Property
 
-  /** Create a `-ms-animation-play-state` property (`unknown`). */
+  /** Create a `-ms-animation-play-state` property. `unknown` */
   function msAnimationPlayState(value: any): Property
 
-  /** Create a `-ms-animation-timing-function` property (`unknown`). */
+  /** Create a `-ms-animation-timing-function` property. `unknown` */
   function msAnimationTimingFunction(value: any): Property
 
-  /** Create a `-ms-backface-visibility` property (`unknown`). */
+  /** Create a `-ms-backface-visibility` property. `unknown` */
   function msBackfaceVisibility(value: any): Property
 
-  /** Create a `-ms-block-progression` property (`unknown`). */
+  /** Create a `-ms-block-progression` property. `unknown` */
   function msBlockProgression(value: any): Property
 
-  /** Create a `-ms-content-zoom-chaining` property (`unknown`). */
+  /** Create a `-ms-content-zoom-chaining` property. `unknown` */
   function msContentZoomChaining(value: any): Property
 
-  /** Create a `-ms-content-zoom-limit` property (`unknown`). */
+  /** Create a `-ms-content-zoom-limit` property. `unknown` */
   function msContentZoomLimit(value: any): Property
 
-  /** Create a `-ms-content-zoom-limit-max` property (`unknown`). */
+  /** Create a `-ms-content-zoom-limit-max` property. `unknown` */
   function msContentZoomLimitMax(value: any): Property
 
-  /** Create a `-ms-content-zoom-limit-min` property (`unknown`). */
+  /** Create a `-ms-content-zoom-limit-min` property. `unknown` */
   function msContentZoomLimitMin(value: any): Property
 
-  /** Create a `-ms-content-zoom-snap` property (`unknown`). */
+  /** Create a `-ms-content-zoom-snap` property. `unknown` */
   function msContentZoomSnap(value: any): Property
 
-  /** Create a `-ms-content-zoom-snap-points` property (`unknown`). */
+  /** Create a `-ms-content-zoom-snap-points` property. `unknown` */
   function msContentZoomSnapPoints(value: any): Property
 
-  /** Create a `-ms-content-zoom-snap-type` property (`unknown`). */
+  /** Create a `-ms-content-zoom-snap-type` property. `unknown` */
   function msContentZoomSnapType(value: any): Property
 
-  /** Create a `-ms-content-zooming` property (`unknown`). */
+  /** Create a `-ms-content-zooming` property. `unknown` */
   function msContentZooming(value: any): Property
 
-  /** Create a `-ms-filter` property (`unknown`). */
+  /** Create a `-ms-filter` property. `unknown` */
   function msFilter(value: any): Property
 
-  /** Create a `-ms-flex` property (`unknown`). */
+  /** Create a `-ms-flex` property. `unknown` */
   function msFlex(value: any): Property
 
-  /** Create a `-ms-flex-align` property (`unknown`). */
+  /** Create a `-ms-flex-align` property. `unknown` */
   function msFlexAlign(value: any): Property
 
-  /** Create a `-ms-flex-direction` property (`unknown`). */
+  /** Create a `-ms-flex-direction` property. `unknown` */
   function msFlexDirection(value: any): Property
 
-  /** Create a `-ms-flex-flow` property (`unknown`). */
+  /** Create a `-ms-flex-flow` property. `unknown` */
   function msFlexFlow(value: any): Property
 
-  /** Create a `-ms-flex-item-align` property (`unknown`). */
+  /** Create a `-ms-flex-item-align` property. `unknown` */
   function msFlexItemAlign(value: any): Property
 
-  /** Create a `-ms-flex-line-pack` property (`unknown`). */
+  /** Create a `-ms-flex-line-pack` property. `unknown` */
   function msFlexLinePack(value: any): Property
 
-  /** Create a `-ms-flex-negative` property (`unknown`). */
+  /** Create a `-ms-flex-negative` property. `unknown` */
   function msFlexNegative(value: any): Property
 
-  /** Create a `-ms-flex-order` property (`unknown`). */
+  /** Create a `-ms-flex-order` property. `unknown` */
   function msFlexOrder(value: any): Property
 
-  /** Create a `-ms-flex-pack` property (`unknown`). */
+  /** Create a `-ms-flex-pack` property. `unknown` */
   function msFlexPack(value: any): Property
 
-  /** Create a `-ms-flex-positive` property (`unknown`). */
+  /** Create a `-ms-flex-positive` property. `unknown` */
   function msFlexPositive(value: any): Property
 
-  /** Create a `-ms-flex-preferred-size` property (`unknown`). */
+  /** Create a `-ms-flex-preferred-size` property. `unknown` */
   function msFlexPreferredSize(value: any): Property
 
-  /** Create a `-ms-flex-wrap` property (`unknown`). */
+  /** Create a `-ms-flex-wrap` property. `unknown` */
   function msFlexWrap(value: any): Property
 
-  /** Create a `-ms-flow-from` property (`unknown`). */
+  /** Create a `-ms-flow-from` property. `unknown` */
   function msFlowFrom(value: any): Property
 
-  /** Create a `-ms-flow-into` property (`unknown`). */
+  /** Create a `-ms-flow-into` property. `unknown` */
   function msFlowInto(value: any): Property
 
-  /** Create a `-ms-font-feature-settings` property (`unknown`). */
+  /** Create a `-ms-font-feature-settings` property. `unknown` */
   function msFontFeatureSettings(value: any): Property
 
-  /** Create a `-ms-grid-column` property (`unknown`). */
+  /** Create a `-ms-grid-column` property. `unknown` */
   function msGridColumn(value: any): Property
 
-  /** Create a `-ms-grid-column-align` property (`unknown`). */
+  /** Create a `-ms-grid-column-align` property. `unknown` */
   function msGridColumnAlign(value: any): Property
 
-  /** Create a `-ms-grid-column-span` property (`unknown`). */
+  /** Create a `-ms-grid-column-span` property. `unknown` */
   function msGridColumnSpan(value: any): Property
 
-  /** Create a `-ms-grid-columns` property (`unknown`). */
+  /** Create a `-ms-grid-columns` property. `unknown` */
   function msGridColumns(value: any): Property
 
-  /** Create a `-ms-grid-row` property (`unknown`). */
+  /** Create a `-ms-grid-row` property. `unknown` */
   function msGridRow(value: any): Property
 
-  /** Create a `-ms-grid-row-align` property (`unknown`). */
+  /** Create a `-ms-grid-row-align` property. `unknown` */
   function msGridRowAlign(value: any): Property
 
-  /** Create a `-ms-grid-row-span` property (`unknown`). */
+  /** Create a `-ms-grid-row-span` property. `unknown` */
   function msGridRowSpan(value: any): Property
 
-  /** Create a `-ms-grid-rows` property (`unknown`). */
+  /** Create a `-ms-grid-rows` property. `unknown` */
   function msGridRows(value: any): Property
 
-  /** Create a `-ms-high-contrast-adjust` property (`unknown`). */
+  /** Create a `-ms-high-contrast-adjust` property. `unknown` */
   function msHighContrastAdjust(value: any): Property
 
-  /** Create a `-ms-hyphenate-limit-chars` property (`unknown`). */
+  /** Create a `-ms-hyphenate-limit-chars` property. `unknown` */
   function msHyphenateLimitChars(value: any): Property
 
-  /** Create a `-ms-hyphenate-limit-lines` property (`unknown`). */
+  /** Create a `-ms-hyphenate-limit-lines` property. `unknown` */
   function msHyphenateLimitLines(value: any): Property
 
-  /** Create a `-ms-hyphenate-limit-zone` property (`unknown`). */
+  /** Create a `-ms-hyphenate-limit-zone` property. `unknown` */
   function msHyphenateLimitZone(value: any): Property
 
-  /** Create a `-ms-hyphens` property (`unknown`). */
+  /** Create a `-ms-hyphens` property. `unknown` */
   function msHyphens(value: any): Property
 
-  /** Create a `-ms-ime-align` property (`unknown`). */
+  /** Create a `-ms-ime-align` property. `unknown` */
   function msImeAlign(value: any): Property
 
-  /** Create a `-ms-interpolation-mode` property (`unknown`). */
+  /** Create a `-ms-interpolation-mode` property. `unknown` */
   function msInterpolationMode(value: any): Property
 
-  /** Create a `-ms-overflow-style` property (`unknown`). */
+  /** Create a `-ms-overflow-style` property. `unknown` */
   function msOverflowStyle(value: any): Property
 
-  /** Create a `-ms-perspective` property (`unknown`). */
+  /** Create a `-ms-perspective` property. `unknown` */
   function msPerspective(value: any): Property
 
-  /** Create a `-ms-perspective-origin` property (`unknown`). */
+  /** Create a `-ms-perspective-origin` property. `unknown` */
   function msPerspectiveOrigin(value: any): Property
 
-  /** Create a `-ms-scroll-chaining` property (`unknown`). */
+  /** Create a `-ms-scroll-chaining` property. `unknown` */
   function msScrollChaining(value: any): Property
 
-  /** Create a `-ms-scroll-limit` property (`unknown`). */
+  /** Create a `-ms-scroll-limit` property. `unknown` */
   function msScrollLimit(value: any): Property
 
-  /** Create a `-ms-scroll-limit-x-max` property (`unknown`). */
+  /** Create a `-ms-scroll-limit-x-max` property. `unknown` */
   function msScrollLimitXMax(value: any): Property
 
-  /** Create a `-ms-scroll-limit-x-min` property (`unknown`). */
+  /** Create a `-ms-scroll-limit-x-min` property. `unknown` */
   function msScrollLimitXMin(value: any): Property
 
-  /** Create a `-ms-scroll-limit-y-max` property (`unknown`). */
+  /** Create a `-ms-scroll-limit-y-max` property. `unknown` */
   function msScrollLimitYMax(value: any): Property
 
-  /** Create a `-ms-scroll-limit-y-min` property (`unknown`). */
+  /** Create a `-ms-scroll-limit-y-min` property. `unknown` */
   function msScrollLimitYMin(value: any): Property
 
-  /** Create a `-ms-scroll-rails` property (`unknown`). */
+  /** Create a `-ms-scroll-rails` property. `unknown` */
   function msScrollRails(value: any): Property
 
-  /** Create a `-ms-scroll-snap-points-x` property (`unknown`). */
+  /** Create a `-ms-scroll-snap-points-x` property. `unknown` */
   function msScrollSnapPointsX(value: any): Property
 
-  /** Create a `-ms-scroll-snap-points-y` property (`unknown`). */
+  /** Create a `-ms-scroll-snap-points-y` property. `unknown` */
   function msScrollSnapPointsY(value: any): Property
 
-  /** Create a `-ms-scroll-snap-type` property (`unknown`). */
+  /** Create a `-ms-scroll-snap-type` property. `unknown` */
   function msScrollSnapType(value: any): Property
 
-  /** Create a `-ms-scroll-snap-x` property (`unknown`). */
+  /** Create a `-ms-scroll-snap-x` property. `unknown` */
   function msScrollSnapX(value: any): Property
 
-  /** Create a `-ms-scroll-snap-y` property (`unknown`). */
+  /** Create a `-ms-scroll-snap-y` property. `unknown` */
   function msScrollSnapY(value: any): Property
 
-  /** Create a `-ms-scroll-translation` property (`unknown`). */
+  /** Create a `-ms-scroll-translation` property. `unknown` */
   function msScrollTranslation(value: any): Property
 
-  /** Create a `-ms-text-combine-horizontal` property (`unknown`). */
+  /** Create a `-ms-text-combine-horizontal` property. `unknown` */
   function msTextCombineHorizontal(value: any): Property
 
-  /** Create a `-ms-text-size-adjust` property (`unknown`). */
+  /** Create a `-ms-text-size-adjust` property. `unknown` */
   function msTextSizeAdjust(value: any): Property
 
-  /** Create a `-ms-touch-action` property (`unknown`). */
+  /** Create a `-ms-touch-action` property. `unknown` */
   function msTouchAction(value: any): Property
 
-  /** Create a `-ms-touch-select` property (`unknown`). */
+  /** Create a `-ms-touch-select` property. `unknown` */
   function msTouchSelect(value: any): Property
 
-  /** Create a `-ms-transform` property (`unknown`). */
+  /** Create a `-ms-transform` property. `unknown` */
   function msTransform(value: any): Property
 
-  /** Create a `-ms-transform-origin` property (`unknown`). */
+  /** Create a `-ms-transform-origin` property. `unknown` */
   function msTransformOrigin(value: any): Property
 
-  /** Create a `-ms-transform-style` property (`unknown`). */
+  /** Create a `-ms-transform-style` property. `unknown` */
   function msTransformStyle(value: any): Property
 
-  /** Create a `-ms-transition` property (`unknown`). */
+  /** Create a `-ms-transition` property. `unknown` */
   function msTransition(value: any): Property
 
-  /** Create a `-ms-transition-delay` property (`unknown`). */
+  /** Create a `-ms-transition-delay` property. `unknown` */
   function msTransitionDelay(value: any): Property
 
-  /** Create a `-ms-transition-duration` property (`unknown`). */
+  /** Create a `-ms-transition-duration` property. `unknown` */
   function msTransitionDuration(value: any): Property
 
-  /** Create a `-ms-transition-property` property (`unknown`). */
+  /** Create a `-ms-transition-property` property. `unknown` */
   function msTransitionProperty(value: any): Property
 
-  /** Create a `-ms-transition-timing-function` property (`unknown`). */
+  /** Create a `-ms-transition-timing-function` property. `unknown` */
   function msTransitionTimingFunction(value: any): Property
 
-  /** Create a `-ms-user-select` property (`unknown`). */
+  /** Create a `-ms-user-select` property. `unknown` */
   function msUserSelect(value: any): Property
 
-  /** Create a `-ms-wrap-flow` property (`unknown`). */
+  /** Create a `-ms-wrap-flow` property. `unknown` */
   function msWrapFlow(value: any): Property
 
-  /** Create a `-ms-wrap-margin` property (`unknown`). */
+  /** Create a `-ms-wrap-margin` property. `unknown` */
   function msWrapMargin(value: any): Property
 
-  /** Create a `-ms-wrap-through` property (`unknown`). */
+  /** Create a `-ms-wrap-through` property. `unknown` */
   function msWrapThrough(value: any): Property
 
-  /** Create a `-o-border-image` property (`unknown`). */
+  /** Create a `-o-border-image` property. `unknown` */
   function oBorderImage(value: any): Property
 
-  /** Create a `-o-link` property (`unknown`). */
+  /** Create a `-o-link` property. `unknown` */
   function oLink(value: any): Property
 
-  /** Create a `-o-link-source` property (`unknown`). */
+  /** Create a `-o-link-source` property. `unknown` */
   function oLinkSource(value: any): Property
 
-  /** Create a `-o-object-fit` property (`unknown`). */
+  /** Create a `-o-object-fit` property. `unknown` */
   function oObjectFit(value: any): Property
 
-  /** Create a `-o-object-position` property (`unknown`). */
+  /** Create a `-o-object-position` property. `unknown` */
   function oObjectPosition(value: any): Property
 
-  /** Create a `-o-tab-size` property (`unknown`). */
+  /** Create a `-o-tab-size` property. `unknown` */
   function oTabSize(value: any): Property
 
-  /** Create a `-o-table-baseline` property (`unknown`). */
+  /** Create a `-o-table-baseline` property. `unknown` */
   function oTableBaseline(value: any): Property
 
-  /** Create a `-o-transform` property (`unknown`). */
+  /** Create a `-o-transform` property. `unknown` */
   function oTransform(value: any): Property
 
-  /** Create a `-o-transform-origin` property (`unknown`). */
+  /** Create a `-o-transform-origin` property. `unknown` */
   function oTransformOrigin(value: any): Property
 
-  /** Create a `-o-transition` property (`unknown`). */
+  /** Create a `-o-transition` property. `unknown` */
   function oTransition(value: any): Property
 
-  /** Create a `-o-transition-delay` property (`unknown`). */
+  /** Create a `-o-transition-delay` property. `unknown` */
   function oTransitionDelay(value: any): Property
 
-  /** Create a `-o-transition-duration` property (`unknown`). */
+  /** Create a `-o-transition-duration` property. `unknown` */
   function oTransitionDuration(value: any): Property
 
-  /** Create a `-o-transition-property` property (`unknown`). */
+  /** Create a `-o-transition-property` property. `unknown` */
   function oTransitionProperty(value: any): Property
 
-  /** Create a `-o-transition-timing-function` property (`unknown`). */
+  /** Create a `-o-transition-timing-function` property. `unknown` */
   function oTransitionTimingFunction(value: any): Property
 
-  /** Create a `-wap-accesskey` property (`unknown`). */
+  /** Create a `-wap-accesskey` property. `unknown` */
   function wapAccesskey(value: any): Property
 
-  /** Create a `-wap-input-format` property (`unknown`). */
+  /** Create a `-wap-input-format` property. `unknown` */
   function wapInputFormat(value: any): Property
 
-  /** Create a `-wap-input-required` property (`unknown`). */
+  /** Create a `-wap-input-required` property. `unknown` */
   function wapInputRequired(value: any): Property
 
-  /** Create a `-wap-marquee-dir` property (`unknown`). */
+  /** Create a `-wap-marquee-dir` property. `unknown` */
   function wapMarqueeDir(value: any): Property
 
-  /** Create a `-wap-marquee-loop` property (`unknown`). */
+  /** Create a `-wap-marquee-loop` property. `unknown` */
   function wapMarqueeLoop(value: any): Property
 
-  /** Create a `-wap-marquee-speed` property (`unknown`). */
+  /** Create a `-wap-marquee-speed` property. `unknown` */
   function wapMarqueeSpeed(value: any): Property
 
-  /** Create a `-wap-marquee-style` property (`unknown`). */
+  /** Create a `-wap-marquee-style` property. `unknown` */
   function wapMarqueeStyle(value: any): Property
 
-  /** Create a `-webkit-align-content` property (`compat`). */
+  /** Create a `-webkit-align-content` property. `compat` */
   function webkitAlignContent(value: any): Property
 
-  /** Create a `-webkit-align-items` property (`compat`). */
+  /** Create a `-webkit-align-items` property. `compat` */
   function webkitAlignItems(value: any): Property
 
-  /** Create a `-webkit-align-self` property (`compat`). */
+  /** Create a `-webkit-align-self` property. `compat` */
   function webkitAlignSelf(value: any): Property
 
-  /** Create a `-webkit-alt` property (`unknown`). */
+  /** Create a `-webkit-alt` property. `unknown` */
   function webkitAlt(value: any): Property
 
-  /** Create a `-webkit-animation` property (`compat`). */
+  /** Create a `-webkit-animation` property. `compat` */
   function webkitAnimation(value: any): Property
 
-  /** Create a `-webkit-animation-delay` property (`compat`). */
+  /** Create a `-webkit-animation-delay` property. `compat` */
   function webkitAnimationDelay(value: any): Property
 
-  /** Create a `-webkit-animation-direction` property (`compat`). */
+  /** Create a `-webkit-animation-direction` property. `compat` */
   function webkitAnimationDirection(value: any): Property
 
-  /** Create a `-webkit-animation-duration` property (`compat`). */
+  /** Create a `-webkit-animation-duration` property. `compat` */
   function webkitAnimationDuration(value: any): Property
 
-  /** Create a `-webkit-animation-fill-mode` property (`compat`). */
+  /** Create a `-webkit-animation-fill-mode` property. `compat` */
   function webkitAnimationFillMode(value: any): Property
 
-  /** Create a `-webkit-animation-iteration-count` property (`compat`). */
+  /** Create a `-webkit-animation-iteration-count` property. `compat` */
   function webkitAnimationIterationCount(value: any): Property
 
-  /** Create a `-webkit-animation-name` property (`compat`). */
+  /** Create a `-webkit-animation-name` property. `compat` */
   function webkitAnimationName(value: any): Property
 
-  /** Create a `-webkit-animation-play-state` property (`compat`). */
+  /** Create a `-webkit-animation-play-state` property. `compat` */
   function webkitAnimationPlayState(value: any): Property
 
-  /** Create a `-webkit-animation-timing-function` property (`compat`). */
+  /** Create a `-webkit-animation-timing-function` property. `compat` */
   function webkitAnimationTimingFunction(value: any): Property
 
-  /** Create a `-webkit-animation-trigger` property (`unknown`). */
+  /** Create a `-webkit-animation-trigger` property. `unknown` */
   function webkitAnimationTrigger(value: any): Property
 
-  /** Create a `-webkit-app-region` property (`unknown`). */
+  /** Create a `-webkit-app-region` property. `unknown` */
   function webkitAppRegion(value: any): Property
 
-  /** Create a `-webkit-appearance` property (`css-ui`). */
+  /** Create a `-webkit-appearance` property. `css-ui` */
   function webkitAppearance(value: any): Property
 
-  /** Create a `-webkit-aspect-ratio` property (`unknown`). */
+  /** Create a `-webkit-aspect-ratio` property. `unknown` */
   function webkitAspectRatio(value: any): Property
 
-  /** Create a `-webkit-backdrop-filter` property (`unknown`). */
+  /** Create a `-webkit-backdrop-filter` property. `unknown` */
   function webkitBackdropFilter(value: any): Property
 
-  /** Create a `-webkit-backface-visibility` property (`compat`). */
+  /** Create a `-webkit-backface-visibility` property. `compat` */
   function webkitBackfaceVisibility(value: any): Property
 
-  /** Create a `-webkit-background` property (`unknown`). */
+  /** Create a `-webkit-background` property. `unknown` */
   function webkitBackground(value: any): Property
 
-  /** Create a `-webkit-background-attachment` property (`unknown`). */
+  /** Create a `-webkit-background-attachment` property. `unknown` */
   function webkitBackgroundAttachment(value: any): Property
 
-  /** Create a `-webkit-background-clip` property (`compat`). */
+  /** Create a `-webkit-background-clip` property. `compat` */
   function webkitBackgroundClip(value: any): Property
 
-  /** Create a `-webkit-background-color` property (`unknown`). */
+  /** Create a `-webkit-background-color` property. `unknown` */
   function webkitBackgroundColor(value: any): Property
 
-  /** Create a `-webkit-background-composite` property (`unknown`). */
+  /** Create a `-webkit-background-composite` property. `unknown` */
   function webkitBackgroundComposite(value: any): Property
 
-  /** Create a `-webkit-background-image` property (`unknown`). */
+  /** Create a `-webkit-background-image` property. `unknown` */
   function webkitBackgroundImage(value: any): Property
 
-  /** Create a `-webkit-background-origin` property (`compat`). */
+  /** Create a `-webkit-background-origin` property. `compat` */
   function webkitBackgroundOrigin(value: any): Property
 
-  /** Create a `-webkit-background-position` property (`unknown`). */
+  /** Create a `-webkit-background-position` property. `unknown` */
   function webkitBackgroundPosition(value: any): Property
 
-  /** Create a `-webkit-background-position-x` property (`unknown`). */
+  /** Create a `-webkit-background-position-x` property. `unknown` */
   function webkitBackgroundPositionX(value: any): Property
 
-  /** Create a `-webkit-background-position-y` property (`unknown`). */
+  /** Create a `-webkit-background-position-y` property. `unknown` */
   function webkitBackgroundPositionY(value: any): Property
 
-  /** Create a `-webkit-background-repeat` property (`unknown`). */
+  /** Create a `-webkit-background-repeat` property. `unknown` */
   function webkitBackgroundRepeat(value: any): Property
 
-  /** Create a `-webkit-background-size` property (`compat`). */
+  /** Create a `-webkit-background-size` property. `compat` */
   function webkitBackgroundSize(value: any): Property
 
-  /** Create a `-webkit-border-after` property (`unknown`). */
+  /** Create a `-webkit-border-after` property. `unknown` */
   function webkitBorderAfter(value: any): Property
 
-  /** Create a `-webkit-border-after-color` property (`unknown`). */
+  /** Create a `-webkit-border-after-color` property. `unknown` */
   function webkitBorderAfterColor(value: any): Property
 
-  /** Create a `-webkit-border-after-style` property (`unknown`). */
+  /** Create a `-webkit-border-after-style` property. `unknown` */
   function webkitBorderAfterStyle(value: any): Property
 
-  /** Create a `-webkit-border-after-width` property (`unknown`). */
+  /** Create a `-webkit-border-after-width` property. `unknown` */
   function webkitBorderAfterWidth(value: any): Property
 
-  /** Create a `-webkit-border-before` property (`unknown`). */
+  /** Create a `-webkit-border-before` property. `unknown` */
   function webkitBorderBefore(value: any): Property
 
-  /** Create a `-webkit-border-before-color` property (`unknown`). */
+  /** Create a `-webkit-border-before-color` property. `unknown` */
   function webkitBorderBeforeColor(value: any): Property
 
-  /** Create a `-webkit-border-before-style` property (`unknown`). */
+  /** Create a `-webkit-border-before-style` property. `unknown` */
   function webkitBorderBeforeStyle(value: any): Property
 
-  /** Create a `-webkit-border-before-width` property (`unknown`). */
+  /** Create a `-webkit-border-before-width` property. `unknown` */
   function webkitBorderBeforeWidth(value: any): Property
 
-  /** Create a `-webkit-border-bottom-left-radius` property (`compat`). */
+  /** Create a `-webkit-border-bottom-left-radius` property. `compat` */
   function webkitBorderBottomLeftRadius(value: any): Property
 
-  /** Create a `-webkit-border-bottom-right-radius` property (`compat`). */
+  /** Create a `-webkit-border-bottom-right-radius` property. `compat` */
   function webkitBorderBottomRightRadius(value: any): Property
 
-  /** Create a `-webkit-border-end` property (`unknown`). */
+  /** Create a `-webkit-border-end` property. `unknown` */
   function webkitBorderEnd(value: any): Property
 
-  /** Create a `-webkit-border-end-color` property (`unknown`). */
+  /** Create a `-webkit-border-end-color` property. `unknown` */
   function webkitBorderEndColor(value: any): Property
 
-  /** Create a `-webkit-border-end-style` property (`unknown`). */
+  /** Create a `-webkit-border-end-style` property. `unknown` */
   function webkitBorderEndStyle(value: any): Property
 
-  /** Create a `-webkit-border-end-width` property (`unknown`). */
+  /** Create a `-webkit-border-end-width` property. `unknown` */
   function webkitBorderEndWidth(value: any): Property
 
-  /** Create a `-webkit-border-fit` property (`unknown`). */
+  /** Create a `-webkit-border-fit` property. `unknown` */
   function webkitBorderFit(value: any): Property
 
-  /** Create a `-webkit-border-horizontal-spacing` property (`unknown`). */
+  /** Create a `-webkit-border-horizontal-spacing` property. `unknown` */
   function webkitBorderHorizontalSpacing(value: any): Property
 
-  /** Create a `-webkit-border-image` property (`unknown`). */
+  /** Create a `-webkit-border-image` property. `unknown` */
   function webkitBorderImage(value: any): Property
 
-  /** Create a `-webkit-border-image-outset` property (`unknown`). */
+  /** Create a `-webkit-border-image-outset` property. `unknown` */
   function webkitBorderImageOutset(value: any): Property
 
-  /** Create a `-webkit-border-image-repeat` property (`unknown`). */
+  /** Create a `-webkit-border-image-repeat` property. `unknown` */
   function webkitBorderImageRepeat(value: any): Property
 
-  /** Create a `-webkit-border-image-slice` property (`unknown`). */
+  /** Create a `-webkit-border-image-slice` property. `unknown` */
   function webkitBorderImageSlice(value: any): Property
 
-  /** Create a `-webkit-border-image-source` property (`unknown`). */
+  /** Create a `-webkit-border-image-source` property. `unknown` */
   function webkitBorderImageSource(value: any): Property
 
-  /** Create a `-webkit-border-image-width` property (`unknown`). */
+  /** Create a `-webkit-border-image-width` property. `unknown` */
   function webkitBorderImageWidth(value: any): Property
 
-  /** Create a `-webkit-border-radius` property (`compat`). */
+  /** Create a `-webkit-border-radius` property. `compat` */
   function webkitBorderRadius(value: any): Property
 
-  /** Create a `-webkit-border-start` property (`unknown`). */
+  /** Create a `-webkit-border-start` property. `unknown` */
   function webkitBorderStart(value: any): Property
 
-  /** Create a `-webkit-border-start-color` property (`unknown`). */
+  /** Create a `-webkit-border-start-color` property. `unknown` */
   function webkitBorderStartColor(value: any): Property
 
-  /** Create a `-webkit-border-start-style` property (`unknown`). */
+  /** Create a `-webkit-border-start-style` property. `unknown` */
   function webkitBorderStartStyle(value: any): Property
 
-  /** Create a `-webkit-border-start-width` property (`unknown`). */
+  /** Create a `-webkit-border-start-width` property. `unknown` */
   function webkitBorderStartWidth(value: any): Property
 
-  /** Create a `-webkit-border-top-left-radius` property (`compat`). */
+  /** Create a `-webkit-border-top-left-radius` property. `compat` */
   function webkitBorderTopLeftRadius(value: any): Property
 
-  /** Create a `-webkit-border-top-right-radius` property (`compat`). */
+  /** Create a `-webkit-border-top-right-radius` property. `compat` */
   function webkitBorderTopRightRadius(value: any): Property
 
-  /** Create a `-webkit-border-vertical-spacing` property (`unknown`). */
+  /** Create a `-webkit-border-vertical-spacing` property. `unknown` */
   function webkitBorderVerticalSpacing(value: any): Property
 
-  /** Create a `-webkit-box-align` property (`compat`). */
+  /** Create a `-webkit-box-align` property. `compat` */
   function webkitBoxAlign(value: any): Property
 
-  /** Create a `-webkit-box-decoration-break` property (`unknown`). */
+  /** Create a `-webkit-box-decoration-break` property. `unknown` */
   function webkitBoxDecorationBreak(value: any): Property
 
-  /** Create a `-webkit-box-direction` property (`unknown`). */
+  /** Create a `-webkit-box-direction` property. `unknown` */
   function webkitBoxDirection(value: any): Property
 
-  /** Create a `-webkit-box-flex` property (`compat`). */
+  /** Create a `-webkit-box-flex` property. `compat` */
   function webkitBoxFlex(value: any): Property
 
-  /** Create a `-webkit-box-flex-group` property (`unknown`). */
+  /** Create a `-webkit-box-flex-group` property. `unknown` */
   function webkitBoxFlexGroup(value: any): Property
 
-  /** Create a `-webkit-box-lines` property (`unknown`). */
+  /** Create a `-webkit-box-lines` property. `unknown` */
   function webkitBoxLines(value: any): Property
 
-  /** Create a `-webkit-box-ordinal-group` property (`compat`). */
+  /** Create a `-webkit-box-ordinal-group` property. `compat` */
   function webkitBoxOrdinalGroup(value: any): Property
 
-  /** Create a `-webkit-box-orient` property (`compat`). */
+  /** Create a `-webkit-box-orient` property. `compat` */
   function webkitBoxOrient(value: any): Property
 
-  /** Create a `-webkit-box-pack` property (`compat`). */
+  /** Create a `-webkit-box-pack` property. `compat` */
   function webkitBoxPack(value: any): Property
 
-  /** Create a `-webkit-box-reflect` property (`unknown`). */
+  /** Create a `-webkit-box-reflect` property. `unknown` */
   function webkitBoxReflect(value: any): Property
 
-  /** Create a `-webkit-box-shadow` property (`compat`). */
+  /** Create a `-webkit-box-shadow` property. `compat` */
   function webkitBoxShadow(value: any): Property
 
-  /** Create a `-webkit-box-sizing` property (`compat`). */
+  /** Create a `-webkit-box-sizing` property. `compat` */
   function webkitBoxSizing(value: any): Property
 
-  /** Create a `-webkit-clip-path` property (`unknown`). */
+  /** Create a `-webkit-clip-path` property. `unknown` */
   function webkitClipPath(value: any): Property
 
-  /** Create a `-webkit-color-correction` property (`unknown`). */
+  /** Create a `-webkit-color-correction` property. `unknown` */
   function webkitColorCorrection(value: any): Property
 
-  /** Create a `-webkit-column-axis` property (`unknown`). */
+  /** Create a `-webkit-column-axis` property. `unknown` */
   function webkitColumnAxis(value: any): Property
 
-  /** Create a `-webkit-column-break-after` property (`unknown`). */
+  /** Create a `-webkit-column-break-after` property. `unknown` */
   function webkitColumnBreakAfter(value: any): Property
 
-  /** Create a `-webkit-column-break-before` property (`unknown`). */
+  /** Create a `-webkit-column-break-before` property. `unknown` */
   function webkitColumnBreakBefore(value: any): Property
 
-  /** Create a `-webkit-column-break-inside` property (`unknown`). */
+  /** Create a `-webkit-column-break-inside` property. `unknown` */
   function webkitColumnBreakInside(value: any): Property
 
-  /** Create a `-webkit-column-count` property (`unknown`). */
+  /** Create a `-webkit-column-count` property. `unknown` */
   function webkitColumnCount(value: any): Property
 
-  /** Create a `-webkit-column-fill` property (`unknown`). */
+  /** Create a `-webkit-column-fill` property. `unknown` */
   function webkitColumnFill(value: any): Property
 
-  /** Create a `-webkit-column-gap` property (`unknown`). */
+  /** Create a `-webkit-column-gap` property. `unknown` */
   function webkitColumnGap(value: any): Property
 
-  /** Create a `-webkit-column-progression` property (`unknown`). */
+  /** Create a `-webkit-column-progression` property. `unknown` */
   function webkitColumnProgression(value: any): Property
 
-  /** Create a `-webkit-column-rule` property (`unknown`). */
+  /** Create a `-webkit-column-rule` property. `unknown` */
   function webkitColumnRule(value: any): Property
 
-  /** Create a `-webkit-column-rule-color` property (`unknown`). */
+  /** Create a `-webkit-column-rule-color` property. `unknown` */
   function webkitColumnRuleColor(value: any): Property
 
-  /** Create a `-webkit-column-rule-style` property (`unknown`). */
+  /** Create a `-webkit-column-rule-style` property. `unknown` */
   function webkitColumnRuleStyle(value: any): Property
 
-  /** Create a `-webkit-column-rule-width` property (`unknown`). */
+  /** Create a `-webkit-column-rule-width` property. `unknown` */
   function webkitColumnRuleWidth(value: any): Property
 
-  /** Create a `-webkit-column-span` property (`unknown`). */
+  /** Create a `-webkit-column-span` property. `unknown` */
   function webkitColumnSpan(value: any): Property
 
-  /** Create a `-webkit-column-width` property (`unknown`). */
+  /** Create a `-webkit-column-width` property. `unknown` */
   function webkitColumnWidth(value: any): Property
 
-  /** Create a `-webkit-columns` property (`unknown`). */
+  /** Create a `-webkit-columns` property. `unknown` */
   function webkitColumns(value: any): Property
 
-  /** Create a `-webkit-composition-fill-color` property (`unknown`). */
+  /** Create a `-webkit-composition-fill-color` property. `unknown` */
   function webkitCompositionFillColor(value: any): Property
 
-  /** Create a `-webkit-composition-frame-color` property (`unknown`). */
+  /** Create a `-webkit-composition-frame-color` property. `unknown` */
   function webkitCompositionFrameColor(value: any): Property
 
-  /** Create a `-webkit-cursor-visibility` property (`unknown`). */
+  /** Create a `-webkit-cursor-visibility` property. `unknown` */
   function webkitCursorVisibility(value: any): Property
 
-  /** Create a `-webkit-dashboard-region` property (`unknown`). */
+  /** Create a `-webkit-dashboard-region` property. `unknown` */
   function webkitDashboardRegion(value: any): Property
 
-  /** Create a `-webkit-filter` property (`compat`). */
+  /** Create a `-webkit-filter` property. `compat` */
   function webkitFilter(value: any): Property
 
-  /** Create a `-webkit-flex` property (`compat`). */
+  /** Create a `-webkit-flex` property. `compat` */
   function webkitFlex(value: any): Property
 
-  /** Create a `-webkit-flex-align` property (`unknown`). */
+  /** Create a `-webkit-flex-align` property. `unknown` */
   function webkitFlexAlign(value: any): Property
 
-  /** Create a `-webkit-flex-basis` property (`compat`). */
+  /** Create a `-webkit-flex-basis` property. `compat` */
   function webkitFlexBasis(value: any): Property
 
-  /** Create a `-webkit-flex-direction` property (`compat`). */
+  /** Create a `-webkit-flex-direction` property. `compat` */
   function webkitFlexDirection(value: any): Property
 
-  /** Create a `-webkit-flex-flow` property (`compat`). */
+  /** Create a `-webkit-flex-flow` property. `compat` */
   function webkitFlexFlow(value: any): Property
 
-  /** Create a `-webkit-flex-grow` property (`compat`). */
+  /** Create a `-webkit-flex-grow` property. `compat` */
   function webkitFlexGrow(value: any): Property
 
-  /** Create a `-webkit-flex-item-align` property (`unknown`). */
+  /** Create a `-webkit-flex-item-align` property. `unknown` */
   function webkitFlexItemAlign(value: any): Property
 
-  /** Create a `-webkit-flex-line-pack` property (`unknown`). */
+  /** Create a `-webkit-flex-line-pack` property. `unknown` */
   function webkitFlexLinePack(value: any): Property
 
-  /** Create a `-webkit-flex-order` property (`unknown`). */
+  /** Create a `-webkit-flex-order` property. `unknown` */
   function webkitFlexOrder(value: any): Property
 
-  /** Create a `-webkit-flex-pack` property (`unknown`). */
+  /** Create a `-webkit-flex-pack` property. `unknown` */
   function webkitFlexPack(value: any): Property
 
-  /** Create a `-webkit-flex-shrink` property (`compat`). */
+  /** Create a `-webkit-flex-shrink` property. `compat` */
   function webkitFlexShrink(value: any): Property
 
-  /** Create a `-webkit-flex-wrap` property (`compat`). */
+  /** Create a `-webkit-flex-wrap` property. `compat` */
   function webkitFlexWrap(value: any): Property
 
-  /** Create a `-webkit-flow-from` property (`unknown`). */
+  /** Create a `-webkit-flow-from` property. `unknown` */
   function webkitFlowFrom(value: any): Property
 
-  /** Create a `-webkit-flow-into` property (`unknown`). */
+  /** Create a `-webkit-flow-into` property. `unknown` */
   function webkitFlowInto(value: any): Property
 
-  /** Create a `-webkit-font-feature-settings` property (`unknown`). */
+  /** Create a `-webkit-font-feature-settings` property. `unknown` */
   function webkitFontFeatureSettings(value: any): Property
 
-  /** Create a `-webkit-font-kerning` property (`unknown`). */
+  /** Create a `-webkit-font-kerning` property. `unknown` */
   function webkitFontKerning(value: any): Property
 
-  /** Create a `-webkit-font-size-delta` property (`unknown`). */
+  /** Create a `-webkit-font-size-delta` property. `unknown` */
   function webkitFontSizeDelta(value: any): Property
 
-  /** Create a `-webkit-font-smoothing` property (`unknown`). */
+  /** Create a `-webkit-font-smoothing` property. `unknown` */
   function webkitFontSmoothing(value: any): Property
 
-  /** Create a `-webkit-font-variant-ligatures` property (`unknown`). */
+  /** Create a `-webkit-font-variant-ligatures` property. `unknown` */
   function webkitFontVariantLigatures(value: any): Property
 
-  /** Create a `-webkit-grid-after` property (`unknown`). */
+  /** Create a `-webkit-grid-after` property. `unknown` */
   function webkitGridAfter(value: any): Property
 
-  /** Create a `-webkit-grid-auto-columns` property (`unknown`). */
+  /** Create a `-webkit-grid-auto-columns` property. `unknown` */
   function webkitGridAutoColumns(value: any): Property
 
-  /** Create a `-webkit-grid-auto-flow` property (`unknown`). */
+  /** Create a `-webkit-grid-auto-flow` property. `unknown` */
   function webkitGridAutoFlow(value: any): Property
 
-  /** Create a `-webkit-grid-auto-rows` property (`unknown`). */
+  /** Create a `-webkit-grid-auto-rows` property. `unknown` */
   function webkitGridAutoRows(value: any): Property
 
-  /** Create a `-webkit-grid-before` property (`unknown`). */
+  /** Create a `-webkit-grid-before` property. `unknown` */
   function webkitGridBefore(value: any): Property
 
-  /** Create a `-webkit-grid-column` property (`unknown`). */
+  /** Create a `-webkit-grid-column` property. `unknown` */
   function webkitGridColumn(value: any): Property
 
-  /** Create a `-webkit-grid-columns` property (`unknown`). */
+  /** Create a `-webkit-grid-columns` property. `unknown` */
   function webkitGridColumns(value: any): Property
 
-  /** Create a `-webkit-grid-end` property (`unknown`). */
+  /** Create a `-webkit-grid-end` property. `unknown` */
   function webkitGridEnd(value: any): Property
 
-  /** Create a `-webkit-grid-row` property (`unknown`). */
+  /** Create a `-webkit-grid-row` property. `unknown` */
   function webkitGridRow(value: any): Property
 
-  /** Create a `-webkit-grid-rows` property (`unknown`). */
+  /** Create a `-webkit-grid-rows` property. `unknown` */
   function webkitGridRows(value: any): Property
 
-  /** Create a `-webkit-grid-start` property (`unknown`). */
+  /** Create a `-webkit-grid-start` property. `unknown` */
   function webkitGridStart(value: any): Property
 
-  /** Create a `-webkit-highlight` property (`unknown`). */
+  /** Create a `-webkit-highlight` property. `unknown` */
   function webkitHighlight(value: any): Property
 
-  /** Create a `-webkit-hyphenate-character` property (`unknown`). */
+  /** Create a `-webkit-hyphenate-character` property. `unknown` */
   function webkitHyphenateCharacter(value: any): Property
 
-  /** Create a `-webkit-hyphenate-limit-after` property (`unknown`). */
+  /** Create a `-webkit-hyphenate-limit-after` property. `unknown` */
   function webkitHyphenateLimitAfter(value: any): Property
 
-  /** Create a `-webkit-hyphenate-limit-before` property (`unknown`). */
+  /** Create a `-webkit-hyphenate-limit-before` property. `unknown` */
   function webkitHyphenateLimitBefore(value: any): Property
 
-  /** Create a `-webkit-hyphenate-limit-lines` property (`unknown`). */
+  /** Create a `-webkit-hyphenate-limit-lines` property. `unknown` */
   function webkitHyphenateLimitLines(value: any): Property
 
-  /** Create a `-webkit-hyphens` property (`unknown`). */
+  /** Create a `-webkit-hyphens` property. `unknown` */
   function webkitHyphens(value: any): Property
 
-  /** Create a `-webkit-initial-letter` property (`unknown`). */
+  /** Create a `-webkit-initial-letter` property. `unknown` */
   function webkitInitialLetter(value: any): Property
 
-  /** Create a `-webkit-justify-content` property (`compat`). */
+  /** Create a `-webkit-justify-content` property. `compat` */
   function webkitJustifyContent(value: any): Property
 
-  /** Create a `-webkit-justify-items` property (`unknown`). */
+  /** Create a `-webkit-justify-items` property. `unknown` */
   function webkitJustifyItems(value: any): Property
 
-  /** Create a `-webkit-justify-self` property (`unknown`). */
+  /** Create a `-webkit-justify-self` property. `unknown` */
   function webkitJustifySelf(value: any): Property
 
-  /** Create a `-webkit-line-align` property (`unknown`). */
+  /** Create a `-webkit-line-align` property. `unknown` */
   function webkitLineAlign(value: any): Property
 
-  /** Create a `-webkit-line-box-contain` property (`unknown`). */
+  /** Create a `-webkit-line-box-contain` property. `unknown` */
   function webkitLineBoxContain(value: any): Property
 
-  /** Create a `-webkit-line-break` property (`unknown`). */
+  /** Create a `-webkit-line-break` property. `unknown` */
   function webkitLineBreak(value: any): Property
 
-  /** Create a `-webkit-line-clamp` property (`css-overflow-4`). */
+  /** Create a `-webkit-line-clamp` property. `css-overflow-4` */
   function webkitLineClamp(value: any): Property
   module webkitLineClamp {
-    /** `css-overflow-4` `none` keyword. */
+    /** `none` keyword. `css-overflow-4` */
     const none: string
   }
 
-  /** Create a `-webkit-line-grid` property (`unknown`). */
+  /** Create a `-webkit-line-grid` property. `unknown` */
   function webkitLineGrid(value: any): Property
 
-  /** Create a `-webkit-line-grid-snap` property (`unknown`). */
+  /** Create a `-webkit-line-grid-snap` property. `unknown` */
   function webkitLineGridSnap(value: any): Property
 
-  /** Create a `-webkit-line-snap` property (`unknown`). */
+  /** Create a `-webkit-line-snap` property. `unknown` */
   function webkitLineSnap(value: any): Property
 
-  /** Create a `-webkit-locale` property (`unknown`). */
+  /** Create a `-webkit-locale` property. `unknown` */
   function webkitLocale(value: any): Property
 
-  /** Create a `-webkit-logical-height` property (`unknown`). */
+  /** Create a `-webkit-logical-height` property. `unknown` */
   function webkitLogicalHeight(value: any): Property
 
-  /** Create a `-webkit-logical-width` property (`unknown`). */
+  /** Create a `-webkit-logical-width` property. `unknown` */
   function webkitLogicalWidth(value: any): Property
 
-  /** Create a `-webkit-margin-after` property (`unknown`). */
+  /** Create a `-webkit-margin-after` property. `unknown` */
   function webkitMarginAfter(value: any): Property
 
-  /** Create a `-webkit-margin-after-collapse` property (`unknown`). */
+  /** Create a `-webkit-margin-after-collapse` property. `unknown` */
   function webkitMarginAfterCollapse(value: any): Property
 
-  /** Create a `-webkit-margin-before` property (`unknown`). */
+  /** Create a `-webkit-margin-before` property. `unknown` */
   function webkitMarginBefore(value: any): Property
 
-  /** Create a `-webkit-margin-before-collapse` property (`unknown`). */
+  /** Create a `-webkit-margin-before-collapse` property. `unknown` */
   function webkitMarginBeforeCollapse(value: any): Property
 
-  /** Create a `-webkit-margin-bottom-collapse` property (`unknown`). */
+  /** Create a `-webkit-margin-bottom-collapse` property. `unknown` */
   function webkitMarginBottomCollapse(value: any): Property
 
-  /** Create a `-webkit-margin-collapse` property (`unknown`). */
+  /** Create a `-webkit-margin-collapse` property. `unknown` */
   function webkitMarginCollapse(value: any): Property
 
-  /** Create a `-webkit-margin-end` property (`unknown`). */
+  /** Create a `-webkit-margin-end` property. `unknown` */
   function webkitMarginEnd(value: any): Property
 
-  /** Create a `-webkit-margin-start` property (`unknown`). */
+  /** Create a `-webkit-margin-start` property. `unknown` */
   function webkitMarginStart(value: any): Property
 
-  /** Create a `-webkit-margin-top-collapse` property (`unknown`). */
+  /** Create a `-webkit-margin-top-collapse` property. `unknown` */
   function webkitMarginTopCollapse(value: any): Property
 
-  /** Create a `-webkit-marquee` property (`unknown`). */
+  /** Create a `-webkit-marquee` property. `unknown` */
   function webkitMarquee(value: any): Property
 
-  /** Create a `-webkit-marquee-direction` property (`unknown`). */
+  /** Create a `-webkit-marquee-direction` property. `unknown` */
   function webkitMarqueeDirection(value: any): Property
 
-  /** Create a `-webkit-marquee-increment` property (`unknown`). */
+  /** Create a `-webkit-marquee-increment` property. `unknown` */
   function webkitMarqueeIncrement(value: any): Property
 
-  /** Create a `-webkit-marquee-repetition` property (`unknown`). */
+  /** Create a `-webkit-marquee-repetition` property. `unknown` */
   function webkitMarqueeRepetition(value: any): Property
 
-  /** Create a `-webkit-marquee-speed` property (`unknown`). */
+  /** Create a `-webkit-marquee-speed` property. `unknown` */
   function webkitMarqueeSpeed(value: any): Property
 
-  /** Create a `-webkit-marquee-style` property (`unknown`). */
+  /** Create a `-webkit-marquee-style` property. `unknown` */
   function webkitMarqueeStyle(value: any): Property
 
-  /** Create a `-webkit-mask` property (`compat`). */
+  /** Create a `-webkit-mask` property. `compat` */
   function webkitMask(value: any): Property
 
-  /** Create a `-webkit-mask-attachment` property (`unknown`). */
+  /** Create a `-webkit-mask-attachment` property. `unknown` */
   function webkitMaskAttachment(value: any): Property
 
-  /** Create a `-webkit-mask-box-image` property (`compat`). */
+  /** Create a `-webkit-mask-box-image` property. `compat` */
   function webkitMaskBoxImage(value: any): Property
 
-  /** Create a `-webkit-mask-box-image-outset` property (`compat`). */
+  /** Create a `-webkit-mask-box-image-outset` property. `compat` */
   function webkitMaskBoxImageOutset(value: any): Property
 
-  /** Create a `-webkit-mask-box-image-repeat` property (`compat`). */
+  /** Create a `-webkit-mask-box-image-repeat` property. `compat` */
   function webkitMaskBoxImageRepeat(value: any): Property
 
-  /** Create a `-webkit-mask-box-image-slice` property (`compat`). */
+  /** Create a `-webkit-mask-box-image-slice` property. `compat` */
   function webkitMaskBoxImageSlice(value: any): Property
 
-  /** Create a `-webkit-mask-box-image-source` property (`compat`). */
+  /** Create a `-webkit-mask-box-image-source` property. `compat` */
   function webkitMaskBoxImageSource(value: any): Property
 
-  /** Create a `-webkit-mask-box-image-width` property (`compat`). */
+  /** Create a `-webkit-mask-box-image-width` property. `compat` */
   function webkitMaskBoxImageWidth(value: any): Property
 
-  /** Create a `-webkit-mask-clip` property (`compat`). */
+  /** Create a `-webkit-mask-clip` property. `compat` */
   function webkitMaskClip(value: any): Property
 
-  /** Create a `-webkit-mask-composite` property (`compat`). */
+  /** Create a `-webkit-mask-composite` property. `compat` */
   function webkitMaskComposite(value: any): Property
 
-  /** Create a `-webkit-mask-image` property (`compat`). */
+  /** Create a `-webkit-mask-image` property. `compat` */
   function webkitMaskImage(value: any): Property
 
-  /** Create a `-webkit-mask-origin` property (`compat`). */
+  /** Create a `-webkit-mask-origin` property. `compat` */
   function webkitMaskOrigin(value: any): Property
 
-  /** Create a `-webkit-mask-position` property (`compat`). */
+  /** Create a `-webkit-mask-position` property. `compat` */
   function webkitMaskPosition(value: any): Property
 
-  /** Create a `-webkit-mask-position-x` property (`unknown`). */
+  /** Create a `-webkit-mask-position-x` property. `unknown` */
   function webkitMaskPositionX(value: any): Property
 
-  /** Create a `-webkit-mask-position-y` property (`unknown`). */
+  /** Create a `-webkit-mask-position-y` property. `unknown` */
   function webkitMaskPositionY(value: any): Property
 
-  /** Create a `-webkit-mask-repeat` property (`compat`). */
+  /** Create a `-webkit-mask-repeat` property. `compat` */
   function webkitMaskRepeat(value: any): Property
 
-  /** Create a `-webkit-mask-repeat-x` property (`unknown`). */
+  /** Create a `-webkit-mask-repeat-x` property. `unknown` */
   function webkitMaskRepeatX(value: any): Property
 
-  /** Create a `-webkit-mask-repeat-y` property (`unknown`). */
+  /** Create a `-webkit-mask-repeat-y` property. `unknown` */
   function webkitMaskRepeatY(value: any): Property
 
-  /** Create a `-webkit-mask-size` property (`compat`). */
+  /** Create a `-webkit-mask-size` property. `compat` */
   function webkitMaskSize(value: any): Property
 
-  /** Create a `-webkit-mask-source-type` property (`unknown`). */
+  /** Create a `-webkit-mask-source-type` property. `unknown` */
   function webkitMaskSourceType(value: any): Property
 
-  /** Create a `-webkit-match-nearest-mail-blockquote-color` property (`unknown`). */
+  /** Create a `-webkit-match-nearest-mail-blockquote-color` property. `unknown` */
   function webkitMatchNearestMailBlockquoteColor(value: any): Property
 
-  /** Create a `-webkit-max-logical-height` property (`unknown`). */
+  /** Create a `-webkit-max-logical-height` property. `unknown` */
   function webkitMaxLogicalHeight(value: any): Property
 
-  /** Create a `-webkit-max-logical-width` property (`unknown`). */
+  /** Create a `-webkit-max-logical-width` property. `unknown` */
   function webkitMaxLogicalWidth(value: any): Property
 
-  /** Create a `-webkit-min-logical-height` property (`unknown`). */
+  /** Create a `-webkit-min-logical-height` property. `unknown` */
   function webkitMinLogicalHeight(value: any): Property
 
-  /** Create a `-webkit-min-logical-width` property (`unknown`). */
+  /** Create a `-webkit-min-logical-width` property. `unknown` */
   function webkitMinLogicalWidth(value: any): Property
 
-  /** Create a `-webkit-nbsp-mode` property (`unknown`). */
+  /** Create a `-webkit-nbsp-mode` property. `unknown` */
   function webkitNbspMode(value: any): Property
 
-  /** Create a `-webkit-opacity` property (`unknown`). */
+  /** Create a `-webkit-opacity` property. `unknown` */
   function webkitOpacity(value: any): Property
 
-  /** Create a `-webkit-order` property (`compat`). */
+  /** Create a `-webkit-order` property. `compat` */
   function webkitOrder(value: any): Property
 
-  /** Create a `-webkit-overflow-scrolling` property (`unknown`). */
+  /** Create a `-webkit-overflow-scrolling` property. `unknown` */
   function webkitOverflowScrolling(value: any): Property
 
-  /** Create a `-webkit-padding-after` property (`unknown`). */
+  /** Create a `-webkit-padding-after` property. `unknown` */
   function webkitPaddingAfter(value: any): Property
 
-  /** Create a `-webkit-padding-before` property (`unknown`). */
+  /** Create a `-webkit-padding-before` property. `unknown` */
   function webkitPaddingBefore(value: any): Property
 
-  /** Create a `-webkit-padding-end` property (`unknown`). */
+  /** Create a `-webkit-padding-end` property. `unknown` */
   function webkitPaddingEnd(value: any): Property
 
-  /** Create a `-webkit-padding-start` property (`unknown`). */
+  /** Create a `-webkit-padding-start` property. `unknown` */
   function webkitPaddingStart(value: any): Property
 
-  /** Create a `-webkit-perspective` property (`compat`). */
+  /** Create a `-webkit-perspective` property. `compat` */
   function webkitPerspective(value: any): Property
 
-  /** Create a `-webkit-perspective-origin` property (`compat`). */
+  /** Create a `-webkit-perspective-origin` property. `compat` */
   function webkitPerspectiveOrigin(value: any): Property
 
-  /** Create a `-webkit-perspective-origin-x` property (`unknown`). */
+  /** Create a `-webkit-perspective-origin-x` property. `unknown` */
   function webkitPerspectiveOriginX(value: any): Property
 
-  /** Create a `-webkit-perspective-origin-y` property (`unknown`). */
+  /** Create a `-webkit-perspective-origin-y` property. `unknown` */
   function webkitPerspectiveOriginY(value: any): Property
 
-  /** Create a `-webkit-print-color-adjust` property (`unknown`). */
+  /** Create a `-webkit-print-color-adjust` property. `unknown` */
   function webkitPrintColorAdjust(value: any): Property
 
-  /** Create a `-webkit-region-break-after` property (`unknown`). */
+  /** Create a `-webkit-region-break-after` property. `unknown` */
   function webkitRegionBreakAfter(value: any): Property
 
-  /** Create a `-webkit-region-break-before` property (`unknown`). */
+  /** Create a `-webkit-region-break-before` property. `unknown` */
   function webkitRegionBreakBefore(value: any): Property
 
-  /** Create a `-webkit-region-break-inside` property (`unknown`). */
+  /** Create a `-webkit-region-break-inside` property. `unknown` */
   function webkitRegionBreakInside(value: any): Property
 
-  /** Create a `-webkit-region-fragment` property (`unknown`). */
+  /** Create a `-webkit-region-fragment` property. `unknown` */
   function webkitRegionFragment(value: any): Property
 
-  /** Create a `-webkit-region-overflow` property (`unknown`). */
+  /** Create a `-webkit-region-overflow` property. `unknown` */
   function webkitRegionOverflow(value: any): Property
 
-  /** Create a `-webkit-rtl-ordering` property (`unknown`). */
+  /** Create a `-webkit-rtl-ordering` property. `unknown` */
   function webkitRtlOrdering(value: any): Property
 
-  /** Create a `-webkit-ruby-position` property (`unknown`). */
+  /** Create a `-webkit-ruby-position` property. `unknown` */
   function webkitRubyPosition(value: any): Property
 
-  /** Create a `-webkit-scroll-snap-coordinate` property (`unknown`). */
+  /** Create a `-webkit-scroll-snap-coordinate` property. `unknown` */
   function webkitScrollSnapCoordinate(value: any): Property
 
-  /** Create a `-webkit-scroll-snap-destination` property (`unknown`). */
+  /** Create a `-webkit-scroll-snap-destination` property. `unknown` */
   function webkitScrollSnapDestination(value: any): Property
 
-  /** Create a `-webkit-scroll-snap-points-x` property (`unknown`). */
+  /** Create a `-webkit-scroll-snap-points-x` property. `unknown` */
   function webkitScrollSnapPointsX(value: any): Property
 
-  /** Create a `-webkit-scroll-snap-points-y` property (`unknown`). */
+  /** Create a `-webkit-scroll-snap-points-y` property. `unknown` */
   function webkitScrollSnapPointsY(value: any): Property
 
-  /** Create a `-webkit-scroll-snap-type` property (`unknown`). */
+  /** Create a `-webkit-scroll-snap-type` property. `unknown` */
   function webkitScrollSnapType(value: any): Property
 
-  /** Create a `-webkit-shape-image-threshold` property (`unknown`). */
+  /** Create a `-webkit-shape-image-threshold` property. `unknown` */
   function webkitShapeImageThreshold(value: any): Property
 
-  /** Create a `-webkit-shape-inside` property (`unknown`). */
+  /** Create a `-webkit-shape-inside` property. `unknown` */
   function webkitShapeInside(value: any): Property
 
-  /** Create a `-webkit-shape-margin` property (`unknown`). */
+  /** Create a `-webkit-shape-margin` property. `unknown` */
   function webkitShapeMargin(value: any): Property
 
-  /** Create a `-webkit-shape-outside` property (`unknown`). */
+  /** Create a `-webkit-shape-outside` property. `unknown` */
   function webkitShapeOutside(value: any): Property
 
-  /** Create a `-webkit-shape-padding` property (`unknown`). */
+  /** Create a `-webkit-shape-padding` property. `unknown` */
   function webkitShapePadding(value: any): Property
 
-  /** Create a `-webkit-svg-shadow` property (`unknown`). */
+  /** Create a `-webkit-svg-shadow` property. `unknown` */
   function webkitSvgShadow(value: any): Property
 
-  /** Create a `-webkit-tap-highlight-color` property (`unknown`). */
+  /** Create a `-webkit-tap-highlight-color` property. `unknown` */
   function webkitTapHighlightColor(value: any): Property
 
-  /** Create a `-webkit-text-combine` property (`unknown`). */
+  /** Create a `-webkit-text-combine` property. `unknown` */
   function webkitTextCombine(value: any): Property
 
-  /** Create a `-webkit-text-decoration` property (`unknown`). */
+  /** Create a `-webkit-text-decoration` property. `unknown` */
   function webkitTextDecoration(value: any): Property
 
-  /** Create a `-webkit-text-decoration-color` property (`unknown`). */
+  /** Create a `-webkit-text-decoration-color` property. `unknown` */
   function webkitTextDecorationColor(value: any): Property
 
-  /** Create a `-webkit-text-decoration-line` property (`unknown`). */
+  /** Create a `-webkit-text-decoration-line` property. `unknown` */
   function webkitTextDecorationLine(value: any): Property
 
-  /** Create a `-webkit-text-decoration-skip` property (`unknown`). */
+  /** Create a `-webkit-text-decoration-skip` property. `unknown` */
   function webkitTextDecorationSkip(value: any): Property
 
-  /** Create a `-webkit-text-decoration-style` property (`unknown`). */
+  /** Create a `-webkit-text-decoration-style` property. `unknown` */
   function webkitTextDecorationStyle(value: any): Property
 
-  /** Create a `-webkit-text-decorations-in-effect` property (`unknown`). */
+  /** Create a `-webkit-text-decorations-in-effect` property. `unknown` */
   function webkitTextDecorationsInEffect(value: any): Property
 
-  /** Create a `-webkit-text-emphasis` property (`unknown`). */
+  /** Create a `-webkit-text-emphasis` property. `unknown` */
   function webkitTextEmphasis(value: any): Property
 
-  /** Create a `-webkit-text-emphasis-color` property (`unknown`). */
+  /** Create a `-webkit-text-emphasis-color` property. `unknown` */
   function webkitTextEmphasisColor(value: any): Property
 
-  /** Create a `-webkit-text-emphasis-position` property (`unknown`). */
+  /** Create a `-webkit-text-emphasis-position` property. `unknown` */
   function webkitTextEmphasisPosition(value: any): Property
 
-  /** Create a `-webkit-text-emphasis-style` property (`unknown`). */
+  /** Create a `-webkit-text-emphasis-style` property. `unknown` */
   function webkitTextEmphasisStyle(value: any): Property
 
-  /** Create a `-webkit-text-fill-color` property (`compat`). */
+  /** Create a `-webkit-text-fill-color` property. `compat` */
   function webkitTextFillColor(value: any): Property
   module webkitTextFillColor {
-    /** `compat` `color` keyword. */
+    /** `color` keyword. `compat` */
     const color: string
   }
 
-  /** Create a `-webkit-text-orientation` property (`unknown`). */
+  /** Create a `-webkit-text-orientation` property. `unknown` */
   function webkitTextOrientation(value: any): Property
 
-  /** Create a `-webkit-text-security` property (`unknown`). */
+  /** Create a `-webkit-text-security` property. `unknown` */
   function webkitTextSecurity(value: any): Property
 
-  /** Create a `-webkit-text-size-adjust` property (`compat`). */
+  /** Create a `-webkit-text-size-adjust` property. `compat` */
   function webkitTextSizeAdjust(value: any): Property
 
-  /** Create a `-webkit-text-stroke` property (`compat`). */
+  /** Create a `-webkit-text-stroke` property. `compat` */
   function webkitTextStroke(value: any): Property
   module webkitTextStroke {
-    /** `compat` `color` keyword. */
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `compat` */
+    const thin: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `compat` */
+    const medium: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `compat` */
+    const thick: string
+    /** `color` keyword. `compat` */
     const color: string
   }
 
-  /** Create a `-webkit-text-stroke-color` property (`compat`). */
+  /** Create a `-webkit-text-stroke-color` property. `compat` */
   function webkitTextStrokeColor(value: any): Property
   module webkitTextStrokeColor {
-    /** `compat` `color` keyword. */
+    /** `color` keyword. `compat` */
     const color: string
   }
 
-  /** Create a `-webkit-text-stroke-width` property (`compat`). */
+  /** Create a `-webkit-text-stroke-width` property. `compat` */
   function webkitTextStrokeWidth(value: any): Property
+  module webkitTextStrokeWidth {
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `compat` */
+    const thin: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `compat` */
+    const medium: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `compat` */
+    const thick: string
+  }
 
-  /** Create a `-webkit-text-underline-position` property (`unknown`). */
+  /** Create a `-webkit-text-underline-position` property. `unknown` */
   function webkitTextUnderlinePosition(value: any): Property
 
-  /** Create a `-webkit-text-zoom` property (`unknown`). */
+  /** Create a `-webkit-text-zoom` property. `unknown` */
   function webkitTextZoom(value: any): Property
 
-  /** Create a `-webkit-touch-callout` property (`unknown`). */
+  /** Create a `-webkit-touch-callout` property. `unknown` */
   function webkitTouchCallout(value: any): Property
 
-  /** Create a `-webkit-transform` property (`compat`). */
+  /** Create a `-webkit-transform` property. `compat` */
   function webkitTransform(value: any): Property
 
-  /** Create a `-webkit-transform-origin` property (`compat`). */
+  /** Create a `-webkit-transform-origin` property. `compat` */
   function webkitTransformOrigin(value: any): Property
 
-  /** Create a `-webkit-transform-origin-x` property (`unknown`). */
+  /** Create a `-webkit-transform-origin-x` property. `unknown` */
   function webkitTransformOriginX(value: any): Property
 
-  /** Create a `-webkit-transform-origin-y` property (`unknown`). */
+  /** Create a `-webkit-transform-origin-y` property. `unknown` */
   function webkitTransformOriginY(value: any): Property
 
-  /** Create a `-webkit-transform-origin-z` property (`unknown`). */
+  /** Create a `-webkit-transform-origin-z` property. `unknown` */
   function webkitTransformOriginZ(value: any): Property
 
-  /** Create a `-webkit-transform-style` property (`compat`). */
+  /** Create a `-webkit-transform-style` property. `compat` */
   function webkitTransformStyle(value: any): Property
 
-  /** Create a `-webkit-transition` property (`compat`). */
+  /** Create a `-webkit-transition` property. `compat` */
   function webkitTransition(value: any): Property
 
-  /** Create a `-webkit-transition-delay` property (`compat`). */
+  /** Create a `-webkit-transition-delay` property. `compat` */
   function webkitTransitionDelay(value: any): Property
 
-  /** Create a `-webkit-transition-duration` property (`compat`). */
+  /** Create a `-webkit-transition-duration` property. `compat` */
   function webkitTransitionDuration(value: any): Property
 
-  /** Create a `-webkit-transition-property` property (`compat`). */
+  /** Create a `-webkit-transition-property` property. `compat` */
   function webkitTransitionProperty(value: any): Property
 
-  /** Create a `-webkit-transition-timing-function` property (`compat`). */
+  /** Create a `-webkit-transition-timing-function` property. `compat` */
   function webkitTransitionTimingFunction(value: any): Property
 
-  /** Create a `-webkit-user-drag` property (`unknown`). */
+  /** Create a `-webkit-user-drag` property. `unknown` */
   function webkitUserDrag(value: any): Property
 
-  /** Create a `-webkit-user-modify` property (`unknown`). */
+  /** Create a `-webkit-user-modify` property. `unknown` */
   function webkitUserModify(value: any): Property
 
-  /** Create a `-webkit-user-select` property (`css-ui`). */
+  /** Create a `-webkit-user-select` property. `css-ui` */
   function webkitUserSelect(value: any): Property
 
-  /** Create a `-webkit-widget-region` property (`unknown`). */
+  /** Create a `-webkit-widget-region` property. `unknown` */
   function webkitWidgetRegion(value: any): Property
 
-  /** Create a `-webkit-wrap` property (`unknown`). */
+  /** Create a `-webkit-wrap` property. `unknown` */
   function webkitWrap(value: any): Property
 
-  /** Create a `-webkit-wrap-flow` property (`unknown`). */
+  /** Create a `-webkit-wrap-flow` property. `unknown` */
   function webkitWrapFlow(value: any): Property
 
-  /** Create a `-webkit-wrap-margin` property (`unknown`). */
+  /** Create a `-webkit-wrap-margin` property. `unknown` */
   function webkitWrapMargin(value: any): Property
 
-  /** Create a `-webkit-wrap-padding` property (`unknown`). */
+  /** Create a `-webkit-wrap-padding` property. `unknown` */
   function webkitWrapPadding(value: any): Property
 
-  /** Create a `-webkit-wrap-shape-inside` property (`unknown`). */
+  /** Create a `-webkit-wrap-shape-inside` property. `unknown` */
   function webkitWrapShapeInside(value: any): Property
 
-  /** Create a `-webkit-wrap-shape-outside` property (`unknown`). */
+  /** Create a `-webkit-wrap-shape-outside` property. `unknown` */
   function webkitWrapShapeOutside(value: any): Property
 
-  /** Create a `-webkit-wrap-through` property (`unknown`). */
+  /** Create a `-webkit-wrap-through` property. `unknown` */
   function webkitWrapThrough(value: any): Property
 
-  /** Create a `-webkit-writing-mode` property (`unknown`). */
+  /** Create a `-webkit-writing-mode` property. `unknown` */
   function webkitWritingMode(value: any): Property
 
-  /** Create a `accelerator` property (`unknown`). */
+  /** Create a `accelerator` property. `unknown` */
   function accelerator(value: any): Property
 
-  /** Create a `accent-color` property (`css-ui`). */
+  /** Create a `accent-color` property. `css-ui` */
   function accentColor(value: any): Property
   module accentColor {
-    /** `css-ui` Represents a UA-chosen color, which should match the accent color of the platform, if any.. */
+    /** Represents a UA-chosen color, which should match the accent color of the platform, if any.. `css-ui` */
     const auto: string
-    /** `css-ui` `color` keyword. */
+    /** `color` keyword. `css-ui` */
     const color: string
   }
 
-  /** Create a `additive-symbols` property (`unknown`). */
+  /** Create a `additive-symbols` property. `unknown` */
   function additiveSymbols(value: any): Property
 
-  /** Create a `align-content` property (`css-align`). */
+  /** Create a `align-content` property. `css-align` */
   function alignContent(value: any): Property
   module alignContent {
-    /** `css-align` Aligns the contents of the box as a whole (as the alignment subject) within the box itself (as the alignment container): along the inline/row/main axis of the box (for justify-content) or the block/column/cross axis of the box (for align-content). Values other than normal are defined in § 4 Alignment Keywords, above.. */
+    /** Aligns the contents of the box as a whole (as the alignment subject) within the box itself (as the alignment container): along the inline/row/main axis of the box (for justify-content) or the block/column/cross axis of the box (for align-content). Values other than normal are defined in § 4 Alignment Keywords, above.. `css-align` */
     const normal: string
+    /** Computes to first baseline, defined below.. `css-align` */
+    const baseline: string
+    /** Specifies participation in first-baseline alignment: aligns the alignment baseline of the box’s first baseline set with the corresponding baseline of its baseline-sharing group. See § 9.3 Aligning Boxes by Baseline for more details. The fallback alignment for first baseline is safe self-start (for self-alignment) or safe start (for content-distribution).. `css-align` */
+    const first_baseline: string
+    /** Specifies participation in last-baseline alignment: aligns the alignment baseline of the box’s last baseline set with the corresponding baseline of its baseline-sharing group.̣ See § 9.3 Aligning Boxes by Baseline for more details. The fallback alignment for last baseline is safe self-end (for self-alignment) or safe end (for content-distribution).. `css-align` */
+    const last_baseline: string
+    /** The alignment subjects are evenly distributed in the alignment container. The first alignment subject is placed flush with the start edge of the alignment container, the last alignment subject is placed flush with the end edge of the alignment container, and the remaining alignment subjects are distributed so that the spacing between any two adjacent alignment subjects is the same. The default fallback alignment for this value is flex-start. (For layout modes other than flex layout, flex-start is identical to start.). `css-align` */
+    const spaceBetween: string
+    /** The alignment subjects are evenly distributed in the alignment container, with a half-size space on either end. The alignment subjects are distributed so that the spacing between any two adjacent alignment subjects is the same, and the spacing before the first and after the last alignment subject is half the size of the other spacing. The default fallback alignment for this value is safe center.. `css-align` */
+    const spaceAround: string
+    /** The alignment subjects are evenly distributed in the alignment container, with a full-size space on either end. The alignment subjects are distributed so that the spacing between any two adjacent alignment subjects, before the first alignment subject, and after the last alignment subject is the same. The default fallback alignment for this value is safe center.. `css-align` */
+    const spaceEvenly: string
+    /** If the combined size of the alignment subjects is less than the size of the alignment container, any auto-sized alignment subjects have their size increased equally (not proportionally), while still respecting the constraints imposed by max-height/max-width (or equivalent functionality), so that the combined size exactly fills the alignment container. The default fallback alignment for this value is flex-start. (For layout modes other than flex layout, flex-start is identical to start.). `css-align` */
+    const stretch: string
+    /** If the size of the alignment subject overflows the alignment container, the alignment subject is instead aligned as if the alignment mode were start.. `css-align` */
+    const safe: string
+    /** Regardless of the relative sizes of the alignment subject and alignment container, the given alignment value is honored.. `css-align` */
+    const unsafe: string
+    /** Centers the alignment subject within its alignment container.. `css-align` */
+    const center: string
+    /** Aligns the alignment subject to be flush with the alignment container’s start edge in the appropriate axis.. `css-align` */
+    const start: string
+    /** Aligns the alignment subject to be flush with the alignment container’s end edge in the appropriate axis.. `css-align` */
+    const end: string
+    /** Only used in flex layout. [CSS-FLEXBOX-1] Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the flex container’s main-start or cross-start side, as appropriate. When used outside of a flex formatting context, this value behaves as start. That is, on boxes that are not flex items (or pretending to be flex items, such as when determining the static position of an absolutely-positioned box that is a child of a flex container), this value behaves as start when used in the self-alignment properties, and on boxes that are not flex containers, this value behaves as start when used in the content-distribution properties.. `css-align` */
+    const flexStart: string
+    /** Only used in flex layout. Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the flex container’s main-end or cross-end side, as appropriate. When used outside of a flex formatting context, this value behaves as end. That is, on boxes that are not flex items (or pretending to be flex items, such as when determining the static position of an absolutely-positioned box that is a child of a flex container), this value behaves as end when used in the self-alignment properties, and on boxes that are not flex containers, this value behaves as end when used in the content-distribution properties.. `css-align` */
+    const flexEnd: string
   }
 
-  /** Create a `align-items` property (`css-align`). */
+  /** Create a `align-items` property. `css-align` */
   function alignItems(value: any): Property
   module alignItems {
-    /** `css-align` `normal` keyword. */
+    /** `normal` keyword. `css-align` */
     const normal: string
-    /** `css-align` `stretch` keyword. */
+    /** `stretch` keyword. `css-align` */
     const stretch: string
+    /** Computes to first baseline, defined below.. `css-align` */
+    const baseline: string
+    /** Specifies participation in first-baseline alignment: aligns the alignment baseline of the box’s first baseline set with the corresponding baseline of its baseline-sharing group. See § 9.3 Aligning Boxes by Baseline for more details. The fallback alignment for first baseline is safe self-start (for self-alignment) or safe start (for content-distribution).. `css-align` */
+    const first_baseline: string
+    /** Specifies participation in last-baseline alignment: aligns the alignment baseline of the box’s last baseline set with the corresponding baseline of its baseline-sharing group.̣ See § 9.3 Aligning Boxes by Baseline for more details. The fallback alignment for last baseline is safe self-end (for self-alignment) or safe end (for content-distribution).. `css-align` */
+    const last_baseline: string
+    /** If the size of the alignment subject overflows the alignment container, the alignment subject is instead aligned as if the alignment mode were start.. `css-align` */
+    const safe: string
+    /** Regardless of the relative sizes of the alignment subject and alignment container, the given alignment value is honored.. `css-align` */
+    const unsafe: string
+    /** Centers the alignment subject within its alignment container.. `css-align` */
+    const center: string
+    /** Aligns the alignment subject to be flush with the alignment container’s start edge in the appropriate axis.. `css-align` */
+    const start: string
+    /** Aligns the alignment subject to be flush with the alignment container’s end edge in the appropriate axis.. `css-align` */
+    const end: string
+    /** Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the alignment subject’s start side in the appropriate axis.. `css-align` */
+    const selfStart: string
+    /** Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the alignment subject’s end side in the appropriate axis.. `css-align` */
+    const selfEnd: string
+    /** Only used in flex layout. [CSS-FLEXBOX-1] Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the flex container’s main-start or cross-start side, as appropriate. When used outside of a flex formatting context, this value behaves as start. That is, on boxes that are not flex items (or pretending to be flex items, such as when determining the static position of an absolutely-positioned box that is a child of a flex container), this value behaves as start when used in the self-alignment properties, and on boxes that are not flex containers, this value behaves as start when used in the content-distribution properties.. `css-align` */
+    const flexStart: string
+    /** Only used in flex layout. Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the flex container’s main-end or cross-end side, as appropriate. When used outside of a flex formatting context, this value behaves as end. That is, on boxes that are not flex items (or pretending to be flex items, such as when determining the static position of an absolutely-positioned box that is a child of a flex container), this value behaves as end when used in the self-alignment properties, and on boxes that are not flex containers, this value behaves as end when used in the content-distribution properties.. `css-align` */
+    const flexEnd: string
   }
 
-  /** Create a `align-self` property (`css-align`). */
+  /** Create a `align-self` property. `css-align` */
   function alignSelf(value: any): Property
   module alignSelf {
-    /** `css-align` Behaves as normal if the box has no parent, or when determining the actual position of an absolutely positioned box. It behaves as the computed align-items value of the parent box (minus any legacy keywords) otherwise (including when determining the static position of an absolutely positioned box).. */
+    /** Behaves as normal if the box has no parent, or when determining the actual position of an absolutely positioned box. It behaves as the computed align-items value of the parent box (minus any legacy keywords) otherwise (including when determining the static position of an absolutely positioned box).. `css-align` */
     const auto: string
-    /** `css-align` Represents the “default” alignment for the layout mode, as defined below.. */
+    /** Represents the “default” alignment for the layout mode, as defined below.. `css-align` */
     const normal: string
-    /** `css-align` As defined for justify-self in § 6.1 Inline-Axis (or Main-Axis) Alignment: the justify-self property.. */
+    /** As defined for justify-self in § 6.1 Inline-Axis (or Main-Axis) Alignment: the justify-self property.. `css-align` */
     const stretch: string
+    /** Computes to first baseline, defined below.. `css-align` */
+    const baseline: string
+    /** Specifies participation in first-baseline alignment: aligns the alignment baseline of the box’s first baseline set with the corresponding baseline of its baseline-sharing group. See § 9.3 Aligning Boxes by Baseline for more details. The fallback alignment for first baseline is safe self-start (for self-alignment) or safe start (for content-distribution).. `css-align` */
+    const first_baseline: string
+    /** Specifies participation in last-baseline alignment: aligns the alignment baseline of the box’s last baseline set with the corresponding baseline of its baseline-sharing group.̣ See § 9.3 Aligning Boxes by Baseline for more details. The fallback alignment for last baseline is safe self-end (for self-alignment) or safe end (for content-distribution).. `css-align` */
+    const last_baseline: string
+    /** If the size of the alignment subject overflows the alignment container, the alignment subject is instead aligned as if the alignment mode were start.. `css-align` */
+    const safe: string
+    /** Regardless of the relative sizes of the alignment subject and alignment container, the given alignment value is honored.. `css-align` */
+    const unsafe: string
+    /** Centers the alignment subject within its alignment container.. `css-align` */
+    const center: string
+    /** Aligns the alignment subject to be flush with the alignment container’s start edge in the appropriate axis.. `css-align` */
+    const start: string
+    /** Aligns the alignment subject to be flush with the alignment container’s end edge in the appropriate axis.. `css-align` */
+    const end: string
+    /** Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the alignment subject’s start side in the appropriate axis.. `css-align` */
+    const selfStart: string
+    /** Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the alignment subject’s end side in the appropriate axis.. `css-align` */
+    const selfEnd: string
+    /** Only used in flex layout. [CSS-FLEXBOX-1] Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the flex container’s main-start or cross-start side, as appropriate. When used outside of a flex formatting context, this value behaves as start. That is, on boxes that are not flex items (or pretending to be flex items, such as when determining the static position of an absolutely-positioned box that is a child of a flex container), this value behaves as start when used in the self-alignment properties, and on boxes that are not flex containers, this value behaves as start when used in the content-distribution properties.. `css-align` */
+    const flexStart: string
+    /** Only used in flex layout. Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the flex container’s main-end or cross-end side, as appropriate. When used outside of a flex formatting context, this value behaves as end. That is, on boxes that are not flex items (or pretending to be flex items, such as when determining the static position of an absolutely-positioned box that is a child of a flex container), this value behaves as end when used in the self-alignment properties, and on boxes that are not flex containers, this value behaves as end when used in the content-distribution properties.. `css-align` */
+    const flexEnd: string
   }
 
-  /** Create a `align-tracks` property (`css-grid-3`). */
+  /** Create a `align-tracks` property. `css-grid-3` */
   function alignTracks(value: any): Property
+  module alignTracks {
+    /** `normal` keyword. `css-grid-3` */
+    const normal: string
+    /** Computes to first baseline, defined below.. `css-grid-3` */
+    const baseline: string
+    /** Specifies participation in first-baseline alignment: aligns the alignment baseline of the box’s first baseline set with the corresponding baseline of its baseline-sharing group. See § 9.3 Aligning Boxes by Baseline for more details. The fallback alignment for first baseline is safe self-start (for self-alignment) or safe start (for content-distribution).. `css-grid-3` */
+    const first_baseline: string
+    /** Specifies participation in last-baseline alignment: aligns the alignment baseline of the box’s last baseline set with the corresponding baseline of its baseline-sharing group.̣ See § 9.3 Aligning Boxes by Baseline for more details. The fallback alignment for last baseline is safe self-end (for self-alignment) or safe end (for content-distribution).. `css-grid-3` */
+    const last_baseline: string
+    /** The alignment subjects are evenly distributed in the alignment container. The first alignment subject is placed flush with the start edge of the alignment container, the last alignment subject is placed flush with the end edge of the alignment container, and the remaining alignment subjects are distributed so that the spacing between any two adjacent alignment subjects is the same. The default fallback alignment for this value is flex-start. (For layout modes other than flex layout, flex-start is identical to start.). `css-grid-3` */
+    const spaceBetween: string
+    /** The alignment subjects are evenly distributed in the alignment container, with a half-size space on either end. The alignment subjects are distributed so that the spacing between any two adjacent alignment subjects is the same, and the spacing before the first and after the last alignment subject is half the size of the other spacing. The default fallback alignment for this value is safe center.. `css-grid-3` */
+    const spaceAround: string
+    /** The alignment subjects are evenly distributed in the alignment container, with a full-size space on either end. The alignment subjects are distributed so that the spacing between any two adjacent alignment subjects, before the first alignment subject, and after the last alignment subject is the same. The default fallback alignment for this value is safe center.. `css-grid-3` */
+    const spaceEvenly: string
+    /** If the combined size of the alignment subjects is less than the size of the alignment container, any auto-sized alignment subjects have their size increased equally (not proportionally), while still respecting the constraints imposed by max-height/max-width (or equivalent functionality), so that the combined size exactly fills the alignment container. The default fallback alignment for this value is flex-start. (For layout modes other than flex layout, flex-start is identical to start.). `css-grid-3` */
+    const stretch: string
+    /** If the size of the alignment subject overflows the alignment container, the alignment subject is instead aligned as if the alignment mode were start.. `css-grid-3` */
+    const safe: string
+    /** Regardless of the relative sizes of the alignment subject and alignment container, the given alignment value is honored.. `css-grid-3` */
+    const unsafe: string
+    /** Centers the alignment subject within its alignment container.. `css-grid-3` */
+    const center: string
+    /** Aligns the alignment subject to be flush with the alignment container’s start edge in the appropriate axis.. `css-grid-3` */
+    const start: string
+    /** Aligns the alignment subject to be flush with the alignment container’s end edge in the appropriate axis.. `css-grid-3` */
+    const end: string
+    /** Only used in flex layout. [CSS-FLEXBOX-1] Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the flex container’s main-start or cross-start side, as appropriate. When used outside of a flex formatting context, this value behaves as start. That is, on boxes that are not flex items (or pretending to be flex items, such as when determining the static position of an absolutely-positioned box that is a child of a flex container), this value behaves as start when used in the self-alignment properties, and on boxes that are not flex containers, this value behaves as start when used in the content-distribution properties.. `css-grid-3` */
+    const flexStart: string
+    /** Only used in flex layout. Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the flex container’s main-end or cross-end side, as appropriate. When used outside of a flex formatting context, this value behaves as end. That is, on boxes that are not flex items (or pretending to be flex items, such as when determining the static position of an absolutely-positioned box that is a child of a flex container), this value behaves as end when used in the self-alignment properties, and on boxes that are not flex containers, this value behaves as end when used in the content-distribution properties.. `css-grid-3` */
+    const flexEnd: string
+  }
 
-  /** Create a `alignment-baseline` property (`css-inline`). */
+  /** Create a `alignment-baseline` property. `css-inline` */
   function alignmentBaseline(value: any): Property
   module alignmentBaseline {
-    /** `css-inline` Use the dominant baseline choice of the parent.. */
+    /** Use the dominant baseline choice of the parent.. `css-inline` */
     const baseline: string
-    /** `css-inline` Use the text-under baseline.. */
+    /** Use the text-under baseline.. `css-inline` */
     const textBottom: string
-    /** `css-inline` Use the alphabetic baseline.. */
+    /** Use the alphabetic baseline.. `css-inline` */
     const alphabetic: string
-    /** `css-inline` Use the ideographic-under baseline.. */
+    /** Use the ideographic-under baseline.. `css-inline` */
     const ideographic: string
-    /** `css-inline` In general, use the x-middle baselines; except under text-orientation: upright (where the alphabetic and x-height baselines are essentially meaningless) use the central baseline instead.. */
+    /** In general, use the x-middle baselines; except under text-orientation: upright (where the alphabetic and x-height baselines are essentially meaningless) use the central baseline instead.. `css-inline` */
     const middle: string
-    /** `css-inline` Use the central baseline.. */
+    /** Use the central baseline.. `css-inline` */
     const central: string
-    /** `css-inline` Use the math baseline.. */
+    /** Use the math baseline.. `css-inline` */
     const mathematical: string
-    /** `css-inline` Use the text-over baseline.. */
+    /** Use the text-over baseline.. `css-inline` */
     const textTop: string
   }
 
-  /** Create a `all` property (`css-cascade`). */
+  /** Create a `all` property. `css-cascade` */
   function all(value: any): Property
   module all {
-    /** `css-cascade` The initial CSS-wide keyword represents the value defined as the property’s initial value.. */
+    /** The initial CSS-wide keyword represents the value defined as the property’s initial value.. `css-cascade` */
     const initial: string
-    /** `css-cascade` The inherit CSS-wide keyword represents the property’s computed value on the parent element.. */
+    /** The inherit CSS-wide keyword represents the property’s computed value on the parent element.. `css-cascade` */
     const inherit: string
-    /** `css-cascade` The unset CSS-wide keyword acts as either inherit or initial, depending on whether the property is inherited or not.. */
+    /** The unset CSS-wide keyword acts as either inherit or initial, depending on whether the property is inherited or not.. `css-cascade` */
     const unset: string
-    /** `css-cascade` `revert` keyword. */
+    /** `revert` keyword. `css-cascade` */
     const revert: string
-    /** `css-cascade` The revert-layer CSS-wide keyword rolls back the cascade similar to revert, except it works by cascade layer rather than by cascade origin.. */
+    /** The revert-layer CSS-wide keyword rolls back the cascade similar to revert, except it works by cascade layer rather than by cascade origin.. `css-cascade` */
     const revertLayer: string
   }
 
-  /** Create a `alt` property (`unknown`). */
+  /** Create a `alt` property. `unknown` */
   function alt(value: any): Property
 
-  /** Create a `anchor-default` property (`css-anchor-position`). */
+  /** Create a `anchor-default` property. `css-anchor-position` */
   function anchorDefault(value: any): Property
 
-  /** Create a `anchor-name` property (`css-anchor-position`). */
+  /** Create a `anchor-name` property. `css-anchor-position` */
   function anchorName(value: any): Property
   module anchorName {
-    /** `css-anchor-position` The property has no effect.. */
+    /** The property has no effect.. `css-anchor-position` */
     const none: string
   }
 
-  /** Create a `anchor-scroll` property (`css-anchor-position`). */
+  /** Create a `anchor-scroll` property. `css-anchor-position` */
   function anchorScroll(value: any): Property
   module anchorScroll {
-    /** `css-anchor-position` No effect.. */
+    /** No effect.. `css-anchor-position` */
     const none: string
-    /** `css-anchor-position` Behaves identically to <anchor-element>, but draws its value from anchor-default on the element.. */
+    /** Behaves identically to <anchor-element>, but draws its value from anchor-default on the element.. `css-anchor-position` */
     const _default: string
   }
 
-  /** Create a `animation` property (`css-animations`). */
+  /** Create a `animation` property. `css-animations` */
   function animation(value: any): Property
 
-  /** Create a `animation-composition` property (`css-animations-2`). */
+  /** Create a `animation-composition` property. `css-animations-2` */
   function animationComposition(value: any): Property
 
-  /** Create a `animation-delay` property (`css-animations`). */
+  /** Create a `animation-delay` property. `css-animations` */
   function animationDelay(value: any): Property
 
-  /** Create a `animation-delay-end` property (`unknown`). */
+  /** Create a `animation-delay-end` property. `unknown` */
   function animationDelayEnd(value: any): Property
 
-  /** Create a `animation-delay-start` property (`unknown`). */
+  /** Create a `animation-delay-start` property. `unknown` */
   function animationDelayStart(value: any): Property
 
-  /** Create a `animation-direction` property (`css-animations`). */
+  /** Create a `animation-direction` property. `css-animations` */
   function animationDirection(value: any): Property
 
-  /** Create a `animation-duration` property (`css-animations`). */
+  /** Create a `animation-duration` property. `css-animations` */
   function animationDuration(value: any): Property
 
-  /** Create a `animation-fill-mode` property (`css-animations`). */
+  /** Create a `animation-fill-mode` property. `css-animations` */
   function animationFillMode(value: any): Property
 
-  /** Create a `animation-iteration-count` property (`css-animations`). */
+  /** Create a `animation-iteration-count` property. `css-animations` */
   function animationIterationCount(value: any): Property
 
-  /** Create a `animation-name` property (`css-animations`). */
+  /** Create a `animation-name` property. `css-animations` */
   function animationName(value: any): Property
+  module animationName {
+    /** No keyframes are specified at all, so there will be no animation. Any other animations properties specified for this animation have no effect.. `css-animations` */
+    const none: string
+  }
 
-  /** Create a `animation-play-state` property (`css-animations`). */
+  /** Create a `animation-play-state` property. `css-animations` */
   function animationPlayState(value: any): Property
 
-  /** Create a `animation-range` property (`scroll-animations`). */
+  /** Create a `animation-range` property. `scroll-animations` */
   function animationRange(value: any): Property
 
-  /** Create a `animation-range-end` property (`scroll-animations`). */
+  /** Create a `animation-range-end` property. `scroll-animations` */
   function animationRangeEnd(value: any): Property
+  module animationRangeEnd {
+    /** The end time of the animation is determined as normal.. `scroll-animations` */
+    const normal: string
+  }
 
-  /** Create a `animation-range-start` property (`scroll-animations`). */
+  /** Create a `animation-range-start` property. `scroll-animations` */
   function animationRangeStart(value: any): Property
+  module animationRangeStart {
+    /** The start of the active phase is determined as normal.. `scroll-animations` */
+    const normal: string
+  }
 
-  /** Create a `animation-timeline` property (`css-animations-2`). */
+  /** Create a `animation-timeline` property. `css-animations-2` */
   function animationTimeline(value: any): Property
+  module animationTimeline {
+    /** The animation’s timeline is a DocumentTimeline, more specifically the default document timeline.. `css-animations-2` */
+    const auto: string
+    /** The animation is not associated with a timeline.. `css-animations-2` */
+    const none: string
+  }
 
-  /** Create a `animation-timing-function` property (`css-animations`). */
+  /** Create a `animation-timing-function` property. `css-animations` */
   function animationTimingFunction(value: any): Property
+  module animationTimingFunction {
+    /** The linear keyword produces a linear easing function with two points:. `css-animations` */
+    const linear: string
+  }
 
-  /** Create a `app-region` property (`unknown`). */
+  /** Create a `app-region` property. `unknown` */
   function appRegion(value: any): Property
 
-  /** Create a `appearance` property (`css-ui`). */
+  /** Create a `appearance` property. `css-ui` */
   function appearance(value: any): Property
   module appearance {
-    /** `css-ui` The element is rendered following the usual rules of CSS. Replaced elements other than widgets are not affected by this and remain replaced elements. Widgets must not have their native appearance, and instead must have their primitive appearance. See § 7.2.2 Effects of appearance on Decorative Aspects of Elements and § 7.2.3 Effects of appearance on Semantic Aspects of Elements for details.. */
+    /** The element is rendered following the usual rules of CSS. Replaced elements other than widgets are not affected by this and remain replaced elements. Widgets must not have their native appearance, and instead must have their primitive appearance. See § 7.2.2 Effects of appearance on Decorative Aspects of Elements and § 7.2.3 Effects of appearance on Semantic Aspects of Elements for details.. `css-ui` */
     const none: string
-    /** `css-ui` Elements representing widgets should have the native appearance of that widget, if the properties that disable native appearance for widgets are not in effect. See § 7.2.1 Properties Disabling Native Appearance. The host language is responsible for defining which elements represent which widgets. Elements other than widgets must be rendered as for none.. */
+    /** Elements representing widgets should have the native appearance of that widget, if the properties that disable native appearance for widgets are not in effect. See § 7.2.1 Properties Disabling Native Appearance. The host language is responsible for defining which elements represent which widgets. Elements other than widgets must be rendered as for none.. `css-ui` */
     const auto: string
   }
 
-  /** Create a `ascent-override` property (`unknown`). */
+  /** Create a `ascent-override` property. `unknown` */
   function ascentOverride(value: any): Property
 
-  /** Create a `aspect-ratio` property (`css-sizing-4`). */
+  /** Create a `aspect-ratio` property. `css-sizing-4` */
   function aspectRatio(value: any): Property
   module aspectRatio {
-    /** `css-sizing-4` Replaced elements with a natural aspect ratio use that aspect ratio; otherwise the box has no preferred aspect ratio. Size calculations involving the aspect ratio work with the content box dimensions always.. */
+    /** Replaced elements with a natural aspect ratio use that aspect ratio; otherwise the box has no preferred aspect ratio. Size calculations involving the aspect ratio work with the content box dimensions always.. `css-sizing-4` */
     const auto: string
   }
 
-  /** Create a `audio-level` property (`unknown`). */
+  /** Create a `audio-level` property. `unknown` */
   function audioLevel(value: any): Property
 
-  /** Create a `azimuth` property (`unknown`). */
+  /** Create a `azimuth` property. `unknown` */
   function azimuth(value: any): Property
 
-  /** Create a `backdrop-filter` property (`filter-effects-2`). */
+  /** Create a `backdrop-filter` property. `filter-effects-2` */
   function backdropFilter(value: any): Property
   module backdropFilter {
-    /** `filter-effects-2` `none` keyword. */
+    /** `none` keyword. `filter-effects-2` */
     const none: string
   }
 
-  /** Create a `backface-visibility` property (`css-transforms-2`). */
+  /** Create a `backface-visibility` property. `css-transforms-2` */
   function backfaceVisibility(value: any): Property
   module backfaceVisibility {
-    /** `css-transforms-2` `visible` keyword. */
+    /** `visible` keyword. `css-transforms-2` */
     const visible: string
-    /** `css-transforms-2` `hidden` keyword. */
+    /** `hidden` keyword. `css-transforms-2` */
     const hidden: string
   }
 
-  /** Create a `background` property (`css-backgrounds`). */
+  /** Create a `background` property. `css-backgrounds` */
   function background(value: any): Property
 
-  /** Create a `background-attachment` property (`css-backgrounds`). */
+  /** Create a `background-attachment` property. `css-backgrounds` */
   function backgroundAttachment(value: any): Property
 
-  /** Create a `background-blend-mode` property (`compositing`). */
+  /** Create a `background-blend-mode` property. `compositing` */
   function backgroundBlendMode(value: any): Property
 
-  /** Create a `background-clip` property (`css-backgrounds, css-backgrounds-4`). */
+  /** Create a `background-clip` property. `css-backgrounds, css-backgrounds-4` */
   function backgroundClip(value: any): Property
+  module backgroundClip {
+    /** The background is painted within (clipped to) the intersection of the border box and the geometry of the text in the element and its in-flow and floated descendants.. `css-backgrounds-4` */
+    const text: string
+    /** The background is clipped to the area painted by the border, taking border-width and border-style into account but ignoring any transparency introduced by border-color.. `css-backgrounds-4` */
+    const border: string
+  }
 
-  /** Create a `background-color` property (`css-backgrounds`). */
+  /** Create a `background-color` property. `css-backgrounds` */
   function backgroundColor(value: any): Property
   module backgroundColor {
-    /** `css-backgrounds` `color` keyword. */
+    /** `color` keyword. `css-backgrounds` */
     const color: string
   }
 
-  /** Create a `background-image` property (`css-backgrounds`). */
+  /** Create a `background-image` property. `css-backgrounds` */
   function backgroundImage(value: any): Property
 
-  /** Create a `background-origin` property (`css-backgrounds`). */
+  /** Create a `background-origin` property. `css-backgrounds` */
   function backgroundOrigin(value: any): Property
 
-  /** Create a `background-position` property (`css-backgrounds, css-backgrounds-4`). */
+  /** Create a `background-position` property. `css-backgrounds, css-backgrounds-4` */
   function backgroundPosition(value: any): Property
 
-  /** Create a `background-position-block` property (`css-backgrounds-4`). */
+  /** Create a `background-position-block` property. `css-backgrounds-4` */
   function backgroundPositionBlock(value: any): Property
-
-  /** Create a `background-position-inline` property (`css-backgrounds-4`). */
-  function backgroundPositionInline(value: any): Property
-
-  /** Create a `background-position-x` property (`css-backgrounds-4`). */
-  function backgroundPositionX(value: any): Property
-
-  /** Create a `background-position-y` property (`css-backgrounds-4`). */
-  function backgroundPositionY(value: any): Property
-
-  /** Create a `background-repeat` property (`css-backgrounds`). */
-  function backgroundRepeat(value: any): Property
-
-  /** Create a `background-repeat-x` property (`unknown`). */
-  function backgroundRepeatX(value: any): Property
-
-  /** Create a `background-repeat-y` property (`unknown`). */
-  function backgroundRepeatY(value: any): Property
-
-  /** Create a `background-size` property (`css-backgrounds`). */
-  function backgroundSize(value: any): Property
-
-  /** Create a `base-palette` property (`unknown`). */
-  function basePalette(value: any): Property
-
-  /** Create a `baseline-shift` property (`css-inline`). */
-  function baselineShift(value: any): Property
-  module baselineShift {
-    /** `css-inline` Lower by the offset appropriate for subscripts of the parent’s box. The UA may use the parent’s font metrics to find this offset; otherwise it defaults to dropping by one fifth of the parent’s used font-size.. */
-    const sub: string
-    /** `css-inline` Raise by the offset appropriate for superscripts of the parent’s box. The UA may use the parent’s font metrics to find this offset; otherwise it defaults to raising by one third of the parent’s used font-size.. */
-    const _super: string
-    /** `css-inline` Align the line-over edge of the aligned subtree with the line-over edge of the line box.. */
-    const top: string
-    /** `css-inline` Align the center of the aligned subtree with the center of the line box.. */
+  module backgroundPositionBlock {
+    /** `center` keyword. `css-backgrounds-4` */
     const center: string
-    /** `css-inline` Align the line-under edge of the aligned subtree with the line-under edge of the line box.. */
-    const bottom: string
-  }
-
-  /** Create a `baseline-source` property (`css-inline`). */
-  function baselineSource(value: any): Property
-  module baselineSource {
-    /** `css-inline` Specifies last-baseline alignment for inline-block, first-baseline alignment for everything else.. */
-    const auto: string
-    /** `css-inline` Specifies first-baseline alignment.. */
-    const first: string
-    /** `css-inline` Specifies last-baseline alignment.. */
-    const last: string
-  }
-
-  /** Create a `behavior` property (`unknown`). */
-  function behavior(value: any): Property
-
-  /** Create a `block-ellipsis` property (`css-overflow-4`). */
-  function blockEllipsis(value: any): Property
-  module blockEllipsis {
-    /** `css-overflow-4` The rendering is unaffected.. */
-    const none: string
-    /** `css-overflow-4` Render an ellipsis character (U+2026)—or a more typographically-appropriate equivalent—as the block overflow ellipsis at the end of the affected line box. UAs should use the conventions of the content language, writing system, and writing mode to determine the most appropriate ellipsis string.. */
-    const auto: string
-  }
-
-  /** Create a `block-size` property (`css-logical, css-sizing-4`). */
-  function blockSize(value: any): Property
-
-  /** Create a `block-step` property (`css-rhythm`). */
-  function blockStep(value: any): Property
-
-  /** Create a `block-step-align` property (`css-rhythm`). */
-  function blockStepAlign(value: any): Property
-  module blockStepAlign {
-    /** `css-rhythm` If block-step-insert is margin: if align-self is start, end, or center, treat as that value, otherwise treat as center.. */
-    const auto: string
-    /** `css-rhythm` Any extra space resulting from a block-step-size-induced adjustment is split, and applied half on either side of the box.. */
-    const center: string
-    /** `css-rhythm` Any extra space resulting from a block-step-size-induced adjustment is inserted on the end side of the box.. */
+    /** `start` keyword. `css-backgrounds-4` */
     const start: string
-    /** `css-rhythm` Any extra space resulting from a block-step-size-induced adjustment is inserted on the start side of the box.. */
+    /** `end` keyword. `css-backgrounds-4` */
     const end: string
   }
 
-  /** Create a `block-step-insert` property (`css-rhythm`). */
+  /** Create a `background-position-inline` property. `css-backgrounds-4` */
+  function backgroundPositionInline(value: any): Property
+  module backgroundPositionInline {
+    /** `center` keyword. `css-backgrounds-4` */
+    const center: string
+    /** `start` keyword. `css-backgrounds-4` */
+    const start: string
+    /** `end` keyword. `css-backgrounds-4` */
+    const end: string
+  }
+
+  /** Create a `background-position-x` property. `css-backgrounds-4` */
+  function backgroundPositionX(value: any): Property
+  module backgroundPositionX {
+    /** `center` keyword. `css-backgrounds-4` */
+    const center: string
+    /** `left` keyword. `css-backgrounds-4` */
+    const left: string
+    /** `right` keyword. `css-backgrounds-4` */
+    const right: string
+    /** `x-start` keyword. `css-backgrounds-4` */
+    const xStart: string
+    /** `x-end` keyword. `css-backgrounds-4` */
+    const xEnd: string
+  }
+
+  /** Create a `background-position-y` property. `css-backgrounds-4` */
+  function backgroundPositionY(value: any): Property
+  module backgroundPositionY {
+    /** `center` keyword. `css-backgrounds-4` */
+    const center: string
+    /** `top` keyword. `css-backgrounds-4` */
+    const top: string
+    /** `bottom` keyword. `css-backgrounds-4` */
+    const bottom: string
+    /** `y-start` keyword. `css-backgrounds-4` */
+    const yStart: string
+    /** `y-end` keyword. `css-backgrounds-4` */
+    const yEnd: string
+  }
+
+  /** Create a `background-repeat` property. `css-backgrounds` */
+  function backgroundRepeat(value: any): Property
+
+  /** Create a `background-repeat-x` property. `unknown` */
+  function backgroundRepeatX(value: any): Property
+
+  /** Create a `background-repeat-y` property. `unknown` */
+  function backgroundRepeatY(value: any): Property
+
+  /** Create a `background-size` property. `css-backgrounds` */
+  function backgroundSize(value: any): Property
+
+  /** Create a `base-palette` property. `unknown` */
+  function basePalette(value: any): Property
+
+  /** Create a `baseline-shift` property. `css-inline` */
+  function baselineShift(value: any): Property
+  module baselineShift {
+    /** Lower by the offset appropriate for subscripts of the parent’s box. The UA may use the parent’s font metrics to find this offset; otherwise it defaults to dropping by one fifth of the parent’s used font-size.. `css-inline` */
+    const sub: string
+    /** Raise by the offset appropriate for superscripts of the parent’s box. The UA may use the parent’s font metrics to find this offset; otherwise it defaults to raising by one third of the parent’s used font-size.. `css-inline` */
+    const _super: string
+    /** Align the line-over edge of the aligned subtree with the line-over edge of the line box.. `css-inline` */
+    const top: string
+    /** Align the center of the aligned subtree with the center of the line box.. `css-inline` */
+    const center: string
+    /** Align the line-under edge of the aligned subtree with the line-under edge of the line box.. `css-inline` */
+    const bottom: string
+  }
+
+  /** Create a `baseline-source` property. `css-inline` */
+  function baselineSource(value: any): Property
+  module baselineSource {
+    /** Specifies last-baseline alignment for inline-block, first-baseline alignment for everything else.. `css-inline` */
+    const auto: string
+    /** Specifies first-baseline alignment.. `css-inline` */
+    const first: string
+    /** Specifies last-baseline alignment.. `css-inline` */
+    const last: string
+  }
+
+  /** Create a `behavior` property. `unknown` */
+  function behavior(value: any): Property
+
+  /** Create a `block-ellipsis` property. `css-overflow-4` */
+  function blockEllipsis(value: any): Property
+  module blockEllipsis {
+    /** The rendering is unaffected.. `css-overflow-4` */
+    const none: string
+    /** Render an ellipsis character (U+2026)—or a more typographically-appropriate equivalent—as the block overflow ellipsis at the end of the affected line box. UAs should use the conventions of the content language, writing system, and writing mode to determine the most appropriate ellipsis string.. `css-overflow-4` */
+    const auto: string
+  }
+
+  /** Create a `block-size` property. `css-logical, css-sizing-4` */
+  function blockSize(value: any): Property
+
+  /** Create a `block-step` property. `css-rhythm` */
+  function blockStep(value: any): Property
+
+  /** Create a `block-step-align` property. `css-rhythm` */
+  function blockStepAlign(value: any): Property
+  module blockStepAlign {
+    /** If block-step-insert is margin: if align-self is start, end, or center, treat as that value, otherwise treat as center.. `css-rhythm` */
+    const auto: string
+    /** Any extra space resulting from a block-step-size-induced adjustment is split, and applied half on either side of the box.. `css-rhythm` */
+    const center: string
+    /** Any extra space resulting from a block-step-size-induced adjustment is inserted on the end side of the box.. `css-rhythm` */
+    const start: string
+    /** Any extra space resulting from a block-step-size-induced adjustment is inserted on the start side of the box.. `css-rhythm` */
+    const end: string
+  }
+
+  /** Create a `block-step-insert` property. `css-rhythm` */
   function blockStepInsert(value: any): Property
   module blockStepInsert {
-    /** `css-rhythm` Any extra space resulting from a block-step-size-induced adjustment is inserted outside the box’s border, as extra margin.. */
+    /** Any extra space resulting from a block-step-size-induced adjustment is inserted outside the box’s border, as extra margin.. `css-rhythm` */
     const margin: string
-    /** `css-rhythm` Any extra space resulting from a block-step-size-induced adjustment is inserted inside the box’s border, as extra padding.. */
+    /** Any extra space resulting from a block-step-size-induced adjustment is inserted inside the box’s border, as extra padding.. `css-rhythm` */
     const padding: string
   }
 
-  /** Create a `block-step-round` property (`css-rhythm`). */
+  /** Create a `block-step-round` property. `css-rhythm` */
   function blockStepRound(value: any): Property
   module blockStepRound {
-    /** `css-rhythm` `up` keyword. */
+    /** `up` keyword. `css-rhythm` */
     const up: string
-    /** `css-rhythm` `down` keyword. */
+    /** `down` keyword. `css-rhythm` */
     const down: string
-    /** `css-rhythm` `nearest` keyword. */
+    /** `nearest` keyword. `css-rhythm` */
     const nearest: string
   }
 
-  /** Create a `block-step-size` property (`css-rhythm`). */
+  /** Create a `block-step-size` property. `css-rhythm` */
   function blockStepSize(value: any): Property
   module blockStepSize {
-    /** `css-rhythm` `none` keyword. */
+    /** `none` keyword. `css-rhythm` */
     const none: string
   }
 
-  /** Create a `bookmark-label` property (`css-content`). */
+  /** Create a `bookmark-label` property. `css-content` */
   function bookmarkLabel(value: any): Property
 
-  /** Create a `bookmark-level` property (`css-content`). */
+  /** Create a `bookmark-level` property. `css-content` */
   function bookmarkLevel(value: any): Property
   module bookmarkLevel {
-    /** `css-content` no bookmark is generated.. */
+    /** no bookmark is generated.. `css-content` */
     const none: string
   }
 
-  /** Create a `bookmark-state` property (`css-content`). */
+  /** Create a `bookmark-state` property. `css-content` */
   function bookmarkState(value: any): Property
   module bookmarkState {
-    /** `css-content` Subsequent bookmarks with bookmark-level greater than the given bookmark are displayed, until reaching another bookmark of the same level or lower. If one of subsequent bookmark is closed, apply the same test to determine if its subsequent bookmarks should be displayed.. */
+    /** Subsequent bookmarks with bookmark-level greater than the given bookmark are displayed, until reaching another bookmark of the same level or lower. If one of subsequent bookmark is closed, apply the same test to determine if its subsequent bookmarks should be displayed.. `css-content` */
     const open: string
-    /** `css-content` Subsequent bookmarks of bookmark-level greater than the given bookmark are not displayed, until reaching another bookmark of the same level or lower.. */
+    /** Subsequent bookmarks of bookmark-level greater than the given bookmark are not displayed, until reaching another bookmark of the same level or lower.. `css-content` */
     const closed: string
   }
 
-  /** Create a `border` property (`css-backgrounds`). */
+  /** Create a `border` property. `css-backgrounds` */
   function border(value: any): Property
   module border {
-    /** `css-backgrounds` `color` keyword. */
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const thin: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const medium: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const thick: string
+    /** No border. Color and width are ignored (i.e., the border has width 0). Note this means that the initial value of border-image-width will also resolve to zero.. `css-backgrounds` */
+    const none: string
+    /** Same as none, but has different behavior in the border conflict resolution rules for border-collapsed tables [CSS2].. `css-backgrounds` */
+    const hidden: string
+    /** A series of round dots.. `css-backgrounds` */
+    const dotted: string
+    /** A series of square-ended dashes.. `css-backgrounds` */
+    const dashed: string
+    /** A single line segment.. `css-backgrounds` */
+    const solid: string
+    /** Two parallel solid lines with some space between them. (The thickness of the lines is not specified, but the sum of the lines and the space must equal border-width.). `css-backgrounds` */
+    const double: string
+    /** Looks as if it were carved in the canvas. (This is typically achieved by creating a “shadow” from two colors that are slightly lighter and darker than the border-color.). `css-backgrounds` */
+    const groove: string
+    /** Looks as if it were coming out of the canvas.. `css-backgrounds` */
+    const ridge: string
+    /** Looks as if the content on the inside of the border is sunken into the canvas. Treated as ridge in the collapsing border model. [CSS2]. `css-backgrounds` */
+    const inset: string
+    /** Looks as if the content on the inside of the border is coming out of the canvas. Treated as groove in the collapsing border model. [CSS2]. `css-backgrounds` */
+    const outset: string
+    /** `color` keyword. `css-backgrounds` */
     const color: string
   }
 
-  /** Create a `border-block` property (`css-logical`). */
+  /** Create a `border-block` property. `css-logical` */
   function borderBlock(value: any): Property
 
-  /** Create a `border-block-color` property (`css-logical`). */
+  /** Create a `border-block-color` property. `css-logical` */
   function borderBlockColor(value: any): Property
 
-  /** Create a `border-block-end` property (`css-logical`). */
+  /** Create a `border-block-end` property. `css-logical` */
   function borderBlockEnd(value: any): Property
   module borderBlockEnd {
-    /** `css-logical` `color` keyword. */
+    /** `color` keyword. `css-logical` */
     const color: string
   }
 
-  /** Create a `border-block-end-color` property (`css-logical`). */
+  /** Create a `border-block-end-color` property. `css-logical` */
   function borderBlockEndColor(value: any): Property
 
-  /** Create a `border-block-end-radius` property (`css-backgrounds-4`). */
+  /** Create a `border-block-end-radius` property. `css-backgrounds-4` */
   function borderBlockEndRadius(value: any): Property
 
-  /** Create a `border-block-end-style` property (`css-logical`). */
+  /** Create a `border-block-end-style` property. `css-logical` */
   function borderBlockEndStyle(value: any): Property
 
-  /** Create a `border-block-end-width` property (`css-logical`). */
+  /** Create a `border-block-end-width` property. `css-logical` */
   function borderBlockEndWidth(value: any): Property
 
-  /** Create a `border-block-start` property (`css-logical`). */
+  /** Create a `border-block-start` property. `css-logical` */
   function borderBlockStart(value: any): Property
   module borderBlockStart {
-    /** `css-logical` `color` keyword. */
+    /** `color` keyword. `css-logical` */
     const color: string
   }
 
-  /** Create a `border-block-start-color` property (`css-logical`). */
+  /** Create a `border-block-start-color` property. `css-logical` */
   function borderBlockStartColor(value: any): Property
 
-  /** Create a `border-block-start-radius` property (`css-backgrounds-4`). */
+  /** Create a `border-block-start-radius` property. `css-backgrounds-4` */
   function borderBlockStartRadius(value: any): Property
 
-  /** Create a `border-block-start-style` property (`css-logical`). */
+  /** Create a `border-block-start-style` property. `css-logical` */
   function borderBlockStartStyle(value: any): Property
 
-  /** Create a `border-block-start-width` property (`css-logical`). */
+  /** Create a `border-block-start-width` property. `css-logical` */
   function borderBlockStartWidth(value: any): Property
 
-  /** Create a `border-block-style` property (`css-logical`). */
+  /** Create a `border-block-style` property. `css-logical` */
   function borderBlockStyle(value: any): Property
 
-  /** Create a `border-block-width` property (`css-logical`). */
+  /** Create a `border-block-width` property. `css-logical` */
   function borderBlockWidth(value: any): Property
 
-  /** Create a `border-bottom` property (`css-backgrounds`). */
+  /** Create a `border-bottom` property. `css-backgrounds` */
   function borderBottom(value: any): Property
   module borderBottom {
-    /** `css-backgrounds` `color` keyword. */
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const thin: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const medium: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const thick: string
+    /** No border. Color and width are ignored (i.e., the border has width 0). Note this means that the initial value of border-image-width will also resolve to zero.. `css-backgrounds` */
+    const none: string
+    /** Same as none, but has different behavior in the border conflict resolution rules for border-collapsed tables [CSS2].. `css-backgrounds` */
+    const hidden: string
+    /** A series of round dots.. `css-backgrounds` */
+    const dotted: string
+    /** A series of square-ended dashes.. `css-backgrounds` */
+    const dashed: string
+    /** A single line segment.. `css-backgrounds` */
+    const solid: string
+    /** Two parallel solid lines with some space between them. (The thickness of the lines is not specified, but the sum of the lines and the space must equal border-width.). `css-backgrounds` */
+    const double: string
+    /** Looks as if it were carved in the canvas. (This is typically achieved by creating a “shadow” from two colors that are slightly lighter and darker than the border-color.). `css-backgrounds` */
+    const groove: string
+    /** Looks as if it were coming out of the canvas.. `css-backgrounds` */
+    const ridge: string
+    /** Looks as if the content on the inside of the border is sunken into the canvas. Treated as ridge in the collapsing border model. [CSS2]. `css-backgrounds` */
+    const inset: string
+    /** Looks as if the content on the inside of the border is coming out of the canvas. Treated as groove in the collapsing border model. [CSS2]. `css-backgrounds` */
+    const outset: string
+    /** `color` keyword. `css-backgrounds` */
     const color: string
   }
 
-  /** Create a `border-bottom-color` property (`css-backgrounds, css-backgrounds-4`). */
+  /** Create a `border-bottom-color` property. `css-backgrounds, css-backgrounds-4` */
   function borderBottomColor(value: any): Property
   module borderBottomColor {
-    /** `css-backgrounds` `color` keyword. */
+    /** `color` keyword. `css-backgrounds` */
     const color: string
-    /** `css-backgrounds-4` `color` keyword. */
+    /** `color` keyword. `css-backgrounds-4` */
     const color: string
   }
 
-  /** Create a `border-bottom-left-radius` property (`css-backgrounds`). */
+  /** Create a `border-bottom-left-radius` property. `css-backgrounds` */
   function borderBottomLeftRadius(value: any): Property
 
-  /** Create a `border-bottom-radius` property (`css-backgrounds-4`). */
+  /** Create a `border-bottom-radius` property. `css-backgrounds-4` */
   function borderBottomRadius(value: any): Property
 
-  /** Create a `border-bottom-right-radius` property (`css-backgrounds`). */
+  /** Create a `border-bottom-right-radius` property. `css-backgrounds` */
   function borderBottomRightRadius(value: any): Property
 
-  /** Create a `border-bottom-style` property (`css-backgrounds`). */
+  /** Create a `border-bottom-style` property. `css-backgrounds` */
   function borderBottomStyle(value: any): Property
-
-  /** Create a `border-bottom-width` property (`css-backgrounds`). */
-  function borderBottomWidth(value: any): Property
-
-  /** Create a `border-boundary` property (`css-round-display`). */
-  function borderBoundary(value: any): Property
-  module borderBoundary {
-    /** `css-round-display` `none` keyword. */
+  module borderBottomStyle {
+    /** No border. Color and width are ignored (i.e., the border has width 0). Note this means that the initial value of border-image-width will also resolve to zero.. `css-backgrounds` */
     const none: string
-    /** `css-round-display` `parent` keyword. */
-    const parent: string
-    /** `css-round-display` `display` keyword. */
-    const display: string
-  }
-
-  /** Create a `border-clip` property (`css-backgrounds-4`). */
-  function borderClip(value: any): Property
-  module borderClip {
-    /** `css-backgrounds-4` `normal` keyword. */
-    const normal: string
-  }
-
-  /** Create a `border-clip-bottom` property (`css-backgrounds-4`). */
-  function borderClipBottom(value: any): Property
-  module borderClipBottom {
-    /** `css-backgrounds-4` `normal` keyword. */
-    const normal: string
-  }
-
-  /** Create a `border-clip-left` property (`css-backgrounds-4`). */
-  function borderClipLeft(value: any): Property
-  module borderClipLeft {
-    /** `css-backgrounds-4` `normal` keyword. */
-    const normal: string
-  }
-
-  /** Create a `border-clip-right` property (`css-backgrounds-4`). */
-  function borderClipRight(value: any): Property
-  module borderClipRight {
-    /** `css-backgrounds-4` `normal` keyword. */
-    const normal: string
-  }
-
-  /** Create a `border-clip-top` property (`css-backgrounds-4`). */
-  function borderClipTop(value: any): Property
-  module borderClipTop {
-    /** `css-backgrounds-4` `normal` keyword. */
-    const normal: string
-  }
-
-  /** Create a `border-collapse` property (`css-tables`). */
-  function borderCollapse(value: any): Property
-  module borderCollapse {
-    /** `css-tables` `separate` keyword. */
-    const separate: string
-    /** `css-tables` `collapse` keyword. */
-    const collapse: string
-  }
-
-  /** Create a `border-color` property (`css-backgrounds, css-backgrounds-4`). */
-  function borderColor(value: any): Property
-
-  /** Create a `border-end-end-radius` property (`css-logical`). */
-  function borderEndEndRadius(value: any): Property
-
-  /** Create a `border-end-start-radius` property (`css-logical`). */
-  function borderEndStartRadius(value: any): Property
-
-  /** Create a `border-image` property (`css-backgrounds`). */
-  function borderImage(value: any): Property
-
-  /** Create a `border-image-outset` property (`css-backgrounds`). */
-  function borderImageOutset(value: any): Property
-
-  /** Create a `border-image-repeat` property (`css-backgrounds`). */
-  function borderImageRepeat(value: any): Property
-
-  /** Create a `border-image-slice` property (`css-backgrounds`). */
-  function borderImageSlice(value: any): Property
-
-  /** Create a `border-image-source` property (`css-backgrounds`). */
-  function borderImageSource(value: any): Property
-  module borderImageSource {
-    /** `css-backgrounds` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `border-image-width` property (`css-backgrounds`). */
-  function borderImageWidth(value: any): Property
-
-  /** Create a `border-inline` property (`css-logical`). */
-  function borderInline(value: any): Property
-
-  /** Create a `border-inline-color` property (`css-logical`). */
-  function borderInlineColor(value: any): Property
-
-  /** Create a `border-inline-end` property (`css-logical`). */
-  function borderInlineEnd(value: any): Property
-  module borderInlineEnd {
-    /** `css-logical` `color` keyword. */
-    const color: string
-  }
-
-  /** Create a `border-inline-end-color` property (`css-logical`). */
-  function borderInlineEndColor(value: any): Property
-
-  /** Create a `border-inline-end-radius` property (`css-backgrounds-4`). */
-  function borderInlineEndRadius(value: any): Property
-
-  /** Create a `border-inline-end-style` property (`css-logical`). */
-  function borderInlineEndStyle(value: any): Property
-
-  /** Create a `border-inline-end-width` property (`css-logical`). */
-  function borderInlineEndWidth(value: any): Property
-
-  /** Create a `border-inline-start` property (`css-logical`). */
-  function borderInlineStart(value: any): Property
-  module borderInlineStart {
-    /** `css-logical` `color` keyword. */
-    const color: string
-  }
-
-  /** Create a `border-inline-start-color` property (`css-logical`). */
-  function borderInlineStartColor(value: any): Property
-
-  /** Create a `border-inline-start-radius` property (`css-backgrounds-4`). */
-  function borderInlineStartRadius(value: any): Property
-
-  /** Create a `border-inline-start-style` property (`css-logical`). */
-  function borderInlineStartStyle(value: any): Property
-
-  /** Create a `border-inline-start-width` property (`css-logical`). */
-  function borderInlineStartWidth(value: any): Property
-
-  /** Create a `border-inline-style` property (`css-logical`). */
-  function borderInlineStyle(value: any): Property
-
-  /** Create a `border-inline-width` property (`css-logical`). */
-  function borderInlineWidth(value: any): Property
-
-  /** Create a `border-left` property (`css-backgrounds`). */
-  function borderLeft(value: any): Property
-  module borderLeft {
-    /** `css-backgrounds` `color` keyword. */
-    const color: string
-  }
-
-  /** Create a `border-left-color` property (`css-backgrounds, css-backgrounds-4`). */
-  function borderLeftColor(value: any): Property
-  module borderLeftColor {
-    /** `css-backgrounds` `color` keyword. */
-    const color: string
-    /** `css-backgrounds-4` `color` keyword. */
-    const color: string
-  }
-
-  /** Create a `border-left-radius` property (`css-backgrounds-4`). */
-  function borderLeftRadius(value: any): Property
-
-  /** Create a `border-left-style` property (`css-backgrounds`). */
-  function borderLeftStyle(value: any): Property
-
-  /** Create a `border-left-width` property (`css-backgrounds`). */
-  function borderLeftWidth(value: any): Property
-
-  /** Create a `border-limit` property (`css-backgrounds-4`). */
-  function borderLimit(value: any): Property
-  module borderLimit {
-    /** `css-backgrounds-4` `all` keyword. */
-    const all: string
-  }
-
-  /** Create a `border-radius` property (`css-backgrounds, css-backgrounds-4`). */
-  function borderRadius(value: any): Property
-
-  /** Create a `border-right` property (`css-backgrounds`). */
-  function borderRight(value: any): Property
-  module borderRight {
-    /** `css-backgrounds` `color` keyword. */
-    const color: string
-  }
-
-  /** Create a `border-right-color` property (`css-backgrounds, css-backgrounds-4`). */
-  function borderRightColor(value: any): Property
-  module borderRightColor {
-    /** `css-backgrounds` `color` keyword. */
-    const color: string
-    /** `css-backgrounds-4` `color` keyword. */
-    const color: string
-  }
-
-  /** Create a `border-right-radius` property (`css-backgrounds-4`). */
-  function borderRightRadius(value: any): Property
-
-  /** Create a `border-right-style` property (`css-backgrounds`). */
-  function borderRightStyle(value: any): Property
-
-  /** Create a `border-right-width` property (`css-backgrounds`). */
-  function borderRightWidth(value: any): Property
-
-  /** Create a `border-spacing` property (`css-tables`). */
-  function borderSpacing(value: any): Property
-
-  /** Create a `border-start-end-radius` property (`css-logical`). */
-  function borderStartEndRadius(value: any): Property
-
-  /** Create a `border-start-start-radius` property (`css-logical`). */
-  function borderStartStartRadius(value: any): Property
-
-  /** Create a `border-style` property (`css-backgrounds`). */
-  function borderStyle(value: any): Property
-
-  /** Create a `border-top` property (`css-backgrounds`). */
-  function borderTop(value: any): Property
-  module borderTop {
-    /** `css-backgrounds` `color` keyword. */
-    const color: string
-  }
-
-  /** Create a `border-top-color` property (`css-backgrounds, css-backgrounds-4`). */
-  function borderTopColor(value: any): Property
-  module borderTopColor {
-    /** `css-backgrounds` `color` keyword. */
-    const color: string
-    /** `css-backgrounds-4` `color` keyword. */
-    const color: string
-  }
-
-  /** Create a `border-top-left-radius` property (`css-backgrounds`). */
-  function borderTopLeftRadius(value: any): Property
-
-  /** Create a `border-top-radius` property (`css-backgrounds-4`). */
-  function borderTopRadius(value: any): Property
-
-  /** Create a `border-top-right-radius` property (`css-backgrounds`). */
-  function borderTopRightRadius(value: any): Property
-
-  /** Create a `border-top-style` property (`css-backgrounds`). */
-  function borderTopStyle(value: any): Property
-
-  /** Create a `border-top-width` property (`css-backgrounds`). */
-  function borderTopWidth(value: any): Property
-
-  /** Create a `border-width` property (`css-backgrounds`). */
-  function borderWidth(value: any): Property
-
-  /** Create a `bottom` property (`css-position`). */
-  function bottom(value: any): Property
-  module bottom {
-    /** `css-position` Represents an unconstrained inset; the exact meaning depends on the positioning scheme.. */
-    const auto: string
-  }
-
-  /** Create a `box-decoration-break` property (`css-break`). */
-  function boxDecorationBreak(value: any): Property
-  module boxDecorationBreak {
-    /** `css-break` The effect is as though the element were rendered with no breaks present, and then sliced by the breaks afterward: no border and no padding are inserted at a break; no box-shadow is drawn at a broken edge; and backgrounds, border-radius, and the border-image are applied to the geometry of the whole box as if it were unbroken.. */
-    const slice: string
-    /** `css-break` Each box fragment is independently wrapped with the border, padding, and margin. The border-radius and border-image and box-shadow, if any, are applied to each fragment independently. The background is drawn independently in each fragment of the element. A no-repeat background image will thus be rendered once in each fragment of the element.. */
-    const clone: string
-  }
-
-  /** Create a `box-shadow` property (`css-backgrounds`). */
-  function boxShadow(value: any): Property
-  module boxShadow {
-    /** `css-backgrounds` The box-shadow property attaches one or more drop-shadows to the box. The property accepts either the none value, which indicates no shadows, or a comma-separated list of shadows, ordered front to back.. */
-    const none: string
-  }
-
-  /** Create a `box-sizing` property (`css-sizing`). */
-  function boxSizing(value: any): Property
-  module boxSizing {
-    /** `css-sizing` Sizes specified on sizing properties as <length-percentage> represent the box’s inner sizes, excluding the margins/border/padding: they are applied to the content box. The padding and border of the box are laid out and drawn outside the specified width and height.. */
-    const contentBox: string
-    /** `css-sizing` Sizes specified on sizing properties as <length-percentage> represent the box’s visually-apparent sizes, including the borders/padding (but not margin): they are applied to the border box. The padding and border of the box are laid out and drawn inside the specified width and height, with the content box sized to fill the remaining space, floored at zero. The content width and height are calculated by subtracting the border and padding widths of the respective sides from the specified <length-percentage>. As the content width and height cannot be negative, this computation is floored at zero. Used values, as exposed for instance through getComputedStyle(), also refer to the border box.. */
-    const borderBox: string
-  }
-
-  /** Create a `box-snap` property (`css-line-grid`). */
-  function boxSnap(value: any): Property
-  module boxSnap {
-    /** `css-line-grid` The block is not snapped to any grid.. */
-    const none: string
-    /** `css-line-grid` The block-start edge is snapped to the nearest grid line.. */
-    const blockStart: string
-    /** `css-line-grid` The block-end edge is snapped to the nearest grid line.. */
-    const blockEnd: string
-    /** `css-line-grid` The block is centered between one of the baseline grid’s text-over baselines and a subsequent (but not necessarily consecutive) text-under baseline.. */
-    const center: string
-    /** `css-line-grid` The first line box’s dominant baseline is snapped to the nearest grid line.. */
-    const baseline: string
-    /** `css-line-grid` The last line box’s dominant baseline is snapped to the nearest grid line.. */
-    const lastBaseline: string
-  }
-
-  /** Create a `break-after` property (`css-break`). */
-  function breakAfter(value: any): Property
-  module breakAfter {
-    /** `css-break` Neither force nor forbid a break before/after the principal box.. */
-    const auto: string
-    /** `css-break` Avoid a break before/after the principal box.. */
-    const avoid: string
-    /** `css-break` Always force a break before/after the principal box. The type of this break is that of the immediately-containing fragmentation context. For example, in a multi-column container forces a column break; in paged media not inside a multi-column container, forces a page break.. */
-    const always: string
-    /** `css-break` Always force a break before/after the principal box. This value breaks through all containing fragmentation contexts. For example, inside a multi-column container in a region in a multi-column container in paged media, it forces simultaneously a column break in the inner multi-column container, a region break, a column break in the outer multi-column container, and a page break. It’s unclear if this value is needed.. */
-    const all: string
-    /** `css-break` Avoid a page break before/after the principal box.. */
-    const avoidPage: string
-    /** `css-break` Always force a page break before/after the principal box.. */
-    const page: string
-    /** `css-break` Force one or two page breaks before/after the principal box so that the next page is formatted as a left page.. */
-    const left: string
-    /** `css-break` Force one or two page breaks before/after the principal box so that the next page is formatted as a right page.. */
-    const right: string
-    /** `css-break` Force one or two page breaks before/after the principal box so that the next page is formatted as either a left page or a right page, whichever is second (according to the page progression) in a page spread.. */
-    const recto: string
-    /** `css-break` Force one or two page breaks before/after the principal box so that the next page is formatted as either a left page or a right page, whichever is first (according to the page progression) in a page spread.. */
-    const verso: string
-    /** `css-break` Avoid a column break before/after the principal box.. */
-    const avoidColumn: string
-    /** `css-break` Always force a column break before/after the principal box.. */
-    const column: string
-    /** `css-break` Avoid a region break before/after the principal box.. */
-    const avoidRegion: string
-    /** `css-break` Always force a region break before/after the principal box.. */
-    const region: string
-  }
-
-  /** Create a `break-before` property (`css-break`). */
-  function breakBefore(value: any): Property
-  module breakBefore {
-    /** `css-break` Neither force nor forbid a break before/after the principal box.. */
-    const auto: string
-    /** `css-break` Avoid a break before/after the principal box.. */
-    const avoid: string
-    /** `css-break` Always force a break before/after the principal box. The type of this break is that of the immediately-containing fragmentation context. For example, in a multi-column container forces a column break; in paged media not inside a multi-column container, forces a page break.. */
-    const always: string
-    /** `css-break` Always force a break before/after the principal box. This value breaks through all containing fragmentation contexts. For example, inside a multi-column container in a region in a multi-column container in paged media, it forces simultaneously a column break in the inner multi-column container, a region break, a column break in the outer multi-column container, and a page break. It’s unclear if this value is needed.. */
-    const all: string
-    /** `css-break` Avoid a page break before/after the principal box.. */
-    const avoidPage: string
-    /** `css-break` Always force a page break before/after the principal box.. */
-    const page: string
-    /** `css-break` Force one or two page breaks before/after the principal box so that the next page is formatted as a left page.. */
-    const left: string
-    /** `css-break` Force one or two page breaks before/after the principal box so that the next page is formatted as a right page.. */
-    const right: string
-    /** `css-break` Force one or two page breaks before/after the principal box so that the next page is formatted as either a left page or a right page, whichever is second (according to the page progression) in a page spread.. */
-    const recto: string
-    /** `css-break` Force one or two page breaks before/after the principal box so that the next page is formatted as either a left page or a right page, whichever is first (according to the page progression) in a page spread.. */
-    const verso: string
-    /** `css-break` Avoid a column break before/after the principal box.. */
-    const avoidColumn: string
-    /** `css-break` Always force a column break before/after the principal box.. */
-    const column: string
-    /** `css-break` Avoid a region break before/after the principal box.. */
-    const avoidRegion: string
-    /** `css-break` Always force a region break before/after the principal box.. */
-    const region: string
-  }
-
-  /** Create a `break-inside` property (`css-break`). */
-  function breakInside(value: any): Property
-  module breakInside {
-    /** `css-break` Impose no additional breaking constraints within the box.. */
-    const auto: string
-    /** `css-break` Avoid breaks within the box.. */
-    const avoid: string
-    /** `css-break` Avoid a page break within the box.. */
-    const avoidPage: string
-    /** `css-break` Avoid a column break within the box.. */
-    const avoidColumn: string
-    /** `css-break` Avoid a region break within the box.. */
-    const avoidRegion: string
-  }
-
-  /** Create a `buffered-rendering` property (`unknown`). */
-  function bufferedRendering(value: any): Property
-
-  /** Create a `caption-side` property (`css-tables`). */
-  function captionSide(value: any): Property
-  module captionSide {
-    /** `css-tables` `top` keyword. */
-    const top: string
-    /** `css-tables` `bottom` keyword. */
-    const bottom: string
-  }
-
-  /** Create a `caret` property (`css-ui`). */
-  function caret(value: any): Property
-
-  /** Create a `caret-color` property (`css-ui`). */
-  function caretColor(value: any): Property
-  module caretColor {
-    /** `css-ui` `auto` keyword. */
-    const auto: string
-    /** `css-ui` `color` keyword. */
-    const color: string
-  }
-
-  /** Create a `caret-shape` property (`css-ui`). */
-  function caretShape(value: any): Property
-  module caretShape {
-    /** `css-ui` The UA determines the shape of the caret. It should match platform conventions, and may be adjusted based on context. For example, if a UA switches between insert mode and overtype mode when the user presses the insert key on their keyboard, it may show a bar caret in insert mode, and a block caret in overtype mode.. */
-    const auto: string
-    /** `css-ui` The UA must render the text insertion caret as a thin bar placed at the insertion point. This means it is between, before, or after characters, not over them. It should be perpendicular to the inline progression direction, although UAs may render it slanted when inserting italic or oblique text.. */
-    const bar: string
-    /** `css-ui` The UA must render the text insertion caret as a rectangle overlapping the next visible character following the insertion point. If there is no visible character after the insertion point, the UA must render the caret after the last visible character. UAs may render it as a slanted rectangle when inserting italic or oblique text.. */
-    const block: string
-    /** `css-ui` The UA must render the text insertion caret as a thin line under (as defined in [CSS-WRITING-MODES-3] the next visible character following the insertion point. If there is no visible character after the insertion point, the UA must render the caret after the last visible character.. */
-    const underscore: string
-  }
-
-  /** Create a `chains` property (`unknown`). */
-  function chains(value: any): Property
-
-  /** Create a `clear` property (`css-page-floats`). */
-  function clear(value: any): Property
-  module clear {
-    /** `css-page-floats` If applied to an inline float, requires that the block-start outer edge of the box comes after the block-end outer edge of any inline-start-floats with an inline-start-float-reference that resulted from elements earlier in the source document. If applied to a page float, the float reference in which the page float is placed will be seen as full when determining whether it can host subsequent page floats that float in the inline-start direction.. */
-    const inlineStart: string
-    /** `css-page-floats` If applied to a block-level element or an inline float, requires that the block-start outer edge of the box comes after the block-end outer edge of any inline-end-floats with an inline-end-float-reference that resulted from elements earlier in the source document. If applied to a page float, the float reference in which the page float is placed will be seen as full when determining whether it can host subsequent page floats that float in the inline-end direction.. */
-    const inlineEnd: string
-    /** `css-page-floats` If applied to a block-level element or an inline float, behaves like inline-start. If applied to a page float, the float reference in which the page float is placed will be seen as full when determining whether it can host subsequent page floats that float in the block-start direction.. */
-    const blockStart: string
-    /** `css-page-floats` If applied to a block-level element or an inline float, behaves like inline-end. If applied to a page float, the float reference in which the page float is placed will be seen as full when determining whether it can host subsequent page floats that float in the block-end direction.. */
-    const blockEnd: string
-    /** `css-page-floats` Behave like block-end, inline-start or inline-end depending on the float containing block’s direction and writing-mode.. */
-    const left: string
-    /** `css-page-floats` Behave like block-start, inline-start or inline-end depending on the float containing block’s direction and writing-mode.. */
-    const right: string
-    /** `css-page-floats` Behave like block-start or inline-start depending on the float containing block’s direction and writing-mode.. */
-    const top: string
-    /** `css-page-floats` Behave like block-end or inline-end depending on the float containing block’s direction and writing-mode.. */
-    const bottom: string
-    /** `css-page-floats` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `clip` property (`css-masking`). */
-  function clip(value: any): Property
-  module clip {
-    /** `css-masking` `auto` keyword. */
-    const auto: string
-  }
-
-  /** Create a `clip-path` property (`css-masking`). */
-  function clipPath(value: any): Property
-  module clipPath {
-    /** `css-masking` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `clip-rule` property (`css-masking`). */
-  function clipRule(value: any): Property
-  module clipRule {
-    /** `css-masking` See description of fill-rule property [SVG11].. */
-    const nonzero: string
-    /** `css-masking` See description of fill-rule property [SVG11].. */
-    const evenodd: string
-  }
-
-  /** Create a `color` property (`css-color`). */
-  function color(value: any): Property
-  module color {
-    /** `css-color` `color` keyword. */
-    const color: string
-  }
-
-  /** Create a `color-adjust` property (`css-color-adjust`). */
-  function colorAdjust(value: any): Property
-
-  /** Create a `color-interpolation` property (`svg`). */
-  function colorInterpolation(value: any): Property
-  module colorInterpolation {
-    /** `svg` `auto` keyword. */
-    const auto: string
-    /** `svg` `sRGB` keyword. */
-    const sRGB: string
-    /** `svg` `linearRGB` keyword. */
-    const linearRGB: string
-  }
-
-  /** Create a `color-interpolation-filters` property (`filter-effects`). */
-  function colorInterpolationFilters(value: any): Property
-  module colorInterpolationFilters {
-    /** `filter-effects` Indicates that the user agent can choose either the sRGB or linearRGB spaces for filter effects color operations. This option indicates that the author doesn’t require that color operations occur in a particular color space.. */
-    const auto: string
-    /** `filter-effects` Indicates that filter effects color operations should occur in the gamma-encoded sRGB color space.. */
-    const sRGB: string
-    /** `filter-effects` Indicates that filter effects color operations should occur in the linear-light sRGB color space.. */
-    const linearRGB: string
-  }
-
-  /** Create a `color-profile` property (`unknown`). */
-  function colorProfile(value: any): Property
-
-  /** Create a `color-rendering` property (`unknown`). */
-  function colorRendering(value: any): Property
-
-  /** Create a `color-scheme` property (`css-color-adjust`). */
-  function colorScheme(value: any): Property
-  module colorScheme {
-    /** `css-color-adjust` Indicates that the element supports the page’s supported color schemes, if they are set, or that it supports no color schemes at all otherwise.. */
-    const normal: string
-  }
-
-  /** Create a `column-count` property (`css-multicol`). */
-  function columnCount(value: any): Property
-  module columnCount {
-    /** `css-multicol` means that the number of columns will be determined by other properties (e.g., column-width, if it has a non-auto value).. */
-    const auto: string
-  }
-
-  /** Create a `column-fill` property (`css-multicol`). */
-  function columnFill(value: any): Property
-  module columnFill {
-    /** `css-multicol` fill columns sequentially. */
-    const auto: string
-    /** `css-multicol` Balance content equally between columns, as far as possible. In fragmented contexts, only the last fragment is balanced.. */
-    const balance: string
-    /** `css-multicol` Balance content equally between columns, as far as possible. In fragmented contexts, all fragments are balanced.. */
-    const balanceAll: string
-  }
-
-  /** Create a `column-gap` property (`css-align`). */
-  function columnGap(value: any): Property
-  module columnGap {
-    /** `css-align` The normal represents a used value of 1em on multi-column containers, and a used value of 0px in all other contexts.. */
-    const normal: string
-  }
-
-  /** Create a `column-progression` property (`unknown`). */
-  function columnProgression(value: any): Property
-
-  /** Create a `column-rule` property (`css-multicol`). */
-  function columnRule(value: any): Property
-
-  /** Create a `column-rule-color` property (`css-multicol`). */
-  function columnRuleColor(value: any): Property
-  module columnRuleColor {
-    /** `css-multicol` `color` keyword. */
-    const color: string
-  }
-
-  /** Create a `column-rule-style` property (`css-multicol`). */
-  function columnRuleStyle(value: any): Property
-
-  /** Create a `column-rule-width` property (`css-multicol`). */
-  function columnRuleWidth(value: any): Property
-
-  /** Create a `column-span` property (`css-multicol-2, css-multicol`). */
-  function columnSpan(value: any): Property
-  module columnSpan {
-    /** `css-multicol-2` Add final content from previous level. */
-    const none: string
-    /** `css-multicol-2` Add final content from previous level. */
-    const all: string
-    /** `css-multicol-2` The number of columns spanned by the element depends on its min-content outer size in the inline direction of the multi-column container. If it is smaller than the used value of column-width, this is the same as if column-span: none had been specified. Otherwise, the number of columns spanned is the smallest positive integer n for which n × column-width + (n - 1) × column-gap is larger than the min-content outer size. If this would be larger than the number of columns, the number of columns spanned will be the same as if column-span: all had been specified. If column-span: 1 does not do the same as column-span: none, should this behave as column-span: 1 or as column-span: none when the element is small enough?. */
-    const auto: string
-    /** `css-multicol` The element does not span multiple columns.. */
-    const none: string
-    /** `css-multicol` The element forces a column break and is taken out of flow to span across all columns of the nearest multicol ancestor in the same block formatting context. Content in the normal flow that appears before the element is automatically balanced across all columns in the immediately preceding multi-column line before the element appears, and any subsequent content flows into a new multi-column line after the element. The element establishes an independent formatting context.. */
-    const all: string
-  }
-
-  /** Create a `column-width` property (`css-sizing, css-multicol`). */
-  function columnWidth(value: any): Property
-  module columnWidth {
-    /** `css-multicol` means that the column width will be determined by other properties (e.g., column-count, if it has a non-auto value).. */
-    const auto: string
-  }
-
-  /** Create a `columns` property (`css-multicol`). */
-  function columns(value: any): Property
-
-  /** Create a `contain` property (`css-contain, css-contain-3`). */
-  function contain(value: any): Property
-  module contain {
-    /** `css-contain` This value indicates that the property has no effect. The element renders as normal, with no containment effects applied.. */
-    const none: string
-    /** `css-contain` This value computes to size layout paint style, and thus turns on all forms of containment for the element.. */
-    const strict: string
-    /** `css-contain` This value computes to layout paint style, and thus turns on all forms of containment except size containment for the element.. */
-    const content: string
-  }
-
-  /** Create a `contain-intrinsic-block-size` property (`css-sizing-4`). */
-  function containIntrinsicBlockSize(value: any): Property
-  module containIntrinsicBlockSize {
-    /** `css-sizing-4` The corresponding axis does not have an explicit intrinsic inner size.. */
-    const none: string
-  }
-
-  /** Create a `contain-intrinsic-height` property (`css-sizing-4`). */
-  function containIntrinsicHeight(value: any): Property
-  module containIntrinsicHeight {
-    /** `css-sizing-4` The corresponding axis does not have an explicit intrinsic inner size.. */
-    const none: string
-  }
-
-  /** Create a `contain-intrinsic-inline-size` property (`css-sizing-4`). */
-  function containIntrinsicInlineSize(value: any): Property
-  module containIntrinsicInlineSize {
-    /** `css-sizing-4` The corresponding axis does not have an explicit intrinsic inner size.. */
-    const none: string
-  }
-
-  /** Create a `contain-intrinsic-size` property (`css-sizing-4`). */
-  function containIntrinsicSize(value: any): Property
-
-  /** Create a `contain-intrinsic-width` property (`css-sizing-4`). */
-  function containIntrinsicWidth(value: any): Property
-  module containIntrinsicWidth {
-    /** `css-sizing-4` The corresponding axis does not have an explicit intrinsic inner size.. */
-    const none: string
-  }
-
-  /** Create a `container` property (`css-contain-3`). */
-  function container(value: any): Property
-
-  /** Create a `container-name` property (`css-contain-3`). */
-  function containerName(value: any): Property
-  module containerName {
-    /** `css-contain-3` The query container has no query container name.. */
-    const none: string
-  }
-
-  /** Create a `container-type` property (`css-contain-3`). */
-  function containerType(value: any): Property
-  module containerType {
-    /** `css-contain-3` The element is not a query container for any container size queries, but remains a query container for container style queries.. */
-    const normal: string
-    /** `css-contain-3` Establishes a query container for container size queries on both the inline and block axis. Applies layout containment, style containment, and size containment to the principal box.. */
-    const size: string
-    /** `css-contain-3` Establishes a query container for container size queries on the container’s own inline axis. Applies layout containment, style containment, and inline-size containment to the principal box.. */
-    const inlineSize: string
-  }
-
-  /** Create a `content` property (`css-gcpm, css-content`). */
-  function content(value: any): Property
-  module content {
-    /** `css-content` For an element or page margin box, this computes to contents. For ::before and ::after, this computes to none. For ::marker, ::placeholder, and ::file-selector-button, this computes to itself (normal).. */
-    const normal: string
-    /** `css-content` On elements, this inhibits the children of the element from being rendered as children of this element, as if the element was empty. On pseudo-elements it inhibits the creation of the pseudo-element as if it had display: none. In neither case does it prevent any pseudo-elements which have this element or pseudo-element as an originating element from being generated.. */
-    const none: string
-  }
-
-  /** Create a `content-visibility` property (`css-contain`). */
-  function contentVisibility(value: any): Property
-  module contentVisibility {
-    /** `css-contain` No effect. The element’s contents are laid out and rendered as normal.. */
-    const visible: string
-    /** `css-contain` Changes the used value of the contain property so as to turn on layout containment, style containment, and paint containment for the element. If the element is not relevant to the user, it also skips its contents. Unlike hidden, the skipped contents must still be available as normal to user-agent features such as find-in-page, tab order navigation, etc., and must be focusable and selectable as normal.. */
-    const auto: string
-    /** `css-contain` The element skips its contents. The skipped contents must not be accessible to user-agent features, such as find-in-page, tab-order navigation, etc., nor be selectable or focusable.. */
+    /** Same as none, but has different behavior in the border conflict resolution rules for border-collapsed tables [CSS2].. `css-backgrounds` */
     const hidden: string
-  }
-
-  /** Create a `continue` property (`css-overflow-4`). */
-  function _continue(value: any): Property
-  module _continue {
-    /** `css-overflow-4` If the box has more content than can fit, the excess content is handled according to the usual rules.. */
-    const auto: string
-    /** `css-overflow-4` The box becomes a fragmentation container that captures region breaks, if it is not already. [CSS-BREAK-3] Content after the first region break is not rendered (see below). (If the box is a multi-column container, any overflow columns are also not rendered.). */
-    const discard: string
-    /** `css-overflow-4` Content that doesn’t fit overflows, according to the overflow property. */
-    const overflow: string
-    /** `css-overflow-4` Content that doesn’t fit paginates. This creates a paginated view inside the element similar to the way that 'overflow: scroll' creates a scrollable view. See paginated overflow. */
-    const paginate: string
-    /** `css-overflow-4` content that doesn’t fit causes the element to copy itself and continue laying out. See fragment overflow.. */
-    const fragments: string
-  }
-
-  /** Create a `copy-into` property (`css-gcpm-4`). */
-  function copyInto(value: any): Property
-  module copyInto {
-    /** `css-gcpm-4` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `corner-shape` property (`css-backgrounds-4`). */
-  function cornerShape(value: any): Property
-
-  /** Create a `corners` property (`css-backgrounds-4`). */
-  function corners(value: any): Property
-
-  /** Create a `counter-increment` property (`css-lists`). */
-  function counterIncrement(value: any): Property
-  module counterIncrement {
-    /** `css-lists` This element does not alter the value of any counters.. */
-    const none: string
-  }
-
-  /** Create a `counter-reset` property (`css-lists`). */
-  function counterReset(value: any): Property
-  module counterReset {
-    /** `css-lists` This element does not create any new counters.. */
-    const none: string
-  }
-
-  /** Create a `counter-set` property (`css-lists`). */
-  function counterSet(value: any): Property
-  module counterSet {
-    /** `css-lists` This element does not alter the value of any counters.. */
-    const none: string
-  }
-
-  /** Create a `cue` property (`css-speech`). */
-  function cue(value: any): Property
-
-  /** Create a `cue-after` property (`css-speech`). */
-  function cueAfter(value: any): Property
-  module cueAfter {
-    /** `css-speech` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `cue-before` property (`css-speech`). */
-  function cueBefore(value: any): Property
-  module cueBefore {
-    /** `css-speech` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `cursor` property (`css-ui`). */
-  function cursor(value: any): Property
-
-  /** Create a `cx` property (`svg`). */
-  function cx(value: any): Property
-
-  /** Create a `cy` property (`svg`). */
-  function cy(value: any): Property
-
-  /** Create a `d` property (`svg`). */
-  function d(value: any): Property
-  module d {
-    /** `svg` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `descent-override` property (`unknown`). */
-  function descentOverride(value: any): Property
-
-  /** Create a `direction` property (`css-writing-modes`). */
-  function direction(value: any): Property
-  module direction {
-    /** `css-writing-modes` This value sets inline base direction (bidi directionality) to line-left-to-line-right.. */
-    const ltr: string
-    /** `css-writing-modes` This value sets inline base direction (bidi directionality) to line-right-to-line-left.. */
-    const rtl: string
-  }
-
-  /** Create a `display` property (`mathml-core, css-display`). */
-  function display(value: any): Property
-
-  /** Create a `display-align` property (`unknown`). */
-  function displayAlign(value: any): Property
-
-  /** Create a `dominant-baseline` property (`css-inline`). */
-  function dominantBaseline(value: any): Property
-  module dominantBaseline {
-    /** `css-inline` Equivalent to alphabetic in horizontal writing modes and in vertical writing modes when text-orientation is sideways. Equivalent to central in vertical writing modes when text-orientation is mixed or upright. However, in SVG text, the origin point of glyphs (used for coordinate-based glyph positioning) is always handled as for central in vertical writing modes.. */
-    const auto: string
-    /** `css-inline` Use the text-under baselines.. */
-    const textBottom: string
-    /** `css-inline` Use the alphabetic baselines.. */
-    const alphabetic: string
-    /** `css-inline` Use the ideographic-under baselines.. */
-    const ideographic: string
-    /** `css-inline` Use the x-middle baselines; except under text-orientation: upright (where the alphabetic and x-height baselines are essentially meaningless) use the central baseline.. */
-    const middle: string
-    /** `css-inline` Use the central baselines.. */
-    const central: string
-    /** `css-inline` Use the math baselines.. */
-    const mathematical: string
-    /** `css-inline` Use the hanging baselines.. */
-    const hanging: string
-    /** `css-inline` Use the text-over baselines.. */
-    const textTop: string
-  }
-
-  /** Create a `elevation` property (`unknown`). */
-  function elevation(value: any): Property
-
-  /** Create a `empty-cells` property (`css-tables`). */
-  function emptyCells(value: any): Property
-  module emptyCells {
-    /** `css-tables` `show` keyword. */
-    const show: string
-    /** `css-tables` `hide` keyword. */
-    const hide: string
-  }
-
-  /** Create a `enable-background` property (`unknown`). */
-  function enableBackground(value: any): Property
-
-  /** Create a `epub-caption-side` property (`unknown`). */
-  function epubCaptionSide(value: any): Property
-
-  /** Create a `epub-hyphens` property (`unknown`). */
-  function epubHyphens(value: any): Property
-
-  /** Create a `epub-text-combine` property (`unknown`). */
-  function epubTextCombine(value: any): Property
-
-  /** Create a `epub-text-emphasis` property (`unknown`). */
-  function epubTextEmphasis(value: any): Property
-
-  /** Create a `epub-text-emphasis-color` property (`unknown`). */
-  function epubTextEmphasisColor(value: any): Property
-
-  /** Create a `epub-text-emphasis-style` property (`unknown`). */
-  function epubTextEmphasisStyle(value: any): Property
-
-  /** Create a `epub-text-orientation` property (`unknown`). */
-  function epubTextOrientation(value: any): Property
-
-  /** Create a `epub-text-transform` property (`unknown`). */
-  function epubTextTransform(value: any): Property
-
-  /** Create a `epub-word-break` property (`unknown`). */
-  function epubWordBreak(value: any): Property
-
-  /** Create a `epub-writing-mode` property (`unknown`). */
-  function epubWritingMode(value: any): Property
-
-  /** Create a `fallback` property (`unknown`). */
-  function fallback(value: any): Property
-
-  /** Create a `fill` property (`svg`). */
-  function fill(value: any): Property
-
-  /** Create a `fill-break` property (`fill-stroke`). */
-  function fillBreak(value: any): Property
-  module fillBreak {
-    /** `fill-stroke` `bounding-box` keyword. */
-    const boundingBox: string
-    /** `fill-stroke` `slice` keyword. */
-    const slice: string
-    /** `fill-stroke` `clone` keyword. */
-    const clone: string
-  }
-
-  /** Create a `fill-color` property (`fill-stroke`). */
-  function fillColor(value: any): Property
-  module fillColor {
-    /** `fill-stroke` `color` keyword. */
-    const color: string
-  }
-
-  /** Create a `fill-image` property (`fill-stroke`). */
-  function fillImage(value: any): Property
-
-  /** Create a `fill-opacity` property (`fill-stroke`). */
-  function fillOpacity(value: any): Property
-
-  /** Create a `fill-origin` property (`fill-stroke`). */
-  function fillOrigin(value: any): Property
-  module fillOrigin {
-    /** `fill-stroke` Use the same fill positioning area as the parent. If it has no parent, use the initial containing block.. */
-    const matchParent: string
-    /** `fill-stroke` For SVG shapes or SVG text, use the object bounding box of the element. For CSS boxes, use the bounding box of the text glyph outlines of the element and all in-flow or floated descendants.. */
-    const fillBox: string
-    /** `fill-stroke` For SVG shapes or SVG text, use the stroke bounding box of the element. For CSS boxes, use the bounding box of the text glyph stroke outlines of the element and all in-flow or floated descendants.. */
-    const strokeBox: string
-    /** `fill-stroke` Use the box’s own content-box/padding-box/border-box as the fill positioning area. For SVG shapes, content-box and padding-box are treated as fill-box, while border-box is treated as stroke-box.. */
-    const contentBox: string
-    /** `fill-stroke` Use the box’s own content-box/padding-box/border-box as the fill positioning area. For SVG shapes, content-box and padding-box are treated as fill-box, while border-box is treated as stroke-box.. */
-    const paddingBox: string
-    /** `fill-stroke` Use the box’s own content-box/padding-box/border-box as the fill positioning area. For SVG shapes, content-box and padding-box are treated as fill-box, while border-box is treated as stroke-box.. */
-    const borderBox: string
-  }
-
-  /** Create a `fill-position` property (`fill-stroke`). */
-  function fillPosition(value: any): Property
-
-  /** Create a `fill-repeat` property (`fill-stroke`). */
-  function fillRepeat(value: any): Property
-
-  /** Create a `fill-rule` property (`fill-stroke`). */
-  function fillRule(value: any): Property
-  module fillRule {
-    /** `fill-stroke` This rule determines the “insideness” of a point on the canvas by drawing a ray from that point to infinity in any direction and then examining the places where a segment of the shape crosses the ray. Starting with a count of zero, add one each time a path segment crosses the ray from left to right and subtract one each time a path segment crosses the ray from right to left. After counting the crossings, if the result is zero then the point is outside the path. Otherwise, it is inside. The effect of a nonzero fill rule on paths with self-intersections and enclosed subpaths.. */
-    const nonzero: string
-    /** `fill-stroke` This rule determines the “insideness” of a point on the canvas by drawing a ray from that point to infinity in any direction and counting the number of path segments from the given shape that the ray crosses. If this number is odd, the point is inside; if even, the point is outside. The effect of an evenodd fill rule on paths with self-intersections and enclosed subpaths.. */
-    const evenodd: string
-  }
-
-  /** Create a `fill-size` property (`fill-stroke`). */
-  function fillSize(value: any): Property
-
-  /** Create a `filter` property (`filter-effects`). */
-  function filter(value: any): Property
-  module filter {
-    /** `filter-effects` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `flex` property (`css-flexbox`). */
-  function flex(value: any): Property
-  module flex {
-    /** `css-flexbox` The keyword none expands to 0 0 auto.. */
-    const none: string
-  }
-
-  /** Create a `flex-basis` property (`css-flexbox`). */
-  function flexBasis(value: any): Property
-  module flexBasis {
-    /** `css-flexbox` Indicates an automatic size based on the flex item’s content. (This is typically equivalent to the max-content size, but with adjustments to handle preferred aspect ratios, intrinsic sizing constraints, and orthogonal flows; see details in § 9 Flex Layout Algorithm.). */
-    const content: string
-  }
-
-  /** Create a `flex-direction` property (`css-flexbox`). */
-  function flexDirection(value: any): Property
-  module flexDirection {
-    /** `css-flexbox` The flex container’s main axis has the same orientation as the inline axis of the current writing mode. The main-start and main-end directions are equivalent to the inline-start and inline-end directions, respectively, of the current writing mode.. */
-    const row: string
-    /** `css-flexbox` Same as row, except the main-start and main-end directions are swapped.. */
-    const rowReverse: string
-    /** `css-flexbox` The flex container’s main axis has the same orientation as the block axis of the current writing mode. The main-start and main-end directions are equivalent to the block-start and block-end directions, respectively, of the current writing mode.. */
-    const column: string
-    /** `css-flexbox` Same as column, except the main-start and main-end directions are swapped.. */
-    const columnReverse: string
-  }
-
-  /** Create a `flex-flow` property (`css-flexbox`). */
-  function flexFlow(value: any): Property
-
-  /** Create a `flex-grow` property (`css-flexbox`). */
-  function flexGrow(value: any): Property
-
-  /** Create a `flex-shrink` property (`css-flexbox`). */
-  function flexShrink(value: any): Property
-
-  /** Create a `flex-wrap` property (`css-flexbox`). */
-  function flexWrap(value: any): Property
-  module flexWrap {
-    /** `css-flexbox` The flex container is single-line.. */
-    const nowrap: string
-    /** `css-flexbox` The flex container is multi-line.. */
-    const wrap: string
-    /** `css-flexbox` Same as wrap.. */
-    const wrapReverse: string
-  }
-
-  /** Create a `float` property (`css-page-floats, css-gcpm`). */
-  function float(value: any): Property
-  module float {
-    /** `css-page-floats` If the float reference is a line box, block-start behaves like inline-start. If the float reference is not a line box, the element generates a box that is floated to the block-start and line-start outer edges of the float reference. The initial value of the max-width or max-height property that refers to the inline size of the float is '100%'. Content flows on the block-end side of the box.. */
-    const blockStart: string
-    /** `css-page-floats` If the float reference is a line box, block-end behaves like inline-end. If the float reference is not a line box, the element generates a box that is floated to the block-end and line-end outer edges of the float reference. The initial value of the max-width or max-height property that refers to the inline size of the float is '100%'. Content flows on the block-start side of the box.. */
-    const blockEnd: string
-    /** `css-page-floats` If the float reference is a line box, the element generates a box that is floated to the line-start outer edge of the float reference and content flows on the line-end side of the box. If the float reference is not a line box, the element generates a box that is floated to the line-start and block-start outer edges of the float reference.. */
-    const inlineStart: string
-    /** `css-page-floats` If the float reference is a line box, the element generates a box that is floated to the line-ebd outer edge of the float reference and content flows on the line-start side of the box. If the float reference is not a line box, the element generates a box that is floated to the line-end and block-end outer edges of the float reference.. */
-    const inlineEnd: string
-    /** `css-page-floats` Behaves as snap-block(2em, near). */
-    const snapBlock: string
-    /** `css-page-floats` same as snap-inline(2em, near). */
-    const snapInline: string
-    /** `css-page-floats` If the float reference is a line box, behaves like inline-start or inline-end, whichever corresponds to line-left for the float reference. Otherwise, behaves like block-end, inline-start or inline-end depending on the float containing block’s direction and writing-mode.. */
-    const left: string
-    /** `css-page-floats` If the float reference is a line box, behaves like inline-start or inline-end, whichever corresponds to line-right for the float reference. Otherwise, behaves like block-start, inline-start or inline-end depending on the float containing block’s direction and writing-mode.. */
-    const right: string
-    /** `css-page-floats` Behave like block-start or inline-start depending on the float containing block’s direction and writing-mode.. */
-    const top: string
-    /** `css-page-floats` Behave like block-end or inline-end depending on the float containing block’s direction and writing-mode.. */
-    const bottom: string
-    /** `css-page-floats` The box is not floated.. */
-    const none: string
-  }
-
-  /** Create a `float-defer` property (`css-page-floats`). */
-  function floatDefer(value: any): Property
-  module floatDefer {
-    /** `css-page-floats` `last` keyword. */
-    const last: string
-    /** `css-page-floats` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `float-offset` property (`css-page-floats`). */
-  function floatOffset(value: any): Property
-
-  /** Create a `float-reference` property (`css-page-floats`). */
-  function floatReference(value: any): Property
-  module floatReference {
-    /** `css-page-floats` The float reference is the line box of the float anchor. The float containing block formatting context is the same as that of the float anchor. The float is an inline float.. */
-    const inline: string
-    /** `css-page-floats` The float reference is the column in a multi column environment in which the float anchor is placed. If the float anchor is not inside a column, the float reference is the line box of the float anchor. The float containing block formatting context is a new block formatting context with the same dimensions and placement as the float reference. The float is a page float.. */
-    const column: string
-    /** `css-page-floats` The float reference is the region in a region-chain within which the float anchor is placed. If the float anchor is not inside a region, the float reference is the line box of the float anchor. The float containing block formatting context is a new block formatting context with the same dimensions and placement as the float reference. The float is a page float.. */
-    const region: string
-    /** `css-page-floats` The float reference of the float is the page within which the float anchor is placed. If the float anchor is not inside a page, the float reference is the line box of the float anchor. The float containing block formatting context is a new block formatting context with the same dimensions and placement as the float reference. The float is a page float.. */
-    const page: string
-  }
-
-  /** Create a `flood-color` property (`filter-effects`). */
-  function floodColor(value: any): Property
-  module floodColor {
-    /** `filter-effects` `color` keyword. */
-    const color: string
-  }
-
-  /** Create a `flood-opacity` property (`filter-effects`). */
-  function floodOpacity(value: any): Property
-
-  /** Create a `flow` property (`unknown`). */
-  function flow(value: any): Property
-
-  /** Create a `flow-from` property (`css-regions`). */
-  function flowFrom(value: any): Property
-  module flowFrom {
-    /** `css-regions` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `flow-into` property (`css-regions`). */
-  function flowInto(value: any): Property
-  module flowInto {
-    /** `css-regions` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `font` property (`css-fonts`). */
-  function font(value: any): Property
-  module font {
-    /** `css-fonts` The font used for captioned controls (e.g., buttons, drop-downs, etc.).. */
-    const caption: string
-    /** `css-fonts` The font used to label icons.. */
-    const icon: string
-    /** `css-fonts` The font used in menus (e.g., dropdown menus and menu lists).. */
-    const menu: string
-    /** `css-fonts` The font used in dialog boxes.. */
-    const messageBox: string
-    /** `css-fonts` The font used for labeling small controls.. */
-    const smallCaption: string
-    /** `css-fonts` The font used in window status bars.. */
-    const statusBar: string
-  }
-
-  /** Create a `font-display` property (`unknown`). */
-  function fontDisplay(value: any): Property
-
-  /** Create a `font-family` property (`css-fonts`). */
-  function fontFamily(value: any): Property
-
-  /** Create a `font-feature-settings` property (`css-fonts`). */
-  function fontFeatureSettings(value: any): Property
-  module fontFeatureSettings {
-    /** `css-fonts` A value of normal means that no change in glyph selection or positioning occurs due to this property.. */
-    const normal: string
-  }
-
-  /** Create a `font-kerning` property (`css-fonts`). */
-  function fontKerning(value: any): Property
-  module fontKerning {
-    /** `css-fonts` Specifies that kerning is applied at the discretion of the user agent. */
-    const auto: string
-    /** `css-fonts` Specifies that kerning is applied. */
-    const normal: string
-    /** `css-fonts` Specifies that kerning is not applied. */
-    const none: string
-  }
-
-  /** Create a `font-language-override` property (`css-fonts`). */
-  function fontLanguageOverride(value: any): Property
-  module fontLanguageOverride {
-    /** `css-fonts` `normal` keyword. */
-    const normal: string
-  }
-
-  /** Create a `font-optical-sizing` property (`css-fonts`). */
-  function fontOpticalSizing(value: any): Property
-  module fontOpticalSizing {
-    /** `css-fonts` The user agent may modify the shape of glyphs based on the font-size and the pixel density of the screen. For OpenType and TrueType fonts using font variations, this is often done by using the "opsz" font variation.. */
-    const auto: string
-    /** `css-fonts` The user agent must not modify the shape of glyphs for optical size.. */
-    const none: string
-  }
-
-  /** Create a `font-palette` property (`css-fonts`). */
-  function fontPalette(value: any): Property
-  module fontPalette {
-    /** `css-fonts` User-Agents display the color font with the default palette or default glyph colorisation. User-agents should take the computed value of the color property into consideration when a color font format requires use of the foreground color In the COLR [OPENTYPE] table, color index 0xFFFF should be rendered according the color property. For COLR/CPAL [OPENTYPE] fonts, font-palette: normal usually means rendering the font with the palette in the font at index 0.. */
-    const normal: string
-    /** `css-fonts` Some color font formats include metadata marking certain palettes as applicable on a light (close to white) background. This keyword causes the user-agent to use the first available palette in the font file marked this way. If the font file format does not account for this metadata, or no palette in the font is marked this way, this value behaves as normal.. */
-    const light: string
-    /** `css-fonts` Some color font formats include metadata marking certain palettes as applicable on a dark (close to black) background. This keyword causes the user-agent to use the first available palette in the font file marked this way. If the font file format does not account for this metadata, or no palette in the font is marked this way, this value behaves as normal.. */
-    const dark: string
-  }
-
-  /** Create a `font-size` property (`css-fonts`). */
-  function fontSize(value: any): Property
-  module fontSize {
-    /** `css-fonts` Special mathematical scaling rules must be applied when determining the computed value of the font-size property.. */
-    const math: string
-  }
-
-  /** Create a `font-size-adjust` property (`css-fonts-5, css-fonts`). */
-  function fontSizeAdjust(value: any): Property
-  module fontSizeAdjust {
-    /** `css-fonts-5` No special font-size adjustment is applied.. */
-    const none: string
-    /** `css-fonts` Do not preserve the font’s x-height.. */
-    const none: string
-  }
-
-  /** Create a `font-stretch` property (`css-fonts`). */
-  function fontStretch(value: any): Property
-  module fontStretch {
-    /** `css-fonts` `normal` keyword. */
-    const normal: string
-    /** `css-fonts` `ultra-condensed` keyword. */
-    const ultraCondensed: string
-    /** `css-fonts` `extra-condensed` keyword. */
-    const extraCondensed: string
-    /** `css-fonts` `condensed` keyword. */
-    const condensed: string
-    /** `css-fonts` `semi-condensed` keyword. */
-    const semiCondensed: string
-    /** `css-fonts` `semi-expanded` keyword. */
-    const semiExpanded: string
-    /** `css-fonts` `expanded` keyword. */
-    const expanded: string
-    /** `css-fonts` `extra-expanded` keyword. */
-    const extraExpanded: string
-    /** `css-fonts` `ultra-expanded` keyword. */
-    const ultraExpanded: string
-  }
-
-  /** Create a `font-style` property (`css-fonts`). */
-  function fontStyle(value: any): Property
-  module fontStyle {
-    /** `css-fonts` Matches against a face that is classified as a normal face, one that is neither italic or obliqued. This represents an oblique value of "0".. */
-    const normal: string
-    /** `css-fonts` Matches against a font that is labeled as an italic face, or an oblique face if one does not exist.. */
-    const italic: string
-  }
-
-  /** Create a `font-synthesis` property (`css-fonts`). */
-  function fontSynthesis(value: any): Property
-  module fontSynthesis {
-    /** `css-fonts` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `font-synthesis-small-caps` property (`css-fonts`). */
-  function fontSynthesisSmallCaps(value: any): Property
-  module fontSynthesisSmallCaps {
-    /** `css-fonts` Synthesis of small caps faces is allowed. */
-    const auto: string
-    /** `css-fonts` Synthesis of small caps faces is not allowed. */
-    const none: string
-  }
-
-  /** Create a `font-synthesis-style` property (`css-fonts`). */
-  function fontSynthesisStyle(value: any): Property
-  module fontSynthesisStyle {
-    /** `css-fonts` Synthesis of oblique faces is allowed. */
-    const auto: string
-    /** `css-fonts` Synthesis of oblique faces is not allowed. */
-    const none: string
-  }
-
-  /** Create a `font-synthesis-weight` property (`css-fonts`). */
-  function fontSynthesisWeight(value: any): Property
-  module fontSynthesisWeight {
-    /** `css-fonts` Synthesis of bold faces is allowed. */
-    const auto: string
-    /** `css-fonts` Synthesis of bold faces is not allowed. */
-    const none: string
-  }
-
-  /** Create a `font-variant` property (`css-fonts`). */
-  function fontVariant(value: any): Property
-  module fontVariant {
-    /** `css-fonts` The value normal resets all subproperties of font-variant to their initial value. The none value sets font-variant-ligatures to none and resets all other font feature properties to their initial value. Like other shorthands, using font-variant resets unspecified font-variant subproperties to their initial values.. */
-    const normal: string
-    /** `css-fonts` The value normal resets all subproperties of font-variant to their initial value. The none value sets font-variant-ligatures to none and resets all other font feature properties to their initial value. Like other shorthands, using font-variant resets unspecified font-variant subproperties to their initial values.. */
-    const none: string
-  }
-
-  /** Create a `font-variant-alternates` property (`css-fonts`). */
-  function fontVariantAlternates(value: any): Property
-  module fontVariantAlternates {
-    /** `css-fonts` None of the features listed below are enabled.. */
-    const normal: string
-  }
-
-  /** Create a `font-variant-caps` property (`css-fonts`). */
-  function fontVariantCaps(value: any): Property
-  module fontVariantCaps {
-    /** `css-fonts` None of the features listed below are enabled.. */
-    const normal: string
-    /** `css-fonts` Enables display of small capitals (OpenType feature: smcp). Small-caps glyphs typically use the form of uppercase letters but are reduced to the size of lowercase letters.. */
-    const smallCaps: string
-    /** `css-fonts` Enables display of small capitals for both upper and lowercase letters (OpenType features: c2sc, smcp).. */
-    const allSmallCaps: string
-    /** `css-fonts` Enables display of petite capitals (OpenType feature: pcap).. */
-    const petiteCaps: string
-    /** `css-fonts` Enables display of petite capitals for both upper and lowercase letters (OpenType features: c2pc, pcap).. */
-    const allPetiteCaps: string
-    /** `css-fonts` Enables display of mixture of small capitals for uppercase letters with normal lowercase letters (OpenType feature: unic).. */
-    const unicase: string
-    /** `css-fonts` Enables display of titling capitals (OpenType feature: titl). Uppercase letter glyphs are often designed for use with lowercase letters. When used in all uppercase titling sequences they can appear too strong. Titling capitals are designed specifically for this situation.. */
-    const titlingCaps: string
-  }
-
-  /** Create a `font-variant-east-asian` property (`css-fonts`). */
-  function fontVariantEastAsian(value: any): Property
-  module fontVariantEastAsian {
-    /** `css-fonts` None of the features listed below are enabled.. */
-    const normal: string
-  }
-
-  /** Create a `font-variant-emoji` property (`css-fonts`). */
-  function fontVariantEmoji(value: any): Property
-  module fontVariantEmoji {
-    /** `css-fonts` User agents can choose to draw a Presentation Participating Code Point in either emoji style or text style. User agents typically follow platform conventions when performing this decision.. */
-    const normal: string
-    /** `css-fonts` Code points are rendered as if U+FE0E VARIATION SELECTOR-15 was appended to every Presentation Participating Code Point.. */
-    const text: string
-    /** `css-fonts` Code points are rendered as if U+FE0F VARIATION SELECTOR-16 was appended to every Presentation Participating Code Point.. */
-    const emoji: string
-    /** `css-fonts` Code points are rendered in accordance with [UTS51] as either emoji-default, text-default, or text-only, depending on the values of the Emoji and Emoji_Presentation properties for each Presentation Participating Code Point. If present, FE0E VARIATION SELECTOR-15 and U+FE0F VARIATION SELECTOR-16 will override the default presentation of individual Presentation Participating Code Points.. */
-    const unicode: string
-  }
-
-  /** Create a `font-variant-ligatures` property (`css-fonts`). */
-  function fontVariantLigatures(value: any): Property
-  module fontVariantLigatures {
-    /** `css-fonts` A value of normal specifies that common default features are enabled, as described in detail in the next section. For OpenType fonts, common ligatures and contextual forms are on by default, discretionary and historical ligatures are not.. */
-    const normal: string
-    /** `css-fonts` Specifies that all types of ligatures and contextual forms covered by this property are explicitly disabled. In situations where ligatures are not considered necessary, this may improve the speed of text rendering.. */
-    const none: string
-  }
-
-  /** Create a `font-variant-numeric` property (`css-fonts`). */
-  function fontVariantNumeric(value: any): Property
-  module fontVariantNumeric {
-    /** `css-fonts` None of the features listed below are enabled.. */
-    const normal: string
-  }
-
-  /** Create a `font-variant-position` property (`css-fonts`). */
-  function fontVariantPosition(value: any): Property
-  module fontVariantPosition {
-    /** `css-fonts` None of the features listed below are enabled.. */
-    const normal: string
-    /** `css-fonts` Enables display of subscript variants (OpenType feature: subs).. */
-    const sub: string
-    /** `css-fonts` Enables display of superscript variants (OpenType feature: sups).. */
-    const _super: string
-  }
-
-  /** Create a `font-variation-settings` property (`css-fonts`). */
-  function fontVariationSettings(value: any): Property
-  module fontVariationSettings {
-    /** `css-fonts` `normal` keyword. */
-    const normal: string
-  }
-
-  /** Create a `font-weight` property (`css-fonts`). */
-  function fontWeight(value: any): Property
-  module fontWeight {
-    /** `css-fonts` Specifies a bolder weight than the inherited value. See § 2.2.1 Relative Weights.. */
-    const bolder: string
-    /** `css-fonts` Specifies a lighter weight than the inherited value. See § 2.2.1 Relative Weights.. */
-    const lighter: string
-  }
-
-  /** Create a `footnote-display` property (`css-gcpm`). */
-  function footnoteDisplay(value: any): Property
-  module footnoteDisplay {
-    /** `css-gcpm` `block` keyword. */
-    const block: string
-    /** `css-gcpm` `inline` keyword. */
-    const inline: string
-    /** `css-gcpm` `compact` keyword. */
-    const compact: string
-  }
-
-  /** Create a `footnote-policy` property (`css-gcpm`). */
-  function footnotePolicy(value: any): Property
-  module footnotePolicy {
-    /** `css-gcpm` The user agent chooses how to render footnotes, and may place the footnote body on a later page than the footnote reference. A footnote body must never be placed on a page before the footnote reference.. */
-    const auto: string
-    /** `css-gcpm` If a given footnote body cannot be placed on the current page due to lack of space, the user agent introduces a forced page break at the start of the line containing the footnote reference, so that both the reference and the footnote body fall on the next page. Note that the user agent must honor widow and orphan settings when doing this, and so may need to insert the page break on an earlier line.. */
-    const line: string
-    /** `css-gcpm` As with line, except a forced page break is introduced before the paragraph that contains the footnote.. */
-    const block: string
-  }
-
-  /** Create a `forced-color-adjust` property (`css-color-adjust`). */
-  function forcedColorAdjust(value: any): Property
-  module forcedColorAdjust {
-    /** `css-color-adjust` The element’s colors are automatically adjusted by the UA in forced colors mode.. */
-    const auto: string
-    /** `css-color-adjust` The element’s colors are not automatically adjusted by the UA in forced colors mode. Authors should only use this value when they are themselves adjusting the colors to support the user’s color and contrast needs and need to make changes to the UA’s default adjustments to provide a more appropriate user experience for those elements.. */
-    const none: string
-    /** `css-color-adjust` In forced colors mode, if the color property inherits from its parent (i.e. there is no cascaded value or the cascaded value is currentColor, inherit, or another keyword that inherits from the parent), then it computes to the used color of its parent’s color value. In all other respects, behaves the same as none.. */
-    const preserveParentColor: string
-  }
-
-  /** Create a `gap` property (`css-align`). */
-  function gap(value: any): Property
-
-  /** Create a `glyph-orientation-horizontal` property (`unknown`). */
-  function glyphOrientationHorizontal(value: any): Property
-
-  /** Create a `glyph-orientation-vertical` property (`css-writing-modes`). */
-  function glyphOrientationVertical(value: any): Property
-  module glyphOrientationVertical {
-    /** `css-writing-modes` `auto` keyword. */
-    const auto: string
-  }
-
-  /** Create a `grid` property (`css-grid`). */
-  function grid(value: any): Property
-
-  /** Create a `grid-area` property (`css-grid`). */
-  function gridArea(value: any): Property
-
-  /** Create a `grid-auto-columns` property (`css-grid`). */
-  function gridAutoColumns(value: any): Property
-
-  /** Create a `grid-auto-flow` property (`css-grid`). */
-  function gridAutoFlow(value: any): Property
-  module gridAutoFlow {
-    /** `css-grid` If specified, the auto-placement algorithm uses a “dense” packing algorithm, which attempts to fill in holes earlier in the grid if smaller items come up later. This may cause items to appear out-of-order, when doing so would fill in holes left by larger items. If omitted, a “sparse” algorithm is used, where the placement algorithm only ever moves “forward” in the grid when placing items, never backtracking to fill holes. This ensures that all of the auto-placed items appear “in order”, even if this leaves holes that could have been filled by later items.. */
-    const dense: string
-  }
-
-  /** Create a `grid-auto-rows` property (`css-grid`). */
-  function gridAutoRows(value: any): Property
-
-  /** Create a `grid-column` property (`css-grid`). */
-  function gridColumn(value: any): Property
-
-  /** Create a `grid-column-end` property (`css-grid`). */
-  function gridColumnEnd(value: any): Property
-
-  /** Create a `grid-column-gap` property (`css-align`). */
-  function gridColumnGap(value: any): Property
-
-  /** Create a `grid-column-start` property (`css-grid`). */
-  function gridColumnStart(value: any): Property
-
-  /** Create a `grid-gap` property (`css-align`). */
-  function gridGap(value: any): Property
-
-  /** Create a `grid-row` property (`css-grid`). */
-  function gridRow(value: any): Property
-
-  /** Create a `grid-row-end` property (`css-grid`). */
-  function gridRowEnd(value: any): Property
-
-  /** Create a `grid-row-gap` property (`css-align`). */
-  function gridRowGap(value: any): Property
-
-  /** Create a `grid-row-start` property (`css-grid`). */
-  function gridRowStart(value: any): Property
-
-  /** Create a `grid-template` property (`css-grid`). */
-  function gridTemplate(value: any): Property
-  module gridTemplate {
-    /** `css-grid` Sets all three properties to their initial values (none).. */
-    const none: string
-  }
-
-  /** Create a `grid-template-areas` property (`css-grid`). */
-  function gridTemplateAreas(value: any): Property
-  module gridTemplateAreas {
-    /** `css-grid` Indicates that no named grid areas, and likewise no explicit grid tracks, are defined by this property (though explicit grid tracks could still be created by grid-template-columns or grid-template-rows).. */
-    const none: string
-  }
-
-  /** Create a `grid-template-columns` property (`css-grid, css-grid-3`). */
-  function gridTemplateColumns(value: any): Property
-  module gridTemplateColumns {
-    /** `css-grid` Indicates that no explicit grid tracks are created by this property (though explicit grid tracks could still be created by grid-template-areas).. */
-    const none: string
-  }
-
-  /** Create a `grid-template-rows` property (`css-grid, css-grid-3`). */
-  function gridTemplateRows(value: any): Property
-  module gridTemplateRows {
-    /** `css-grid` Indicates that no explicit grid tracks are created by this property (though explicit grid tracks could still be created by grid-template-areas).. */
-    const none: string
-  }
-
-  /** Create a `hanging-punctuation` property (`css-text-4, css-text`). */
-  function hangingPunctuation(value: any): Property
-  module hangingPunctuation {
-    /** `css-text-4` No punctuation character is made to hang.. */
-    const none: string
-    /** `css-text` No punctuation character is made to hang.. */
-    const none: string
-  }
-
-  /** Create a `height` property (`css-sizing-4, css-sizing`). */
-  function height(value: any): Property
-  module height {
-    /** `css-sizing` For width/height, specifies an automatic size (automatic block size/automatic inline size). See the relevant layout module for how to calculate this. For min-width/min-height, specifies an automatic minimum size. Unless otherwise defined by the relevant layout module, however, it resolves to a used value of 0. For backwards-compatibility, the resolved value of this keyword is zero for boxes of all [CSS2] display types: block and inline boxes, inline blocks, and all the table layout boxes. It also resolves to zero when no box is generated.. */
-    const auto: string
-    /** `css-sizing` Use the min-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. */
-    const minContent: string
-    /** `css-sizing` Use the max-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. */
-    const maxContent: string
-  }
-
-  /** Create a `hyphenate-character` property (`css-text-4`). */
-  function hyphenateCharacter(value: any): Property
-  module hyphenateCharacter {
-    /** `css-text-4` Specifies that the user agent should find an appropriate string based on the content language’s typographic conventions, possibly from the same source as the hyphenation dictionary.. */
-    const auto: string
-  }
-
-  /** Create a `hyphenate-limit-chars` property (`css-text-4`). */
-  function hyphenateLimitChars(value: any): Property
-
-  /** Create a `hyphenate-limit-last` property (`css-text-4`). */
-  function hyphenateLimitLast(value: any): Property
-  module hyphenateLimitLast {
-    /** `css-text-4` `none` keyword. */
-    const none: string
-    /** `css-text-4` `always` keyword. */
-    const always: string
-    /** `css-text-4` `column` keyword. */
-    const column: string
-    /** `css-text-4` `page` keyword. */
-    const page: string
-    /** `css-text-4` `spread` keyword. */
-    const spread: string
-  }
-
-  /** Create a `hyphenate-limit-lines` property (`css-text-4`). */
-  function hyphenateLimitLines(value: any): Property
-  module hyphenateLimitLines {
-    /** `css-text-4` `no-limit` keyword. */
-    const noLimit: string
-  }
-
-  /** Create a `hyphenate-limit-zone` property (`css-text-4`). */
-  function hyphenateLimitZone(value: any): Property
-
-  /** Create a `hyphens` property (`css-text-4, css-text`). */
-  function hyphens(value: any): Property
-  module hyphens {
-    /** `css-text-4` Words are not hyphenated, even if characters inside the word explicitly define hyphenation opportunities.. */
-    const none: string
-    /** `css-text-4` Words are only hyphenated where there are characters inside the word that explicitly suggest hyphenation opportunities. The UA must use the appropriate language-specific hyphenation character(s) and should apply any appropriate spelling changes just as for automatic hyphenation at the same point. In Unicode, U+00AD is a conditional "soft hyphen" and U+2010 is an unconditional hyphen. Unicode Standard Annex #14 describes the role of soft hyphens in Unicode line breaking. [UAX14] In HTML, &shy; represents the soft hyphen character, which suggests a hyphenation opportunity. ex&shy;ample. */
-    const manual: string
-    /** `css-text-4` Words may be broken at hyphenation opportunities determined automatically by a language-appropriate hyphenation resource in addition to those indicated explicitly by a conditional hyphen. Automatic hyphenation opportunities elsewhere within a word must be ignored if the word contains a conditional hyphen (&shy; or U+00AD SOFT HYPHEN), in favor of the conditional hyphen(s). However, if, even after breaking at such opportunities, a portion of that word is still too long to fit on one line, an automatic hyphenation opportunity may be used.. */
-    const auto: string
-    /** `css-text` Words are not hyphenated, even if characters inside the word explicitly define hyphenation opportunities.. */
-    const none: string
-    /** `css-text` Words are only hyphenated where there are characters inside the word that explicitly suggest hyphenation opportunities. The UA must use the appropriate language-specific hyphenation character(s) and should apply any appropriate spelling changes just as for automatic hyphenation at the same point. In Unicode, U+00AD is a conditional "soft hyphen" and U+2010 is an unconditional hyphen. Unicode Standard Annex #14 describes the role of soft hyphens in Unicode line breaking. [UAX14] In HTML, &shy; represents the soft hyphen character, which suggests a hyphenation opportunity. ex&shy;ample. */
-    const manual: string
-    /** `css-text` Words may be broken at hyphenation opportunities determined automatically by a language-appropriate hyphenation resource in addition to those indicated explicitly by a conditional hyphen. Automatic hyphenation opportunities elsewhere within a word must be ignored if the word contains a conditional hyphen (&shy; or U+00AD SOFT HYPHEN), in favor of the conditional hyphen(s). However, if, even after breaking at such opportunities, a portion of that word is still too long to fit on one line, an automatic hyphenation opportunity may be used.. */
-    const auto: string
-  }
-
-  /** Create a `image-orientation` property (`css-images`). */
-  function imageOrientation(value: any): Property
-  module imageOrientation {
-    /** `css-images` If the image has an orientation specified in its metadata, such as EXIF, this value computes to the angle that the metadata specifies is necessary to correctly orient the image. If necessary, this angle is then rounded and normalized as described above for an <angle> value. If there is no orientation specified in its metadata, this value computes to none.. */
-    const fromImage: string
-    /** `css-images` No additional rotation is applied: the image is oriented as encoded.. */
-    const none: string
-  }
-
-  /** Create a `image-rendering` property (`css-images`). */
-  function imageRendering(value: any): Property
-  module imageRendering {
-    /** `css-images` The scaling algorithm is UA-dependent.. */
-    const auto: string
-    /** `css-images` The image should be scaled with an algorithm that maximizes the appearance of the image. In particular, scaling algorithms that "smooth" colors are acceptable, such as bilinear interpolation. This is intended for images such as photos.. */
-    const smooth: string
-    /** `css-images` Identical to smooth, but with a preference for higher-quality scaling. If system resources are constrained, images with high-quality should be prioritized over those with any other value, when considering which images to degrade the quality of and to what degree.. */
-    const highQuality: string
-    /** `css-images` The image is scaled in a way that preserves the pixelation of the original as much as possible, but allows minor smoothing as necessary to avoid distorting the image when the target size is not a clean multiple of the original. For each axis independently, first determine the integer multiple of its natural size that puts it closest to the target size and is greater than zero. Scale it to this integer-multiple-size using nearest neighbor, then scale it the rest of the way to the target size as for smooth.. */
-    const pixelated: string
-    /** `css-images` The image is scaled in a way that preserves contrast and edges, and which avoids smoothing colors or introducing blur to the image in the process. This is intended for images such as line drawings. The image may be scaled using nearest neighbor or any other UA-chosen algorithm that does not blur edges or blend colors from the source image. It can, however, detect diagonal or curved lines and render them as such (rather than as jagged-looking “giant pixels”).. */
-    const crispEdges: string
-  }
-
-  /** Create a `image-resolution` property (`css-images-4`). */
-  function imageResolution(value: any): Property
-
-  /** Create a `ime-mode` property (`unknown`). */
-  function imeMode(value: any): Property
-
-  /** Create a `inherits` property (`unknown`). */
-  function inherits(value: any): Property
-
-  /** Create a `initial-letter` property (`css-inline`). */
-  function initialLetter(value: any): Property
-  module initialLetter {
-    /** `css-inline` No special initial letter effect. Text behaves as normal.. */
-    const normal: string
-  }
-
-  /** Create a `initial-letter-align` property (`css-inline`). */
-  function initialLetterAlign(value: any): Property
-
-  /** Create a `initial-letter-wrap` property (`css-inline`). */
-  function initialLetterWrap(value: any): Property
-  module initialLetterWrap {
-    /** `css-inline` No contour-fitting is performed: each impacted line is aligned flush to the inline-end margin edge of the initial letter.. */
-    const none: string
-    /** `css-inline` Behaves as none if the first typographic character unit after the initial letter belongs to Unicode General Category Zs. Otherwise behaves as for all on the first line of the block containing the initial letter and as none on the rest. This example shows why contour-fitting the first line is necessary, and why it is dropped when the initial letter is followed by a space: In the top paragraph, the initial letter "A" has a word space after it: the gap between the top of the "A" and the next letter provides the necessary word separation. In the next paragraph, the initial letter "A" is part of the first word, and leaving a gap between the top of the "A" and the next letter would create a jarring visual break within the word. In this case, the first line of text should be kerned into the initial letter’s area, as shown in the bottom paragraph. Do we need an unconditional first? (I.e. Should we rename this value to auto and add a first value that does not check for spaces?) See GitHub issue 410. */
-    const first: string
-    /** `css-inline` For each line of text impacted by the initial letter, the line box adjacent to the initial letter starts at the start-most point that does not overlap the initial letter’s glyph outline. If the value of shape-outside is not none, shape-outside is used instead of the glyph outline. In both cases, shape-margin is applied to expand the outline, and the resulting outline is clipped by the initial letter’s margin edges.. */
-    const all: string
-    /** `css-inline` This value is the same as none, except that the exclusion area of the impacted lines is increased as necessary for its end-edge to land on the character grid, i.e. to be a multiple of (1ic + letter-spacing) as computed on the containing block. The justify-self property can then be used to align the initial letter box within the exclusion area. Diagram of Japanese initial letter in vertical writing mode. */
-    const grid: string
-  }
-
-  /** Create a `initial-value` property (`unknown`). */
-  function initialValue(value: any): Property
-
-  /** Create a `inline-size` property (`css-logical, css-sizing-4`). */
-  function inlineSize(value: any): Property
-
-  /** Create a `inline-sizing` property (`css-inline`). */
-  function inlineSizing(value: any): Property
-  module inlineSizing {
-    /** `css-inline` The content area of the inline box is sized and positioned to fit (possibly hypothetical) text from its first available font. This specification does not specify how. A UA may, e.g., use the maximum ascender and descender of the font. (This would ensure that glyphs with parts above or below the em-box still fall within the content area, but leads to differently sized boxes for different fonts.). */
-    const normal: string
-    /** `css-inline` Once the line box has been sized and its contents positioned as for normal, the inline box’s box edges are shifted such that its over/under margin edges coincide with the corresponding line box’s edges, stretching the inline box’s inner logical height so that its block-axis outer size fills the line box. (The sizes and positions of its in-flow contents are not affected.). */
-    const stretch: string
-  }
-
-  /** Create a `input-format` property (`unknown`). */
-  function inputFormat(value: any): Property
-
-  /** Create a `input-security` property (`css-ui`). */
-  function inputSecurity(value: any): Property
-  module inputSecurity {
-    /** `css-ui` The UA should obscure the text in the control, so that it cannot be read by the user.. */
-    const auto: string
-    /** `css-ui` The UA must not obscure the text in the control, so that it can be read by the user.. */
-    const none: string
-  }
-
-  /** Create a `inset` property (`css-position`). */
-  function inset(value: any): Property
-
-  /** Create a `inset-block` property (`css-position`). */
-  function insetBlock(value: any): Property
-
-  /** Create a `inset-block-end` property (`css-position`). */
-  function insetBlockEnd(value: any): Property
-  module insetBlockEnd {
-    /** `css-position` Represents an unconstrained inset; the exact meaning depends on the positioning scheme.. */
-    const auto: string
-  }
-
-  /** Create a `inset-block-start` property (`css-position`). */
-  function insetBlockStart(value: any): Property
-  module insetBlockStart {
-    /** `css-position` Represents an unconstrained inset; the exact meaning depends on the positioning scheme.. */
-    const auto: string
-  }
-
-  /** Create a `inset-inline` property (`css-position`). */
-  function insetInline(value: any): Property
-
-  /** Create a `inset-inline-end` property (`css-position`). */
-  function insetInlineEnd(value: any): Property
-  module insetInlineEnd {
-    /** `css-position` Represents an unconstrained inset; the exact meaning depends on the positioning scheme.. */
-    const auto: string
-  }
-
-  /** Create a `inset-inline-start` property (`css-position`). */
-  function insetInlineStart(value: any): Property
-  module insetInlineStart {
-    /** `css-position` Represents an unconstrained inset; the exact meaning depends on the positioning scheme.. */
-    const auto: string
-  }
-
-  /** Create a `isolation` property (`compositing`). */
-  function isolation(value: any): Property
-
-  /** Create a `justify-content` property (`css-align`). */
-  function justifyContent(value: any): Property
-  module justifyContent {
-    /** `css-align` Aligns the contents of the box as a whole (as the alignment subject) within the box itself (as the alignment container): along the inline/row/main axis of the box (for justify-content) or the block/column/cross axis of the box (for align-content). Values other than normal are defined in § 4 Alignment Keywords, above.. */
-    const normal: string
-  }
-
-  /** Create a `justify-items` property (`css-align`). */
-  function justifyItems(value: any): Property
-  module justifyItems {
-    /** `css-align` `normal` keyword. */
-    const normal: string
-    /** `css-align` `stretch` keyword. */
-    const stretch: string
-    /** `css-align` This keyword causes the value to effectively inherit into descendants. If the legacy keyword appears on its own (without an accompanying left, right, or center keyword): if the inherited value of justify-items includes the legacy keyword, this value computes to the inherited value; otherwise it computes to normal. When justify-self:auto references the value of justify-items, only the alignment keyword, not the legacy keyword, is referenced by it. It exists to implement the legacy alignment behavior of HTML’s <center> element and align attribute.. */
-    const legacy: string
-  }
-
-  /** Create a `justify-self` property (`css-align`). */
-  function justifySelf(value: any): Property
-  module justifySelf {
-    /** `css-align` Behaves as normal if the box has no parent, or when determining the actual position of an absolutely positioned box. It behaves as the computed justify-items value of the parent box (minus any legacy keywords) otherwise (including when determining the static position of an absolutely positioned box).. */
-    const auto: string
-    /** `css-align` Represents the “default” alignment for the layout mode. Its behavior depends on the layout mode, as described below.. */
-    const normal: string
-    /** `css-align` When the box’s computed width/height (as appropriate to the axis) is auto and neither of its margins (in the appropriate axis) are auto, sets the box’s used size to the length necessary to make its outer size as close to filling the alignment container as possible while still respecting the constraints imposed by min-height/min-width/max-height/max-width. Unless otherwise specified, this value falls back to flex-start generally, and to self-start or self-end if the box has also specified first baseline or last baseline baseline content-alignment (respectively) in the same axis.. */
-    const stretch: string
-  }
-
-  /** Create a `justify-tracks` property (`css-grid-3`). */
-  function justifyTracks(value: any): Property
-
-  /** Create a `kerning` property (`unknown`). */
-  function kerning(value: any): Property
-
-  /** Create a `layout-flow` property (`unknown`). */
-  function layoutFlow(value: any): Property
-
-  /** Create a `layout-grid` property (`unknown`). */
-  function layoutGrid(value: any): Property
-
-  /** Create a `layout-grid-char` property (`unknown`). */
-  function layoutGridChar(value: any): Property
-
-  /** Create a `layout-grid-line` property (`unknown`). */
-  function layoutGridLine(value: any): Property
-
-  /** Create a `layout-grid-mode` property (`unknown`). */
-  function layoutGridMode(value: any): Property
-
-  /** Create a `layout-grid-type` property (`unknown`). */
-  function layoutGridType(value: any): Property
-
-  /** Create a `layout-order` property (`css-display`). */
-  function layoutOrder(value: any): Property
-
-  /** Create a `leading-trim` property (`css-inline`). */
-  function leadingTrim(value: any): Property
-  module leadingTrim {
-    /** `css-inline` No special handling of the first/last line box when applied to a block container. When applied to an inline box, specifies that the over/under content edges coincide with the text-over/text-under baselines regardless of text-edge (which nonetheless still affects line box sizing).. */
-    const normal: string
-    /** `css-inline` For block containers: trim the block-start side of the first formatted line to the corresponding text-edge metric of its root inline box. If there is no such line, or if there is intervening non-zero padding or borders, there is no effect. For inline boxes: trims the block-end side of the box to match its content edge to the metric specified by text-edge (treating leading as text).. */
-    const start: string
-    /** `css-inline` For block containers: trim the block-end side of the last formatted line to the corresponding text-edge metric of its root inline box. If there is no such line, or if there is intervening non-zero padding or borders, there is no effect. For inline boxes: trims the block-end side of the box to match its content edge to the metric specified by text-edge (treating leading as text).. */
-    const end: string
-    /** `css-inline` Specifies the behavior of start and end simultaneously.. */
-    const both: string
-  }
-
-  /** Create a `left` property (`css-position`). */
-  function left(value: any): Property
-  module left {
-    /** `css-position` Represents an unconstrained inset; the exact meaning depends on the positioning scheme.. */
-    const auto: string
-  }
-
-  /** Create a `letter-spacing` property (`css-text-4, css-text`). */
-  function letterSpacing(value: any): Property
-  module letterSpacing {
-    /** `css-text-4` No additional spacing is applied. Computes to zero.. */
-    const normal: string
-    /** `css-text` No additional spacing is applied. Computes to zero.. */
-    const normal: string
-  }
-
-  /** Create a `lighting-color` property (`filter-effects`). */
-  function lightingColor(value: any): Property
-  module lightingColor {
-    /** `filter-effects` `color` keyword. */
-    const color: string
-  }
-
-  /** Create a `line-break` property (`css-text-4, css-text`). */
-  function lineBreak(value: any): Property
-  module lineBreak {
-    /** `css-text-4` The UA determines the set of line-breaking restrictions to use, and it may vary the restrictions based on the length of the line; e.g., use a less restrictive set of line-break rules for short lines.. */
-    const auto: string
-    /** `css-text-4` Breaks text using the least restrictive set of line-breaking rules. Typically used for short lines, such as in newspapers.. */
-    const loose: string
-    /** `css-text-4` Breaks text using the most common set of line-breaking rules.. */
-    const normal: string
-    /** `css-text-4` Breaks text using the most stringent set of line-breaking rules.. */
-    const strict: string
-    /** `css-text-4` There is a soft wrap opportunity around every typographic character unit, including around any punctuation character or preserved white spaces, or in the middle of words, disregarding any prohibition against line breaks, even those introduced by characters with the GL, WJ, or ZWJ line breaking classes or mandated by the word-break property. [UAX14] The different wrapping opportunities must not be prioritized. Hyphenation is not applied.. */
-    const anywhere: string
-    /** `css-text` The UA determines the set of line-breaking restrictions to use, and it may vary the restrictions based on the length of the line; e.g., use a less restrictive set of line-break rules for short lines.. */
-    const auto: string
-    /** `css-text` Breaks text using the least restrictive set of line-breaking rules. Typically used for short lines, such as in newspapers.. */
-    const loose: string
-    /** `css-text` Breaks text using the most common set of line-breaking rules.. */
-    const normal: string
-    /** `css-text` Breaks text using the most stringent set of line-breaking rules.. */
-    const strict: string
-    /** `css-text` There is a soft wrap opportunity around every typographic character unit, including around any punctuation character or preserved white spaces, or in the middle of words, disregarding any prohibition against line breaks, even those introduced by characters with the GL, WJ, or ZWJ line breaking classes or mandated by the word-break property. [UAX14] The different wrapping opportunities must not be prioritized. Hyphenation is not applied.. */
-    const anywhere: string
-  }
-
-  /** Create a `line-clamp` property (`css-overflow-4`). */
-  function lineClamp(value: any): Property
-  module lineClamp {
-    /** `css-overflow-4` Sets max-lines to none, continue to auto, and block-ellipsis to none.. */
-    const none: string
-  }
-
-  /** Create a `line-gap-override` property (`unknown`). */
-  function lineGapOverride(value: any): Property
-
-  /** Create a `line-grid` property (`css-line-grid`). */
-  function lineGrid(value: any): Property
-  module lineGrid {
-    /** `css-line-grid` Box assumes the line grid of its parent if its writing mode is the same as its parent. If the box has a writing mode that is different than its parent, then the box creates a new line grid as create below.. */
-    const matchParent: string
-    /** `css-line-grid` Box creates a new line grid using its own font and line layout settings, including any adjustment to the line height caused by the line-height-step property. The line grid consists of a series of horizontal lines corresponding to all the baselines (alphabetic, text-top, text-bottom, mathematic, central, hanging, etc.) and to the line-over and line-under edges, positioned where they would fall if the contents of this element consisted entirely of line boxes filled with text (no sub-elements) using the first available font. If the box is paginated, the line grid is restarted on each page; since line boxes cannot be fragmented, no page begins with the bottom part of a line’s grid.. */
-    const create: string
-  }
-
-  /** Create a `line-height` property (`css-inline`). */
-  function lineHeight(value: any): Property
-  module lineHeight {
-    /** `css-inline` Determine the preferred line height automatically based on font metrics.. */
-    const normal: string
-  }
-
-  /** Create a `line-height-step` property (`css-rhythm`). */
-  function lineHeightStep(value: any): Property
-
-  /** Create a `line-increment` property (`unknown`). */
-  function lineIncrement(value: any): Property
-
-  /** Create a `line-padding` property (`css-text-4`). */
-  function linePadding(value: any): Property
-
-  /** Create a `line-snap` property (`css-line-grid`). */
-  function lineSnap(value: any): Property
-  module lineSnap {
-    /** `css-line-grid` Line boxes do not snap to the grid; they stack normally.. */
-    const none: string
-    /** `css-line-grid` The dominant baseline snaps with the matching baseline on the line grid applying to the element.. */
-    const baseline: string
-    /** `css-line-grid` Two baselines are used to align the line box: the line box is snapped so that its central baseline is centered between one of the line grid’s text-over-edge baselines and a subsequent (but not necessarily consecutive) text-under-edge baseline.. */
-    const contain: string
-  }
-
-  /** Create a `link-parameters` property (`css-link-params`). */
-  function linkParameters(value: any): Property
-  module linkParameters {
-    /** `css-link-params` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `list-style` property (`css-lists`). */
-  function listStyle(value: any): Property
-
-  /** Create a `list-style-image` property (`css-lists`). */
-  function listStyleImage(value: any): Property
-  module listStyleImage {
-    /** `css-lists` The element has no marker image.. */
-    const none: string
-  }
-
-  /** Create a `list-style-position` property (`css-lists`). */
-  function listStylePosition(value: any): Property
-  module listStylePosition {
-    /** `css-lists` No special effect. (The ::marker is an inline element at the start of the list item’s contents.). */
-    const inside: string
-    /** `css-lists` If the list item is a block container: the marker box is a block container and is placed outside the principal block box; however, the position of the list-item marker adjacent to floats is undefined. CSS does not specify the precise location of the marker box or its position in the painting order, but does require that it be placed on the inline-start side of the box, using the writing mode of the box indicated by marker-side. The marker box is fixed with respect to the principal block box’s border and does not scroll with the principal box’s content. A UA may hide the marker if the element’s overflow is other than visible. (This allowance may change in the future.) The size or contents of the marker box may affect the height of the principal block box and/or the height of its first line box, and in some cases may cause the creation of a new line box; this interaction is also not defined. This is handwavey nonsense from CSS2, and needs a real definition. If the list item is an inline box: this value is equivalent to inside. Alternatively, outside could lay out the marker as a previous sibling of the principal inline box.. */
-    const outside: string
-  }
-
-  /** Create a `list-style-type` property (`css-lists`). */
-  function listStyleType(value: any): Property
-  module listStyleType {
-    /** `css-lists` The element has no marker string.. */
-    const none: string
-  }
-
-  /** Create a `margin` property (`css-box`). */
-  function margin(value: any): Property
-
-  /** Create a `margin-block` property (`css-logical`). */
-  function marginBlock(value: any): Property
-
-  /** Create a `margin-block-end` property (`css-logical`). */
-  function marginBlockEnd(value: any): Property
-
-  /** Create a `margin-block-start` property (`css-logical`). */
-  function marginBlockStart(value: any): Property
-
-  /** Create a `margin-bottom` property (`css-box`). */
-  function marginBottom(value: any): Property
-  module marginBottom {
-    /** `css-box` `auto` keyword. */
-    const auto: string
-  }
-
-  /** Create a `margin-break` property (`css-break`). */
-  function marginBreak(value: any): Property
-  module marginBreak {
-    /** `css-break` When an unforced break occurs before or after the box, any margins adjoining the break truncate to the remaining fragmentainer extent before the break, and are truncated to zero after the break. When a forced break occurs there, adjoining margins before the break are truncated, but margins after the break are preserved. Cloned margins are always truncated to zero.. */
-    const auto: string
-    /** `css-break` Margins adjoining a fragmentation break are not truncated.. */
-    const keep: string
-    /** `css-break` Margins adjoining a fragmentation break are always truncated, including at the start and end of a fragmentation context.. */
-    const discard: string
-  }
-
-  /** Create a `margin-inline` property (`css-logical`). */
-  function marginInline(value: any): Property
-
-  /** Create a `margin-inline-end` property (`css-logical`). */
-  function marginInlineEnd(value: any): Property
-
-  /** Create a `margin-inline-start` property (`css-logical`). */
-  function marginInlineStart(value: any): Property
-
-  /** Create a `margin-left` property (`css-box`). */
-  function marginLeft(value: any): Property
-  module marginLeft {
-    /** `css-box` `auto` keyword. */
-    const auto: string
-  }
-
-  /** Create a `margin-right` property (`css-box`). */
-  function marginRight(value: any): Property
-  module marginRight {
-    /** `css-box` `auto` keyword. */
-    const auto: string
-  }
-
-  /** Create a `margin-top` property (`css-box`). */
-  function marginTop(value: any): Property
-  module marginTop {
-    /** `css-box` `auto` keyword. */
-    const auto: string
-  }
-
-  /** Create a `margin-trim` property (`css-box`). */
-  function marginTrim(value: any): Property
-  module marginTrim {
-    /** `css-box` Margins are not trimmed by the container.. */
-    const none: string
-    /** `css-box` Computes to block-start block-end.. */
-    const block: string
-    /** `css-box` Computes to inline-start inline-end.. */
-    const inline: string
-  }
-
-  /** Create a `marker` property (`svg`). */
-  function marker(value: any): Property
-  module marker {
-    /** `svg` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `marker-end` property (`svg`). */
-  function markerEnd(value: any): Property
-  module markerEnd {
-    /** `svg` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `marker-knockout-left` property (`unknown`). */
-  function markerKnockoutLeft(value: any): Property
-
-  /** Create a `marker-knockout-right` property (`unknown`). */
-  function markerKnockoutRight(value: any): Property
-
-  /** Create a `marker-mid` property (`svg`). */
-  function markerMid(value: any): Property
-  module markerMid {
-    /** `svg` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `marker-offset` property (`unknown`). */
-  function markerOffset(value: any): Property
-
-  /** Create a `marker-pattern` property (`unknown`). */
-  function markerPattern(value: any): Property
-
-  /** Create a `marker-segment` property (`unknown`). */
-  function markerSegment(value: any): Property
-
-  /** Create a `marker-side` property (`css-lists`). */
-  function markerSide(value: any): Property
-  module markerSide {
-    /** `css-lists` The marker box is positioned using the directionality of the ::marker’s originating element.. */
-    const matchSelf: string
-    /** `css-lists` The marker box is positioned using the directionality of the ::marker’s originating element’s parent element.. */
-    const matchParent: string
-  }
-
-  /** Create a `marker-start` property (`svg`). */
-  function markerStart(value: any): Property
-  module markerStart {
-    /** `svg` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `marks` property (`unknown`). */
-  function marks(value: any): Property
-
-  /** Create a `mask` property (`css-masking`). */
-  function mask(value: any): Property
-
-  /** Create a `mask-border` property (`css-masking`). */
-  function maskBorder(value: any): Property
-
-  /** Create a `mask-border-mode` property (`css-masking`). */
-  function maskBorderMode(value: any): Property
-  module maskBorderMode {
-    /** `css-masking` A value of luminance indicates that the luminance values of the mask border image should be used as the mask values. See Calculating mask values.. */
-    const luminance: string
-    /** `css-masking` A value of alpha indicates that the alpha values of the mask border image should be used as the mask values. See Calculating mask values.. */
-    const alpha: string
-  }
-
-  /** Create a `mask-border-outset` property (`css-masking`). */
-  function maskBorderOutset(value: any): Property
-
-  /** Create a `mask-border-repeat` property (`css-masking`). */
-  function maskBorderRepeat(value: any): Property
-
-  /** Create a `mask-border-slice` property (`css-masking`). */
-  function maskBorderSlice(value: any): Property
-
-  /** Create a `mask-border-source` property (`css-masking`). */
-  function maskBorderSource(value: any): Property
-  module maskBorderSource {
-    /** `css-masking` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `mask-border-width` property (`css-masking`). */
-  function maskBorderWidth(value: any): Property
-
-  /** Create a `mask-clip` property (`css-masking`). */
-  function maskClip(value: any): Property
-
-  /** Create a `mask-composite` property (`css-masking`). */
-  function maskComposite(value: any): Property
-
-  /** Create a `mask-image` property (`css-masking`). */
-  function maskImage(value: any): Property
-
-  /** Create a `mask-mode` property (`css-masking`). */
-  function maskMode(value: any): Property
-
-  /** Create a `mask-origin` property (`css-masking`). */
-  function maskOrigin(value: any): Property
-
-  /** Create a `mask-position` property (`css-masking`). */
-  function maskPosition(value: any): Property
-
-  /** Create a `mask-position-x` property (`unknown`). */
-  function maskPositionX(value: any): Property
-
-  /** Create a `mask-position-y` property (`unknown`). */
-  function maskPositionY(value: any): Property
-
-  /** Create a `mask-repeat` property (`css-masking`). */
-  function maskRepeat(value: any): Property
-
-  /** Create a `mask-size` property (`css-masking`). */
-  function maskSize(value: any): Property
-
-  /** Create a `mask-source-type` property (`unknown`). */
-  function maskSourceType(value: any): Property
-
-  /** Create a `mask-type` property (`css-masking`). */
-  function maskType(value: any): Property
-  module maskType {
-    /** `css-masking` Indicates that the luminance values of the mask should be used.. */
-    const luminance: string
-    /** `css-masking` Indicates that the alpha values of the mask should be used.. */
-    const alpha: string
-  }
-
-  /** Create a `masonry-auto-flow` property (`css-grid-3`). */
-  function masonryAutoFlow(value: any): Property
-
-  /** Create a `math-depth` property (`mathml-core`). */
-  function mathDepth(value: any): Property
-  module mathDepth {
-    /** `mathml-core` `auto-add` keyword. */
-    const autoAdd: string
-  }
-
-  /** Create a `math-shift` property (`mathml-core`). */
-  function mathShift(value: any): Property
-  module mathShift {
-    /** `mathml-core` `normal` keyword. */
-    const normal: string
-    /** `mathml-core` `compact` keyword. */
-    const compact: string
-  }
-
-  /** Create a `math-style` property (`mathml-core`). */
-  function mathStyle(value: any): Property
-  module mathStyle {
-    /** `mathml-core` `normal` keyword. */
-    const normal: string
-    /** `mathml-core` `compact` keyword. */
-    const compact: string
-  }
-
-  /** Create a `max-block-size` property (`css-logical, css-sizing-4`). */
-  function maxBlockSize(value: any): Property
-
-  /** Create a `max-height` property (`css-sizing-4, css-sizing`). */
-  function maxHeight(value: any): Property
-  module maxHeight {
-    /** `css-sizing` No limit on the size of the box.. */
-    const none: string
-    /** `css-sizing` Use the min-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. */
-    const minContent: string
-    /** `css-sizing` Use the max-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. */
-    const maxContent: string
-  }
-
-  /** Create a `max-inline-size` property (`css-logical, css-sizing-4`). */
-  function maxInlineSize(value: any): Property
-
-  /** Create a `max-lines` property (`css-overflow-4`). */
-  function maxLines(value: any): Property
-  module maxLines {
-    /** `css-overflow-4` Otherwise, if the value of max-lines is not none, a region break is forced after its Nth descendant in-flow line box, where N is the specified value of max-lines. Only lines boxes in the same Block Formatting Context are counted: the contents of descendants that establish independent formatting contexts are skipped over while counting line boxes.. */
-    const none: string
-  }
-
-  /** Create a `max-width` property (`css-sizing-4, css-sizing`). */
-  function maxWidth(value: any): Property
-  module maxWidth {
-    /** `css-sizing` No limit on the size of the box.. */
-    const none: string
-    /** `css-sizing` Use the min-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. */
-    const minContent: string
-    /** `css-sizing` Use the max-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. */
-    const maxContent: string
-  }
-
-  /** Create a `max-zoom` property (`unknown`). */
-  function maxZoom(value: any): Property
-
-  /** Create a `min-block-size` property (`css-logical, css-sizing-4`). */
-  function minBlockSize(value: any): Property
-
-  /** Create a `min-height` property (`css-sizing-4, css-sizing`). */
-  function minHeight(value: any): Property
-  module minHeight {
-    /** `css-sizing` For width/height, specifies an automatic size (automatic block size/automatic inline size). See the relevant layout module for how to calculate this. For min-width/min-height, specifies an automatic minimum size. Unless otherwise defined by the relevant layout module, however, it resolves to a used value of 0. For backwards-compatibility, the resolved value of this keyword is zero for boxes of all [CSS2] display types: block and inline boxes, inline blocks, and all the table layout boxes. It also resolves to zero when no box is generated.. */
-    const auto: string
-    /** `css-sizing` Use the min-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. */
-    const minContent: string
-    /** `css-sizing` Use the max-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. */
-    const maxContent: string
-  }
-
-  /** Create a `min-inline-size` property (`css-logical, css-sizing-4`). */
-  function minInlineSize(value: any): Property
-
-  /** Create a `min-intrinsic-sizing` property (`css-sizing-4`). */
-  function minIntrinsicSizing(value: any): Property
-  module minIntrinsicSizing {
-    /** `css-sizing-4` The box’s min-content contribution is handled as normal.. */
-    const legacy: string
-  }
-
-  /** Create a `min-width` property (`css-sizing-4, css-sizing`). */
-  function minWidth(value: any): Property
-  module minWidth {
-    /** `css-sizing` For width/height, specifies an automatic size (automatic block size/automatic inline size). See the relevant layout module for how to calculate this. For min-width/min-height, specifies an automatic minimum size. Unless otherwise defined by the relevant layout module, however, it resolves to a used value of 0. For backwards-compatibility, the resolved value of this keyword is zero for boxes of all [CSS2] display types: block and inline boxes, inline blocks, and all the table layout boxes. It also resolves to zero when no box is generated.. */
-    const auto: string
-    /** `css-sizing` Use the min-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. */
-    const minContent: string
-    /** `css-sizing` Use the max-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. */
-    const maxContent: string
-  }
-
-  /** Create a `min-zoom` property (`unknown`). */
-  function minZoom(value: any): Property
-
-  /** Create a `mix-blend-mode` property (`compositing`). */
-  function mixBlendMode(value: any): Property
-  module mixBlendMode {
-    /** `compositing` `plus-darker` keyword. */
-    const plusDarker: string
-    /** `compositing` `plus-lighter` keyword. */
-    const plusLighter: string
-  }
-
-  /** Create a `motion` property (`unknown`). */
-  function motion(value: any): Property
-
-  /** Create a `motion-offset` property (`unknown`). */
-  function motionOffset(value: any): Property
-
-  /** Create a `motion-path` property (`unknown`). */
-  function motionPath(value: any): Property
-
-  /** Create a `motion-rotation` property (`unknown`). */
-  function motionRotation(value: any): Property
-
-  /** Create a `nav-down` property (`css-ui`). */
-  function navDown(value: any): Property
-  module navDown {
-    /** `css-ui` `auto` keyword. */
-    const auto: string
-  }
-
-  /** Create a `nav-index` property (`unknown`). */
-  function navIndex(value: any): Property
-
-  /** Create a `nav-left` property (`css-ui`). */
-  function navLeft(value: any): Property
-  module navLeft {
-    /** `css-ui` `auto` keyword. */
-    const auto: string
-  }
-
-  /** Create a `nav-right` property (`css-ui`). */
-  function navRight(value: any): Property
-  module navRight {
-    /** `css-ui` `auto` keyword. */
-    const auto: string
-  }
-
-  /** Create a `nav-up` property (`css-ui`). */
-  function navUp(value: any): Property
-  module navUp {
-    /** `css-ui` `auto` keyword. */
-    const auto: string
-  }
-
-  /** Create a `negative` property (`unknown`). */
-  function negative(value: any): Property
-
-  /** Create a `object-fit` property (`css-images, css-images-4`). */
-  function objectFit(value: any): Property
-  module objectFit {
-    /** `css-images` The replaced content is sized to fill the element’s content box: the object’s concrete object size is the element’s used width and height.. */
-    const fill: string
-    /** `css-images` The replaced content is sized to maintain its natural aspect ratio while fitting within the element’s content box: its concrete object size is resolved as a contain constraint against the element’s used width and height.. */
-    const contain: string
-    /** `css-images` The replaced content is sized to maintain its natural aspect ratio while filling the element’s entire content box: its concrete object size is resolved as a cover constraint against the element’s used width and height.. */
-    const cover: string
-    /** `css-images` The replaced content is not resized to fit inside the element’s content box: determine the object’s concrete object size using the default sizing algorithm with no specified size, and a default object size equal to the replaced element’s used width and height.. */
-    const none: string
-    /** `css-images` Size the content as if none or contain were specified, whichever would result in a smaller concrete object size.. */
-    const scaleDown: string
-    /** `css-images-4` The replaced content is sized to fill the element’s content box: the object’s concrete object size is the element’s used width and height.. */
-    const fill: string
-    /** `css-images-4` The replaced content is not resized to fit inside the element’s content box: determine the object’s concrete object size using the default sizing algorithm with no specified size, and a default object size equal to the replaced element’s used width and height.. */
-    const none: string
-  }
-
-  /** Create a `object-position` property (`css-images`). */
-  function objectPosition(value: any): Property
-
-  /** Create a `object-view-box` property (`css-images-5`). */
-  function objectViewBox(value: any): Property
-  module objectViewBox {
-    /** `css-images-5` The element does not have a view box.. */
-    const none: string
-  }
-
-  /** Create a `offset` property (`motion`). */
-  function offset(value: any): Property
-
-  /** Create a `offset-anchor` property (`motion`). */
-  function offsetAnchor(value: any): Property
-  module offsetAnchor {
-    /** `motion` `auto` keyword. */
-    const auto: string
-  }
-
-  /** Create a `offset-block-end` property (`unknown`). */
-  function offsetBlockEnd(value: any): Property
-
-  /** Create a `offset-block-start` property (`unknown`). */
-  function offsetBlockStart(value: any): Property
-
-  /** Create a `offset-distance` property (`motion`). */
-  function offsetDistance(value: any): Property
-
-  /** Create a `offset-inline-end` property (`unknown`). */
-  function offsetInlineEnd(value: any): Property
-
-  /** Create a `offset-inline-start` property (`unknown`). */
-  function offsetInlineStart(value: any): Property
-
-  /** Create a `offset-path` property (`motion`). */
-  function offsetPath(value: any): Property
-  module offsetPath {
-    /** `motion` No offset path gets created. When offset-path is none, offset-distance and offset-rotate have no effect.. */
-    const none: string
-  }
-
-  /** Create a `offset-position` property (`motion`). */
-  function offsetPosition(value: any): Property
-  module offsetPosition {
-    /** `motion` Indicates the initial position is the position of the box specified with position property.. */
-    const auto: string
-  }
-
-  /** Create a `offset-rotate` property (`motion`). */
-  function offsetRotate(value: any): Property
-
-  /** Create a `offset-rotation` property (`unknown`). */
-  function offsetRotation(value: any): Property
-
-  /** Create a `opacity` property (`css-color`). */
-  function opacity(value: any): Property
-
-  /** Create a `order` property (`css-display`). */
-  function order(value: any): Property
-
-  /** Create a `orientation` property (`unknown`). */
-  function orientation(value: any): Property
-
-  /** Create a `orphans` property (`css-break`). */
-  function orphans(value: any): Property
-
-  /** Create a `outline` property (`css-ui`). */
-  function outline(value: any): Property
-
-  /** Create a `outline-color` property (`css-ui`). */
-  function outlineColor(value: any): Property
-  module outlineColor {
-    /** `css-ui` The outline-color property accepts all values of <border-color>, as well as the keyword invert. invert is expected to perform a color inversion on the pixels on the screen. This is a common trick to ensure the focus border is visible, regardless of color background.. */
-    const invert: string
-  }
-
-  /** Create a `outline-offset` property (`css-ui`). */
-  function outlineOffset(value: any): Property
-
-  /** Create a `outline-style` property (`css-ui`). */
-  function outlineStyle(value: any): Property
-  module outlineStyle {
-    /** `css-ui` `auto` keyword. */
-    const auto: string
-  }
-
-  /** Create a `outline-width` property (`css-ui`). */
-  function outlineWidth(value: any): Property
-
-  /** Create a `overflow` property (`css-overflow`). */
-  function overflow(value: any): Property
-
-  /** Create a `overflow-anchor` property (`css-scroll-anchoring`). */
-  function overflowAnchor(value: any): Property
-  module overflowAnchor {
-    /** `css-scroll-anchoring` Declares that the element is potentially eligible to participate in the anchor node selection algorithm for any scrolling box created by the element or an ancestor.. */
-    const auto: string
-    /** `css-scroll-anchoring` Declares that the element and its descendants (that aren’t nested inside of another scrolling element) are not eligible to participate in the anchor node selection algorithm for any scrolling box created by the element or an ancestor.. */
-    const none: string
-  }
-
-  /** Create a `overflow-block` property (`css-overflow`). */
-  function overflowBlock(value: any): Property
-  module overflowBlock {
-    /** `css-overflow` `visible` keyword. */
-    const visible: string
-    /** `css-overflow` `hidden` keyword. */
-    const hidden: string
-    /** `css-overflow` `clip` keyword. */
-    const clip: string
-    /** `css-overflow` `scroll` keyword. */
-    const scroll: string
-    /** `css-overflow` `auto` keyword. */
-    const auto: string
-  }
-
-  /** Create a `overflow-clip-margin` property (`css-overflow-4, css-overflow`). */
-  function overflowClipMargin(value: any): Property
-
-  /** Create a `overflow-clip-margin-block` property (`css-overflow-4`). */
-  function overflowClipMarginBlock(value: any): Property
-
-  /** Create a `overflow-clip-margin-block-end` property (`css-overflow-4`). */
-  function overflowClipMarginBlockEnd(value: any): Property
-
-  /** Create a `overflow-clip-margin-block-start` property (`css-overflow-4`). */
-  function overflowClipMarginBlockStart(value: any): Property
-
-  /** Create a `overflow-clip-margin-bottom` property (`css-overflow-4`). */
-  function overflowClipMarginBottom(value: any): Property
-
-  /** Create a `overflow-clip-margin-inline` property (`css-overflow-4`). */
-  function overflowClipMarginInline(value: any): Property
-
-  /** Create a `overflow-clip-margin-inline-end` property (`css-overflow-4`). */
-  function overflowClipMarginInlineEnd(value: any): Property
-
-  /** Create a `overflow-clip-margin-inline-start` property (`css-overflow-4`). */
-  function overflowClipMarginInlineStart(value: any): Property
-
-  /** Create a `overflow-clip-margin-left` property (`css-overflow-4`). */
-  function overflowClipMarginLeft(value: any): Property
-
-  /** Create a `overflow-clip-margin-right` property (`css-overflow-4`). */
-  function overflowClipMarginRight(value: any): Property
-
-  /** Create a `overflow-clip-margin-top` property (`css-overflow-4`). */
-  function overflowClipMarginTop(value: any): Property
-
-  /** Create a `overflow-inline` property (`css-overflow`). */
-  function overflowInline(value: any): Property
-  module overflowInline {
-    /** `css-overflow` `visible` keyword. */
-    const visible: string
-    /** `css-overflow` `hidden` keyword. */
-    const hidden: string
-    /** `css-overflow` `clip` keyword. */
-    const clip: string
-    /** `css-overflow` `scroll` keyword. */
-    const scroll: string
-    /** `css-overflow` `auto` keyword. */
-    const auto: string
-  }
-
-  /** Create a `overflow-wrap` property (`css-text-4, css-text`). */
-  function overflowWrap(value: any): Property
-  module overflowWrap {
-    /** `css-text-4` Lines may break only at allowed break points. However, the restrictions introduced by word-break: keep-all may be relaxed to match word-break: normal if there are no otherwise-acceptable break points in the line.. */
-    const normal: string
-    /** `css-text-4` As for anywhere except that soft wrap opportunities introduced by break-word are not considered when calculating min-content intrinsic sizes.. */
-    const breakWord: string
-    /** `css-text-4` An otherwise unbreakable sequence of characters may be broken at an arbitrary point if there are no otherwise-acceptable break points in the line. Shaping characters are still shaped as if the word were not broken, and grapheme clusters must stay together as one unit. No hyphenation character is inserted at the break point. Soft wrap opportunities introduced by anywhere are considered when calculating min-content intrinsic sizes.. */
-    const anywhere: string
-    /** `css-text` Lines may break only at allowed break points. However, the restrictions introduced by word-break: keep-all may be relaxed to match word-break: normal if there are no otherwise-acceptable break points in the line.. */
-    const normal: string
-    /** `css-text` As for anywhere except that soft wrap opportunities introduced by break-word are not considered when calculating min-content intrinsic sizes.. */
-    const breakWord: string
-    /** `css-text` An otherwise unbreakable sequence of characters may be broken at an arbitrary point if there are no otherwise-acceptable break points in the line. Shaping characters are still shaped as if the word were not broken, and grapheme clusters must stay together as one unit. No hyphenation character is inserted at the break point. Soft wrap opportunities introduced by anywhere are considered when calculating min-content intrinsic sizes.. */
-    const anywhere: string
-  }
-
-  /** Create a `overflow-x` property (`css-overflow`). */
-  function overflowX(value: any): Property
-  module overflowX {
-    /** `css-overflow` There is no special handling of overflow, that is, the box’s content is rendered outside the box if positioned there. The box is not a scroll container.. */
-    const visible: string
-    /** `css-overflow` This value indicates that the box’s content is clipped to its padding box and that the UA must not provide any scrolling user interface to view the content outside the clipping region, nor allow scrolling by direct intervention of the user, such as dragging on a touch screen or using the scrolling wheel on a mouse. However, the content must still be scrollable programmatically, for example using the mechanisms defined in [CSSOM-VIEW], and the box is therefore still a scroll container.. */
-    const hidden: string
-    /** `css-overflow` This value indicates that the box’s content is clipped to its overflow clip edge and that no scrolling user interface should be provided by the UA to view the content outside the clipping region. In addition, unlike overflow: hidden which still allows programmatic scrolling, overflow: clip forbids scrolling entirely, through any mechanism, and therefore the box is not a scroll container. Unlike hidden, this value does not cause the element to establish a new formatting context.. */
-    const clip: string
-    /** `css-overflow` This value indicates that the content is clipped to the padding box, but can be scrolled into view (and therefore the box is a scroll container). Furthermore, if the user agent uses a scrolling mechanism that is visible on the screen (such as a scroll bar or a panner), that mechanism should be displayed whether or not any of its content is clipped. This avoids any problem with scrollbars appearing and disappearing in a dynamic environment. When the target medium is print, overflowing content may be printed; it is not defined where it may be printed.. */
-    const scroll: string
-    /** `css-overflow` Like scroll when the box has scrollable overflow; like hidden otherwise. Thus, if the user agent uses a scrolling mechanism that is visible on the screen (such as a scroll bar or a panner), that mechanism will only be displayed if there is overflow.. */
-    const auto: string
-  }
-
-  /** Create a `overflow-y` property (`css-overflow`). */
-  function overflowY(value: any): Property
-  module overflowY {
-    /** `css-overflow` There is no special handling of overflow, that is, the box’s content is rendered outside the box if positioned there. The box is not a scroll container.. */
-    const visible: string
-    /** `css-overflow` This value indicates that the box’s content is clipped to its padding box and that the UA must not provide any scrolling user interface to view the content outside the clipping region, nor allow scrolling by direct intervention of the user, such as dragging on a touch screen or using the scrolling wheel on a mouse. However, the content must still be scrollable programmatically, for example using the mechanisms defined in [CSSOM-VIEW], and the box is therefore still a scroll container.. */
-    const hidden: string
-    /** `css-overflow` This value indicates that the box’s content is clipped to its overflow clip edge and that no scrolling user interface should be provided by the UA to view the content outside the clipping region. In addition, unlike overflow: hidden which still allows programmatic scrolling, overflow: clip forbids scrolling entirely, through any mechanism, and therefore the box is not a scroll container. Unlike hidden, this value does not cause the element to establish a new formatting context.. */
-    const clip: string
-    /** `css-overflow` This value indicates that the content is clipped to the padding box, but can be scrolled into view (and therefore the box is a scroll container). Furthermore, if the user agent uses a scrolling mechanism that is visible on the screen (such as a scroll bar or a panner), that mechanism should be displayed whether or not any of its content is clipped. This avoids any problem with scrollbars appearing and disappearing in a dynamic environment. When the target medium is print, overflowing content may be printed; it is not defined where it may be printed.. */
-    const scroll: string
-    /** `css-overflow` Like scroll when the box has scrollable overflow; like hidden otherwise. Thus, if the user agent uses a scrolling mechanism that is visible on the screen (such as a scroll bar or a panner), that mechanism will only be displayed if there is overflow.. */
-    const auto: string
-  }
-
-  /** Create a `override-colors` property (`unknown`). */
-  function overrideColors(value: any): Property
-
-  /** Create a `overscroll-behavior` property (`css-overscroll`). */
-  function overscrollBehavior(value: any): Property
-
-  /** Create a `overscroll-behavior-block` property (`css-overscroll`). */
-  function overscrollBehaviorBlock(value: any): Property
-  module overscrollBehaviorBlock {
-    /** `css-overscroll` This value indicates that the element must not perform non-local boundary default actions such as scroll chaining or navigation. The user agent must not perform scroll chaining to any ancestors along the scroll chain regardless of whether the scroll originated at this element or one of its descendants. This value must not modify the behavior of how local boundary default actions should behave, such as showing any overscroll affordances.. */
-    const contain: string
-    /** `css-overscroll` This value implies the same behavior as contain and in addition this element must also not perform local boundary default actions such as showing any overscroll affordances.. */
-    const none: string
-    /** `css-overscroll` This value indicates that the user agent should perform the usual boundary default action with respect to scroll chaining, overscroll and navigation gestures.. */
-    const auto: string
-  }
-
-  /** Create a `overscroll-behavior-inline` property (`css-overscroll`). */
-  function overscrollBehaviorInline(value: any): Property
-  module overscrollBehaviorInline {
-    /** `css-overscroll` This value indicates that the element must not perform non-local boundary default actions such as scroll chaining or navigation. The user agent must not perform scroll chaining to any ancestors along the scroll chain regardless of whether the scroll originated at this element or one of its descendants. This value must not modify the behavior of how local boundary default actions should behave, such as showing any overscroll affordances.. */
-    const contain: string
-    /** `css-overscroll` This value implies the same behavior as contain and in addition this element must also not perform local boundary default actions such as showing any overscroll affordances.. */
-    const none: string
-    /** `css-overscroll` This value indicates that the user agent should perform the usual boundary default action with respect to scroll chaining, overscroll and navigation gestures.. */
-    const auto: string
-  }
-
-  /** Create a `overscroll-behavior-x` property (`css-overscroll`). */
-  function overscrollBehaviorX(value: any): Property
-  module overscrollBehaviorX {
-    /** `css-overscroll` This value indicates that the element must not perform non-local boundary default actions such as scroll chaining or navigation. The user agent must not perform scroll chaining to any ancestors along the scroll chain regardless of whether the scroll originated at this element or one of its descendants. This value must not modify the behavior of how local boundary default actions should behave, such as showing any overscroll affordances.. */
-    const contain: string
-    /** `css-overscroll` This value implies the same behavior as contain and in addition this element must also not perform local boundary default actions such as showing any overscroll affordances.. */
-    const none: string
-    /** `css-overscroll` This value indicates that the user agent should perform the usual boundary default action with respect to scroll chaining, overscroll and navigation gestures.. */
-    const auto: string
-  }
-
-  /** Create a `overscroll-behavior-y` property (`css-overscroll`). */
-  function overscrollBehaviorY(value: any): Property
-  module overscrollBehaviorY {
-    /** `css-overscroll` This value indicates that the element must not perform non-local boundary default actions such as scroll chaining or navigation. The user agent must not perform scroll chaining to any ancestors along the scroll chain regardless of whether the scroll originated at this element or one of its descendants. This value must not modify the behavior of how local boundary default actions should behave, such as showing any overscroll affordances.. */
-    const contain: string
-    /** `css-overscroll` This value implies the same behavior as contain and in addition this element must also not perform local boundary default actions such as showing any overscroll affordances.. */
-    const none: string
-    /** `css-overscroll` This value indicates that the user agent should perform the usual boundary default action with respect to scroll chaining, overscroll and navigation gestures.. */
-    const auto: string
-  }
-
-  /** Create a `pad` property (`unknown`). */
-  function pad(value: any): Property
-
-  /** Create a `padding` property (`css-box`). */
-  function padding(value: any): Property
-
-  /** Create a `padding-block` property (`css-logical`). */
-  function paddingBlock(value: any): Property
-
-  /** Create a `padding-block-end` property (`css-logical`). */
-  function paddingBlockEnd(value: any): Property
-
-  /** Create a `padding-block-start` property (`css-logical`). */
-  function paddingBlockStart(value: any): Property
-
-  /** Create a `padding-bottom` property (`css-box`). */
-  function paddingBottom(value: any): Property
-
-  /** Create a `padding-inline` property (`css-logical`). */
-  function paddingInline(value: any): Property
-
-  /** Create a `padding-inline-end` property (`css-logical`). */
-  function paddingInlineEnd(value: any): Property
-
-  /** Create a `padding-inline-start` property (`css-logical`). */
-  function paddingInlineStart(value: any): Property
-
-  /** Create a `padding-left` property (`css-box`). */
-  function paddingLeft(value: any): Property
-
-  /** Create a `padding-right` property (`css-box`). */
-  function paddingRight(value: any): Property
-
-  /** Create a `padding-top` property (`css-box`). */
-  function paddingTop(value: any): Property
-
-  /** Create a `page` property (`css-page`). */
-  function page(value: any): Property
-  module page {
-    /** `css-page` `auto` keyword. */
-    const auto: string
-  }
-
-  /** Create a `page-break-after` property (`css`). */
-  function pageBreakAfter(value: any): Property
-  module pageBreakAfter {
-    /** `css` Neither force nor forbid a page break before (after, inside) the generated box.. */
-    const auto: string
-    /** `css` Always force a page break before (after) the generated box.. */
-    const always: string
-    /** `css` Avoid a page break before (after, inside) the generated box.. */
-    const avoid: string
-    /** `css` Force one or two page breaks before (after) the generated box so that the next page is formatted as a left page.. */
-    const left: string
-    /** `css` Force one or two page breaks before (after) the generated box so that the next page is formatted as a right page.. */
-    const right: string
-    /** `css` `inherit` keyword. */
-    const inherit: string
-  }
-
-  /** Create a `page-break-before` property (`css`). */
-  function pageBreakBefore(value: any): Property
-  module pageBreakBefore {
-    /** `css` Neither force nor forbid a page break before (after, inside) the generated box.. */
-    const auto: string
-    /** `css` Always force a page break before (after) the generated box.. */
-    const always: string
-    /** `css` Avoid a page break before (after, inside) the generated box.. */
-    const avoid: string
-    /** `css` Force one or two page breaks before (after) the generated box so that the next page is formatted as a left page.. */
-    const left: string
-    /** `css` Force one or two page breaks before (after) the generated box so that the next page is formatted as a right page.. */
-    const right: string
-    /** `css` `inherit` keyword. */
-    const inherit: string
-  }
-
-  /** Create a `page-break-inside` property (`css`). */
-  function pageBreakInside(value: any): Property
-  module pageBreakInside {
-    /** `css` Avoid a page break before (after, inside) the generated box.. */
-    const avoid: string
-    /** `css` Neither force nor forbid a page break before (after, inside) the generated box.. */
-    const auto: string
-    /** `css` `inherit` keyword. */
-    const inherit: string
-  }
-
-  /** Create a `page-orientation` property (`unknown`). */
-  function pageOrientation(value: any): Property
-
-  /** Create a `page-transition-tag` property (`unknown`). */
-  function pageTransitionTag(value: any): Property
-
-  /** Create a `paint-order` property (`svg`). */
-  function paintOrder(value: any): Property
-  module paintOrder {
-    /** `svg` `normal` keyword. */
-    const normal: string
-  }
-
-  /** Create a `pause` property (`css-speech`). */
-  function pause(value: any): Property
-
-  /** Create a `pause-after` property (`css-speech`). */
-  function pauseAfter(value: any): Property
-  module pauseAfter {
-    /** `css-speech` Equivalent to 0ms (no prosodic break is produced by the speech processor).. */
-    const none: string
-    /** `css-speech` Expresses the pause by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. */
-    const xWeak: string
-    /** `css-speech` Expresses the pause by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. */
-    const weak: string
-    /** `css-speech` Expresses the pause by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. */
-    const medium: string
-    /** `css-speech` Expresses the pause by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. */
-    const strong: string
-    /** `css-speech` Expresses the pause by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. */
-    const xStrong: string
-  }
-
-  /** Create a `pause-before` property (`css-speech`). */
-  function pauseBefore(value: any): Property
-  module pauseBefore {
-    /** `css-speech` Equivalent to 0ms (no prosodic break is produced by the speech processor).. */
-    const none: string
-    /** `css-speech` Expresses the pause by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. */
-    const xWeak: string
-    /** `css-speech` Expresses the pause by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. */
-    const weak: string
-    /** `css-speech` Expresses the pause by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. */
-    const medium: string
-    /** `css-speech` Expresses the pause by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. */
-    const strong: string
-    /** `css-speech` Expresses the pause by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. */
-    const xStrong: string
-  }
-
-  /** Create a `pen-action` property (`unknown`). */
-  function penAction(value: any): Property
-
-  /** Create a `perspective` property (`css-transforms-2`). */
-  function perspective(value: any): Property
-  module perspective {
-    /** `css-transforms-2` No perspective transform is applied. The effect is mathematically similar to an infinite <length> value. All objects appear to be flat on the canvas.. */
-    const none: string
-  }
-
-  /** Create a `perspective-origin` property (`css-transforms-2`). */
-  function perspectiveOrigin(value: any): Property
-
-  /** Create a `perspective-origin-x` property (`unknown`). */
-  function perspectiveOriginX(value: any): Property
-
-  /** Create a `perspective-origin-y` property (`unknown`). */
-  function perspectiveOriginY(value: any): Property
-
-  /** Create a `pitch` property (`unknown`). */
-  function pitch(value: any): Property
-
-  /** Create a `pitch-range` property (`unknown`). */
-  function pitchRange(value: any): Property
-
-  /** Create a `place-content` property (`css-align`). */
-  function placeContent(value: any): Property
-
-  /** Create a `place-items` property (`css-align`). */
-  function placeItems(value: any): Property
-
-  /** Create a `place-self` property (`css-align`). */
-  function placeSelf(value: any): Property
-
-  /** Create a `play-during` property (`unknown`). */
-  function playDuring(value: any): Property
-
-  /** Create a `pointer-events` property (`svg`). */
-  function pointerEvents(value: any): Property
-  module pointerEvents {
-    /** `svg` `auto` keyword. */
-    const auto: string
-    /** `svg` `bounding-box` keyword. */
-    const boundingBox: string
-    /** `svg` `visiblePainted` keyword. */
-    const visiblePainted: string
-    /** `svg` `visibleFill` keyword. */
-    const visibleFill: string
-    /** `svg` `visibleStroke` keyword. */
-    const visibleStroke: string
-    /** `svg` `visible` keyword. */
-    const visible: string
-    /** `svg` `painted` keyword. */
-    const painted: string
-    /** `svg` `fill` keyword. */
-    const fill: string
-    /** `svg` `stroke` keyword. */
-    const stroke: string
-    /** `svg` `all` keyword. */
-    const all: string
-    /** `svg` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `position` property (`css-gcpm, css-position`). */
-  function position(value: any): Property
-  module position {
-    /** `css-position` The box is not a positioned box, and is laid out according to the rules of its parent formatting context. The inset properties do not apply.. */
-    const static: string
-    /** `css-position` The box is laid out as for static, then offset from the resulting position. This offsetting is a purely visual effect, and does not affect the size or position of any other box, except insofar as it increases the scrollable overflow area of its ancestors. This positioning scheme is called relative positioning.. */
-    const relative: string
-    /** `css-position` The box is taken out of flow such that it has no impact on the size or position of its siblings and ancestors, and does not participate in its parent’s formatting context. Instead, the box is positioned and sized solely in reference to its absolute positioning containing block, as modified by the box’s inset properties, see § 4 Absolute Positioning Layout Model. It can overlap in-flow content or other absolutely positioned elements, and is included in the scrollable overflow area of the box that generates is containing block. This positioning scheme is called absolute positioning.. */
-    const absolute: string
-    /** `css-position` Identical to relative, except that its offsets are automatically adjusted in reference to the nearest ancestor scroll container’s scrollport (as modified by the inset properties) in whichever axes the inset properties are not both auto, to try to keep the box in view within its containing block as the user scrolls. This positioning scheme is called sticky positioning.. */
-    const sticky: string
-    /** `css-position` Same as absolute, except the box is positioned and sized relative to a fixed positioning containing block (usually the viewport in continuous media, or the page area in paged media). The box’s position is fixed with respect to this reference rectangle: when attached to the viewport it does not move when the document is scrolled, and when attached to the page area is replicated on every page when the document is paginated. This positioning scheme is called fixed positioning and is considered a subset of absolute positioning. Authors may wish to specify fixed in a media-dependent way. For instance, an author may want a box to remain at the top of the viewport on the screen, but not at the top of each printed page. The two specifications may be separated by using an '@media' rule, as in: @media screen { h1#first { position: fixed } } @media print { h1#first { position: static } }. */
-    const fixed: string
-  }
-
-  /** Create a `position-fallback` property (`css-anchor-position`). */
-  function positionFallback(value: any): Property
-  module positionFallback {
-    /** `css-anchor-position` The property has no effect; the element does not use a position fallback list.. */
-    const none: string
-  }
-
-  /** Create a `prefix` property (`unknown`). */
-  function prefix(value: any): Property
-
-  /** Create a `print-color-adjust` property (`css-color-adjust`). */
-  function printColorAdjust(value: any): Property
-  module printColorAdjust {
-    /** `css-color-adjust` The user agent should make adjustments to the page’s styling as it deems necessary and prudent for the output device. For example, if the document is being printed, a user agent might ignore any backgrounds and adjust text color to be sufficiently dark, to minimize ink usage.. */
-    const economy: string
-    /** `css-color-adjust` This value indicates that the page is using color and styling on the specified element in a way which is important and significant, and which should not be tweaked or changed except at the user’s request. For example, a mapping website offering printed directions might "zebra-stripe" the steps in the directions, alternating between white and light gray backgrounds. Losing this zebra-striping and having a pure-white background would make the directions harder to read with a quick glance when distracted in a car.. */
-    const exact: string
-  }
-
-  /** Create a `property-name` property (`unknown`). */
-  function propertyName(value: any): Property
-
-  /** Create a `quotes` property (`css-content`). */
-  function quotes(value: any): Property
-  module quotes {
-    /** `css-content` A typographically appropriate used value for quotes is automatically chosen by the UA based on the content language of the element and/or its parent.. */
-    const auto: string
-    /** `css-content` The open-quote and close-quote values of the content property produce no quotations marks, as if they were no-open-quote and no-close-quote respectively.. */
-    const none: string
-  }
-
-  /** Create a `r` property (`svg`). */
-  function r(value: any): Property
-
-  /** Create a `range` property (`unknown`). */
-  function range(value: any): Property
-
-  /** Create a `reading-order` property (`css-display`). */
-  function readingOrder(value: any): Property
-
-  /** Create a `region-fragment` property (`css-regions`). */
-  function regionFragment(value: any): Property
-  module regionFragment {
-    /** `css-regions` `auto` keyword. */
-    const auto: string
-    /** `css-regions` `break` keyword. */
-    const _break: string
-  }
-
-  /** Create a `resize` property (`css-ui`). */
-  function resize(value: any): Property
-  module resize {
-    /** `css-ui` `none` keyword. */
-    const none: string
-    /** `css-ui` `both` keyword. */
-    const both: string
-    /** `css-ui` `horizontal` keyword. */
-    const horizontal: string
-    /** `css-ui` `vertical` keyword. */
-    const vertical: string
-    /** `css-ui` `block` keyword. */
-    const block: string
-    /** `css-ui` `inline` keyword. */
-    const inline: string
-  }
-
-  /** Create a `rest` property (`css-speech`). */
-  function rest(value: any): Property
-
-  /** Create a `rest-after` property (`css-speech`). */
-  function restAfter(value: any): Property
-  module restAfter {
-    /** `css-speech` Equivalent to 0ms. (No prosodic break is produced by the speech processor.). */
-    const none: string
-    /** `css-speech` Expresses the rest by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. */
-    const xWeak: string
-    /** `css-speech` Expresses the rest by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. */
-    const weak: string
-    /** `css-speech` Expresses the rest by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. */
-    const medium: string
-    /** `css-speech` Expresses the rest by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. */
-    const strong: string
-    /** `css-speech` Expresses the rest by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. */
-    const xStrong: string
-  }
-
-  /** Create a `rest-before` property (`css-speech`). */
-  function restBefore(value: any): Property
-  module restBefore {
-    /** `css-speech` Equivalent to 0ms. (No prosodic break is produced by the speech processor.). */
-    const none: string
-    /** `css-speech` Expresses the rest by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. */
-    const xWeak: string
-    /** `css-speech` Expresses the rest by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. */
-    const weak: string
-    /** `css-speech` Expresses the rest by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. */
-    const medium: string
-    /** `css-speech` Expresses the rest by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. */
-    const strong: string
-    /** `css-speech` Expresses the rest by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. */
-    const xStrong: string
-  }
-
-  /** Create a `richness` property (`unknown`). */
-  function richness(value: any): Property
-
-  /** Create a `right` property (`css-position`). */
-  function right(value: any): Property
-  module right {
-    /** `css-position` Represents an unconstrained inset; the exact meaning depends on the positioning scheme.. */
-    const auto: string
-  }
-
-  /** Create a `rotate` property (`css-transforms-2`). */
-  function rotate(value: any): Property
-  module rotate {
-    /** `css-transforms-2` All three properties accept (and default to) the value none, which produces no transform at all. In particular, this value does not trigger the creation of a stacking context or containing block for all descendants, while all other values (including “identity” transforms like translate: 0px) create a stacking context and containing block for all descendants, per usual for transforms.. */
-    const none: string
-  }
-
-  /** Create a `row-gap` property (`css-align`). */
-  function rowGap(value: any): Property
-  module rowGap {
-    /** `css-align` The normal represents a used value of 1em on multi-column containers, and a used value of 0px in all other contexts.. */
-    const normal: string
-  }
-
-  /** Create a `ruby-align` property (`css-ruby`). */
-  function rubyAlign(value: any): Property
-  module rubyAlign {
-    /** `css-ruby` The ruby content is aligned with the start edge of its box. start ruby distribution "Katatsuki ruby" (肩付きルビ) is close to, but not quite the same as, this start value. In particular, its behavior when overhanging its base can differ from start alignment depending on surrounding context, see JLREQ. Also, it’s only ever used in vertical writing, and the JLTF considers it not particularly important, so it may not be worth the effort to make this value smart enough to deal with katatsuki ruby. If start is needed for some other purpose, we should keep it. Otherwise, maybe just drop it?. */
-    const start: string
-    /** `css-ruby` The ruby content is centered within its box. center ruby distribution. */
-    const center: string
-    /** `css-ruby` The ruby content expands as defined for normal text justification (as defined by text-justify), except that if there are no justification opportunities the content is centered. space-between ruby distribution. */
-    const spaceBetween: string
-    /** `css-ruby` As for space-between except that there exists an extra justification opportunities whose space is distributed half before and half after the ruby content. space-around ruby distribution. */
-    const spaceAround: string
-  }
-
-  /** Create a `ruby-merge` property (`css-ruby`). */
-  function rubyMerge(value: any): Property
-  module rubyMerge {
-    /** `css-ruby` Each ruby annotation box is rendered within the same column(s) as its corresponding base box(es), i.e. without overlapping adjacent bases on either side. This style is called “mono ruby” in [JLREQ]. ruby-merge: separate with center alignment For example, the following two lines render the same: <p><ruby>無<rt>む</ruby><ruby>常<rt>じょう</ruby> <p><ruby style="ruby-merge:separate"><rb>無<rb>常<rt>む<rt>じょう</ruby>. */
-    const separate: string
-    /** `css-ruby` All ruby annotation boxes within the same ruby segment on the same line are concatenated as inline boxes within their annotation container, and laid out in a single anonymous ruby annotation box spanning all their associated ruby base boxes. When laid out on a single line, this style renders similar to “group ruby” in [JLREQ]. However, when it breaks across lines, ruby annotations are kept together with their respective ruby bases. ruby-merge: merge with center alignment The following two lines render the same if both characters fit on one line: <p><ruby>無常<rt>むじょう</ruby> <p><ruby style="ruby-merge:merge"><rb>無<rb>常<rt>む<rt>じょう</ruby> However, the second one renders the same as ruby-position: separate when the two bases are split across lines.. */
-    const merge: string
-    /** `css-ruby` The user agent may use any algorithm to determine how each ruby annotation box is rendered to its corresponding base box, with the intention that if all annotations fit over their respective bases, the result is identical to separate, but if some annotations are wider than their bases the space is shared in some way to avoid imposing space between bases. ruby-merge: auto with center alignment. */
-    const auto: string
-  }
-
-  /** Create a `ruby-overhang` property (`css-ruby`). */
-  function rubyOverhang(value: any): Property
-  module rubyOverhang {
-    /** `css-ruby` When a ruby annotation container is longer than its corresponding ruby base container, the ruby annotation container may partially overlap adjacent boxes. Whether, how much, and under which conditions to overhang are determined by the UA.. */
-    const auto: string
-    /** `css-ruby` A ruby annotation container is never allowed to extend past the ruby annotation container.. */
-    const none: string
-  }
-
-  /** Create a `ruby-position` property (`css-ruby`). */
-  function rubyPosition(value: any): Property
-  module rubyPosition {
-    /** `css-ruby` If the writing mode of the enclosing ruby container is vertical, this value has the same effect as over. Otherwise, the ruby annotation becomes an inter-character annotation. The annotation appears on the right of the base in horizontal text. This forces the computed value of writing-mode of the ruby annotation children of this ruby annotation container to be vertical-rl. This value is provided for the special case of traditional Chinese as used especially in Taiwan: ruby (made of bopomofo glyphs) in that context appears vertically along the right side of the base glyph, even when the layout of the base characters is horizontal: “Bopomofo” ruby in traditional Chinese (ruby annotation shown in blue for clarity) in horizontal layout. */
-    const interCharacter: string
-  }
-
-  /** Create a `running` property (`unknown`). */
-  function running(value: any): Property
-
-  /** Create a `rx` property (`svg`). */
-  function rx(value: any): Property
-  module rx {
-    /** `svg` `auto` keyword. */
-    const auto: string
-  }
-
-  /** Create a `ry` property (`svg`). */
-  function ry(value: any): Property
-  module ry {
-    /** `svg` `auto` keyword. */
-    const auto: string
-  }
-
-  /** Create a `scale` property (`css-transforms-2`). */
-  function scale(value: any): Property
-  module scale {
-    /** `css-transforms-2` All three properties accept (and default to) the value none, which produces no transform at all. In particular, this value does not trigger the creation of a stacking context or containing block for all descendants, while all other values (including “identity” transforms like translate: 0px) create a stacking context and containing block for all descendants, per usual for transforms.. */
-    const none: string
-  }
-
-  /** Create a `scroll-behavior` property (`css-overflow`). */
-  function scrollBehavior(value: any): Property
-  module scrollBehavior {
-    /** `css-overflow` The scroll container is scrolled in an instant fashion.. */
-    const auto: string
-    /** `css-overflow` The scroll container is scrolled in a smooth fashion using a user-agent-defined timing function over a user-agent-defined period of time. User agents should follow platform conventions, if any.. */
-    const smooth: string
-  }
-
-  /** Create a `scroll-margin` property (`css-scroll-snap`). */
-  function scrollMargin(value: any): Property
-
-  /** Create a `scroll-margin-block` property (`css-scroll-snap`). */
-  function scrollMarginBlock(value: any): Property
-
-  /** Create a `scroll-margin-block-end` property (`css-scroll-snap`). */
-  function scrollMarginBlockEnd(value: any): Property
-
-  /** Create a `scroll-margin-block-start` property (`css-scroll-snap`). */
-  function scrollMarginBlockStart(value: any): Property
-
-  /** Create a `scroll-margin-bottom` property (`css-scroll-snap`). */
-  function scrollMarginBottom(value: any): Property
-
-  /** Create a `scroll-margin-inline` property (`css-scroll-snap`). */
-  function scrollMarginInline(value: any): Property
-
-  /** Create a `scroll-margin-inline-end` property (`css-scroll-snap`). */
-  function scrollMarginInlineEnd(value: any): Property
-
-  /** Create a `scroll-margin-inline-start` property (`css-scroll-snap`). */
-  function scrollMarginInlineStart(value: any): Property
-
-  /** Create a `scroll-margin-left` property (`css-scroll-snap`). */
-  function scrollMarginLeft(value: any): Property
-
-  /** Create a `scroll-margin-right` property (`css-scroll-snap`). */
-  function scrollMarginRight(value: any): Property
-
-  /** Create a `scroll-margin-top` property (`css-scroll-snap`). */
-  function scrollMarginTop(value: any): Property
-
-  /** Create a `scroll-padding` property (`css-scroll-snap`). */
-  function scrollPadding(value: any): Property
-
-  /** Create a `scroll-padding-block` property (`css-scroll-snap`). */
-  function scrollPaddingBlock(value: any): Property
-
-  /** Create a `scroll-padding-block-end` property (`css-scroll-snap`). */
-  function scrollPaddingBlockEnd(value: any): Property
-  module scrollPaddingBlockEnd {
-    /** `css-scroll-snap` Indicates that the offset for the corresponding edge of the scrollport is UA-determined. This should generally default to a used length of 0px, but UAs may use heuristics to detect when a non-zero value is more appropriate. For example, a UA could detect when a position:fixed element is being used as an opaque unscrollable “header” that obscures the content below it, and resolve the top offset to the height of that element so that a “page down” operation (such as pressing PgDn) automatically scrolls by one “visible page” of content.. */
-    const auto: string
-  }
-
-  /** Create a `scroll-padding-block-start` property (`css-scroll-snap`). */
-  function scrollPaddingBlockStart(value: any): Property
-  module scrollPaddingBlockStart {
-    /** `css-scroll-snap` Indicates that the offset for the corresponding edge of the scrollport is UA-determined. This should generally default to a used length of 0px, but UAs may use heuristics to detect when a non-zero value is more appropriate. For example, a UA could detect when a position:fixed element is being used as an opaque unscrollable “header” that obscures the content below it, and resolve the top offset to the height of that element so that a “page down” operation (such as pressing PgDn) automatically scrolls by one “visible page” of content.. */
-    const auto: string
-  }
-
-  /** Create a `scroll-padding-bottom` property (`css-scroll-snap`). */
-  function scrollPaddingBottom(value: any): Property
-  module scrollPaddingBottom {
-    /** `css-scroll-snap` `auto` keyword. */
-    const auto: string
-  }
-
-  /** Create a `scroll-padding-inline` property (`css-scroll-snap`). */
-  function scrollPaddingInline(value: any): Property
-
-  /** Create a `scroll-padding-inline-end` property (`css-scroll-snap`). */
-  function scrollPaddingInlineEnd(value: any): Property
-  module scrollPaddingInlineEnd {
-    /** `css-scroll-snap` Indicates that the offset for the corresponding edge of the scrollport is UA-determined. This should generally default to a used length of 0px, but UAs may use heuristics to detect when a non-zero value is more appropriate. For example, a UA could detect when a position:fixed element is being used as an opaque unscrollable “header” that obscures the content below it, and resolve the top offset to the height of that element so that a “page down” operation (such as pressing PgDn) automatically scrolls by one “visible page” of content.. */
-    const auto: string
-  }
-
-  /** Create a `scroll-padding-inline-start` property (`css-scroll-snap`). */
-  function scrollPaddingInlineStart(value: any): Property
-  module scrollPaddingInlineStart {
-    /** `css-scroll-snap` Indicates that the offset for the corresponding edge of the scrollport is UA-determined. This should generally default to a used length of 0px, but UAs may use heuristics to detect when a non-zero value is more appropriate. For example, a UA could detect when a position:fixed element is being used as an opaque unscrollable “header” that obscures the content below it, and resolve the top offset to the height of that element so that a “page down” operation (such as pressing PgDn) automatically scrolls by one “visible page” of content.. */
-    const auto: string
-  }
-
-  /** Create a `scroll-padding-left` property (`css-scroll-snap`). */
-  function scrollPaddingLeft(value: any): Property
-  module scrollPaddingLeft {
-    /** `css-scroll-snap` `auto` keyword. */
-    const auto: string
-  }
-
-  /** Create a `scroll-padding-right` property (`css-scroll-snap`). */
-  function scrollPaddingRight(value: any): Property
-  module scrollPaddingRight {
-    /** `css-scroll-snap` `auto` keyword. */
-    const auto: string
-  }
-
-  /** Create a `scroll-padding-top` property (`css-scroll-snap`). */
-  function scrollPaddingTop(value: any): Property
-  module scrollPaddingTop {
-    /** `css-scroll-snap` `auto` keyword. */
-    const auto: string
-  }
-
-  /** Create a `scroll-snap-align` property (`css-scroll-snap`). */
-  function scrollSnapAlign(value: any): Property
-
-  /** Create a `scroll-snap-coordinate` property (`unknown`). */
-  function scrollSnapCoordinate(value: any): Property
-
-  /** Create a `scroll-snap-destination` property (`unknown`). */
-  function scrollSnapDestination(value: any): Property
-
-  /** Create a `scroll-snap-margin` property (`unknown`). */
-  function scrollSnapMargin(value: any): Property
-
-  /** Create a `scroll-snap-margin-bottom` property (`unknown`). */
-  function scrollSnapMarginBottom(value: any): Property
-
-  /** Create a `scroll-snap-margin-left` property (`unknown`). */
-  function scrollSnapMarginLeft(value: any): Property
-
-  /** Create a `scroll-snap-margin-right` property (`unknown`). */
-  function scrollSnapMarginRight(value: any): Property
-
-  /** Create a `scroll-snap-margin-top` property (`unknown`). */
-  function scrollSnapMarginTop(value: any): Property
-
-  /** Create a `scroll-snap-points-x` property (`unknown`). */
-  function scrollSnapPointsX(value: any): Property
-
-  /** Create a `scroll-snap-points-y` property (`unknown`). */
-  function scrollSnapPointsY(value: any): Property
-
-  /** Create a `scroll-snap-stop` property (`css-scroll-snap`). */
-  function scrollSnapStop(value: any): Property
-  module scrollSnapStop {
-    /** `css-scroll-snap` The scroll container may pass over a snap position defined by this element during the execution of a scrolling operation.. */
-    const normal: string
-    /** `css-scroll-snap` The scroll container must not pass over a snap position defined by this element during the execution of a scrolling operation; it must instead snap to the first of this element’s snap positions.. */
-    const always: string
-  }
-
-  /** Create a `scroll-snap-type` property (`css-scroll-snap`). */
-  function scrollSnapType(value: any): Property
-  module scrollSnapType {
-    /** `css-scroll-snap` If specified on a scroll container, the scroll container must not snap.. */
-    const none: string
-  }
-
-  /** Create a `scroll-snap-type-x` property (`unknown`). */
-  function scrollSnapTypeX(value: any): Property
-
-  /** Create a `scroll-snap-type-y` property (`unknown`). */
-  function scrollSnapTypeY(value: any): Property
-
-  /** Create a `scroll-start` property (`css-scroll-snap-2`). */
-  function scrollStart(value: any): Property
-
-  /** Create a `scroll-start-block` property (`css-scroll-snap-2`). */
-  function scrollStartBlock(value: any): Property
-  module scrollStartBlock {
-    /** `css-scroll-snap-2` .... */
-    const auto: string
-    /** `css-scroll-snap-2` Equivalent to 0%, 50%, and 100%, respectively.. */
-    const start: string
-    /** `css-scroll-snap-2` Equivalent to 0%, 50%, and 100%, respectively.. */
-    const end: string
-    /** `css-scroll-snap-2` Equivalent to 0%, 50%, and 100%, respectively.. */
-    const center: string
-  }
-
-  /** Create a `scroll-start-inline` property (`css-scroll-snap-2`). */
-  function scrollStartInline(value: any): Property
-  module scrollStartInline {
-    /** `css-scroll-snap-2` .... */
-    const auto: string
-    /** `css-scroll-snap-2` Equivalent to 0%, 50%, and 100%, respectively.. */
-    const start: string
-    /** `css-scroll-snap-2` Equivalent to 0%, 50%, and 100%, respectively.. */
-    const end: string
-    /** `css-scroll-snap-2` Equivalent to 0%, 50%, and 100%, respectively.. */
-    const center: string
-  }
-
-  /** Create a `scroll-start-target` property (`css-scroll-snap-2`). */
-  function scrollStartTarget(value: any): Property
-  module scrollStartTarget {
-    /** `css-scroll-snap-2` Element is not a scroll-start-target.. */
-    const none: string
-    /** `css-scroll-snap-2` Element is used to calculate the scroll-start position, taking into account scroll-padding or scroll-margin , same as a scroll-snap target.. */
-    const auto: string
-  }
-
-  /** Create a `scroll-start-x` property (`css-scroll-snap-2`). */
-  function scrollStartX(value: any): Property
-  module scrollStartX {
-    /** `css-scroll-snap-2` .... */
-    const auto: string
-    /** `css-scroll-snap-2` Equivalent to 0%, 50%, and 100%, respectively.. */
-    const start: string
-    /** `css-scroll-snap-2` Equivalent to 0%, 50%, and 100%, respectively.. */
-    const end: string
-    /** `css-scroll-snap-2` Equivalent to 0%, 50%, and 100%, respectively.. */
-    const center: string
-  }
-
-  /** Create a `scroll-start-y` property (`css-scroll-snap-2`). */
-  function scrollStartY(value: any): Property
-  module scrollStartY {
-    /** `css-scroll-snap-2` .... */
-    const auto: string
-    /** `css-scroll-snap-2` Equivalent to 0%, 50%, and 100%, respectively.. */
-    const start: string
-    /** `css-scroll-snap-2` Equivalent to 0%, 50%, and 100%, respectively.. */
-    const end: string
-    /** `css-scroll-snap-2` Equivalent to 0%, 50%, and 100%, respectively.. */
-    const center: string
-  }
-
-  /** Create a `scroll-timeline` property (`scroll-animations`). */
-  function scrollTimeline(value: any): Property
-
-  /** Create a `scroll-timeline-axis` property (`scroll-animations`). */
-  function scrollTimelineAxis(value: any): Property
-
-  /** Create a `scroll-timeline-name` property (`scroll-animations`). */
-  function scrollTimelineName(value: any): Property
-  module scrollTimelineName {
-    /** `scroll-animations` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `scrollbar-arrow-color` property (`unknown`). */
-  function scrollbarArrowColor(value: any): Property
-
-  /** Create a `scrollbar-base-color` property (`unknown`). */
-  function scrollbarBaseColor(value: any): Property
-
-  /** Create a `scrollbar-color` property (`css-scrollbars`). */
-  function scrollbarColor(value: any): Property
-  module scrollbarColor {
-    /** `css-scrollbars` The user agent determines the colors of the scrollbar. It should follow platform conventions, but may adjust the colors in accordance with color-scheme or other contextual information to better suit the page.. */
-    const auto: string
-  }
-
-  /** Create a `scrollbar-dark-shadow-color` property (`unknown`). */
-  function scrollbarDarkShadowColor(value: any): Property
-
-  /** Create a `scrollbar-darkshadow-color` property (`unknown`). */
-  function scrollbarDarkshadowColor(value: any): Property
-
-  /** Create a `scrollbar-face-color` property (`unknown`). */
-  function scrollbarFaceColor(value: any): Property
-
-  /** Create a `scrollbar-gutter` property (`css-overflow`). */
-  function scrollbarGutter(value: any): Property
-  module scrollbarGutter {
-    /** `css-overflow` Classic scrollbars consume space by creating a scrollbar gutter when overflow is scroll, or when overflow is auto and the box is overflowing. Overlay scrollbars do not consume space.. */
-    const auto: string
-  }
-
-  /** Create a `scrollbar-highlight-color` property (`unknown`). */
-  function scrollbarHighlightColor(value: any): Property
-
-  /** Create a `scrollbar-shadow-color` property (`unknown`). */
-  function scrollbarShadowColor(value: any): Property
-
-  /** Create a `scrollbar-track-color` property (`unknown`). */
-  function scrollbarTrackColor(value: any): Property
-
-  /** Create a `scrollbar-width` property (`css-scrollbars`). */
-  function scrollbarWidth(value: any): Property
-  module scrollbarWidth {
-    /** `css-scrollbars` Implementations must use the default scrollbar width.. */
-    const auto: string
-    /** `css-scrollbars` Implementations should use thinner scrollbars than auto. This may mean a thin variant of scrollbar provided by the platform, or a custom scrollbar thinner than the default platform scrollbar. The scrollbar must nonetheless remain wide enough to be usable. (Implementers may wish to consult WCAG 2.1 SC 2.5.5 Target Size. [WCAG21]) User agents may disregard this value and treat it as auto, for instance when the user has indicated discomfort for thin scrollbars through some UA or OS setting. (User agents are encouraged to provide such a setting.). */
-    const thin: string
-    /** `css-scrollbars` Implementations must not display any scrollbar, however the element’s scrollability by other means is not affected. Using this value can prevent mouse-only users from being able to scroll. Authors should ensure that mouse-only users can still reach hidden content, even if they have no scrollwheel. Authors that use none should provide an alternative/equivalent visual hint that scrolling is possible and there is more content.. */
-    const none: string
-  }
-
-  /** Create a `scrollbar3d-light-color` property (`unknown`). */
-  function scrollbar3dLightColor(value: any): Property
-
-  /** Create a `scrollbar3dlight-color` property (`unknown`). */
-  function scrollbar3dlightColor(value: any): Property
-
-  /** Create a `shape-image-threshold` property (`css-shapes`). */
-  function shapeImageThreshold(value: any): Property
-
-  /** Create a `shape-inside` property (`css-shapes-2`). */
-  function shapeInside(value: any): Property
-  module shapeInside {
-    /** `css-shapes-2` The shape is computed based on the content box of the element.. */
-    const auto: string
-    /** `css-shapes-2` The shape is computed based on the shape defined by the shape-outside and shape-margin properties.. */
-    const outsideShape: string
-    /** `css-shapes-2` The shape is computed based on the shape of the display as described in css-round-display.. */
-    const display: string
-  }
-
-  /** Create a `shape-margin` property (`css-shapes`). */
-  function shapeMargin(value: any): Property
-
-  /** Create a `shape-outside` property (`css-shapes`). */
-  function shapeOutside(value: any): Property
-  module shapeOutside {
-    /** `css-shapes` The float area is unaffected.. */
-    const none: string
-  }
-
-  /** Create a `shape-padding` property (`css-shapes-2`). */
-  function shapePadding(value: any): Property
-
-  /** Create a `shape-rendering` property (`svg`). */
-  function shapeRendering(value: any): Property
-  module shapeRendering {
-    /** `svg` `auto` keyword. */
-    const auto: string
-    /** `svg` `optimizeSpeed` keyword. */
-    const optimizeSpeed: string
-    /** `svg` `crispEdges` keyword. */
-    const crispEdges: string
-    /** `svg` `geometricPrecision` keyword. */
-    const geometricPrecision: string
-  }
-
-  /** Create a `shape-subtract` property (`svg`). */
-  function shapeSubtract(value: any): Property
-  module shapeSubtract {
-    /** `svg` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `size` property (`unknown`). */
-  function size(value: any): Property
-
-  /** Create a `size-adjust` property (`unknown`). */
-  function sizeAdjust(value: any): Property
-
-  /** Create a `snap-height` property (`unknown`). */
-  function snapHeight(value: any): Property
-
-  /** Create a `solid-color` property (`unknown`). */
-  function solidColor(value: any): Property
-
-  /** Create a `solid-opacity` property (`unknown`). */
-  function solidOpacity(value: any): Property
-
-  /** Create a `spatial-navigation-action` property (`css-nav`). */
-  function spatialNavigationAction(value: any): Property
-  module spatialNavigationAction {
-    /** `css-nav` If there are visible focusable elements within the scroll container in the direction requested, the closest one becomes focused. Otherwise, the scroll container is scrolled in the direction requested.. */
-    const auto: string
-    /** `css-nav` The focus is moved to the nearest focusable element within the scroll container, regardless of whether it is visible. If there are none, the scroll container is not scrolled, and the search continues up the ancestry chain instead.. */
-    const focus: string
-    /** `css-nav` If the currently focused element is not itself a scroll container, this value on an ancestor scroll container has the same effect as auto. If the currently focused element is a scroll container, it is scrolled in the direction requested without changing which element is in focus, regardless of the presence of focusable descendants.. */
-    const scroll: string
-  }
-
-  /** Create a `spatial-navigation-contain` property (`css-nav`). */
-  function spatialNavigationContain(value: any): Property
-  module spatialNavigationContain {
-    /** `css-nav` If the element is a scroll container then it establishes a spatial navigation container, otherwise it does not.. */
-    const auto: string
-    /** `css-nav` The element establishes a spatial navigation container. */
-    const contain: string
-  }
-
-  /** Create a `spatial-navigation-function` property (`css-nav`). */
-  function spatialNavigationFunction(value: any): Property
-  module spatialNavigationFunction {
-    /** `css-nav` Moves the focus with the default focus navigation algorithm defined by UA. In general, the focus moves to the element with the closest distance calculated by finding the shortest distance.. */
-    const normal: string
-    /** `css-nav` Moves the focus to the element which is aligned most in the navigation direction. If there are more than one aligned candidates in the navigation direction, select the element with the closest distance along the axis which corresponds to the navigation direction. In case of multiple elements with the same distance, select the element with the minimum amount of alignment. Else if there isn’t any aligned candidate in a given direction, select the element with the closest distance along the axis which corresponds to the navigation direction. In case of multiple elements with the same distance, select the element with the minimum distance along the axis which is orthogonal to the navigation direction.. */
-    const grid: string
-  }
-
-  /** Create a `speak` property (`css-speech`). */
-  function speak(value: any): Property
-  module speak {
-    /** `css-speech` Resolves to a computed value of never when display is none, otherwise resolves to a computed value of auto. The used value of a computed auto is equivalent to always if visibility is visible and to never otherwise.. */
-    const auto: string
-    /** `css-speech` This value causes an element (including pauses, cues, rests and actual content) to not be rendered (i.e., the element has no effect in the aural dimension).. */
-    const never: string
-    /** `css-speech` The element is rendered aurally (regardless of its display value, or the display or speak values of its ancestors).. */
-    const always: string
-  }
-
-  /** Create a `speak-as` property (`css-speech`). */
-  function speakAs(value: any): Property
-  module speakAs {
-    /** `css-speech` Uses language-dependent pronunciation rules for rendering the element’s content. For example, punctuation is not spoken as-is, but instead rendered naturally as appropriate pauses.. */
-    const normal: string
-  }
-
-  /** Create a `speak-header` property (`unknown`). */
-  function speakHeader(value: any): Property
-
-  /** Create a `speak-numeral` property (`unknown`). */
-  function speakNumeral(value: any): Property
-
-  /** Create a `speak-punctuation` property (`unknown`). */
-  function speakPunctuation(value: any): Property
-
-  /** Create a `speech-rate` property (`unknown`). */
-  function speechRate(value: any): Property
-
-  /** Create a `src` property (`unknown`). */
-  function src(value: any): Property
-
-  /** Create a `stop-color` property (`svg`). */
-  function stopColor(value: any): Property
-
-  /** Create a `stop-opacity` property (`svg`). */
-  function stopOpacity(value: any): Property
-
-  /** Create a `stress` property (`unknown`). */
-  function stress(value: any): Property
-
-  /** Create a `string-set` property (`css-content`). */
-  function stringSet(value: any): Property
-  module stringSet {
-    /** `css-content` The element does not set any named strings.. */
-    const none: string
-  }
-
-  /** Create a `stroke` property (`svg`). */
-  function stroke(value: any): Property
-
-  /** Create a `stroke-align` property (`fill-stroke`). */
-  function strokeAlign(value: any): Property
-  module strokeAlign {
-    /** `fill-stroke` The stroke for each subpath is centered on the outline.. */
-    const center: string
-    /** `fill-stroke` The stroke for each subpath lies on the “inside” of the outline (into the fill area). The stroke-linejoin property must be ignored. Why is stroke-linejoin ignored? It’s still needed for interior corners.. */
+    /** A series of round dots.. `css-backgrounds` */
+    const dotted: string
+    /** A series of square-ended dashes.. `css-backgrounds` */
+    const dashed: string
+    /** A single line segment.. `css-backgrounds` */
+    const solid: string
+    /** Two parallel solid lines with some space between them. (The thickness of the lines is not specified, but the sum of the lines and the space must equal border-width.). `css-backgrounds` */
+    const double: string
+    /** Looks as if it were carved in the canvas. (This is typically achieved by creating a “shadow” from two colors that are slightly lighter and darker than the border-color.). `css-backgrounds` */
+    const groove: string
+    /** Looks as if it were coming out of the canvas.. `css-backgrounds` */
+    const ridge: string
+    /** Looks as if the content on the inside of the border is sunken into the canvas. Treated as ridge in the collapsing border model. [CSS2]. `css-backgrounds` */
     const inset: string
-    /** `fill-stroke` The stroke for each subpath lies on the “outside” of the outline (outside the fill area).. */
+    /** Looks as if the content on the inside of the border is coming out of the canvas. Treated as groove in the collapsing border model. [CSS2]. `css-backgrounds` */
     const outset: string
   }
 
-  /** Create a `stroke-alignment` property (`svg-strokes`). */
-  function strokeAlignment(value: any): Property
-  module strokeAlignment {
-    /** `svg-strokes` `center` keyword. */
-    const center: string
-    /** `svg-strokes` `inner` keyword. */
-    const inner: string
-    /** `svg-strokes` `outer` keyword. */
-    const outer: string
+  /** Create a `border-bottom-width` property. `css-backgrounds` */
+  function borderBottomWidth(value: any): Property
+  module borderBottomWidth {
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const thin: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const medium: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const thick: string
   }
 
-  /** Create a `stroke-break` property (`fill-stroke`). */
-  function strokeBreak(value: any): Property
-  module strokeBreak {
-    /** `fill-stroke` `bounding-box` keyword. */
-    const boundingBox: string
-    /** `fill-stroke` `slice` keyword. */
+  /** Create a `border-boundary` property. `css-round-display` */
+  function borderBoundary(value: any): Property
+  module borderBoundary {
+    /** `none` keyword. `css-round-display` */
+    const none: string
+    /** `parent` keyword. `css-round-display` */
+    const parent: string
+    /** `display` keyword. `css-round-display` */
+    const display: string
+  }
+
+  /** Create a `border-clip` property. `css-backgrounds-4` */
+  function borderClip(value: any): Property
+  module borderClip {
+    /** `normal` keyword. `css-backgrounds-4` */
+    const normal: string
+    /** A flexible length or <flex> is a dimension with the fr unit, which represents a fraction of the leftover space in the grid container. Tracks sized with fr units are called flexible tracks as they flex in response to leftover space similar to how flex items with a zero base size fill space in a flex container.. `css-backgrounds-4` */
+    const fr: string
+  }
+
+  /** Create a `border-clip-bottom` property. `css-backgrounds-4` */
+  function borderClipBottom(value: any): Property
+  module borderClipBottom {
+    /** `normal` keyword. `css-backgrounds-4` */
+    const normal: string
+    /** A flexible length or <flex> is a dimension with the fr unit, which represents a fraction of the leftover space in the grid container. Tracks sized with fr units are called flexible tracks as they flex in response to leftover space similar to how flex items with a zero base size fill space in a flex container.. `css-backgrounds-4` */
+    const fr: string
+  }
+
+  /** Create a `border-clip-left` property. `css-backgrounds-4` */
+  function borderClipLeft(value: any): Property
+  module borderClipLeft {
+    /** `normal` keyword. `css-backgrounds-4` */
+    const normal: string
+    /** A flexible length or <flex> is a dimension with the fr unit, which represents a fraction of the leftover space in the grid container. Tracks sized with fr units are called flexible tracks as they flex in response to leftover space similar to how flex items with a zero base size fill space in a flex container.. `css-backgrounds-4` */
+    const fr: string
+  }
+
+  /** Create a `border-clip-right` property. `css-backgrounds-4` */
+  function borderClipRight(value: any): Property
+  module borderClipRight {
+    /** `normal` keyword. `css-backgrounds-4` */
+    const normal: string
+    /** A flexible length or <flex> is a dimension with the fr unit, which represents a fraction of the leftover space in the grid container. Tracks sized with fr units are called flexible tracks as they flex in response to leftover space similar to how flex items with a zero base size fill space in a flex container.. `css-backgrounds-4` */
+    const fr: string
+  }
+
+  /** Create a `border-clip-top` property. `css-backgrounds-4` */
+  function borderClipTop(value: any): Property
+  module borderClipTop {
+    /** `normal` keyword. `css-backgrounds-4` */
+    const normal: string
+    /** A flexible length or <flex> is a dimension with the fr unit, which represents a fraction of the leftover space in the grid container. Tracks sized with fr units are called flexible tracks as they flex in response to leftover space similar to how flex items with a zero base size fill space in a flex container.. `css-backgrounds-4` */
+    const fr: string
+  }
+
+  /** Create a `border-collapse` property. `css-tables` */
+  function borderCollapse(value: any): Property
+  module borderCollapse {
+    /** `separate` keyword. `css-tables` */
+    const separate: string
+    /** `collapse` keyword. `css-tables` */
+    const collapse: string
+  }
+
+  /** Create a `border-color` property. `css-backgrounds, css-backgrounds-4` */
+  function borderColor(value: any): Property
+  module borderColor {
+    /** `color` keyword. `css-backgrounds` */
+    const color: string
+    /** `color` keyword. `css-backgrounds-4` */
+    const color: string
+  }
+
+  /** Create a `border-end-end-radius` property. `css-logical` */
+  function borderEndEndRadius(value: any): Property
+
+  /** Create a `border-end-start-radius` property. `css-logical` */
+  function borderEndStartRadius(value: any): Property
+
+  /** Create a `border-image` property. `css-backgrounds` */
+  function borderImage(value: any): Property
+
+  /** Create a `border-image-outset` property. `css-backgrounds` */
+  function borderImageOutset(value: any): Property
+
+  /** Create a `border-image-repeat` property. `css-backgrounds` */
+  function borderImageRepeat(value: any): Property
+  module borderImageRepeat {
+    /** The image is stretched to fill the area.. `css-backgrounds` */
+    const stretch: string
+    /** The image is tiled (repeated) to fill the area.. `css-backgrounds` */
+    const repeat: string
+    /** The image is tiled (repeated) to fill the area. If it does not fill the area with a whole number of tiles, the image is rescaled so that it does.. `css-backgrounds` */
+    const round: string
+    /** The image is tiled (repeated) to fill the area. If it does not fill the area with a whole number of tiles, the extra space is distributed around the tiles.. `css-backgrounds` */
+    const space: string
+  }
+
+  /** Create a `border-image-slice` property. `css-backgrounds` */
+  function borderImageSlice(value: any): Property
+  module borderImageSlice {
+    /** The fill keyword, if present, causes the middle part of the border-image to be preserved. (By default it is discarded, i.e., treated as empty.). `css-backgrounds` */
+    const fill: string
+  }
+
+  /** Create a `border-image-source` property. `css-backgrounds` */
+  function borderImageSource(value: any): Property
+  module borderImageSource {
+    /** `none` keyword. `css-backgrounds` */
+    const none: string
+  }
+
+  /** Create a `border-image-width` property. `css-backgrounds` */
+  function borderImageWidth(value: any): Property
+  module borderImageWidth {
+    /** If auto is specified then the border image width is the natural width or height (whichever is applicable) of the corresponding image slice (see border-image-slice). If the image does not have the required natural dimension then the corresponding computed border-width is used instead.. `css-backgrounds` */
+    const auto: string
+  }
+
+  /** Create a `border-inline` property. `css-logical` */
+  function borderInline(value: any): Property
+
+  /** Create a `border-inline-color` property. `css-logical` */
+  function borderInlineColor(value: any): Property
+
+  /** Create a `border-inline-end` property. `css-logical` */
+  function borderInlineEnd(value: any): Property
+  module borderInlineEnd {
+    /** `color` keyword. `css-logical` */
+    const color: string
+  }
+
+  /** Create a `border-inline-end-color` property. `css-logical` */
+  function borderInlineEndColor(value: any): Property
+
+  /** Create a `border-inline-end-radius` property. `css-backgrounds-4` */
+  function borderInlineEndRadius(value: any): Property
+
+  /** Create a `border-inline-end-style` property. `css-logical` */
+  function borderInlineEndStyle(value: any): Property
+
+  /** Create a `border-inline-end-width` property. `css-logical` */
+  function borderInlineEndWidth(value: any): Property
+
+  /** Create a `border-inline-start` property. `css-logical` */
+  function borderInlineStart(value: any): Property
+  module borderInlineStart {
+    /** `color` keyword. `css-logical` */
+    const color: string
+  }
+
+  /** Create a `border-inline-start-color` property. `css-logical` */
+  function borderInlineStartColor(value: any): Property
+
+  /** Create a `border-inline-start-radius` property. `css-backgrounds-4` */
+  function borderInlineStartRadius(value: any): Property
+
+  /** Create a `border-inline-start-style` property. `css-logical` */
+  function borderInlineStartStyle(value: any): Property
+
+  /** Create a `border-inline-start-width` property. `css-logical` */
+  function borderInlineStartWidth(value: any): Property
+
+  /** Create a `border-inline-style` property. `css-logical` */
+  function borderInlineStyle(value: any): Property
+
+  /** Create a `border-inline-width` property. `css-logical` */
+  function borderInlineWidth(value: any): Property
+
+  /** Create a `border-left` property. `css-backgrounds` */
+  function borderLeft(value: any): Property
+  module borderLeft {
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const thin: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const medium: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const thick: string
+    /** No border. Color and width are ignored (i.e., the border has width 0). Note this means that the initial value of border-image-width will also resolve to zero.. `css-backgrounds` */
+    const none: string
+    /** Same as none, but has different behavior in the border conflict resolution rules for border-collapsed tables [CSS2].. `css-backgrounds` */
+    const hidden: string
+    /** A series of round dots.. `css-backgrounds` */
+    const dotted: string
+    /** A series of square-ended dashes.. `css-backgrounds` */
+    const dashed: string
+    /** A single line segment.. `css-backgrounds` */
+    const solid: string
+    /** Two parallel solid lines with some space between them. (The thickness of the lines is not specified, but the sum of the lines and the space must equal border-width.). `css-backgrounds` */
+    const double: string
+    /** Looks as if it were carved in the canvas. (This is typically achieved by creating a “shadow” from two colors that are slightly lighter and darker than the border-color.). `css-backgrounds` */
+    const groove: string
+    /** Looks as if it were coming out of the canvas.. `css-backgrounds` */
+    const ridge: string
+    /** Looks as if the content on the inside of the border is sunken into the canvas. Treated as ridge in the collapsing border model. [CSS2]. `css-backgrounds` */
+    const inset: string
+    /** Looks as if the content on the inside of the border is coming out of the canvas. Treated as groove in the collapsing border model. [CSS2]. `css-backgrounds` */
+    const outset: string
+    /** `color` keyword. `css-backgrounds` */
+    const color: string
+  }
+
+  /** Create a `border-left-color` property. `css-backgrounds, css-backgrounds-4` */
+  function borderLeftColor(value: any): Property
+  module borderLeftColor {
+    /** `color` keyword. `css-backgrounds` */
+    const color: string
+    /** `color` keyword. `css-backgrounds-4` */
+    const color: string
+  }
+
+  /** Create a `border-left-radius` property. `css-backgrounds-4` */
+  function borderLeftRadius(value: any): Property
+
+  /** Create a `border-left-style` property. `css-backgrounds` */
+  function borderLeftStyle(value: any): Property
+  module borderLeftStyle {
+    /** No border. Color and width are ignored (i.e., the border has width 0). Note this means that the initial value of border-image-width will also resolve to zero.. `css-backgrounds` */
+    const none: string
+    /** Same as none, but has different behavior in the border conflict resolution rules for border-collapsed tables [CSS2].. `css-backgrounds` */
+    const hidden: string
+    /** A series of round dots.. `css-backgrounds` */
+    const dotted: string
+    /** A series of square-ended dashes.. `css-backgrounds` */
+    const dashed: string
+    /** A single line segment.. `css-backgrounds` */
+    const solid: string
+    /** Two parallel solid lines with some space between them. (The thickness of the lines is not specified, but the sum of the lines and the space must equal border-width.). `css-backgrounds` */
+    const double: string
+    /** Looks as if it were carved in the canvas. (This is typically achieved by creating a “shadow” from two colors that are slightly lighter and darker than the border-color.). `css-backgrounds` */
+    const groove: string
+    /** Looks as if it were coming out of the canvas.. `css-backgrounds` */
+    const ridge: string
+    /** Looks as if the content on the inside of the border is sunken into the canvas. Treated as ridge in the collapsing border model. [CSS2]. `css-backgrounds` */
+    const inset: string
+    /** Looks as if the content on the inside of the border is coming out of the canvas. Treated as groove in the collapsing border model. [CSS2]. `css-backgrounds` */
+    const outset: string
+  }
+
+  /** Create a `border-left-width` property. `css-backgrounds` */
+  function borderLeftWidth(value: any): Property
+  module borderLeftWidth {
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const thin: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const medium: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const thick: string
+  }
+
+  /** Create a `border-limit` property. `css-backgrounds-4` */
+  function borderLimit(value: any): Property
+  module borderLimit {
+    /** `all` keyword. `css-backgrounds-4` */
+    const all: string
+    /** The sides are drawn up to but not including the corners (as defined by the border radii). A length or percentage is measured from the center of each side: 50% draws the middle 50% of the border; by default the entire side is drawn.. `css-backgrounds-4` */
+    const sides: string
+    /** The corners are drawn plus the specified distance into the sides if specified. A length is measured from the closest edge of the corner area. A percentage is measured from the absolute corner of the border box.. `css-backgrounds-4` */
+    const corners: string
+    /** For the top and bottom (horizontal) sides, draws the entire side and corner. For the left and right (vertical) sides, draws the top/bottom portion, as specified. Distances are measured as for corners.. `css-backgrounds-4` */
+    const top: string
+    /** For the left and right (vertical) sides, draws the entire side and corner. For the top and bottom (horizontal) sides, draws the left/right portion, as specified. Distances are measured as for corners.. `css-backgrounds-4` */
+    const right: string
+    /** For the top and bottom (horizontal) sides, draws the entire side and corner. For the left and right (vertical) sides, draws the top/bottom portion, as specified. Distances are measured as for corners.. `css-backgrounds-4` */
+    const bottom: string
+    /** For the left and right (vertical) sides, draws the entire side and corner. For the top and bottom (horizontal) sides, draws the left/right portion, as specified. Distances are measured as for corners.. `css-backgrounds-4` */
+    const left: string
+  }
+
+  /** Create a `border-radius` property. `css-backgrounds, css-backgrounds-4` */
+  function borderRadius(value: any): Property
+
+  /** Create a `border-right` property. `css-backgrounds` */
+  function borderRight(value: any): Property
+  module borderRight {
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const thin: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const medium: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const thick: string
+    /** No border. Color and width are ignored (i.e., the border has width 0). Note this means that the initial value of border-image-width will also resolve to zero.. `css-backgrounds` */
+    const none: string
+    /** Same as none, but has different behavior in the border conflict resolution rules for border-collapsed tables [CSS2].. `css-backgrounds` */
+    const hidden: string
+    /** A series of round dots.. `css-backgrounds` */
+    const dotted: string
+    /** A series of square-ended dashes.. `css-backgrounds` */
+    const dashed: string
+    /** A single line segment.. `css-backgrounds` */
+    const solid: string
+    /** Two parallel solid lines with some space between them. (The thickness of the lines is not specified, but the sum of the lines and the space must equal border-width.). `css-backgrounds` */
+    const double: string
+    /** Looks as if it were carved in the canvas. (This is typically achieved by creating a “shadow” from two colors that are slightly lighter and darker than the border-color.). `css-backgrounds` */
+    const groove: string
+    /** Looks as if it were coming out of the canvas.. `css-backgrounds` */
+    const ridge: string
+    /** Looks as if the content on the inside of the border is sunken into the canvas. Treated as ridge in the collapsing border model. [CSS2]. `css-backgrounds` */
+    const inset: string
+    /** Looks as if the content on the inside of the border is coming out of the canvas. Treated as groove in the collapsing border model. [CSS2]. `css-backgrounds` */
+    const outset: string
+    /** `color` keyword. `css-backgrounds` */
+    const color: string
+  }
+
+  /** Create a `border-right-color` property. `css-backgrounds, css-backgrounds-4` */
+  function borderRightColor(value: any): Property
+  module borderRightColor {
+    /** `color` keyword. `css-backgrounds` */
+    const color: string
+    /** `color` keyword. `css-backgrounds-4` */
+    const color: string
+  }
+
+  /** Create a `border-right-radius` property. `css-backgrounds-4` */
+  function borderRightRadius(value: any): Property
+
+  /** Create a `border-right-style` property. `css-backgrounds` */
+  function borderRightStyle(value: any): Property
+  module borderRightStyle {
+    /** No border. Color and width are ignored (i.e., the border has width 0). Note this means that the initial value of border-image-width will also resolve to zero.. `css-backgrounds` */
+    const none: string
+    /** Same as none, but has different behavior in the border conflict resolution rules for border-collapsed tables [CSS2].. `css-backgrounds` */
+    const hidden: string
+    /** A series of round dots.. `css-backgrounds` */
+    const dotted: string
+    /** A series of square-ended dashes.. `css-backgrounds` */
+    const dashed: string
+    /** A single line segment.. `css-backgrounds` */
+    const solid: string
+    /** Two parallel solid lines with some space between them. (The thickness of the lines is not specified, but the sum of the lines and the space must equal border-width.). `css-backgrounds` */
+    const double: string
+    /** Looks as if it were carved in the canvas. (This is typically achieved by creating a “shadow” from two colors that are slightly lighter and darker than the border-color.). `css-backgrounds` */
+    const groove: string
+    /** Looks as if it were coming out of the canvas.. `css-backgrounds` */
+    const ridge: string
+    /** Looks as if the content on the inside of the border is sunken into the canvas. Treated as ridge in the collapsing border model. [CSS2]. `css-backgrounds` */
+    const inset: string
+    /** Looks as if the content on the inside of the border is coming out of the canvas. Treated as groove in the collapsing border model. [CSS2]. `css-backgrounds` */
+    const outset: string
+  }
+
+  /** Create a `border-right-width` property. `css-backgrounds` */
+  function borderRightWidth(value: any): Property
+  module borderRightWidth {
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const thin: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const medium: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const thick: string
+  }
+
+  /** Create a `border-spacing` property. `css-tables` */
+  function borderSpacing(value: any): Property
+
+  /** Create a `border-start-end-radius` property. `css-logical` */
+  function borderStartEndRadius(value: any): Property
+
+  /** Create a `border-start-start-radius` property. `css-logical` */
+  function borderStartStartRadius(value: any): Property
+
+  /** Create a `border-style` property. `css-backgrounds` */
+  function borderStyle(value: any): Property
+  module borderStyle {
+    /** No border. Color and width are ignored (i.e., the border has width 0). Note this means that the initial value of border-image-width will also resolve to zero.. `css-backgrounds` */
+    const none: string
+    /** Same as none, but has different behavior in the border conflict resolution rules for border-collapsed tables [CSS2].. `css-backgrounds` */
+    const hidden: string
+    /** A series of round dots.. `css-backgrounds` */
+    const dotted: string
+    /** A series of square-ended dashes.. `css-backgrounds` */
+    const dashed: string
+    /** A single line segment.. `css-backgrounds` */
+    const solid: string
+    /** Two parallel solid lines with some space between them. (The thickness of the lines is not specified, but the sum of the lines and the space must equal border-width.). `css-backgrounds` */
+    const double: string
+    /** Looks as if it were carved in the canvas. (This is typically achieved by creating a “shadow” from two colors that are slightly lighter and darker than the border-color.). `css-backgrounds` */
+    const groove: string
+    /** Looks as if it were coming out of the canvas.. `css-backgrounds` */
+    const ridge: string
+    /** Looks as if the content on the inside of the border is sunken into the canvas. Treated as ridge in the collapsing border model. [CSS2]. `css-backgrounds` */
+    const inset: string
+    /** Looks as if the content on the inside of the border is coming out of the canvas. Treated as groove in the collapsing border model. [CSS2]. `css-backgrounds` */
+    const outset: string
+  }
+
+  /** Create a `border-top` property. `css-backgrounds` */
+  function borderTop(value: any): Property
+  module borderTop {
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const thin: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const medium: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const thick: string
+    /** No border. Color and width are ignored (i.e., the border has width 0). Note this means that the initial value of border-image-width will also resolve to zero.. `css-backgrounds` */
+    const none: string
+    /** Same as none, but has different behavior in the border conflict resolution rules for border-collapsed tables [CSS2].. `css-backgrounds` */
+    const hidden: string
+    /** A series of round dots.. `css-backgrounds` */
+    const dotted: string
+    /** A series of square-ended dashes.. `css-backgrounds` */
+    const dashed: string
+    /** A single line segment.. `css-backgrounds` */
+    const solid: string
+    /** Two parallel solid lines with some space between them. (The thickness of the lines is not specified, but the sum of the lines and the space must equal border-width.). `css-backgrounds` */
+    const double: string
+    /** Looks as if it were carved in the canvas. (This is typically achieved by creating a “shadow” from two colors that are slightly lighter and darker than the border-color.). `css-backgrounds` */
+    const groove: string
+    /** Looks as if it were coming out of the canvas.. `css-backgrounds` */
+    const ridge: string
+    /** Looks as if the content on the inside of the border is sunken into the canvas. Treated as ridge in the collapsing border model. [CSS2]. `css-backgrounds` */
+    const inset: string
+    /** Looks as if the content on the inside of the border is coming out of the canvas. Treated as groove in the collapsing border model. [CSS2]. `css-backgrounds` */
+    const outset: string
+    /** `color` keyword. `css-backgrounds` */
+    const color: string
+  }
+
+  /** Create a `border-top-color` property. `css-backgrounds, css-backgrounds-4` */
+  function borderTopColor(value: any): Property
+  module borderTopColor {
+    /** `color` keyword. `css-backgrounds` */
+    const color: string
+    /** `color` keyword. `css-backgrounds-4` */
+    const color: string
+  }
+
+  /** Create a `border-top-left-radius` property. `css-backgrounds` */
+  function borderTopLeftRadius(value: any): Property
+
+  /** Create a `border-top-radius` property. `css-backgrounds-4` */
+  function borderTopRadius(value: any): Property
+
+  /** Create a `border-top-right-radius` property. `css-backgrounds` */
+  function borderTopRightRadius(value: any): Property
+
+  /** Create a `border-top-style` property. `css-backgrounds` */
+  function borderTopStyle(value: any): Property
+  module borderTopStyle {
+    /** No border. Color and width are ignored (i.e., the border has width 0). Note this means that the initial value of border-image-width will also resolve to zero.. `css-backgrounds` */
+    const none: string
+    /** Same as none, but has different behavior in the border conflict resolution rules for border-collapsed tables [CSS2].. `css-backgrounds` */
+    const hidden: string
+    /** A series of round dots.. `css-backgrounds` */
+    const dotted: string
+    /** A series of square-ended dashes.. `css-backgrounds` */
+    const dashed: string
+    /** A single line segment.. `css-backgrounds` */
+    const solid: string
+    /** Two parallel solid lines with some space between them. (The thickness of the lines is not specified, but the sum of the lines and the space must equal border-width.). `css-backgrounds` */
+    const double: string
+    /** Looks as if it were carved in the canvas. (This is typically achieved by creating a “shadow” from two colors that are slightly lighter and darker than the border-color.). `css-backgrounds` */
+    const groove: string
+    /** Looks as if it were coming out of the canvas.. `css-backgrounds` */
+    const ridge: string
+    /** Looks as if the content on the inside of the border is sunken into the canvas. Treated as ridge in the collapsing border model. [CSS2]. `css-backgrounds` */
+    const inset: string
+    /** Looks as if the content on the inside of the border is coming out of the canvas. Treated as groove in the collapsing border model. [CSS2]. `css-backgrounds` */
+    const outset: string
+  }
+
+  /** Create a `border-top-width` property. `css-backgrounds` */
+  function borderTopWidth(value: any): Property
+  module borderTopWidth {
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const thin: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const medium: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const thick: string
+  }
+
+  /** Create a `border-width` property. `css-backgrounds` */
+  function borderWidth(value: any): Property
+  module borderWidth {
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const thin: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const medium: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-backgrounds` */
+    const thick: string
+  }
+
+  /** Create a `bottom` property. `css-position` */
+  function bottom(value: any): Property
+  module bottom {
+    /** Represents an unconstrained inset; the exact meaning depends on the positioning scheme.. `css-position` */
+    const auto: string
+  }
+
+  /** Create a `box-decoration-break` property. `css-break` */
+  function boxDecorationBreak(value: any): Property
+  module boxDecorationBreak {
+    /** The effect is as though the element were rendered with no breaks present, and then sliced by the breaks afterward: no border and no padding are inserted at a break; no box-shadow is drawn at a broken edge; and backgrounds, border-radius, and the border-image are applied to the geometry of the whole box as if it were unbroken.. `css-break` */
     const slice: string
-    /** `fill-stroke` `clone` keyword. */
+    /** Each box fragment is independently wrapped with the border, padding, and margin. The border-radius and border-image and box-shadow, if any, are applied to each fragment independently. The background is drawn independently in each fragment of the element. A no-repeat background image will thus be rendered once in each fragment of the element.. `css-break` */
     const clone: string
   }
 
-  /** Create a `stroke-color` property (`fill-stroke`). */
-  function strokeColor(value: any): Property
-
-  /** Create a `stroke-dash-corner` property (`fill-stroke`). */
-  function strokeDashCorner(value: any): Property
-  module strokeDashCorner {
-    /** `fill-stroke` This property has no special effect on dashing: the dashes are positioned/sized continuously along the path.. */
+  /** Create a `box-shadow` property. `css-backgrounds` */
+  function boxShadow(value: any): Property
+  module boxShadow {
+    /** The box-shadow property attaches one or more drop-shadows to the box. The property accepts either the none value, which indicates no shadows, or a comma-separated list of shadows, ordered front to back.. `css-backgrounds` */
     const none: string
   }
 
-  /** Create a `stroke-dash-justify` property (`fill-stroke`). */
-  function strokeDashJustify(value: any): Property
-  module strokeDashJustify {
-    /** `fill-stroke` No adjustment of the dash pattern is made: it’s clipped at the end of the subpath with however much progress it made to that point.. */
-    const none: string
-  }
-
-  /** Create a `stroke-dashadjust` property (`svg-strokes`). */
-  function strokeDashadjust(value: any): Property
-  module strokeDashadjust {
-    /** `svg-strokes` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `stroke-dasharray` property (`fill-stroke`). */
-  function strokeDasharray(value: any): Property
-  module strokeDasharray {
-    /** `fill-stroke` No dashing: the stroke is drawn continuously.. */
-    const none: string
-  }
-
-  /** Create a `stroke-dashcorner` property (`svg-strokes`). */
-  function strokeDashcorner(value: any): Property
-  module strokeDashcorner {
-    /** `svg-strokes` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `stroke-dashoffset` property (`fill-stroke`). */
-  function strokeDashoffset(value: any): Property
-
-  /** Create a `stroke-image` property (`fill-stroke`). */
-  function strokeImage(value: any): Property
-
-  /** Create a `stroke-linecap` property (`fill-stroke`). */
-  function strokeLinecap(value: any): Property
-  module strokeLinecap {
-    /** `fill-stroke` The stroke for each subpath does not extend beyond its two endpoints. (A zero length subpath will therefore not have any stroke.). */
-    const butt: string
-    /** `fill-stroke` At each end of each subpath, the stroke is extended by a half circle with a radius equal to half the stroke width. (The stroke for a zero-length subpath is a full circle centered at the subpath’s point.). */
-    const round: string
-    /** `fill-stroke` At the end of each subpath, the stroke is extended by a rectangle with the same width as the stroke width and whose length is half of the stroke width. (The stroke for a zero-length subpath is a square with side length equal to the stroke width, centered at the subpath’s point, and oriented such that two of its sides are parallel to the effective tangent at that subpath’s point. See § 4.6 Computing the Shape of the Stroke for details on how to determine the tangent at a zero-length subpath.) Adding a rectangle to the end of dashes on a curved outline looks bad. It should just extend the dash by stroke-width/2, following the outline.. */
-    const square: string
-  }
-
-  /** Create a `stroke-linejoin` property (`fill-stroke`). */
-  function strokeLinejoin(value: any): Property
-
-  /** Create a `stroke-miterlimit` property (`fill-stroke`). */
-  function strokeMiterlimit(value: any): Property
-
-  /** Create a `stroke-opacity` property (`fill-stroke`). */
-  function strokeOpacity(value: any): Property
-
-  /** Create a `stroke-origin` property (`fill-stroke`). */
-  function strokeOrigin(value: any): Property
-  module strokeOrigin {
-    /** `fill-stroke` Use the same stroke positioning area as the parent. If it has no parent, use the initial containing block.. */
-    const matchParent: string
-    /** `fill-stroke` For SVG shapes or SVG text, use the object bounding box of the element. For CSS boxes, use the bounding box of the text glyph outlines of the element and all in-flow or floated descendants.. */
-    const fillBox: string
-    /** `fill-stroke` For SVG shapes or SVG text, use the stroke bounding box of the element. For CSS boxes, use the bounding box of the text glyph stroke outlines of the element and all in-flow or floated descendants.. */
-    const strokeBox: string
-    /** `fill-stroke` Use the box’s own content-box/padding-box/border-box as the stroke positioning area. For SVG shapes, content-box and padding-box are treated as fill-box, while border-box is treated as stroke-box.. */
+  /** Create a `box-sizing` property. `css-sizing` */
+  function boxSizing(value: any): Property
+  module boxSizing {
+    /** Sizes specified on sizing properties as <length-percentage> represent the box’s inner sizes, excluding the margins/border/padding: they are applied to the content box. The padding and border of the box are laid out and drawn outside the specified width and height.. `css-sizing` */
     const contentBox: string
-    /** `fill-stroke` Use the box’s own content-box/padding-box/border-box as the stroke positioning area. For SVG shapes, content-box and padding-box are treated as fill-box, while border-box is treated as stroke-box.. */
-    const paddingBox: string
-    /** `fill-stroke` Use the box’s own content-box/padding-box/border-box as the stroke positioning area. For SVG shapes, content-box and padding-box are treated as fill-box, while border-box is treated as stroke-box.. */
+    /** Sizes specified on sizing properties as <length-percentage> represent the box’s visually-apparent sizes, including the borders/padding (but not margin): they are applied to the border box. The padding and border of the box are laid out and drawn inside the specified width and height, with the content box sized to fill the remaining space, floored at zero. The content width and height are calculated by subtracting the border and padding widths of the respective sides from the specified <length-percentage>. As the content width and height cannot be negative, this computation is floored at zero. Used values, as exposed for instance through getComputedStyle(), also refer to the border box.. `css-sizing` */
     const borderBox: string
   }
 
-  /** Create a `stroke-position` property (`fill-stroke`). */
-  function strokePosition(value: any): Property
+  /** Create a `box-snap` property. `css-line-grid` */
+  function boxSnap(value: any): Property
+  module boxSnap {
+    /** The block is not snapped to any grid.. `css-line-grid` */
+    const none: string
+    /** The block-start edge is snapped to the nearest grid line.. `css-line-grid` */
+    const blockStart: string
+    /** The block-end edge is snapped to the nearest grid line.. `css-line-grid` */
+    const blockEnd: string
+    /** The block is centered between one of the baseline grid’s text-over baselines and a subsequent (but not necessarily consecutive) text-under baseline.. `css-line-grid` */
+    const center: string
+    /** The first line box’s dominant baseline is snapped to the nearest grid line.. `css-line-grid` */
+    const baseline: string
+    /** The last line box’s dominant baseline is snapped to the nearest grid line.. `css-line-grid` */
+    const lastBaseline: string
+  }
 
-  /** Create a `stroke-repeat` property (`fill-stroke`). */
-  function strokeRepeat(value: any): Property
-
-  /** Create a `stroke-size` property (`fill-stroke`). */
-  function strokeSize(value: any): Property
-
-  /** Create a `stroke-width` property (`fill-stroke`). */
-  function strokeWidth(value: any): Property
-
-  /** Create a `suffix` property (`unknown`). */
-  function suffix(value: any): Property
-
-  /** Create a `supported-color-schemes` property (`unknown`). */
-  function supportedColorSchemes(value: any): Property
-
-  /** Create a `symbols` property (`unknown`). */
-  function symbols(value: any): Property
-
-  /** Create a `syntax` property (`unknown`). */
-  function syntax(value: any): Property
-
-  /** Create a `system` property (`unknown`). */
-  function system(value: any): Property
-
-  /** Create a `tab-size` property (`css-text-4, css-text`). */
-  function tabSize(value: any): Property
-
-  /** Create a `table-layout` property (`css-tables`). */
-  function tableLayout(value: any): Property
-  module tableLayout {
-    /** `css-tables` `auto` keyword. */
+  /** Create a `break-after` property. `css-break` */
+  function breakAfter(value: any): Property
+  module breakAfter {
+    /** Neither force nor forbid a break before/after the principal box.. `css-break` */
     const auto: string
-    /** `css-tables` `fixed` keyword. */
-    const fixed: string
+    /** Avoid a break before/after the principal box.. `css-break` */
+    const avoid: string
+    /** Always force a break before/after the principal box. The type of this break is that of the immediately-containing fragmentation context. For example, in a multi-column container forces a column break; in paged media not inside a multi-column container, forces a page break.. `css-break` */
+    const always: string
+    /** Always force a break before/after the principal box. This value breaks through all containing fragmentation contexts. For example, inside a multi-column container in a region in a multi-column container in paged media, it forces simultaneously a column break in the inner multi-column container, a region break, a column break in the outer multi-column container, and a page break. It’s unclear if this value is needed.. `css-break` */
+    const all: string
+    /** Avoid a page break before/after the principal box.. `css-break` */
+    const avoidPage: string
+    /** Always force a page break before/after the principal box.. `css-break` */
+    const page: string
+    /** Force one or two page breaks before/after the principal box so that the next page is formatted as a left page.. `css-break` */
+    const left: string
+    /** Force one or two page breaks before/after the principal box so that the next page is formatted as a right page.. `css-break` */
+    const right: string
+    /** Force one or two page breaks before/after the principal box so that the next page is formatted as either a left page or a right page, whichever is second (according to the page progression) in a page spread.. `css-break` */
+    const recto: string
+    /** Force one or two page breaks before/after the principal box so that the next page is formatted as either a left page or a right page, whichever is first (according to the page progression) in a page spread.. `css-break` */
+    const verso: string
+    /** Avoid a column break before/after the principal box.. `css-break` */
+    const avoidColumn: string
+    /** Always force a column break before/after the principal box.. `css-break` */
+    const column: string
+    /** Avoid a region break before/after the principal box.. `css-break` */
+    const avoidRegion: string
+    /** Always force a region break before/after the principal box.. `css-break` */
+    const region: string
   }
 
-  /** Create a `text-align` property (`css-text-4, css-text`). */
-  function textAlign(value: any): Property
-  module textAlign {
-    /** `css-text-4` Inline-level content is aligned to the start edge of the line box.. */
-    const start: string
-    /** `css-text-4` Inline-level content is aligned to the end edge of the line box.. */
-    const end: string
-    /** `css-text-4` Inline-level content is aligned to the line-left edge of the line box. (In vertical writing modes, this can be either the physical top or bottom, depending on writing-mode.) [CSS-WRITING-MODES-4]. */
-    const left: string
-    /** `css-text-4` Inline-level content is aligned to the line-right edge of the line box. (In vertical writing modes, this can be either the physical top or bottom, depending on writing-mode.) [CSS-WRITING-MODES-4]. */
-    const right: string
-    /** `css-text-4` Inline-level content is centered within the line box.. */
-    const center: string
-    /** `css-text-4` Text is justified according to the method specified by the text-justify property, in order to exactly fill the line box. Unless otherwise specified by text-align-last, the last line before a forced break or the end of the block is start-aligned.. */
-    const justify: string
-    /** `css-text-4` This value behaves the same as inherit (computes to its parent’s computed value) except that an inherited value of start or end is interpreted against the parent’s direction value and results in a computed value of either left or right. Computes to start when specified on the root element. When specified on the text-align shorthand, sets both text-align-all and text-align-last to match-parent.. */
-    const matchParent: string
-    /** `css-text-4` Sets both text-align-all and text-align-last to justify, forcing the last line to justify as well.. */
-    const justifyAll: string
-    /** `css-text` Inline-level content is aligned to the start edge of the line box.. */
-    const start: string
-    /** `css-text` Inline-level content is aligned to the end edge of the line box.. */
-    const end: string
-    /** `css-text` Inline-level content is aligned to the line-left edge of the line box. (In vertical writing modes, this can be either the physical top or bottom, depending on writing-mode.) [CSS-WRITING-MODES-4]. */
-    const left: string
-    /** `css-text` Inline-level content is aligned to the line-right edge of the line box. (In vertical writing modes, this can be either the physical top or bottom, depending on writing-mode.) [CSS-WRITING-MODES-4]. */
-    const right: string
-    /** `css-text` Inline-level content is centered within the line box.. */
-    const center: string
-    /** `css-text` Text is justified according to the method specified by the text-justify property, in order to exactly fill the line box. Unless otherwise specified by text-align-last, the last line before a forced break or the end of the block is start-aligned.. */
-    const justify: string
-    /** `css-text` This value behaves the same as inherit (computes to its parent’s computed value) except that an inherited value of start or end is interpreted against the parent’s direction value and results in a computed value of either left or right. Computes to start when specified on the root element. When specified on the text-align shorthand, sets both text-align-all and text-align-last to match-parent.. */
-    const matchParent: string
-    /** `css-text` Sets both text-align-all and text-align-last to justify, forcing the last line to justify as well.. */
-    const justifyAll: string
-  }
-
-  /** Create a `text-align-all` property (`css-text-4, css-text`). */
-  function textAlignAll(value: any): Property
-  module textAlignAll {
-    /** `css-text-4` `start` keyword. */
-    const start: string
-    /** `css-text-4` `end` keyword. */
-    const end: string
-    /** `css-text-4` `left` keyword. */
-    const left: string
-    /** `css-text-4` `right` keyword. */
-    const right: string
-    /** `css-text-4` `center` keyword. */
-    const center: string
-    /** `css-text-4` `justify` keyword. */
-    const justify: string
-    /** `css-text-4` `match-parent` keyword. */
-    const matchParent: string
-    /** `css-text` `start` keyword. */
-    const start: string
-    /** `css-text` `end` keyword. */
-    const end: string
-    /** `css-text` `left` keyword. */
-    const left: string
-    /** `css-text` `right` keyword. */
-    const right: string
-    /** `css-text` `center` keyword. */
-    const center: string
-    /** `css-text` `justify` keyword. */
-    const justify: string
-    /** `css-text` `match-parent` keyword. */
-    const matchParent: string
-  }
-
-  /** Create a `text-align-last` property (`css-text-4, css-text`). */
-  function textAlignLast(value: any): Property
-  module textAlignLast {
-    /** `css-text-4` If auto is specified, content on the affected line is aligned per text-align-all unless text-align-all is set to justify, in which case it is start-aligned. All other values are interpreted as described for text-align.. */
+  /** Create a `break-before` property. `css-break` */
+  function breakBefore(value: any): Property
+  module breakBefore {
+    /** Neither force nor forbid a break before/after the principal box.. `css-break` */
     const auto: string
-    /** `css-text-4` `start` keyword. */
-    const start: string
-    /** `css-text-4` `end` keyword. */
-    const end: string
-    /** `css-text-4` `left` keyword. */
+    /** Avoid a break before/after the principal box.. `css-break` */
+    const avoid: string
+    /** Always force a break before/after the principal box. The type of this break is that of the immediately-containing fragmentation context. For example, in a multi-column container forces a column break; in paged media not inside a multi-column container, forces a page break.. `css-break` */
+    const always: string
+    /** Always force a break before/after the principal box. This value breaks through all containing fragmentation contexts. For example, inside a multi-column container in a region in a multi-column container in paged media, it forces simultaneously a column break in the inner multi-column container, a region break, a column break in the outer multi-column container, and a page break. It’s unclear if this value is needed.. `css-break` */
+    const all: string
+    /** Avoid a page break before/after the principal box.. `css-break` */
+    const avoidPage: string
+    /** Always force a page break before/after the principal box.. `css-break` */
+    const page: string
+    /** Force one or two page breaks before/after the principal box so that the next page is formatted as a left page.. `css-break` */
     const left: string
-    /** `css-text-4` `right` keyword. */
+    /** Force one or two page breaks before/after the principal box so that the next page is formatted as a right page.. `css-break` */
     const right: string
-    /** `css-text-4` `center` keyword. */
-    const center: string
-    /** `css-text-4` `justify` keyword. */
-    const justify: string
-    /** `css-text-4` `match-parent` keyword. */
-    const matchParent: string
-    /** `css-text` If auto is specified, content on the affected line is aligned per text-align-all unless text-align-all is set to justify, in which case it is start-aligned. All other values are interpreted as described for text-align.. */
+    /** Force one or two page breaks before/after the principal box so that the next page is formatted as either a left page or a right page, whichever is second (according to the page progression) in a page spread.. `css-break` */
+    const recto: string
+    /** Force one or two page breaks before/after the principal box so that the next page is formatted as either a left page or a right page, whichever is first (according to the page progression) in a page spread.. `css-break` */
+    const verso: string
+    /** Avoid a column break before/after the principal box.. `css-break` */
+    const avoidColumn: string
+    /** Always force a column break before/after the principal box.. `css-break` */
+    const column: string
+    /** Avoid a region break before/after the principal box.. `css-break` */
+    const avoidRegion: string
+    /** Always force a region break before/after the principal box.. `css-break` */
+    const region: string
+  }
+
+  /** Create a `break-inside` property. `css-break` */
+  function breakInside(value: any): Property
+  module breakInside {
+    /** Impose no additional breaking constraints within the box.. `css-break` */
     const auto: string
-    /** `css-text` `start` keyword. */
-    const start: string
-    /** `css-text` `end` keyword. */
-    const end: string
-    /** `css-text` `left` keyword. */
+    /** Avoid breaks within the box.. `css-break` */
+    const avoid: string
+    /** Avoid a page break within the box.. `css-break` */
+    const avoidPage: string
+    /** Avoid a column break within the box.. `css-break` */
+    const avoidColumn: string
+    /** Avoid a region break within the box.. `css-break` */
+    const avoidRegion: string
+  }
+
+  /** Create a `buffered-rendering` property. `unknown` */
+  function bufferedRendering(value: any): Property
+
+  /** Create a `caption-side` property. `css-tables` */
+  function captionSide(value: any): Property
+  module captionSide {
+    /** `top` keyword. `css-tables` */
+    const top: string
+    /** `bottom` keyword. `css-tables` */
+    const bottom: string
+  }
+
+  /** Create a `caret` property. `css-ui` */
+  function caret(value: any): Property
+
+  /** Create a `caret-color` property. `css-ui` */
+  function caretColor(value: any): Property
+  module caretColor {
+    /** `auto` keyword. `css-ui` */
+    const auto: string
+    /** `color` keyword. `css-ui` */
+    const color: string
+  }
+
+  /** Create a `caret-shape` property. `css-ui` */
+  function caretShape(value: any): Property
+  module caretShape {
+    /** The UA determines the shape of the caret. It should match platform conventions, and may be adjusted based on context. For example, if a UA switches between insert mode and overtype mode when the user presses the insert key on their keyboard, it may show a bar caret in insert mode, and a block caret in overtype mode.. `css-ui` */
+    const auto: string
+    /** The UA must render the text insertion caret as a thin bar placed at the insertion point. This means it is between, before, or after characters, not over them. It should be perpendicular to the inline progression direction, although UAs may render it slanted when inserting italic or oblique text.. `css-ui` */
+    const bar: string
+    /** The UA must render the text insertion caret as a rectangle overlapping the next visible character following the insertion point. If there is no visible character after the insertion point, the UA must render the caret after the last visible character. UAs may render it as a slanted rectangle when inserting italic or oblique text.. `css-ui` */
+    const block: string
+    /** The UA must render the text insertion caret as a thin line under (as defined in [CSS-WRITING-MODES-3] the next visible character following the insertion point. If there is no visible character after the insertion point, the UA must render the caret after the last visible character.. `css-ui` */
+    const underscore: string
+  }
+
+  /** Create a `chains` property. `unknown` */
+  function chains(value: any): Property
+
+  /** Create a `clear` property. `css-page-floats` */
+  function clear(value: any): Property
+  module clear {
+    /** If applied to an inline float, requires that the block-start outer edge of the box comes after the block-end outer edge of any inline-start-floats with an inline-start-float-reference that resulted from elements earlier in the source document. If applied to a page float, the float reference in which the page float is placed will be seen as full when determining whether it can host subsequent page floats that float in the inline-start direction.. `css-page-floats` */
+    const inlineStart: string
+    /** If applied to a block-level element or an inline float, requires that the block-start outer edge of the box comes after the block-end outer edge of any inline-end-floats with an inline-end-float-reference that resulted from elements earlier in the source document. If applied to a page float, the float reference in which the page float is placed will be seen as full when determining whether it can host subsequent page floats that float in the inline-end direction.. `css-page-floats` */
+    const inlineEnd: string
+    /** If applied to a block-level element or an inline float, behaves like inline-start. If applied to a page float, the float reference in which the page float is placed will be seen as full when determining whether it can host subsequent page floats that float in the block-start direction.. `css-page-floats` */
+    const blockStart: string
+    /** If applied to a block-level element or an inline float, behaves like inline-end. If applied to a page float, the float reference in which the page float is placed will be seen as full when determining whether it can host subsequent page floats that float in the block-end direction.. `css-page-floats` */
+    const blockEnd: string
+    /** Behave like block-end, inline-start or inline-end depending on the float containing block’s direction and writing-mode.. `css-page-floats` */
     const left: string
-    /** `css-text` `right` keyword. */
+    /** Behave like block-start, inline-start or inline-end depending on the float containing block’s direction and writing-mode.. `css-page-floats` */
     const right: string
-    /** `css-text` `center` keyword. */
-    const center: string
-    /** `css-text` `justify` keyword. */
-    const justify: string
-    /** `css-text` `match-parent` keyword. */
-    const matchParent: string
+    /** Behave like block-start or inline-start depending on the float containing block’s direction and writing-mode.. `css-page-floats` */
+    const top: string
+    /** Behave like block-end or inline-end depending on the float containing block’s direction and writing-mode.. `css-page-floats` */
+    const bottom: string
+    /** `none` keyword. `css-page-floats` */
+    const none: string
   }
 
-  /** Create a `text-anchor` property (`svg`). */
-  function textAnchor(value: any): Property
-  module textAnchor {
-    /** `svg` `start` keyword. */
-    const start: string
-    /** `svg` `middle` keyword. */
-    const middle: string
-    /** `svg` `end` keyword. */
-    const end: string
+  /** Create a `clip` property. `css-masking` */
+  function clip(value: any): Property
+  module clip {
+    /** `auto` keyword. `css-masking` */
+    const auto: string
   }
 
-  /** Create a `text-autospace` property (`css-text-4`). */
-  function textAutospace(value: any): Property
-  module textAutospace {
-    /** `css-text-4` Same behavior as ideograph-alpha ideograph-numeric.. */
+  /** Create a `clip-path` property. `css-masking` */
+  function clipPath(value: any): Property
+  module clipPath {
+    /** `none` keyword. `css-masking` */
+    const none: string
+  }
+
+  /** Create a `clip-rule` property. `css-masking` */
+  function clipRule(value: any): Property
+  module clipRule {
+    /** See description of fill-rule property [SVG11].. `css-masking` */
+    const nonzero: string
+    /** See description of fill-rule property [SVG11].. `css-masking` */
+    const evenodd: string
+  }
+
+  /** Create a `color` property. `css-color` */
+  function color(value: any): Property
+  module color {
+    /** `color` keyword. `css-color` */
+    const color: string
+  }
+
+  /** Create a `color-adjust` property. `css-color-adjust` */
+  function colorAdjust(value: any): Property
+
+  /** Create a `color-interpolation` property. `svg` */
+  function colorInterpolation(value: any): Property
+  module colorInterpolation {
+    /** `auto` keyword. `svg` */
+    const auto: string
+    /** `sRGB` keyword. `svg` */
+    const sRGB: string
+    /** `linearRGB` keyword. `svg` */
+    const linearRGB: string
+  }
+
+  /** Create a `color-interpolation-filters` property. `filter-effects` */
+  function colorInterpolationFilters(value: any): Property
+  module colorInterpolationFilters {
+    /** Indicates that the user agent can choose either the sRGB or linearRGB spaces for filter effects color operations. This option indicates that the author doesn’t require that color operations occur in a particular color space.. `filter-effects` */
+    const auto: string
+    /** Indicates that filter effects color operations should occur in the gamma-encoded sRGB color space.. `filter-effects` */
+    const sRGB: string
+    /** Indicates that filter effects color operations should occur in the linear-light sRGB color space.. `filter-effects` */
+    const linearRGB: string
+  }
+
+  /** Create a `color-profile` property. `unknown` */
+  function colorProfile(value: any): Property
+
+  /** Create a `color-rendering` property. `unknown` */
+  function colorRendering(value: any): Property
+
+  /** Create a `color-scheme` property. `css-color-adjust` */
+  function colorScheme(value: any): Property
+  module colorScheme {
+    /** Indicates that the element supports the page’s supported color schemes, if they are set, or that it supports no color schemes at all otherwise.. `css-color-adjust` */
     const normal: string
+    /** Indicates that the element supports a light color scheme.. `css-color-adjust` */
+    const light: string
+    /** Indicates that the element supports a dark color scheme.. `css-color-adjust` */
+    const dark: string
+    /** Forbids the user agent from overriding the color scheme for the element.. `css-color-adjust` */
+    const only: string
   }
 
-  /** Create a `text-combine-upright` property (`css-writing-modes`). */
-  function textCombineUpright(value: any): Property
-  module textCombineUpright {
-    /** `css-writing-modes` No special processing.. */
-    const none: string
-    /** `css-writing-modes` Attempt to typeset horizontally all consecutive typographic character units within the box and text run such that they take up the space of a single typographic character unit within the vertical line box.. */
-    const all: string
-  }
-
-  /** Create a `text-decoration` property (`css-text-decor-4, css-text-decor`). */
-  function textDecoration(value: any): Property
-
-  /** Create a `text-decoration-blink` property (`unknown`). */
-  function textDecorationBlink(value: any): Property
-
-  /** Create a `text-decoration-color` property (`css-text-decor-4, css-text-decor`). */
-  function textDecorationColor(value: any): Property
-  module textDecorationColor {
-    /** `css-text-decor-4` `color` keyword. */
-    const color: string
-    /** `css-text-decor` `color` keyword. */
-    const color: string
-  }
-
-  /** Create a `text-decoration-line` property (`css-text-decor-4, css-text-decor`). */
-  function textDecorationLine(value: any): Property
-  module textDecorationLine {
-    /** `css-text-decor-4` Neither produces nor inhibits text decoration.. */
-    const none: string
-    /** `css-text-decor-4` This value indicates the type of text decoration used by the user agent to highlight spelling mistakes. Its appearance is UA-defined, and may be platform-dependent.. */
-    const spellingError: string
-    /** `css-text-decor-4` This value indicates the type of text decoration used by the user agent to highlight grammar mistakes. Its appearance is UA defined, and may be platform-dependent.. */
-    const grammarError: string
-    /** `css-text-decor` Neither produces nor inhibits text decoration.. */
-    const none: string
-  }
-
-  /** Create a `text-decoration-line-through` property (`unknown`). */
-  function textDecorationLineThrough(value: any): Property
-
-  /** Create a `text-decoration-none` property (`unknown`). */
-  function textDecorationNone(value: any): Property
-
-  /** Create a `text-decoration-overline` property (`unknown`). */
-  function textDecorationOverline(value: any): Property
-
-  /** Create a `text-decoration-skip` property (`css-text-decor-4`). */
-  function textDecorationSkip(value: any): Property
-  module textDecorationSkip {
-    /** `css-text-decor-4` The text-decoration-skip property and its sub-properties (text-decoration-skip-self, text-decoration-skip-box, text-decoration-skip-inset, text-decoration-skip-spaces, text-decoration-skip-ink) control interruptions in line decorations for which the element or an ancestor is the decorating box. The none value sets all sub-properties to none, and the auto value sets all sub-properties to their initial values.. */
-    const none: string
-    /** `css-text-decor-4` The text-decoration-skip property and its sub-properties (text-decoration-skip-self, text-decoration-skip-box, text-decoration-skip-inset, text-decoration-skip-spaces, text-decoration-skip-ink) control interruptions in line decorations for which the element or an ancestor is the decorating box. The none value sets all sub-properties to none, and the auto value sets all sub-properties to their initial values.. */
+  /** Create a `column-count` property. `css-multicol` */
+  function columnCount(value: any): Property
+  module columnCount {
+    /** means that the number of columns will be determined by other properties (e.g., column-width, if it has a non-auto value).. `css-multicol` */
     const auto: string
   }
 
-  /** Create a `text-decoration-skip-box` property (`css-text-decor-4`). */
-  function textDecorationSkipBox(value: any): Property
-  module textDecorationSkipBox {
-    /** `css-text-decor-4` Skip nothing: line decorations from ancestor decorating boxes are drawn from margin edge to margin edge.. */
-    const none: string
-    /** `css-text-decor-4` When drawing text decoration lines applied to an ancestor decorating box, skip over the box’s own margin, border, and padding areas and only draw line decorations within its content area. This value only has an effect for decorations imposed by an ancestor; a decorating box never draws over its own box decoration.. */
-    const all: string
-  }
-
-  /** Create a `text-decoration-skip-ink` property (`css-text-decor-4`). */
-  function textDecorationSkipInk(value: any): Property
-  module textDecorationSkipInk {
-    /** `css-text-decor-4` UAs may interrupt underlines and overlines where the line would cross glyph ink and to some distance to either side of the glyph outline. UAs should consider the script of the text (see note below) when determining whether to apply ink-skipping behavior to a given range of content.. */
+  /** Create a `column-fill` property. `css-multicol` */
+  function columnFill(value: any): Property
+  module columnFill {
+    /** fill columns sequentially. `css-multicol` */
     const auto: string
-    /** `css-text-decor-4` UA must draw continuous underlines and overlines, without interruptions when they cross over a glyph.. */
-    const none: string
-    /** `css-text-decor-4` UAs must interrupt underlines and overlines where the line would cross glyph ink and to some distance to either side of the glyph outline.. */
-    const all: string
-  }
-
-  /** Create a `text-decoration-skip-inset` property (`unknown`). */
-  function textDecorationSkipInset(value: any): Property
-
-  /** Create a `text-decoration-skip-self` property (`css-text-decor-4`). */
-  function textDecorationSkipSelf(value: any): Property
-  module textDecorationSkipSelf {
-    /** `css-text-decor-4` Skip this element (its entire margin box) if it is an atomic inline (such as an image or inline-block).. */
-    const auto: string
-    /** `css-text-decor-4` Skip this element (its entire margin box) unconditionally. Don’t draw across it, don’t propagate to it.. */
-    const skipAll: string
-    /** `css-text-decor-4` Line decorations from ancestor decorating boxes are applied to this box unconditionally: drawn across it as if it were text if it is an atomic inline, or propagated to it according to the usual rules if it is not.. */
-    const noSkip: string
-  }
-
-  /** Create a `text-decoration-skip-spaces` property (`css-text-decor-4`). */
-  function textDecorationSkipSpaces(value: any): Property
-  module textDecorationSkipSpaces {
-    /** `css-text-decor-4` Spacers are not skipped. They are decorated just like any other character.. */
-    const none: string
-    /** `css-text-decor-4` Skip all spacers and all word separators plus any adjacent letter-spacing or word-spacing.. */
-    const all: string
-  }
-
-  /** Create a `text-decoration-style` property (`css-text-decor-4, css-text-decor`). */
-  function textDecorationStyle(value: any): Property
-  module textDecorationStyle {
-    /** `css-text-decor-4` `solid` keyword. */
-    const solid: string
-    /** `css-text-decor-4` `double` keyword. */
-    const double: string
-    /** `css-text-decor-4` `dotted` keyword. */
-    const dotted: string
-    /** `css-text-decor-4` `dashed` keyword. */
-    const dashed: string
-    /** `css-text-decor-4` Values have the same meaning as for the border-style properties [CSS-BACKGROUNDS-3]. wavy indicates a wavy line.. */
-    const wavy: string
-    /** `css-text-decor` `solid` keyword. */
-    const solid: string
-    /** `css-text-decor` `double` keyword. */
-    const double: string
-    /** `css-text-decor` `dotted` keyword. */
-    const dotted: string
-    /** `css-text-decor` `dashed` keyword. */
-    const dashed: string
-    /** `css-text-decor` `wavy` keyword. */
-    const wavy: string
-  }
-
-  /** Create a `text-decoration-thickness` property (`css-text-decor-4`). */
-  function textDecorationThickness(value: any): Property
-  module textDecorationThickness {
-    /** `css-text-decor-4` The UA chooses an appropriate thickness for text decoration lines; see below.. */
-    const auto: string
-    /** `css-text-decor-4` If the first available font has metrics indicating a preferred underline width, use that width, otherwise behaves as auto.. */
-    const fromFont: string
-  }
-
-  /** Create a `text-decoration-trim` property (`css-text-decor-4`). */
-  function textDecorationTrim(value: any): Property
-  module textDecorationTrim {
-    /** `css-text-decor-4` `auto` keyword. */
-    const auto: string
-  }
-
-  /** Create a `text-decoration-underline` property (`unknown`). */
-  function textDecorationUnderline(value: any): Property
-
-  /** Create a `text-edge` property (`css-inline`). */
-  function textEdge(value: any): Property
-  module textEdge {
-    /** `css-inline` Use the ascent/descent plus any positive half-leading. Margin/padding/border is ignored for the purpose of sizing the line box.. */
-    const leading: string
-  }
-
-  /** Create a `text-emphasis` property (`css-text-decor-4, css-text-decor`). */
-  function textEmphasis(value: any): Property
-
-  /** Create a `text-emphasis-color` property (`css-text-decor-4, css-text-decor`). */
-  function textEmphasisColor(value: any): Property
-  module textEmphasisColor {
-    /** `css-text-decor-4` `color` keyword. */
-    const color: string
-    /** `css-text-decor` `color` keyword. */
-    const color: string
-  }
-
-  /** Create a `text-emphasis-position` property (`css-text-decor-4, css-text-decor`). */
-  function textEmphasisPosition(value: any): Property
-
-  /** Create a `text-emphasis-skip` property (`css-text-decor-4`). */
-  function textEmphasisSkip(value: any): Property
-  module textEmphasisSkip {
-    /** `css-text-decor-4` Skip word separators or other characters belonging to the Unicode separator category (Z*). (But note that emphasis marks are drawn for a space that combines with any combining characters.). */
-    const spaces: string
-    /** `css-text-decor-4` Skip punctuation. Punctuation in this definition includes characters belonging to the Unicode P* category that are not defined as symbols (see below).. */
-    const punctuation: string
-    /** `css-text-decor-4` Skip symbols. Symbols in this definition includes all typographic character units belonging to the Unicode S* general category as well as any which are NFKD-equivalent [UAX15] to the following characters from the Unicode Po category: # U+0023 NUMBER SIGN % U+0025 PERCENT SIGN ‰ U+2030 PER MILLE SIGN ‱ U+2031 PER TEN THOUSAND SIGN ٪ U+066A ARABIC PERCENT SIGN ؉ U+0609 ARABIC-INDIC PER MILLE SIGN ؊ U+060A ARABIC-INDIC PER TEN THOUSAND SIGN & U+0026 AMPERSAND ⁊ U+204A TIRONIAN SIGN E[[ @ U+0040 COMMERCIAL AT § U+00A7 SECTION SIGN ¶ U+00B6 PILCROW SIGN ⁋ U+204B REVERSED PILCROW SIGN ⁓ U+2053 SWUNG DASH 〽️ U+303D PART ALTERNATION MARK. */
-    const symbols: string
-    /** `css-text-decor-4` Skip characters where the East_Asian_Width property [UAX11] of the Unicode database [UAX44] is not F (Fullwidth) or W (Wide).. */
-    const narrow: string
-  }
-
-  /** Create a `text-emphasis-style` property (`css-text-decor-4, css-text-decor`). */
-  function textEmphasisStyle(value: any): Property
-  module textEmphasisStyle {
-    /** `css-text-decor-4` No emphasis marks.. */
-    const none: string
-    /** `css-text-decor` No emphasis marks.. */
-    const none: string
-  }
-
-  /** Create a `text-group-align` property (`css-text-4`). */
-  function textGroupAlign(value: any): Property
-  module textGroupAlign {
-    /** `css-text-4` Text alignment happens normally: group alignment is not performed.. */
-    const none: string
-    /** `css-text-4` Inline-level content is group-aligned to the inline start side, by padding the inline end side of each line box.. */
-    const start: string
-    /** `css-text-4` Inline-level content is group-aligned to the inline end side, by padding the inline start side of each line box.. */
-    const end: string
-    /** `css-text-4` Inline-level content is group-aligned to the line-left side, by padding the line-right side of each line box.. */
-    const left: string
-    /** `css-text-4` Inline-level content is group-aligned to the line-right side, by padding the line-left side of each line box.. */
-    const right: string
-    /** `css-text-4` Inline-level content is group-aligned to the center, by padding both sides of each line box, half the spacing to each side.. */
-    const center: string
-  }
-
-  /** Create a `text-indent` property (`css-text-4, css-text`). */
-  function textIndent(value: any): Property
-
-  /** Create a `text-justify` property (`css-text-4, css-text`). */
-  function textJustify(value: any): Property
-  module textJustify {
-    /** `css-text-4` Justification must not compress spacing controlled by text-spacing-trim or text-autospace. (If this value is not specified, the justification process may reduce such spacing except when the spacing is at the start or end of the line.) This keyword used to be part of text-spacing; it might need renaming to be more specific now that it’s here, as it implies that e.g. U+0020 cannot be compressed.. */
-    const noCompress: string
-    /** `css-text` The UA determines the justification algorithm to follow, based on a balance between performance and adequate presentation quality. Since justification rules vary by writing system and language, UAs should, where possible, use a justification algorithm appropriate to the text. For example, the UA could use by default a justification method that is a simple universal compromise for all writing systems—such as primarily expanding word separators and between CJK typographic letter units along with secondarily expanding between Southeast Asian typographic letter units. Then, in cases where the content language of the paragraph is known, it could choose a more language-tailored justification behavior e.g. following the Requirements for Japanese Text Layout for Japanese [JLREQ], using cursive elongation for Arabic, using inter-word for German, etc. An example of cursively-justified Arabic text, rendered by Tasmeem. Like English, Arabic can be justified by adjusting the spacing between words, but in most styles it can also be justified by calligraphically elongating or compressing the letterforms themselves. In this example, the upper text is extended to fill the line by the use of elongated (kashida) forms and swash forms, while the bottom line is compressed slightly by using a stacked combination for the characters between ت and م. By employing traditional calligraphic techniques, a typesetter can justify the line while preserving flow and color, providing a very high quality justification effect. However, this is by its nature a very script-specific effect. Mixed-script text with text-justify: auto: this interpretation uses a universal-compromise justification method, expanding at spaces as well as between CJK and Southeast Asian letters. This effectively uses inter-word + inter-ideograph spacing for lines that have word-separators and/or CJK characters and falls back to inter-cluster behavior for lines that don’t or for which the space stretches too far.. */
-    const auto: string
-    /** `css-text` Justification is disabled: there are no justification opportunities within the text. Mixed-script text with text-justify: none. */
-    const none: string
-    /** `css-text` Justification adjusts spacing at word separators only (effectively varying the used word-spacing on the line). This behavior is typical for languages that separate words using spaces, like English or Korean. Mixed-script text with text-justify: inter-word. */
-    const interWord: string
-    /** `css-text` Justification adjusts spacing between each pair of adjacent typographic character units (effectively varying the used letter-spacing on the line). This value is sometimes used in East Asian systems such as Japanese. Mixed-script text with text-justify: inter-character For legacy reasons, UAs must also support the alternate keyword distribute which must compute to inter-character, thus having the exact same meaning and behavior. UAs may treat this as a legacy value alias.. */
-    const interCharacter: string
-  }
-
-  /** Create a `text-justify-trim` property (`unknown`). */
-  function textJustifyTrim(value: any): Property
-
-  /** Create a `text-kashida` property (`unknown`). */
-  function textKashida(value: any): Property
-
-  /** Create a `text-kashida-space` property (`unknown`). */
-  function textKashidaSpace(value: any): Property
-
-  /** Create a `text-line-through` property (`unknown`). */
-  function textLineThrough(value: any): Property
-
-  /** Create a `text-line-through-color` property (`unknown`). */
-  function textLineThroughColor(value: any): Property
-
-  /** Create a `text-line-through-mode` property (`unknown`). */
-  function textLineThroughMode(value: any): Property
-
-  /** Create a `text-line-through-style` property (`unknown`). */
-  function textLineThroughStyle(value: any): Property
-
-  /** Create a `text-line-through-width` property (`unknown`). */
-  function textLineThroughWidth(value: any): Property
-
-  /** Create a `text-orientation` property (`css-writing-modes`). */
-  function textOrientation(value: any): Property
-  module textOrientation {
-    /** `css-writing-modes` Typographic character units from horizontal-only scripts are typeset sideways, i.e. 90° clockwise from their standard orientation in horizontal text. Typographic character units from vertical scripts are typeset with their intrinsic orientation. See Vertical Orientations for further details. This value is typical for layout of dominantly vertical-script text.. */
-    const mixed: string
-    /** `css-writing-modes` Typographic character units from horizontal-only scripts are typeset upright, i.e. in their standard horizontal orientation. Typographic character units from vertical scripts are typeset with their intrinsic orientation and shaped normally. See Vertical Orientations for further details. This value causes the used value of direction to be ltr, and for the purposes of bidi reordering, causes all characters to be treated as strong LTR.. */
-    const upright: string
-    /** `css-writing-modes` Causes all text to be typeset sideways, as if in a horizontal layout, but rotated 90° clockwise.. */
-    const sideways: string
-  }
-
-  /** Create a `text-overflow` property (`css-overflow-4, css-overflow`). */
-  function textOverflow(value: any): Property
-  module textOverflow {
-    /** `css-overflow` Clip inline content that overflows its block container element. Characters may be only partially rendered.. */
-    const clip: string
-    /** `css-overflow` Render an ellipsis character (U+2026) to represent clipped inline content. Implementations may substitute a more language, script, or writing-mode appropriate ellipsis character, or three dots "..." if the ellipsis character is unavailable.. */
-    const ellipsis: string
-  }
-
-  /** Create a `text-overline` property (`unknown`). */
-  function textOverline(value: any): Property
-
-  /** Create a `text-overline-color` property (`unknown`). */
-  function textOverlineColor(value: any): Property
-
-  /** Create a `text-overline-mode` property (`unknown`). */
-  function textOverlineMode(value: any): Property
-
-  /** Create a `text-overline-style` property (`unknown`). */
-  function textOverlineStyle(value: any): Property
-
-  /** Create a `text-overline-width` property (`unknown`). */
-  function textOverlineWidth(value: any): Property
-
-  /** Create a `text-rendering` property (`svg`). */
-  function textRendering(value: any): Property
-  module textRendering {
-    /** `svg` `auto` keyword. */
-    const auto: string
-    /** `svg` `optimizeSpeed` keyword. */
-    const optimizeSpeed: string
-    /** `svg` `optimizeLegibility` keyword. */
-    const optimizeLegibility: string
-    /** `svg` `geometricPrecision` keyword. */
-    const geometricPrecision: string
-  }
-
-  /** Create a `text-shadow` property (`css-text-decor-4, css-text-decor`). */
-  function textShadow(value: any): Property
-  module textShadow {
-    /** `css-text-decor-4` `none` keyword. */
-    const none: string
-    /** `css-text-decor` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `text-size-adjust` property (`css-size-adjust`). */
-  function textSizeAdjust(value: any): Property
-  module textSizeAdjust {
-    /** `css-size-adjust` Renderers must use the default size adjustment when displaying on a small device.. */
-    const auto: string
-    /** `css-size-adjust` Renderers must not do size adjustment when displaying on a small device.. */
-    const none: string
-  }
-
-  /** Create a `text-space-collapse` property (`css-text-4`). */
-  function textSpaceCollapse(value: any): Property
-  module textSpaceCollapse {
-    /** `css-text-4` This value directs user agents to collapse sequences of white space into a single character (or in some cases, no character).. */
-    const collapse: string
-    /** `css-text-4` This value directs user agents to “discard” all white space in the element. Does this preserve line break opportunities or no? Do we need a "hide" value?. */
-    const discard: string
-    /** `css-text-4` This value prevents user agents from collapsing sequences of white space. Segment breaks are preserved as forced line breaks.. */
-    const preserve: string
-    /** `css-text-4` This value collapses white space as for collapse, but preserves segment breaks as forced line breaks.. */
-    const preserveBreaks: string
-    /** `css-text-4` This value prevents user agents from collapsing sequences of white space, and converts tabs and segment breaks to spaces. (This value is intended to match the behavior of xml:space="preserve" in SVG.). */
-    const preserveSpaces: string
-  }
-
-  /** Create a `text-space-trim` property (`css-text-4`). */
-  function textSpaceTrim(value: any): Property
-  module textSpaceTrim {
-    /** `css-text-4` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `text-spacing` property (`css-text-4`). */
-  function textSpacing(value: any): Property
-  module textSpacing {
-    /** `css-text-4` Specifies the baseline behavior, setting each sub-property to its initial value. Equivalent to space-first ideograph-alpha ideograph-numeric.. */
-    const normal: string
-    /** `css-text-4` Turns off all text-spacing features: sets text-spacing-trim to space-all and text-autospace to no-autospace.. */
-    const none: string
-    /** `css-text-4` Sets both text-spacing-trim and text-autospace to auto.. */
-    const auto: string
-  }
-
-  /** Create a `text-spacing-trim` property (`css-text-4`). */
-  function textSpacingTrim(value: any): Property
-  module textSpacingTrim {
-    /** `css-text-4` The user agent chooses a set of typographically high quality spacing values. Different user agents running on different platforms may pick different values. Do we need auto? It would be weird for the author to choose platform-dependent behavior at the start of the first line, and it should otherwise use trim-auto.. */
-    const auto: string
-  }
-
-  /** Create a `text-transform` property (`mathml-core, css-text-4, css-text`). */
-  function textTransform(value: any): Property
-  module textTransform {
-    /** `css-text-4` No effects.. */
-    const none: string
-    /** `css-text` No effects.. */
-    const none: string
-  }
-
-  /** Create a `text-underline` property (`unknown`). */
-  function textUnderline(value: any): Property
-
-  /** Create a `text-underline-color` property (`unknown`). */
-  function textUnderlineColor(value: any): Property
-
-  /** Create a `text-underline-mode` property (`unknown`). */
-  function textUnderlineMode(value: any): Property
-
-  /** Create a `text-underline-offset` property (`css-text-decor-4`). */
-  function textUnderlineOffset(value: any): Property
-  module textUnderlineOffset {
-    /** `css-text-decor-4` The UA chooses an appropriate offset for underlines. However, this offset must be zero if the computed value of text-underline-position is from-font and the UA was able to extract an appropriate metric to use from the font.. */
-    const auto: string
-  }
-
-  /** Create a `text-underline-position` property (`css-text-decor-4, css-text-decor`). */
-  function textUnderlinePosition(value: any): Property
-  module textUnderlinePosition {
-    /** `css-text-decor-4` The user agent may use any algorithm to determine the underline’s position; however it must be placed at or under the alphabetic baseline. A typical “alphabetic” underline is positioned just below the alphabetic baseline. */
-    const auto: string
-    /** `css-text-decor` The user agent may use any algorithm to determine the underline’s position; however it must be placed at or under the alphabetic baseline. A typical “alphabetic” underline is positioned just below the alphabetic baseline. */
-    const auto: string
-  }
-
-  /** Create a `text-underline-style` property (`unknown`). */
-  function textUnderlineStyle(value: any): Property
-
-  /** Create a `text-underline-width` property (`unknown`). */
-  function textUnderlineWidth(value: any): Property
-
-  /** Create a `text-wrap` property (`css-text-4`). */
-  function textWrap(value: any): Property
-  module textWrap {
-    /** `css-text-4` Inline-level content may break across lines at allowed soft wrap opportunities, as determined by the line-breaking rules in effect in order to minimize inline-axis overflow. The exact algorithm is UA-defined. The algorithm may consider multiple lines when making break decisions. The UA may bias for speed over best layout. The UA must not attempt to even out all lines (including the last) as for balance. This value selects the UA’s preferred (or most Web-compatible) wrapping algorithm.. */
-    const wrap: string
-    /** `css-text-4` Inline-level content does not break across lines; content that does not fit within the block container overflows it.. */
-    const nowrap: string
-    /** `css-text-4` Same as wrap for inline boxes. For block containers that establish an inline formatting context, line breaks are chosen to balance the remaining (empty) space in each line box, if better balance than wrap is possible. This must not change the number of line boxes the block would contain if text-wrap were set to wrap. The remaining space to consider is that which remains after placing floats and inline content, but before any adjustments due to text justification. Line boxes are balanced when the standard deviation from the average inline-size of the remaining space in each line box is reduced over the block (including lines that end in a forced break). The exact algorithm is UA-defined. UAs may treat this value as wrap if there are more than ten lines to balance.. */
+    /** Balance content equally between columns, as far as possible. In fragmented contexts, only the last fragment is balanced.. `css-multicol` */
     const balance: string
-    /** `css-text-4` When applied to a block container that establishes an inline formatting context, specifies that content on subsequent lines should not be considered when making break decisions so that when editing text any content before the cursor remains stable; otherwise equivalent to wrap,. */
-    const stable: string
-    /** `css-text-4` When applied to a block container that establishes an inline formatting context, specifies the UA should bias for better layout over speed, and is expected to consider multiple lines, when making break decisions. Otherwise equivalent to wrap,. */
-    const pretty: string
+    /** Balance content equally between columns, as far as possible. In fragmented contexts, all fragments are balanced.. `css-multicol` */
+    const balanceAll: string
   }
 
-  /** Create a `top` property (`css-position`). */
-  function top(value: any): Property
-  module top {
-    /** `css-position` Represents an unconstrained inset; the exact meaning depends on the positioning scheme.. */
-    const auto: string
-  }
-
-  /** Create a `touch-action` property (`compat`). */
-  function touchAction(value: any): Property
-  module touchAction {
-    /** `compat` `auto` keyword. */
-    const auto: string
-    /** `compat` `none` keyword. */
-    const none: string
-    /** `compat` `manipulation` keyword. */
-    const manipulation: string
-  }
-
-  /** Create a `touch-action-delay` property (`unknown`). */
-  function touchActionDelay(value: any): Property
-
-  /** Create a `transform` property (`css-transforms`). */
-  function transform(value: any): Property
-  module transform {
-    /** `css-transforms` `none` keyword. */
-    const none: string
-  }
-
-  /** Create a `transform-box` property (`css-transforms`). */
-  function transformBox(value: any): Property
-  module transformBox {
-    /** `css-transforms` Uses the content box as reference box. The reference box of a table is the border box of its table wrapper box, not its table box.. */
-    const contentBox: string
-    /** `css-transforms` Uses the border box as reference box. The reference box of a table is the border box of its table wrapper box, not its table box.. */
-    const borderBox: string
-    /** `css-transforms` Uses the object bounding box as reference box.. */
-    const fillBox: string
-    /** `css-transforms` Uses the stroke bounding box as reference box.. */
-    const strokeBox: string
-    /** `css-transforms` Uses the nearest SVG viewport as reference box. If a viewBox attribute is specified for the SVG viewport creating element: The reference box is positioned at the origin of the coordinate system established by the viewBox attribute. The dimension of the reference box is set to the width and height values of the viewBox attribute.. */
-    const viewBox: string
-  }
-
-  /** Create a `transform-origin` property (`css-transforms`). */
-  function transformOrigin(value: any): Property
-
-  /** Create a `transform-origin-x` property (`unknown`). */
-  function transformOriginX(value: any): Property
-
-  /** Create a `transform-origin-y` property (`unknown`). */
-  function transformOriginY(value: any): Property
-
-  /** Create a `transform-origin-z` property (`unknown`). */
-  function transformOriginZ(value: any): Property
-
-  /** Create a `transform-style` property (`css-transforms-2`). */
-  function transformStyle(value: any): Property
-  module transformStyle {
-    /** `css-transforms-2` `flat` keyword. */
-    const flat: string
-    /** `css-transforms-2` `preserve-3d` keyword. */
-    const preserve3d: string
-  }
-
-  /** Create a `transition` property (`css-transitions`). */
-  function transition(value: any): Property
-
-  /** Create a `transition-delay` property (`css-transitions`). */
-  function transitionDelay(value: any): Property
-
-  /** Create a `transition-duration` property (`css-transitions`). */
-  function transitionDuration(value: any): Property
-
-  /** Create a `transition-property` property (`css-transitions`). */
-  function transitionProperty(value: any): Property
-  module transitionProperty {
-    /** `css-transitions` A value of none means that no property will transition. Otherwise, a list of properties to be transitioned, or the keyword all which indicates that all properties are to be transitioned, is given.. */
-    const none: string
-  }
-
-  /** Create a `transition-timing-function` property (`css-transitions`). */
-  function transitionTimingFunction(value: any): Property
-
-  /** Create a `translate` property (`css-transforms-2`). */
-  function translate(value: any): Property
-  module translate {
-    /** `css-transforms-2` All three properties accept (and default to) the value none, which produces no transform at all. In particular, this value does not trigger the creation of a stacking context or containing block for all descendants, while all other values (including “identity” transforms like translate: 0px) create a stacking context and containing block for all descendants, per usual for transforms.. */
-    const none: string
-  }
-
-  /** Create a `uc-alt-skin` property (`unknown`). */
-  function ucAltSkin(value: any): Property
-
-  /** Create a `uc-skin` property (`unknown`). */
-  function ucSkin(value: any): Property
-
-  /** Create a `unicode-bidi` property (`css-writing-modes`). */
-  function unicodeBidi(value: any): Property
-  module unicodeBidi {
-    /** `css-writing-modes` The box does not open an additional level of embedding with respect to the bidirectional algorithm. For inline boxes, implicit reordering works across box boundaries.. */
+  /** Create a `column-gap` property. `css-align` */
+  function columnGap(value: any): Property
+  module columnGap {
+    /** The normal represents a used value of 1em on multi-column containers, and a used value of 0px in all other contexts.. `css-align` */
     const normal: string
-    /** `css-writing-modes` If the box is inline, this value creates a directional embedding by opening an additional level of embedding with respect to the bidirectional algorithm. The direction of this embedding level is given by the direction property. Inside the box, reordering is done implicitly.. */
-    const embed: string
-    /** `css-writing-modes` On an inline box, this bidi-isolates its contents. This is similar to a directional embedding (and increases the embedding level accordingly) except that each sequence of inline-level boxes uninterrupted by any block boundary or forced paragraph break is treated as an isolated sequence: the content within the sequence is ordered as if inside an independent paragraph with the base directionality specified by the box’s direction property. for the purpose of bidi resolution in its containing bidi paragraph, the sequence is treated as if it were a single Object Replacement Character (U+FFFC). In effect, neither is the content inside the box bidi-affected by the content surrounding the box, nor is the content surrounding the box bidi-affected by the content or specified directionality of the box. However, forced paragraph breaks within the box still create a corresponding break in the containing paragraph.. */
-    const isolate: string
-    /** `css-writing-modes` This value puts the box’s immediate inline content in a directional override. For an inline, this means that the box acts like a directional embedding in the bidirectional algorithm, except that reordering within it is strictly in sequence according to the direction property; the implicit part of the bidirectional algorithm is ignored. For a block container, the override is applied to an anonymous inline box that surrounds all of its content.. */
-    const bidiOverride: string
-    /** `css-writing-modes` This combines the isolation behavior of isolate with the directional override behavior of bidi-override: to surrounding content, it is equivalent to isolate, but within the box content is ordered as if bidi-override were specified. It effectively nests a directional override inside an isolated sequence.. */
-    const isolateOverride: string
-    /** `css-writing-modes` This value behaves as isolate except that for the purposes of the Unicode bidirectional algorithm, the base directionality of each of the box’s bidi paragraphs (if a block container) or isolated sequences (if an inline) is determined by following the heuristic in rules P2 and P3 of the Unicode bidirectional algorithm (rather than by using the direction property of the box).. */
-    const plaintext: string
   }
 
-  /** Create a `unicode-range` property (`unknown`). */
-  function unicodeRange(value: any): Property
+  /** Create a `column-progression` property. `unknown` */
+  function columnProgression(value: any): Property
 
-  /** Create a `user-select` property (`css-ui`). */
-  function userSelect(value: any): Property
-  module userSelect {
-    /** `css-ui` The used value of auto is determined as follows: On the ::before and ::after pseudo-elements, the used value is none If the element is an editable element, the used value is contain Otherwise, if the used value of user-select on the parent of this element is all, the used value is all Otherwise, if the used value of user-select on the parent of this element is none, the used value is none Otherwise, the used value is text. */
-    const auto: string
-    /** `css-ui` The element imposes no constraint on the selection.. */
-    const text: string
-    /** `css-ui` The UA must not allow selections to be started in this element. A selection started outside of this element must not end in this element. If the user attempts to create such a selection, the UA must instead end the selection range at the element boundary. However, if this element has descendants on which the used value of user-select is not none, selections that start and end within these descendants are allowed. The UA must allow selections to extend across this element, and must exclude this element from such a selection. An exception is made for UAs which do not support multiple ranges per selection, and they may include this element. If the element has descendants on which the used value of user-select is not none, these descendants must be included in a selection extending across the element. This specification makes no normative requirement about the behavior of the clipboard. however, UAs are encouraged to keep the visual selection consistent with what would get copied to the clipboard when copying. Copying text that does not appear to be selected, or vice versa, is highly confusing to users. Attempting to start a selection in an element where user-select is none, such as by clicking in it or starting a drag in it, must not cause a pre-existing selection to become unselected or to be affected in any way. As user-select is a UI convenience mechanism, not a copy protection mechanism, the UA may provide an alternative way for the user to explicitly select the text even when user-select is none.. */
+  /** Create a `column-rule` property. `css-multicol` */
+  function columnRule(value: any): Property
+
+  /** Create a `column-rule-color` property. `css-multicol` */
+  function columnRuleColor(value: any): Property
+  module columnRuleColor {
+    /** `color` keyword. `css-multicol` */
+    const color: string
+  }
+
+  /** Create a `column-rule-style` property. `css-multicol` */
+  function columnRuleStyle(value: any): Property
+  module columnRuleStyle {
+    /** No border. Color and width are ignored (i.e., the border has width 0). Note this means that the initial value of border-image-width will also resolve to zero.. `css-multicol` */
     const none: string
-    /** `css-ui` UAs must not allow a selection which is started in this element to be extended outside of this element. A selection started outside of this element must not end in this element. If the user attempts to create such a selection, the UA must instead end the selection range at the element boundary. The UA must allow selections to extend across this element, and such selections must include the content of the element.. */
-    const contain: string
-    /** `css-ui` The content of the element must be selected atomically: If a selection would contain part of the element, then the selection must contain the entire element including all its descendants. If the element is selected and the used value of user-select on its parent is all, then the parent must be included in the selection, recursively. If this element has descendants on which the used value of user-select is not all and if a selection is entirely contained in these descendants, then the selection is not extended to include this whole element.. */
+    /** Same as none, but has different behavior in the border conflict resolution rules for border-collapsed tables [CSS2].. `css-multicol` */
+    const hidden: string
+    /** A series of round dots.. `css-multicol` */
+    const dotted: string
+    /** A series of square-ended dashes.. `css-multicol` */
+    const dashed: string
+    /** A single line segment.. `css-multicol` */
+    const solid: string
+    /** Two parallel solid lines with some space between them. (The thickness of the lines is not specified, but the sum of the lines and the space must equal border-width.). `css-multicol` */
+    const double: string
+    /** Looks as if it were carved in the canvas. (This is typically achieved by creating a “shadow” from two colors that are slightly lighter and darker than the border-color.). `css-multicol` */
+    const groove: string
+    /** Looks as if it were coming out of the canvas.. `css-multicol` */
+    const ridge: string
+    /** Looks as if the content on the inside of the border is sunken into the canvas. Treated as ridge in the collapsing border model. [CSS2]. `css-multicol` */
+    const inset: string
+    /** Looks as if the content on the inside of the border is coming out of the canvas. Treated as groove in the collapsing border model. [CSS2]. `css-multicol` */
+    const outset: string
+  }
+
+  /** Create a `column-rule-width` property. `css-multicol` */
+  function columnRuleWidth(value: any): Property
+  module columnRuleWidth {
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-multicol` */
+    const thin: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-multicol` */
+    const medium: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-multicol` */
+    const thick: string
+  }
+
+  /** Create a `column-span` property. `css-multicol-2, css-multicol` */
+  function columnSpan(value: any): Property
+  module columnSpan {
+    /** Add final content from previous level. `css-multicol-2` */
+    const none: string
+    /** Add final content from previous level. `css-multicol-2` */
+    const all: string
+    /** The number of columns spanned by the element depends on its min-content outer size in the inline direction of the multi-column container. If it is smaller than the used value of column-width, this is the same as if column-span: none had been specified. Otherwise, the number of columns spanned is the smallest positive integer n for which n × column-width + (n - 1) × column-gap is larger than the min-content outer size. If this would be larger than the number of columns, the number of columns spanned will be the same as if column-span: all had been specified. If column-span: 1 does not do the same as column-span: none, should this behave as column-span: 1 or as column-span: none when the element is small enough?. `css-multicol-2` */
+    const auto: string
+    /** The element does not span multiple columns.. `css-multicol` */
+    const none: string
+    /** The element forces a column break and is taken out of flow to span across all columns of the nearest multicol ancestor in the same block formatting context. Content in the normal flow that appears before the element is automatically balanced across all columns in the immediately preceding multi-column line before the element appears, and any subsequent content flows into a new multi-column line after the element. The element establishes an independent formatting context.. `css-multicol` */
     const all: string
   }
 
-  /** Create a `user-zoom` property (`unknown`). */
-  function userZoom(value: any): Property
-
-  /** Create a `vector-effect` property (`svg`). */
-  function vectorEffect(value: any): Property
-  module vectorEffect {
-    /** `svg` `none` keyword. */
-    const none: string
-    /** `svg` `non-scaling-stroke` keyword. */
-    const nonScalingStroke: string
-    /** `svg` `non-scaling-size` keyword. */
-    const nonScalingSize: string
-    /** `svg` `non-rotation` keyword. */
-    const nonRotation: string
-    /** `svg` `fixed-position` keyword. */
-    const fixedPosition: string
+  /** Create a `column-width` property. `css-sizing, css-multicol` */
+  function columnWidth(value: any): Property
+  module columnWidth {
+    /** means that the column width will be determined by other properties (e.g., column-count, if it has a non-auto value).. `css-multicol` */
+    const auto: string
   }
 
-  /** Create a `vertical-align` property (`css-inline`). */
-  function verticalAlign(value: any): Property
+  /** Create a `columns` property. `css-multicol` */
+  function columns(value: any): Property
 
-  /** Create a `view-timeline` property (`scroll-animations`). */
-  function viewTimeline(value: any): Property
+  /** Create a `contain` property. `css-contain, css-contain-3` */
+  function contain(value: any): Property
+  module contain {
+    /** This value indicates that the property has no effect. The element renders as normal, with no containment effects applied.. `css-contain` */
+    const none: string
+    /** This value computes to size layout paint style, and thus turns on all forms of containment for the element.. `css-contain` */
+    const strict: string
+    /** This value computes to layout paint style, and thus turns on all forms of containment except size containment for the element.. `css-contain` */
+    const content: string
+    /** The value turns on size containment for the element. This ensures that the containment box can be laid out without needing to examine its descendants.. `css-contain` */
+    const size: string
+    /** This value turns on layout containment for the element. This ensures that the containment box is totally opaque for layout purposes; nothing outside can affect its internal layout, and vice versa.. `css-contain` */
+    const layout: string
+    /** This value turns on style containment for the element. This ensures that, for properties which can have effects on more than just an element and its descendants, those effects don’t escape the element.. `css-contain` */
+    const style: string
+    /** This value turns on paint containment for the element. This ensures that the descendants of the containment box don’t display outside its bounds, so if an element is off-screen or otherwise not visible, its descendants are also guaranteed to be not visible.. `css-contain` */
+    const paint: string
+  }
 
-  /** Create a `view-timeline-axis` property (`scroll-animations`). */
-  function viewTimelineAxis(value: any): Property
+  /** Create a `contain-intrinsic-block-size` property. `css-sizing-4` */
+  function containIntrinsicBlockSize(value: any): Property
+  module containIntrinsicBlockSize {
+    /** The corresponding axis does not have an explicit intrinsic inner size.. `css-sizing-4` */
+    const none: string
+    /** `auto` keyword. `css-sizing-4` */
+    const auto: string
+  }
 
-  /** Create a `view-timeline-inset` property (`scroll-animations`). */
-  function viewTimelineInset(value: any): Property
+  /** Create a `contain-intrinsic-height` property. `css-sizing-4` */
+  function containIntrinsicHeight(value: any): Property
+  module containIntrinsicHeight {
+    /** The corresponding axis does not have an explicit intrinsic inner size.. `css-sizing-4` */
+    const none: string
+    /** `auto` keyword. `css-sizing-4` */
+    const auto: string
+  }
 
-  /** Create a `view-timeline-name` property (`scroll-animations`). */
-  function viewTimelineName(value: any): Property
-  module viewTimelineName {
-    /** `scroll-animations` `none` keyword. */
+  /** Create a `contain-intrinsic-inline-size` property. `css-sizing-4` */
+  function containIntrinsicInlineSize(value: any): Property
+  module containIntrinsicInlineSize {
+    /** The corresponding axis does not have an explicit intrinsic inner size.. `css-sizing-4` */
+    const none: string
+    /** `auto` keyword. `css-sizing-4` */
+    const auto: string
+  }
+
+  /** Create a `contain-intrinsic-size` property. `css-sizing-4` */
+  function containIntrinsicSize(value: any): Property
+  module containIntrinsicSize {
+    /** The corresponding axis does not have an explicit intrinsic inner size.. `css-sizing-4` */
+    const none: string
+    /** `auto` keyword. `css-sizing-4` */
+    const auto: string
+  }
+
+  /** Create a `contain-intrinsic-width` property. `css-sizing-4` */
+  function containIntrinsicWidth(value: any): Property
+  module containIntrinsicWidth {
+    /** The corresponding axis does not have an explicit intrinsic inner size.. `css-sizing-4` */
+    const none: string
+    /** `auto` keyword. `css-sizing-4` */
+    const auto: string
+  }
+
+  /** Create a `container` property. `css-contain-3` */
+  function container(value: any): Property
+
+  /** Create a `container-name` property. `css-contain-3` */
+  function containerName(value: any): Property
+  module containerName {
+    /** The query container has no query container name.. `css-contain-3` */
     const none: string
   }
 
-  /** Create a `view-transition-name` property (`css-view-transitions`). */
-  function viewTransitionName(value: any): Property
-  module viewTransitionName {
-    /** `css-view-transitions` The element will not participate in a view transition.. */
+  /** Create a `container-type` property. `css-contain-3` */
+  function containerType(value: any): Property
+  module containerType {
+    /** The element is not a query container for any container size queries, but remains a query container for container style queries.. `css-contain-3` */
+    const normal: string
+    /** Establishes a query container for container size queries on both the inline and block axis. Applies layout containment, style containment, and size containment to the principal box.. `css-contain-3` */
+    const size: string
+    /** Establishes a query container for container size queries on the container’s own inline axis. Applies layout containment, style containment, and inline-size containment to the principal box.. `css-contain-3` */
+    const inlineSize: string
+  }
+
+  /** Create a `content` property. `css-gcpm, css-content` */
+  function content(value: any): Property
+  module content {
+    /** For an element or page margin box, this computes to contents. For ::before and ::after, this computes to none. For ::marker, ::placeholder, and ::file-selector-button, this computes to itself (normal).. `css-content` */
+    const normal: string
+    /** On elements, this inhibits the children of the element from being rendered as children of this element, as if the element was empty. On pseudo-elements it inhibits the creation of the pseudo-element as if it had display: none. In neither case does it prevent any pseudo-elements which have this element or pseudo-element as an originating element from being generated.. `css-content` */
     const none: string
   }
 
-  /** Create a `viewport-fill` property (`unknown`). */
-  function viewportFill(value: any): Property
-
-  /** Create a `viewport-fill-opacity` property (`unknown`). */
-  function viewportFillOpacity(value: any): Property
-
-  /** Create a `viewport-fit` property (`unknown`). */
-  function viewportFit(value: any): Property
-
-  /** Create a `visibility` property (`css-display`). */
-  function visibility(value: any): Property
-  module visibility {
-    /** `css-display` The generated box is visible, as normal.. */
+  /** Create a `content-visibility` property. `css-contain` */
+  function contentVisibility(value: any): Property
+  module contentVisibility {
+    /** No effect. The element’s contents are laid out and rendered as normal.. `css-contain` */
     const visible: string
-    /** `css-display` Any boxes generated by the element are invisible. Descendants of the element can, however, be visible if they have visibility: visible.. */
+    /** Changes the used value of the contain property so as to turn on layout containment, style containment, and paint containment for the element. If the element is not relevant to the user, it also skips its contents. Unlike hidden, the skipped contents must still be available as normal to user-agent features such as find-in-page, tab order navigation, etc., and must be focusable and selectable as normal.. `css-contain` */
+    const auto: string
+    /** The element skips its contents. The skipped contents must not be accessible to user-agent features, such as find-in-page, tab-order navigation, etc., nor be selectable or focusable.. `css-contain` */
     const hidden: string
-    /** `css-display` Indicates that the box is collapsed, which can cause it to take up less space than otherwise in a formatting-context–specific way. See dynamic row and column effects in tables [CSS2] and collapsed flex items in flex layout [CSS-FLEXBOX-1]. In all other cases, however, (i.e. unless otherwise specified) this simply makes the box invisible, just like hidden.. */
-    const collapse: string
   }
 
-  /** Create a `voice-balance` property (`css-speech`). */
-  function voiceBalance(value: any): Property
-  module voiceBalance {
-    /** `css-speech` Same as -100.. */
-    const left: string
-    /** `css-speech` Same as 0.. */
-    const center: string
-    /** `css-speech` Same as 100.. */
-    const right: string
-    /** `css-speech` Moves the sound to the left by subtracting 20 from the inherited voice-balance value (and by clamping the resulting number to -100).. */
-    const leftwards: string
-    /** `css-speech` Moves the sound to the right, by adding 20 to the inherited voice-balance value (and by clamping the resulting number to 100).. */
-    const rightwards: string
-  }
-
-  /** Create a `voice-duration` property (`css-speech`). */
-  function voiceDuration(value: any): Property
-  module voiceDuration {
-    /** `css-speech` Resolves to a used value corresponding to the duration of the speech synthesis when using the inherited voice-rate.. */
+  /** Create a `continue` property. `css-overflow-4` */
+  function _continue(value: any): Property
+  module _continue {
+    /** If the box has more content than can fit, the excess content is handled according to the usual rules.. `css-overflow-4` */
     const auto: string
+    /** The box becomes a fragmentation container that captures region breaks, if it is not already. [CSS-BREAK-3] Content after the first region break is not rendered (see below). (If the box is a multi-column container, any overflow columns are also not rendered.). `css-overflow-4` */
+    const discard: string
+    /** Content that doesn’t fit overflows, according to the overflow property. `css-overflow-4` */
+    const overflow: string
+    /** Content that doesn’t fit paginates. This creates a paginated view inside the element similar to the way that 'overflow: scroll' creates a scrollable view. See paginated overflow. `css-overflow-4` */
+    const paginate: string
+    /** content that doesn’t fit causes the element to copy itself and continue laying out. See fragment overflow.. `css-overflow-4` */
+    const fragments: string
   }
 
-  /** Create a `voice-family` property (`css-speech`). */
-  function voiceFamily(value: any): Property
-  module voiceFamily {
-    /** `css-speech` Indicates that the voice-family value gets inherited and used regardless of any potential language change within the content markup (see the section below about voice selection and language handling). This value behaves as inherit when applied to the root element. Note: Descendants of the element automatically inherit the preserve value, unless it is explicitly overridden by other voice-family values (e.g. name, gender, age).. */
-    const preserve: string
-  }
-
-  /** Create a `voice-pitch` property (`css-speech`). */
-  function voicePitch(value: any): Property
-
-  /** Create a `voice-range` property (`css-speech`). */
-  function voiceRange(value: any): Property
-
-  /** Create a `voice-rate` property (`css-speech`). */
-  function voiceRate(value: any): Property
-
-  /** Create a `voice-stress` property (`css-speech`). */
-  function voiceStress(value: any): Property
-  module voiceStress {
-    /** `css-speech` Represents the default emphasis produced by the speech synthesizer.. */
-    const normal: string
-    /** `css-speech` These values are monotonically non-decreasing in strength. Their application results in more emphasis than what the speech synthesizer would normally produce (i.e. more than the value corresponding to normal).. */
-    const strong: string
-    /** `css-speech` These values are monotonically non-decreasing in strength. Their application results in more emphasis than what the speech synthesizer would normally produce (i.e. more than the value corresponding to normal).. */
-    const moderate: string
-    /** `css-speech` Prevents the synthesizer from emphasizing text it would normally emphasize.. */
+  /** Create a `copy-into` property. `css-gcpm-4` */
+  function copyInto(value: any): Property
+  module copyInto {
+    /** `none` keyword. `css-gcpm-4` */
     const none: string
-    /** `css-speech` Effectively the opposite of emphasizing a word.. */
-    const reduced: string
   }
 
-  /** Create a `voice-volume` property (`css-speech`). */
-  function voiceVolume(value: any): Property
-  module voiceVolume {
-    /** `css-speech` Specifies that no sound is generated (the text is read "silently").. */
-    const silent: string
+  /** Create a `corner-shape` property. `css-backgrounds-4` */
+  function cornerShape(value: any): Property
+  module cornerShape {
+    /** Border radii define a convex elliptical curve at the corner.. `css-backgrounds-4` */
+    const round: string
+    /** Border radii define a diagonal slice at the corner.. `css-backgrounds-4` */
+    const angle: string
   }
 
-  /** Create a `volume` property (`unknown`). */
-  function volume(value: any): Property
+  /** Create a `corners` property. `css-backgrounds-4` */
+  function corners(value: any): Property
 
-  /** Create a `white-space` property (`css-text-4, css-text`). */
-  function whiteSpace(value: any): Property
-  module whiteSpace {
-    /** `css-text-4` This value directs user agents to collapse sequences of white space into a single character (or in some cases, no character). Lines may wrap at allowed soft wrap opportunities, as determined by the line-breaking rules in effect, in order to minimize inline-axis overflow.. */
-    const normal: string
-    /** `css-text-4` This value prevents user agents from collapsing sequences of white space. Segment breaks such as line feeds are preserved as forced line breaks. Lines only break at forced line breaks; content that does not fit within the block container overflows it.. */
-    const pre: string
-    /** `css-text-4` Like normal, this value collapses white space; but like pre, it does not allow wrapping.. */
-    const nowrap: string
-    /** `css-text-4` Like pre, this value preserves white space; but like normal, it allows wrapping.. */
-    const preWrap: string
-    /** `css-text-4` The behavior is identical to that of pre-wrap, except that: Any sequence of preserved white space or other space separators always takes up space, including at the end of the line. Tests white-space-intrinsic-size-001.html (live test) (source) white-space-intrinsic-size-002.html (live test) (source) A line breaking opportunity exists after every preserved white space character and after every other space separator (including between adjacent spaces). Tests overflow-wrap-break-word-002.html (live test) (source) overflow-wrap-anywhere-002.html (live test) (source) break-spaces-001.html (live test) (source) break-spaces-002.html (live test) (source) break-spaces-003.html (live test) (source) break-spaces-004.html (live test) (source) break-spaces-005.html (live test) (source) break-spaces-006.html (live test) (source) break-spaces-007.html (live test) (source) break-spaces-008.html (live test) (source) break-spaces-009.html (live test) (source) break-spaces-010.html (live test) (source) break-spaces-051.html (live test) (source) break-spaces-052.html (live test) (source) white-space-pre-034.html (live test) (source) textarea-break-spaces-001.html (live test) (source) textarea-break-spaces-002.html (live test) (source) break-spaces-before-first-char-001.html (live test) (source) break-spaces-before-first-char-002.html (live test) (source) break-spaces-before-first-char-003.html (live test) (source) break-spaces-before-first-char-004.html (live test) (source) break-spaces-before-first-char-005.html (live test) (source) break-spaces-before-first-char-006.html (live test) (source) break-spaces-before-first-char-007.html (live test) (source) break-spaces-before-first-char-008.html (live test) (source) break-spaces-before-first-char-009.html (live test) (source) break-spaces-before-first-char-010.html (live test) (source) break-spaces-before-first-char-011.html (live test) (source) break-spaces-before-first-char-012.html (live test) (source) break-spaces-before-first-char-013.html (live test) (source) break-spaces-before-first-char-014.html (live test) (source) break-spaces-before-first-char-015.html (live test) (source) break-spaces-before-first-char-016.html (live test) (source) break-spaces-before-first-char-017.html (live test) (source) break-spaces-before-first-char-018.html (live test) (source) break-spaces-before-first-ideographic-char-001.html (live test) (source) break-spaces-before-first-ideographic-char-002.html (live test) (source) break-spaces-before-first-ideographic-char-003.html (live test) (source) break-spaces-before-first-ideographic-char-004.html (live test) (source) break-spaces-before-first-ideographic-char-005.html (live test) (source) break-spaces-before-first-ideographic-char-006.html (live test) (source) break-spaces-before-first-ideographic-char-007.html (live test) (source) break-spaces-before-first-ideographic-char-008.html (live test) (source) break-spaces-before-first-ideographic-char-009.html (live test) (source) break-spaces-before-first-ideographic-char-010.html (live test) (source) break-spaces-before-first-ideographic-char-011.html (live test) (source) break-spaces-before-first-ideographic-char-012.html (live test) (source) break-spaces-before-first-ideographic-char-013.html (live test) (source) break-spaces-before-first-ideographic-char-014.html (live test) (source) break-spaces-before-first-ideographic-char-015.html (live test) (source) break-spaces-before-first-ideographic-char-016.html (live test) (source) break-spaces-before-first-ideographic-char-017.html (live test) (source) break-spaces-before-first-ideographic-char-018.html (live test) (source) tab-stop-threshold-005.html (live test) (source) tab-stop-threshold-006.html (live test) (source) word-break-break-all-017.html (live test) (source) break-spaces-tab-001.html (live test) (source) break-spaces-tab-002.html (live test) (source) break-spaces-tab-003.html (live test) (source) break-spaces-tab-004.html (live test) (source) break-spaces-tab-005.html (live test) (source) break-spaces-tab-006.html (live test) (source) break-spaces-with-overflow-wrap-001.html (live test) (source) break-spaces-with-overflow-wrap-002.html (live test) (source) break-spaces-with-overflow-wrap-003.html (live test) (source) break-spaces-with-overflow-wrap-004.html (live test) (source) break-spaces-with-overflow-wrap-005.html (live test) (source) break-spaces-with-overflow-wrap-006.html (live test) (source) break-spaces-with-overflow-wrap-007.html (live test) (source) break-spaces-with-overflow-wrap-008.html (live test) (source) break-spaces-with-overflow-wrap-009.html (live test) (source) break-spaces-with-overflow-wrap-010.html (live test) (source) break-spaces-with-ideographic-space-001.html (live test) (source) break-spaces-with-ideographic-space-002.html (live test) (source) break-spaces-with-ideographic-space-003.html (live test) (source) break-spaces-with-ideographic-space-004.html (live test) (source) break-spaces-with-ideographic-space-005.html (live test) (source) break-spaces-with-ideographic-space-006.html (live test) (source) break-spaces-with-ideographic-space-007.html (live test) (source) break-spaces-with-ideographic-space-008.html (live test) (source) break-spaces-with-ideographic-space-009.html (live test) (source) break-spaces-with-ideographic-space-010.html (live test) (source) line-break-anywhere-and-white-space-008.html (live test) (source) line-break-anywhere-and-white-space-009.html (live test) (source) ws-break-spaces-applies-to-001.html (live test) (source) ws-break-spaces-applies-to-002.html (live test) (source) ws-break-spaces-applies-to-003.html (live test) (source) ws-break-spaces-applies-to-005.html (live test) (source) ws-break-spaces-applies-to-006.html (live test) (source) ws-break-spaces-applies-to-007.html (live test) (source) ws-break-spaces-applies-to-008.html (live test) (source) ws-break-spaces-applies-to-009.html (live test) (source) ws-break-spaces-applies-to-010.html (live test) (source) ws-break-spaces-applies-to-011.html (live test) (source) ws-break-spaces-applies-to-012.html (live test) (source) ws-break-spaces-applies-to-013.html (live test) (source) ws-break-spaces-applies-to-014.html (live test) (source) ws-break-spaces-applies-to-015.html (live test) (source) break-spaces-newline-011.html (live test) (source) break-spaces-newline-012.html (live test) (source) break-spaces-newline-013.html (live test) (source) break-spaces-newline-014.html (live test) (source) break-spaces-newline-015.html (live test) (source) break-spaces-newline-016.html (live test) (source) trailing-ideographic-space-break-spaces-001.html (live test) (source) trailing-ideographic-space-break-spaces-002.html (live test) (source) trailing-ideographic-space-break-spaces-003.html (live test) (source) trailing-ideographic-space-break-spaces-004.html (live test) (source) trailing-ideographic-space-break-spaces-005.html (live test) (source) trailing-ideographic-space-break-spaces-006.html (live test) (source) trailing-ideographic-space-break-spaces-007.html (live test) (source) trailing-ideographic-space-break-spaces-008.html (live test) (source). */
-    const breakSpaces: string
-    /** `css-text-4` Like normal, this value collapses consecutive white space characters and allows wrapping, but it preserves segment breaks in the source as forced line breaks.. */
-    const preLine: string
-    /** `css-text` This value directs user agents to collapse sequences of white space into a single character (or in some cases, no character). Lines may wrap at allowed soft wrap opportunities, as determined by the line-breaking rules in effect, in order to minimize inline-axis overflow.. */
-    const normal: string
-    /** `css-text` This value prevents user agents from collapsing sequences of white space. Segment breaks such as line feeds are preserved as forced line breaks. Lines only break at forced line breaks; content that does not fit within the block container overflows it.. */
-    const pre: string
-    /** `css-text` Like normal, this value collapses white space; but like pre, it does not allow wrapping.. */
-    const nowrap: string
-    /** `css-text` Like pre, this value preserves white space; but like normal, it allows wrapping.. */
-    const preWrap: string
-    /** `css-text` The behavior is identical to that of pre-wrap, except that: Any sequence of preserved white space or other space separators always takes up space, including at the end of the line. A line breaking opportunity exists after every preserved white space character and after every other space separator (including between adjacent spaces).. */
-    const breakSpaces: string
-    /** `css-text` Like normal, this value collapses consecutive white space characters and allows wrapping, but it preserves segment breaks in the source as forced line breaks.. */
-    const preLine: string
+  /** Create a `counter-increment` property. `css-lists` */
+  function counterIncrement(value: any): Property
+  module counterIncrement {
+    /** This element does not alter the value of any counters.. `css-lists` */
+    const none: string
   }
 
-  /** Create a `widows` property (`css-break`). */
-  function widows(value: any): Property
+  /** Create a `counter-reset` property. `css-lists` */
+  function counterReset(value: any): Property
+  module counterReset {
+    /** This element does not create any new counters.. `css-lists` */
+    const none: string
+  }
 
-  /** Create a `width` property (`css-sizing-4, css-sizing`). */
-  function width(value: any): Property
-  module width {
-    /** `css-sizing` For width/height, specifies an automatic size (automatic block size/automatic inline size). See the relevant layout module for how to calculate this. For min-width/min-height, specifies an automatic minimum size. Unless otherwise defined by the relevant layout module, however, it resolves to a used value of 0. For backwards-compatibility, the resolved value of this keyword is zero for boxes of all [CSS2] display types: block and inline boxes, inline blocks, and all the table layout boxes. It also resolves to zero when no box is generated.. */
+  /** Create a `counter-set` property. `css-lists` */
+  function counterSet(value: any): Property
+  module counterSet {
+    /** This element does not alter the value of any counters.. `css-lists` */
+    const none: string
+  }
+
+  /** Create a `cue` property. `css-speech` */
+  function cue(value: any): Property
+
+  /** Create a `cue-after` property. `css-speech` */
+  function cueAfter(value: any): Property
+  module cueAfter {
+    /** `none` keyword. `css-speech` */
+    const none: string
+  }
+
+  /** Create a `cue-before` property. `css-speech` */
+  function cueBefore(value: any): Property
+  module cueBefore {
+    /** `none` keyword. `css-speech` */
+    const none: string
+  }
+
+  /** Create a `cursor` property. `css-ui` */
+  function cursor(value: any): Property
+  module cursor {
+    /** The UA determines the cursor to display based on the current context. Specifically, auto behaves as text over selectable text or editable elements, and default otherwise.. `css-ui` */
     const auto: string
-    /** `css-sizing` Use the min-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. */
+    /** The platform-dependent default cursor. Often rendered as an arrow.. `css-ui` */
+    const _default: string
+    /** No cursor is rendered for the element.. `css-ui` */
+    const none: string
+    /** A context menu is available for the object under the cursor. Often rendered as an arrow with a small menu-like graphic next to it.. `css-ui` */
+    const contextMenu: string
+    /** Help is available for the object under the cursor. Often rendered as a question mark or a balloon.. `css-ui` */
+    const help: string
+    /** The cursor is a pointer that indicates a link. Often rendered as the backside of a hand with the index finger extended. Unless otherwise specified, UAs must apply cursor: pointer to hyperlinks for all supported document formats via the UA stylesheet, using a normal (i.e. not !important) declaration. Authors should use pointer on links and may use on other interactive elements.. `css-ui` */
+    const pointer: string
+    /** A progress indicator. The program is performing some processing, but is different from wait in that the user may still interact with the program. Often rendered as a spinning beach ball, or an arrow with a watch or hourglass.. `css-ui` */
+    const progress: string
+    /** Indicates that the program is busy and the user should wait. Often rendered as a watch or hourglass.. `css-ui` */
+    const wait: string
+    /** Indicates that a cell or set of cells may be selected. Often rendered as a thick plus-sign with a dot in the middle.. `css-ui` */
+    const cell: string
+    /** A simple crosshair (e.g., short line segments resembling a "+" sign). Often used to indicate a two dimensional bitmap selection mode.. `css-ui` */
+    const crosshair: string
+    /** Indicates text that may be selected. Often rendered as an I-beam. User agents must automatically display a vertical I-beam/cursor over elements with a horizontal writing mode, and a horizontal I-beam/cursor (e.g. same as the vertical-text keyword) over elements in a vertical writing mode. Additionally, user agents may take transforms (see [CSS-TRANSFORMS-1]) or other visual effects such as text on a path (See SVG 2 § 11.8 Text on a path), when choosing between the horizontal or vertical text cursor, and may display any angle of I-beam/cursor for text that is rendered at any particular angle.. `css-ui` */
+    const text: string
+    /** Indicates vertical-text that may be selected. Often rendered as a horizontal I-beam.. `css-ui` */
+    const verticalText: string
+    /** Indicates an alias of/shortcut to something is to be created. Often rendered as an arrow with a small curved arrow next to it.. `css-ui` */
+    const alias: string
+    /** Indicates something is to be copied. Often rendered as an arrow with a small plus sign next to it.. `css-ui` */
+    const copy: string
+    /** Indicates something is to be moved.. `css-ui` */
+    const move: string
+    /** Indicates that the dragged item cannot be dropped at the current cursor location. Often rendered as a hand or pointer with a small circle with a line through it.. `css-ui` */
+    const noDrop: string
+    /** Indicates that the requested action will not be carried out. Often rendered as a circle with a line through it.. `css-ui` */
+    const notAllowed: string
+    /** Indicates that something can be grabbed (dragged to be moved). Often rendered as the backside of an open hand.. `css-ui` */
+    const grab: string
+    /** Indicates that something is being grabbed (dragged to be moved). Often rendered as the backside of a hand with fingers closed mostly out of view.. `css-ui` */
+    const grabbing: string
+    /** `e-resize` keyword. `css-ui` */
+    const eResize: string
+    /** `n-resize` keyword. `css-ui` */
+    const nResize: string
+    /** `ne-resize` keyword. `css-ui` */
+    const neResize: string
+    /** `nw-resize` keyword. `css-ui` */
+    const nwResize: string
+    /** `s-resize` keyword. `css-ui` */
+    const sResize: string
+    /** `se-resize` keyword. `css-ui` */
+    const seResize: string
+    /** `sw-resize` keyword. `css-ui` */
+    const swResize: string
+    /** `w-resize` keyword. `css-ui` */
+    const wResize: string
+    /** `ew-resize` keyword. `css-ui` */
+    const ewResize: string
+    /** `ns-resize` keyword. `css-ui` */
+    const nsResize: string
+    /** `nesw-resize` keyword. `css-ui` */
+    const neswResize: string
+    /** `nwse-resize` keyword. `css-ui` */
+    const nwseResize: string
+    /** Indicates that the item/column can be resized horizontally. Often rendered as arrows pointing left and right with a vertical bar separating them.. `css-ui` */
+    const colResize: string
+    /** Indicates that the item/row can be resized vertically. Often rendered as arrows pointing up and down with a horizontal bar separating them.. `css-ui` */
+    const rowResize: string
+    /** Indicates that the something can be scrolled in any direction. Often rendered as arrows pointing up, down, left, and right with a dot in the middle.. `css-ui` */
+    const allScroll: string
+    /** `zoom-in` keyword. `css-ui` */
+    const zoomIn: string
+    /** `zoom-out` keyword. `css-ui` */
+    const zoomOut: string
+  }
+
+  /** Create a `cx` property. `svg` */
+  function cx(value: any): Property
+
+  /** Create a `cy` property. `svg` */
+  function cy(value: any): Property
+
+  /** Create a `d` property. `svg` */
+  function d(value: any): Property
+  module d {
+    /** `none` keyword. `svg` */
+    const none: string
+  }
+
+  /** Create a `descent-override` property. `unknown` */
+  function descentOverride(value: any): Property
+
+  /** Create a `direction` property. `css-writing-modes` */
+  function direction(value: any): Property
+  module direction {
+    /** This value sets inline base direction (bidi directionality) to line-left-to-line-right.. `css-writing-modes` */
+    const ltr: string
+    /** This value sets inline base direction (bidi directionality) to line-right-to-line-left.. `css-writing-modes` */
+    const rtl: string
+  }
+
+  /** Create a `display` property. `mathml-core, css-display` */
+  function display(value: any): Property
+  module display {
+    /** The element generates a box that is block-level when placed in flow layout. [CSS2]. `css-display` */
+    const block: string
+    /** The element generates a box that is inline-level when placed in flow layout. [CSS2]. `css-display` */
+    const inline: string
+    /** The element generates an run-in box, which is a type of inline-level box with special behavior that attempts to merge it into a subsequent block container. See § 5 Run-In Layout for details.. `css-display` */
+    const runIn: string
+    /** The element lays out its contents using flow layout (block-and-inline layout). If its outer display type is inline or run-in, and it is participating in a block or inline formatting context, then it generates an inline box. Otherwise it generates a block container box. Depending on the value of other properties (such as position, float, or overflow) and whether it is itself participating in a block or inline formatting context, it either establishes a new block formatting context for its contents or integrates its contents into its parent formatting context. See CSS2.1 Chapter 9. [CSS2] A block container that establishes a new block formatting context is considered to have a used inner display type of flow-root.. `css-display` */
+    const flow: string
+    /** The element generates a block container box, and lays out its contents using flow layout. It always establishes a new block formatting context for its contents. [CSS2]. `css-display` */
+    const flowRoot: string
+    /** The element generates a principal table wrapper box that establishes a block formatting context, and which contains an additionally-generated table grid box that establishes a table formatting context. [CSS2]. `css-display` */
+    const table: string
+    /** The element generates a principal flex container box and establishes a flex formatting context. [CSS-FLEXBOX-1]. `css-display` */
+    const flex: string
+    /** The element generates a principal grid container box, and establishes a grid formatting context. [CSS-GRID-1] (Grids using subgrid might not generate a new grid formatting context; see [CSS-GRID-2] for details.). `css-display` */
+    const grid: string
+    /** The element generates a ruby container box and establishes a ruby formatting context in addition to integrating its base-level contents into its parent formatting context (if it is inline) or generating a wrapper box of the appropriate outer display type (if it is not). [CSS-RUBY-1]. `css-display` */
+    const ruby: string
+    /** The element is an internal table element. It generates the appropriate internal table box which participates in a table formatting context. See CSS2§17.2 [CSS2]. table-cell boxes have a flow-root inner display type.. `css-display` */
+    const tableRowGroup: string
+    /** The element is an internal table element. It generates the appropriate internal table box which participates in a table formatting context. See CSS2§17.2 [CSS2]. table-cell boxes have a flow-root inner display type.. `css-display` */
+    const tableHeaderGroup: string
+    /** The element is an internal table element. It generates the appropriate internal table box which participates in a table formatting context. See CSS2§17.2 [CSS2]. table-cell boxes have a flow-root inner display type.. `css-display` */
+    const tableFooterGroup: string
+    /** The element is an internal table element. It generates the appropriate internal table box which participates in a table formatting context. See CSS2§17.2 [CSS2]. table-cell boxes have a flow-root inner display type.. `css-display` */
+    const tableRow: string
+    /** The element is an internal table element. It generates the appropriate internal table box which participates in a table formatting context. See CSS2§17.2 [CSS2]. table-cell boxes have a flow-root inner display type.. `css-display` */
+    const tableCell: string
+    /** The element is an internal table element. It generates the appropriate internal table box which participates in a table formatting context. See CSS2§17.2 [CSS2]. table-cell boxes have a flow-root inner display type.. `css-display` */
+    const tableColumnGroup: string
+    /** The element is an internal table element. It generates the appropriate internal table box which participates in a table formatting context. See CSS2§17.2 [CSS2]. table-cell boxes have a flow-root inner display type.. `css-display` */
+    const tableColumn: string
+    /** The element generates a table caption box, which is a block box with special behavior with respect to table and table wrapper boxes. See CSS2§17.2 [CSS2]. table-caption boxes have a flow-root inner display type.. `css-display` */
+    const tableCaption: string
+    /** The element is an internal ruby element. It generates the appropriate internal ruby box which participates in a ruby formatting context. [CSS-RUBY-1] ruby-base and ruby-text have a flow inner display type.. `css-display` */
+    const rubyBase: string
+    /** The element is an internal ruby element. It generates the appropriate internal ruby box which participates in a ruby formatting context. [CSS-RUBY-1] ruby-base and ruby-text have a flow inner display type.. `css-display` */
+    const rubyText: string
+    /** The element is an internal ruby element. It generates the appropriate internal ruby box which participates in a ruby formatting context. [CSS-RUBY-1] ruby-base and ruby-text have a flow inner display type.. `css-display` */
+    const rubyBaseContainer: string
+    /** The element is an internal ruby element. It generates the appropriate internal ruby box which participates in a ruby formatting context. [CSS-RUBY-1] ruby-base and ruby-text have a flow inner display type.. `css-display` */
+    const rubyTextContainer: string
+    /** The element itself does not generate any boxes, but its children and pseudo-elements still generate boxes and text runs as normal. For the purposes of box generation and layout, the element must be treated as if it had been replaced in the element tree by its contents (including both its source-document children and its pseudo-elements, such as ::before and ::after pseudo-elements, which are generated before/after the element’s children as normal). This value computes to display: none on replaced elements and other elements whose rendering is not entirely controlled by CSS; see Appendix B: Effects of display: contents on Unusual Elements for details.. `css-display` */
+    const contents: string
+    /** The element and its descendants generate no boxes or text runs. Similarly, if a text node is defined to behave as display: none, it generates no text runs.. `css-display` */
+    const none: string
+    /** Computes to inline flow-root.. `css-display` */
+    const inlineBlock: string
+    /** Computes to inline table.. `css-display` */
+    const inlineTable: string
+    /** Computes to inline flex.. `css-display` */
+    const inlineFlex: string
+    /** Computes to inline grid.. `css-display` */
+    const inlineGrid: string
+  }
+
+  /** Create a `display-align` property. `unknown` */
+  function displayAlign(value: any): Property
+
+  /** Create a `dominant-baseline` property. `css-inline` */
+  function dominantBaseline(value: any): Property
+  module dominantBaseline {
+    /** Equivalent to alphabetic in horizontal writing modes and in vertical writing modes when text-orientation is sideways. Equivalent to central in vertical writing modes when text-orientation is mixed or upright. However, in SVG text, the origin point of glyphs (used for coordinate-based glyph positioning) is always handled as for central in vertical writing modes.. `css-inline` */
+    const auto: string
+    /** Use the text-under baselines.. `css-inline` */
+    const textBottom: string
+    /** Use the alphabetic baselines.. `css-inline` */
+    const alphabetic: string
+    /** Use the ideographic-under baselines.. `css-inline` */
+    const ideographic: string
+    /** Use the x-middle baselines; except under text-orientation: upright (where the alphabetic and x-height baselines are essentially meaningless) use the central baseline.. `css-inline` */
+    const middle: string
+    /** Use the central baselines.. `css-inline` */
+    const central: string
+    /** Use the math baselines.. `css-inline` */
+    const mathematical: string
+    /** Use the hanging baselines.. `css-inline` */
+    const hanging: string
+    /** Use the text-over baselines.. `css-inline` */
+    const textTop: string
+  }
+
+  /** Create a `elevation` property. `unknown` */
+  function elevation(value: any): Property
+
+  /** Create a `empty-cells` property. `css-tables` */
+  function emptyCells(value: any): Property
+  module emptyCells {
+    /** `show` keyword. `css-tables` */
+    const show: string
+    /** `hide` keyword. `css-tables` */
+    const hide: string
+  }
+
+  /** Create a `enable-background` property. `unknown` */
+  function enableBackground(value: any): Property
+
+  /** Create a `epub-caption-side` property. `unknown` */
+  function epubCaptionSide(value: any): Property
+
+  /** Create a `epub-hyphens` property. `unknown` */
+  function epubHyphens(value: any): Property
+
+  /** Create a `epub-text-combine` property. `unknown` */
+  function epubTextCombine(value: any): Property
+
+  /** Create a `epub-text-emphasis` property. `unknown` */
+  function epubTextEmphasis(value: any): Property
+
+  /** Create a `epub-text-emphasis-color` property. `unknown` */
+  function epubTextEmphasisColor(value: any): Property
+
+  /** Create a `epub-text-emphasis-style` property. `unknown` */
+  function epubTextEmphasisStyle(value: any): Property
+
+  /** Create a `epub-text-orientation` property. `unknown` */
+  function epubTextOrientation(value: any): Property
+
+  /** Create a `epub-text-transform` property. `unknown` */
+  function epubTextTransform(value: any): Property
+
+  /** Create a `epub-word-break` property. `unknown` */
+  function epubWordBreak(value: any): Property
+
+  /** Create a `epub-writing-mode` property. `unknown` */
+  function epubWritingMode(value: any): Property
+
+  /** Create a `fallback` property. `unknown` */
+  function fallback(value: any): Property
+
+  /** Create a `fill` property. `svg` */
+  function fill(value: any): Property
+  module fill {
+    /** Indicates no paint is applied.. `svg` */
+    const none: string
+  }
+
+  /** Create a `fill-break` property. `fill-stroke` */
+  function fillBreak(value: any): Property
+  module fillBreak {
+    /** `bounding-box` keyword. `fill-stroke` */
+    const boundingBox: string
+    /** `slice` keyword. `fill-stroke` */
+    const slice: string
+    /** `clone` keyword. `fill-stroke` */
+    const clone: string
+  }
+
+  /** Create a `fill-color` property. `fill-stroke` */
+  function fillColor(value: any): Property
+  module fillColor {
+    /** `color` keyword. `fill-stroke` */
+    const color: string
+  }
+
+  /** Create a `fill-image` property. `fill-stroke` */
+  function fillImage(value: any): Property
+  module fillImage {
+    /** Indicates no paint is applied.. `fill-stroke` */
+    const none: string
+  }
+
+  /** Create a `fill-opacity` property. `fill-stroke` */
+  function fillOpacity(value: any): Property
+
+  /** Create a `fill-origin` property. `fill-stroke` */
+  function fillOrigin(value: any): Property
+  module fillOrigin {
+    /** Use the same fill positioning area as the parent. If it has no parent, use the initial containing block.. `fill-stroke` */
+    const matchParent: string
+    /** For SVG shapes or SVG text, use the object bounding box of the element. For CSS boxes, use the bounding box of the text glyph outlines of the element and all in-flow or floated descendants.. `fill-stroke` */
+    const fillBox: string
+    /** For SVG shapes or SVG text, use the stroke bounding box of the element. For CSS boxes, use the bounding box of the text glyph stroke outlines of the element and all in-flow or floated descendants.. `fill-stroke` */
+    const strokeBox: string
+    /** Use the box’s own content-box/padding-box/border-box as the fill positioning area. For SVG shapes, content-box and padding-box are treated as fill-box, while border-box is treated as stroke-box.. `fill-stroke` */
+    const contentBox: string
+    /** Use the box’s own content-box/padding-box/border-box as the fill positioning area. For SVG shapes, content-box and padding-box are treated as fill-box, while border-box is treated as stroke-box.. `fill-stroke` */
+    const paddingBox: string
+    /** Use the box’s own content-box/padding-box/border-box as the fill positioning area. For SVG shapes, content-box and padding-box are treated as fill-box, while border-box is treated as stroke-box.. `fill-stroke` */
+    const borderBox: string
+  }
+
+  /** Create a `fill-position` property. `fill-stroke` */
+  function fillPosition(value: any): Property
+
+  /** Create a `fill-repeat` property. `fill-stroke` */
+  function fillRepeat(value: any): Property
+
+  /** Create a `fill-rule` property. `fill-stroke` */
+  function fillRule(value: any): Property
+  module fillRule {
+    /** This rule determines the “insideness” of a point on the canvas by drawing a ray from that point to infinity in any direction and then examining the places where a segment of the shape crosses the ray. Starting with a count of zero, add one each time a path segment crosses the ray from left to right and subtract one each time a path segment crosses the ray from right to left. After counting the crossings, if the result is zero then the point is outside the path. Otherwise, it is inside. The effect of a nonzero fill rule on paths with self-intersections and enclosed subpaths.. `fill-stroke` */
+    const nonzero: string
+    /** This rule determines the “insideness” of a point on the canvas by drawing a ray from that point to infinity in any direction and counting the number of path segments from the given shape that the ray crosses. If this number is odd, the point is inside; if even, the point is outside. The effect of an evenodd fill rule on paths with self-intersections and enclosed subpaths.. `fill-stroke` */
+    const evenodd: string
+  }
+
+  /** Create a `fill-size` property. `fill-stroke` */
+  function fillSize(value: any): Property
+
+  /** Create a `filter` property. `filter-effects` */
+  function filter(value: any): Property
+  module filter {
+    /** `none` keyword. `filter-effects` */
+    const none: string
+  }
+
+  /** Create a `flex` property. `css-flexbox` */
+  function flex(value: any): Property
+  module flex {
+    /** The keyword none expands to 0 0 auto.. `css-flexbox` */
+    const none: string
+  }
+
+  /** Create a `flex-basis` property. `css-flexbox` */
+  function flexBasis(value: any): Property
+  module flexBasis {
+    /** Indicates an automatic size based on the flex item’s content. (This is typically equivalent to the max-content size, but with adjustments to handle preferred aspect ratios, intrinsic sizing constraints, and orthogonal flows; see details in § 9 Flex Layout Algorithm.). `css-flexbox` */
+    const content: string
+  }
+
+  /** Create a `flex-direction` property. `css-flexbox` */
+  function flexDirection(value: any): Property
+  module flexDirection {
+    /** The flex container’s main axis has the same orientation as the inline axis of the current writing mode. The main-start and main-end directions are equivalent to the inline-start and inline-end directions, respectively, of the current writing mode.. `css-flexbox` */
+    const row: string
+    /** Same as row, except the main-start and main-end directions are swapped.. `css-flexbox` */
+    const rowReverse: string
+    /** The flex container’s main axis has the same orientation as the block axis of the current writing mode. The main-start and main-end directions are equivalent to the block-start and block-end directions, respectively, of the current writing mode.. `css-flexbox` */
+    const column: string
+    /** Same as column, except the main-start and main-end directions are swapped.. `css-flexbox` */
+    const columnReverse: string
+  }
+
+  /** Create a `flex-flow` property. `css-flexbox` */
+  function flexFlow(value: any): Property
+
+  /** Create a `flex-grow` property. `css-flexbox` */
+  function flexGrow(value: any): Property
+
+  /** Create a `flex-shrink` property. `css-flexbox` */
+  function flexShrink(value: any): Property
+
+  /** Create a `flex-wrap` property. `css-flexbox` */
+  function flexWrap(value: any): Property
+  module flexWrap {
+    /** The flex container is single-line.. `css-flexbox` */
+    const nowrap: string
+    /** The flex container is multi-line.. `css-flexbox` */
+    const wrap: string
+    /** Same as wrap.. `css-flexbox` */
+    const wrapReverse: string
+  }
+
+  /** Create a `float` property. `css-page-floats, css-gcpm` */
+  function float(value: any): Property
+  module float {
+    /** If the float reference is a line box, block-start behaves like inline-start. If the float reference is not a line box, the element generates a box that is floated to the block-start and line-start outer edges of the float reference. The initial value of the max-width or max-height property that refers to the inline size of the float is '100%'. Content flows on the block-end side of the box.. `css-page-floats` */
+    const blockStart: string
+    /** If the float reference is a line box, block-end behaves like inline-end. If the float reference is not a line box, the element generates a box that is floated to the block-end and line-end outer edges of the float reference. The initial value of the max-width or max-height property that refers to the inline size of the float is '100%'. Content flows on the block-start side of the box.. `css-page-floats` */
+    const blockEnd: string
+    /** If the float reference is a line box, the element generates a box that is floated to the line-start outer edge of the float reference and content flows on the line-end side of the box. If the float reference is not a line box, the element generates a box that is floated to the line-start and block-start outer edges of the float reference.. `css-page-floats` */
+    const inlineStart: string
+    /** If the float reference is a line box, the element generates a box that is floated to the line-ebd outer edge of the float reference and content flows on the line-start side of the box. If the float reference is not a line box, the element generates a box that is floated to the line-end and block-end outer edges of the float reference.. `css-page-floats` */
+    const inlineEnd: string
+    /** Behaves as snap-block(2em, near). `css-page-floats` */
+    const snapBlock: string
+    /** same as snap-inline(2em, near). `css-page-floats` */
+    const snapInline: string
+    /** If the float reference is a line box, behaves like inline-start or inline-end, whichever corresponds to line-left for the float reference. Otherwise, behaves like block-end, inline-start or inline-end depending on the float containing block’s direction and writing-mode.. `css-page-floats` */
+    const left: string
+    /** If the float reference is a line box, behaves like inline-start or inline-end, whichever corresponds to line-right for the float reference. Otherwise, behaves like block-start, inline-start or inline-end depending on the float containing block’s direction and writing-mode.. `css-page-floats` */
+    const right: string
+    /** Behave like block-start or inline-start depending on the float containing block’s direction and writing-mode.. `css-page-floats` */
+    const top: string
+    /** Behave like block-end or inline-end depending on the float containing block’s direction and writing-mode.. `css-page-floats` */
+    const bottom: string
+    /** The box is not floated.. `css-page-floats` */
+    const none: string
+  }
+
+  /** Create a `float-defer` property. `css-page-floats` */
+  function floatDefer(value: any): Property
+  module floatDefer {
+    /** `last` keyword. `css-page-floats` */
+    const last: string
+    /** `none` keyword. `css-page-floats` */
+    const none: string
+  }
+
+  /** Create a `float-offset` property. `css-page-floats` */
+  function floatOffset(value: any): Property
+
+  /** Create a `float-reference` property. `css-page-floats` */
+  function floatReference(value: any): Property
+  module floatReference {
+    /** The float reference is the line box of the float anchor. The float containing block formatting context is the same as that of the float anchor. The float is an inline float.. `css-page-floats` */
+    const inline: string
+    /** The float reference is the column in a multi column environment in which the float anchor is placed. If the float anchor is not inside a column, the float reference is the line box of the float anchor. The float containing block formatting context is a new block formatting context with the same dimensions and placement as the float reference. The float is a page float.. `css-page-floats` */
+    const column: string
+    /** The float reference is the region in a region-chain within which the float anchor is placed. If the float anchor is not inside a region, the float reference is the line box of the float anchor. The float containing block formatting context is a new block formatting context with the same dimensions and placement as the float reference. The float is a page float.. `css-page-floats` */
+    const region: string
+    /** The float reference of the float is the page within which the float anchor is placed. If the float anchor is not inside a page, the float reference is the line box of the float anchor. The float containing block formatting context is a new block formatting context with the same dimensions and placement as the float reference. The float is a page float.. `css-page-floats` */
+    const page: string
+  }
+
+  /** Create a `flood-color` property. `filter-effects` */
+  function floodColor(value: any): Property
+  module floodColor {
+    /** `color` keyword. `filter-effects` */
+    const color: string
+  }
+
+  /** Create a `flood-opacity` property. `filter-effects` */
+  function floodOpacity(value: any): Property
+
+  /** Create a `flow` property. `unknown` */
+  function flow(value: any): Property
+
+  /** Create a `flow-from` property. `css-regions` */
+  function flowFrom(value: any): Property
+  module flowFrom {
+    /** `none` keyword. `css-regions` */
+    const none: string
+  }
+
+  /** Create a `flow-into` property. `css-regions` */
+  function flowInto(value: any): Property
+  module flowInto {
+    /** `none` keyword. `css-regions` */
+    const none: string
+    /** `element` keyword. `css-regions` */
+    const element: string
+    /** `content` keyword. `css-regions` */
+    const content: string
+  }
+
+  /** Create a `font` property. `css-fonts` */
+  function font(value: any): Property
+  module font {
+    /** The font used for captioned controls (e.g., buttons, drop-downs, etc.).. `css-fonts` */
+    const caption: string
+    /** The font used to label icons.. `css-fonts` */
+    const icon: string
+    /** The font used in menus (e.g., dropdown menus and menu lists).. `css-fonts` */
+    const menu: string
+    /** The font used in dialog boxes.. `css-fonts` */
+    const messageBox: string
+    /** The font used for labeling small controls.. `css-fonts` */
+    const smallCaption: string
+    /** The font used in window status bars.. `css-fonts` */
+    const statusBar: string
+  }
+
+  /** Create a `font-display` property. `unknown` */
+  function fontDisplay(value: any): Property
+
+  /** Create a `font-family` property. `css-fonts` */
+  function fontFamily(value: any): Property
+  module fontFamily {
+    /** Serif fonts represent the formal text style for a script. This often means, but is not limited to, glyphs that have finishing strokes, flared or tapering ends, or have actual serifed endings (including slab serifs). Serif fonts are typically proportionately-spaced. They often display a greater variation between thick and thin strokes than fonts from the sans-serif generic font family. CSS uses the term "serif" to apply to a font for any script, although other names might be more familiar for particular scripts, such as Mincho (Japanese), Sung or Song (Chinese), Batang (Korean). For Arabic, the Naskh style would correspond to serif. This is due to its typographic role, rather than its design style. Any font that fits this typographic role may be used to represent the generic serif family. serif must always map to at least one matched font face. Sample serif fonts. `css-fonts` */
+    const serif: string
+    /** Glyphs in sans-serif fonts, as the term is used in CSS, are generally low contrast (vertical and horizontal stems have the close to the same thickness) and have stroke endings that are plain (without any flaring, cross stroke, or other ornamentation). Sans-serif fonts are typically proportionately-spaced. They often have little variation between thick and thin strokes, compared to fonts from the serif family. CSS uses the term "sans-serif" to apply to a font for any script, although other names might be more familiar for particular scripts, such as Gothic (Japanese), Hei (Chinese), or Gulim (Korean). Any font that fits this typographic role may be used to represent the generic sans-serif family. sans-serif must always map to at least one matched font face. Sample sans-serif fonts. `css-fonts` */
+    const sansSerif: string
+    /** Glyphs in cursive fonts generally use a more informal script style, and the result looks more like handwritten pen or brush writing than printed letterwork. For example, Kaiti (Chinese), which uses a brush-based style, would be classified as a CSS cursive font family. CSS uses the term "cursive" to apply to a font for any script, although other names such as Chancery, Brush, Swing and Script are also used in font names. Sample cursive fonts. `css-fonts` */
+    const cursive: string
+    /** Fantasy fonts are primarily decorative or expressive fonts that contain decorative or expressive representations of characters. These do not include Pi or Picture fonts which do not represent actual characters. Sample fantasy fonts. `css-fonts` */
+    const fantasy: string
+    /** The sole criterion of a monospace font is that all glyphs have the same fixed width. This is often used to render samples of computer code. monospace must always map to at least one matched font face. Sample monospace fonts. `css-fonts` */
+    const monospace: string
+    /** This generic font family lets text render with the default user interface font on the platform on which the UA is running. A cross-platform UA should use different fonts on its different supported platforms. The purpose of system-ui is to allow web content to integrate with the look and feel of the native OS. As with other generic font families, the substitution of specific installed fonts for system-ui does not affect the computed style. <div id="system-text" style="font-family: system-ui"></div> ... window.getComputedStyle(document.getElementById("system-text")).getPropertyValue("font-family"); The script above should not have any knowledge of how system-ui is expanded to include a collection of system user interface fonts. In particular, the above script should yield a result of "system-ui" on every platform.. `css-fonts` */
+    const systemUi: string
+    /** This font family is intended for use with emoji characters. Emoji are pictographs (pictorial symbols) that are typically presented in a colorful form and used inline in text. They represent things such as faces, weather, vehicles and buildings, food and drink, animals and plants, or icons that represent emotions, feelings, or activities.. `css-fonts` */
+    const emoji: string
+    /** This font family is intended for use with mathematical expressions. Such fonts may include additional data (for example, the OpenType MATH table) to help with the hierarchical process of equation layout. In particular, they may contain stylistic and stretching glyph variants useful in setting mathematical equations.. `css-fonts` */
+    const math: string
+    /** This font family is used for Fang Song (仿宋) typefaces in Chinese. Fang Song is a relaxed, intermediate form between Song (serif) and Kai (cursive). Typically, the horizontal lines are tilted, the endpoint flourishes are smaller, and there is less variation in stroke width, compared to a Song style. Fang Song is often used for official Chinese Government documents.. `css-fonts` */
+    const fangsong: string
+    /** This font family is used for the serif variant of the system’s user interface. The purpose of ui-serif is to allow web content to integrate with the look and feel of the native OS. Sample ui-serif font on macOS Catalina and iOS 13: New York. `css-fonts` */
+    const uiSerif: string
+    /** This font family is used for the sans-serif variant of the system’s user interface. The purpose of ui-sans-serif is to allow web content to integrate with the look and feel of the native OS. Sample ui-sans-serif font on macOS Catalina and iOS 13: San Francisco. `css-fonts` */
+    const uiSansSerif: string
+    /** This font family is used for the monospaced variant of the system’s user interface. The purpose of ui-monospace is to allow web content to integrate with the look and feel of the native OS. Sample ui-monospace font on macOS Catalina and iOS 13: SF Mono. `css-fonts` */
+    const uiMonospace: string
+    /** This font family is used for the rounded variant of the system’s user interface. The purpose of ui-rounded is to allow web content to integrate with the look and feel of the native OS. Sample ui-rounded font on macOS Catalina and iOS 13: SF Rounded. `css-fonts` */
+    const uiRounded: string
+  }
+
+  /** Create a `font-feature-settings` property. `css-fonts` */
+  function fontFeatureSettings(value: any): Property
+  module fontFeatureSettings {
+    /** A value of normal means that no change in glyph selection or positioning occurs due to this property.. `css-fonts` */
+    const normal: string
+  }
+
+  /** Create a `font-kerning` property. `css-fonts` */
+  function fontKerning(value: any): Property
+  module fontKerning {
+    /** Specifies that kerning is applied at the discretion of the user agent. `css-fonts` */
+    const auto: string
+    /** Specifies that kerning is applied. `css-fonts` */
+    const normal: string
+    /** Specifies that kerning is not applied. `css-fonts` */
+    const none: string
+  }
+
+  /** Create a `font-language-override` property. `css-fonts` */
+  function fontLanguageOverride(value: any): Property
+  module fontLanguageOverride {
+    /** `normal` keyword. `css-fonts` */
+    const normal: string
+  }
+
+  /** Create a `font-optical-sizing` property. `css-fonts` */
+  function fontOpticalSizing(value: any): Property
+  module fontOpticalSizing {
+    /** The user agent may modify the shape of glyphs based on the font-size and the pixel density of the screen. For OpenType and TrueType fonts using font variations, this is often done by using the "opsz" font variation.. `css-fonts` */
+    const auto: string
+    /** The user agent must not modify the shape of glyphs for optical size.. `css-fonts` */
+    const none: string
+  }
+
+  /** Create a `font-palette` property. `css-fonts` */
+  function fontPalette(value: any): Property
+  module fontPalette {
+    /** User-Agents display the color font with the default palette or default glyph colorisation. User-agents should take the computed value of the color property into consideration when a color font format requires use of the foreground color In the COLR [OPENTYPE] table, color index 0xFFFF should be rendered according the color property. For COLR/CPAL [OPENTYPE] fonts, font-palette: normal usually means rendering the font with the palette in the font at index 0.. `css-fonts` */
+    const normal: string
+    /** Some color font formats include metadata marking certain palettes as applicable on a light (close to white) background. This keyword causes the user-agent to use the first available palette in the font file marked this way. If the font file format does not account for this metadata, or no palette in the font is marked this way, this value behaves as normal.. `css-fonts` */
+    const light: string
+    /** Some color font formats include metadata marking certain palettes as applicable on a dark (close to black) background. This keyword causes the user-agent to use the first available palette in the font file marked this way. If the font file format does not account for this metadata, or no palette in the font is marked this way, this value behaves as normal.. `css-fonts` */
+    const dark: string
+  }
+
+  /** Create a `font-size` property. `css-fonts` */
+  function fontSize(value: any): Property
+  module fontSize {
+    /** Special mathematical scaling rules must be applied when determining the computed value of the font-size property.. `css-fonts` */
+    const math: string
+  }
+
+  /** Create a `font-size-adjust` property. `css-fonts-5, css-fonts` */
+  function fontSizeAdjust(value: any): Property
+  module fontSizeAdjust {
+    /** No special font-size adjustment is applied.. `css-fonts-5` */
+    const none: string
+    /** Normalize the aspect value of the fonts, using the x-height divided by the font size.. `css-fonts-5` */
+    const exHeight: string
+    /** Normalize the cap-height of the fonts, using the cap-height by the font size.. `css-fonts-5` */
+    const capHeight: string
+    /** Normalize the horizontal narrow pitch of the fonts, using the advance width of “0” (ZERO, U+0030) divided by the font size.. `css-fonts-5` */
+    const chWidth: string
+    /** Normalize the horizontal wide pitch of the font, using the advance width of “水” (CJK water ideograph, U+6C34) divided by the font size.. `css-fonts-5` */
+    const icWidth: string
+    /** Normalize the vertical wide pitch of the font, using the advance height of “水” (CJK water ideograph, U+6C34) divided by the font size.. `css-fonts-5` */
+    const icHeight: string
+    /** Computes to the <number> corresponding to the specified metric of the first available font. w3c/csswg-drafts/6384[css-fonts-5] font-size-adjust with missing metrics. `css-fonts-5` */
+    const fromFont: string
+    /** Do not preserve the font’s x-height.. `css-fonts` */
+    const none: string
+  }
+
+  /** Create a `font-stretch` property. `css-fonts` */
+  function fontStretch(value: any): Property
+  module fontStretch {
+    /** `normal` keyword. `css-fonts` */
+    const normal: string
+    /** `ultra-condensed` keyword. `css-fonts` */
+    const ultraCondensed: string
+    /** `extra-condensed` keyword. `css-fonts` */
+    const extraCondensed: string
+    /** `condensed` keyword. `css-fonts` */
+    const condensed: string
+    /** `semi-condensed` keyword. `css-fonts` */
+    const semiCondensed: string
+    /** `semi-expanded` keyword. `css-fonts` */
+    const semiExpanded: string
+    /** `expanded` keyword. `css-fonts` */
+    const expanded: string
+    /** `extra-expanded` keyword. `css-fonts` */
+    const extraExpanded: string
+    /** `ultra-expanded` keyword. `css-fonts` */
+    const ultraExpanded: string
+  }
+
+  /** Create a `font-style` property. `css-fonts` */
+  function fontStyle(value: any): Property
+  module fontStyle {
+    /** Matches against a face that is classified as a normal face, one that is neither italic or obliqued. This represents an oblique value of "0".. `css-fonts` */
+    const normal: string
+    /** Matches against a font that is labeled as an italic face, or an oblique face if one does not exist.. `css-fonts` */
+    const italic: string
+    /** `oblique` keyword. `css-fonts` */
+    const oblique: string
+  }
+
+  /** Create a `font-synthesis` property. `css-fonts` */
+  function fontSynthesis(value: any): Property
+  module fontSynthesis {
+    /** `none` keyword. `css-fonts` */
+    const none: string
+    /** `weight` keyword. `css-fonts` */
+    const weight: string
+    /** `style` keyword. `css-fonts` */
+    const style: string
+    /** `small-caps` keyword. `css-fonts` */
+    const smallCaps: string
+  }
+
+  /** Create a `font-synthesis-small-caps` property. `css-fonts` */
+  function fontSynthesisSmallCaps(value: any): Property
+  module fontSynthesisSmallCaps {
+    /** Synthesis of small caps faces is allowed. `css-fonts` */
+    const auto: string
+    /** Synthesis of small caps faces is not allowed. `css-fonts` */
+    const none: string
+  }
+
+  /** Create a `font-synthesis-style` property. `css-fonts` */
+  function fontSynthesisStyle(value: any): Property
+  module fontSynthesisStyle {
+    /** Synthesis of oblique faces is allowed. `css-fonts` */
+    const auto: string
+    /** Synthesis of oblique faces is not allowed. `css-fonts` */
+    const none: string
+  }
+
+  /** Create a `font-synthesis-weight` property. `css-fonts` */
+  function fontSynthesisWeight(value: any): Property
+  module fontSynthesisWeight {
+    /** Synthesis of bold faces is allowed. `css-fonts` */
+    const auto: string
+    /** Synthesis of bold faces is not allowed. `css-fonts` */
+    const none: string
+  }
+
+  /** Create a `font-variant` property. `css-fonts` */
+  function fontVariant(value: any): Property
+  module fontVariant {
+    /** The value normal resets all subproperties of font-variant to their initial value. The none value sets font-variant-ligatures to none and resets all other font feature properties to their initial value. Like other shorthands, using font-variant resets unspecified font-variant subproperties to their initial values.. `css-fonts` */
+    const normal: string
+    /** The value normal resets all subproperties of font-variant to their initial value. The none value sets font-variant-ligatures to none and resets all other font feature properties to their initial value. Like other shorthands, using font-variant resets unspecified font-variant subproperties to their initial values.. `css-fonts` */
+    const none: string
+    /** `small-caps` keyword. `css-fonts` */
+    const smallCaps: string
+    /** `all-small-caps` keyword. `css-fonts` */
+    const allSmallCaps: string
+    /** `petite-caps` keyword. `css-fonts` */
+    const petiteCaps: string
+    /** `all-petite-caps` keyword. `css-fonts` */
+    const allPetiteCaps: string
+    /** `unicase` keyword. `css-fonts` */
+    const unicase: string
+    /** `titling-caps` keyword. `css-fonts` */
+    const titlingCaps: string
+    /** `historical-forms` keyword. `css-fonts` */
+    const historicalForms: string
+    /** `ordinal` keyword. `css-fonts` */
+    const ordinal: string
+    /** `slashed-zero` keyword. `css-fonts` */
+    const slashedZero: string
+    /** `ruby` keyword. `css-fonts` */
+    const ruby: string
+    /** `sub` keyword. `css-fonts` */
+    const sub: string
+    /** `super` keyword. `css-fonts` */
+    const _super: string
+    /** `text` keyword. `css-fonts` */
+    const text: string
+    /** `emoji` keyword. `css-fonts` */
+    const emoji: string
+    /** `unicode` keyword. `css-fonts` */
+    const unicode: string
+  }
+
+  /** Create a `font-variant-alternates` property. `css-fonts` */
+  function fontVariantAlternates(value: any): Property
+  module fontVariantAlternates {
+    /** None of the features listed below are enabled.. `css-fonts` */
+    const normal: string
+    /** Enables display of historical forms (OpenType feature: hist).. `css-fonts` */
+    const historicalForms: string
+  }
+
+  /** Create a `font-variant-caps` property. `css-fonts` */
+  function fontVariantCaps(value: any): Property
+  module fontVariantCaps {
+    /** None of the features listed below are enabled.. `css-fonts` */
+    const normal: string
+    /** Enables display of small capitals (OpenType feature: smcp). Small-caps glyphs typically use the form of uppercase letters but are reduced to the size of lowercase letters.. `css-fonts` */
+    const smallCaps: string
+    /** Enables display of small capitals for both upper and lowercase letters (OpenType features: c2sc, smcp).. `css-fonts` */
+    const allSmallCaps: string
+    /** Enables display of petite capitals (OpenType feature: pcap).. `css-fonts` */
+    const petiteCaps: string
+    /** Enables display of petite capitals for both upper and lowercase letters (OpenType features: c2pc, pcap).. `css-fonts` */
+    const allPetiteCaps: string
+    /** Enables display of mixture of small capitals for uppercase letters with normal lowercase letters (OpenType feature: unic).. `css-fonts` */
+    const unicase: string
+    /** Enables display of titling capitals (OpenType feature: titl). Uppercase letter glyphs are often designed for use with lowercase letters. When used in all uppercase titling sequences they can appear too strong. Titling capitals are designed specifically for this situation.. `css-fonts` */
+    const titlingCaps: string
+  }
+
+  /** Create a `font-variant-east-asian` property. `css-fonts` */
+  function fontVariantEastAsian(value: any): Property
+  module fontVariantEastAsian {
+    /** None of the features listed below are enabled.. `css-fonts` */
+    const normal: string
+    /** Enables display of ruby variant glyphs (OpenType feature: ruby). Since ruby text is generally smaller than the associated body text, font designers can design special glyphs for use with ruby that are more readable than scaled down versions of the default glyphs. Only glyph selection is affected, there is no associated font scaling or other change that affects line layout. The red ruby text below is shown with default glyphs (top) and with ruby variant glyphs (bottom). Note the slight difference in stroke thickness.. `css-fonts` */
+    const ruby: string
+  }
+
+  /** Create a `font-variant-emoji` property. `css-fonts` */
+  function fontVariantEmoji(value: any): Property
+  module fontVariantEmoji {
+    /** User agents can choose to draw a Presentation Participating Code Point in either emoji style or text style. User agents typically follow platform conventions when performing this decision.. `css-fonts` */
+    const normal: string
+    /** Code points are rendered as if U+FE0E VARIATION SELECTOR-15 was appended to every Presentation Participating Code Point.. `css-fonts` */
+    const text: string
+    /** Code points are rendered as if U+FE0F VARIATION SELECTOR-16 was appended to every Presentation Participating Code Point.. `css-fonts` */
+    const emoji: string
+    /** Code points are rendered in accordance with [UTS51] as either emoji-default, text-default, or text-only, depending on the values of the Emoji and Emoji_Presentation properties for each Presentation Participating Code Point. If present, FE0E VARIATION SELECTOR-15 and U+FE0F VARIATION SELECTOR-16 will override the default presentation of individual Presentation Participating Code Points.. `css-fonts` */
+    const unicode: string
+  }
+
+  /** Create a `font-variant-ligatures` property. `css-fonts` */
+  function fontVariantLigatures(value: any): Property
+  module fontVariantLigatures {
+    /** A value of normal specifies that common default features are enabled, as described in detail in the next section. For OpenType fonts, common ligatures and contextual forms are on by default, discretionary and historical ligatures are not.. `css-fonts` */
+    const normal: string
+    /** Specifies that all types of ligatures and contextual forms covered by this property are explicitly disabled. In situations where ligatures are not considered necessary, this may improve the speed of text rendering.. `css-fonts` */
+    const none: string
+  }
+
+  /** Create a `font-variant-numeric` property. `css-fonts` */
+  function fontVariantNumeric(value: any): Property
+  module fontVariantNumeric {
+    /** None of the features listed below are enabled.. `css-fonts` */
+    const normal: string
+    /** Enables display of letter forms used with ordinal numbers (OpenType feature: ordn).. `css-fonts` */
+    const ordinal: string
+    /** Enables display of slashed zeros (OpenType feature: zero).. `css-fonts` */
+    const slashedZero: string
+  }
+
+  /** Create a `font-variant-position` property. `css-fonts` */
+  function fontVariantPosition(value: any): Property
+  module fontVariantPosition {
+    /** None of the features listed below are enabled.. `css-fonts` */
+    const normal: string
+    /** Enables display of subscript variants (OpenType feature: subs).. `css-fonts` */
+    const sub: string
+    /** Enables display of superscript variants (OpenType feature: sups).. `css-fonts` */
+    const _super: string
+  }
+
+  /** Create a `font-variation-settings` property. `css-fonts` */
+  function fontVariationSettings(value: any): Property
+  module fontVariationSettings {
+    /** `normal` keyword. `css-fonts` */
+    const normal: string
+  }
+
+  /** Create a `font-weight` property. `css-fonts` */
+  function fontWeight(value: any): Property
+  module fontWeight {
+    /** Specifies a bolder weight than the inherited value. See § 2.2.1 Relative Weights.. `css-fonts` */
+    const bolder: string
+    /** Specifies a lighter weight than the inherited value. See § 2.2.1 Relative Weights.. `css-fonts` */
+    const lighter: string
+  }
+
+  /** Create a `footnote-display` property. `css-gcpm` */
+  function footnoteDisplay(value: any): Property
+  module footnoteDisplay {
+    /** `block` keyword. `css-gcpm` */
+    const block: string
+    /** `inline` keyword. `css-gcpm` */
+    const inline: string
+    /** `compact` keyword. `css-gcpm` */
+    const compact: string
+  }
+
+  /** Create a `footnote-policy` property. `css-gcpm` */
+  function footnotePolicy(value: any): Property
+  module footnotePolicy {
+    /** The user agent chooses how to render footnotes, and may place the footnote body on a later page than the footnote reference. A footnote body must never be placed on a page before the footnote reference.. `css-gcpm` */
+    const auto: string
+    /** If a given footnote body cannot be placed on the current page due to lack of space, the user agent introduces a forced page break at the start of the line containing the footnote reference, so that both the reference and the footnote body fall on the next page. Note that the user agent must honor widow and orphan settings when doing this, and so may need to insert the page break on an earlier line.. `css-gcpm` */
+    const line: string
+    /** As with line, except a forced page break is introduced before the paragraph that contains the footnote.. `css-gcpm` */
+    const block: string
+  }
+
+  /** Create a `forced-color-adjust` property. `css-color-adjust` */
+  function forcedColorAdjust(value: any): Property
+  module forcedColorAdjust {
+    /** The element’s colors are automatically adjusted by the UA in forced colors mode.. `css-color-adjust` */
+    const auto: string
+    /** The element’s colors are not automatically adjusted by the UA in forced colors mode. Authors should only use this value when they are themselves adjusting the colors to support the user’s color and contrast needs and need to make changes to the UA’s default adjustments to provide a more appropriate user experience for those elements.. `css-color-adjust` */
+    const none: string
+    /** In forced colors mode, if the color property inherits from its parent (i.e. there is no cascaded value or the cascaded value is currentColor, inherit, or another keyword that inherits from the parent), then it computes to the used color of its parent’s color value. In all other respects, behaves the same as none.. `css-color-adjust` */
+    const preserveParentColor: string
+  }
+
+  /** Create a `gap` property. `css-align` */
+  function gap(value: any): Property
+
+  /** Create a `glyph-orientation-horizontal` property. `unknown` */
+  function glyphOrientationHorizontal(value: any): Property
+
+  /** Create a `glyph-orientation-vertical` property. `css-writing-modes` */
+  function glyphOrientationVertical(value: any): Property
+  module glyphOrientationVertical {
+    /** `auto` keyword. `css-writing-modes` */
+    const auto: string
+  }
+
+  /** Create a `grid` property. `css-grid` */
+  function grid(value: any): Property
+  module grid {
+    /** `auto-flow` keyword. `css-grid` */
+    const autoFlow: string
+    /** `dense` keyword. `css-grid` */
+    const dense: string
+    /** `auto-flow` keyword. `css-grid` */
+    const autoFlow: string
+    /** `dense` keyword. `css-grid` */
+    const dense: string
+  }
+
+  /** Create a `grid-area` property. `css-grid` */
+  function gridArea(value: any): Property
+
+  /** Create a `grid-auto-columns` property. `css-grid` */
+  function gridAutoColumns(value: any): Property
+
+  /** Create a `grid-auto-flow` property. `css-grid` */
+  function gridAutoFlow(value: any): Property
+  module gridAutoFlow {
+    /** The auto-placement algorithm places items by filling each row in turn, adding new rows as necessary. If neither row nor column is provided, row is assumed.. `css-grid` */
+    const row: string
+    /** The auto-placement algorithm places items by filling each column in turn, adding new columns as necessary.. `css-grid` */
+    const column: string
+    /** If specified, the auto-placement algorithm uses a “dense” packing algorithm, which attempts to fill in holes earlier in the grid if smaller items come up later. This may cause items to appear out-of-order, when doing so would fill in holes left by larger items. If omitted, a “sparse” algorithm is used, where the placement algorithm only ever moves “forward” in the grid when placing items, never backtracking to fill holes. This ensures that all of the auto-placed items appear “in order”, even if this leaves holes that could have been filled by later items.. `css-grid` */
+    const dense: string
+  }
+
+  /** Create a `grid-auto-rows` property. `css-grid` */
+  function gridAutoRows(value: any): Property
+
+  /** Create a `grid-column` property. `css-grid` */
+  function gridColumn(value: any): Property
+
+  /** Create a `grid-column-end` property. `css-grid` */
+  function gridColumnEnd(value: any): Property
+
+  /** Create a `grid-column-gap` property. `css-align` */
+  function gridColumnGap(value: any): Property
+
+  /** Create a `grid-column-start` property. `css-grid` */
+  function gridColumnStart(value: any): Property
+
+  /** Create a `grid-gap` property. `css-align` */
+  function gridGap(value: any): Property
+
+  /** Create a `grid-row` property. `css-grid` */
+  function gridRow(value: any): Property
+
+  /** Create a `grid-row-end` property. `css-grid` */
+  function gridRowEnd(value: any): Property
+
+  /** Create a `grid-row-gap` property. `css-align` */
+  function gridRowGap(value: any): Property
+
+  /** Create a `grid-row-start` property. `css-grid` */
+  function gridRowStart(value: any): Property
+
+  /** Create a `grid-template` property. `css-grid` */
+  function gridTemplate(value: any): Property
+  module gridTemplate {
+    /** Sets all three properties to their initial values (none).. `css-grid` */
+    const none: string
+  }
+
+  /** Create a `grid-template-areas` property. `css-grid` */
+  function gridTemplateAreas(value: any): Property
+  module gridTemplateAreas {
+    /** Indicates that no named grid areas, and likewise no explicit grid tracks, are defined by this property (though explicit grid tracks could still be created by grid-template-columns or grid-template-rows).. `css-grid` */
+    const none: string
+  }
+
+  /** Create a `grid-template-columns` property. `css-grid, css-grid-3` */
+  function gridTemplateColumns(value: any): Property
+  module gridTemplateColumns {
+    /** Indicates that no explicit grid tracks are created by this property (though explicit grid tracks could still be created by grid-template-areas).. `css-grid` */
+    const none: string
+    /** `subgrid` keyword. `css-grid` */
+    const subgrid: string
+  }
+
+  /** Create a `grid-template-rows` property. `css-grid, css-grid-3` */
+  function gridTemplateRows(value: any): Property
+  module gridTemplateRows {
+    /** Indicates that no explicit grid tracks are created by this property (though explicit grid tracks could still be created by grid-template-areas).. `css-grid` */
+    const none: string
+    /** `subgrid` keyword. `css-grid` */
+    const subgrid: string
+  }
+
+  /** Create a `hanging-punctuation` property. `css-text-4, css-text` */
+  function hangingPunctuation(value: any): Property
+  module hangingPunctuation {
+    /** No punctuation character is made to hang.. `css-text-4` */
+    const none: string
+    /** An opening bracket, quote, or ideographic space at the start of the first formatted line of an element hangs. This applies to all characters in the Unicode categories Ps, Pf, Pi plus the ASCII quote marks U+0027 ' APOSTROPHE and U+0022 " QUOTATION MARK and the IDEOGRAPHIC SPACE U+3000.. `css-text-4` */
+    const first: string
+    /** A stop or comma at the end of a line hangs.. `css-text-4` */
+    const forceEnd: string
+    /** A stop or comma at the end of a line conditionally hangs.. `css-text-4` */
+    const allowEnd: string
+    /** A closing bracket or quote at the end of the last formatted line of an element hangs. This applies to all characters in the Unicode categories Pe, Pf, Pi plus the ASCII quote marks U+0027 ' APOSTROPHE and U+0022 " QUOTATION MARK.. `css-text-4` */
+    const last: string
+    /** No punctuation character is made to hang.. `css-text` */
+    const none: string
+    /** An opening bracket or quote at the start of the first formatted line of an element hangs. This applies to all characters in the Unicode categories Ps, Pf, Pi plus the ASCII quote marks U+0027 ' APOSTROPHE and U+0022 " QUOTATION MARK.. `css-text` */
+    const first: string
+    /** A stop or comma at the end of a line hangs.. `css-text` */
+    const forceEnd: string
+    /** A stop or comma at the end of a line conditionally hangs.. `css-text` */
+    const allowEnd: string
+    /** A closing bracket or quote at the end of the last formatted line of an element hangs. This applies to all characters in the Unicode categories Pe, Pf, Pi plus the ASCII quote marks U+0027 ' APOSTROPHE and U+0022 " QUOTATION MARK.. `css-text` */
+    const last: string
+  }
+
+  /** Create a `height` property. `css-sizing-4, css-sizing` */
+  function height(value: any): Property
+  module height {
+    /** For width/height, specifies an automatic size (automatic block size/automatic inline size). See the relevant layout module for how to calculate this. For min-width/min-height, specifies an automatic minimum size. Unless otherwise defined by the relevant layout module, however, it resolves to a used value of 0. For backwards-compatibility, the resolved value of this keyword is zero for boxes of all [CSS2] display types: block and inline boxes, inline blocks, and all the table layout boxes. It also resolves to zero when no box is generated.. `css-sizing` */
+    const auto: string
+    /** Use the min-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. `css-sizing` */
     const minContent: string
-    /** `css-sizing` Use the max-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. */
+    /** Use the max-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. `css-sizing` */
     const maxContent: string
   }
 
-  /** Create a `will-change` property (`css-will-change`). */
-  function willChange(value: any): Property
-  module willChange {
-    /** `css-will-change` Expresses no particular intent; the user agent should apply whatever heuristics and optimizations it normally does.. */
+  /** Create a `hyphenate-character` property. `css-text-4` */
+  function hyphenateCharacter(value: any): Property
+  module hyphenateCharacter {
+    /** Specifies that the user agent should find an appropriate string based on the content language’s typographic conventions, possibly from the same source as the hyphenation dictionary.. `css-text-4` */
     const auto: string
   }
 
-  /** Create a `word-boundary-detection` property (`css-text-4`). */
-  function wordBoundaryDetection(value: any): Property
-  module wordBoundaryDetection {
-    /** `css-text-4` The user agent must not insert virtual word boundaries, except within runs of characters belonging to Southeast Asian languages, where content analysis must be performed to determine where to insert virtual word boundaries. As with manual, typographic character units with class SA in [UAX14] must be treated as if they had class AL; however, the user agent must additionally analyse the content of a run of such characters and insert virtual word boundaries where appropriate. Within the constraints set by this specification, the specific algorithm used is UA-dependent. As various languages can be written in scripts which use the characters with class SA, if the content language is known, the user agent should use this information to tailor its analysis. In order to avoid unexpected overflow, if the user agent is unable to perform this analysis for any subset of the characters with class SA—for example due to lacking a dictionary for certain languages—there must be a soft wrap opportunity between pairs of typographic letter units in that subset.. */
-    const normal: string
-    /** `css-text-4` Linguistic analysis is not used in any language or writing system to determine line wrapping opportunities not indicated by the markup or characters of the element. The user agent must not insert virtual word boundaries. Typographic character units with class SA in [UAX14] must be treated as if they had class AL (i.e. assuming word-break: normal and a value of line-break other than anywhere, there is no soft wrap opportunity between pairs of such characters). Authors using this value for Southeast Asian languages are expected to manually indicate word boundaries, for instance using wbr or U+200B. Otherwise, there will be no soft wrap opportunity and the text may overflow.. */
+  /** Create a `hyphenate-limit-chars` property. `css-text-4` */
+  function hyphenateLimitChars(value: any): Property
+  module hyphenateLimitChars {
+    /** If three values are specified, the first value is the required minimum for the total characters in a word, the second value is the minimum for characters before the hyphenation point, and the third value is the minimum for characters after the hyphenation point. If the third value is missing, it is the same as the second. If the second value is missing, then it is auto. The auto value means that the UA chooses a value that adapts to the current layout.. `css-text-4` */
+    const auto: string
+  }
+
+  /** Create a `hyphenate-limit-last` property. `css-text-4` */
+  function hyphenateLimitLast(value: any): Property
+  module hyphenateLimitLast {
+    /** `none` keyword. `css-text-4` */
+    const none: string
+    /** `always` keyword. `css-text-4` */
+    const always: string
+    /** `column` keyword. `css-text-4` */
+    const column: string
+    /** `page` keyword. `css-text-4` */
+    const page: string
+    /** `spread` keyword. `css-text-4` */
+    const spread: string
+  }
+
+  /** Create a `hyphenate-limit-lines` property. `css-text-4` */
+  function hyphenateLimitLines(value: any): Property
+  module hyphenateLimitLines {
+    /** `no-limit` keyword. `css-text-4` */
+    const noLimit: string
+  }
+
+  /** Create a `hyphenate-limit-zone` property. `css-text-4` */
+  function hyphenateLimitZone(value: any): Property
+
+  /** Create a `hyphens` property. `css-text-4, css-text` */
+  function hyphens(value: any): Property
+  module hyphens {
+    /** Words are not hyphenated, even if characters inside the word explicitly define hyphenation opportunities.. `css-text-4` */
+    const none: string
+    /** Words are only hyphenated where there are characters inside the word that explicitly suggest hyphenation opportunities. The UA must use the appropriate language-specific hyphenation character(s) and should apply any appropriate spelling changes just as for automatic hyphenation at the same point. In Unicode, U+00AD is a conditional "soft hyphen" and U+2010 is an unconditional hyphen. Unicode Standard Annex #14 describes the role of soft hyphens in Unicode line breaking. [UAX14] In HTML, &shy; represents the soft hyphen character, which suggests a hyphenation opportunity. ex&shy;ample. `css-text-4` */
     const manual: string
-  }
-
-  /** Create a `word-boundary-expansion` property (`css-text-4`). */
-  function wordBoundaryExpansion(value: any): Property
-  module wordBoundaryExpansion {
-    /** `css-text-4` This property has no effect.. */
+    /** Words may be broken at hyphenation opportunities determined automatically by a language-appropriate hyphenation resource in addition to those indicated explicitly by a conditional hyphen. Automatic hyphenation opportunities elsewhere within a word must be ignored if the word contains a conditional hyphen (&shy; or U+00AD SOFT HYPHEN), in favor of the conditional hyphen(s). However, if, even after breaking at such opportunities, a portion of that word is still too long to fit on one line, an automatic hyphenation opportunity may be used.. `css-text-4` */
+    const auto: string
+    /** Words are not hyphenated, even if characters inside the word explicitly define hyphenation opportunities.. `css-text` */
     const none: string
-    /** `css-text-4` Instances of U+200B ZERO WIDTH SPACE within the text run children of this element are replaced by U+0020 SPACE.. */
-    const space: string
-    /** `css-text-4` Instances of U+200B ZERO WIDTH SPACE within the text run children of this element are replaced by U+3000 IDEOGRAPHIC SPACE.. */
-    const ideographicSpace: string
-  }
-
-  /** Create a `word-break` property (`css-text-4, css-text`). */
-  function wordBreak(value: any): Property
-  module wordBreak {
-    /** `css-text-4` Words break according to their customary rules, as described above. Korean, which commonly exhibits two different behaviors, allows breaks between any two consecutive Hangul/Hanja. For Ethiopic, which also exhibits two different behaviors, such breaks within words are not allowed.. */
-    const normal: string
-    /** `css-text-4` Breaking is forbidden within “words”: implicit soft wrap opportunities between typographic letter units (or other typographic character units belonging to the NU, AL, AI, or ID Unicode line breaking classes [UAX14]) are suppressed, i.e. breaks are prohibited between pairs of such characters (regardless of line-break settings other than anywhere) except where opportunities exist due to dictionary-based breaking. Otherwise this option is equivalent to normal. In this style, sequences of CJK characters do not break.. */
-    const keepAll: string
-    /** `css-text-4` Breaking is allowed within “words”: specifically, in addition to soft wrap opportunities allowed for normal, any typographic letter units (and any typographic character units resolving to the NU (“numeric”), AL (“alphabetic”), or SA (“Southeast Asian”) line breaking classes [UAX14]) are instead treated as ID (“ideographic characters”) for the purpose of line-breaking. Hyphenation is not applied.. */
-    const breakAll: string
-    /** `css-text-4` For compatibility with legacy content, the word-break property also supports a deprecated break-word keyword. When specified, this has the same effect as word-break: normal and overflow-wrap: anywhere, regardless of the actual value of the overflow-wrap property.. */
-    const breakWord: string
-    /** `css-text` Words break according to their customary rules, as described above. Korean, which commonly exhibits two different behaviors, allows breaks between any two consecutive Hangul/Hanja. For Ethiopic, which also exhibits two different behaviors, such breaks within words are not allowed.. */
-    const normal: string
-    /** `css-text` Breaking is forbidden within “words”: implicit soft wrap opportunities between typographic letter units (or other typographic character units belonging to the NU, AL, AI, or ID Unicode line breaking classes [UAX14]) are suppressed, i.e. breaks are prohibited between pairs of such characters (regardless of line-break settings other than anywhere) except where opportunities exist due to dictionary-based breaking. Otherwise this option is equivalent to normal. In this style, sequences of CJK characters do not break.. */
-    const keepAll: string
-    /** `css-text` Breaking is allowed within “words”: specifically, in addition to soft wrap opportunities allowed for normal, any typographic letter units (and any typographic character units resolving to the NU (“numeric”), AL (“alphabetic”), or SA (“Southeast Asian”) line breaking classes [UAX14]) are instead treated as ID (“ideographic characters”) for the purpose of line-breaking. Hyphenation is not applied.. */
-    const breakAll: string
-    /** `css-text` For compatibility with legacy content, the word-break property also supports a deprecated break-word keyword. When specified, this has the same effect as word-break: normal and overflow-wrap: anywhere, regardless of the actual value of the overflow-wrap property.. */
-    const breakWord: string
-  }
-
-  /** Create a `word-spacing` property (`css-text-4, css-text`). */
-  function wordSpacing(value: any): Property
-  module wordSpacing {
-    /** `css-text-4` No additional spacing is applied. Computes to zero.. */
-    const normal: string
-    /** `css-text` No additional spacing is applied. Computes to zero.. */
-    const normal: string
-  }
-
-  /** Create a `word-wrap` property (`css-text-4, css-text`). */
-  function wordWrap(value: any): Property
-  module wordWrap {
-    /** `css-text-4` `normal` keyword. */
-    const normal: string
-    /** `css-text-4` `break-word` keyword. */
-    const breakWord: string
-    /** `css-text-4` `anywhere` keyword. */
-    const anywhere: string
-    /** `css-text` `normal` keyword. */
-    const normal: string
-    /** `css-text` `break-word` keyword. */
-    const breakWord: string
-    /** `css-text` `anywhere` keyword. */
-    const anywhere: string
-  }
-
-  /** Create a `wrap-after` property (`css-text-4`). */
-  function wrapAfter(value: any): Property
-  module wrapAfter {
-    /** `css-text-4` Lines may break at allowed break points before and after the box, as determined by the line-breaking rules in effect.. */
+    /** Words are only hyphenated where there are characters inside the word that explicitly suggest hyphenation opportunities. The UA must use the appropriate language-specific hyphenation character(s) and should apply any appropriate spelling changes just as for automatic hyphenation at the same point. In Unicode, U+00AD is a conditional "soft hyphen" and U+2010 is an unconditional hyphen. Unicode Standard Annex #14 describes the role of soft hyphens in Unicode line breaking. [UAX14] In HTML, &shy; represents the soft hyphen character, which suggests a hyphenation opportunity. ex&shy;ample. `css-text` */
+    const manual: string
+    /** Words may be broken at hyphenation opportunities determined automatically by a language-appropriate hyphenation resource in addition to those indicated explicitly by a conditional hyphen. Automatic hyphenation opportunities elsewhere within a word must be ignored if the word contains a conditional hyphen (&shy; or U+00AD SOFT HYPHEN), in favor of the conditional hyphen(s). However, if, even after breaking at such opportunities, a portion of that word is still too long to fit on one line, an automatic hyphenation opportunity may be used.. `css-text` */
     const auto: string
-    /** `css-text-4` Line breaking is suppressed immediately before/after the box: the UA may only break there if there are no other valid break points in the line. If the text breaks, line-breaking restrictions are honored as for auto.. */
-    const avoid: string
-    /** `css-text-4` Same as avoid, but only for line breaks.. */
-    const avoidLine: string
-    /** `css-text-4` Same as avoid, but only for flex line breaks.. */
-    const avoidFlex: string
-    /** `css-text-4` Force a line break immediately before/after the box if the box is an inline-level box.. */
-    const line: string
-    /** `css-text-4` Force a flex line break immediately before/after the box if the box is a flex item in a multi-line flex container.. */
-    const flex: string
   }
 
-  /** Create a `wrap-before` property (`css-text-4`). */
-  function wrapBefore(value: any): Property
-  module wrapBefore {
-    /** `css-text-4` Lines may break at allowed break points before and after the box, as determined by the line-breaking rules in effect.. */
-    const auto: string
-    /** `css-text-4` Line breaking is suppressed immediately before/after the box: the UA may only break there if there are no other valid break points in the line. If the text breaks, line-breaking restrictions are honored as for auto.. */
-    const avoid: string
-    /** `css-text-4` Same as avoid, but only for line breaks.. */
-    const avoidLine: string
-    /** `css-text-4` Same as avoid, but only for flex line breaks.. */
-    const avoidFlex: string
-    /** `css-text-4` Force a line break immediately before/after the box if the box is an inline-level box.. */
-    const line: string
-    /** `css-text-4` Force a flex line break immediately before/after the box if the box is a flex item in a multi-line flex container.. */
-    const flex: string
+  /** Create a `image-orientation` property. `css-images` */
+  function imageOrientation(value: any): Property
+  module imageOrientation {
+    /** If the image has an orientation specified in its metadata, such as EXIF, this value computes to the angle that the metadata specifies is necessary to correctly orient the image. If necessary, this angle is then rounded and normalized as described above for an <angle> value. If there is no orientation specified in its metadata, this value computes to none.. `css-images` */
+    const fromImage: string
+    /** No additional rotation is applied: the image is oriented as encoded.. `css-images` */
+    const none: string
+    /** `flip` keyword. `css-images` */
+    const flip: string
   }
 
-  /** Create a `wrap-flow` property (`css-exclusions`). */
-  function wrapFlow(value: any): Property
-  module wrapFlow {
-    /** `css-exclusions` No exclusion is created. Inline flow content interacts with the element as usual. In particular, if the element is a float (see [CSS21]), the behavior is unchanged.. */
+  /** Create a `image-rendering` property. `css-images` */
+  function imageRendering(value: any): Property
+  module imageRendering {
+    /** The scaling algorithm is UA-dependent.. `css-images` */
     const auto: string
-    /** `css-exclusions` Inline flow content can flow on all sides of the exclusion.. */
-    const both: string
-    /** `css-exclusions` Inline flow content can flow around the start edge of the exclusion area but must leave the area next to the end edge of the exclusion empty.. */
+    /** The image should be scaled with an algorithm that maximizes the appearance of the image. In particular, scaling algorithms that "smooth" colors are acceptable, such as bilinear interpolation. This is intended for images such as photos.. `css-images` */
+    const smooth: string
+    /** Identical to smooth, but with a preference for higher-quality scaling. If system resources are constrained, images with high-quality should be prioritized over those with any other value, when considering which images to degrade the quality of and to what degree.. `css-images` */
+    const highQuality: string
+    /** The image is scaled in a way that preserves the pixelation of the original as much as possible, but allows minor smoothing as necessary to avoid distorting the image when the target size is not a clean multiple of the original. For each axis independently, first determine the integer multiple of its natural size that puts it closest to the target size and is greater than zero. Scale it to this integer-multiple-size using nearest neighbor, then scale it the rest of the way to the target size as for smooth.. `css-images` */
+    const pixelated: string
+    /** The image is scaled in a way that preserves contrast and edges, and which avoids smoothing colors or introducing blur to the image in the process. This is intended for images such as line drawings. The image may be scaled using nearest neighbor or any other UA-chosen algorithm that does not blur edges or blend colors from the source image. It can, however, detect diagonal or curved lines and render them as such (rather than as jagged-looking “giant pixels”).. `css-images` */
+    const crispEdges: string
+  }
+
+  /** Create a `image-resolution` property. `css-images-4` */
+  function imageResolution(value: any): Property
+  module imageResolution {
+    /** The image’s preferred resolution is taken as that specified by the image format (the natural resolution). If the image does not specify its own resolution, the explicitly specified resolution is used (if given), else it defaults to 1dppx.. `css-images-4` */
+    const fromImage: string
+    /** If the "snap" keyword is provided, the computed <resolution> (if any) is the specified resolution rounded to the nearest value that would map one image pixel to an integer number of device pixels. If the resolution is taken from the image, then the used natural resolution is the image’s native resolution similarly adjusted.. `css-images-4` */
+    const snap: string
+  }
+
+  /** Create a `ime-mode` property. `unknown` */
+  function imeMode(value: any): Property
+
+  /** Create a `inherits` property. `unknown` */
+  function inherits(value: any): Property
+
+  /** Create a `initial-letter` property. `css-inline` */
+  function initialLetter(value: any): Property
+  module initialLetter {
+    /** No special initial letter effect. Text behaves as normal.. `css-inline` */
+    const normal: string
+    /** Computes to an initial letter sink equal to the initial letter size floored to the nearest positive whole number.. `css-inline` */
+    const drop: string
+    /** Computes to an initial letter sink of 1.. `css-inline` */
+    const raise: string
+  }
+
+  /** Create a `initial-letter-align` property. `css-inline` */
+  function initialLetterAlign(value: any): Property
+  module initialLetterAlign {
+    /** Use the initial letter box’s line-under and line-over border edges as the over and under alignment points, respectively.. `css-inline` */
+    const borderBox: string
+    /** Use the cap-height and alphabetic baselines of the surrounding text to align the initial letter.. `css-inline` */
+    const alphabetic: string
+    /** Use the ideographic-ink-over and ideographic-ink-under baselines of the surrounding text to align the initial letter.. `css-inline` */
+    const ideographic: string
+    /** Use the hanging and alphabetic baselines of the surrounding text to align the initial letter.. `css-inline` */
+    const hanging: string
+    /** Use the over/under half-leading edges (i.e. ascent/descent + half-leading) of the surrounding text to align the initial letter.. `css-inline` */
+    const leading: string
+  }
+
+  /** Create a `initial-letter-wrap` property. `css-inline` */
+  function initialLetterWrap(value: any): Property
+  module initialLetterWrap {
+    /** No contour-fitting is performed: each impacted line is aligned flush to the inline-end margin edge of the initial letter.. `css-inline` */
+    const none: string
+    /** Behaves as none if the first typographic character unit after the initial letter belongs to Unicode General Category Zs. Otherwise behaves as for all on the first line of the block containing the initial letter and as none on the rest. This example shows why contour-fitting the first line is necessary, and why it is dropped when the initial letter is followed by a space: In the top paragraph, the initial letter "A" has a word space after it: the gap between the top of the "A" and the next letter provides the necessary word separation. In the next paragraph, the initial letter "A" is part of the first word, and leaving a gap between the top of the "A" and the next letter would create a jarring visual break within the word. In this case, the first line of text should be kerned into the initial letter’s area, as shown in the bottom paragraph. Do we need an unconditional first? (I.e. Should we rename this value to auto and add a first value that does not check for spaces?) See GitHub issue 410. `css-inline` */
+    const first: string
+    /** For each line of text impacted by the initial letter, the line box adjacent to the initial letter starts at the start-most point that does not overlap the initial letter’s glyph outline. If the value of shape-outside is not none, shape-outside is used instead of the glyph outline. In both cases, shape-margin is applied to expand the outline, and the resulting outline is clipped by the initial letter’s margin edges.. `css-inline` */
+    const all: string
+    /** This value is the same as none, except that the exclusion area of the impacted lines is increased as necessary for its end-edge to land on the character grid, i.e. to be a multiple of (1ic + letter-spacing) as computed on the containing block. The justify-self property can then be used to align the initial letter box within the exclusion area. Diagram of Japanese initial letter in vertical writing mode. `css-inline` */
+    const grid: string
+  }
+
+  /** Create a `initial-value` property. `unknown` */
+  function initialValue(value: any): Property
+
+  /** Create a `inline-size` property. `css-logical, css-sizing-4` */
+  function inlineSize(value: any): Property
+
+  /** Create a `inline-sizing` property. `css-inline` */
+  function inlineSizing(value: any): Property
+  module inlineSizing {
+    /** The content area of the inline box is sized and positioned to fit (possibly hypothetical) text from its first available font. This specification does not specify how. A UA may, e.g., use the maximum ascender and descender of the font. (This would ensure that glyphs with parts above or below the em-box still fall within the content area, but leads to differently sized boxes for different fonts.). `css-inline` */
+    const normal: string
+    /** Once the line box has been sized and its contents positioned as for normal, the inline box’s box edges are shifted such that its over/under margin edges coincide with the corresponding line box’s edges, stretching the inline box’s inner logical height so that its block-axis outer size fills the line box. (The sizes and positions of its in-flow contents are not affected.). `css-inline` */
+    const stretch: string
+  }
+
+  /** Create a `input-format` property. `unknown` */
+  function inputFormat(value: any): Property
+
+  /** Create a `input-security` property. `css-ui` */
+  function inputSecurity(value: any): Property
+  module inputSecurity {
+    /** The UA should obscure the text in the control, so that it cannot be read by the user.. `css-ui` */
+    const auto: string
+    /** The UA must not obscure the text in the control, so that it can be read by the user.. `css-ui` */
+    const none: string
+  }
+
+  /** Create a `inset` property. `css-position` */
+  function inset(value: any): Property
+  module inset {
+    /** <top>, <right>, <bottom>, and <left> may either have a <length> value or auto. Negative lengths are permitted. The value auto means that a given edge of the clipping region will be the same as the edge of the element’s generated border box (i.e., auto means the same as 0 for <top> and <left>, the same as the used value of the height plus the sum of vertical padding and border widths for <bottom>, and the same as the used value of the width plus the sum of the horizontal padding and border widths for <right>, such that four auto values result in the clipping region being the same as the element’s border box).. `css-position` */
+    const auto: string
+  }
+
+  /** Create a `inset-block` property. `css-position` */
+  function insetBlock(value: any): Property
+  module insetBlock {
+    /** <top>, <right>, <bottom>, and <left> may either have a <length> value or auto. Negative lengths are permitted. The value auto means that a given edge of the clipping region will be the same as the edge of the element’s generated border box (i.e., auto means the same as 0 for <top> and <left>, the same as the used value of the height plus the sum of vertical padding and border widths for <bottom>, and the same as the used value of the width plus the sum of the horizontal padding and border widths for <right>, such that four auto values result in the clipping region being the same as the element’s border box).. `css-position` */
+    const auto: string
+  }
+
+  /** Create a `inset-block-end` property. `css-position` */
+  function insetBlockEnd(value: any): Property
+  module insetBlockEnd {
+    /** Represents an unconstrained inset; the exact meaning depends on the positioning scheme.. `css-position` */
+    const auto: string
+  }
+
+  /** Create a `inset-block-start` property. `css-position` */
+  function insetBlockStart(value: any): Property
+  module insetBlockStart {
+    /** Represents an unconstrained inset; the exact meaning depends on the positioning scheme.. `css-position` */
+    const auto: string
+  }
+
+  /** Create a `inset-inline` property. `css-position` */
+  function insetInline(value: any): Property
+  module insetInline {
+    /** <top>, <right>, <bottom>, and <left> may either have a <length> value or auto. Negative lengths are permitted. The value auto means that a given edge of the clipping region will be the same as the edge of the element’s generated border box (i.e., auto means the same as 0 for <top> and <left>, the same as the used value of the height plus the sum of vertical padding and border widths for <bottom>, and the same as the used value of the width plus the sum of the horizontal padding and border widths for <right>, such that four auto values result in the clipping region being the same as the element’s border box).. `css-position` */
+    const auto: string
+  }
+
+  /** Create a `inset-inline-end` property. `css-position` */
+  function insetInlineEnd(value: any): Property
+  module insetInlineEnd {
+    /** Represents an unconstrained inset; the exact meaning depends on the positioning scheme.. `css-position` */
+    const auto: string
+  }
+
+  /** Create a `inset-inline-start` property. `css-position` */
+  function insetInlineStart(value: any): Property
+  module insetInlineStart {
+    /** Represents an unconstrained inset; the exact meaning depends on the positioning scheme.. `css-position` */
+    const auto: string
+  }
+
+  /** Create a `isolation` property. `compositing` */
+  function isolation(value: any): Property
+
+  /** Create a `justify-content` property. `css-align` */
+  function justifyContent(value: any): Property
+  module justifyContent {
+    /** Aligns the contents of the box as a whole (as the alignment subject) within the box itself (as the alignment container): along the inline/row/main axis of the box (for justify-content) or the block/column/cross axis of the box (for align-content). Values other than normal are defined in § 4 Alignment Keywords, above.. `css-align` */
+    const normal: string
+    /** The alignment subjects are evenly distributed in the alignment container. The first alignment subject is placed flush with the start edge of the alignment container, the last alignment subject is placed flush with the end edge of the alignment container, and the remaining alignment subjects are distributed so that the spacing between any two adjacent alignment subjects is the same. The default fallback alignment for this value is flex-start. (For layout modes other than flex layout, flex-start is identical to start.). `css-align` */
+    const spaceBetween: string
+    /** The alignment subjects are evenly distributed in the alignment container, with a half-size space on either end. The alignment subjects are distributed so that the spacing between any two adjacent alignment subjects is the same, and the spacing before the first and after the last alignment subject is half the size of the other spacing. The default fallback alignment for this value is safe center.. `css-align` */
+    const spaceAround: string
+    /** The alignment subjects are evenly distributed in the alignment container, with a full-size space on either end. The alignment subjects are distributed so that the spacing between any two adjacent alignment subjects, before the first alignment subject, and after the last alignment subject is the same. The default fallback alignment for this value is safe center.. `css-align` */
+    const spaceEvenly: string
+    /** If the combined size of the alignment subjects is less than the size of the alignment container, any auto-sized alignment subjects have their size increased equally (not proportionally), while still respecting the constraints imposed by max-height/max-width (or equivalent functionality), so that the combined size exactly fills the alignment container. The default fallback alignment for this value is flex-start. (For layout modes other than flex layout, flex-start is identical to start.). `css-align` */
+    const stretch: string
+    /** If the size of the alignment subject overflows the alignment container, the alignment subject is instead aligned as if the alignment mode were start.. `css-align` */
+    const safe: string
+    /** Regardless of the relative sizes of the alignment subject and alignment container, the given alignment value is honored.. `css-align` */
+    const unsafe: string
+    /** Centers the alignment subject within its alignment container.. `css-align` */
+    const center: string
+    /** Aligns the alignment subject to be flush with the alignment container’s start edge in the appropriate axis.. `css-align` */
     const start: string
-    /** `css-exclusions` Inline flow content can flow around the end edge of the exclusion area but must leave the area next to the start edge of the exclusion empty.. */
+    /** Aligns the alignment subject to be flush with the alignment container’s end edge in the appropriate axis.. `css-align` */
     const end: string
-    /** `css-exclusions` Inline flow content can flow around the edge of the exclusion with the smallest available space within the flow content’s containing block, and must leave the other edge of the exclusion empty.. */
-    const minimum: string
-    /** `css-exclusions` Inline flow content can flow around the edge of the exclusion with the largest available space within the flow content’s containing block, and must leave the other edge of the exclusion empty.. */
-    const maximum: string
-    /** `css-exclusions` Inline flow content can only flow before and after the exclusion in the flow content’s block direction and must leave the areas next to the start and end edges of the exclusion empty.. */
-    const clear: string
+    /** Only used in flex layout. [CSS-FLEXBOX-1] Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the flex container’s main-start or cross-start side, as appropriate. When used outside of a flex formatting context, this value behaves as start. That is, on boxes that are not flex items (or pretending to be flex items, such as when determining the static position of an absolutely-positioned box that is a child of a flex container), this value behaves as start when used in the self-alignment properties, and on boxes that are not flex containers, this value behaves as start when used in the content-distribution properties.. `css-align` */
+    const flexStart: string
+    /** Only used in flex layout. Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the flex container’s main-end or cross-end side, as appropriate. When used outside of a flex formatting context, this value behaves as end. That is, on boxes that are not flex items (or pretending to be flex items, such as when determining the static position of an absolutely-positioned box that is a child of a flex container), this value behaves as end when used in the self-alignment properties, and on boxes that are not flex containers, this value behaves as end when used in the content-distribution properties.. `css-align` */
+    const flexEnd: string
+    /** Aligns the alignment subject to be flush with the alignment container’s line-left or physical left edge, whichever is in the appropriate axis. If the property’s axis is not parallel with either left↔right axis, this value behaves as start. Currently, the only case where the property’s axis is not parallel with either left↔right axis is in a column flexbox.. `css-align` */
+    const left: string
+    /** Aligns the alignment subject to be flush with the alignment container’s line-right or physical right edge, whichever is in the appropriate axis. If the property’s axis is not parallel with either left↔right axis, this value behaves as start. Currently, the only case where the property’s axis is not parallel with either left↔right axis is in a column flexbox.. `css-align` */
+    const right: string
   }
 
-  /** Create a `wrap-inside` property (`css-text-4`). */
-  function wrapInside(value: any): Property
-  module wrapInside {
-    /** `css-text-4` Lines may break at allowed break points within the box, as determined by the line-breaking rules in effect.. */
+  /** Create a `justify-items` property. `css-align` */
+  function justifyItems(value: any): Property
+  module justifyItems {
+    /** `normal` keyword. `css-align` */
+    const normal: string
+    /** `stretch` keyword. `css-align` */
+    const stretch: string
+    /** Computes to first baseline, defined below.. `css-align` */
+    const baseline: string
+    /** Specifies participation in first-baseline alignment: aligns the alignment baseline of the box’s first baseline set with the corresponding baseline of its baseline-sharing group. See § 9.3 Aligning Boxes by Baseline for more details. The fallback alignment for first baseline is safe self-start (for self-alignment) or safe start (for content-distribution).. `css-align` */
+    const first_baseline: string
+    /** Specifies participation in last-baseline alignment: aligns the alignment baseline of the box’s last baseline set with the corresponding baseline of its baseline-sharing group.̣ See § 9.3 Aligning Boxes by Baseline for more details. The fallback alignment for last baseline is safe self-end (for self-alignment) or safe end (for content-distribution).. `css-align` */
+    const last_baseline: string
+    /** If the size of the alignment subject overflows the alignment container, the alignment subject is instead aligned as if the alignment mode were start.. `css-align` */
+    const safe: string
+    /** Regardless of the relative sizes of the alignment subject and alignment container, the given alignment value is honored.. `css-align` */
+    const unsafe: string
+    /** Centers the alignment subject within its alignment container.. `css-align` */
+    const center: string
+    /** Aligns the alignment subject to be flush with the alignment container’s start edge in the appropriate axis.. `css-align` */
+    const start: string
+    /** Aligns the alignment subject to be flush with the alignment container’s end edge in the appropriate axis.. `css-align` */
+    const end: string
+    /** Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the alignment subject’s start side in the appropriate axis.. `css-align` */
+    const selfStart: string
+    /** Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the alignment subject’s end side in the appropriate axis.. `css-align` */
+    const selfEnd: string
+    /** Only used in flex layout. [CSS-FLEXBOX-1] Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the flex container’s main-start or cross-start side, as appropriate. When used outside of a flex formatting context, this value behaves as start. That is, on boxes that are not flex items (or pretending to be flex items, such as when determining the static position of an absolutely-positioned box that is a child of a flex container), this value behaves as start when used in the self-alignment properties, and on boxes that are not flex containers, this value behaves as start when used in the content-distribution properties.. `css-align` */
+    const flexStart: string
+    /** Only used in flex layout. Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the flex container’s main-end or cross-end side, as appropriate. When used outside of a flex formatting context, this value behaves as end. That is, on boxes that are not flex items (or pretending to be flex items, such as when determining the static position of an absolutely-positioned box that is a child of a flex container), this value behaves as end when used in the self-alignment properties, and on boxes that are not flex containers, this value behaves as end when used in the content-distribution properties.. `css-align` */
+    const flexEnd: string
+    /** Aligns the alignment subject to be flush with the alignment container’s line-left or physical left edge, whichever is in the appropriate axis. If the property’s axis is not parallel with either left↔right axis, this value behaves as start. Currently, the only case where the property’s axis is not parallel with either left↔right axis is in a column flexbox.. `css-align` */
+    const left: string
+    /** Aligns the alignment subject to be flush with the alignment container’s line-right or physical right edge, whichever is in the appropriate axis. If the property’s axis is not parallel with either left↔right axis, this value behaves as start. Currently, the only case where the property’s axis is not parallel with either left↔right axis is in a column flexbox.. `css-align` */
+    const right: string
+    /** This keyword causes the value to effectively inherit into descendants. If the legacy keyword appears on its own (without an accompanying left, right, or center keyword): if the inherited value of justify-items includes the legacy keyword, this value computes to the inherited value; otherwise it computes to normal. When justify-self:auto references the value of justify-items, only the alignment keyword, not the legacy keyword, is referenced by it. It exists to implement the legacy alignment behavior of HTML’s <center> element and align attribute.. `css-align` */
+    const legacy: string
+    /** This keyword causes the value to effectively inherit into descendants. If the legacy keyword appears on its own (without an accompanying left, right, or center keyword): if the inherited value of justify-items includes the legacy keyword, this value computes to the inherited value; otherwise it computes to normal. When justify-self:auto references the value of justify-items, only the alignment keyword, not the legacy keyword, is referenced by it. It exists to implement the legacy alignment behavior of HTML’s <center> element and align attribute.. `css-align` */
+    const legacy: string
+    /** Aligns the alignment subject to be flush with the alignment container’s line-left or physical left edge, whichever is in the appropriate axis. If the property’s axis is not parallel with either left↔right axis, this value behaves as start. Currently, the only case where the property’s axis is not parallel with either left↔right axis is in a column flexbox.. `css-align` */
+    const left: string
+    /** Aligns the alignment subject to be flush with the alignment container’s line-right or physical right edge, whichever is in the appropriate axis. If the property’s axis is not parallel with either left↔right axis, this value behaves as start. Currently, the only case where the property’s axis is not parallel with either left↔right axis is in a column flexbox.. `css-align` */
+    const right: string
+    /** `center` keyword. `css-align` */
+    const center: string
+  }
+
+  /** Create a `justify-self` property. `css-align` */
+  function justifySelf(value: any): Property
+  module justifySelf {
+    /** Behaves as normal if the box has no parent, or when determining the actual position of an absolutely positioned box. It behaves as the computed justify-items value of the parent box (minus any legacy keywords) otherwise (including when determining the static position of an absolutely positioned box).. `css-align` */
     const auto: string
-    /** `css-text-4` Line breaking is suppressed within the box: the UA may only break within the box if there are no other valid break points in the line. If the text breaks, line-breaking restrictions are honored as for auto. If boxes with avoid are nested and the UA must break within these boxes, a break in an outer box must be used before a break within an inner box may be used.. */
-    const avoid: string
+    /** Represents the “default” alignment for the layout mode. Its behavior depends on the layout mode, as described below.. `css-align` */
+    const normal: string
+    /** When the box’s computed width/height (as appropriate to the axis) is auto and neither of its margins (in the appropriate axis) are auto, sets the box’s used size to the length necessary to make its outer size as close to filling the alignment container as possible while still respecting the constraints imposed by min-height/min-width/max-height/max-width. Unless otherwise specified, this value falls back to flex-start generally, and to self-start or self-end if the box has also specified first baseline or last baseline baseline content-alignment (respectively) in the same axis.. `css-align` */
+    const stretch: string
+    /** Computes to first baseline, defined below.. `css-align` */
+    const baseline: string
+    /** Specifies participation in first-baseline alignment: aligns the alignment baseline of the box’s first baseline set with the corresponding baseline of its baseline-sharing group. See § 9.3 Aligning Boxes by Baseline for more details. The fallback alignment for first baseline is safe self-start (for self-alignment) or safe start (for content-distribution).. `css-align` */
+    const first_baseline: string
+    /** Specifies participation in last-baseline alignment: aligns the alignment baseline of the box’s last baseline set with the corresponding baseline of its baseline-sharing group.̣ See § 9.3 Aligning Boxes by Baseline for more details. The fallback alignment for last baseline is safe self-end (for self-alignment) or safe end (for content-distribution).. `css-align` */
+    const last_baseline: string
+    /** If the size of the alignment subject overflows the alignment container, the alignment subject is instead aligned as if the alignment mode were start.. `css-align` */
+    const safe: string
+    /** Regardless of the relative sizes of the alignment subject and alignment container, the given alignment value is honored.. `css-align` */
+    const unsafe: string
+    /** Centers the alignment subject within its alignment container.. `css-align` */
+    const center: string
+    /** Aligns the alignment subject to be flush with the alignment container’s start edge in the appropriate axis.. `css-align` */
+    const start: string
+    /** Aligns the alignment subject to be flush with the alignment container’s end edge in the appropriate axis.. `css-align` */
+    const end: string
+    /** Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the alignment subject’s start side in the appropriate axis.. `css-align` */
+    const selfStart: string
+    /** Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the alignment subject’s end side in the appropriate axis.. `css-align` */
+    const selfEnd: string
+    /** Only used in flex layout. [CSS-FLEXBOX-1] Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the flex container’s main-start or cross-start side, as appropriate. When used outside of a flex formatting context, this value behaves as start. That is, on boxes that are not flex items (or pretending to be flex items, such as when determining the static position of an absolutely-positioned box that is a child of a flex container), this value behaves as start when used in the self-alignment properties, and on boxes that are not flex containers, this value behaves as start when used in the content-distribution properties.. `css-align` */
+    const flexStart: string
+    /** Only used in flex layout. Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the flex container’s main-end or cross-end side, as appropriate. When used outside of a flex formatting context, this value behaves as end. That is, on boxes that are not flex items (or pretending to be flex items, such as when determining the static position of an absolutely-positioned box that is a child of a flex container), this value behaves as end when used in the self-alignment properties, and on boxes that are not flex containers, this value behaves as end when used in the content-distribution properties.. `css-align` */
+    const flexEnd: string
+    /** Aligns the alignment subject to be flush with the alignment container’s line-left or physical left edge, whichever is in the appropriate axis. If the property’s axis is not parallel with either left↔right axis, this value behaves as start. Currently, the only case where the property’s axis is not parallel with either left↔right axis is in a column flexbox.. `css-align` */
+    const left: string
+    /** Aligns the alignment subject to be flush with the alignment container’s line-right or physical right edge, whichever is in the appropriate axis. If the property’s axis is not parallel with either left↔right axis, this value behaves as start. Currently, the only case where the property’s axis is not parallel with either left↔right axis is in a column flexbox.. `css-align` */
+    const right: string
   }
 
-  /** Create a `wrap-through` property (`css-exclusions`). */
-  function wrapThrough(value: any): Property
-  module wrapThrough {
-    /** `css-exclusions` The element inherits its parent node’s wrapping context. Its descendant inline content wraps around exclusions defined outside the element.. */
-    const wrap: string
-    /** `css-exclusions` The element does not inherit its parent node’s wrapping context. Its descendants are only subject to exclusion areas defined inside the element.. */
+  /** Create a `justify-tracks` property. `css-grid-3` */
+  function justifyTracks(value: any): Property
+  module justifyTracks {
+    /** `normal` keyword. `css-grid-3` */
+    const normal: string
+    /** The alignment subjects are evenly distributed in the alignment container. The first alignment subject is placed flush with the start edge of the alignment container, the last alignment subject is placed flush with the end edge of the alignment container, and the remaining alignment subjects are distributed so that the spacing between any two adjacent alignment subjects is the same. The default fallback alignment for this value is flex-start. (For layout modes other than flex layout, flex-start is identical to start.). `css-grid-3` */
+    const spaceBetween: string
+    /** The alignment subjects are evenly distributed in the alignment container, with a half-size space on either end. The alignment subjects are distributed so that the spacing between any two adjacent alignment subjects is the same, and the spacing before the first and after the last alignment subject is half the size of the other spacing. The default fallback alignment for this value is safe center.. `css-grid-3` */
+    const spaceAround: string
+    /** The alignment subjects are evenly distributed in the alignment container, with a full-size space on either end. The alignment subjects are distributed so that the spacing between any two adjacent alignment subjects, before the first alignment subject, and after the last alignment subject is the same. The default fallback alignment for this value is safe center.. `css-grid-3` */
+    const spaceEvenly: string
+    /** If the combined size of the alignment subjects is less than the size of the alignment container, any auto-sized alignment subjects have their size increased equally (not proportionally), while still respecting the constraints imposed by max-height/max-width (or equivalent functionality), so that the combined size exactly fills the alignment container. The default fallback alignment for this value is flex-start. (For layout modes other than flex layout, flex-start is identical to start.). `css-grid-3` */
+    const stretch: string
+    /** If the size of the alignment subject overflows the alignment container, the alignment subject is instead aligned as if the alignment mode were start.. `css-grid-3` */
+    const safe: string
+    /** Regardless of the relative sizes of the alignment subject and alignment container, the given alignment value is honored.. `css-grid-3` */
+    const unsafe: string
+    /** Centers the alignment subject within its alignment container.. `css-grid-3` */
+    const center: string
+    /** Aligns the alignment subject to be flush with the alignment container’s start edge in the appropriate axis.. `css-grid-3` */
+    const start: string
+    /** Aligns the alignment subject to be flush with the alignment container’s end edge in the appropriate axis.. `css-grid-3` */
+    const end: string
+    /** Only used in flex layout. [CSS-FLEXBOX-1] Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the flex container’s main-start or cross-start side, as appropriate. When used outside of a flex formatting context, this value behaves as start. That is, on boxes that are not flex items (or pretending to be flex items, such as when determining the static position of an absolutely-positioned box that is a child of a flex container), this value behaves as start when used in the self-alignment properties, and on boxes that are not flex containers, this value behaves as start when used in the content-distribution properties.. `css-grid-3` */
+    const flexStart: string
+    /** Only used in flex layout. Aligns the alignment subject to be flush with the edge of the alignment container corresponding to the flex container’s main-end or cross-end side, as appropriate. When used outside of a flex formatting context, this value behaves as end. That is, on boxes that are not flex items (or pretending to be flex items, such as when determining the static position of an absolutely-positioned box that is a child of a flex container), this value behaves as end when used in the self-alignment properties, and on boxes that are not flex containers, this value behaves as end when used in the content-distribution properties.. `css-grid-3` */
+    const flexEnd: string
+    /** `left` keyword. `css-grid-3` */
+    const left: string
+    /** `right` keyword. `css-grid-3` */
+    const right: string
+  }
+
+  /** Create a `kerning` property. `unknown` */
+  function kerning(value: any): Property
+
+  /** Create a `layout-flow` property. `unknown` */
+  function layoutFlow(value: any): Property
+
+  /** Create a `layout-grid` property. `unknown` */
+  function layoutGrid(value: any): Property
+
+  /** Create a `layout-grid-char` property. `unknown` */
+  function layoutGridChar(value: any): Property
+
+  /** Create a `layout-grid-line` property. `unknown` */
+  function layoutGridLine(value: any): Property
+
+  /** Create a `layout-grid-mode` property. `unknown` */
+  function layoutGridMode(value: any): Property
+
+  /** Create a `layout-grid-type` property. `unknown` */
+  function layoutGridType(value: any): Property
+
+  /** Create a `layout-order` property. `css-display` */
+  function layoutOrder(value: any): Property
+
+  /** Create a `leading-trim` property. `css-inline` */
+  function leadingTrim(value: any): Property
+  module leadingTrim {
+    /** No special handling of the first/last line box when applied to a block container. When applied to an inline box, specifies that the over/under content edges coincide with the text-over/text-under baselines regardless of text-edge (which nonetheless still affects line box sizing).. `css-inline` */
+    const normal: string
+    /** For block containers: trim the block-start side of the first formatted line to the corresponding text-edge metric of its root inline box. If there is no such line, or if there is intervening non-zero padding or borders, there is no effect. For inline boxes: trims the block-end side of the box to match its content edge to the metric specified by text-edge (treating leading as text).. `css-inline` */
+    const start: string
+    /** For block containers: trim the block-end side of the last formatted line to the corresponding text-edge metric of its root inline box. If there is no such line, or if there is intervening non-zero padding or borders, there is no effect. For inline boxes: trims the block-end side of the box to match its content edge to the metric specified by text-edge (treating leading as text).. `css-inline` */
+    const end: string
+    /** Specifies the behavior of start and end simultaneously.. `css-inline` */
+    const both: string
+  }
+
+  /** Create a `left` property. `css-position` */
+  function left(value: any): Property
+  module left {
+    /** Represents an unconstrained inset; the exact meaning depends on the positioning scheme.. `css-position` */
+    const auto: string
+  }
+
+  /** Create a `letter-spacing` property. `css-text-4, css-text` */
+  function letterSpacing(value: any): Property
+  module letterSpacing {
+    /** No additional spacing is applied. Computes to zero.. `css-text-4` */
+    const normal: string
+    /** No additional spacing is applied. Computes to zero.. `css-text` */
+    const normal: string
+  }
+
+  /** Create a `lighting-color` property. `filter-effects` */
+  function lightingColor(value: any): Property
+  module lightingColor {
+    /** `color` keyword. `filter-effects` */
+    const color: string
+  }
+
+  /** Create a `line-break` property. `css-text-4, css-text` */
+  function lineBreak(value: any): Property
+  module lineBreak {
+    /** The UA determines the set of line-breaking restrictions to use, and it may vary the restrictions based on the length of the line; e.g., use a less restrictive set of line-break rules for short lines.. `css-text-4` */
+    const auto: string
+    /** Breaks text using the least restrictive set of line-breaking rules. Typically used for short lines, such as in newspapers.. `css-text-4` */
+    const loose: string
+    /** Breaks text using the most common set of line-breaking rules.. `css-text-4` */
+    const normal: string
+    /** Breaks text using the most stringent set of line-breaking rules.. `css-text-4` */
+    const strict: string
+    /** There is a soft wrap opportunity around every typographic character unit, including around any punctuation character or preserved white spaces, or in the middle of words, disregarding any prohibition against line breaks, even those introduced by characters with the GL, WJ, or ZWJ line breaking classes or mandated by the word-break property. [UAX14] The different wrapping opportunities must not be prioritized. Hyphenation is not applied.. `css-text-4` */
+    const anywhere: string
+    /** The UA determines the set of line-breaking restrictions to use, and it may vary the restrictions based on the length of the line; e.g., use a less restrictive set of line-break rules for short lines.. `css-text` */
+    const auto: string
+    /** Breaks text using the least restrictive set of line-breaking rules. Typically used for short lines, such as in newspapers.. `css-text` */
+    const loose: string
+    /** Breaks text using the most common set of line-breaking rules.. `css-text` */
+    const normal: string
+    /** Breaks text using the most stringent set of line-breaking rules.. `css-text` */
+    const strict: string
+    /** There is a soft wrap opportunity around every typographic character unit, including around any punctuation character or preserved white spaces, or in the middle of words, disregarding any prohibition against line breaks, even those introduced by characters with the GL, WJ, or ZWJ line breaking classes or mandated by the word-break property. [UAX14] The different wrapping opportunities must not be prioritized. Hyphenation is not applied.. `css-text` */
+    const anywhere: string
+  }
+
+  /** Create a `line-clamp` property. `css-overflow-4` */
+  function lineClamp(value: any): Property
+  module lineClamp {
+    /** Sets max-lines to none, continue to auto, and block-ellipsis to none.. `css-overflow-4` */
     const none: string
   }
 
-  /** Create a `writing-mode` property (`css-writing-modes`). */
-  function writingMode(value: any): Property
-  module writingMode {
-    /** `css-writing-modes` Top-to-bottom block flow direction. Both the writing mode and the typographic mode are horizontal.. */
-    const horizontalTb: string
-    /** `css-writing-modes` Right-to-left block flow direction. Both the writing mode and the typographic mode are vertical.. */
-    const verticalRl: string
-    /** `css-writing-modes` Left-to-right block flow direction. Both the writing mode and the typographic mode are vertical.. */
-    const verticalLr: string
-    /** `css-writing-modes` Right-to-left block flow direction. The writing mode is vertical, while the typographic mode is horizontal.. */
-    const sidewaysRl: string
-    /** `css-writing-modes` Left-to-right block flow direction. The writing mode is vertical, while the typographic mode is horizontal.. */
-    const sidewaysLr: string
+  /** Create a `line-gap-override` property. `unknown` */
+  function lineGapOverride(value: any): Property
+
+  /** Create a `line-grid` property. `css-line-grid` */
+  function lineGrid(value: any): Property
+  module lineGrid {
+    /** Box assumes the line grid of its parent if its writing mode is the same as its parent. If the box has a writing mode that is different than its parent, then the box creates a new line grid as create below.. `css-line-grid` */
+    const matchParent: string
+    /** Box creates a new line grid using its own font and line layout settings, including any adjustment to the line height caused by the line-height-step property. The line grid consists of a series of horizontal lines corresponding to all the baselines (alphabetic, text-top, text-bottom, mathematic, central, hanging, etc.) and to the line-over and line-under edges, positioned where they would fall if the contents of this element consisted entirely of line boxes filled with text (no sub-elements) using the first available font. If the box is paginated, the line grid is restarted on each page; since line boxes cannot be fragmented, no page begins with the bottom part of a line’s grid.. `css-line-grid` */
+    const create: string
   }
 
-  /** Create a `x` property (`svg`). */
-  function x(value: any): Property
+  /** Create a `line-height` property. `css-inline` */
+  function lineHeight(value: any): Property
+  module lineHeight {
+    /** Determine the preferred line height automatically based on font metrics.. `css-inline` */
+    const normal: string
+  }
 
-  /** Create a `y` property (`svg`). */
-  function y(value: any): Property
+  /** Create a `line-height-step` property. `css-rhythm` */
+  function lineHeightStep(value: any): Property
 
-  /** Create a `z-index` property (`css`). */
-  function zIndex(value: any): Property
-  module zIndex {
-    /** `css` The stack level of the generated box in the current stacking context is 0. The box does not establish a new stacking context unless it is the root element.. */
+  /** Create a `line-increment` property. `unknown` */
+  function lineIncrement(value: any): Property
+
+  /** Create a `line-padding` property. `css-text-4` */
+  function linePadding(value: any): Property
+
+  /** Create a `line-snap` property. `css-line-grid` */
+  function lineSnap(value: any): Property
+  module lineSnap {
+    /** Line boxes do not snap to the grid; they stack normally.. `css-line-grid` */
+    const none: string
+    /** The dominant baseline snaps with the matching baseline on the line grid applying to the element.. `css-line-grid` */
+    const baseline: string
+    /** Two baselines are used to align the line box: the line box is snapped so that its central baseline is centered between one of the line grid’s text-over-edge baselines and a subsequent (but not necessarily consecutive) text-under-edge baseline.. `css-line-grid` */
+    const contain: string
+  }
+
+  /** Create a `link-parameters` property. `css-link-params` */
+  function linkParameters(value: any): Property
+  module linkParameters {
+    /** `none` keyword. `css-link-params` */
+    const none: string
+  }
+
+  /** Create a `list-style` property. `css-lists` */
+  function listStyle(value: any): Property
+
+  /** Create a `list-style-image` property. `css-lists` */
+  function listStyleImage(value: any): Property
+  module listStyleImage {
+    /** The element has no marker image.. `css-lists` */
+    const none: string
+  }
+
+  /** Create a `list-style-position` property. `css-lists` */
+  function listStylePosition(value: any): Property
+  module listStylePosition {
+    /** No special effect. (The ::marker is an inline element at the start of the list item’s contents.). `css-lists` */
+    const inside: string
+    /** If the list item is a block container: the marker box is a block container and is placed outside the principal block box; however, the position of the list-item marker adjacent to floats is undefined. CSS does not specify the precise location of the marker box or its position in the painting order, but does require that it be placed on the inline-start side of the box, using the writing mode of the box indicated by marker-side. The marker box is fixed with respect to the principal block box’s border and does not scroll with the principal box’s content. A UA may hide the marker if the element’s overflow is other than visible. (This allowance may change in the future.) The size or contents of the marker box may affect the height of the principal block box and/or the height of its first line box, and in some cases may cause the creation of a new line box; this interaction is also not defined. This is handwavey nonsense from CSS2, and needs a real definition. If the list item is an inline box: this value is equivalent to inside. Alternatively, outside could lay out the marker as a previous sibling of the principal inline box.. `css-lists` */
+    const outside: string
+  }
+
+  /** Create a `list-style-type` property. `css-lists` */
+  function listStyleType(value: any): Property
+  module listStyleType {
+    /** Informal Japanese Kanji numbering (e.g., 千百十一). `css-lists` */
+    const japaneseInformal: string
+    /** Formal Japanese Kanji numbering (e.g. 壱阡壱百壱拾壱). `css-lists` */
+    const japaneseFormal: string
+    /** Simplified Chinese informal numbering (e.g., 一千一百一十一). `css-lists` */
+    const simpChineseInformal: string
+    /** Simplified Chinese formal numbering (e.g. 壹仟壹佰壹拾壹). `css-lists` */
+    const simpChineseFormal: string
+    /** Traditional Chinese informal numbering (e.g., 一千一百一十一). `css-lists` */
+    const tradChineseInformal: string
+    /** Traditional Chinese formal numbering (e.g., 壹仟壹佰壹拾壹). `css-lists` */
+    const tradChineseFormal: string
+    /** This counter style is identical to trad-chinese-informal. (It exists for legacy reasons.). `css-lists` */
+    const cjkIdeographic: string
+    /** The element has no marker string.. `css-lists` */
+    const none: string
+  }
+
+  /** Create a `margin` property. `css-box` */
+  function margin(value: any): Property
+
+  /** Create a `margin-block` property. `css-logical` */
+  function marginBlock(value: any): Property
+
+  /** Create a `margin-block-end` property. `css-logical` */
+  function marginBlockEnd(value: any): Property
+
+  /** Create a `margin-block-start` property. `css-logical` */
+  function marginBlockStart(value: any): Property
+
+  /** Create a `margin-bottom` property. `css-box` */
+  function marginBottom(value: any): Property
+  module marginBottom {
+    /** `auto` keyword. `css-box` */
     const auto: string
-    /** `css` `inherit` keyword. */
+  }
+
+  /** Create a `margin-break` property. `css-break` */
+  function marginBreak(value: any): Property
+  module marginBreak {
+    /** When an unforced break occurs before or after the box, any margins adjoining the break truncate to the remaining fragmentainer extent before the break, and are truncated to zero after the break. When a forced break occurs there, adjoining margins before the break are truncated, but margins after the break are preserved. Cloned margins are always truncated to zero.. `css-break` */
+    const auto: string
+    /** Margins adjoining a fragmentation break are not truncated.. `css-break` */
+    const keep: string
+    /** Margins adjoining a fragmentation break are always truncated, including at the start and end of a fragmentation context.. `css-break` */
+    const discard: string
+  }
+
+  /** Create a `margin-inline` property. `css-logical` */
+  function marginInline(value: any): Property
+
+  /** Create a `margin-inline-end` property. `css-logical` */
+  function marginInlineEnd(value: any): Property
+
+  /** Create a `margin-inline-start` property. `css-logical` */
+  function marginInlineStart(value: any): Property
+
+  /** Create a `margin-left` property. `css-box` */
+  function marginLeft(value: any): Property
+  module marginLeft {
+    /** `auto` keyword. `css-box` */
+    const auto: string
+  }
+
+  /** Create a `margin-right` property. `css-box` */
+  function marginRight(value: any): Property
+  module marginRight {
+    /** `auto` keyword. `css-box` */
+    const auto: string
+  }
+
+  /** Create a `margin-top` property. `css-box` */
+  function marginTop(value: any): Property
+  module marginTop {
+    /** `auto` keyword. `css-box` */
+    const auto: string
+  }
+
+  /** Create a `margin-trim` property. `css-box` */
+  function marginTrim(value: any): Property
+  module marginTrim {
+    /** Margins are not trimmed by the container.. `css-box` */
+    const none: string
+    /** Computes to block-start block-end.. `css-box` */
+    const block: string
+    /** Computes to inline-start inline-end.. `css-box` */
+    const inline: string
+    /** For in-flow boxes and floats contained by this box, margins adjacent to the box’s specified edges are truncated to zero. It also truncates any descendant margins collapsed with such a margin (but not its own, its siblings’, or its ancestors’).. `css-box` */
+    const blockStart: string
+    /** For in-flow boxes and floats contained by this box, margins adjacent to the box’s specified edges are truncated to zero. It also truncates any descendant margins collapsed with such a margin (but not its own, its siblings’, or its ancestors’).. `css-box` */
+    const inlineStart: string
+    /** For in-flow boxes and floats contained by this box, margins adjacent to the box’s specified edges are truncated to zero. It also truncates any descendant margins collapsed with such a margin (but not its own, its siblings’, or its ancestors’).. `css-box` */
+    const blockEnd: string
+    /** For in-flow boxes and floats contained by this box, margins adjacent to the box’s specified edges are truncated to zero. It also truncates any descendant margins collapsed with such a margin (but not its own, its siblings’, or its ancestors’).. `css-box` */
+    const inlineEnd: string
+  }
+
+  /** Create a `marker` property. `svg` */
+  function marker(value: any): Property
+  module marker {
+    /** `none` keyword. `svg` */
+    const none: string
+  }
+
+  /** Create a `marker-end` property. `svg` */
+  function markerEnd(value: any): Property
+  module markerEnd {
+    /** `none` keyword. `svg` */
+    const none: string
+  }
+
+  /** Create a `marker-knockout-left` property. `unknown` */
+  function markerKnockoutLeft(value: any): Property
+
+  /** Create a `marker-knockout-right` property. `unknown` */
+  function markerKnockoutRight(value: any): Property
+
+  /** Create a `marker-mid` property. `svg` */
+  function markerMid(value: any): Property
+  module markerMid {
+    /** `none` keyword. `svg` */
+    const none: string
+  }
+
+  /** Create a `marker-offset` property. `unknown` */
+  function markerOffset(value: any): Property
+
+  /** Create a `marker-pattern` property. `unknown` */
+  function markerPattern(value: any): Property
+
+  /** Create a `marker-segment` property. `unknown` */
+  function markerSegment(value: any): Property
+
+  /** Create a `marker-side` property. `css-lists` */
+  function markerSide(value: any): Property
+  module markerSide {
+    /** The marker box is positioned using the directionality of the ::marker’s originating element.. `css-lists` */
+    const matchSelf: string
+    /** The marker box is positioned using the directionality of the ::marker’s originating element’s parent element.. `css-lists` */
+    const matchParent: string
+  }
+
+  /** Create a `marker-start` property. `svg` */
+  function markerStart(value: any): Property
+  module markerStart {
+    /** `none` keyword. `svg` */
+    const none: string
+  }
+
+  /** Create a `marks` property. `unknown` */
+  function marks(value: any): Property
+
+  /** Create a `mask` property. `css-masking` */
+  function mask(value: any): Property
+
+  /** Create a `mask-border` property. `css-masking` */
+  function maskBorder(value: any): Property
+
+  /** Create a `mask-border-mode` property. `css-masking` */
+  function maskBorderMode(value: any): Property
+  module maskBorderMode {
+    /** A value of luminance indicates that the luminance values of the mask border image should be used as the mask values. See Calculating mask values.. `css-masking` */
+    const luminance: string
+    /** A value of alpha indicates that the alpha values of the mask border image should be used as the mask values. See Calculating mask values.. `css-masking` */
+    const alpha: string
+  }
+
+  /** Create a `mask-border-outset` property. `css-masking` */
+  function maskBorderOutset(value: any): Property
+
+  /** Create a `mask-border-repeat` property. `css-masking` */
+  function maskBorderRepeat(value: any): Property
+  module maskBorderRepeat {
+    /** `stretch` keyword. `css-masking` */
+    const stretch: string
+    /** `repeat` keyword. `css-masking` */
+    const repeat: string
+    /** `round` keyword. `css-masking` */
+    const round: string
+    /** `space` keyword. `css-masking` */
+    const space: string
+  }
+
+  /** Create a `mask-border-slice` property. `css-masking` */
+  function maskBorderSlice(value: any): Property
+  module maskBorderSlice {
+    /** This property specifies inward offsets from the top, right, bottom, and left edges of the mask border image, dividing it into nine regions: four corners, four edges and a middle. The middle image part is discarded and treated as fully opaque white (the content covered by the middle part is not masked and shines through) unless the fill keyword is present.. `css-masking` */
+    const fill: string
+  }
+
+  /** Create a `mask-border-source` property. `css-masking` */
+  function maskBorderSource(value: any): Property
+  module maskBorderSource {
+    /** `none` keyword. `css-masking` */
+    const none: string
+  }
+
+  /** Create a `mask-border-width` property. `css-masking` */
+  function maskBorderWidth(value: any): Property
+  module maskBorderWidth {
+    /** `auto` keyword. `css-masking` */
+    const auto: string
+  }
+
+  /** Create a `mask-clip` property. `css-masking` */
+  function maskClip(value: any): Property
+  module maskClip {
+    /** The painted content is not restricted (not clipped).. `css-masking` */
+    const noClip: string
+  }
+
+  /** Create a `mask-composite` property. `css-masking` */
+  function maskComposite(value: any): Property
+
+  /** Create a `mask-image` property. `css-masking` */
+  function maskImage(value: any): Property
+
+  /** Create a `mask-mode` property. `css-masking` */
+  function maskMode(value: any): Property
+
+  /** Create a `mask-origin` property. `css-masking` */
+  function maskOrigin(value: any): Property
+
+  /** Create a `mask-position` property. `css-masking` */
+  function maskPosition(value: any): Property
+
+  /** Create a `mask-position-x` property. `unknown` */
+  function maskPositionX(value: any): Property
+
+  /** Create a `mask-position-y` property. `unknown` */
+  function maskPositionY(value: any): Property
+
+  /** Create a `mask-repeat` property. `css-masking` */
+  function maskRepeat(value: any): Property
+
+  /** Create a `mask-size` property. `css-masking` */
+  function maskSize(value: any): Property
+
+  /** Create a `mask-source-type` property. `unknown` */
+  function maskSourceType(value: any): Property
+
+  /** Create a `mask-type` property. `css-masking` */
+  function maskType(value: any): Property
+  module maskType {
+    /** Indicates that the luminance values of the mask should be used.. `css-masking` */
+    const luminance: string
+    /** Indicates that the alpha values of the mask should be used.. `css-masking` */
+    const alpha: string
+  }
+
+  /** Create a `masonry-auto-flow` property. `css-grid-3` */
+  function masonryAutoFlow(value: any): Property
+  module masonryAutoFlow {
+    /** `pack` keyword. `css-grid-3` */
+    const pack: string
+    /** `next` keyword. `css-grid-3` */
+    const next: string
+    /** `definite-first` keyword. `css-grid-3` */
+    const definiteFirst: string
+    /** `ordered` keyword. `css-grid-3` */
+    const ordered: string
+  }
+
+  /** Create a `math-depth` property. `mathml-core` */
+  function mathDepth(value: any): Property
+  module mathDepth {
+    /** `auto-add` keyword. `mathml-core` */
+    const autoAdd: string
+  }
+
+  /** Create a `math-shift` property. `mathml-core` */
+  function mathShift(value: any): Property
+  module mathShift {
+    /** `normal` keyword. `mathml-core` */
+    const normal: string
+    /** `compact` keyword. `mathml-core` */
+    const compact: string
+  }
+
+  /** Create a `math-style` property. `mathml-core` */
+  function mathStyle(value: any): Property
+  module mathStyle {
+    /** `normal` keyword. `mathml-core` */
+    const normal: string
+    /** `compact` keyword. `mathml-core` */
+    const compact: string
+  }
+
+  /** Create a `max-block-size` property. `css-logical, css-sizing-4` */
+  function maxBlockSize(value: any): Property
+
+  /** Create a `max-height` property. `css-sizing-4, css-sizing` */
+  function maxHeight(value: any): Property
+  module maxHeight {
+    /** No limit on the size of the box.. `css-sizing` */
+    const none: string
+    /** Use the min-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. `css-sizing` */
+    const minContent: string
+    /** Use the max-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. `css-sizing` */
+    const maxContent: string
+  }
+
+  /** Create a `max-inline-size` property. `css-logical, css-sizing-4` */
+  function maxInlineSize(value: any): Property
+
+  /** Create a `max-lines` property. `css-overflow-4` */
+  function maxLines(value: any): Property
+  module maxLines {
+    /** Otherwise, if the value of max-lines is not none, a region break is forced after its Nth descendant in-flow line box, where N is the specified value of max-lines. Only lines boxes in the same Block Formatting Context are counted: the contents of descendants that establish independent formatting contexts are skipped over while counting line boxes.. `css-overflow-4` */
+    const none: string
+  }
+
+  /** Create a `max-width` property. `css-sizing-4, css-sizing` */
+  function maxWidth(value: any): Property
+  module maxWidth {
+    /** No limit on the size of the box.. `css-sizing` */
+    const none: string
+    /** Use the min-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. `css-sizing` */
+    const minContent: string
+    /** Use the max-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. `css-sizing` */
+    const maxContent: string
+  }
+
+  /** Create a `max-zoom` property. `unknown` */
+  function maxZoom(value: any): Property
+
+  /** Create a `min-block-size` property. `css-logical, css-sizing-4` */
+  function minBlockSize(value: any): Property
+
+  /** Create a `min-height` property. `css-sizing-4, css-sizing` */
+  function minHeight(value: any): Property
+  module minHeight {
+    /** For width/height, specifies an automatic size (automatic block size/automatic inline size). See the relevant layout module for how to calculate this. For min-width/min-height, specifies an automatic minimum size. Unless otherwise defined by the relevant layout module, however, it resolves to a used value of 0. For backwards-compatibility, the resolved value of this keyword is zero for boxes of all [CSS2] display types: block and inline boxes, inline blocks, and all the table layout boxes. It also resolves to zero when no box is generated.. `css-sizing` */
+    const auto: string
+    /** Use the min-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. `css-sizing` */
+    const minContent: string
+    /** Use the max-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. `css-sizing` */
+    const maxContent: string
+  }
+
+  /** Create a `min-inline-size` property. `css-logical, css-sizing-4` */
+  function minInlineSize(value: any): Property
+
+  /** Create a `min-intrinsic-sizing` property. `css-sizing-4` */
+  function minIntrinsicSizing(value: any): Property
+  module minIntrinsicSizing {
+    /** The box’s min-content contribution is handled as normal.. `css-sizing-4` */
+    const legacy: string
+    /** The box’s min-content contribution is “compressed” if it is a scroll container.. `css-sizing-4` */
+    const zeroIfScroll: string
+    /** The box’s min-content contribution is “compressed” if has an extrinsic preferred or maximum size.. `css-sizing-4` */
+    const zeroIfExtrinsic: string
+  }
+
+  /** Create a `min-width` property. `css-sizing-4, css-sizing` */
+  function minWidth(value: any): Property
+  module minWidth {
+    /** For width/height, specifies an automatic size (automatic block size/automatic inline size). See the relevant layout module for how to calculate this. For min-width/min-height, specifies an automatic minimum size. Unless otherwise defined by the relevant layout module, however, it resolves to a used value of 0. For backwards-compatibility, the resolved value of this keyword is zero for boxes of all [CSS2] display types: block and inline boxes, inline blocks, and all the table layout boxes. It also resolves to zero when no box is generated.. `css-sizing` */
+    const auto: string
+    /** Use the min-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. `css-sizing` */
+    const minContent: string
+    /** Use the max-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. `css-sizing` */
+    const maxContent: string
+  }
+
+  /** Create a `min-zoom` property. `unknown` */
+  function minZoom(value: any): Property
+
+  /** Create a `mix-blend-mode` property. `compositing` */
+  function mixBlendMode(value: any): Property
+  module mixBlendMode {
+    /** `normal` keyword. `compositing` */
+    const normal: string
+    /** `multiply` keyword. `compositing` */
+    const multiply: string
+    /** `screen` keyword. `compositing` */
+    const screen: string
+    /** `overlay` keyword. `compositing` */
+    const overlay: string
+    /** `darken` keyword. `compositing` */
+    const darken: string
+    /** `lighten` keyword. `compositing` */
+    const lighten: string
+    /** `color-dodge` keyword. `compositing` */
+    const colorDodge: string
+    /** `color-burn` keyword. `compositing` */
+    const colorBurn: string
+    /** `hard-light` keyword. `compositing` */
+    const hardLight: string
+    /** `soft-light` keyword. `compositing` */
+    const softLight: string
+    /** `difference` keyword. `compositing` */
+    const difference: string
+    /** `exclusion` keyword. `compositing` */
+    const exclusion: string
+    /** `hue` keyword. `compositing` */
+    const hue: string
+    /** `saturation` keyword. `compositing` */
+    const saturation: string
+    /** `color` keyword. `compositing` */
+    const color: string
+    /** `luminosity` keyword. `compositing` */
+    const luminosity: string
+    /** `plus-darker` keyword. `compositing` */
+    const plusDarker: string
+    /** `plus-lighter` keyword. `compositing` */
+    const plusLighter: string
+  }
+
+  /** Create a `motion` property. `unknown` */
+  function motion(value: any): Property
+
+  /** Create a `motion-offset` property. `unknown` */
+  function motionOffset(value: any): Property
+
+  /** Create a `motion-path` property. `unknown` */
+  function motionPath(value: any): Property
+
+  /** Create a `motion-rotation` property. `unknown` */
+  function motionRotation(value: any): Property
+
+  /** Create a `nav-down` property. `css-ui` */
+  function navDown(value: any): Property
+  module navDown {
+    /** `auto` keyword. `css-ui` */
+    const auto: string
+    /** `current` keyword. `css-ui` */
+    const current: string
+    /** `root` keyword. `css-ui` */
+    const root: string
+  }
+
+  /** Create a `nav-index` property. `unknown` */
+  function navIndex(value: any): Property
+
+  /** Create a `nav-left` property. `css-ui` */
+  function navLeft(value: any): Property
+  module navLeft {
+    /** `auto` keyword. `css-ui` */
+    const auto: string
+    /** `current` keyword. `css-ui` */
+    const current: string
+    /** `root` keyword. `css-ui` */
+    const root: string
+  }
+
+  /** Create a `nav-right` property. `css-ui` */
+  function navRight(value: any): Property
+  module navRight {
+    /** `auto` keyword. `css-ui` */
+    const auto: string
+    /** `current` keyword. `css-ui` */
+    const current: string
+    /** `root` keyword. `css-ui` */
+    const root: string
+  }
+
+  /** Create a `nav-up` property. `css-ui` */
+  function navUp(value: any): Property
+  module navUp {
+    /** `auto` keyword. `css-ui` */
+    const auto: string
+    /** `current` keyword. `css-ui` */
+    const current: string
+    /** `root` keyword. `css-ui` */
+    const root: string
+  }
+
+  /** Create a `negative` property. `unknown` */
+  function negative(value: any): Property
+
+  /** Create a `object-fit` property. `css-images, css-images-4` */
+  function objectFit(value: any): Property
+  module objectFit {
+    /** The replaced content is sized to fill the element’s content box: the object’s concrete object size is the element’s used width and height.. `css-images` */
+    const fill: string
+    /** The replaced content is sized to maintain its natural aspect ratio while fitting within the element’s content box: its concrete object size is resolved as a contain constraint against the element’s used width and height.. `css-images` */
+    const contain: string
+    /** The replaced content is sized to maintain its natural aspect ratio while filling the element’s entire content box: its concrete object size is resolved as a cover constraint against the element’s used width and height.. `css-images` */
+    const cover: string
+    /** The replaced content is not resized to fit inside the element’s content box: determine the object’s concrete object size using the default sizing algorithm with no specified size, and a default object size equal to the replaced element’s used width and height.. `css-images` */
+    const none: string
+    /** Size the content as if none or contain were specified, whichever would result in a smaller concrete object size.. `css-images` */
+    const scaleDown: string
+    /** The replaced content is sized to fill the element’s content box: the object’s concrete object size is the element’s used width and height.. `css-images-4` */
+    const fill: string
+    /** The replaced content is not resized to fit inside the element’s content box: determine the object’s concrete object size using the default sizing algorithm with no specified size, and a default object size equal to the replaced element’s used width and height.. `css-images-4` */
+    const none: string
+    /** The replaced content is sized to maintain its aspect ratio while fitting within the element’s content box: its concrete object size is resolved as a contain constraint against the element’s used width and height. If the scale-down flag is used, size the content as if none or contain were specified, whichever would result in a smaller concrete object size.. `css-images-4` */
+    const contain: string
+    /** The replaced content is sized to maintain its aspect ratio while filling the element’s entire content box: its concrete object size is resolved as a cover constraint against the element’s used width and height. If the scale-down flag is used, size the content as if none or cover were specified, whichever would result in a smaller concrete object size.. `css-images-4` */
+    const cover: string
+    /** Equivalent to contain scale-down.. `css-images-4` */
+    const scaleDown: string
+  }
+
+  /** Create a `object-position` property. `css-images` */
+  function objectPosition(value: any): Property
+
+  /** Create a `object-view-box` property. `css-images-5` */
+  function objectViewBox(value: any): Property
+  module objectViewBox {
+    /** The element does not have a view box.. `css-images-5` */
+    const none: string
+  }
+
+  /** Create a `offset` property. `motion` */
+  function offset(value: any): Property
+
+  /** Create a `offset-anchor` property. `motion` */
+  function offsetAnchor(value: any): Property
+  module offsetAnchor {
+    /** `auto` keyword. `motion` */
+    const auto: string
+  }
+
+  /** Create a `offset-block-end` property. `unknown` */
+  function offsetBlockEnd(value: any): Property
+
+  /** Create a `offset-block-start` property. `unknown` */
+  function offsetBlockStart(value: any): Property
+
+  /** Create a `offset-distance` property. `motion` */
+  function offsetDistance(value: any): Property
+
+  /** Create a `offset-inline-end` property. `unknown` */
+  function offsetInlineEnd(value: any): Property
+
+  /** Create a `offset-inline-start` property. `unknown` */
+  function offsetInlineStart(value: any): Property
+
+  /** Create a `offset-path` property. `motion` */
+  function offsetPath(value: any): Property
+  module offsetPath {
+    /** No offset path gets created. When offset-path is none, offset-distance and offset-rotate have no effect.. `motion` */
+    const none: string
+  }
+
+  /** Create a `offset-position` property. `motion` */
+  function offsetPosition(value: any): Property
+  module offsetPosition {
+    /** Indicates the initial position is the position of the box specified with position property.. `motion` */
+    const auto: string
+  }
+
+  /** Create a `offset-rotate` property. `motion` */
+  function offsetRotate(value: any): Property
+  module offsetRotate {
+    /** Indicates that the object is rotated (over time if offset-distance is animated) by the angle of the direction (i.e., directional tangent vector) of the offset path, relative to the positive x-axis. If specified in combination with <angle>, the computed value of <angle> is added to the computed value of auto.. `motion` */
+    const auto: string
+    /** Indicates that the object is rotated (over time if offset-distance is animated) by the angle of the direction (i.e., directional tangent vector) of the offset path, relative to the positive x-axis, plus 180 degrees. If specified in combination with <angle>, the computed value of <angle> is added to the computed value of reverse.. `motion` */
+    const reverse: string
+  }
+
+  /** Create a `offset-rotation` property. `unknown` */
+  function offsetRotation(value: any): Property
+
+  /** Create a `opacity` property. `css-color` */
+  function opacity(value: any): Property
+
+  /** Create a `order` property. `css-display` */
+  function order(value: any): Property
+  module order {
+    /** Indicates setting reading-order to the specified integer. If layout is not specified, layout-order is set to its initial value.. `css-display` */
+    const reading: string
+    /** Indicates setting layout-order to the specified integer. If reading is not specified, reading-order is set to its initial value.. `css-display` */
+    const layout: string
+  }
+
+  /** Create a `orientation` property. `unknown` */
+  function orientation(value: any): Property
+
+  /** Create a `orphans` property. `css-break` */
+  function orphans(value: any): Property
+
+  /** Create a `outline` property. `css-ui` */
+  function outline(value: any): Property
+
+  /** Create a `outline-color` property. `css-ui` */
+  function outlineColor(value: any): Property
+  module outlineColor {
+    /** `color` keyword. `css-ui` */
+    const color: string
+    /** The outline-color property accepts all values of <border-color>, as well as the keyword invert. invert is expected to perform a color inversion on the pixels on the screen. This is a common trick to ensure the focus border is visible, regardless of color background.. `css-ui` */
+    const invert: string
+  }
+
+  /** Create a `outline-offset` property. `css-ui` */
+  function outlineOffset(value: any): Property
+
+  /** Create a `outline-style` property. `css-ui` */
+  function outlineStyle(value: any): Property
+  module outlineStyle {
+    /** `auto` keyword. `css-ui` */
+    const auto: string
+  }
+
+  /** Create a `outline-width` property. `css-ui` */
+  function outlineWidth(value: any): Property
+  module outlineWidth {
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-ui` */
+    const thin: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-ui` */
+    const medium: string
+    /** Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.. `css-ui` */
+    const thick: string
+  }
+
+  /** Create a `overflow` property. `css-overflow` */
+  function overflow(value: any): Property
+  module overflow {
+    /** There is no special handling of overflow, that is, the box’s content is rendered outside the box if positioned there. The box is not a scroll container.. `css-overflow` */
+    const visible: string
+    /** This value indicates that the box’s content is clipped to its padding box and that the UA must not provide any scrolling user interface to view the content outside the clipping region, nor allow scrolling by direct intervention of the user, such as dragging on a touch screen or using the scrolling wheel on a mouse. However, the content must still be scrollable programmatically, for example using the mechanisms defined in [CSSOM-VIEW], and the box is therefore still a scroll container.. `css-overflow` */
+    const hidden: string
+    /** This value indicates that the box’s content is clipped to its overflow clip edge and that no scrolling user interface should be provided by the UA to view the content outside the clipping region. In addition, unlike overflow: hidden which still allows programmatic scrolling, overflow: clip forbids scrolling entirely, through any mechanism, and therefore the box is not a scroll container. Unlike hidden, this value does not cause the element to establish a new formatting context.. `css-overflow` */
+    const clip: string
+    /** This value indicates that the content is clipped to the padding box, but can be scrolled into view (and therefore the box is a scroll container). Furthermore, if the user agent uses a scrolling mechanism that is visible on the screen (such as a scroll bar or a panner), that mechanism should be displayed whether or not any of its content is clipped. This avoids any problem with scrollbars appearing and disappearing in a dynamic environment. When the target medium is print, overflowing content may be printed; it is not defined where it may be printed.. `css-overflow` */
+    const scroll: string
+    /** Like scroll when the box has scrollable overflow; like hidden otherwise. Thus, if the user agent uses a scrolling mechanism that is visible on the screen (such as a scroll bar or a panner), that mechanism will only be displayed if there is overflow.. `css-overflow` */
+    const auto: string
+  }
+
+  /** Create a `overflow-anchor` property. `css-scroll-anchoring` */
+  function overflowAnchor(value: any): Property
+  module overflowAnchor {
+    /** Declares that the element is potentially eligible to participate in the anchor node selection algorithm for any scrolling box created by the element or an ancestor.. `css-scroll-anchoring` */
+    const auto: string
+    /** Declares that the element and its descendants (that aren’t nested inside of another scrolling element) are not eligible to participate in the anchor node selection algorithm for any scrolling box created by the element or an ancestor.. `css-scroll-anchoring` */
+    const none: string
+  }
+
+  /** Create a `overflow-block` property. `css-overflow` */
+  function overflowBlock(value: any): Property
+  module overflowBlock {
+    /** `visible` keyword. `css-overflow` */
+    const visible: string
+    /** `hidden` keyword. `css-overflow` */
+    const hidden: string
+    /** `clip` keyword. `css-overflow` */
+    const clip: string
+    /** `scroll` keyword. `css-overflow` */
+    const scroll: string
+    /** `auto` keyword. `css-overflow` */
+    const auto: string
+  }
+
+  /** Create a `overflow-clip-margin` property. `css-overflow-4, css-overflow` */
+  function overflowClipMargin(value: any): Property
+
+  /** Create a `overflow-clip-margin-block` property. `css-overflow-4` */
+  function overflowClipMarginBlock(value: any): Property
+
+  /** Create a `overflow-clip-margin-block-end` property. `css-overflow-4` */
+  function overflowClipMarginBlockEnd(value: any): Property
+
+  /** Create a `overflow-clip-margin-block-start` property. `css-overflow-4` */
+  function overflowClipMarginBlockStart(value: any): Property
+
+  /** Create a `overflow-clip-margin-bottom` property. `css-overflow-4` */
+  function overflowClipMarginBottom(value: any): Property
+
+  /** Create a `overflow-clip-margin-inline` property. `css-overflow-4` */
+  function overflowClipMarginInline(value: any): Property
+
+  /** Create a `overflow-clip-margin-inline-end` property. `css-overflow-4` */
+  function overflowClipMarginInlineEnd(value: any): Property
+
+  /** Create a `overflow-clip-margin-inline-start` property. `css-overflow-4` */
+  function overflowClipMarginInlineStart(value: any): Property
+
+  /** Create a `overflow-clip-margin-left` property. `css-overflow-4` */
+  function overflowClipMarginLeft(value: any): Property
+
+  /** Create a `overflow-clip-margin-right` property. `css-overflow-4` */
+  function overflowClipMarginRight(value: any): Property
+
+  /** Create a `overflow-clip-margin-top` property. `css-overflow-4` */
+  function overflowClipMarginTop(value: any): Property
+
+  /** Create a `overflow-inline` property. `css-overflow` */
+  function overflowInline(value: any): Property
+  module overflowInline {
+    /** `visible` keyword. `css-overflow` */
+    const visible: string
+    /** `hidden` keyword. `css-overflow` */
+    const hidden: string
+    /** `clip` keyword. `css-overflow` */
+    const clip: string
+    /** `scroll` keyword. `css-overflow` */
+    const scroll: string
+    /** `auto` keyword. `css-overflow` */
+    const auto: string
+  }
+
+  /** Create a `overflow-wrap` property. `css-text-4, css-text` */
+  function overflowWrap(value: any): Property
+  module overflowWrap {
+    /** Lines may break only at allowed break points. However, the restrictions introduced by word-break: keep-all may be relaxed to match word-break: normal if there are no otherwise-acceptable break points in the line.. `css-text-4` */
+    const normal: string
+    /** As for anywhere except that soft wrap opportunities introduced by break-word are not considered when calculating min-content intrinsic sizes.. `css-text-4` */
+    const breakWord: string
+    /** An otherwise unbreakable sequence of characters may be broken at an arbitrary point if there are no otherwise-acceptable break points in the line. Shaping characters are still shaped as if the word were not broken, and grapheme clusters must stay together as one unit. No hyphenation character is inserted at the break point. Soft wrap opportunities introduced by anywhere are considered when calculating min-content intrinsic sizes.. `css-text-4` */
+    const anywhere: string
+    /** Lines may break only at allowed break points. However, the restrictions introduced by word-break: keep-all may be relaxed to match word-break: normal if there are no otherwise-acceptable break points in the line.. `css-text` */
+    const normal: string
+    /** As for anywhere except that soft wrap opportunities introduced by break-word are not considered when calculating min-content intrinsic sizes.. `css-text` */
+    const breakWord: string
+    /** An otherwise unbreakable sequence of characters may be broken at an arbitrary point if there are no otherwise-acceptable break points in the line. Shaping characters are still shaped as if the word were not broken, and grapheme clusters must stay together as one unit. No hyphenation character is inserted at the break point. Soft wrap opportunities introduced by anywhere are considered when calculating min-content intrinsic sizes.. `css-text` */
+    const anywhere: string
+  }
+
+  /** Create a `overflow-x` property. `css-overflow` */
+  function overflowX(value: any): Property
+  module overflowX {
+    /** There is no special handling of overflow, that is, the box’s content is rendered outside the box if positioned there. The box is not a scroll container.. `css-overflow` */
+    const visible: string
+    /** This value indicates that the box’s content is clipped to its padding box and that the UA must not provide any scrolling user interface to view the content outside the clipping region, nor allow scrolling by direct intervention of the user, such as dragging on a touch screen or using the scrolling wheel on a mouse. However, the content must still be scrollable programmatically, for example using the mechanisms defined in [CSSOM-VIEW], and the box is therefore still a scroll container.. `css-overflow` */
+    const hidden: string
+    /** This value indicates that the box’s content is clipped to its overflow clip edge and that no scrolling user interface should be provided by the UA to view the content outside the clipping region. In addition, unlike overflow: hidden which still allows programmatic scrolling, overflow: clip forbids scrolling entirely, through any mechanism, and therefore the box is not a scroll container. Unlike hidden, this value does not cause the element to establish a new formatting context.. `css-overflow` */
+    const clip: string
+    /** This value indicates that the content is clipped to the padding box, but can be scrolled into view (and therefore the box is a scroll container). Furthermore, if the user agent uses a scrolling mechanism that is visible on the screen (such as a scroll bar or a panner), that mechanism should be displayed whether or not any of its content is clipped. This avoids any problem with scrollbars appearing and disappearing in a dynamic environment. When the target medium is print, overflowing content may be printed; it is not defined where it may be printed.. `css-overflow` */
+    const scroll: string
+    /** Like scroll when the box has scrollable overflow; like hidden otherwise. Thus, if the user agent uses a scrolling mechanism that is visible on the screen (such as a scroll bar or a panner), that mechanism will only be displayed if there is overflow.. `css-overflow` */
+    const auto: string
+  }
+
+  /** Create a `overflow-y` property. `css-overflow` */
+  function overflowY(value: any): Property
+  module overflowY {
+    /** There is no special handling of overflow, that is, the box’s content is rendered outside the box if positioned there. The box is not a scroll container.. `css-overflow` */
+    const visible: string
+    /** This value indicates that the box’s content is clipped to its padding box and that the UA must not provide any scrolling user interface to view the content outside the clipping region, nor allow scrolling by direct intervention of the user, such as dragging on a touch screen or using the scrolling wheel on a mouse. However, the content must still be scrollable programmatically, for example using the mechanisms defined in [CSSOM-VIEW], and the box is therefore still a scroll container.. `css-overflow` */
+    const hidden: string
+    /** This value indicates that the box’s content is clipped to its overflow clip edge and that no scrolling user interface should be provided by the UA to view the content outside the clipping region. In addition, unlike overflow: hidden which still allows programmatic scrolling, overflow: clip forbids scrolling entirely, through any mechanism, and therefore the box is not a scroll container. Unlike hidden, this value does not cause the element to establish a new formatting context.. `css-overflow` */
+    const clip: string
+    /** This value indicates that the content is clipped to the padding box, but can be scrolled into view (and therefore the box is a scroll container). Furthermore, if the user agent uses a scrolling mechanism that is visible on the screen (such as a scroll bar or a panner), that mechanism should be displayed whether or not any of its content is clipped. This avoids any problem with scrollbars appearing and disappearing in a dynamic environment. When the target medium is print, overflowing content may be printed; it is not defined where it may be printed.. `css-overflow` */
+    const scroll: string
+    /** Like scroll when the box has scrollable overflow; like hidden otherwise. Thus, if the user agent uses a scrolling mechanism that is visible on the screen (such as a scroll bar or a panner), that mechanism will only be displayed if there is overflow.. `css-overflow` */
+    const auto: string
+  }
+
+  /** Create a `override-colors` property. `unknown` */
+  function overrideColors(value: any): Property
+
+  /** Create a `overscroll-behavior` property. `css-overscroll` */
+  function overscrollBehavior(value: any): Property
+  module overscrollBehavior {
+    /** This value indicates that the element must not perform non-local boundary default actions such as scroll chaining or navigation. The user agent must not perform scroll chaining to any ancestors along the scroll chain regardless of whether the scroll originated at this element or one of its descendants. This value must not modify the behavior of how local boundary default actions should behave, such as showing any overscroll affordances.. `css-overscroll` */
+    const contain: string
+    /** This value implies the same behavior as contain and in addition this element must also not perform local boundary default actions such as showing any overscroll affordances.. `css-overscroll` */
+    const none: string
+    /** This value indicates that the user agent should perform the usual boundary default action with respect to scroll chaining, overscroll and navigation gestures.. `css-overscroll` */
+    const auto: string
+  }
+
+  /** Create a `overscroll-behavior-block` property. `css-overscroll` */
+  function overscrollBehaviorBlock(value: any): Property
+  module overscrollBehaviorBlock {
+    /** This value indicates that the element must not perform non-local boundary default actions such as scroll chaining or navigation. The user agent must not perform scroll chaining to any ancestors along the scroll chain regardless of whether the scroll originated at this element or one of its descendants. This value must not modify the behavior of how local boundary default actions should behave, such as showing any overscroll affordances.. `css-overscroll` */
+    const contain: string
+    /** This value implies the same behavior as contain and in addition this element must also not perform local boundary default actions such as showing any overscroll affordances.. `css-overscroll` */
+    const none: string
+    /** This value indicates that the user agent should perform the usual boundary default action with respect to scroll chaining, overscroll and navigation gestures.. `css-overscroll` */
+    const auto: string
+  }
+
+  /** Create a `overscroll-behavior-inline` property. `css-overscroll` */
+  function overscrollBehaviorInline(value: any): Property
+  module overscrollBehaviorInline {
+    /** This value indicates that the element must not perform non-local boundary default actions such as scroll chaining or navigation. The user agent must not perform scroll chaining to any ancestors along the scroll chain regardless of whether the scroll originated at this element or one of its descendants. This value must not modify the behavior of how local boundary default actions should behave, such as showing any overscroll affordances.. `css-overscroll` */
+    const contain: string
+    /** This value implies the same behavior as contain and in addition this element must also not perform local boundary default actions such as showing any overscroll affordances.. `css-overscroll` */
+    const none: string
+    /** This value indicates that the user agent should perform the usual boundary default action with respect to scroll chaining, overscroll and navigation gestures.. `css-overscroll` */
+    const auto: string
+  }
+
+  /** Create a `overscroll-behavior-x` property. `css-overscroll` */
+  function overscrollBehaviorX(value: any): Property
+  module overscrollBehaviorX {
+    /** This value indicates that the element must not perform non-local boundary default actions such as scroll chaining or navigation. The user agent must not perform scroll chaining to any ancestors along the scroll chain regardless of whether the scroll originated at this element or one of its descendants. This value must not modify the behavior of how local boundary default actions should behave, such as showing any overscroll affordances.. `css-overscroll` */
+    const contain: string
+    /** This value implies the same behavior as contain and in addition this element must also not perform local boundary default actions such as showing any overscroll affordances.. `css-overscroll` */
+    const none: string
+    /** This value indicates that the user agent should perform the usual boundary default action with respect to scroll chaining, overscroll and navigation gestures.. `css-overscroll` */
+    const auto: string
+  }
+
+  /** Create a `overscroll-behavior-y` property. `css-overscroll` */
+  function overscrollBehaviorY(value: any): Property
+  module overscrollBehaviorY {
+    /** This value indicates that the element must not perform non-local boundary default actions such as scroll chaining or navigation. The user agent must not perform scroll chaining to any ancestors along the scroll chain regardless of whether the scroll originated at this element or one of its descendants. This value must not modify the behavior of how local boundary default actions should behave, such as showing any overscroll affordances.. `css-overscroll` */
+    const contain: string
+    /** This value implies the same behavior as contain and in addition this element must also not perform local boundary default actions such as showing any overscroll affordances.. `css-overscroll` */
+    const none: string
+    /** This value indicates that the user agent should perform the usual boundary default action with respect to scroll chaining, overscroll and navigation gestures.. `css-overscroll` */
+    const auto: string
+  }
+
+  /** Create a `pad` property. `unknown` */
+  function pad(value: any): Property
+
+  /** Create a `padding` property. `css-box` */
+  function padding(value: any): Property
+
+  /** Create a `padding-block` property. `css-logical` */
+  function paddingBlock(value: any): Property
+
+  /** Create a `padding-block-end` property. `css-logical` */
+  function paddingBlockEnd(value: any): Property
+
+  /** Create a `padding-block-start` property. `css-logical` */
+  function paddingBlockStart(value: any): Property
+
+  /** Create a `padding-bottom` property. `css-box` */
+  function paddingBottom(value: any): Property
+
+  /** Create a `padding-inline` property. `css-logical` */
+  function paddingInline(value: any): Property
+
+  /** Create a `padding-inline-end` property. `css-logical` */
+  function paddingInlineEnd(value: any): Property
+
+  /** Create a `padding-inline-start` property. `css-logical` */
+  function paddingInlineStart(value: any): Property
+
+  /** Create a `padding-left` property. `css-box` */
+  function paddingLeft(value: any): Property
+
+  /** Create a `padding-right` property. `css-box` */
+  function paddingRight(value: any): Property
+
+  /** Create a `padding-top` property. `css-box` */
+  function paddingTop(value: any): Property
+
+  /** Create a `page` property. `css-page` */
+  function page(value: any): Property
+  module page {
+    /** `auto` keyword. `css-page` */
+    const auto: string
+  }
+
+  /** Create a `page-break-after` property. `css` */
+  function pageBreakAfter(value: any): Property
+  module pageBreakAfter {
+    /** Neither force nor forbid a page break before (after, inside) the generated box.. `css` */
+    const auto: string
+    /** Always force a page break before (after) the generated box.. `css` */
+    const always: string
+    /** Avoid a page break before (after, inside) the generated box.. `css` */
+    const avoid: string
+    /** Force one or two page breaks before (after) the generated box so that the next page is formatted as a left page.. `css` */
+    const left: string
+    /** Force one or two page breaks before (after) the generated box so that the next page is formatted as a right page.. `css` */
+    const right: string
+    /** `inherit` keyword. `css` */
     const inherit: string
   }
 
-  /** Create a `zoom` property (`unknown`). */
+  /** Create a `page-break-before` property. `css` */
+  function pageBreakBefore(value: any): Property
+  module pageBreakBefore {
+    /** Neither force nor forbid a page break before (after, inside) the generated box.. `css` */
+    const auto: string
+    /** Always force a page break before (after) the generated box.. `css` */
+    const always: string
+    /** Avoid a page break before (after, inside) the generated box.. `css` */
+    const avoid: string
+    /** Force one or two page breaks before (after) the generated box so that the next page is formatted as a left page.. `css` */
+    const left: string
+    /** Force one or two page breaks before (after) the generated box so that the next page is formatted as a right page.. `css` */
+    const right: string
+    /** `inherit` keyword. `css` */
+    const inherit: string
+  }
+
+  /** Create a `page-break-inside` property. `css` */
+  function pageBreakInside(value: any): Property
+  module pageBreakInside {
+    /** Avoid a page break before (after, inside) the generated box.. `css` */
+    const avoid: string
+    /** Neither force nor forbid a page break before (after, inside) the generated box.. `css` */
+    const auto: string
+    /** `inherit` keyword. `css` */
+    const inherit: string
+  }
+
+  /** Create a `page-orientation` property. `unknown` */
+  function pageOrientation(value: any): Property
+
+  /** Create a `page-transition-tag` property. `unknown` */
+  function pageTransitionTag(value: any): Property
+
+  /** Create a `paint-order` property. `svg` */
+  function paintOrder(value: any): Property
+  module paintOrder {
+    /** `normal` keyword. `svg` */
+    const normal: string
+    /** `fill` keyword. `svg` */
+    const fill: string
+    /** `stroke` keyword. `svg` */
+    const stroke: string
+    /** `markers` keyword. `svg` */
+    const markers: string
+  }
+
+  /** Create a `pause` property. `css-speech` */
+  function pause(value: any): Property
+
+  /** Create a `pause-after` property. `css-speech` */
+  function pauseAfter(value: any): Property
+  module pauseAfter {
+    /** Equivalent to 0ms (no prosodic break is produced by the speech processor).. `css-speech` */
+    const none: string
+    /** Expresses the pause by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. `css-speech` */
+    const xWeak: string
+    /** Expresses the pause by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. `css-speech` */
+    const weak: string
+    /** Expresses the pause by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. `css-speech` */
+    const medium: string
+    /** Expresses the pause by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. `css-speech` */
+    const strong: string
+    /** Expresses the pause by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. `css-speech` */
+    const xStrong: string
+  }
+
+  /** Create a `pause-before` property. `css-speech` */
+  function pauseBefore(value: any): Property
+  module pauseBefore {
+    /** Equivalent to 0ms (no prosodic break is produced by the speech processor).. `css-speech` */
+    const none: string
+    /** Expresses the pause by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. `css-speech` */
+    const xWeak: string
+    /** Expresses the pause by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. `css-speech` */
+    const weak: string
+    /** Expresses the pause by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. `css-speech` */
+    const medium: string
+    /** Expresses the pause by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. `css-speech` */
+    const strong: string
+    /** Expresses the pause by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. `css-speech` */
+    const xStrong: string
+  }
+
+  /** Create a `pen-action` property. `unknown` */
+  function penAction(value: any): Property
+
+  /** Create a `perspective` property. `css-transforms-2` */
+  function perspective(value: any): Property
+  module perspective {
+    /** No perspective transform is applied. The effect is mathematically similar to an infinite <length> value. All objects appear to be flat on the canvas.. `css-transforms-2` */
+    const none: string
+  }
+
+  /** Create a `perspective-origin` property. `css-transforms-2` */
+  function perspectiveOrigin(value: any): Property
+
+  /** Create a `perspective-origin-x` property. `unknown` */
+  function perspectiveOriginX(value: any): Property
+
+  /** Create a `perspective-origin-y` property. `unknown` */
+  function perspectiveOriginY(value: any): Property
+
+  /** Create a `pitch` property. `unknown` */
+  function pitch(value: any): Property
+
+  /** Create a `pitch-range` property. `unknown` */
+  function pitchRange(value: any): Property
+
+  /** Create a `place-content` property. `css-align` */
+  function placeContent(value: any): Property
+
+  /** Create a `place-items` property. `css-align` */
+  function placeItems(value: any): Property
+
+  /** Create a `place-self` property. `css-align` */
+  function placeSelf(value: any): Property
+
+  /** Create a `play-during` property. `unknown` */
+  function playDuring(value: any): Property
+
+  /** Create a `pointer-events` property. `svg` */
+  function pointerEvents(value: any): Property
+  module pointerEvents {
+    /** `auto` keyword. `svg` */
+    const auto: string
+    /** `bounding-box` keyword. `svg` */
+    const boundingBox: string
+    /** `visiblePainted` keyword. `svg` */
+    const visiblePainted: string
+    /** `visibleFill` keyword. `svg` */
+    const visibleFill: string
+    /** `visibleStroke` keyword. `svg` */
+    const visibleStroke: string
+    /** `visible` keyword. `svg` */
+    const visible: string
+    /** `painted` keyword. `svg` */
+    const painted: string
+    /** `fill` keyword. `svg` */
+    const fill: string
+    /** `stroke` keyword. `svg` */
+    const stroke: string
+    /** `all` keyword. `svg` */
+    const all: string
+    /** `none` keyword. `svg` */
+    const none: string
+  }
+
+  /** Create a `position` property. `css-gcpm, css-position` */
+  function position(value: any): Property
+  module position {
+    /** The box is not a positioned box, and is laid out according to the rules of its parent formatting context. The inset properties do not apply.. `css-position` */
+    const static: string
+    /** The box is laid out as for static, then offset from the resulting position. This offsetting is a purely visual effect, and does not affect the size or position of any other box, except insofar as it increases the scrollable overflow area of its ancestors. This positioning scheme is called relative positioning.. `css-position` */
+    const relative: string
+    /** The box is taken out of flow such that it has no impact on the size or position of its siblings and ancestors, and does not participate in its parent’s formatting context. Instead, the box is positioned and sized solely in reference to its absolute positioning containing block, as modified by the box’s inset properties, see § 4 Absolute Positioning Layout Model. It can overlap in-flow content or other absolutely positioned elements, and is included in the scrollable overflow area of the box that generates is containing block. This positioning scheme is called absolute positioning.. `css-position` */
+    const absolute: string
+    /** Identical to relative, except that its offsets are automatically adjusted in reference to the nearest ancestor scroll container’s scrollport (as modified by the inset properties) in whichever axes the inset properties are not both auto, to try to keep the box in view within its containing block as the user scrolls. This positioning scheme is called sticky positioning.. `css-position` */
+    const sticky: string
+    /** Same as absolute, except the box is positioned and sized relative to a fixed positioning containing block (usually the viewport in continuous media, or the page area in paged media). The box’s position is fixed with respect to this reference rectangle: when attached to the viewport it does not move when the document is scrolled, and when attached to the page area is replicated on every page when the document is paginated. This positioning scheme is called fixed positioning and is considered a subset of absolute positioning. Authors may wish to specify fixed in a media-dependent way. For instance, an author may want a box to remain at the top of the viewport on the screen, but not at the top of each printed page. The two specifications may be separated by using an '@media' rule, as in: @media screen { h1#first { position: fixed } } @media print { h1#first { position: static } }. `css-position` */
+    const fixed: string
+  }
+
+  /** Create a `position-fallback` property. `css-anchor-position` */
+  function positionFallback(value: any): Property
+  module positionFallback {
+    /** The property has no effect; the element does not use a position fallback list.. `css-anchor-position` */
+    const none: string
+  }
+
+  /** Create a `prefix` property. `unknown` */
+  function prefix(value: any): Property
+
+  /** Create a `print-color-adjust` property. `css-color-adjust` */
+  function printColorAdjust(value: any): Property
+  module printColorAdjust {
+    /** The user agent should make adjustments to the page’s styling as it deems necessary and prudent for the output device. For example, if the document is being printed, a user agent might ignore any backgrounds and adjust text color to be sufficiently dark, to minimize ink usage.. `css-color-adjust` */
+    const economy: string
+    /** This value indicates that the page is using color and styling on the specified element in a way which is important and significant, and which should not be tweaked or changed except at the user’s request. For example, a mapping website offering printed directions might "zebra-stripe" the steps in the directions, alternating between white and light gray backgrounds. Losing this zebra-striping and having a pure-white background would make the directions harder to read with a quick glance when distracted in a car.. `css-color-adjust` */
+    const exact: string
+  }
+
+  /** Create a `property-name` property. `unknown` */
+  function propertyName(value: any): Property
+
+  /** Create a `quotes` property. `css-content` */
+  function quotes(value: any): Property
+  module quotes {
+    /** A typographically appropriate used value for quotes is automatically chosen by the UA based on the content language of the element and/or its parent.. `css-content` */
+    const auto: string
+    /** The open-quote and close-quote values of the content property produce no quotations marks, as if they were no-open-quote and no-close-quote respectively.. `css-content` */
+    const none: string
+  }
+
+  /** Create a `r` property. `svg` */
+  function r(value: any): Property
+
+  /** Create a `range` property. `unknown` */
+  function range(value: any): Property
+
+  /** Create a `reading-order` property. `css-display` */
+  function readingOrder(value: any): Property
+
+  /** Create a `region-fragment` property. `css-regions` */
+  function regionFragment(value: any): Property
+  module regionFragment {
+    /** `auto` keyword. `css-regions` */
+    const auto: string
+    /** `break` keyword. `css-regions` */
+    const _break: string
+  }
+
+  /** Create a `resize` property. `css-ui` */
+  function resize(value: any): Property
+  module resize {
+    /** `none` keyword. `css-ui` */
+    const none: string
+    /** `both` keyword. `css-ui` */
+    const both: string
+    /** `horizontal` keyword. `css-ui` */
+    const horizontal: string
+    /** `vertical` keyword. `css-ui` */
+    const vertical: string
+    /** `block` keyword. `css-ui` */
+    const block: string
+    /** `inline` keyword. `css-ui` */
+    const inline: string
+  }
+
+  /** Create a `rest` property. `css-speech` */
+  function rest(value: any): Property
+
+  /** Create a `rest-after` property. `css-speech` */
+  function restAfter(value: any): Property
+  module restAfter {
+    /** Equivalent to 0ms. (No prosodic break is produced by the speech processor.). `css-speech` */
+    const none: string
+    /** Expresses the rest by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. `css-speech` */
+    const xWeak: string
+    /** Expresses the rest by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. `css-speech` */
+    const weak: string
+    /** Expresses the rest by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. `css-speech` */
+    const medium: string
+    /** Expresses the rest by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. `css-speech` */
+    const strong: string
+    /** Expresses the rest by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. `css-speech` */
+    const xStrong: string
+  }
+
+  /** Create a `rest-before` property. `css-speech` */
+  function restBefore(value: any): Property
+  module restBefore {
+    /** Equivalent to 0ms. (No prosodic break is produced by the speech processor.). `css-speech` */
+    const none: string
+    /** Expresses the rest by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. `css-speech` */
+    const xWeak: string
+    /** Expresses the rest by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. `css-speech` */
+    const weak: string
+    /** Expresses the rest by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. `css-speech` */
+    const medium: string
+    /** Expresses the rest by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. `css-speech` */
+    const strong: string
+    /** Expresses the rest by the strength of the prosodic break in speech output. The exact time is implementation-dependent. The values indicate monotonically non-decreasing (conceptually increasing) break strength between elements.. `css-speech` */
+    const xStrong: string
+  }
+
+  /** Create a `richness` property. `unknown` */
+  function richness(value: any): Property
+
+  /** Create a `right` property. `css-position` */
+  function right(value: any): Property
+  module right {
+    /** Represents an unconstrained inset; the exact meaning depends on the positioning scheme.. `css-position` */
+    const auto: string
+  }
+
+  /** Create a `rotate` property. `css-transforms-2` */
+  function rotate(value: any): Property
+  module rotate {
+    /** All three properties accept (and default to) the value none, which produces no transform at all. In particular, this value does not trigger the creation of a stacking context or containing block for all descendants, while all other values (including “identity” transforms like translate: 0px) create a stacking context and containing block for all descendants, per usual for transforms.. `css-transforms-2` */
+    const none: string
+    /** The axis can be specified with either the x, y, or z keywords, which specify a rotation around that axis, equivalent to the rotateX(), rotateY(), and rotateZ() transform functions. Alternately, the axis can be specified explicitly by giving three numbers representing the x, y, and z components of an origin-centered vector, equivalent to the rotate3d() function.. `css-transforms-2` */
+    const x: string
+    /** The axis can be specified with either the x, y, or z keywords, which specify a rotation around that axis, equivalent to the rotateX(), rotateY(), and rotateZ() transform functions. Alternately, the axis can be specified explicitly by giving three numbers representing the x, y, and z components of an origin-centered vector, equivalent to the rotate3d() function.. `css-transforms-2` */
+    const y: string
+    /** The axis can be specified with either the x, y, or z keywords, which specify a rotation around that axis, equivalent to the rotateX(), rotateY(), and rotateZ() transform functions. Alternately, the axis can be specified explicitly by giving three numbers representing the x, y, and z components of an origin-centered vector, equivalent to the rotate3d() function.. `css-transforms-2` */
+    const z: string
+  }
+
+  /** Create a `row-gap` property. `css-align` */
+  function rowGap(value: any): Property
+  module rowGap {
+    /** The normal represents a used value of 1em on multi-column containers, and a used value of 0px in all other contexts.. `css-align` */
+    const normal: string
+  }
+
+  /** Create a `ruby-align` property. `css-ruby` */
+  function rubyAlign(value: any): Property
+  module rubyAlign {
+    /** The ruby content is aligned with the start edge of its box. start ruby distribution "Katatsuki ruby" (肩付きルビ) is close to, but not quite the same as, this start value. In particular, its behavior when overhanging its base can differ from start alignment depending on surrounding context, see JLREQ. Also, it’s only ever used in vertical writing, and the JLTF considers it not particularly important, so it may not be worth the effort to make this value smart enough to deal with katatsuki ruby. If start is needed for some other purpose, we should keep it. Otherwise, maybe just drop it?. `css-ruby` */
+    const start: string
+    /** The ruby content is centered within its box. center ruby distribution. `css-ruby` */
+    const center: string
+    /** The ruby content expands as defined for normal text justification (as defined by text-justify), except that if there are no justification opportunities the content is centered. space-between ruby distribution. `css-ruby` */
+    const spaceBetween: string
+    /** As for space-between except that there exists an extra justification opportunities whose space is distributed half before and half after the ruby content. space-around ruby distribution. `css-ruby` */
+    const spaceAround: string
+  }
+
+  /** Create a `ruby-merge` property. `css-ruby` */
+  function rubyMerge(value: any): Property
+  module rubyMerge {
+    /** Each ruby annotation box is rendered within the same column(s) as its corresponding base box(es), i.e. without overlapping adjacent bases on either side. This style is called “mono ruby” in [JLREQ]. ruby-merge: separate with center alignment For example, the following two lines render the same: <p><ruby>無<rt>む</ruby><ruby>常<rt>じょう</ruby> <p><ruby style="ruby-merge:separate"><rb>無<rb>常<rt>む<rt>じょう</ruby>. `css-ruby` */
+    const separate: string
+    /** All ruby annotation boxes within the same ruby segment on the same line are concatenated as inline boxes within their annotation container, and laid out in a single anonymous ruby annotation box spanning all their associated ruby base boxes. When laid out on a single line, this style renders similar to “group ruby” in [JLREQ]. However, when it breaks across lines, ruby annotations are kept together with their respective ruby bases. ruby-merge: merge with center alignment The following two lines render the same if both characters fit on one line: <p><ruby>無常<rt>むじょう</ruby> <p><ruby style="ruby-merge:merge"><rb>無<rb>常<rt>む<rt>じょう</ruby> However, the second one renders the same as ruby-position: separate when the two bases are split across lines.. `css-ruby` */
+    const merge: string
+    /** The user agent may use any algorithm to determine how each ruby annotation box is rendered to its corresponding base box, with the intention that if all annotations fit over their respective bases, the result is identical to separate, but if some annotations are wider than their bases the space is shared in some way to avoid imposing space between bases. ruby-merge: auto with center alignment. `css-ruby` */
+    const auto: string
+  }
+
+  /** Create a `ruby-overhang` property. `css-ruby` */
+  function rubyOverhang(value: any): Property
+  module rubyOverhang {
+    /** When a ruby annotation container is longer than its corresponding ruby base container, the ruby annotation container may partially overlap adjacent boxes. Whether, how much, and under which conditions to overhang are determined by the UA.. `css-ruby` */
+    const auto: string
+    /** A ruby annotation container is never allowed to extend past the ruby annotation container.. `css-ruby` */
+    const none: string
+  }
+
+  /** Create a `ruby-position` property. `css-ruby` */
+  function rubyPosition(value: any): Property
+  module rubyPosition {
+    /** Different levels of annotations alternate between over and under. If the annotation container is the first level of annotation in its ruby segment, or if all prior levels are inter-character, then alternate, either on its own or in combination with over, behaves the same as over, while alternate in combination with under behaves the same as under. Otherwise, if the previous level of interlinear annotation is over, alternate behaves like under, and vice versa. (In this case, whether alternate is specified alone or in combination with over or under makes no difference.). `css-ruby` */
+    const alternate: string
+    /** The ruby annotation appears line-over the base. Ruby over Japanese base text in horizontal layout Ruby to the right of Japanese base text in vertical layout. `css-ruby` */
+    const over: string
+    /** The ruby annotation appears line-under the base. This is a relatively rare setting used in ideographic East Asian writing systems, most easily found in educational text. Ruby under Japanese base text in horizontal layout Ruby to the left of Japanese base text in vertical layout. `css-ruby` */
+    const under: string
+    /** If the writing mode of the enclosing ruby container is vertical, this value has the same effect as over. Otherwise, the ruby annotation becomes an inter-character annotation. The annotation appears on the right of the base in horizontal text. This forces the computed value of writing-mode of the ruby annotation children of this ruby annotation container to be vertical-rl. This value is provided for the special case of traditional Chinese as used especially in Taiwan: ruby (made of bopomofo glyphs) in that context appears vertically along the right side of the base glyph, even when the layout of the base characters is horizontal: “Bopomofo” ruby in traditional Chinese (ruby annotation shown in blue for clarity) in horizontal layout. `css-ruby` */
+    const interCharacter: string
+  }
+
+  /** Create a `running` property. `unknown` */
+  function running(value: any): Property
+
+  /** Create a `rx` property. `svg` */
+  function rx(value: any): Property
+  module rx {
+    /** `auto` keyword. `svg` */
+    const auto: string
+  }
+
+  /** Create a `ry` property. `svg` */
+  function ry(value: any): Property
+  module ry {
+    /** `auto` keyword. `svg` */
+    const auto: string
+  }
+
+  /** Create a `scale` property. `css-transforms-2` */
+  function scale(value: any): Property
+  module scale {
+    /** All three properties accept (and default to) the value none, which produces no transform at all. In particular, this value does not trigger the creation of a stacking context or containing block for all descendants, while all other values (including “identity” transforms like translate: 0px) create a stacking context and containing block for all descendants, per usual for transforms.. `css-transforms-2` */
+    const none: string
+  }
+
+  /** Create a `scroll-behavior` property. `css-overflow` */
+  function scrollBehavior(value: any): Property
+  module scrollBehavior {
+    /** The scroll container is scrolled in an instant fashion.. `css-overflow` */
+    const auto: string
+    /** The scroll container is scrolled in a smooth fashion using a user-agent-defined timing function over a user-agent-defined period of time. User agents should follow platform conventions, if any.. `css-overflow` */
+    const smooth: string
+  }
+
+  /** Create a `scroll-margin` property. `css-scroll-snap` */
+  function scrollMargin(value: any): Property
+
+  /** Create a `scroll-margin-block` property. `css-scroll-snap` */
+  function scrollMarginBlock(value: any): Property
+
+  /** Create a `scroll-margin-block-end` property. `css-scroll-snap` */
+  function scrollMarginBlockEnd(value: any): Property
+
+  /** Create a `scroll-margin-block-start` property. `css-scroll-snap` */
+  function scrollMarginBlockStart(value: any): Property
+
+  /** Create a `scroll-margin-bottom` property. `css-scroll-snap` */
+  function scrollMarginBottom(value: any): Property
+
+  /** Create a `scroll-margin-inline` property. `css-scroll-snap` */
+  function scrollMarginInline(value: any): Property
+
+  /** Create a `scroll-margin-inline-end` property. `css-scroll-snap` */
+  function scrollMarginInlineEnd(value: any): Property
+
+  /** Create a `scroll-margin-inline-start` property. `css-scroll-snap` */
+  function scrollMarginInlineStart(value: any): Property
+
+  /** Create a `scroll-margin-left` property. `css-scroll-snap` */
+  function scrollMarginLeft(value: any): Property
+
+  /** Create a `scroll-margin-right` property. `css-scroll-snap` */
+  function scrollMarginRight(value: any): Property
+
+  /** Create a `scroll-margin-top` property. `css-scroll-snap` */
+  function scrollMarginTop(value: any): Property
+
+  /** Create a `scroll-padding` property. `css-scroll-snap` */
+  function scrollPadding(value: any): Property
+  module scrollPadding {
+    /** Indicates that the offset for the corresponding edge of the scrollport is UA-determined. This should generally default to a used length of 0px, but UAs may use heuristics to detect when a non-zero value is more appropriate. For example, a UA could detect when a position:fixed element is being used as an opaque unscrollable “header” that obscures the content below it, and resolve the top offset to the height of that element so that a “page down” operation (such as pressing PgDn) automatically scrolls by one “visible page” of content.. `css-scroll-snap` */
+    const auto: string
+  }
+
+  /** Create a `scroll-padding-block` property. `css-scroll-snap` */
+  function scrollPaddingBlock(value: any): Property
+  module scrollPaddingBlock {
+    /** Indicates that the offset for the corresponding edge of the scrollport is UA-determined. This should generally default to a used length of 0px, but UAs may use heuristics to detect when a non-zero value is more appropriate. For example, a UA could detect when a position:fixed element is being used as an opaque unscrollable “header” that obscures the content below it, and resolve the top offset to the height of that element so that a “page down” operation (such as pressing PgDn) automatically scrolls by one “visible page” of content.. `css-scroll-snap` */
+    const auto: string
+  }
+
+  /** Create a `scroll-padding-block-end` property. `css-scroll-snap` */
+  function scrollPaddingBlockEnd(value: any): Property
+  module scrollPaddingBlockEnd {
+    /** Indicates that the offset for the corresponding edge of the scrollport is UA-determined. This should generally default to a used length of 0px, but UAs may use heuristics to detect when a non-zero value is more appropriate. For example, a UA could detect when a position:fixed element is being used as an opaque unscrollable “header” that obscures the content below it, and resolve the top offset to the height of that element so that a “page down” operation (such as pressing PgDn) automatically scrolls by one “visible page” of content.. `css-scroll-snap` */
+    const auto: string
+  }
+
+  /** Create a `scroll-padding-block-start` property. `css-scroll-snap` */
+  function scrollPaddingBlockStart(value: any): Property
+  module scrollPaddingBlockStart {
+    /** Indicates that the offset for the corresponding edge of the scrollport is UA-determined. This should generally default to a used length of 0px, but UAs may use heuristics to detect when a non-zero value is more appropriate. For example, a UA could detect when a position:fixed element is being used as an opaque unscrollable “header” that obscures the content below it, and resolve the top offset to the height of that element so that a “page down” operation (such as pressing PgDn) automatically scrolls by one “visible page” of content.. `css-scroll-snap` */
+    const auto: string
+  }
+
+  /** Create a `scroll-padding-bottom` property. `css-scroll-snap` */
+  function scrollPaddingBottom(value: any): Property
+  module scrollPaddingBottom {
+    /** `auto` keyword. `css-scroll-snap` */
+    const auto: string
+  }
+
+  /** Create a `scroll-padding-inline` property. `css-scroll-snap` */
+  function scrollPaddingInline(value: any): Property
+  module scrollPaddingInline {
+    /** Indicates that the offset for the corresponding edge of the scrollport is UA-determined. This should generally default to a used length of 0px, but UAs may use heuristics to detect when a non-zero value is more appropriate. For example, a UA could detect when a position:fixed element is being used as an opaque unscrollable “header” that obscures the content below it, and resolve the top offset to the height of that element so that a “page down” operation (such as pressing PgDn) automatically scrolls by one “visible page” of content.. `css-scroll-snap` */
+    const auto: string
+  }
+
+  /** Create a `scroll-padding-inline-end` property. `css-scroll-snap` */
+  function scrollPaddingInlineEnd(value: any): Property
+  module scrollPaddingInlineEnd {
+    /** Indicates that the offset for the corresponding edge of the scrollport is UA-determined. This should generally default to a used length of 0px, but UAs may use heuristics to detect when a non-zero value is more appropriate. For example, a UA could detect when a position:fixed element is being used as an opaque unscrollable “header” that obscures the content below it, and resolve the top offset to the height of that element so that a “page down” operation (such as pressing PgDn) automatically scrolls by one “visible page” of content.. `css-scroll-snap` */
+    const auto: string
+  }
+
+  /** Create a `scroll-padding-inline-start` property. `css-scroll-snap` */
+  function scrollPaddingInlineStart(value: any): Property
+  module scrollPaddingInlineStart {
+    /** Indicates that the offset for the corresponding edge of the scrollport is UA-determined. This should generally default to a used length of 0px, but UAs may use heuristics to detect when a non-zero value is more appropriate. For example, a UA could detect when a position:fixed element is being used as an opaque unscrollable “header” that obscures the content below it, and resolve the top offset to the height of that element so that a “page down” operation (such as pressing PgDn) automatically scrolls by one “visible page” of content.. `css-scroll-snap` */
+    const auto: string
+  }
+
+  /** Create a `scroll-padding-left` property. `css-scroll-snap` */
+  function scrollPaddingLeft(value: any): Property
+  module scrollPaddingLeft {
+    /** `auto` keyword. `css-scroll-snap` */
+    const auto: string
+  }
+
+  /** Create a `scroll-padding-right` property. `css-scroll-snap` */
+  function scrollPaddingRight(value: any): Property
+  module scrollPaddingRight {
+    /** `auto` keyword. `css-scroll-snap` */
+    const auto: string
+  }
+
+  /** Create a `scroll-padding-top` property. `css-scroll-snap` */
+  function scrollPaddingTop(value: any): Property
+  module scrollPaddingTop {
+    /** `auto` keyword. `css-scroll-snap` */
+    const auto: string
+  }
+
+  /** Create a `scroll-snap-align` property. `css-scroll-snap` */
+  function scrollSnapAlign(value: any): Property
+  module scrollSnapAlign {
+    /** This box does not define a snap position in the specified axis.. `css-scroll-snap` */
+    const none: string
+    /** Start alignment of this box’s scroll snap area within the scroll container’s snapport is a snap position in the specified axis.. `css-scroll-snap` */
+    const start: string
+    /** End alignment of this box’s scroll snap area within the scroll container’s snapport is a snap position in the specified axis.. `css-scroll-snap` */
+    const end: string
+    /** Center alignment of this box’s scroll snap area within the scroll container’s snapport is a snap position in the specified axis.. `css-scroll-snap` */
+    const center: string
+  }
+
+  /** Create a `scroll-snap-coordinate` property. `unknown` */
+  function scrollSnapCoordinate(value: any): Property
+
+  /** Create a `scroll-snap-destination` property. `unknown` */
+  function scrollSnapDestination(value: any): Property
+
+  /** Create a `scroll-snap-margin` property. `unknown` */
+  function scrollSnapMargin(value: any): Property
+
+  /** Create a `scroll-snap-margin-bottom` property. `unknown` */
+  function scrollSnapMarginBottom(value: any): Property
+
+  /** Create a `scroll-snap-margin-left` property. `unknown` */
+  function scrollSnapMarginLeft(value: any): Property
+
+  /** Create a `scroll-snap-margin-right` property. `unknown` */
+  function scrollSnapMarginRight(value: any): Property
+
+  /** Create a `scroll-snap-margin-top` property. `unknown` */
+  function scrollSnapMarginTop(value: any): Property
+
+  /** Create a `scroll-snap-points-x` property. `unknown` */
+  function scrollSnapPointsX(value: any): Property
+
+  /** Create a `scroll-snap-points-y` property. `unknown` */
+  function scrollSnapPointsY(value: any): Property
+
+  /** Create a `scroll-snap-stop` property. `css-scroll-snap` */
+  function scrollSnapStop(value: any): Property
+  module scrollSnapStop {
+    /** The scroll container may pass over a snap position defined by this element during the execution of a scrolling operation.. `css-scroll-snap` */
+    const normal: string
+    /** The scroll container must not pass over a snap position defined by this element during the execution of a scrolling operation; it must instead snap to the first of this element’s snap positions.. `css-scroll-snap` */
+    const always: string
+  }
+
+  /** Create a `scroll-snap-type` property. `css-scroll-snap` */
+  function scrollSnapType(value: any): Property
+  module scrollSnapType {
+    /** If specified on a scroll container, the scroll container must not snap.. `css-scroll-snap` */
+    const none: string
+    /** The scroll container snaps to snap positions in its horizontal axis only.. `css-scroll-snap` */
+    const x: string
+    /** The scroll container snaps to snap positions in its vertical axis only.. `css-scroll-snap` */
+    const y: string
+    /** The scroll container snaps to snap positions in its block axis only.. `css-scroll-snap` */
+    const block: string
+    /** The scroll container snaps to snap positions in its inline axis only.. `css-scroll-snap` */
+    const inline: string
+    /** The scroll container snaps to snap positions in both of its axes independently (potentially snapping to different elements in each axis).. `css-scroll-snap` */
+    const both: string
+    /** If specified on a scroll container, the scroll container is required to be snapped to a snap position when there are no active scrolling operations. If a valid snap position exists then the scroll container must snap at the termination of a scroll (if none exist then no snapping occurs).. `css-scroll-snap` */
+    const mandatory: string
+    /** If specified on a scroll container, the scroll container may snap to a snap position at the termination of a scroll, at the discretion of the UA given the parameters of the scroll.. `css-scroll-snap` */
+    const proximity: string
+  }
+
+  /** Create a `scroll-snap-type-x` property. `unknown` */
+  function scrollSnapTypeX(value: any): Property
+
+  /** Create a `scroll-snap-type-y` property. `unknown` */
+  function scrollSnapTypeY(value: any): Property
+
+  /** Create a `scroll-start` property. `css-scroll-snap-2` */
+  function scrollStart(value: any): Property
+  module scrollStart {
+    /** .... `css-scroll-snap-2` */
+    const auto: string
+    /** Equivalent to 0%, 50%, and 100%, respectively.. `css-scroll-snap-2` */
+    const start: string
+    /** Equivalent to 0%, 50%, and 100%, respectively.. `css-scroll-snap-2` */
+    const end: string
+    /** Equivalent to 0%, 50%, and 100%, respectively.. `css-scroll-snap-2` */
+    const center: string
+    /** `left` keyword. `css-scroll-snap-2` */
+    const left: string
+    /** `right` keyword. `css-scroll-snap-2` */
+    const right: string
+    /** `top` keyword. `css-scroll-snap-2` */
+    const top: string
+    /** `bottom` keyword. `css-scroll-snap-2` */
+    const bottom: string
+  }
+
+  /** Create a `scroll-start-block` property. `css-scroll-snap-2` */
+  function scrollStartBlock(value: any): Property
+  module scrollStartBlock {
+    /** .... `css-scroll-snap-2` */
+    const auto: string
+    /** Equivalent to 0%, 50%, and 100%, respectively.. `css-scroll-snap-2` */
+    const start: string
+    /** Equivalent to 0%, 50%, and 100%, respectively.. `css-scroll-snap-2` */
+    const end: string
+    /** Equivalent to 0%, 50%, and 100%, respectively.. `css-scroll-snap-2` */
+    const center: string
+  }
+
+  /** Create a `scroll-start-inline` property. `css-scroll-snap-2` */
+  function scrollStartInline(value: any): Property
+  module scrollStartInline {
+    /** .... `css-scroll-snap-2` */
+    const auto: string
+    /** Equivalent to 0%, 50%, and 100%, respectively.. `css-scroll-snap-2` */
+    const start: string
+    /** Equivalent to 0%, 50%, and 100%, respectively.. `css-scroll-snap-2` */
+    const end: string
+    /** Equivalent to 0%, 50%, and 100%, respectively.. `css-scroll-snap-2` */
+    const center: string
+  }
+
+  /** Create a `scroll-start-target` property. `css-scroll-snap-2` */
+  function scrollStartTarget(value: any): Property
+  module scrollStartTarget {
+    /** Element is not a scroll-start-target.. `css-scroll-snap-2` */
+    const none: string
+    /** Element is used to calculate the scroll-start position, taking into account scroll-padding or scroll-margin , same as a scroll-snap target.. `css-scroll-snap-2` */
+    const auto: string
+  }
+
+  /** Create a `scroll-start-x` property. `css-scroll-snap-2` */
+  function scrollStartX(value: any): Property
+  module scrollStartX {
+    /** .... `css-scroll-snap-2` */
+    const auto: string
+    /** Equivalent to 0%, 50%, and 100%, respectively.. `css-scroll-snap-2` */
+    const start: string
+    /** Equivalent to 0%, 50%, and 100%, respectively.. `css-scroll-snap-2` */
+    const end: string
+    /** Equivalent to 0%, 50%, and 100%, respectively.. `css-scroll-snap-2` */
+    const center: string
+  }
+
+  /** Create a `scroll-start-y` property. `css-scroll-snap-2` */
+  function scrollStartY(value: any): Property
+  module scrollStartY {
+    /** .... `css-scroll-snap-2` */
+    const auto: string
+    /** Equivalent to 0%, 50%, and 100%, respectively.. `css-scroll-snap-2` */
+    const start: string
+    /** Equivalent to 0%, 50%, and 100%, respectively.. `css-scroll-snap-2` */
+    const end: string
+    /** Equivalent to 0%, 50%, and 100%, respectively.. `css-scroll-snap-2` */
+    const center: string
+  }
+
+  /** Create a `scroll-timeline` property. `scroll-animations` */
+  function scrollTimeline(value: any): Property
+
+  /** Create a `scroll-timeline-axis` property. `scroll-animations` */
+  function scrollTimelineAxis(value: any): Property
+  module scrollTimelineAxis {
+    /** Specifies to use the measure of progress along the block axis of the scroll container. (Default.). `scroll-animations` */
+    const block: string
+    /** Specifies to use the measure of progress along the inline axis of the scroll container.. `scroll-animations` */
+    const inline: string
+    /** Specifies to use the measure of progress along the vertical axis of the scroll container.. `scroll-animations` */
+    const vertical: string
+    /** Specifies to use the measure of progress along the horizontal axis of the scroll container.. `scroll-animations` */
+    const horizontal: string
+  }
+
+  /** Create a `scroll-timeline-name` property. `scroll-animations` */
+  function scrollTimelineName(value: any): Property
+  module scrollTimelineName {
+    /** `none` keyword. `scroll-animations` */
+    const none: string
+  }
+
+  /** Create a `scrollbar-arrow-color` property. `unknown` */
+  function scrollbarArrowColor(value: any): Property
+
+  /** Create a `scrollbar-base-color` property. `unknown` */
+  function scrollbarBaseColor(value: any): Property
+
+  /** Create a `scrollbar-color` property. `css-scrollbars` */
+  function scrollbarColor(value: any): Property
+  module scrollbarColor {
+    /** The user agent determines the colors of the scrollbar. It should follow platform conventions, but may adjust the colors in accordance with color-scheme or other contextual information to better suit the page.. `css-scrollbars` */
+    const auto: string
+    /** `color` keyword. `css-scrollbars` */
+    const color: string
+  }
+
+  /** Create a `scrollbar-dark-shadow-color` property. `unknown` */
+  function scrollbarDarkShadowColor(value: any): Property
+
+  /** Create a `scrollbar-darkshadow-color` property. `unknown` */
+  function scrollbarDarkshadowColor(value: any): Property
+
+  /** Create a `scrollbar-face-color` property. `unknown` */
+  function scrollbarFaceColor(value: any): Property
+
+  /** Create a `scrollbar-gutter` property. `css-overflow` */
+  function scrollbarGutter(value: any): Property
+  module scrollbarGutter {
+    /** Classic scrollbars consume space by creating a scrollbar gutter when overflow is scroll, or when overflow is auto and the box is overflowing. Overlay scrollbars do not consume space.. `css-overflow` */
+    const auto: string
+    /** The scrollbar gutter is present for classic scrollbars when overflow is hidden, scroll, or auto, regardless of whether the box is actually overflowing. Overlay scrollbars do not consume space.. `css-overflow` */
+    const stable: string
+    /** If a scrollbar gutter would be present on one of the inline start edge or the inline end edge of the box, another scrollbar gutter must be present on the opposite edge as well.. `css-overflow` */
+    const bothEdges: string
+  }
+
+  /** Create a `scrollbar-highlight-color` property. `unknown` */
+  function scrollbarHighlightColor(value: any): Property
+
+  /** Create a `scrollbar-shadow-color` property. `unknown` */
+  function scrollbarShadowColor(value: any): Property
+
+  /** Create a `scrollbar-track-color` property. `unknown` */
+  function scrollbarTrackColor(value: any): Property
+
+  /** Create a `scrollbar-width` property. `css-scrollbars` */
+  function scrollbarWidth(value: any): Property
+  module scrollbarWidth {
+    /** Implementations must use the default scrollbar width.. `css-scrollbars` */
+    const auto: string
+    /** Implementations should use thinner scrollbars than auto. This may mean a thin variant of scrollbar provided by the platform, or a custom scrollbar thinner than the default platform scrollbar. The scrollbar must nonetheless remain wide enough to be usable. (Implementers may wish to consult WCAG 2.1 SC 2.5.5 Target Size. [WCAG21]) User agents may disregard this value and treat it as auto, for instance when the user has indicated discomfort for thin scrollbars through some UA or OS setting. (User agents are encouraged to provide such a setting.). `css-scrollbars` */
+    const thin: string
+    /** Implementations must not display any scrollbar, however the element’s scrollability by other means is not affected. Using this value can prevent mouse-only users from being able to scroll. Authors should ensure that mouse-only users can still reach hidden content, even if they have no scrollwheel. Authors that use none should provide an alternative/equivalent visual hint that scrolling is possible and there is more content.. `css-scrollbars` */
+    const none: string
+  }
+
+  /** Create a `scrollbar3d-light-color` property. `unknown` */
+  function scrollbar3dLightColor(value: any): Property
+
+  /** Create a `scrollbar3dlight-color` property. `unknown` */
+  function scrollbar3dlightColor(value: any): Property
+
+  /** Create a `shape-image-threshold` property. `css-shapes` */
+  function shapeImageThreshold(value: any): Property
+
+  /** Create a `shape-inside` property. `css-shapes-2` */
+  function shapeInside(value: any): Property
+  module shapeInside {
+    /** The shape is computed based on the content box of the element.. `css-shapes-2` */
+    const auto: string
+    /** The shape is computed based on the shape defined by the shape-outside and shape-margin properties.. `css-shapes-2` */
+    const outsideShape: string
+    /** `shape-box` keyword. `css-shapes-2` */
+    const shapeBox: string
+    /** The shape is computed based on the shape of the display as described in css-round-display.. `css-shapes-2` */
+    const display: string
+  }
+
+  /** Create a `shape-margin` property. `css-shapes` */
+  function shapeMargin(value: any): Property
+
+  /** Create a `shape-outside` property. `css-shapes` */
+  function shapeOutside(value: any): Property
+  module shapeOutside {
+    /** The float area is unaffected.. `css-shapes` */
+    const none: string
+    /** The margin-box value defines the shape enclosed by the outside margin edge. The corner radii of this shape are determined by the corresponding border-radius and margin values. If the ratio of border-radius/margin is 1 or more, or margin is negative or zero, then the margin box corner radius is max(border-radius + margin, 0). If the ratio of border-radius/margin is less than 1, and margin is positive, then the margin box corner radius is border-radius + margin * (1 + (ratio-1)^3).. `css-shapes` */
+    const marginBox: string
+    /** The border-box value defines the shape enclosed by the outside border edge. This shape follows all of the normal border radius shaping rules for the outside of the border.. `css-shapes` */
+    const borderBox: string
+    /** The padding-box value defines the shape enclosed by the outside padding edge. This shape follows all of the normal border radius shaping rules for the inside of the border.. `css-shapes` */
+    const paddingBox: string
+    /** The content-box value defines the shape enclosed by the outside content edge. Each corner radius of this box is the larger of 0 or border-radius - border-width - padding.. `css-shapes` */
+    const contentBox: string
+  }
+
+  /** Create a `shape-padding` property. `css-shapes-2` */
+  function shapePadding(value: any): Property
+
+  /** Create a `shape-rendering` property. `svg` */
+  function shapeRendering(value: any): Property
+  module shapeRendering {
+    /** `auto` keyword. `svg` */
+    const auto: string
+    /** `optimizeSpeed` keyword. `svg` */
+    const optimizeSpeed: string
+    /** `crispEdges` keyword. `svg` */
+    const crispEdges: string
+    /** `geometricPrecision` keyword. `svg` */
+    const geometricPrecision: string
+  }
+
+  /** Create a `shape-subtract` property. `svg` */
+  function shapeSubtract(value: any): Property
+  module shapeSubtract {
+    /** `none` keyword. `svg` */
+    const none: string
+  }
+
+  /** Create a `size` property. `unknown` */
+  function size(value: any): Property
+
+  /** Create a `size-adjust` property. `unknown` */
+  function sizeAdjust(value: any): Property
+
+  /** Create a `snap-height` property. `unknown` */
+  function snapHeight(value: any): Property
+
+  /** Create a `solid-color` property. `unknown` */
+  function solidColor(value: any): Property
+
+  /** Create a `solid-opacity` property. `unknown` */
+  function solidOpacity(value: any): Property
+
+  /** Create a `spatial-navigation-action` property. `css-nav` */
+  function spatialNavigationAction(value: any): Property
+  module spatialNavigationAction {
+    /** If there are visible focusable elements within the scroll container in the direction requested, the closest one becomes focused. Otherwise, the scroll container is scrolled in the direction requested.. `css-nav` */
+    const auto: string
+    /** The focus is moved to the nearest focusable element within the scroll container, regardless of whether it is visible. If there are none, the scroll container is not scrolled, and the search continues up the ancestry chain instead.. `css-nav` */
+    const focus: string
+    /** If the currently focused element is not itself a scroll container, this value on an ancestor scroll container has the same effect as auto. If the currently focused element is a scroll container, it is scrolled in the direction requested without changing which element is in focus, regardless of the presence of focusable descendants.. `css-nav` */
+    const scroll: string
+  }
+
+  /** Create a `spatial-navigation-contain` property. `css-nav` */
+  function spatialNavigationContain(value: any): Property
+  module spatialNavigationContain {
+    /** If the element is a scroll container then it establishes a spatial navigation container, otherwise it does not.. `css-nav` */
+    const auto: string
+    /** The element establishes a spatial navigation container. `css-nav` */
+    const contain: string
+  }
+
+  /** Create a `spatial-navigation-function` property. `css-nav` */
+  function spatialNavigationFunction(value: any): Property
+  module spatialNavigationFunction {
+    /** Moves the focus with the default focus navigation algorithm defined by UA. In general, the focus moves to the element with the closest distance calculated by finding the shortest distance.. `css-nav` */
+    const normal: string
+    /** Moves the focus to the element which is aligned most in the navigation direction. If there are more than one aligned candidates in the navigation direction, select the element with the closest distance along the axis which corresponds to the navigation direction. In case of multiple elements with the same distance, select the element with the minimum amount of alignment. Else if there isn’t any aligned candidate in a given direction, select the element with the closest distance along the axis which corresponds to the navigation direction. In case of multiple elements with the same distance, select the element with the minimum distance along the axis which is orthogonal to the navigation direction.. `css-nav` */
+    const grid: string
+  }
+
+  /** Create a `speak` property. `css-speech` */
+  function speak(value: any): Property
+  module speak {
+    /** Resolves to a computed value of never when display is none, otherwise resolves to a computed value of auto. The used value of a computed auto is equivalent to always if visibility is visible and to never otherwise.. `css-speech` */
+    const auto: string
+    /** This value causes an element (including pauses, cues, rests and actual content) to not be rendered (i.e., the element has no effect in the aural dimension).. `css-speech` */
+    const never: string
+    /** The element is rendered aurally (regardless of its display value, or the display or speak values of its ancestors).. `css-speech` */
+    const always: string
+  }
+
+  /** Create a `speak-as` property. `css-speech` */
+  function speakAs(value: any): Property
+  module speakAs {
+    /** Uses language-dependent pronunciation rules for rendering the element’s content. For example, punctuation is not spoken as-is, but instead rendered naturally as appropriate pauses.. `css-speech` */
+    const normal: string
+    /** Spells the text one letter at a time (useful for acronyms and abbreviations). In languages where accented characters are rare, it is permitted to drop accents in favor of alternative unaccented spellings. As an example, in English, the word “rôle” can also be written as “role”. A conforming implementation would thus be able to spell-out “rôle” as “R O L E”.. `css-speech` */
+    const spellOut: string
+    /** Speak numbers one digit at a time, for instance, “twelve” would be spoken as “one two”, and “31” as “three one”.. `css-speech` */
+    const digits: string
+    /** Punctuation such as semicolons, braces, and so on is named aloud (i.e. spoken literally) rather than rendered naturally as appropriate pauses.. `css-speech` */
+    const literalPunctuation: string
+    /** Punctuation is not rendered: neither spoken nor rendered as pauses.. `css-speech` */
+    const noPunctuation: string
+  }
+
+  /** Create a `speak-header` property. `unknown` */
+  function speakHeader(value: any): Property
+
+  /** Create a `speak-numeral` property. `unknown` */
+  function speakNumeral(value: any): Property
+
+  /** Create a `speak-punctuation` property. `unknown` */
+  function speakPunctuation(value: any): Property
+
+  /** Create a `speech-rate` property. `unknown` */
+  function speechRate(value: any): Property
+
+  /** Create a `src` property. `unknown` */
+  function src(value: any): Property
+
+  /** Create a `stop-color` property. `svg` */
+  function stopColor(value: any): Property
+
+  /** Create a `stop-opacity` property. `svg` */
+  function stopOpacity(value: any): Property
+
+  /** Create a `stress` property. `unknown` */
+  function stress(value: any): Property
+
+  /** Create a `string-set` property. `css-content` */
+  function stringSet(value: any): Property
+  module stringSet {
+    /** The element does not set any named strings.. `css-content` */
+    const none: string
+  }
+
+  /** Create a `stroke` property. `svg` */
+  function stroke(value: any): Property
+  module stroke {
+    /** Indicates no paint is applied.. `svg` */
+    const none: string
+  }
+
+  /** Create a `stroke-align` property. `fill-stroke` */
+  function strokeAlign(value: any): Property
+  module strokeAlign {
+    /** The stroke for each subpath is centered on the outline.. `fill-stroke` */
+    const center: string
+    /** The stroke for each subpath lies on the “inside” of the outline (into the fill area). The stroke-linejoin property must be ignored. Why is stroke-linejoin ignored? It’s still needed for interior corners.. `fill-stroke` */
+    const inset: string
+    /** The stroke for each subpath lies on the “outside” of the outline (outside the fill area).. `fill-stroke` */
+    const outset: string
+  }
+
+  /** Create a `stroke-alignment` property. `svg-strokes` */
+  function strokeAlignment(value: any): Property
+  module strokeAlignment {
+    /** `center` keyword. `svg-strokes` */
+    const center: string
+    /** `inner` keyword. `svg-strokes` */
+    const inner: string
+    /** `outer` keyword. `svg-strokes` */
+    const outer: string
+  }
+
+  /** Create a `stroke-break` property. `fill-stroke` */
+  function strokeBreak(value: any): Property
+  module strokeBreak {
+    /** `bounding-box` keyword. `fill-stroke` */
+    const boundingBox: string
+    /** `slice` keyword. `fill-stroke` */
+    const slice: string
+    /** `clone` keyword. `fill-stroke` */
+    const clone: string
+  }
+
+  /** Create a `stroke-color` property. `fill-stroke` */
+  function strokeColor(value: any): Property
+  module strokeColor {
+    /** `color` keyword. `fill-stroke` */
+    const color: string
+  }
+
+  /** Create a `stroke-dash-corner` property. `fill-stroke` */
+  function strokeDashCorner(value: any): Property
+  module strokeDashCorner {
+    /** This property has no special effect on dashing: the dashes are positioned/sized continuously along the path.. `fill-stroke` */
+    const none: string
+  }
+
+  /** Create a `stroke-dash-justify` property. `fill-stroke` */
+  function strokeDashJustify(value: any): Property
+  module strokeDashJustify {
+    /** No adjustment of the dash pattern is made: it’s clipped at the end of the subpath with however much progress it made to that point.. `fill-stroke` */
+    const none: string
+    /** Indicates that when the dash pattern does not fit into a subpath a whole number times, the dashes or gaps (or both) will be lengthened so that it does.. `fill-stroke` */
+    const stretch: string
+    /** Indicates that when the dash pattern does not fit into a subpath a whole number times, the dashes or gaps (or both) will be shortened so that it does.. `fill-stroke` */
+    const compress: string
+    /** Indicates that when a dash pattern is to be stretched or compressed, the length of the dashes will be adjusted.. `fill-stroke` */
+    const dashes: string
+    /** Indicates that when a dash pattern is to be stretched or compressed, the length of the gaps will be adjusted.. `fill-stroke` */
+    const gaps: string
+  }
+
+  /** Create a `stroke-dashadjust` property. `svg-strokes` */
+  function strokeDashadjust(value: any): Property
+  module strokeDashadjust {
+    /** `none` keyword. `svg-strokes` */
+    const none: string
+    /** `stretch` keyword. `svg-strokes` */
+    const stretch: string
+    /** `compress` keyword. `svg-strokes` */
+    const compress: string
+    /** `dashes` keyword. `svg-strokes` */
+    const dashes: string
+    /** `gaps` keyword. `svg-strokes` */
+    const gaps: string
+  }
+
+  /** Create a `stroke-dasharray` property. `fill-stroke` */
+  function strokeDasharray(value: any): Property
+  module strokeDasharray {
+    /** No dashing: the stroke is drawn continuously.. `fill-stroke` */
+    const none: string
+  }
+
+  /** Create a `stroke-dashcorner` property. `svg-strokes` */
+  function strokeDashcorner(value: any): Property
+  module strokeDashcorner {
+    /** `none` keyword. `svg-strokes` */
+    const none: string
+  }
+
+  /** Create a `stroke-dashoffset` property. `fill-stroke` */
+  function strokeDashoffset(value: any): Property
+
+  /** Create a `stroke-image` property. `fill-stroke` */
+  function strokeImage(value: any): Property
+  module strokeImage {
+    /** Indicates no paint is applied.. `fill-stroke` */
+    const none: string
+  }
+
+  /** Create a `stroke-linecap` property. `fill-stroke` */
+  function strokeLinecap(value: any): Property
+  module strokeLinecap {
+    /** The stroke for each subpath does not extend beyond its two endpoints. (A zero length subpath will therefore not have any stroke.). `fill-stroke` */
+    const butt: string
+    /** At each end of each subpath, the stroke is extended by a half circle with a radius equal to half the stroke width. (The stroke for a zero-length subpath is a full circle centered at the subpath’s point.). `fill-stroke` */
+    const round: string
+    /** At the end of each subpath, the stroke is extended by a rectangle with the same width as the stroke width and whose length is half of the stroke width. (The stroke for a zero-length subpath is a square with side length equal to the stroke width, centered at the subpath’s point, and oriented such that two of its sides are parallel to the effective tangent at that subpath’s point. See § 4.6 Computing the Shape of the Stroke for details on how to determine the tangent at a zero-length subpath.) Adding a rectangle to the end of dashes on a curved outline looks bad. It should just extend the dash by stroke-width/2, following the outline.. `fill-stroke` */
+    const square: string
+  }
+
+  /** Create a `stroke-linejoin` property. `fill-stroke` */
+  function strokeLinejoin(value: any): Property
+  module strokeLinejoin {
+    /** The stroke extends the minimal amount past the corner necessary to form a convex corner. This acts identically to miter, but forces stroke-miterlimit to behave as if it had its minimum value of 1.. `fill-stroke` */
+    const crop: string
+    /** An arcs corner is used to join path segments. The arcs shape is formed by extending the outer edges of the stroke at the join point with arcs that have the same curvature as the outer edges at the join point.. `fill-stroke` */
+    const arcs: string
+    /** A sharp corner is used to join path segments. The corner is formed by extending the outer edges of the stroke at the tangents of the path segments until they intersect.. `fill-stroke` */
+    const miter: string
+    /** The corner is cropped at the stroke-miterlimit by the perpendicular to its diagonal.. `fill-stroke` */
+    const bevel: string
+    /** The corner is cropped as for bevel, and a filled arc tangent to the truncated stroke edges is appended to round the corner.. `fill-stroke` */
+    const round: string
+    /** When the stroke-miterlimit is exceeded, this behaves as if crop bevel were specified. Can we just remove fallback? It’s a stupid value, useful only because we didn’t have the clip-at-miterlimit behavior in SVG1. Question is if people are mostly just *accidentally* getting the bevel behavior right now, and would be okay with their joins extending up to the miterlimit and only getting the excess corners clipped, or if they actually wanted the discontinuous behavior currently specified. The breakpoint is between 29 and 30 degrees.. `fill-stroke` */
+    const fallback: string
+  }
+
+  /** Create a `stroke-miterlimit` property. `fill-stroke` */
+  function strokeMiterlimit(value: any): Property
+
+  /** Create a `stroke-opacity` property. `fill-stroke` */
+  function strokeOpacity(value: any): Property
+
+  /** Create a `stroke-origin` property. `fill-stroke` */
+  function strokeOrigin(value: any): Property
+  module strokeOrigin {
+    /** Use the same stroke positioning area as the parent. If it has no parent, use the initial containing block.. `fill-stroke` */
+    const matchParent: string
+    /** For SVG shapes or SVG text, use the object bounding box of the element. For CSS boxes, use the bounding box of the text glyph outlines of the element and all in-flow or floated descendants.. `fill-stroke` */
+    const fillBox: string
+    /** For SVG shapes or SVG text, use the stroke bounding box of the element. For CSS boxes, use the bounding box of the text glyph stroke outlines of the element and all in-flow or floated descendants.. `fill-stroke` */
+    const strokeBox: string
+    /** Use the box’s own content-box/padding-box/border-box as the stroke positioning area. For SVG shapes, content-box and padding-box are treated as fill-box, while border-box is treated as stroke-box.. `fill-stroke` */
+    const contentBox: string
+    /** Use the box’s own content-box/padding-box/border-box as the stroke positioning area. For SVG shapes, content-box and padding-box are treated as fill-box, while border-box is treated as stroke-box.. `fill-stroke` */
+    const paddingBox: string
+    /** Use the box’s own content-box/padding-box/border-box as the stroke positioning area. For SVG shapes, content-box and padding-box are treated as fill-box, while border-box is treated as stroke-box.. `fill-stroke` */
+    const borderBox: string
+  }
+
+  /** Create a `stroke-position` property. `fill-stroke` */
+  function strokePosition(value: any): Property
+
+  /** Create a `stroke-repeat` property. `fill-stroke` */
+  function strokeRepeat(value: any): Property
+
+  /** Create a `stroke-size` property. `fill-stroke` */
+  function strokeSize(value: any): Property
+
+  /** Create a `stroke-width` property. `fill-stroke` */
+  function strokeWidth(value: any): Property
+
+  /** Create a `suffix` property. `unknown` */
+  function suffix(value: any): Property
+
+  /** Create a `supported-color-schemes` property. `unknown` */
+  function supportedColorSchemes(value: any): Property
+
+  /** Create a `symbols` property. `unknown` */
+  function symbols(value: any): Property
+
+  /** Create a `syntax` property. `unknown` */
+  function syntax(value: any): Property
+
+  /** Create a `system` property. `unknown` */
+  function system(value: any): Property
+
+  /** Create a `tab-size` property. `css-text-4, css-text` */
+  function tabSize(value: any): Property
+
+  /** Create a `table-layout` property. `css-tables` */
+  function tableLayout(value: any): Property
+  module tableLayout {
+    /** `auto` keyword. `css-tables` */
+    const auto: string
+    /** `fixed` keyword. `css-tables` */
+    const fixed: string
+  }
+
+  /** Create a `text-align` property. `css-text-4, css-text` */
+  function textAlign(value: any): Property
+  module textAlign {
+    /** Inline-level content is aligned to the start edge of the line box.. `css-text-4` */
+    const start: string
+    /** Inline-level content is aligned to the end edge of the line box.. `css-text-4` */
+    const end: string
+    /** Inline-level content is aligned to the line-left edge of the line box. (In vertical writing modes, this can be either the physical top or bottom, depending on writing-mode.) [CSS-WRITING-MODES-4]. `css-text-4` */
+    const left: string
+    /** Inline-level content is aligned to the line-right edge of the line box. (In vertical writing modes, this can be either the physical top or bottom, depending on writing-mode.) [CSS-WRITING-MODES-4]. `css-text-4` */
+    const right: string
+    /** Inline-level content is centered within the line box.. `css-text-4` */
+    const center: string
+    /** Text is justified according to the method specified by the text-justify property, in order to exactly fill the line box. Unless otherwise specified by text-align-last, the last line before a forced break or the end of the block is start-aligned.. `css-text-4` */
+    const justify: string
+    /** This value behaves the same as inherit (computes to its parent’s computed value) except that an inherited value of start or end is interpreted against the parent’s direction value and results in a computed value of either left or right. Computes to start when specified on the root element. When specified on the text-align shorthand, sets both text-align-all and text-align-last to match-parent.. `css-text-4` */
+    const matchParent: string
+    /** Sets both text-align-all and text-align-last to justify, forcing the last line to justify as well.. `css-text-4` */
+    const justifyAll: string
+    /** Inline-level content is aligned to the start edge of the line box.. `css-text` */
+    const start: string
+    /** Inline-level content is aligned to the end edge of the line box.. `css-text` */
+    const end: string
+    /** Inline-level content is aligned to the line-left edge of the line box. (In vertical writing modes, this can be either the physical top or bottom, depending on writing-mode.) [CSS-WRITING-MODES-4]. `css-text` */
+    const left: string
+    /** Inline-level content is aligned to the line-right edge of the line box. (In vertical writing modes, this can be either the physical top or bottom, depending on writing-mode.) [CSS-WRITING-MODES-4]. `css-text` */
+    const right: string
+    /** Inline-level content is centered within the line box.. `css-text` */
+    const center: string
+    /** Text is justified according to the method specified by the text-justify property, in order to exactly fill the line box. Unless otherwise specified by text-align-last, the last line before a forced break or the end of the block is start-aligned.. `css-text` */
+    const justify: string
+    /** This value behaves the same as inherit (computes to its parent’s computed value) except that an inherited value of start or end is interpreted against the parent’s direction value and results in a computed value of either left or right. Computes to start when specified on the root element. When specified on the text-align shorthand, sets both text-align-all and text-align-last to match-parent.. `css-text` */
+    const matchParent: string
+    /** Sets both text-align-all and text-align-last to justify, forcing the last line to justify as well.. `css-text` */
+    const justifyAll: string
+  }
+
+  /** Create a `text-align-all` property. `css-text-4, css-text` */
+  function textAlignAll(value: any): Property
+  module textAlignAll {
+    /** `start` keyword. `css-text-4` */
+    const start: string
+    /** `end` keyword. `css-text-4` */
+    const end: string
+    /** `left` keyword. `css-text-4` */
+    const left: string
+    /** `right` keyword. `css-text-4` */
+    const right: string
+    /** `center` keyword. `css-text-4` */
+    const center: string
+    /** `justify` keyword. `css-text-4` */
+    const justify: string
+    /** `match-parent` keyword. `css-text-4` */
+    const matchParent: string
+    /** `start` keyword. `css-text` */
+    const start: string
+    /** `end` keyword. `css-text` */
+    const end: string
+    /** `left` keyword. `css-text` */
+    const left: string
+    /** `right` keyword. `css-text` */
+    const right: string
+    /** `center` keyword. `css-text` */
+    const center: string
+    /** `justify` keyword. `css-text` */
+    const justify: string
+    /** `match-parent` keyword. `css-text` */
+    const matchParent: string
+  }
+
+  /** Create a `text-align-last` property. `css-text-4, css-text` */
+  function textAlignLast(value: any): Property
+  module textAlignLast {
+    /** If auto is specified, content on the affected line is aligned per text-align-all unless text-align-all is set to justify, in which case it is start-aligned. All other values are interpreted as described for text-align.. `css-text-4` */
+    const auto: string
+    /** `start` keyword. `css-text-4` */
+    const start: string
+    /** `end` keyword. `css-text-4` */
+    const end: string
+    /** `left` keyword. `css-text-4` */
+    const left: string
+    /** `right` keyword. `css-text-4` */
+    const right: string
+    /** `center` keyword. `css-text-4` */
+    const center: string
+    /** `justify` keyword. `css-text-4` */
+    const justify: string
+    /** `match-parent` keyword. `css-text-4` */
+    const matchParent: string
+    /** If auto is specified, content on the affected line is aligned per text-align-all unless text-align-all is set to justify, in which case it is start-aligned. All other values are interpreted as described for text-align.. `css-text` */
+    const auto: string
+    /** `start` keyword. `css-text` */
+    const start: string
+    /** `end` keyword. `css-text` */
+    const end: string
+    /** `left` keyword. `css-text` */
+    const left: string
+    /** `right` keyword. `css-text` */
+    const right: string
+    /** `center` keyword. `css-text` */
+    const center: string
+    /** `justify` keyword. `css-text` */
+    const justify: string
+    /** `match-parent` keyword. `css-text` */
+    const matchParent: string
+  }
+
+  /** Create a `text-anchor` property. `svg` */
+  function textAnchor(value: any): Property
+  module textAnchor {
+    /** `start` keyword. `svg` */
+    const start: string
+    /** `middle` keyword. `svg` */
+    const middle: string
+    /** `end` keyword. `svg` */
+    const end: string
+  }
+
+  /** Create a `text-autospace` property. `css-text-4` */
+  function textAutospace(value: any): Property
+  module textAutospace {
+    /** Same behavior as ideograph-alpha ideograph-numeric.. `css-text-4` */
+    const normal: string
+  }
+
+  /** Create a `text-combine-upright` property. `css-writing-modes` */
+  function textCombineUpright(value: any): Property
+  module textCombineUpright {
+    /** No special processing.. `css-writing-modes` */
+    const none: string
+    /** Attempt to typeset horizontally all consecutive typographic character units within the box and text run such that they take up the space of a single typographic character unit within the vertical line box.. `css-writing-modes` */
+    const all: string
+    /** `digits` keyword. `css-writing-modes` */
+    const digits: string
+  }
+
+  /** Create a `text-decoration` property. `css-text-decor-4, css-text-decor` */
+  function textDecoration(value: any): Property
+
+  /** Create a `text-decoration-blink` property. `unknown` */
+  function textDecorationBlink(value: any): Property
+
+  /** Create a `text-decoration-color` property. `css-text-decor-4, css-text-decor` */
+  function textDecorationColor(value: any): Property
+  module textDecorationColor {
+    /** `color` keyword. `css-text-decor-4` */
+    const color: string
+    /** `color` keyword. `css-text-decor` */
+    const color: string
+  }
+
+  /** Create a `text-decoration-line` property. `css-text-decor-4, css-text-decor` */
+  function textDecorationLine(value: any): Property
+  module textDecorationLine {
+    /** Neither produces nor inhibits text decoration.. `css-text-decor-4` */
+    const none: string
+    /** Each line of text is underlined.. `css-text-decor-4` */
+    const underline: string
+    /** Each line of text has a line over it (i.e. on the opposite side from an underline).. `css-text-decor-4` */
+    const overline: string
+    /** Each line of text has a line through the middle.. `css-text-decor-4` */
+    const lineThrough: string
+    /** The text blinks (alternates between visible and invisible). Conforming user agents may simply not blink the text. Note that not blinking the text is one technique to satisfy checkpoint 3.3 of WAI-UAAG. This value is deprecated in favor of Animations [CSS3-ANIMATIONS].. `css-text-decor-4` */
+    const blink: string
+    /** This value indicates the type of text decoration used by the user agent to highlight spelling mistakes. Its appearance is UA-defined, and may be platform-dependent.. `css-text-decor-4` */
+    const spellingError: string
+    /** This value indicates the type of text decoration used by the user agent to highlight grammar mistakes. Its appearance is UA defined, and may be platform-dependent.. `css-text-decor-4` */
+    const grammarError: string
+    /** Neither produces nor inhibits text decoration.. `css-text-decor` */
+    const none: string
+    /** Each line of text is underlined.. `css-text-decor` */
+    const underline: string
+    /** Each line of text has a line over it (i.e. on the opposite side from an underline).. `css-text-decor` */
+    const overline: string
+    /** Each line of text has a line through the middle.. `css-text-decor` */
+    const lineThrough: string
+    /** The text blinks (alternates between visible and invisible). Conforming user agents may simply not blink the text. Note that not blinking the text is one technique to satisfy checkpoint 3.3 of WAI-UAAG. This value is deprecated in favor of Animations [CSS-ANIMATIONS-1].. `css-text-decor` */
+    const blink: string
+  }
+
+  /** Create a `text-decoration-line-through` property. `unknown` */
+  function textDecorationLineThrough(value: any): Property
+
+  /** Create a `text-decoration-none` property. `unknown` */
+  function textDecorationNone(value: any): Property
+
+  /** Create a `text-decoration-overline` property. `unknown` */
+  function textDecorationOverline(value: any): Property
+
+  /** Create a `text-decoration-skip` property. `css-text-decor-4` */
+  function textDecorationSkip(value: any): Property
+  module textDecorationSkip {
+    /** The text-decoration-skip property and its sub-properties (text-decoration-skip-self, text-decoration-skip-box, text-decoration-skip-inset, text-decoration-skip-spaces, text-decoration-skip-ink) control interruptions in line decorations for which the element or an ancestor is the decorating box. The none value sets all sub-properties to none, and the auto value sets all sub-properties to their initial values.. `css-text-decor-4` */
+    const none: string
+    /** The text-decoration-skip property and its sub-properties (text-decoration-skip-self, text-decoration-skip-box, text-decoration-skip-inset, text-decoration-skip-spaces, text-decoration-skip-ink) control interruptions in line decorations for which the element or an ancestor is the decorating box. The none value sets all sub-properties to none, and the auto value sets all sub-properties to their initial values.. `css-text-decor-4` */
+    const auto: string
+  }
+
+  /** Create a `text-decoration-skip-box` property. `css-text-decor-4` */
+  function textDecorationSkipBox(value: any): Property
+  module textDecorationSkipBox {
+    /** Skip nothing: line decorations from ancestor decorating boxes are drawn from margin edge to margin edge.. `css-text-decor-4` */
+    const none: string
+    /** When drawing text decoration lines applied to an ancestor decorating box, skip over the box’s own margin, border, and padding areas and only draw line decorations within its content area. This value only has an effect for decorations imposed by an ancestor; a decorating box never draws over its own box decoration.. `css-text-decor-4` */
+    const all: string
+  }
+
+  /** Create a `text-decoration-skip-ink` property. `css-text-decor-4` */
+  function textDecorationSkipInk(value: any): Property
+  module textDecorationSkipInk {
+    /** UAs may interrupt underlines and overlines where the line would cross glyph ink and to some distance to either side of the glyph outline. UAs should consider the script of the text (see note below) when determining whether to apply ink-skipping behavior to a given range of content.. `css-text-decor-4` */
+    const auto: string
+    /** UA must draw continuous underlines and overlines, without interruptions when they cross over a glyph.. `css-text-decor-4` */
+    const none: string
+    /** UAs must interrupt underlines and overlines where the line would cross glyph ink and to some distance to either side of the glyph outline.. `css-text-decor-4` */
+    const all: string
+  }
+
+  /** Create a `text-decoration-skip-inset` property. `unknown` */
+  function textDecorationSkipInset(value: any): Property
+
+  /** Create a `text-decoration-skip-self` property. `css-text-decor-4` */
+  function textDecorationSkipSelf(value: any): Property
+  module textDecorationSkipSelf {
+    /** Skip this element (its entire margin box) if it is an atomic inline (such as an image or inline-block).. `css-text-decor-4` */
+    const auto: string
+    /** Skip this element (its entire margin box) unconditionally. Don’t draw across it, don’t propagate to it.. `css-text-decor-4` */
+    const skipAll: string
+    /** Skip this element (its entire margin box) unconditionally when drawing ancestor underlines.. `css-text-decor-4` */
+    const skipUnderline: string
+    /** Skip this element (its entire margin box) unconditionally when drawing ancestor overlines.. `css-text-decor-4` */
+    const skipOverline: string
+    /** Skip this element (its entire margin box) unconditionally when drawing ancestor line-throughs.. `css-text-decor-4` */
+    const skipLineThrough: string
+    /** Line decorations from ancestor decorating boxes are applied to this box unconditionally: drawn across it as if it were text if it is an atomic inline, or propagated to it according to the usual rules if it is not.. `css-text-decor-4` */
+    const noSkip: string
+  }
+
+  /** Create a `text-decoration-skip-spaces` property. `css-text-decor-4` */
+  function textDecorationSkipSpaces(value: any): Property
+  module textDecorationSkipSpaces {
+    /** Spacers are not skipped. They are decorated just like any other character.. `css-text-decor-4` */
+    const none: string
+    /** Skip all spacers and all word separators plus any adjacent letter-spacing or word-spacing.. `css-text-decor-4` */
+    const all: string
+    /** Skip all spacers, plus any adjacent letter-spacing or word-spacing, when located at the start of the line.. `css-text-decor-4` */
+    const start: string
+    /** Skip all spacers, plus any adjacent letter-spacing or word-spacing, when located at the end of the line.. `css-text-decor-4` */
+    const end: string
+  }
+
+  /** Create a `text-decoration-style` property. `css-text-decor-4, css-text-decor` */
+  function textDecorationStyle(value: any): Property
+  module textDecorationStyle {
+    /** `solid` keyword. `css-text-decor-4` */
+    const solid: string
+    /** `double` keyword. `css-text-decor-4` */
+    const double: string
+    /** `dotted` keyword. `css-text-decor-4` */
+    const dotted: string
+    /** `dashed` keyword. `css-text-decor-4` */
+    const dashed: string
+    /** Values have the same meaning as for the border-style properties [CSS-BACKGROUNDS-3]. wavy indicates a wavy line.. `css-text-decor-4` */
+    const wavy: string
+    /** `solid` keyword. `css-text-decor` */
+    const solid: string
+    /** `double` keyword. `css-text-decor` */
+    const double: string
+    /** `dotted` keyword. `css-text-decor` */
+    const dotted: string
+    /** `dashed` keyword. `css-text-decor` */
+    const dashed: string
+    /** `wavy` keyword. `css-text-decor` */
+    const wavy: string
+  }
+
+  /** Create a `text-decoration-thickness` property. `css-text-decor-4` */
+  function textDecorationThickness(value: any): Property
+  module textDecorationThickness {
+    /** The UA chooses an appropriate thickness for text decoration lines; see below.. `css-text-decor-4` */
+    const auto: string
+    /** If the first available font has metrics indicating a preferred underline width, use that width, otherwise behaves as auto.. `css-text-decor-4` */
+    const fromFont: string
+  }
+
+  /** Create a `text-decoration-trim` property. `css-text-decor-4` */
+  function textDecorationTrim(value: any): Property
+  module textDecorationTrim {
+    /** `auto` keyword. `css-text-decor-4` */
+    const auto: string
+  }
+
+  /** Create a `text-decoration-underline` property. `unknown` */
+  function textDecorationUnderline(value: any): Property
+
+  /** Create a `text-edge` property. `css-inline` */
+  function textEdge(value: any): Property
+  module textEdge {
+    /** Use the ascent/descent plus any positive half-leading. Margin/padding/border is ignored for the purpose of sizing the line box.. `css-inline` */
+    const leading: string
+    /** Use the text-over baseline/text-under baseline.. `css-inline` */
+    const text: string
+    /** Use the cap-height baseline.. `css-inline` */
+    const cap: string
+    /** Use the x-height baseline.. `css-inline` */
+    const ex: string
+    /** Use the ideographic-over baseline/ideographic-under baseline.. `css-inline` */
+    const ideographic: string
+    /** Use the ideographic-ink-over baseline/ideographic-ink-under baseline.. `css-inline` */
+    const ideographicInk: string
+    /** Use the text-over baseline/text-under baseline.. `css-inline` */
+    const text: string
+    /** Use the alphabetic baseline.. `css-inline` */
+    const alphabetic: string
+    /** Use the ideographic-over baseline/ideographic-under baseline.. `css-inline` */
+    const ideographic: string
+    /** Use the ideographic-ink-over baseline/ideographic-ink-under baseline.. `css-inline` */
+    const ideographicInk: string
+  }
+
+  /** Create a `text-emphasis` property. `css-text-decor-4, css-text-decor` */
+  function textEmphasis(value: any): Property
+
+  /** Create a `text-emphasis-color` property. `css-text-decor-4, css-text-decor` */
+  function textEmphasisColor(value: any): Property
+  module textEmphasisColor {
+    /** `color` keyword. `css-text-decor-4` */
+    const color: string
+    /** `color` keyword. `css-text-decor` */
+    const color: string
+  }
+
+  /** Create a `text-emphasis-position` property. `css-text-decor-4, css-text-decor` */
+  function textEmphasisPosition(value: any): Property
+  module textEmphasisPosition {
+    /** Draw marks over the text in horizontal typographic modes.. `css-text-decor-4` */
+    const over: string
+    /** Draw marks under the text in horizontal typographic modes.. `css-text-decor-4` */
+    const under: string
+    /** Draw marks to the right of the text in vertical typographic modes.. `css-text-decor-4` */
+    const right: string
+    /** Draw marks to the left of the text in vertical typographic modes.. `css-text-decor-4` */
+    const left: string
+    /** Draw marks over the text in horizontal typographic modes.. `css-text-decor` */
+    const over: string
+    /** Draw marks under the text in horizontal typographic modes.. `css-text-decor` */
+    const under: string
+    /** Draw marks to the right of the text in vertical typographic modes.. `css-text-decor` */
+    const right: string
+    /** Draw marks to the left of the text in vertical typographic modes.. `css-text-decor` */
+    const left: string
+  }
+
+  /** Create a `text-emphasis-skip` property. `css-text-decor-4` */
+  function textEmphasisSkip(value: any): Property
+  module textEmphasisSkip {
+    /** Skip word separators or other characters belonging to the Unicode separator category (Z*). (But note that emphasis marks are drawn for a space that combines with any combining characters.). `css-text-decor-4` */
+    const spaces: string
+    /** Skip punctuation. Punctuation in this definition includes characters belonging to the Unicode P* category that are not defined as symbols (see below).. `css-text-decor-4` */
+    const punctuation: string
+    /** Skip symbols. Symbols in this definition includes all typographic character units belonging to the Unicode S* general category as well as any which are NFKD-equivalent [UAX15] to the following characters from the Unicode Po category: # U+0023 NUMBER SIGN % U+0025 PERCENT SIGN ‰ U+2030 PER MILLE SIGN ‱ U+2031 PER TEN THOUSAND SIGN ٪ U+066A ARABIC PERCENT SIGN ؉ U+0609 ARABIC-INDIC PER MILLE SIGN ؊ U+060A ARABIC-INDIC PER TEN THOUSAND SIGN & U+0026 AMPERSAND ⁊ U+204A TIRONIAN SIGN E[[ @ U+0040 COMMERCIAL AT § U+00A7 SECTION SIGN ¶ U+00B6 PILCROW SIGN ⁋ U+204B REVERSED PILCROW SIGN ⁓ U+2053 SWUNG DASH 〽️ U+303D PART ALTERNATION MARK. `css-text-decor-4` */
+    const symbols: string
+    /** Skip characters where the East_Asian_Width property [UAX11] of the Unicode database [UAX44] is not F (Fullwidth) or W (Wide).. `css-text-decor-4` */
+    const narrow: string
+  }
+
+  /** Create a `text-emphasis-style` property. `css-text-decor-4, css-text-decor` */
+  function textEmphasisStyle(value: any): Property
+  module textEmphasisStyle {
+    /** No emphasis marks.. `css-text-decor-4` */
+    const none: string
+    /** The shape is filled with solid color.. `css-text-decor-4` */
+    const filled: string
+    /** `open` keyword. `css-text-decor-4` */
+    const open: string
+    /** Display small circles as marks. The filled dot is U+2022 '•', and the open dot is U+25E6 '◦'.. `css-text-decor-4` */
+    const dot: string
+    /** Display large circles as marks. The filled circle is U+25CF '●', and the open circle is U+25CB '○'.. `css-text-decor-4` */
+    const circle: string
+    /** Display double circles as marks. The filled double-circle is U+25C9 '◉', and the open double-circle is U+25CE '◎'.. `css-text-decor-4` */
+    const doubleCircle: string
+    /** Display triangles as marks. The filled triangle is U+25B2 '▲', and the open triangle is U+25B3 '△'.. `css-text-decor-4` */
+    const triangle: string
+    /** Display sesames as marks. The filled sesame is U+FE45 '﹅', and the open sesame is U+FE46 '﹆'.. `css-text-decor-4` */
+    const sesame: string
+    /** No emphasis marks.. `css-text-decor` */
+    const none: string
+    /** The shape is filled with solid color.. `css-text-decor` */
+    const filled: string
+    /** `open` keyword. `css-text-decor` */
+    const open: string
+    /** Display small circles as marks. The filled dot is U+2022 '•', and the open dot is U+25E6 '◦'.. `css-text-decor` */
+    const dot: string
+    /** Display large circles as marks. The filled circle is U+25CF '●', and the open circle is U+25CB '○'.. `css-text-decor` */
+    const circle: string
+    /** Display double circles as marks. The filled double-circle is U+25C9 '◉', and the open double-circle is U+25CE '◎'.. `css-text-decor` */
+    const doubleCircle: string
+    /** Display triangles as marks. The filled triangle is U+25B2 '▲', and the open triangle is U+25B3 '△'.. `css-text-decor` */
+    const triangle: string
+    /** Display sesames as marks. The filled sesame is U+FE45 '﹅', and the open sesame is U+FE46 '﹆'.. `css-text-decor` */
+    const sesame: string
+  }
+
+  /** Create a `text-group-align` property. `css-text-4` */
+  function textGroupAlign(value: any): Property
+  module textGroupAlign {
+    /** Text alignment happens normally: group alignment is not performed.. `css-text-4` */
+    const none: string
+    /** Inline-level content is group-aligned to the inline start side, by padding the inline end side of each line box.. `css-text-4` */
+    const start: string
+    /** Inline-level content is group-aligned to the inline end side, by padding the inline start side of each line box.. `css-text-4` */
+    const end: string
+    /** Inline-level content is group-aligned to the line-left side, by padding the line-right side of each line box.. `css-text-4` */
+    const left: string
+    /** Inline-level content is group-aligned to the line-right side, by padding the line-left side of each line box.. `css-text-4` */
+    const right: string
+    /** Inline-level content is group-aligned to the center, by padding both sides of each line box, half the spacing to each side.. `css-text-4` */
+    const center: string
+  }
+
+  /** Create a `text-indent` property. `css-text-4, css-text` */
+  function textIndent(value: any): Property
+  module textIndent {
+    /** Inverts which lines are affected.. `css-text-4` */
+    const hanging: string
+    /** Indentation affects the first line of each block container and each line after a forced line break (but not lines after a soft wrap break).. `css-text-4` */
+    const eachLine: string
+    /** Inverts which lines are affected.. `css-text` */
+    const hanging: string
+    /** Indentation affects the first line of each block container and each line after a forced line break (but not lines after a soft wrap break).. `css-text` */
+    const eachLine: string
+  }
+
+  /** Create a `text-justify` property. `css-text-4, css-text` */
+  function textJustify(value: any): Property
+  module textJustify {
+    /** The UA determines the justification algorithm to follow, based on a balance between performance and adequate presentation quality. Since justification rules vary by writing system and language, UAs should, where possible, use a justification algorithm appropriate to the text. For example, the UA could use by default a justification method that is a simple universal compromise for all writing systems—such as primarily expanding word separators and between CJK typographic letter units along with secondarily expanding between Southeast Asian typographic letter units. Then, in cases where the content language of the paragraph is known, it could choose a more language-tailored justification behavior e.g. following the Requirements for Japanese Text Layout for Japanese [JLREQ], using cursive elongation for Arabic, using inter-word for German, etc. An example of cursively-justified Arabic text, rendered by Tasmeem. Like English, Arabic can be justified by adjusting the spacing between words, but in most styles it can also be justified by calligraphically elongating or compressing the letterforms themselves. In this example, the upper text is extended to fill the line by the use of elongated (kashida) forms and swash forms, while the bottom line is compressed slightly by using a stacked combination for the characters between ت and م. By employing traditional calligraphic techniques, a typesetter can justify the line while preserving flow and color, providing a very high quality justification effect. However, this is by its nature a very script-specific effect. Mixed-script text with text-justify: auto: this interpretation uses a universal-compromise justification method, expanding at spaces as well as between CJK and Southeast Asian letters. This effectively uses inter-word + inter-ideograph spacing for lines that have word-separators and/or CJK characters and falls back to inter-cluster behavior for lines that don’t or for which the space stretches too far.. `css-text-4` */
+    const auto: string
+    /** Justification is disabled: there are no justification opportunities within the text. Mixed-script text with text-justify: none. `css-text-4` */
+    const none: string
+    /** Justification adjusts spacing at word separators only (effectively varying the used word-spacing on the line). This behavior is typical for languages that separate words using spaces, like English or Korean. Mixed-script text with text-justify: inter-word. `css-text-4` */
+    const interWord: string
+    /** Justification adjusts spacing between each pair of adjacent typographic character units (effectively varying the used letter-spacing on the line). This value is sometimes used in East Asian systems such as Japanese. Mixed-script text with text-justify: inter-character For legacy reasons, UAs must also support the alternate keyword distribute which must compute to inter-character, thus having the exact same meaning and behavior. UAs may treat this as a legacy value alias.. `css-text-4` */
+    const interCharacter: string
+    /** Justification must not compress spacing controlled by text-spacing-trim or text-autospace. (If this value is not specified, the justification process may reduce such spacing except when the spacing is at the start or end of the line.) This keyword used to be part of text-spacing; it might need renaming to be more specific now that it’s here, as it implies that e.g. U+0020 cannot be compressed.. `css-text-4` */
+    const noCompress: string
+    /** The UA determines the justification algorithm to follow, based on a balance between performance and adequate presentation quality. Since justification rules vary by writing system and language, UAs should, where possible, use a justification algorithm appropriate to the text. For example, the UA could use by default a justification method that is a simple universal compromise for all writing systems—such as primarily expanding word separators and between CJK typographic letter units along with secondarily expanding between Southeast Asian typographic letter units. Then, in cases where the content language of the paragraph is known, it could choose a more language-tailored justification behavior e.g. following the Requirements for Japanese Text Layout for Japanese [JLREQ], using cursive elongation for Arabic, using inter-word for German, etc. An example of cursively-justified Arabic text, rendered by Tasmeem. Like English, Arabic can be justified by adjusting the spacing between words, but in most styles it can also be justified by calligraphically elongating or compressing the letterforms themselves. In this example, the upper text is extended to fill the line by the use of elongated (kashida) forms and swash forms, while the bottom line is compressed slightly by using a stacked combination for the characters between ت and م. By employing traditional calligraphic techniques, a typesetter can justify the line while preserving flow and color, providing a very high quality justification effect. However, this is by its nature a very script-specific effect. Mixed-script text with text-justify: auto: this interpretation uses a universal-compromise justification method, expanding at spaces as well as between CJK and Southeast Asian letters. This effectively uses inter-word + inter-ideograph spacing for lines that have word-separators and/or CJK characters and falls back to inter-cluster behavior for lines that don’t or for which the space stretches too far.. `css-text` */
+    const auto: string
+    /** Justification is disabled: there are no justification opportunities within the text. Mixed-script text with text-justify: none. `css-text` */
+    const none: string
+    /** Justification adjusts spacing at word separators only (effectively varying the used word-spacing on the line). This behavior is typical for languages that separate words using spaces, like English or Korean. Mixed-script text with text-justify: inter-word. `css-text` */
+    const interWord: string
+    /** Justification adjusts spacing between each pair of adjacent typographic character units (effectively varying the used letter-spacing on the line). This value is sometimes used in East Asian systems such as Japanese. Mixed-script text with text-justify: inter-character For legacy reasons, UAs must also support the alternate keyword distribute which must compute to inter-character, thus having the exact same meaning and behavior. UAs may treat this as a legacy value alias.. `css-text` */
+    const interCharacter: string
+  }
+
+  /** Create a `text-justify-trim` property. `unknown` */
+  function textJustifyTrim(value: any): Property
+
+  /** Create a `text-kashida` property. `unknown` */
+  function textKashida(value: any): Property
+
+  /** Create a `text-kashida-space` property. `unknown` */
+  function textKashidaSpace(value: any): Property
+
+  /** Create a `text-line-through` property. `unknown` */
+  function textLineThrough(value: any): Property
+
+  /** Create a `text-line-through-color` property. `unknown` */
+  function textLineThroughColor(value: any): Property
+
+  /** Create a `text-line-through-mode` property. `unknown` */
+  function textLineThroughMode(value: any): Property
+
+  /** Create a `text-line-through-style` property. `unknown` */
+  function textLineThroughStyle(value: any): Property
+
+  /** Create a `text-line-through-width` property. `unknown` */
+  function textLineThroughWidth(value: any): Property
+
+  /** Create a `text-orientation` property. `css-writing-modes` */
+  function textOrientation(value: any): Property
+  module textOrientation {
+    /** Typographic character units from horizontal-only scripts are typeset sideways, i.e. 90° clockwise from their standard orientation in horizontal text. Typographic character units from vertical scripts are typeset with their intrinsic orientation. See Vertical Orientations for further details. This value is typical for layout of dominantly vertical-script text.. `css-writing-modes` */
+    const mixed: string
+    /** Typographic character units from horizontal-only scripts are typeset upright, i.e. in their standard horizontal orientation. Typographic character units from vertical scripts are typeset with their intrinsic orientation and shaped normally. See Vertical Orientations for further details. This value causes the used value of direction to be ltr, and for the purposes of bidi reordering, causes all characters to be treated as strong LTR.. `css-writing-modes` */
+    const upright: string
+    /** Causes all text to be typeset sideways, as if in a horizontal layout, but rotated 90° clockwise.. `css-writing-modes` */
+    const sideways: string
+  }
+
+  /** Create a `text-overflow` property. `css-overflow-4, css-overflow` */
+  function textOverflow(value: any): Property
+  module textOverflow {
+    /** Clip inline content that overflows its block container element. Characters may be only partially rendered.. `css-overflow-4` */
+    const clip: string
+    /** Render an ellipsis character (U+2026) to represent clipped inline content. Implementations may substitute a more language, script, or writing-mode appropriate ellipsis character, or three dots "..." if the ellipsis character is unavailable.. `css-overflow-4` */
+    const ellipsis: string
+    /** Same as fade(), but the distance over which the fading effect is applied is determined by the UA. 1em is suggested as a reasonable value.. `css-overflow-4` */
+    const fade: string
+    /** Clip inline content that overflows its block container element. Characters may be only partially rendered.. `css-overflow` */
+    const clip: string
+    /** Render an ellipsis character (U+2026) to represent clipped inline content. Implementations may substitute a more language, script, or writing-mode appropriate ellipsis character, or three dots "..." if the ellipsis character is unavailable.. `css-overflow` */
+    const ellipsis: string
+  }
+
+  /** Create a `text-overline` property. `unknown` */
+  function textOverline(value: any): Property
+
+  /** Create a `text-overline-color` property. `unknown` */
+  function textOverlineColor(value: any): Property
+
+  /** Create a `text-overline-mode` property. `unknown` */
+  function textOverlineMode(value: any): Property
+
+  /** Create a `text-overline-style` property. `unknown` */
+  function textOverlineStyle(value: any): Property
+
+  /** Create a `text-overline-width` property. `unknown` */
+  function textOverlineWidth(value: any): Property
+
+  /** Create a `text-rendering` property. `svg` */
+  function textRendering(value: any): Property
+  module textRendering {
+    /** `auto` keyword. `svg` */
+    const auto: string
+    /** `optimizeSpeed` keyword. `svg` */
+    const optimizeSpeed: string
+    /** `optimizeLegibility` keyword. `svg` */
+    const optimizeLegibility: string
+    /** `geometricPrecision` keyword. `svg` */
+    const geometricPrecision: string
+  }
+
+  /** Create a `text-shadow` property. `css-text-decor-4, css-text-decor` */
+  function textShadow(value: any): Property
+  module textShadow {
+    /** `none` keyword. `css-text-decor-4` */
+    const none: string
+    /** `none` keyword. `css-text-decor` */
+    const none: string
+    /** `color` keyword. `css-text-decor` */
+    const color: string
+  }
+
+  /** Create a `text-size-adjust` property. `css-size-adjust` */
+  function textSizeAdjust(value: any): Property
+  module textSizeAdjust {
+    /** Renderers must use the default size adjustment when displaying on a small device.. `css-size-adjust` */
+    const auto: string
+    /** Renderers must not do size adjustment when displaying on a small device.. `css-size-adjust` */
+    const none: string
+  }
+
+  /** Create a `text-space-collapse` property. `css-text-4` */
+  function textSpaceCollapse(value: any): Property
+  module textSpaceCollapse {
+    /** This value directs user agents to collapse sequences of white space into a single character (or in some cases, no character).. `css-text-4` */
+    const collapse: string
+    /** This value directs user agents to “discard” all white space in the element. Does this preserve line break opportunities or no? Do we need a "hide" value?. `css-text-4` */
+    const discard: string
+    /** This value prevents user agents from collapsing sequences of white space. Segment breaks are preserved as forced line breaks.. `css-text-4` */
+    const preserve: string
+    /** This value collapses white space as for collapse, but preserves segment breaks as forced line breaks.. `css-text-4` */
+    const preserveBreaks: string
+    /** This value prevents user agents from collapsing sequences of white space, and converts tabs and segment breaks to spaces. (This value is intended to match the behavior of xml:space="preserve" in SVG.). `css-text-4` */
+    const preserveSpaces: string
+  }
+
+  /** Create a `text-space-trim` property. `css-text-4` */
+  function textSpaceTrim(value: any): Property
+  module textSpaceTrim {
+    /** `none` keyword. `css-text-4` */
+    const none: string
+    /** For block containers this value directs UAs to discard all whitespace at the beginning of the element up to and including the last segment break before the first non-white-space character in the element as well as to discard all white space at the end of the element starting with the first segment break after the last non-white-space character in the element. For other elements this value directs UAs to discard all whitespace at the beginning and end of the element.. `css-text-4` */
+    const discardInner: string
+    /** This value directs the UA to collapse all collapsible whitespace immediately before the start of the element.. `css-text-4` */
+    const discardBefore: string
+    /** This value directs the UA to collapse all collapsible whitespace immediately after the end of the element.. `css-text-4` */
+    const discardAfter: string
+  }
+
+  /** Create a `text-spacing` property. `css-text-4` */
+  function textSpacing(value: any): Property
+  module textSpacing {
+    /** Specifies the baseline behavior, setting each sub-property to its initial value. Equivalent to space-first ideograph-alpha ideograph-numeric.. `css-text-4` */
+    const normal: string
+    /** Turns off all text-spacing features: sets text-spacing-trim to space-all and text-autospace to no-autospace.. `css-text-4` */
+    const none: string
+    /** Sets both text-spacing-trim and text-autospace to auto.. `css-text-4` */
+    const auto: string
+  }
+
+  /** Create a `text-spacing-trim` property. `css-text-4` */
+  function textSpacingTrim(value: any): Property
+  module textSpacingTrim {
+    /** The user agent chooses a set of typographically high quality spacing values. Different user agents running on different platforms may pick different values. Do we need auto? It would be weird for the author to choose platform-dependent behavior at the start of the first line, and it should otherwise use trim-auto.. `css-text-4` */
+    const auto: string
+  }
+
+  /** Create a `text-transform` property. `mathml-core, css-text-4, css-text` */
+  function textTransform(value: any): Property
+  module textTransform {
+    /** No effects.. `css-text-4` */
+    const none: string
+    /** Puts the first typographic letter unit of each word, if lowercase, in titlecase; other characters are unaffected.. `css-text-4` */
+    const capitalize: string
+    /** Puts all letters in uppercase.. `css-text-4` */
+    const uppercase: string
+    /** Puts all letters in lowercase.. `css-text-4` */
+    const lowercase: string
+    /** Puts all typographic character units in full-width form. If a character does not have a corresponding full-width form, it is left as is. This value is typically used to typeset Latin letters and digits as if they were ideographic characters.. `css-text-4` */
+    const fullWidth: string
+    /** Converts all small Kana characters to the equivalent full-size Kana. This value is typically used for ruby annotation text, where authors may want all small Kana to be drawn as large Kana to compensate for legibility issues at the small font sizes typically used in ruby.. `css-text-4` */
+    const fullSizeKana: string
+    /** No effects.. `css-text` */
+    const none: string
+    /** Puts the first typographic letter unit of each word, if lowercase, in titlecase; other characters are unaffected.. `css-text` */
+    const capitalize: string
+    /** Puts all letters in uppercase.. `css-text` */
+    const uppercase: string
+    /** Puts all letters in lowercase.. `css-text` */
+    const lowercase: string
+    /** Puts all typographic character units in full-width form. If a character does not have a corresponding full-width form, it is left as is. This value is typically used to typeset Latin letters and digits as if they were ideographic characters.. `css-text` */
+    const fullWidth: string
+    /** Converts all small Kana characters to the equivalent full-size Kana. This value is typically used for ruby annotation text, where authors may want all small Kana to be drawn as large Kana to compensate for legibility issues at the small font sizes typically used in ruby.. `css-text` */
+    const fullSizeKana: string
+  }
+
+  /** Create a `text-underline` property. `unknown` */
+  function textUnderline(value: any): Property
+
+  /** Create a `text-underline-color` property. `unknown` */
+  function textUnderlineColor(value: any): Property
+
+  /** Create a `text-underline-mode` property. `unknown` */
+  function textUnderlineMode(value: any): Property
+
+  /** Create a `text-underline-offset` property. `css-text-decor-4` */
+  function textUnderlineOffset(value: any): Property
+  module textUnderlineOffset {
+    /** The UA chooses an appropriate offset for underlines. However, this offset must be zero if the computed value of text-underline-position is from-font and the UA was able to extract an appropriate metric to use from the font.. `css-text-decor-4` */
+    const auto: string
+  }
+
+  /** Create a `text-underline-position` property. `css-text-decor-4, css-text-decor` */
+  function textUnderlinePosition(value: any): Property
+  module textUnderlinePosition {
+    /** The user agent may use any algorithm to determine the underline’s position; however it must be placed at or under the alphabetic baseline. A typical “alphabetic” underline is positioned just below the alphabetic baseline. `css-text-decor-4` */
+    const auto: string
+    /** If the first available font has metrics indicating a preferred underline offset, use that offset, otherwise behaves as auto.. `css-text-decor-4` */
+    const fromFont: string
+    /** The underline is positioned under the element’s text content. In this case the underline usually does not cross the descenders. (This is sometimes called “accounting” underline.) This value can be combined with left or right if a particular side is preferred in vertical typographic modes. text-underline-position: under Because text-underline-position inherits, and is not reset by the text-decoration shorthand, the following example switches the document to use under underlining, which can be more appropriate for writing systems with long, complicated descenders. It is also often useful for mathematical or chemical texts that use many subscripts. :root { text-underline-position: under; }. `css-text-decor-4` */
+    const under: string
+    /** In vertical typographic modes, the underline is aligned as for under, except it is always aligned to the left edge of the text. If this causes the underline to be drawn on the "over" side of the text, then an overline also switches sides and is drawn on the "under" side.. `css-text-decor-4` */
+    const left: string
+    /** In vertical typographic modes, the underline is aligned as for under, except it is always aligned to the right edge of the text. If this causes the underline to be drawn on the "over" side of the text, then an overline also switches sides and is drawn on the "under" side.. `css-text-decor-4` */
+    const right: string
+    /** The user agent may use any algorithm to determine the underline’s position; however it must be placed at or under the alphabetic baseline. A typical “alphabetic” underline is positioned just below the alphabetic baseline. `css-text-decor` */
+    const auto: string
+    /** The underline is positioned under the element’s text content. In this case the underline usually does not cross the descenders. (This is sometimes called “accounting” underline.) This value can be combined with left or right if a particular side is preferred in vertical typographic modes. text-underline-position: under Because text-underline-position inherits, and is not reset by the text-decoration shorthand, the following example switches the document to use under underlining, which can be more appropriate for writing systems with long, complicated descenders. It is also often useful for mathematical or chemical texts that use many subscripts. :root { text-underline-position: under; }. `css-text-decor` */
+    const under: string
+    /** In vertical typographic modes, the underline is aligned as for under, except it is always aligned to the left edge of the text. If this causes the underline to be drawn on the "over" side of the text, then an overline also switches sides and is drawn on the "under" side.. `css-text-decor` */
+    const left: string
+    /** In vertical typographic modes, the underline is aligned as for under, except it is always aligned to the right edge of the text. If this causes the underline to be drawn on the "over" side of the text, then an overline also switches sides and is drawn on the "under" side.. `css-text-decor` */
+    const right: string
+  }
+
+  /** Create a `text-underline-style` property. `unknown` */
+  function textUnderlineStyle(value: any): Property
+
+  /** Create a `text-underline-width` property. `unknown` */
+  function textUnderlineWidth(value: any): Property
+
+  /** Create a `text-wrap` property. `css-text-4` */
+  function textWrap(value: any): Property
+  module textWrap {
+    /** Inline-level content may break across lines at allowed soft wrap opportunities, as determined by the line-breaking rules in effect in order to minimize inline-axis overflow. The exact algorithm is UA-defined. The algorithm may consider multiple lines when making break decisions. The UA may bias for speed over best layout. The UA must not attempt to even out all lines (including the last) as for balance. This value selects the UA’s preferred (or most Web-compatible) wrapping algorithm.. `css-text-4` */
+    const wrap: string
+    /** Inline-level content does not break across lines; content that does not fit within the block container overflows it.. `css-text-4` */
+    const nowrap: string
+    /** Same as wrap for inline boxes. For block containers that establish an inline formatting context, line breaks are chosen to balance the remaining (empty) space in each line box, if better balance than wrap is possible. This must not change the number of line boxes the block would contain if text-wrap were set to wrap. The remaining space to consider is that which remains after placing floats and inline content, but before any adjustments due to text justification. Line boxes are balanced when the standard deviation from the average inline-size of the remaining space in each line box is reduced over the block (including lines that end in a forced break). The exact algorithm is UA-defined. UAs may treat this value as wrap if there are more than ten lines to balance.. `css-text-4` */
+    const balance: string
+    /** When applied to a block container that establishes an inline formatting context, specifies that content on subsequent lines should not be considered when making break decisions so that when editing text any content before the cursor remains stable; otherwise equivalent to wrap,. `css-text-4` */
+    const stable: string
+    /** When applied to a block container that establishes an inline formatting context, specifies the UA should bias for better layout over speed, and is expected to consider multiple lines, when making break decisions. Otherwise equivalent to wrap,. `css-text-4` */
+    const pretty: string
+  }
+
+  /** Create a `top` property. `css-position` */
+  function top(value: any): Property
+  module top {
+    /** Represents an unconstrained inset; the exact meaning depends on the positioning scheme.. `css-position` */
+    const auto: string
+  }
+
+  /** Create a `touch-action` property. `compat` */
+  function touchAction(value: any): Property
+  module touchAction {
+    /** `auto` keyword. `compat` */
+    const auto: string
+    /** `none` keyword. `compat` */
+    const none: string
+    /** `pan-x` keyword. `compat` */
+    const panX: string
+    /** `pan-left` keyword. `compat` */
+    const panLeft: string
+    /** `pan-right` keyword. `compat` */
+    const panRight: string
+    /** `pan-y` keyword. `compat` */
+    const panY: string
+    /** `pan-up` keyword. `compat` */
+    const panUp: string
+    /** `pan-down` keyword. `compat` */
+    const panDown: string
+    /** `pinch-zoom` keyword. `compat` */
+    const pinchZoom: string
+    /** `manipulation` keyword. `compat` */
+    const manipulation: string
+  }
+
+  /** Create a `touch-action-delay` property. `unknown` */
+  function touchActionDelay(value: any): Property
+
+  /** Create a `transform` property. `css-transforms` */
+  function transform(value: any): Property
+  module transform {
+    /** `none` keyword. `css-transforms` */
+    const none: string
+  }
+
+  /** Create a `transform-box` property. `css-transforms` */
+  function transformBox(value: any): Property
+  module transformBox {
+    /** Uses the content box as reference box. The reference box of a table is the border box of its table wrapper box, not its table box.. `css-transforms` */
+    const contentBox: string
+    /** Uses the border box as reference box. The reference box of a table is the border box of its table wrapper box, not its table box.. `css-transforms` */
+    const borderBox: string
+    /** Uses the object bounding box as reference box.. `css-transforms` */
+    const fillBox: string
+    /** Uses the stroke bounding box as reference box.. `css-transforms` */
+    const strokeBox: string
+    /** Uses the nearest SVG viewport as reference box. If a viewBox attribute is specified for the SVG viewport creating element: The reference box is positioned at the origin of the coordinate system established by the viewBox attribute. The dimension of the reference box is set to the width and height values of the viewBox attribute.. `css-transforms` */
+    const viewBox: string
+  }
+
+  /** Create a `transform-origin` property. `css-transforms` */
+  function transformOrigin(value: any): Property
+  module transformOrigin {
+    /** Computes to 0% for the horizontal position.. `css-transforms` */
+    const left: string
+    /** Computes to 50% (left 50%) for the horizontal position if the horizontal position is not otherwise specified, or 50% (top 50%) for the vertical position if it is.. `css-transforms` */
+    const center: string
+    /** Computes to 100% for the horizontal position.. `css-transforms` */
+    const right: string
+    /** Computes to 0% for the vertical position.. `css-transforms` */
+    const top: string
+    /** Computes to 100% for the vertical position.. `css-transforms` */
+    const bottom: string
+    /** Computes to 0% for the horizontal position.. `css-transforms` */
+    const left: string
+    /** Computes to 50% (left 50%) for the horizontal position if the horizontal position is not otherwise specified, or 50% (top 50%) for the vertical position if it is.. `css-transforms` */
+    const center: string
+    /** Computes to 100% for the horizontal position.. `css-transforms` */
+    const right: string
+    /** Computes to 0% for the vertical position.. `css-transforms` */
+    const top: string
+    /** Computes to 50% (left 50%) for the horizontal position if the horizontal position is not otherwise specified, or 50% (top 50%) for the vertical position if it is.. `css-transforms` */
+    const center: string
+    /** Computes to 100% for the vertical position.. `css-transforms` */
+    const bottom: string
+    /** Computes to 50% (left 50%) for the horizontal position if the horizontal position is not otherwise specified, or 50% (top 50%) for the vertical position if it is.. `css-transforms` */
+    const center: string
+    /** Computes to 0% for the horizontal position.. `css-transforms` */
+    const left: string
+    /** Computes to 100% for the horizontal position.. `css-transforms` */
+    const right: string
+    /** Computes to 50% (left 50%) for the horizontal position if the horizontal position is not otherwise specified, or 50% (top 50%) for the vertical position if it is.. `css-transforms` */
+    const center: string
+    /** Computes to 0% for the vertical position.. `css-transforms` */
+    const top: string
+    /** Computes to 100% for the vertical position.. `css-transforms` */
+    const bottom: string
+  }
+
+  /** Create a `transform-origin-x` property. `unknown` */
+  function transformOriginX(value: any): Property
+
+  /** Create a `transform-origin-y` property. `unknown` */
+  function transformOriginY(value: any): Property
+
+  /** Create a `transform-origin-z` property. `unknown` */
+  function transformOriginZ(value: any): Property
+
+  /** Create a `transform-style` property. `css-transforms-2` */
+  function transformStyle(value: any): Property
+  module transformStyle {
+    /** `flat` keyword. `css-transforms-2` */
+    const flat: string
+    /** `preserve-3d` keyword. `css-transforms-2` */
+    const preserve3d: string
+  }
+
+  /** Create a `transition` property. `css-transitions` */
+  function transition(value: any): Property
+
+  /** Create a `transition-delay` property. `css-transitions` */
+  function transitionDelay(value: any): Property
+
+  /** Create a `transition-duration` property. `css-transitions` */
+  function transitionDuration(value: any): Property
+
+  /** Create a `transition-property` property. `css-transitions` */
+  function transitionProperty(value: any): Property
+  module transitionProperty {
+    /** A value of none means that no property will transition. Otherwise, a list of properties to be transitioned, or the keyword all which indicates that all properties are to be transitioned, is given.. `css-transitions` */
+    const none: string
+  }
+
+  /** Create a `transition-timing-function` property. `css-transitions` */
+  function transitionTimingFunction(value: any): Property
+  module transitionTimingFunction {
+    /** The linear keyword produces a linear easing function with two points:. `css-transitions` */
+    const linear: string
+  }
+
+  /** Create a `translate` property. `css-transforms-2` */
+  function translate(value: any): Property
+  module translate {
+    /** All three properties accept (and default to) the value none, which produces no transform at all. In particular, this value does not trigger the creation of a stacking context or containing block for all descendants, while all other values (including “identity” transforms like translate: 0px) create a stacking context and containing block for all descendants, per usual for transforms.. `css-transforms-2` */
+    const none: string
+  }
+
+  /** Create a `uc-alt-skin` property. `unknown` */
+  function ucAltSkin(value: any): Property
+
+  /** Create a `uc-skin` property. `unknown` */
+  function ucSkin(value: any): Property
+
+  /** Create a `unicode-bidi` property. `css-writing-modes` */
+  function unicodeBidi(value: any): Property
+  module unicodeBidi {
+    /** The box does not open an additional level of embedding with respect to the bidirectional algorithm. For inline boxes, implicit reordering works across box boundaries.. `css-writing-modes` */
+    const normal: string
+    /** If the box is inline, this value creates a directional embedding by opening an additional level of embedding with respect to the bidirectional algorithm. The direction of this embedding level is given by the direction property. Inside the box, reordering is done implicitly.. `css-writing-modes` */
+    const embed: string
+    /** On an inline box, this bidi-isolates its contents. This is similar to a directional embedding (and increases the embedding level accordingly) except that each sequence of inline-level boxes uninterrupted by any block boundary or forced paragraph break is treated as an isolated sequence: the content within the sequence is ordered as if inside an independent paragraph with the base directionality specified by the box’s direction property. for the purpose of bidi resolution in its containing bidi paragraph, the sequence is treated as if it were a single Object Replacement Character (U+FFFC). In effect, neither is the content inside the box bidi-affected by the content surrounding the box, nor is the content surrounding the box bidi-affected by the content or specified directionality of the box. However, forced paragraph breaks within the box still create a corresponding break in the containing paragraph.. `css-writing-modes` */
+    const isolate: string
+    /** This value puts the box’s immediate inline content in a directional override. For an inline, this means that the box acts like a directional embedding in the bidirectional algorithm, except that reordering within it is strictly in sequence according to the direction property; the implicit part of the bidirectional algorithm is ignored. For a block container, the override is applied to an anonymous inline box that surrounds all of its content.. `css-writing-modes` */
+    const bidiOverride: string
+    /** This combines the isolation behavior of isolate with the directional override behavior of bidi-override: to surrounding content, it is equivalent to isolate, but within the box content is ordered as if bidi-override were specified. It effectively nests a directional override inside an isolated sequence.. `css-writing-modes` */
+    const isolateOverride: string
+    /** This value behaves as isolate except that for the purposes of the Unicode bidirectional algorithm, the base directionality of each of the box’s bidi paragraphs (if a block container) or isolated sequences (if an inline) is determined by following the heuristic in rules P2 and P3 of the Unicode bidirectional algorithm (rather than by using the direction property of the box).. `css-writing-modes` */
+    const plaintext: string
+  }
+
+  /** Create a `unicode-range` property. `unknown` */
+  function unicodeRange(value: any): Property
+
+  /** Create a `user-select` property. `css-ui` */
+  function userSelect(value: any): Property
+  module userSelect {
+    /** The used value of auto is determined as follows: On the ::before and ::after pseudo-elements, the used value is none If the element is an editable element, the used value is contain Otherwise, if the used value of user-select on the parent of this element is all, the used value is all Otherwise, if the used value of user-select on the parent of this element is none, the used value is none Otherwise, the used value is text. `css-ui` */
+    const auto: string
+    /** The element imposes no constraint on the selection.. `css-ui` */
+    const text: string
+    /** The UA must not allow selections to be started in this element. A selection started outside of this element must not end in this element. If the user attempts to create such a selection, the UA must instead end the selection range at the element boundary. However, if this element has descendants on which the used value of user-select is not none, selections that start and end within these descendants are allowed. The UA must allow selections to extend across this element, and must exclude this element from such a selection. An exception is made for UAs which do not support multiple ranges per selection, and they may include this element. If the element has descendants on which the used value of user-select is not none, these descendants must be included in a selection extending across the element. This specification makes no normative requirement about the behavior of the clipboard. however, UAs are encouraged to keep the visual selection consistent with what would get copied to the clipboard when copying. Copying text that does not appear to be selected, or vice versa, is highly confusing to users. Attempting to start a selection in an element where user-select is none, such as by clicking in it or starting a drag in it, must not cause a pre-existing selection to become unselected or to be affected in any way. As user-select is a UI convenience mechanism, not a copy protection mechanism, the UA may provide an alternative way for the user to explicitly select the text even when user-select is none.. `css-ui` */
+    const none: string
+    /** UAs must not allow a selection which is started in this element to be extended outside of this element. A selection started outside of this element must not end in this element. If the user attempts to create such a selection, the UA must instead end the selection range at the element boundary. The UA must allow selections to extend across this element, and such selections must include the content of the element.. `css-ui` */
+    const contain: string
+    /** The content of the element must be selected atomically: If a selection would contain part of the element, then the selection must contain the entire element including all its descendants. If the element is selected and the used value of user-select on its parent is all, then the parent must be included in the selection, recursively. If this element has descendants on which the used value of user-select is not all and if a selection is entirely contained in these descendants, then the selection is not extended to include this whole element.. `css-ui` */
+    const all: string
+  }
+
+  /** Create a `user-zoom` property. `unknown` */
+  function userZoom(value: any): Property
+
+  /** Create a `vector-effect` property. `svg` */
+  function vectorEffect(value: any): Property
+  module vectorEffect {
+    /** `none` keyword. `svg` */
+    const none: string
+    /** `non-scaling-stroke` keyword. `svg` */
+    const nonScalingStroke: string
+    /** `non-scaling-size` keyword. `svg` */
+    const nonScalingSize: string
+    /** `non-rotation` keyword. `svg` */
+    const nonRotation: string
+    /** `fixed-position` keyword. `svg` */
+    const fixedPosition: string
+  }
+
+  /** Create a `vertical-align` property. `css-inline` */
+  function verticalAlign(value: any): Property
+  module verticalAlign {
+    /** Specifies first-baseline alignment.. `css-inline` */
+    const first: string
+    /** Specifies last-baseline alignment.. `css-inline` */
+    const last: string
+  }
+
+  /** Create a `view-timeline` property. `scroll-animations` */
+  function viewTimeline(value: any): Property
+
+  /** Create a `view-timeline-axis` property. `scroll-animations` */
+  function viewTimelineAxis(value: any): Property
+  module viewTimelineAxis {
+    /** Specifies to use the measure of progress along the block axis of the scroll container. (Default.). `scroll-animations` */
+    const block: string
+    /** Specifies to use the measure of progress along the inline axis of the scroll container.. `scroll-animations` */
+    const inline: string
+    /** Specifies to use the measure of progress along the vertical axis of the scroll container.. `scroll-animations` */
+    const vertical: string
+    /** Specifies to use the measure of progress along the horizontal axis of the scroll container.. `scroll-animations` */
+    const horizontal: string
+  }
+
+  /** Create a `view-timeline-inset` property. `scroll-animations` */
+  function viewTimelineInset(value: any): Property
+  module viewTimelineInset {
+    /** Indicates to use the value of scroll-padding.. `scroll-animations` */
+    const auto: string
+  }
+
+  /** Create a `view-timeline-name` property. `scroll-animations` */
+  function viewTimelineName(value: any): Property
+  module viewTimelineName {
+    /** `none` keyword. `scroll-animations` */
+    const none: string
+  }
+
+  /** Create a `view-transition-name` property. `css-view-transitions` */
+  function viewTransitionName(value: any): Property
+  module viewTransitionName {
+    /** The element will not participate in a view transition.. `css-view-transitions` */
+    const none: string
+  }
+
+  /** Create a `viewport-fill` property. `unknown` */
+  function viewportFill(value: any): Property
+
+  /** Create a `viewport-fill-opacity` property. `unknown` */
+  function viewportFillOpacity(value: any): Property
+
+  /** Create a `viewport-fit` property. `unknown` */
+  function viewportFit(value: any): Property
+
+  /** Create a `visibility` property. `css-display` */
+  function visibility(value: any): Property
+  module visibility {
+    /** The generated box is visible, as normal.. `css-display` */
+    const visible: string
+    /** Any boxes generated by the element are invisible. Descendants of the element can, however, be visible if they have visibility: visible.. `css-display` */
+    const hidden: string
+    /** Indicates that the box is collapsed, which can cause it to take up less space than otherwise in a formatting-context–specific way. See dynamic row and column effects in tables [CSS2] and collapsed flex items in flex layout [CSS-FLEXBOX-1]. In all other cases, however, (i.e. unless otherwise specified) this simply makes the box invisible, just like hidden.. `css-display` */
+    const collapse: string
+  }
+
+  /** Create a `voice-balance` property. `css-speech` */
+  function voiceBalance(value: any): Property
+  module voiceBalance {
+    /** Same as -100.. `css-speech` */
+    const left: string
+    /** Same as 0.. `css-speech` */
+    const center: string
+    /** Same as 100.. `css-speech` */
+    const right: string
+    /** Moves the sound to the left by subtracting 20 from the inherited voice-balance value (and by clamping the resulting number to -100).. `css-speech` */
+    const leftwards: string
+    /** Moves the sound to the right, by adding 20 to the inherited voice-balance value (and by clamping the resulting number to 100).. `css-speech` */
+    const rightwards: string
+  }
+
+  /** Create a `voice-duration` property. `css-speech` */
+  function voiceDuration(value: any): Property
+  module voiceDuration {
+    /** Resolves to a used value corresponding to the duration of the speech synthesis when using the inherited voice-rate.. `css-speech` */
+    const auto: string
+  }
+
+  /** Create a `voice-family` property. `css-speech` */
+  function voiceFamily(value: any): Property
+  module voiceFamily {
+    /** Indicates that the voice-family value gets inherited and used regardless of any potential language change within the content markup (see the section below about voice selection and language handling). This value behaves as inherit when applied to the root element. Note: Descendants of the element automatically inherit the preserve value, unless it is explicitly overridden by other voice-family values (e.g. name, gender, age).. `css-speech` */
+    const preserve: string
+  }
+
+  /** Create a `voice-pitch` property. `css-speech` */
+  function voicePitch(value: any): Property
+  module voicePitch {
+    /** If specified, this keyword indicates that the specified frequency represents an absolute value. If a negative frequency is specified, the computed frequency will be zero.. `css-speech` */
+    const absolute: string
+    /** A sequence of monotonically non-decreasing pitch levels that are implementation and voice specific. When the computed value for a given element is only a keyword (i.e. no relative offset is specified), then the corresponding absolute frequency will be re-evaluated on a voice change. Conversely, the application of a relative offset requires the calculation of the resulting frequency based on the current voice at the point at which the relative offset is specified, so the computed frequency will inherit absolutely regardless of any voice change further down the style cascade. Authors should therefore only use keyword values in cases where they wish that voice changes trigger the re-evaluation of the conversion from a keyword to a concrete, voice-dependent frequency.. `css-speech` */
+    const xLow: string
+    /** A sequence of monotonically non-decreasing pitch levels that are implementation and voice specific. When the computed value for a given element is only a keyword (i.e. no relative offset is specified), then the corresponding absolute frequency will be re-evaluated on a voice change. Conversely, the application of a relative offset requires the calculation of the resulting frequency based on the current voice at the point at which the relative offset is specified, so the computed frequency will inherit absolutely regardless of any voice change further down the style cascade. Authors should therefore only use keyword values in cases where they wish that voice changes trigger the re-evaluation of the conversion from a keyword to a concrete, voice-dependent frequency.. `css-speech` */
+    const low: string
+    /** A sequence of monotonically non-decreasing pitch levels that are implementation and voice specific. When the computed value for a given element is only a keyword (i.e. no relative offset is specified), then the corresponding absolute frequency will be re-evaluated on a voice change. Conversely, the application of a relative offset requires the calculation of the resulting frequency based on the current voice at the point at which the relative offset is specified, so the computed frequency will inherit absolutely regardless of any voice change further down the style cascade. Authors should therefore only use keyword values in cases where they wish that voice changes trigger the re-evaluation of the conversion from a keyword to a concrete, voice-dependent frequency.. `css-speech` */
+    const medium: string
+    /** A sequence of monotonically non-decreasing pitch levels that are implementation and voice specific. When the computed value for a given element is only a keyword (i.e. no relative offset is specified), then the corresponding absolute frequency will be re-evaluated on a voice change. Conversely, the application of a relative offset requires the calculation of the resulting frequency based on the current voice at the point at which the relative offset is specified, so the computed frequency will inherit absolutely regardless of any voice change further down the style cascade. Authors should therefore only use keyword values in cases where they wish that voice changes trigger the re-evaluation of the conversion from a keyword to a concrete, voice-dependent frequency.. `css-speech` */
+    const high: string
+    /** A sequence of monotonically non-decreasing pitch levels that are implementation and voice specific. When the computed value for a given element is only a keyword (i.e. no relative offset is specified), then the corresponding absolute frequency will be re-evaluated on a voice change. Conversely, the application of a relative offset requires the calculation of the resulting frequency based on the current voice at the point at which the relative offset is specified, so the computed frequency will inherit absolutely regardless of any voice change further down the style cascade. Authors should therefore only use keyword values in cases where they wish that voice changes trigger the re-evaluation of the conversion from a keyword to a concrete, voice-dependent frequency.. `css-speech` */
+    const xHigh: string
+  }
+
+  /** Create a `voice-range` property. `css-speech` */
+  function voiceRange(value: any): Property
+  module voiceRange {
+    /** If specified, this keyword indicates that the specified frequency represents an absolute value. If a negative frequency is specified, the computed frequency will be zero.. `css-speech` */
+    const absolute: string
+    /** A sequence of monotonically non-decreasing pitch levels that are implementation and voice specific. When the computed value for a given element is only a keyword (i.e. no relative offset is specified), then the corresponding absolute frequency will be re-evaluated on a voice change. Conversely, the application of a relative offset requires the calculation of the resulting frequency based on the current voice at the point at which the relative offset is specified, so the computed frequency will inherit absolutely regardless of any voice change further down the style cascade. Authors should therefore only use keyword values in cases where they wish that voice changes trigger the re-evaluation of the conversion from a keyword to a concrete, voice-dependent frequency.. `css-speech` */
+    const xLow: string
+    /** A sequence of monotonically non-decreasing pitch levels that are implementation and voice specific. When the computed value for a given element is only a keyword (i.e. no relative offset is specified), then the corresponding absolute frequency will be re-evaluated on a voice change. Conversely, the application of a relative offset requires the calculation of the resulting frequency based on the current voice at the point at which the relative offset is specified, so the computed frequency will inherit absolutely regardless of any voice change further down the style cascade. Authors should therefore only use keyword values in cases where they wish that voice changes trigger the re-evaluation of the conversion from a keyword to a concrete, voice-dependent frequency.. `css-speech` */
+    const low: string
+    /** A sequence of monotonically non-decreasing pitch levels that are implementation and voice specific. When the computed value for a given element is only a keyword (i.e. no relative offset is specified), then the corresponding absolute frequency will be re-evaluated on a voice change. Conversely, the application of a relative offset requires the calculation of the resulting frequency based on the current voice at the point at which the relative offset is specified, so the computed frequency will inherit absolutely regardless of any voice change further down the style cascade. Authors should therefore only use keyword values in cases where they wish that voice changes trigger the re-evaluation of the conversion from a keyword to a concrete, voice-dependent frequency.. `css-speech` */
+    const medium: string
+    /** A sequence of monotonically non-decreasing pitch levels that are implementation and voice specific. When the computed value for a given element is only a keyword (i.e. no relative offset is specified), then the corresponding absolute frequency will be re-evaluated on a voice change. Conversely, the application of a relative offset requires the calculation of the resulting frequency based on the current voice at the point at which the relative offset is specified, so the computed frequency will inherit absolutely regardless of any voice change further down the style cascade. Authors should therefore only use keyword values in cases where they wish that voice changes trigger the re-evaluation of the conversion from a keyword to a concrete, voice-dependent frequency.. `css-speech` */
+    const high: string
+    /** A sequence of monotonically non-decreasing pitch levels that are implementation and voice specific. When the computed value for a given element is only a keyword (i.e. no relative offset is specified), then the corresponding absolute frequency will be re-evaluated on a voice change. Conversely, the application of a relative offset requires the calculation of the resulting frequency based on the current voice at the point at which the relative offset is specified, so the computed frequency will inherit absolutely regardless of any voice change further down the style cascade. Authors should therefore only use keyword values in cases where they wish that voice changes trigger the re-evaluation of the conversion from a keyword to a concrete, voice-dependent frequency.. `css-speech` */
+    const xHigh: string
+  }
+
+  /** Create a `voice-rate` property. `css-speech` */
+  function voiceRate(value: any): Property
+  module voiceRate {
+    /** Represents the default rate produced by the speech synthesizer for the currently active voice. This is processor-specific and depends on the language and dialect, and on the "personality" of the voice.. `css-speech` */
+    const normal: string
+    /** A sequence of monotonically non-decreasing speaking rates that are implementation- and voice-specific. For example, typical values for the English language are (in words per minute) x-slow = 80, slow = 120, medium = between 180 and 200, fast = 500.. `css-speech` */
+    const xSlow: string
+    /** A sequence of monotonically non-decreasing speaking rates that are implementation- and voice-specific. For example, typical values for the English language are (in words per minute) x-slow = 80, slow = 120, medium = between 180 and 200, fast = 500.. `css-speech` */
+    const slow: string
+    /** A sequence of monotonically non-decreasing speaking rates that are implementation- and voice-specific. For example, typical values for the English language are (in words per minute) x-slow = 80, slow = 120, medium = between 180 and 200, fast = 500.. `css-speech` */
+    const medium: string
+    /** A sequence of monotonically non-decreasing speaking rates that are implementation- and voice-specific. For example, typical values for the English language are (in words per minute) x-slow = 80, slow = 120, medium = between 180 and 200, fast = 500.. `css-speech` */
+    const fast: string
+    /** A sequence of monotonically non-decreasing speaking rates that are implementation- and voice-specific. For example, typical values for the English language are (in words per minute) x-slow = 80, slow = 120, medium = between 180 and 200, fast = 500.. `css-speech` */
+    const xFast: string
+  }
+
+  /** Create a `voice-stress` property. `css-speech` */
+  function voiceStress(value: any): Property
+  module voiceStress {
+    /** Represents the default emphasis produced by the speech synthesizer.. `css-speech` */
+    const normal: string
+    /** These values are monotonically non-decreasing in strength. Their application results in more emphasis than what the speech synthesizer would normally produce (i.e. more than the value corresponding to normal).. `css-speech` */
+    const strong: string
+    /** These values are monotonically non-decreasing in strength. Their application results in more emphasis than what the speech synthesizer would normally produce (i.e. more than the value corresponding to normal).. `css-speech` */
+    const moderate: string
+    /** Prevents the synthesizer from emphasizing text it would normally emphasize.. `css-speech` */
+    const none: string
+    /** Effectively the opposite of emphasizing a word.. `css-speech` */
+    const reduced: string
+  }
+
+  /** Create a `voice-volume` property. `css-speech` */
+  function voiceVolume(value: any): Property
+  module voiceVolume {
+    /** Specifies that no sound is generated (the text is read "silently").. `css-speech` */
+    const silent: string
+    /** This sequence of keywords corresponds to monotonically non-decreasing volume levels, mapped to implementation-dependent values that meet the listener’s requirements with regards to perceived loudness. These audio levels are typically provided via a preference mechanism that allow users to calibrate sound options according to their auditory environment. The keyword x-soft maps to the user’s minimum audible volume level, x-loud maps to the user’s maximum tolerable volume level, medium maps to the user’s preferred volume level, soft and loud map to intermediary values.. `css-speech` */
+    const xSoft: string
+    /** This sequence of keywords corresponds to monotonically non-decreasing volume levels, mapped to implementation-dependent values that meet the listener’s requirements with regards to perceived loudness. These audio levels are typically provided via a preference mechanism that allow users to calibrate sound options according to their auditory environment. The keyword x-soft maps to the user’s minimum audible volume level, x-loud maps to the user’s maximum tolerable volume level, medium maps to the user’s preferred volume level, soft and loud map to intermediary values.. `css-speech` */
+    const soft: string
+    /** This sequence of keywords corresponds to monotonically non-decreasing volume levels, mapped to implementation-dependent values that meet the listener’s requirements with regards to perceived loudness. These audio levels are typically provided via a preference mechanism that allow users to calibrate sound options according to their auditory environment. The keyword x-soft maps to the user’s minimum audible volume level, x-loud maps to the user’s maximum tolerable volume level, medium maps to the user’s preferred volume level, soft and loud map to intermediary values.. `css-speech` */
+    const medium: string
+    /** This sequence of keywords corresponds to monotonically non-decreasing volume levels, mapped to implementation-dependent values that meet the listener’s requirements with regards to perceived loudness. These audio levels are typically provided via a preference mechanism that allow users to calibrate sound options according to their auditory environment. The keyword x-soft maps to the user’s minimum audible volume level, x-loud maps to the user’s maximum tolerable volume level, medium maps to the user’s preferred volume level, soft and loud map to intermediary values.. `css-speech` */
+    const loud: string
+    /** This sequence of keywords corresponds to monotonically non-decreasing volume levels, mapped to implementation-dependent values that meet the listener’s requirements with regards to perceived loudness. These audio levels are typically provided via a preference mechanism that allow users to calibrate sound options according to their auditory environment. The keyword x-soft maps to the user’s minimum audible volume level, x-loud maps to the user’s maximum tolerable volume level, medium maps to the user’s preferred volume level, soft and loud map to intermediary values.. `css-speech` */
+    const xLoud: string
+  }
+
+  /** Create a `volume` property. `unknown` */
+  function volume(value: any): Property
+
+  /** Create a `white-space` property. `css-text-4, css-text` */
+  function whiteSpace(value: any): Property
+  module whiteSpace {
+    /** This value directs user agents to collapse sequences of white space into a single character (or in some cases, no character). Lines may wrap at allowed soft wrap opportunities, as determined by the line-breaking rules in effect, in order to minimize inline-axis overflow.. `css-text-4` */
+    const normal: string
+    /** This value prevents user agents from collapsing sequences of white space. Segment breaks such as line feeds are preserved as forced line breaks. Lines only break at forced line breaks; content that does not fit within the block container overflows it.. `css-text-4` */
+    const pre: string
+    /** Like normal, this value collapses white space; but like pre, it does not allow wrapping.. `css-text-4` */
+    const nowrap: string
+    /** Like pre, this value preserves white space; but like normal, it allows wrapping.. `css-text-4` */
+    const preWrap: string
+    /** The behavior is identical to that of pre-wrap, except that: Any sequence of preserved white space or other space separators always takes up space, including at the end of the line. Tests white-space-intrinsic-size-001.html (live test) (source) white-space-intrinsic-size-002.html (live test) (source) A line breaking opportunity exists after every preserved white space character and after every other space separator (including between adjacent spaces). Tests overflow-wrap-break-word-002.html (live test) (source) overflow-wrap-anywhere-002.html (live test) (source) break-spaces-001.html (live test) (source) break-spaces-002.html (live test) (source) break-spaces-003.html (live test) (source) break-spaces-004.html (live test) (source) break-spaces-005.html (live test) (source) break-spaces-006.html (live test) (source) break-spaces-007.html (live test) (source) break-spaces-008.html (live test) (source) break-spaces-009.html (live test) (source) break-spaces-010.html (live test) (source) break-spaces-051.html (live test) (source) break-spaces-052.html (live test) (source) white-space-pre-034.html (live test) (source) textarea-break-spaces-001.html (live test) (source) textarea-break-spaces-002.html (live test) (source) break-spaces-before-first-char-001.html (live test) (source) break-spaces-before-first-char-002.html (live test) (source) break-spaces-before-first-char-003.html (live test) (source) break-spaces-before-first-char-004.html (live test) (source) break-spaces-before-first-char-005.html (live test) (source) break-spaces-before-first-char-006.html (live test) (source) break-spaces-before-first-char-007.html (live test) (source) break-spaces-before-first-char-008.html (live test) (source) break-spaces-before-first-char-009.html (live test) (source) break-spaces-before-first-char-010.html (live test) (source) break-spaces-before-first-char-011.html (live test) (source) break-spaces-before-first-char-012.html (live test) (source) break-spaces-before-first-char-013.html (live test) (source) break-spaces-before-first-char-014.html (live test) (source) break-spaces-before-first-char-015.html (live test) (source) break-spaces-before-first-char-016.html (live test) (source) break-spaces-before-first-char-017.html (live test) (source) break-spaces-before-first-char-018.html (live test) (source) break-spaces-before-first-ideographic-char-001.html (live test) (source) break-spaces-before-first-ideographic-char-002.html (live test) (source) break-spaces-before-first-ideographic-char-003.html (live test) (source) break-spaces-before-first-ideographic-char-004.html (live test) (source) break-spaces-before-first-ideographic-char-005.html (live test) (source) break-spaces-before-first-ideographic-char-006.html (live test) (source) break-spaces-before-first-ideographic-char-007.html (live test) (source) break-spaces-before-first-ideographic-char-008.html (live test) (source) break-spaces-before-first-ideographic-char-009.html (live test) (source) break-spaces-before-first-ideographic-char-010.html (live test) (source) break-spaces-before-first-ideographic-char-011.html (live test) (source) break-spaces-before-first-ideographic-char-012.html (live test) (source) break-spaces-before-first-ideographic-char-013.html (live test) (source) break-spaces-before-first-ideographic-char-014.html (live test) (source) break-spaces-before-first-ideographic-char-015.html (live test) (source) break-spaces-before-first-ideographic-char-016.html (live test) (source) break-spaces-before-first-ideographic-char-017.html (live test) (source) break-spaces-before-first-ideographic-char-018.html (live test) (source) tab-stop-threshold-005.html (live test) (source) tab-stop-threshold-006.html (live test) (source) word-break-break-all-017.html (live test) (source) break-spaces-tab-001.html (live test) (source) break-spaces-tab-002.html (live test) (source) break-spaces-tab-003.html (live test) (source) break-spaces-tab-004.html (live test) (source) break-spaces-tab-005.html (live test) (source) break-spaces-tab-006.html (live test) (source) break-spaces-with-overflow-wrap-001.html (live test) (source) break-spaces-with-overflow-wrap-002.html (live test) (source) break-spaces-with-overflow-wrap-003.html (live test) (source) break-spaces-with-overflow-wrap-004.html (live test) (source) break-spaces-with-overflow-wrap-005.html (live test) (source) break-spaces-with-overflow-wrap-006.html (live test) (source) break-spaces-with-overflow-wrap-007.html (live test) (source) break-spaces-with-overflow-wrap-008.html (live test) (source) break-spaces-with-overflow-wrap-009.html (live test) (source) break-spaces-with-overflow-wrap-010.html (live test) (source) break-spaces-with-ideographic-space-001.html (live test) (source) break-spaces-with-ideographic-space-002.html (live test) (source) break-spaces-with-ideographic-space-003.html (live test) (source) break-spaces-with-ideographic-space-004.html (live test) (source) break-spaces-with-ideographic-space-005.html (live test) (source) break-spaces-with-ideographic-space-006.html (live test) (source) break-spaces-with-ideographic-space-007.html (live test) (source) break-spaces-with-ideographic-space-008.html (live test) (source) break-spaces-with-ideographic-space-009.html (live test) (source) break-spaces-with-ideographic-space-010.html (live test) (source) line-break-anywhere-and-white-space-008.html (live test) (source) line-break-anywhere-and-white-space-009.html (live test) (source) ws-break-spaces-applies-to-001.html (live test) (source) ws-break-spaces-applies-to-002.html (live test) (source) ws-break-spaces-applies-to-003.html (live test) (source) ws-break-spaces-applies-to-005.html (live test) (source) ws-break-spaces-applies-to-006.html (live test) (source) ws-break-spaces-applies-to-007.html (live test) (source) ws-break-spaces-applies-to-008.html (live test) (source) ws-break-spaces-applies-to-009.html (live test) (source) ws-break-spaces-applies-to-010.html (live test) (source) ws-break-spaces-applies-to-011.html (live test) (source) ws-break-spaces-applies-to-012.html (live test) (source) ws-break-spaces-applies-to-013.html (live test) (source) ws-break-spaces-applies-to-014.html (live test) (source) ws-break-spaces-applies-to-015.html (live test) (source) break-spaces-newline-011.html (live test) (source) break-spaces-newline-012.html (live test) (source) break-spaces-newline-013.html (live test) (source) break-spaces-newline-014.html (live test) (source) break-spaces-newline-015.html (live test) (source) break-spaces-newline-016.html (live test) (source) trailing-ideographic-space-break-spaces-001.html (live test) (source) trailing-ideographic-space-break-spaces-002.html (live test) (source) trailing-ideographic-space-break-spaces-003.html (live test) (source) trailing-ideographic-space-break-spaces-004.html (live test) (source) trailing-ideographic-space-break-spaces-005.html (live test) (source) trailing-ideographic-space-break-spaces-006.html (live test) (source) trailing-ideographic-space-break-spaces-007.html (live test) (source) trailing-ideographic-space-break-spaces-008.html (live test) (source). `css-text-4` */
+    const breakSpaces: string
+    /** Like normal, this value collapses consecutive white space characters and allows wrapping, but it preserves segment breaks in the source as forced line breaks.. `css-text-4` */
+    const preLine: string
+    /** This value directs user agents to collapse sequences of white space into a single character (or in some cases, no character). Lines may wrap at allowed soft wrap opportunities, as determined by the line-breaking rules in effect, in order to minimize inline-axis overflow.. `css-text` */
+    const normal: string
+    /** This value prevents user agents from collapsing sequences of white space. Segment breaks such as line feeds are preserved as forced line breaks. Lines only break at forced line breaks; content that does not fit within the block container overflows it.. `css-text` */
+    const pre: string
+    /** Like normal, this value collapses white space; but like pre, it does not allow wrapping.. `css-text` */
+    const nowrap: string
+    /** Like pre, this value preserves white space; but like normal, it allows wrapping.. `css-text` */
+    const preWrap: string
+    /** The behavior is identical to that of pre-wrap, except that: Any sequence of preserved white space or other space separators always takes up space, including at the end of the line. A line breaking opportunity exists after every preserved white space character and after every other space separator (including between adjacent spaces).. `css-text` */
+    const breakSpaces: string
+    /** Like normal, this value collapses consecutive white space characters and allows wrapping, but it preserves segment breaks in the source as forced line breaks.. `css-text` */
+    const preLine: string
+  }
+
+  /** Create a `widows` property. `css-break` */
+  function widows(value: any): Property
+
+  /** Create a `width` property. `css-sizing-4, css-sizing` */
+  function width(value: any): Property
+  module width {
+    /** For width/height, specifies an automatic size (automatic block size/automatic inline size). See the relevant layout module for how to calculate this. For min-width/min-height, specifies an automatic minimum size. Unless otherwise defined by the relevant layout module, however, it resolves to a used value of 0. For backwards-compatibility, the resolved value of this keyword is zero for boxes of all [CSS2] display types: block and inline boxes, inline blocks, and all the table layout boxes. It also resolves to zero when no box is generated.. `css-sizing` */
+    const auto: string
+    /** Use the min-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. `css-sizing` */
+    const minContent: string
+    /** Use the max-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. `css-sizing` */
+    const maxContent: string
+  }
+
+  /** Create a `will-change` property. `css-will-change` */
+  function willChange(value: any): Property
+  module willChange {
+    /** Expresses no particular intent; the user agent should apply whatever heuristics and optimizations it normally does.. `css-will-change` */
+    const auto: string
+  }
+
+  /** Create a `word-boundary-detection` property. `css-text-4` */
+  function wordBoundaryDetection(value: any): Property
+  module wordBoundaryDetection {
+    /** The user agent must not insert virtual word boundaries, except within runs of characters belonging to Southeast Asian languages, where content analysis must be performed to determine where to insert virtual word boundaries. As with manual, typographic character units with class SA in [UAX14] must be treated as if they had class AL; however, the user agent must additionally analyse the content of a run of such characters and insert virtual word boundaries where appropriate. Within the constraints set by this specification, the specific algorithm used is UA-dependent. As various languages can be written in scripts which use the characters with class SA, if the content language is known, the user agent should use this information to tailor its analysis. In order to avoid unexpected overflow, if the user agent is unable to perform this analysis for any subset of the characters with class SA—for example due to lacking a dictionary for certain languages—there must be a soft wrap opportunity between pairs of typographic letter units in that subset.. `css-text-4` */
+    const normal: string
+    /** Linguistic analysis is not used in any language or writing system to determine line wrapping opportunities not indicated by the markup or characters of the element. The user agent must not insert virtual word boundaries. Typographic character units with class SA in [UAX14] must be treated as if they had class AL (i.e. assuming word-break: normal and a value of line-break other than anywhere, there is no soft wrap opportunity between pairs of such characters). Authors using this value for Southeast Asian languages are expected to manually indicate word boundaries, for instance using wbr or U+200B. Otherwise, there will be no soft wrap opportunity and the text may overflow.. `css-text-4` */
+    const manual: string
+  }
+
+  /** Create a `word-boundary-expansion` property. `css-text-4` */
+  function wordBoundaryExpansion(value: any): Property
+  module wordBoundaryExpansion {
+    /** This property has no effect.. `css-text-4` */
+    const none: string
+    /** Instances of U+200B ZERO WIDTH SPACE within the text run children of this element are replaced by U+0020 SPACE.. `css-text-4` */
+    const space: string
+    /** Instances of U+200B ZERO WIDTH SPACE within the text run children of this element are replaced by U+3000 IDEOGRAPHIC SPACE.. `css-text-4` */
+    const ideographicSpace: string
+  }
+
+  /** Create a `word-break` property. `css-text-4, css-text` */
+  function wordBreak(value: any): Property
+  module wordBreak {
+    /** Words break according to their customary rules, as described above. Korean, which commonly exhibits two different behaviors, allows breaks between any two consecutive Hangul/Hanja. For Ethiopic, which also exhibits two different behaviors, such breaks within words are not allowed.. `css-text-4` */
+    const normal: string
+    /** Breaking is forbidden within “words”: implicit soft wrap opportunities between typographic letter units (or other typographic character units belonging to the NU, AL, AI, or ID Unicode line breaking classes [UAX14]) are suppressed, i.e. breaks are prohibited between pairs of such characters (regardless of line-break settings other than anywhere) except where opportunities exist due to dictionary-based breaking. Otherwise this option is equivalent to normal. In this style, sequences of CJK characters do not break.. `css-text-4` */
+    const keepAll: string
+    /** Breaking is allowed within “words”: specifically, in addition to soft wrap opportunities allowed for normal, any typographic letter units (and any typographic character units resolving to the NU (“numeric”), AL (“alphabetic”), or SA (“Southeast Asian”) line breaking classes [UAX14]) are instead treated as ID (“ideographic characters”) for the purpose of line-breaking. Hyphenation is not applied.. `css-text-4` */
+    const breakAll: string
+    /** For compatibility with legacy content, the word-break property also supports a deprecated break-word keyword. When specified, this has the same effect as word-break: normal and overflow-wrap: anywhere, regardless of the actual value of the overflow-wrap property.. `css-text-4` */
+    const breakWord: string
+    /** Words break according to their customary rules, as described above. Korean, which commonly exhibits two different behaviors, allows breaks between any two consecutive Hangul/Hanja. For Ethiopic, which also exhibits two different behaviors, such breaks within words are not allowed.. `css-text` */
+    const normal: string
+    /** Breaking is forbidden within “words”: implicit soft wrap opportunities between typographic letter units (or other typographic character units belonging to the NU, AL, AI, or ID Unicode line breaking classes [UAX14]) are suppressed, i.e. breaks are prohibited between pairs of such characters (regardless of line-break settings other than anywhere) except where opportunities exist due to dictionary-based breaking. Otherwise this option is equivalent to normal. In this style, sequences of CJK characters do not break.. `css-text` */
+    const keepAll: string
+    /** Breaking is allowed within “words”: specifically, in addition to soft wrap opportunities allowed for normal, any typographic letter units (and any typographic character units resolving to the NU (“numeric”), AL (“alphabetic”), or SA (“Southeast Asian”) line breaking classes [UAX14]) are instead treated as ID (“ideographic characters”) for the purpose of line-breaking. Hyphenation is not applied.. `css-text` */
+    const breakAll: string
+    /** For compatibility with legacy content, the word-break property also supports a deprecated break-word keyword. When specified, this has the same effect as word-break: normal and overflow-wrap: anywhere, regardless of the actual value of the overflow-wrap property.. `css-text` */
+    const breakWord: string
+  }
+
+  /** Create a `word-spacing` property. `css-text-4, css-text` */
+  function wordSpacing(value: any): Property
+  module wordSpacing {
+    /** No additional spacing is applied. Computes to zero.. `css-text-4` */
+    const normal: string
+    /** No additional spacing is applied. Computes to zero.. `css-text` */
+    const normal: string
+  }
+
+  /** Create a `word-wrap` property. `css-text-4, css-text` */
+  function wordWrap(value: any): Property
+  module wordWrap {
+    /** `normal` keyword. `css-text-4` */
+    const normal: string
+    /** `break-word` keyword. `css-text-4` */
+    const breakWord: string
+    /** `anywhere` keyword. `css-text-4` */
+    const anywhere: string
+    /** `normal` keyword. `css-text` */
+    const normal: string
+    /** `break-word` keyword. `css-text` */
+    const breakWord: string
+    /** `anywhere` keyword. `css-text` */
+    const anywhere: string
+  }
+
+  /** Create a `wrap-after` property. `css-text-4` */
+  function wrapAfter(value: any): Property
+  module wrapAfter {
+    /** Lines may break at allowed break points before and after the box, as determined by the line-breaking rules in effect.. `css-text-4` */
+    const auto: string
+    /** Line breaking is suppressed immediately before/after the box: the UA may only break there if there are no other valid break points in the line. If the text breaks, line-breaking restrictions are honored as for auto.. `css-text-4` */
+    const avoid: string
+    /** Same as avoid, but only for line breaks.. `css-text-4` */
+    const avoidLine: string
+    /** Same as avoid, but only for flex line breaks.. `css-text-4` */
+    const avoidFlex: string
+    /** Force a line break immediately before/after the box if the box is an inline-level box.. `css-text-4` */
+    const line: string
+    /** Force a flex line break immediately before/after the box if the box is a flex item in a multi-line flex container.. `css-text-4` */
+    const flex: string
+  }
+
+  /** Create a `wrap-before` property. `css-text-4` */
+  function wrapBefore(value: any): Property
+  module wrapBefore {
+    /** Lines may break at allowed break points before and after the box, as determined by the line-breaking rules in effect.. `css-text-4` */
+    const auto: string
+    /** Line breaking is suppressed immediately before/after the box: the UA may only break there if there are no other valid break points in the line. If the text breaks, line-breaking restrictions are honored as for auto.. `css-text-4` */
+    const avoid: string
+    /** Same as avoid, but only for line breaks.. `css-text-4` */
+    const avoidLine: string
+    /** Same as avoid, but only for flex line breaks.. `css-text-4` */
+    const avoidFlex: string
+    /** Force a line break immediately before/after the box if the box is an inline-level box.. `css-text-4` */
+    const line: string
+    /** Force a flex line break immediately before/after the box if the box is a flex item in a multi-line flex container.. `css-text-4` */
+    const flex: string
+  }
+
+  /** Create a `wrap-flow` property. `css-exclusions` */
+  function wrapFlow(value: any): Property
+  module wrapFlow {
+    /** No exclusion is created. Inline flow content interacts with the element as usual. In particular, if the element is a float (see [CSS21]), the behavior is unchanged.. `css-exclusions` */
+    const auto: string
+    /** Inline flow content can flow on all sides of the exclusion.. `css-exclusions` */
+    const both: string
+    /** Inline flow content can flow around the start edge of the exclusion area but must leave the area next to the end edge of the exclusion empty.. `css-exclusions` */
+    const start: string
+    /** Inline flow content can flow around the end edge of the exclusion area but must leave the area next to the start edge of the exclusion empty.. `css-exclusions` */
+    const end: string
+    /** Inline flow content can flow around the edge of the exclusion with the smallest available space within the flow content’s containing block, and must leave the other edge of the exclusion empty.. `css-exclusions` */
+    const minimum: string
+    /** Inline flow content can flow around the edge of the exclusion with the largest available space within the flow content’s containing block, and must leave the other edge of the exclusion empty.. `css-exclusions` */
+    const maximum: string
+    /** Inline flow content can only flow before and after the exclusion in the flow content’s block direction and must leave the areas next to the start and end edges of the exclusion empty.. `css-exclusions` */
+    const clear: string
+  }
+
+  /** Create a `wrap-inside` property. `css-text-4` */
+  function wrapInside(value: any): Property
+  module wrapInside {
+    /** Lines may break at allowed break points within the box, as determined by the line-breaking rules in effect.. `css-text-4` */
+    const auto: string
+    /** Line breaking is suppressed within the box: the UA may only break within the box if there are no other valid break points in the line. If the text breaks, line-breaking restrictions are honored as for auto. If boxes with avoid are nested and the UA must break within these boxes, a break in an outer box must be used before a break within an inner box may be used.. `css-text-4` */
+    const avoid: string
+  }
+
+  /** Create a `wrap-through` property. `css-exclusions` */
+  function wrapThrough(value: any): Property
+  module wrapThrough {
+    /** The element inherits its parent node’s wrapping context. Its descendant inline content wraps around exclusions defined outside the element.. `css-exclusions` */
+    const wrap: string
+    /** The element does not inherit its parent node’s wrapping context. Its descendants are only subject to exclusion areas defined inside the element.. `css-exclusions` */
+    const none: string
+  }
+
+  /** Create a `writing-mode` property. `css-writing-modes` */
+  function writingMode(value: any): Property
+  module writingMode {
+    /** Top-to-bottom block flow direction. Both the writing mode and the typographic mode are horizontal.. `css-writing-modes` */
+    const horizontalTb: string
+    /** Right-to-left block flow direction. Both the writing mode and the typographic mode are vertical.. `css-writing-modes` */
+    const verticalRl: string
+    /** Left-to-right block flow direction. Both the writing mode and the typographic mode are vertical.. `css-writing-modes` */
+    const verticalLr: string
+    /** Right-to-left block flow direction. The writing mode is vertical, while the typographic mode is horizontal.. `css-writing-modes` */
+    const sidewaysRl: string
+    /** Left-to-right block flow direction. The writing mode is vertical, while the typographic mode is horizontal.. `css-writing-modes` */
+    const sidewaysLr: string
+  }
+
+  /** Create a `x` property. `svg` */
+  function x(value: any): Property
+
+  /** Create a `y` property. `svg` */
+  function y(value: any): Property
+
+  /** Create a `z-index` property. `css` */
+  function zIndex(value: any): Property
+  module zIndex {
+    /** The stack level of the generated box in the current stacking context is 0. The box does not establish a new stacking context unless it is the root element.. `css` */
+    const auto: string
+    /** `inherit` keyword. `css` */
+    const inherit: string
+  }
+
+  /** Create a `zoom` property. `unknown` */
   function zoom(value: any): Property
 
 }

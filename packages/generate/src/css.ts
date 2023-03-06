@@ -7,7 +7,21 @@ export default async function getCssSymbols() {
   const propLookup: Record<string, SpecProperty | undefined> = {}
 
   const refs = await getCssRefs()
-  
+
+  const excludedTypes = [
+    "length",
+    "angle",
+    "time",
+    "frequency",
+    "resolution",
+  ]
+
+  const excludedValues = excludedTypes.flatMap(valueType => {
+    return refs["css-values"].values
+      ?.find(value => value.name === `<${valueType}>`)
+      ?.values?.map(v => v.name)!
+  })
+
   for (const shortName in refs) {
     const ref = refs[shortName]
     const spec: Spec = {
@@ -53,6 +67,22 @@ export default async function getCssSymbols() {
                   spec,
                 })
               }
+              else if (node.type === "Type") {
+                const valuesType = findValuesType(node.name)
+                if (valuesType) {
+                  for (const value of valuesType.values!) {
+                    if (value.name.includes("<") || value.name.includes("(")) continue
+                    if (excludedValues.includes(value.name)) continue
+                    property!.values.push({
+                      type: "keyword",
+                      name: value.name,
+                      jsName: camelize(jsName(value.name)),
+                      spec,
+                      help: value.prose,
+                    })
+                  }
+                }
+              }
             }
           })
         }
@@ -60,11 +90,11 @@ export default async function getCssSymbols() {
     }
   }
 
-  function findValueType(name: string) {
+  function findValuesType(name: string) {
     for (const shortName in refs) {
       const ref = refs[shortName]
       for (const refValue of ref.values || []) {
-        if (refValue.name === `<${name}>`) {
+        if (refValue.name === `<${name}>` && refValue.values) {
           return refValue
         }
       }
@@ -115,7 +145,7 @@ export interface SpecValue {
   help?: string
 }
 
-const keywords = ["continue", "default", "super", "break"]
+const keywords = ["continue", "default", "super", "break", "in"]
 
 /** Formats a variable name. */
 function jsName(property: string) {
@@ -125,7 +155,7 @@ function jsName(property: string) {
     case property.startsWith("-"):
       return property.substring(1)
   }
-  return property
+  return property.replace(" ", "_")
 }
 
 /** Turn a kebab-case name into camelCase. */

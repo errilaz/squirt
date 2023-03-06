@@ -29,12 +29,12 @@ async function generateCss() {
 
   // Properties
   for (const property of properties) {
-    types += `  /** Create a \`${property.name}\` property (\`${printSpecs(property)}\`). */\n`
+    types += `  /** Create a \`${property.name}\` property. \`${printSpecs(property)}\` */\n`
     types += `  function ${property.jsName}(value: any): Property\n`
     if (property.values.length > 0) {
       types += `  module ${property.jsName} {\n`
       for (const value of property.values) {
-        types += `    /** \`${value.spec.shortName}\` ${value.help ?? "`" + value.name + "` keyword"}. */\n`
+        types += `    /** ${value.help ?? "`" + value.name + "` keyword"}. \`${value.spec.shortName}\` */\n`
         types += `    const ${value.jsName}: string\n`
       }
       types += `  }\n`
