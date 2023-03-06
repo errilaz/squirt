@@ -48,6 +48,7 @@ declare module "@webref/css" {
     name: string
     descriptors: RefAtruleDescriptor[]
     value: string
+    prose?: string
   }
 
   export interface RefAtruleDescriptor {

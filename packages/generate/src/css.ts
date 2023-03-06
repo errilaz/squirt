@@ -6,7 +6,7 @@ export default async function getCssSymbols() {
   const properties: SpecProperty[] = []
   const propLookup: Record<string, SpecProperty | undefined> = {}
 
-  // Generate properties from @webref/css
+  // Collect properties from @webref/css
 
   const refs = await getCssRefs()
 
@@ -22,7 +22,7 @@ export default async function getCssSymbols() {
     return refs["css-values"].values
       ?.find(value => value.name === `<${valueType}>`)
       ?.values?.map(v => v.name)!
-  })
+  }).concat("color")
 
   for (const shortName in refs) {
     const ref = refs[shortName]
@@ -74,7 +74,7 @@ export default async function getCssSymbols() {
     }
   }
 
-  // Generate properties from known-css-properties
+  // Collect properties from known-css-properties
 
   const unknownSpec: Spec = {
     title: "Unknown Specification",
@@ -96,8 +96,27 @@ export default async function getCssSymbols() {
 
   properties.sort((a, b) => a.name.localeCompare(b.name))
 
+  // Collect colors
+
+  const colors = refs["css-color"].values!
+    .find(v => v.name === "<color>")!
+    .values!
+    .map(v => v.name)
+
+  // Collect Atrules
+
+  const atrules = Object.keys(refs)
+    .flatMap(key => refs[key].atrules)
+    .map(atrule => ({
+      name: atrule.name,
+      jsName: camelize(jsName(atrule.name.substring(1))),
+      help: atrule.prose,
+    }))
+
   return {
     properties,
+    colors,
+    atrules,
   }
 
   function findValuesType(name: string) {
@@ -117,7 +136,7 @@ function addValue(property: SpecProperty, type: SpecValue["type"], name: string,
   const original = property.values.find(v => v.name === name)
   if (!original) {
     property!.values.push({
-      type: "keyword",
+      type,
       name: name,
       jsName: camelize(jsName(name)),
       helps: [{ spec, help }],
@@ -149,6 +168,12 @@ export interface SpecValue {
 
 export interface SpecValueHelp {
   spec: Spec
+  help?: string
+}
+
+export interface SpecAtrule {
+  name: string
+  jsName: string
   help?: string
 }
 
