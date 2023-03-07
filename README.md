@@ -355,6 +355,16 @@ rule("input, textarea",
 )
 ```
 
+### Rule Class Syntax Sugar
+
+You can use class selectors directly on the `rule` function:
+
+```ts
+rule.container(
+  width("1200px"),
+)
+```
+
 ### At-rules
 
 Media queries and other [at-rules](https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule) are supported

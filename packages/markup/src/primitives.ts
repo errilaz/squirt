@@ -9,8 +9,18 @@ export module Primitives {
   }
 
   /** Constructs a CSS rule. */
-  export function rule(selector: string, ...contents: (Property | Rule)[]) {
+  export const rule = new Proxy(createRule, {
+    get: createClassRule
+  })
+
+  function createRule(selector: string, ...contents: (Property | Rule)[]) {
     return new Rule(selector, contents)
+  }
+
+  function createClassRule(obj: any, cssClass: string) {
+    return function createClassRule(...contents: (Property | Rule)[]) {
+      return new Rule(`.${cssClass}`, contents)
+    }
   }
 
   /** Custom property helper. */
