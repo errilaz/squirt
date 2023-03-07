@@ -284,6 +284,8 @@ borderStyle.dashed,
 _continue.auto,
 ```
 
+#### Rules
+
 The `rule` function can be used within style elements to define CSS rules. Custom properties may use the `prop` function.
 
 ```ts
@@ -293,6 +295,24 @@ style(
     fontWeight.bold,
     prop("-some-nonstandard", "value"),
   )
+)
+```
+
+#### Rule Syntax Sugar
+
+Element functions may be used as selectors:
+
+```ts
+rule(textarea,
+  borderColor.black,
+)
+```
+
+Class names may be used as selectors (these are converted to `kebab-case`):
+
+```ts
+rule.container(
+  width("1200px"),
 )
 ```
 
@@ -335,7 +355,7 @@ rule(".danger",
 Nested selectors with pseudo-classes do the same:
 
 ```ts
-rule("a",
+rule(a,
   color.red,
   textDecorationLine.none,
   rule(":hover",
@@ -352,24 +372,6 @@ rule("input, textarea",
   rule(":hover, :focus",
     borderColor.black,
   ),
-)
-```
-
-You can also use element functions as selectors:
-
-```ts
-rule(textarea,
-  borderColor.black,
-)
-```
-
-### Rule Class Syntax Sugar
-
-You can use class selectors directly on the `rule` function:
-
-```ts
-rule.container(
-  width("1200px"),
 )
 ```
 
