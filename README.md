@@ -337,8 +337,9 @@ Nested selectors with pseudo-classes do the same:
 ```ts
 rule("a",
   color.red,
+  textDecorationLine.none,
   rule(":hover",
-    textDecoration.underline,
+    textDecorationLine.underline,
   ),
 )
 ```
