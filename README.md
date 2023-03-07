@@ -355,6 +355,14 @@ rule("input, textarea",
 )
 ```
 
+You can also use element functions as selectors:
+
+```ts
+rule(textarea,
+  borderColor.black,
+)
+```
+
 ### Rule Class Syntax Sugar
 
 You can use class selectors directly on the `rule` function:

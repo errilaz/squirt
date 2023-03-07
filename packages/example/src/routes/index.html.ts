@@ -8,11 +8,11 @@ export default ({ request }: Context) => [
       title("Hello Squirt"),
       liveReload(development),
       style(
-        rule("body",
+        rule(body,
           backgroundColor.black,
           color.silver,
         ),
-        rule(".world",
+        rule.world(
           color.lime,
         )
       ),

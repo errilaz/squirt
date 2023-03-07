@@ -11,6 +11,9 @@ export module Factory {
     }
 
     function withClass(obj: any, cssClass: string) {
+      if (cssClass === "__tag__") {
+        return tag
+      }
       cssClass = kebabize(cssClass)
       const proxy = new Proxy(createElement.bind(null, { class: cssClass }), {
         get: withAnotherClass

@@ -1,6 +1,6 @@
 export type ElementBuilder = ((...contents: any[]) => Element) & {
   [className: string]: ElementBuilder
-}
+} & { __tag__: string }
 
 /** Representation of an HTML element. */
 export class Element {
@@ -64,8 +64,13 @@ export class Rule {
   properties: { [name: string]: string } = {}
   rules: Rule[] = []
 
-  constructor(selector: string, contents: (Property | Rule | any[])[]) {
-    this.selector = selector
+  constructor(selector: string | ElementBuilder, contents: (Property | Rule | any[])[]) {
+    if (typeof selector === "string") {
+      this.selector = selector
+    }
+    else {
+      this.selector = selector.__tag__
+    }
     for (const content of contents) {
       this.add(content)
     }
