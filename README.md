@@ -252,7 +252,7 @@ The `raw` function will skip HTML escaping for its contents.
 
 The `var` element is named `_var` due to conflict with the JS keyword.
 
-### Class Syntax Sugar
+### Element Class Shorthand
 
 You can apply classes directly to element functions:
 
@@ -298,7 +298,7 @@ style(
 )
 ```
 
-#### Rule Syntax Sugar
+#### Rule Shorthand Selectors
 
 Element functions may be used as selectors:
 
