@@ -2324,6 +2324,10 @@ declare global {
     const mathematical: Property
     /** Use the text-over baseline.. `css-inline` */
     const textTop: Property
+    /** `text-before-edge` keyword. `css-inline` */
+    const textBeforeEdge: Property
+    /** `text-after-edge` keyword. `css-inline` */
+    const textAfterEdge: Property
   }
 
   /** Create a `all` property. `css-cascade` */
@@ -2380,15 +2384,39 @@ declare global {
 
   /** Create a `animation-direction` property. `css-animations` */
   function animationDirection(value: any): Property
+  module animationDirection {
+    /** All iterations of the animation are played as specified.. `css-animations` */
+    const normal: Property
+    /** All iterations of the animation are played in the reverse direction from the way they were specified.. `css-animations` */
+    const reverse: Property
+    /** The animation cycle iterations that are odd counts are played in the normal direction, and the animation cycle iterations that are even counts are played in a reverse direction.. `css-animations` */
+    const alternate: Property
+    /** The animation cycle iterations that are odd counts are played in the reverse direction, and the animation cycle iterations that are even counts are played in a normal direction.. `css-animations` */
+    const alternateReverse: Property
+  }
 
   /** Create a `animation-duration` property. `css-animations` */
   function animationDuration(value: any): Property
 
   /** Create a `animation-fill-mode` property. `css-animations` */
   function animationFillMode(value: any): Property
+  module animationFillMode {
+    /** The animation has no effect when it is applied but not executing.. `css-animations` */
+    const none: Property
+    /** After the animation ends (as determined by its animation-iteration-count), the animation will apply the property values for the time the animation ended. When animation-iteration-count is an integer greater than zero, the values applied will be those for the end of the last completed iteration of the animation (rather than the values for the start of the iteration that would be next). When animation-iteration-count is zero, the values applied will be those that would start the first iteration (just as when animation-fill-mode is backwards).. `css-animations` */
+    const forwards: Property
+    /** During the period defined by animation-delay, the animation will apply the property values defined in the keyframe that will start the first iteration of the animation. These are either the values of the from keyframe (when animation-direction is normal or alternate) or those of the to keyframe (when animation-direction is reverse or alternate-reverse).. `css-animations` */
+    const backwards: Property
+    /** The effects of both forwards and backwards fill apply.. `css-animations` */
+    const both: Property
+  }
 
   /** Create a `animation-iteration-count` property. `css-animations` */
   function animationIterationCount(value: any): Property
+  module animationIterationCount {
+    /** The animation will repeat forever.. `css-animations` */
+    const infinite: Property
+  }
 
   /** Create a `animation-name` property. `css-animations` */
   function animationName(value: any): Property
@@ -2399,6 +2427,12 @@ declare global {
 
   /** Create a `animation-play-state` property. `css-animations` */
   function animationPlayState(value: any): Property
+  module animationPlayState {
+    /** While this property is set to running, the animation proceeds as normal.. `css-animations` */
+    const running: Property
+    /** While this property is set to paused, the animation is paused. The animation continues to apply to the element with the progress it had made before being paused. When unpaused (set back to running), it restarts from where it left off, as if the "clock" that controls the animation had stopped and started again. If the property is set to paused during the delay phase of the animation, the delay clock is also paused and resumes as soon as animation-play-state is set back to running.. `css-animations` */
+    const paused: Property
+  }
 
   /** Create a `animation-range` property. `scroll-animations` */
   function animationRange(value: any): Property
@@ -2443,6 +2477,34 @@ declare global {
     const none: Property
     /** Elements representing widgets should have the native appearance of that widget, if the properties that disable native appearance for widgets are not in effect. See § 7.2.1 Properties Disabling Native Appearance. The host language is responsible for defining which elements represent which widgets. Elements other than widgets must be rendered as for none.. `css-ui` */
     const auto: Property
+    /** `searchfield` keyword. `css-ui` */
+    const searchfield: Property
+    /** `textarea` keyword. `css-ui` */
+    const textarea: Property
+    /** `push-button` keyword. `css-ui` */
+    const pushButton: Property
+    /** `slider-horizontal` keyword. `css-ui` */
+    const sliderHorizontal: Property
+    /** `checkbox` keyword. `css-ui` */
+    const checkbox: Property
+    /** `radio` keyword. `css-ui` */
+    const radio: Property
+    /** `square-button` keyword. `css-ui` */
+    const squareButton: Property
+    /** `menulist` keyword. `css-ui` */
+    const menulist: Property
+    /** `listbox` keyword. `css-ui` */
+    const listbox: Property
+    /** `meter` keyword. `css-ui` */
+    const meter: Property
+    /** `progress-bar` keyword. `css-ui` */
+    const progressBar: Property
+    /** `button` keyword. `css-ui` */
+    const button: Property
+    /** `textfield` keyword. `css-ui` */
+    const textfield: Property
+    /** `menulist-button` keyword. `css-ui` */
+    const menulistButton: Property
   }
 
   /** Create a `ascent-override` property. `unknown-spec` */
@@ -2482,6 +2544,14 @@ declare global {
 
   /** Create a `background-attachment` property. `css-backgrounds` */
   function backgroundAttachment(value: any): Property
+  module backgroundAttachment {
+    /** The background is fixed with regard to the viewport. In paged media where there is no viewport, a fixed background is fixed with respect to the page box and therefore replicated on every page.. `css-backgrounds` */
+    const fixed: Property
+    /** The background is fixed with regard to the element’s contents: if the element has a scrolling mechanism, the background scrolls with the element’s contents, and the background painting area and background positioning area are relative to the scrollable area of the element rather than to the border framing them. Because the scrollable area does not include the border area, for scrollable elements the border-box value of background-clip may be treated the same as padding-box.. `css-backgrounds` */
+    const local: Property
+    /** The background is fixed with regard to the element itself and does not scroll with its contents. (It is effectively attached to the element’s border.). `css-backgrounds` */
+    const scroll: Property
+  }
 
   /** Create a `background-blend-mode` property. `compositing` */
   function backgroundBlendMode(value: any): Property
@@ -2489,6 +2559,12 @@ declare global {
   /** Create a `background-clip` property. `css-backgrounds, css-backgrounds-4` */
   function backgroundClip(value: any): Property
   module backgroundClip {
+    /** The background is painted within (clipped to) the border box.. `css-backgrounds` */
+    const borderBox: Property
+    /** The background is painted within (clipped to) the padding box.. `css-backgrounds` */
+    const paddingBox: Property
+    /** The background is painted within (clipped to) the content box.. `css-backgrounds` */
+    const contentBox: Property
     /** The background is painted within (clipped to) the intersection of the border box and the geometry of the text in the element and its in-flow and floated descendants.. `css-backgrounds-4` */
     const text: Property
     /** The background is clipped to the area painted by the border, taking border-width and border-style into account but ignoring any transparency introduced by border-color.. `css-backgrounds-4` */
@@ -2652,12 +2728,36 @@ declare global {
 
   /** Create a `background-image` property. `css-backgrounds` */
   function backgroundImage(value: any): Property
+  module backgroundImage {
+    /** A value of none counts as an image layer but draws nothing. An image that is empty (zero width or zero height), that fails to download, or that cannot be displayed (e.g., because it is not in a supported image format) likewise counts as a layer but draws nothing.. `css-backgrounds` */
+    const none: Property
+  }
 
   /** Create a `background-origin` property. `css-backgrounds` */
   function backgroundOrigin(value: any): Property
+  module backgroundOrigin {
+    /** The position is relative to the padding box. (For single boxes 0 0 is the upper left corner of the padding edge, 100% 100% is the lower right corner.). `css-backgrounds` */
+    const paddingBox: Property
+    /** The position is relative to the border box.. `css-backgrounds` */
+    const borderBox: Property
+    /** The position is relative to the content box.. `css-backgrounds` */
+    const contentBox: Property
+  }
 
   /** Create a `background-position` property. `css-backgrounds, css-backgrounds-4` */
   function backgroundPosition(value: any): Property
+  module backgroundPosition {
+    /** Computes to 0% for the vertical position if one or two values are given, otherwise specifies the top edge as the origin for the next offset.. `css-backgrounds` */
+    const top: Property
+    /** Computes to 100% for the horizontal position if one or two values are given, otherwise specifies the right edge as the origin for the next offset.. `css-backgrounds` */
+    const right: Property
+    /** Computes to 100% for the vertical position if one or two values are given, otherwise specifies the bottom edge as the origin for the next offset.. `css-backgrounds` */
+    const bottom: Property
+    /** Computes to 0% for the horizontal position if one or two values are given, otherwise specifies the left edge as the origin for the next offset.. `css-backgrounds` */
+    const left: Property
+    /** Computes to 50% (left 50%) for the horizontal position if the horizontal position is not otherwise specified, or 50% (top 50%) for the vertical position if it is.. `css-backgrounds` */
+    const center: Property
+  }
 
   /** Create a `background-position-block` property. `css-backgrounds-4` */
   function backgroundPositionBlock(value: any): Property
@@ -2713,6 +2813,20 @@ declare global {
 
   /** Create a `background-repeat` property. `css-backgrounds` */
   function backgroundRepeat(value: any): Property
+  module backgroundRepeat {
+    /** Computes to repeat no-repeat.. `css-backgrounds` */
+    const repeatX: Property
+    /** Computes to no-repeat repeat.. `css-backgrounds` */
+    const repeatY: Property
+    /** The image is repeated in this direction as often as needed to cover the background painting area.. `css-backgrounds` */
+    const repeat: Property
+    /** The image is repeated as often as will fit within the background positioning area without being clipped and then the images are spaced out to fill the area. The first and last images touch the edges of the area. If the background painting area is larger than the background positioning area, then the pattern repeats to fill the background painting area. The value of background-position for this direction is ignored, unless there is not enough space for two copies of the image in this direction, in which case only one image is placed and background-position determines its position in this direction.. `css-backgrounds` */
+    const space: Property
+    /** The image is repeated as often as will fit within the background positioning area. If it doesn’t fit a whole number of times, it is rescaled so that it does. See the formula under background-size. If the background painting area is larger than the background positioning area, then the pattern repeats to fill the background painting area.. `css-backgrounds` */
+    const round: Property
+    /** The image is placed once and not repeated in this direction.. `css-backgrounds` */
+    const noRepeat: Property
+  }
 
   /** Create a `background-repeat-x` property. `unknown-spec` */
   function backgroundRepeatX(value: any): Property
@@ -2722,6 +2836,14 @@ declare global {
 
   /** Create a `background-size` property. `css-backgrounds` */
   function backgroundSize(value: any): Property
+  module backgroundSize {
+    /** Scale the image, while preserving its natural aspect ratio (if any), to the largest size such that both its width and its height can fit inside the background positioning area.. `css-backgrounds` */
+    const contain: Property
+    /** Scale the image, while preserving its natural aspect ratio (if any), to the smallest size such that both its width and its height can completely cover the background positioning area.. `css-backgrounds` */
+    const cover: Property
+    /** The first value gives the width of the corresponding image, the second value its height. If only one value is given the second is assumed to be auto. A percentage is relative to the background positioning area. An auto value for one dimension is resolved by using the image’s natural aspect ratio and the size of the other dimension, or failing that, using the image’s natural size, or failing that, treating it as 100%. If both values are auto then the natural width and/or height of the image should be used, if any, the missing dimension (if any) behaving as auto as described above. If the image has neither natural size, its size is determined as for contain. Negative values are invalid.. `css-backgrounds` */
+    const auto: Property
+  }
 
   /** Create a `base-palette` property. `unknown-spec` */
   function basePalette(value: any): Property
@@ -2739,6 +2861,8 @@ declare global {
     const center: Property
     /** Align the line-under edge of the aligned subtree with the line-under edge of the line box.. `css-inline` */
     const bottom: Property
+    /** User agents may additionally support the keyword baseline as computing to 0 if is necessary for them to support legacy SVG content. This value is not allowed in the vertical-align shorthand.. `css-inline` */
+    const baseline: Property
   }
 
   /** Create a `baseline-source` property. `css-inline` */
@@ -2766,6 +2890,14 @@ declare global {
 
   /** Create a `block-size` property. `css-logical, css-sizing-4` */
   function blockSize(value: any): Property
+  module blockSize {
+    /** Applies stretch-fit sizing, attempting to match the size of the box’s margin box to the size of its containing block. See § 6.1 Stretch-fit Sizing: filling the containing block.. `css-sizing-4` */
+    const stretch: Property
+    /** Essentially fit-content(stretch) i.e. min(max-content, max(min-content, stretch)).. `css-sizing-4` */
+    const fitContent: Property
+    /** If the box has a preferred aspect ratio, applies contain-fit sizing, attempting to fit into the box’s constraints while maintaining its preferred aspect ratio insofar as possible. See § 6.2 Contain-fit Sizing: stretching while maintaining an aspect ratio. If the box has no preferred aspect ratio, applies stretch-fit sizing.. `css-sizing-4` */
+    const contain: Property
+  }
 
   /** Create a `block-step` property. `css-rhythm` */
   function blockStep(value: any): Property
@@ -2781,6 +2913,12 @@ declare global {
     const start: Property
     /** Any extra space resulting from a block-step-size-induced adjustment is inserted on the start side of the box.. `css-rhythm` */
     const end: Property
+    /** The outer size of the box is increased (positive space is inserted) to fulfill the block-step-size constraint.. `css-rhythm` */
+    const up: Property
+    /** The outer size of the box is decreased (negative space is inserted) to fulfill the block-step-size constraint.. `css-rhythm` */
+    const down: Property
+    /** The outer size of the box is either increased (as for up) or decreased (as for down—whichever results in the smallest absolute change—to fulfill the block-step-size constraint. If both options would result in the same amount of change, the size is increased.. `css-rhythm` */
+    const nearest: Property
   }
 
   /** Create a `block-step-insert` property. `css-rhythm` */
@@ -5568,6 +5706,8 @@ declare global {
   module boxShadow {
     /** The box-shadow property attaches one or more drop-shadows to the box. The property accepts either the none value, which indicates no shadows, or a comma-separated list of shadows, ordered front to back.. `css-backgrounds` */
     const none: Property
+    /** If present, the inset keyword changes the drop shadow from an outer box-shadow (one that shadows the box onto the canvas, as if it were lifted above the canvas) to an inner box-shadow (one that shadows the canvas onto the box, as if the box were cut out of the canvas and shifted behind it).. `css-backgrounds` */
+    const inset: Property
   }
 
   /** Create a `box-sizing` property. `css-sizing` */
@@ -5886,6 +6026,14 @@ declare global {
     const bottom: Property
     /** `none` keyword. `css-page-floats` */
     const none: Property
+    /** Behave like inline-start and inline-end.. `css-page-floats` */
+    const bothInline: Property
+    /** Behave like block-start and block-end.. `css-page-floats` */
+    const bothBlock: Property
+    /** Behave like both-inline.. `css-page-floats` */
+    const both: Property
+    /** Behave like both-block and both-inline.. `css-page-floats` */
+    const all: Property
   }
 
   /** Create a `clip` property. `css-masking` */
@@ -5900,6 +6048,12 @@ declare global {
   module clipPath {
     /** `none` keyword. `css-masking` */
     const none: Property
+    /** Uses the object bounding box as reference box.. `css-masking` */
+    const fillBox: Property
+    /** Uses the stroke bounding box as reference box.. `css-masking` */
+    const strokeBox: Property
+    /** Uses the nearest SVG viewport as reference box. If a viewBox attribute is specified for the SVG viewport creating element: The reference box is positioned at the origin of the coordinate system established by the viewBox attribute. The dimension of the reference box is set to the width and height values of the viewBox attribute.. `css-masking` */
+    const viewBox: Property
   }
 
   /** Create a `clip-rule` property. `css-masking` */
@@ -6350,6 +6504,10 @@ declare global {
   /** Create a `column-width` property. `css-sizing, css-multicol` */
   function columnWidth(value: any): Property
   module columnWidth {
+    /** Specifies the optimal column width as the min-content inline size of the multi-column container’s contents.. `css-sizing` */
+    const minContent: Property
+    /** Specifies the optimal column width as the max-content inline size of the multi-column container’s contents.. `css-sizing` */
+    const maxContent: Property
     /** means that the column width will be determined by other properties (e.g., column-count, if it has a non-auto value).. `css-multicol` */
     const auto: Property
   }
@@ -6374,6 +6532,8 @@ declare global {
     const style: Property
     /** This value turns on paint containment for the element. This ensures that the descendants of the containment box don’t display outside its bounds, so if an element is off-screen or otherwise not visible, its descendants are also guaranteed to be not visible.. `css-contain` */
     const paint: Property
+    /** This value turns on inline-size containment for the element. This prevents the inline-size of its principal box from directly depending on its contents.. `css-contain-3` */
+    const inlineSize: Property
   }
 
   /** Create a `contain-intrinsic-block-size` property. `css-sizing-4` */
@@ -6475,6 +6635,8 @@ declare global {
     const paginate: Property
     /** content that doesn’t fit causes the element to copy itself and continue laying out. See fragment overflow.. `css-overflow-4` */
     const fragments: Property
+    /** The -webkit-discard value behaves identically to discard, except that it only takes effect if the computed value of the display property on the parent is -webkit-box or -webkit-inline-box and the computed value of the -webkit-box-orient property on the parent is vertical.. `css-overflow-4` */
+    const webkitDiscard: Property
   }
 
   /** Create a `copy-into` property. `css-gcpm-4` */
@@ -6501,6 +6663,8 @@ declare global {
   module counterIncrement {
     /** This element does not alter the value of any counters.. `css-lists` */
     const none: Property
+    /** In addition to any explicitly defined counters that authors write in their styles, list items automatically increment a special list-item counter, which is used when generating the default marker string on list items (see list-style-type).. `css-lists` */
+    const listItem: Property
   }
 
   /** Create a `counter-reset` property. `css-lists` */
@@ -6508,6 +6672,8 @@ declare global {
   module counterReset {
     /** This element does not create any new counters.. `css-lists` */
     const none: Property
+    /** In addition to any explicitly defined counters that authors write in their styles, list items automatically increment a special list-item counter, which is used when generating the default marker string on list items (see list-style-type).. `css-lists` */
+    const listItem: Property
   }
 
   /** Create a `counter-set` property. `css-lists` */
@@ -6515,6 +6681,8 @@ declare global {
   module counterSet {
     /** This element does not alter the value of any counters.. `css-lists` */
     const none: Property
+    /** In addition to any explicitly defined counters that authors write in their styles, list items automatically increment a special list-item counter, which is used when generating the default marker string on list items (see list-style-type).. `css-lists` */
+    const listItem: Property
   }
 
   /** Create a `cue` property. `css-speech` */
@@ -6693,6 +6861,8 @@ declare global {
     const inlineFlex: Property
     /** Computes to inline grid.. `css-display` */
     const inlineGrid: Property
+    /** The list-item keyword causes the element to generate a ::marker pseudo-element [CSS-PSEUDO-4] with the content specified by its list-style properties (CSS 2.1§12.5 Lists) [CSS2] together with a principal box of the specified type for its own contents.. `css-display` */
+    const listItem: Property
   }
 
   /** Create a `display-align` property. `unknown-spec` */
@@ -7006,6 +7176,8 @@ declare global {
   module flexBasis {
     /** Indicates an automatic size based on the flex item’s content. (This is typically equivalent to the max-content size, but with adjustments to handle preferred aspect ratios, intrinsic sizing constraints, and orthogonal flows; see details in § 9 Flex Layout Algorithm.). `css-flexbox` */
     const content: Property
+    /** When specified on a flex item, the auto keyword retrieves the value of the main size property as the used flex-basis. If that value is itself auto, then the used value is content.. `css-flexbox` */
+    const auto: Property
   }
 
   /** Create a `flex-direction` property. `css-flexbox` */
@@ -7066,6 +7238,8 @@ declare global {
     const bottom: Property
     /** The box is not floated.. `css-page-floats` */
     const none: Property
+    /** each footnote element is placed in the footnote area of the page. `css-gcpm` */
+    const footnote: Property
   }
 
   /** Create a `float-defer` property. `css-page-floats` */
@@ -7544,6 +7718,22 @@ declare global {
     const normal: Property
     /** Enables display of ruby variant glyphs (OpenType feature: ruby). Since ruby text is generally smaller than the associated body text, font designers can design special glyphs for use with ruby that are more readable than scaled down versions of the default glyphs. Only glyph selection is affected, there is no associated font scaling or other change that affects line layout. The red ruby text below is shown with default glyphs (top) and with ruby variant glyphs (bottom). Note the slight difference in stroke thickness.. `css-fonts` */
     const ruby: Property
+    /** Enables rendering of JIS78 forms (OpenType feature: jp78).. `css-fonts` */
+    const jis78: Property
+    /** Enables rendering of JIS83 forms (OpenType feature: jp83).. `css-fonts` */
+    const jis83: Property
+    /** Enables rendering of JIS90 forms (OpenType feature: jp90).. `css-fonts` */
+    const jis90: Property
+    /** Enables rendering of JIS2004 forms (OpenType feature: jp04). The various JIS variants reflect the glyph forms defined in different Japanese national standards. Fonts generally include glyphs defined by the most recent national standard, but it’s sometimes necessary to use older variants, to match signage for example.. `css-fonts` */
+    const jis04: Property
+    /** Enables rendering of simplified forms (OpenType feature: smpl).. `css-fonts` */
+    const simplified: Property
+    /** Enables rendering of traditional forms (OpenType feature: trad).. `css-fonts` */
+    const traditional: Property
+    /** Enables rendering of full-width variants (OpenType feature: fwid).. `css-fonts` */
+    const fullWidth: Property
+    /** Enables rendering of proportionally-spaced variants (OpenType feature: pwid).. `css-fonts` */
+    const proportionalWidth: Property
   }
 
   /** Create a `font-variant-emoji` property. `css-fonts` */
@@ -7566,6 +7756,22 @@ declare global {
     const normal: Property
     /** Specifies that all types of ligatures and contextual forms covered by this property are explicitly disabled. In situations where ligatures are not considered necessary, this may improve the speed of text rendering.. `css-fonts` */
     const none: Property
+    /** Enables display of common ligatures (OpenType features: liga, clig). For OpenType fonts, common ligatures are enabled by default.. `css-fonts` */
+    const commonLigatures: Property
+    /** Disables display of common ligatures (OpenType features: liga, clig).. `css-fonts` */
+    const noCommonLigatures: Property
+    /** Enables display of discretionary ligatures (OpenType feature: dlig). Which ligatures are discretionary or optional is decided by the type designer, so authors will need to refer to the documentation of a given font to understand which ligatures are considered discretionary.. `css-fonts` */
+    const discretionaryLigatures: Property
+    /** Disables display of discretionary ligatures (OpenType feature: dlig).. `css-fonts` */
+    const noDiscretionaryLigatures: Property
+    /** Enables display of historical ligatures (OpenType feature: hlig).. `css-fonts` */
+    const historicalLigatures: Property
+    /** Disables display of historical ligatures (OpenType feature: hlig).. `css-fonts` */
+    const noHistoricalLigatures: Property
+    /** Enables display of contextual alternates (OpenType feature: calt). Although not strictly a ligature feature, like ligatures this feature is commonly used to harmonize the shapes of glyphs with the surrounding context. For OpenType fonts, this feature is on by default.. `css-fonts` */
+    const contextual: Property
+    /** Disables display of contextual alternates (OpenType feature: calt).. `css-fonts` */
+    const noContextual: Property
   }
 
   /** Create a `font-variant-numeric` property. `css-fonts` */
@@ -7577,6 +7783,18 @@ declare global {
     const ordinal: Property
     /** Enables display of slashed zeros (OpenType feature: zero).. `css-fonts` */
     const slashedZero: Property
+    /** Enables display of lining numerals (OpenType feature: lnum).. `css-fonts` */
+    const liningNums: Property
+    /** Enables display of old-style numerals (OpenType feature: onum).. `css-fonts` */
+    const oldstyleNums: Property
+    /** Enables display of proportional numerals (OpenType feature: pnum).. `css-fonts` */
+    const proportionalNums: Property
+    /** Enables display of tabular numerals (OpenType feature: tnum).. `css-fonts` */
+    const tabularNums: Property
+    /** Enables display of lining diagonal fractions (OpenType feature: frac).. `css-fonts` */
+    const diagonalFractions: Property
+    /** Enables display of lining stacked fractions (OpenType feature: afrc).. `css-fonts` */
+    const stackedFractions: Property
   }
 
   /** Create a `font-variant-position` property. `css-fonts` */
@@ -7604,6 +7822,10 @@ declare global {
     const bolder: Property
     /** Specifies a lighter weight than the inherited value. See § 2.2.1 Relative Weights.. `css-fonts` */
     const lighter: Property
+    /** Same as 400.. `css-fonts` */
+    const normal: Property
+    /** Same as 700.. `css-fonts` */
+    const bold: Property
   }
 
   /** Create a `footnote-display` property. `css-gcpm` */
@@ -7641,6 +7863,10 @@ declare global {
 
   /** Create a `gap` property. `css-align` */
   function gap(value: any): Property
+  module gap {
+    /** The normal represents a used value of 1em on multi-column containers, and a used value of 0px in all other contexts.. `css-align` */
+    const normal: Property
+  }
 
   /** Create a `glyph-orientation-horizontal` property. `unknown-spec` */
   function glyphOrientationHorizontal(value: any): Property
@@ -7733,6 +7959,12 @@ declare global {
     const none: Property
     /** `subgrid` keyword. `css-grid` */
     const subgrid: Property
+    /** As a maximum: represents the largest max-content contribution of the grid items occupying the grid track; however, unlike max-content, allows expansion of the track by the align-content and justify-content properties. As a minimum: represents the largest minimum size (specified by min-width/min-height) of the grid items occupying the grid track. (This initially is often, but not always, equal to a min-content minimum—see § 6.6 Automatic Minimum Size of Grid Items.) When appearing outside a minmax() notation: equivalent to minmax(auto, auto), representing the range between the minimum and maximum described above. (This behaves similar to minmax(min-content, max-content) in the most basic cases, but with extra abilities.). `css-grid` */
+    const auto: Property
+    /** Represents the largest max-content contribution of the grid items occupying the grid track.. `css-grid` */
+    const maxContent: Property
+    /** Represents the largest min-content contribution of the grid items occupying the grid track.. `css-grid` */
+    const minContent: Property
   }
 
   /** Create a `grid-template-rows` property. `css-grid, css-grid-3` */
@@ -7742,6 +7974,12 @@ declare global {
     const none: Property
     /** `subgrid` keyword. `css-grid` */
     const subgrid: Property
+    /** As a maximum: represents the largest max-content contribution of the grid items occupying the grid track; however, unlike max-content, allows expansion of the track by the align-content and justify-content properties. As a minimum: represents the largest minimum size (specified by min-width/min-height) of the grid items occupying the grid track. (This initially is often, but not always, equal to a min-content minimum—see § 6.6 Automatic Minimum Size of Grid Items.) When appearing outside a minmax() notation: equivalent to minmax(auto, auto), representing the range between the minimum and maximum described above. (This behaves similar to minmax(min-content, max-content) in the most basic cases, but with extra abilities.). `css-grid` */
+    const auto: Property
+    /** Represents the largest max-content contribution of the grid items occupying the grid track.. `css-grid` */
+    const maxContent: Property
+    /** Represents the largest min-content contribution of the grid items occupying the grid track.. `css-grid` */
+    const minContent: Property
   }
 
   /** Create a `hanging-punctuation` property. `css-text-4, css-text` */
@@ -7772,6 +8010,12 @@ declare global {
   /** Create a `height` property. `css-sizing-4, css-sizing` */
   function height(value: any): Property
   module height {
+    /** Applies stretch-fit sizing, attempting to match the size of the box’s margin box to the size of its containing block. See § 6.1 Stretch-fit Sizing: filling the containing block.. `css-sizing-4` */
+    const stretch: Property
+    /** Essentially fit-content(stretch) i.e. min(max-content, max(min-content, stretch)).. `css-sizing-4` */
+    const fitContent: Property
+    /** If the box has a preferred aspect ratio, applies contain-fit sizing, attempting to fit into the box’s constraints while maintaining its preferred aspect ratio insofar as possible. See § 6.2 Contain-fit Sizing: stretching while maintaining an aspect ratio. If the box has no preferred aspect ratio, applies stretch-fit sizing.. `css-sizing-4` */
+    const contain: Property
     /** For width/height, specifies an automatic size (automatic block size/automatic inline size). See the relevant layout module for how to calculate this. For min-width/min-height, specifies an automatic minimum size. Unless otherwise defined by the relevant layout module, however, it resolves to a used value of 0. For backwards-compatibility, the resolved value of this keyword is zero for boxes of all [CSS2] display types: block and inline boxes, inline blocks, and all the table layout boxes. It also resolves to zero when no box is generated.. `css-sizing` */
     const auto: Property
     /** Use the min-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. `css-sizing` */
@@ -7814,6 +8058,16 @@ declare global {
   module hyphenateLimitLines {
     /** `no-limit` keyword. `css-text-4` */
     const noLimit: Property
+    /** No restrictions imposed.. `css-text-4` */
+    const none: Property
+    /** The last full line of the element, or the last line before any column, page, or spread break inside the element should not be hyphenated.. `css-text-4` */
+    const always: Property
+    /** The last line before any column, page, or spread break inside the element should not be hyphenated.. `css-text-4` */
+    const column: Property
+    /** The last line before page or spread break inside the element should not be hyphenated.. `css-text-4` */
+    const page: Property
+    /** The last line before any spread break inside the element should not be hyphenated.. `css-text-4` */
+    const spread: Property
   }
 
   /** Create a `hyphenate-limit-zone` property. `css-text-4` */
@@ -7921,6 +8175,14 @@ declare global {
 
   /** Create a `inline-size` property. `css-logical, css-sizing-4` */
   function inlineSize(value: any): Property
+  module inlineSize {
+    /** Applies stretch-fit sizing, attempting to match the size of the box’s margin box to the size of its containing block. See § 6.1 Stretch-fit Sizing: filling the containing block.. `css-sizing-4` */
+    const stretch: Property
+    /** Essentially fit-content(stretch) i.e. min(max-content, max(min-content, stretch)).. `css-sizing-4` */
+    const fitContent: Property
+    /** If the box has a preferred aspect ratio, applies contain-fit sizing, attempting to fit into the box’s constraints while maintaining its preferred aspect ratio insofar as possible. See § 6.2 Contain-fit Sizing: stretching while maintaining an aspect ratio. If the box has no preferred aspect ratio, applies stretch-fit sizing.. `css-sizing-4` */
+    const contain: Property
+  }
 
   /** Create a `inline-sizing` property. `css-inline` */
   function inlineSizing(value: any): Property
@@ -8664,19 +8926,63 @@ declare global {
   module maskClip {
     /** The painted content is not restricted (not clipped).. `css-masking` */
     const noClip: Property
+    /** The painted content is restricted to (clipped to) the content box.. `css-masking` */
+    const contentBox: Property
+    /** The painted content is restricted to (clipped to) the padding box.. `css-masking` */
+    const paddingBox: Property
+    /** The painted content is restricted to (clipped to) the border box.. `css-masking` */
+    const borderBox: Property
+    /** The painted content is restricted to (clipped to) the object bounding box.. `css-masking` */
+    const fillBox: Property
+    /** The painted content is restricted to (clipped to) the stroke bounding box.. `css-masking` */
+    const strokeBox: Property
+    /** Uses the nearest SVG viewport as reference box. If a viewBox attribute is specified for the SVG viewport creating element: The reference box is positioned at the origin of the coordinate system established by the viewBox attribute. The dimension of the reference box is set to the width and height values of the viewBox attribute.. `css-masking` */
+    const viewBox: Property
   }
 
   /** Create a `mask-composite` property. `css-masking` */
   function maskComposite(value: any): Property
+  module maskComposite {
+    /** The source is placed over the destination. (See Porter-Duff compositing operator source over for more details.). `css-masking` */
+    const add: Property
+    /** The source is placed, where it falls outside of the destination. (See Porter-Duff compositing operator source out for more details.). `css-masking` */
+    const subtract: Property
+    /** The parts of source that overlap the destination, replace the destination. (See Porter-Duff compositing operator source in .). `css-masking` */
+    const intersect: Property
+    /** The non-overlapping regions of source and destination are combined. (See Porter-Duff compositing operator XOR.). `css-masking` */
+    const exclude: Property
+  }
 
   /** Create a `mask-image` property. `css-masking` */
   function maskImage(value: any): Property
 
   /** Create a `mask-mode` property. `css-masking` */
   function maskMode(value: any): Property
+  module maskMode {
+    /** A value of alpha indicates that the alpha values of the mask layer image should be used as the mask values. See Calculating mask values.. `css-masking` */
+    const alpha: Property
+    /** A value of luminance indicates that the luminance values of the mask layer image should be used as the mask values. See Calculating mask values.. `css-masking` */
+    const luminance: Property
+    /** If the <mask-reference> of the mask-image property is of type <mask-source> the value specified by the referenced mask element’s mask-type property must be used. If the <mask-reference> of the mask-image property is of type <image> the alpha values of the mask layer image should be used as the mask values.. `css-masking` */
+    const matchSource: Property
+  }
 
   /** Create a `mask-origin` property. `css-masking` */
   function maskOrigin(value: any): Property
+  module maskOrigin {
+    /** The position is relative to the content box.. `css-masking` */
+    const contentBox: Property
+    /** The position is relative to the padding box. (For single boxes 0 0 is the upper left corner of the padding edge, 100% 100% is the lower right corner.). `css-masking` */
+    const paddingBox: Property
+    /** The position is relative to the border box.. `css-masking` */
+    const borderBox: Property
+    /** The position is relative to the object bounding box.. `css-masking` */
+    const fillBox: Property
+    /** The position is relative to the stroke bounding box.. `css-masking` */
+    const strokeBox: Property
+    /** Uses the nearest SVG viewport as reference box. If a viewBox attribute is specified for the SVG viewport creating element: The reference box is positioned at the origin of the coordinate system established by the viewBox attribute. The dimension of the reference box is set to the width and height values of the viewBox attribute.. `css-masking` */
+    const viewBox: Property
+  }
 
   /** Create a `mask-position` property. `css-masking` */
   function maskPosition(value: any): Property
@@ -8745,10 +9051,24 @@ declare global {
 
   /** Create a `max-block-size` property. `css-logical, css-sizing-4` */
   function maxBlockSize(value: any): Property
+  module maxBlockSize {
+    /** Applies stretch-fit sizing, attempting to match the size of the box’s margin box to the size of its containing block. See § 6.1 Stretch-fit Sizing: filling the containing block.. `css-sizing-4` */
+    const stretch: Property
+    /** Essentially fit-content(stretch) i.e. min(max-content, max(min-content, stretch)).. `css-sizing-4` */
+    const fitContent: Property
+    /** If the box has a preferred aspect ratio, applies contain-fit sizing, attempting to fit into the box’s constraints while maintaining its preferred aspect ratio insofar as possible. See § 6.2 Contain-fit Sizing: stretching while maintaining an aspect ratio. If the box has no preferred aspect ratio, applies stretch-fit sizing.. `css-sizing-4` */
+    const contain: Property
+  }
 
   /** Create a `max-height` property. `css-sizing-4, css-sizing` */
   function maxHeight(value: any): Property
   module maxHeight {
+    /** Applies stretch-fit sizing, attempting to match the size of the box’s margin box to the size of its containing block. See § 6.1 Stretch-fit Sizing: filling the containing block.. `css-sizing-4` */
+    const stretch: Property
+    /** Essentially fit-content(stretch) i.e. min(max-content, max(min-content, stretch)).. `css-sizing-4` */
+    const fitContent: Property
+    /** If the box has a preferred aspect ratio, applies contain-fit sizing, attempting to fit into the box’s constraints while maintaining its preferred aspect ratio insofar as possible. See § 6.2 Contain-fit Sizing: stretching while maintaining an aspect ratio. If the box has no preferred aspect ratio, applies stretch-fit sizing.. `css-sizing-4` */
+    const contain: Property
     /** No limit on the size of the box.. `css-sizing` */
     const none: Property
     /** Use the min-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. `css-sizing` */
@@ -8759,6 +9079,14 @@ declare global {
 
   /** Create a `max-inline-size` property. `css-logical, css-sizing-4` */
   function maxInlineSize(value: any): Property
+  module maxInlineSize {
+    /** Applies stretch-fit sizing, attempting to match the size of the box’s margin box to the size of its containing block. See § 6.1 Stretch-fit Sizing: filling the containing block.. `css-sizing-4` */
+    const stretch: Property
+    /** Essentially fit-content(stretch) i.e. min(max-content, max(min-content, stretch)).. `css-sizing-4` */
+    const fitContent: Property
+    /** If the box has a preferred aspect ratio, applies contain-fit sizing, attempting to fit into the box’s constraints while maintaining its preferred aspect ratio insofar as possible. See § 6.2 Contain-fit Sizing: stretching while maintaining an aspect ratio. If the box has no preferred aspect ratio, applies stretch-fit sizing.. `css-sizing-4` */
+    const contain: Property
+  }
 
   /** Create a `max-lines` property. `css-overflow-4` */
   function maxLines(value: any): Property
@@ -8770,6 +9098,12 @@ declare global {
   /** Create a `max-width` property. `css-sizing-4, css-sizing` */
   function maxWidth(value: any): Property
   module maxWidth {
+    /** Applies stretch-fit sizing, attempting to match the size of the box’s margin box to the size of its containing block. See § 6.1 Stretch-fit Sizing: filling the containing block.. `css-sizing-4` */
+    const stretch: Property
+    /** Essentially fit-content(stretch) i.e. min(max-content, max(min-content, stretch)).. `css-sizing-4` */
+    const fitContent: Property
+    /** If the box has a preferred aspect ratio, applies contain-fit sizing, attempting to fit into the box’s constraints while maintaining its preferred aspect ratio insofar as possible. See § 6.2 Contain-fit Sizing: stretching while maintaining an aspect ratio. If the box has no preferred aspect ratio, applies stretch-fit sizing.. `css-sizing-4` */
+    const contain: Property
     /** No limit on the size of the box.. `css-sizing` */
     const none: Property
     /** Use the min-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. `css-sizing` */
@@ -8783,10 +9117,24 @@ declare global {
 
   /** Create a `min-block-size` property. `css-logical, css-sizing-4` */
   function minBlockSize(value: any): Property
+  module minBlockSize {
+    /** Applies stretch-fit sizing, attempting to match the size of the box’s margin box to the size of its containing block. See § 6.1 Stretch-fit Sizing: filling the containing block.. `css-sizing-4` */
+    const stretch: Property
+    /** Essentially fit-content(stretch) i.e. min(max-content, max(min-content, stretch)).. `css-sizing-4` */
+    const fitContent: Property
+    /** If the box has a preferred aspect ratio, applies contain-fit sizing, attempting to fit into the box’s constraints while maintaining its preferred aspect ratio insofar as possible. See § 6.2 Contain-fit Sizing: stretching while maintaining an aspect ratio. If the box has no preferred aspect ratio, applies stretch-fit sizing.. `css-sizing-4` */
+    const contain: Property
+  }
 
   /** Create a `min-height` property. `css-sizing-4, css-sizing` */
   function minHeight(value: any): Property
   module minHeight {
+    /** Applies stretch-fit sizing, attempting to match the size of the box’s margin box to the size of its containing block. See § 6.1 Stretch-fit Sizing: filling the containing block.. `css-sizing-4` */
+    const stretch: Property
+    /** Essentially fit-content(stretch) i.e. min(max-content, max(min-content, stretch)).. `css-sizing-4` */
+    const fitContent: Property
+    /** If the box has a preferred aspect ratio, applies contain-fit sizing, attempting to fit into the box’s constraints while maintaining its preferred aspect ratio insofar as possible. See § 6.2 Contain-fit Sizing: stretching while maintaining an aspect ratio. If the box has no preferred aspect ratio, applies stretch-fit sizing.. `css-sizing-4` */
+    const contain: Property
     /** For width/height, specifies an automatic size (automatic block size/automatic inline size). See the relevant layout module for how to calculate this. For min-width/min-height, specifies an automatic minimum size. Unless otherwise defined by the relevant layout module, however, it resolves to a used value of 0. For backwards-compatibility, the resolved value of this keyword is zero for boxes of all [CSS2] display types: block and inline boxes, inline blocks, and all the table layout boxes. It also resolves to zero when no box is generated.. `css-sizing` */
     const auto: Property
     /** Use the min-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. `css-sizing` */
@@ -8797,6 +9145,14 @@ declare global {
 
   /** Create a `min-inline-size` property. `css-logical, css-sizing-4` */
   function minInlineSize(value: any): Property
+  module minInlineSize {
+    /** Applies stretch-fit sizing, attempting to match the size of the box’s margin box to the size of its containing block. See § 6.1 Stretch-fit Sizing: filling the containing block.. `css-sizing-4` */
+    const stretch: Property
+    /** Essentially fit-content(stretch) i.e. min(max-content, max(min-content, stretch)).. `css-sizing-4` */
+    const fitContent: Property
+    /** If the box has a preferred aspect ratio, applies contain-fit sizing, attempting to fit into the box’s constraints while maintaining its preferred aspect ratio insofar as possible. See § 6.2 Contain-fit Sizing: stretching while maintaining an aspect ratio. If the box has no preferred aspect ratio, applies stretch-fit sizing.. `css-sizing-4` */
+    const contain: Property
+  }
 
   /** Create a `min-intrinsic-sizing` property. `css-sizing-4` */
   function minIntrinsicSizing(value: any): Property
@@ -8812,6 +9168,12 @@ declare global {
   /** Create a `min-width` property. `css-sizing-4, css-sizing` */
   function minWidth(value: any): Property
   module minWidth {
+    /** Applies stretch-fit sizing, attempting to match the size of the box’s margin box to the size of its containing block. See § 6.1 Stretch-fit Sizing: filling the containing block.. `css-sizing-4` */
+    const stretch: Property
+    /** Essentially fit-content(stretch) i.e. min(max-content, max(min-content, stretch)).. `css-sizing-4` */
+    const fitContent: Property
+    /** If the box has a preferred aspect ratio, applies contain-fit sizing, attempting to fit into the box’s constraints while maintaining its preferred aspect ratio insofar as possible. See § 6.2 Contain-fit Sizing: stretching while maintaining an aspect ratio. If the box has no preferred aspect ratio, applies stretch-fit sizing.. `css-sizing-4` */
+    const contain: Property
     /** For width/height, specifies an automatic size (automatic block size/automatic inline size). See the relevant layout module for how to calculate this. For min-width/min-height, specifies an automatic minimum size. Unless otherwise defined by the relevant layout module, however, it resolves to a used value of 0. For backwards-compatibility, the resolved value of this keyword is zero for boxes of all [CSS2] display types: block and inline boxes, inline blocks, and all the table layout boxes. It also resolves to zero when no box is generated.. `css-sizing` */
     const auto: Property
     /** Use the min-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. `css-sizing` */
@@ -9487,6 +9849,12 @@ declare global {
     const auto: Property
     /** `inherit` keyword. `css` */
     const inherit: Property
+    /** Always force a page break before (after) the generated box.. `css` */
+    const always: Property
+    /** Force one or two page breaks before (after) the generated box so that the next page is formatted as a left page.. `css` */
+    const left: Property
+    /** Force one or two page breaks before (after) the generated box so that the next page is formatted as a right page.. `css` */
+    const right: Property
   }
 
   /** Create a `page-orientation` property. `unknown-spec` */
@@ -9557,6 +9925,18 @@ declare global {
 
   /** Create a `perspective-origin` property. `css-transforms-2` */
   function perspectiveOrigin(value: any): Property
+  module perspectiveOrigin {
+    /** Computes to 0% for the vertical position if one or two values are given, otherwise specifies the top edge as the origin for the next offset.. `css-transforms-2` */
+    const top: Property
+    /** Computes to 100% for the horizontal position if one or two values are given, otherwise specifies the right edge as the origin for the next offset.. `css-transforms-2` */
+    const right: Property
+    /** Computes to 100% for the vertical position if one or two values are given, otherwise specifies the bottom edge as the origin for the next offset.. `css-transforms-2` */
+    const bottom: Property
+    /** Computes to 0% for the horizontal position if one or two values are given, otherwise specifies the left edge as the origin for the next offset.. `css-transforms-2` */
+    const left: Property
+    /** Computes to 50% (left 50%) for the horizontal position if the horizontal position is not otherwise specified, or 50% (top 50%) for the vertical position if it is.. `css-transforms-2` */
+    const center: Property
+  }
 
   /** Create a `perspective-origin-x` property. `unknown-spec` */
   function perspectiveOriginX(value: any): Property
@@ -10118,6 +10498,10 @@ declare global {
     const vertical: Property
     /** Specifies to use the measure of progress along the horizontal axis of the scroll container.. `scroll-animations` */
     const horizontal: Property
+    /** Specifies to use the nearest ancestor scroll container. (Default.). `scroll-animations` */
+    const nearest: Property
+    /** Specifies to use the document viewport as the scroll container.. `scroll-animations` */
+    const root: Property
   }
 
   /** Create a `scroll-timeline-name` property. `scroll-animations` */
@@ -10875,6 +11259,8 @@ declare global {
 
     `css-text`: `justify-all` keyword. */
     const justifyAll: Property
+    /** `alignment character` keyword. `css-text-4` */
+    const alignment_character: Property
   }
 
   /** Create a `text-align-all` property. `css-text-4, css-text` */
@@ -10963,6 +11349,18 @@ declare global {
   module textAutospace {
     /** Same behavior as ideograph-alpha ideograph-numeric.. `css-text-4` */
     const normal: Property
+    /** No automatic space is inserted.. `css-text-4` */
+    const noAutospace: Property
+    /** The specified spacing is automatically inserted if there are no space characters of any kind (Unicode general category Z) already there. If neither insert nor replace are specified, the behavior is the same as insert.. `css-text-4` */
+    const insert: Property
+    /** The specified spacing is automatically inserted even if there is already a space (U+0020) at that point; additionally, the space (U+0020) is removed. Other types of space characters (Unicode general category Z) suppress automatic spacing, as for insert.. `css-text-4` */
+    const replace: Property
+    /** Creates extra spacing between runs of ideographs and non-ideographic letters, see § 8.4.1 Inter-script Spacing.. `css-text-4` */
+    const ideographAlpha: Property
+    /** Creates extra spacing between runs of ideographs and non-ideographic numerals, see § 8.4.1 Inter-script Spacing.. `css-text-4` */
+    const ideographNumeric: Property
+    /** Creates extra non-breaking spacing around punctuation as required by language-specific typographic conventions. In this level, if the element’s content language is French, narrow no-break space (U+202F) and no-break space (U+00A0) is inserted where required by French typographic guidelines. Otherwise this value has no effect. However future specifications may add automatic spacing behavior for other languages.. `css-text-4` */
+    const punctuation: Property
   }
 
   /** Create a `text-combine-upright` property. `css-writing-modes` */
@@ -11586,6 +11984,10 @@ declare global {
     const interCharacter: Property
     /** Justification must not compress spacing controlled by text-spacing-trim or text-autospace. (If this value is not specified, the justification process may reduce such spacing except when the spacing is at the start or end of the line.) This keyword used to be part of text-spacing; it might need renaming to be more specific now that it’s here, as it implies that e.g. U+0020 cannot be compressed.. `css-text-4` */
     const noCompress: Property
+    /** For legacy reasons, UAs must also support the alternate keyword distribute which must compute to inter-character, thus having the exact same meaning and behavior. UAs may treat this as a legacy value alias.. `css-text-4` */
+    const distribute: Property
+    /** Justification adjusts spacing as for auto except: Justification opportunities are disabled at word separators. Justification opportunities are disabled between Bopomofo characters. `css-text-4` */
+    const ruby: Property
   }
 
   /** Create a `text-justify-trim` property. `unknown-spec` */
@@ -11621,6 +12023,8 @@ declare global {
     const upright: Property
     /** Causes all text to be typeset sideways, as if in a horizontal layout, but rotated 90° clockwise.. `css-writing-modes` */
     const sideways: Property
+    /** UAs may accept sideways-right as a value that computes to sideways if needed for backward compatibility reasons.. `css-writing-modes` */
+    const sidewaysRight: Property
   }
 
   /** Create a `text-overflow` property. `css-overflow-4, css-overflow` */
@@ -11878,6 +12282,14 @@ declare global {
   module textSpacingTrim {
     /** The user agent chooses a set of typographically high quality spacing values. Different user agents running on different platforms may pick different values. Do we need auto? It would be weird for the author to choose platform-dependent behavior at the start of the first line, and it should otherwise use trim-auto.. `css-text-4` */
     const auto: Property
+    /** All fullwidth punctuation characters are set with full-width glyphs (spaced).. `css-text-4` */
+    const spaceAll: Property
+    /** Set fullwidth opening punctuation with half-width glyphs (flush) at the start of each line; set fullwidth closing punctuation with half-width glyphs (flush) at the end of each line; and collapse spacing between punctuation glyphs as described below.. `css-text-4` */
+    const trimAuto: Property
+    /** Set fullwidth opening punctuation with full-width glyphs (spaced) on the first line the block container. Otherwise as trim-auto (unless allow-end is also specified).. `css-text-4` */
+    const spaceFirst: Property
+    /** Set fullwidth closing punctuation with half-width glyphs (flush) at the end of each line if it does not otherwise fit prior to justification, else set the punctuation with full-width glyphs. Otherwise as trim-auto (unless space-first is also specified).. `css-text-4` */
+    const allowEnd: Property
   }
 
   /** Create a `text-transform` property. `mathml-core, css-text-4, css-text` */
@@ -12097,6 +12509,8 @@ declare global {
   module transitionProperty {
     /** A value of none means that no property will transition. Otherwise, a list of properties to be transitioned, or the keyword all which indicates that all properties are to be transitioned, is given.. `css-transitions` */
     const none: Property
+    /** A value of none means that no property will transition. Otherwise, a list of properties to be transitioned, or the keyword all which indicates that all properties are to be transitioned, is given.. `css-transitions` */
+    const all: Property
   }
 
   /** Create a `transition-timing-function` property. `css-transitions` */
@@ -12179,6 +12593,34 @@ declare global {
     const first: Property
     /** Specifies last-baseline alignment.. `css-inline` */
     const last: Property
+    /** Specifies last-baseline alignment for inline-block, first-baseline alignment for everything else.. `css-inline` */
+    const auto: Property
+    /** Use the dominant baseline choice of the parent.. `css-inline` */
+    const baseline: Property
+    /** Use the text-under baseline.. `css-inline` */
+    const textBottom: Property
+    /** Use the alphabetic baseline.. `css-inline` */
+    const alphabetic: Property
+    /** Use the ideographic-under baseline.. `css-inline` */
+    const ideographic: Property
+    /** In general, use the x-middle baselines; except under text-orientation: upright (where the alphabetic and x-height baselines are essentially meaningless) use the central baseline instead.. `css-inline` */
+    const middle: Property
+    /** Use the central baseline.. `css-inline` */
+    const central: Property
+    /** Use the math baseline.. `css-inline` */
+    const mathematical: Property
+    /** Use the text-over baseline.. `css-inline` */
+    const textTop: Property
+    /** Lower by the offset appropriate for subscripts of the parent’s box. The UA may use the parent’s font metrics to find this offset; otherwise it defaults to dropping by one fifth of the parent’s used font-size.. `css-inline` */
+    const sub: Property
+    /** Raise by the offset appropriate for superscripts of the parent’s box. The UA may use the parent’s font metrics to find this offset; otherwise it defaults to raising by one third of the parent’s used font-size.. `css-inline` */
+    const _super: Property
+    /** Align the line-over edge of the aligned subtree with the line-over edge of the line box.. `css-inline` */
+    const top: Property
+    /** Align the center of the aligned subtree with the center of the line box.. `css-inline` */
+    const center: Property
+    /** Align the line-under edge of the aligned subtree with the line-under edge of the line box.. `css-inline` */
+    const bottom: Property
   }
 
   /** Create a `view-timeline` property. `scroll-animations` */
@@ -12195,6 +12637,10 @@ declare global {
     const vertical: Property
     /** Specifies to use the measure of progress along the horizontal axis of the scroll container.. `scroll-animations` */
     const horizontal: Property
+    /** Specifies to use the nearest ancestor scroll container. (Default.). `scroll-animations` */
+    const nearest: Property
+    /** Specifies to use the document viewport as the scroll container.. `scroll-animations` */
+    const root: Property
   }
 
   /** Create a `view-timeline-inset` property. `scroll-animations` */
@@ -12265,6 +12711,18 @@ declare global {
   module voiceFamily {
     /** Indicates that the voice-family value gets inherited and used regardless of any potential language change within the content markup (see the section below about voice selection and language handling). This value behaves as inherit when applied to the root element. Note: Descendants of the element automatically inherit the preserve value, unless it is explicitly overridden by other voice-family values (e.g. name, gender, age).. `css-speech` */
     const preserve: Property
+    /** `child` keyword. `css-speech` */
+    const child: Property
+    /** `young` keyword. `css-speech` */
+    const young: Property
+    /** `old` keyword. `css-speech` */
+    const old: Property
+    /** `male` keyword. `css-speech` */
+    const male: Property
+    /** `female` keyword. `css-speech` */
+    const female: Property
+    /** `neutral` keyword. `css-speech` */
+    const neutral: Property
   }
 
   /** Create a `voice-pitch` property. `css-speech` */
@@ -12388,6 +12846,12 @@ declare global {
   /** Create a `width` property. `css-sizing-4, css-sizing` */
   function width(value: any): Property
   module width {
+    /** Applies stretch-fit sizing, attempting to match the size of the box’s margin box to the size of its containing block. See § 6.1 Stretch-fit Sizing: filling the containing block.. `css-sizing-4` */
+    const stretch: Property
+    /** Essentially fit-content(stretch) i.e. min(max-content, max(min-content, stretch)).. `css-sizing-4` */
+    const fitContent: Property
+    /** If the box has a preferred aspect ratio, applies contain-fit sizing, attempting to fit into the box’s constraints while maintaining its preferred aspect ratio insofar as possible. See § 6.2 Contain-fit Sizing: stretching while maintaining an aspect ratio. If the box has no preferred aspect ratio, applies stretch-fit sizing.. `css-sizing-4` */
+    const contain: Property
     /** For width/height, specifies an automatic size (automatic block size/automatic inline size). See the relevant layout module for how to calculate this. For min-width/min-height, specifies an automatic minimum size. Unless otherwise defined by the relevant layout module, however, it resolves to a used value of 0. For backwards-compatibility, the resolved value of this keyword is zero for boxes of all [CSS2] display types: block and inline boxes, inline blocks, and all the table layout boxes. It also resolves to zero when no box is generated.. `css-sizing` */
     const auto: Property
     /** Use the min-content size in the relevant axis; for a box’s block size, unless otherwise specified, this is equivalent to its automatic size.. `css-sizing` */
@@ -12401,6 +12865,10 @@ declare global {
   module willChange {
     /** Expresses no particular intent; the user agent should apply whatever heuristics and optimizations it normally does.. `css-will-change` */
     const auto: Property
+    /** Indicates that the author expects to animate or change the scroll position of the element in the near future. For example, browsers often only render the content in the "scroll window" on a scrollable element, and some of the content past that window, balancing memory and time savings from the skipped rendering against making scrolling look nice. A browser might take this value as a signal to expand the range of content around the scroll window that is rendered, so that longer/faster scrolls can be done smoothly.. `css-will-change` */
+    const scrollPosition: Property
+    /** Indicates that the author expects to animate or change something about the element’s contents in the near future. For example, browsers often “cache” rendering of elements over time, because most things don’t change very often, or only change their position. However, if an element does change its contents continually, producing and maintaining this cache is a waste of time. A browser might take this value as a signal to cache less aggressively on the element, or avoid caching at all and just continually re-render the element from scratch. This value is mostly intended to help browsers optimize JS-based animations of content, which change aspects of an element’s contents many times per second. This kind of optimization, when possible, is already done automatically by browsers when declarative animations are used.. `css-will-change` */
+    const contents: Property
   }
 
   /** Create a `word-boundary-detection` property. `css-text-4` */

@@ -19,7 +19,7 @@ Bun.plugin({
 
     builder.onResolve({ namespace: "assets", filter: /.*/ }, ({ path }) => {
       return {
-        path: resolve("assets", path),
+        path: resolve("src", "assets", path),
         namespace: "assets"
       }
     })

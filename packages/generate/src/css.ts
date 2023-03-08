@@ -71,6 +71,20 @@ export default async function getCssSymbols() {
           })
         }
       }
+      // Some props list values that don't appear in the `value`, such as `font-weight`.
+      if (refProp.values) {
+        for (const refValue of refProp.values) {
+          if (property.values.some(v => v.name === refValue.name)) continue
+          if (refValue.name.includes("<") || refValue.name.includes("(") || refValue.name.includes("|")) continue
+          if (refValue.type !== "value") continue
+          property.values.push({
+            name: refValue.name,
+            jsName: camelize(jsName(refValue.name)),
+            type: "keyword",
+            helps: [{ spec, help: refValue.prose }],
+          })
+        }
+      }
     }
   }
 

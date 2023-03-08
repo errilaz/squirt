@@ -44,6 +44,7 @@ export default async function createRouter(root: string, loader: Loader, product
     
     for (const extension of contextExtensions) {
       const module = await loader.module(extension)
+      if (!(typeof module.default === "function")) continue
       const props = module.default(context)
       context = { ...props, ...context }
     }

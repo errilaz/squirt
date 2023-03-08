@@ -193,8 +193,14 @@ These are run on each request to augment the `Context` object with your own valu
 ```ts
 // session.global.ts
 declare global {
-  type SessionContext = Context & {
+  // Augmenting the global Context with a possible session field
+  interface Context {
     session?: MySessionType
+  }
+
+  // Creating a Context type for when session is known to be present
+  interface SessionContext extends Context {
+    session: MySessionType
   }
 }
 
