@@ -1,10 +1,15 @@
 import { ServerWebSocket } from "bun"
 
 declare global {
+  /** `true` in production mode. */
   const production: boolean
+  /** `true` in development mode. */
   const development: boolean
+  /** Absolute path of the project root. */
   const root: string
+  /** Returns a `<script>` tag with live reload script. Pass `false` to disable. */
   function liveReload(enabled?: boolean): Element | null
+  /** Create a `Response` that redirects the request.  */
   function redirect(location: string, temporary = false): Response
 
   type Handler = (request: Request) => Response

@@ -4,12 +4,6 @@ import { render } from "@squirt/markup/src/render"
 import { Loader } from "./loader"
 import { Server } from "bun"
 
-const routePattern = /^routes(\/?.*\/([^/]+))\.(html|css|api|socket)\.(ts|js|civet)$/
-const contextPattern = /\.context\.(ts|js|civet)$/
-const paramPattern = /\[([^\]]+)\]/g
-const wildPattern = /\[\.\.\.(.+)\]$/
-const unroutablePattern = /\/_/
-
 export default async function createRouter(root: string, loader: Loader, production: boolean) {
   // TODO: route precedence
   const routes: Route[] = []
@@ -163,6 +157,8 @@ export default async function createRouter(root: string, loader: Loader, product
   }
 
   function addFile(path: string) {
+    const contextPattern = /\.context\.(ts|js|civet)$/
+
     if (contextPattern.test(path)) {
       contextExtensions.add(absolute(path))
     }
@@ -181,14 +177,19 @@ export default async function createRouter(root: string, loader: Loader, product
   }
 
   function createRoute(path: string): Route | null {
+    const routePattern = /^routes(\/?.*\/([^/]+))\.(html|css|api|socket)\.(ts|js|civet)$/
+    const paramPattern = /\[([^\]]+)\]/g
+    const wildPattern = /\[\.\.\.(.+)\]$/
+    const unroutablePattern = /\/_/
+
     if (unroutablePattern.test(path)) return null
 
     const [, pattern, filename, type, language] = routePattern.exec(path) || []
     if (!pattern) return null
 
     let url = type === "css" ? pattern + ".css" :
-      (filename === "index" ? pattern.substring(0, pattern.length - 5) : pattern)
-
+      (filename === "index" ? pattern.replace(/\/?index/, "") : pattern)
+    
     const [, wildKey] = wildPattern.exec(url) || []
     if (wildKey) {
       url = url.replace(wildPattern, "*")
@@ -196,7 +197,7 @@ export default async function createRouter(root: string, loader: Loader, product
 
     const isParam = paramPattern.test(url)
     if (isParam) {
-      url = url.replace(/\[([^\]]+)\]/g, ":$1")
+      url = url.replace(paramPattern, ":$1")
     }
 
     const route: Route = {
