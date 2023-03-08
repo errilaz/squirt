@@ -210,6 +210,31 @@ export default ({ request }: Context) => {
 }
 ```
 
+Here is an example adding a utility for marking hyperlinks matching the current page with a CSS class:
+
+```ts
+// utility.context.ts
+declare global {
+  interface Context {
+    href(href: string): any
+  }
+}
+
+export default ({ url }: Context) => ({
+  href(href: string) {
+    return [{ href }, url.pathname === href && { class: "current" }]
+  }
+})
+```
+
+Which can be then used in `a` elements:
+
+```ts
+a("Profile", context.href("/profile")),
+a("Inbox", context.href("/inbox")),
+```
+
+
 ## Layouts & Partials
 
 Layouts and partial views can be simply be defined as functions and imported.
@@ -252,9 +277,17 @@ div [
 ]
 ```
 
-Strings, numbers, arrays, etc. are supported as children. `null`, `undefined`, and `false` will render as empty. Anything unrecognized will be converted with `.toString()`.
+Strings, numbers, arrays, etc. are supported as children. `null`, `undefined`, and `false` will render as empty. Anything unrecognized will be converted with `.toString()`. Attributes are defined with plain `{}` objects. Multiple objects can be defined for conveninent composition, and these can appear *after* child elements, text nodes, etc.
 
-The `raw` function will skip HTML escaping for its contents.
+```ts
+a.someClass("My Link", { href: "/my_link" }, { class: "another-class" })
+```
+
+The `raw` function will skip HTML escaping for its contents:
+
+```ts
+raw("<span>hello!</span>")
+```
 
 The `var` element is named `_var` due to conflict with the JS keyword.
 
