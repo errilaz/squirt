@@ -1,4 +1,7 @@
 (function () {
+  if (window._LIVE_RELOAD) return
+  window._LIVE_RELOAD = true
+
   const url = new URL(document.location.toString())
   url.protocol = url.protocol === "http:" ? "ws:" : "wss:"
   url.pathname = "_live_reload_"

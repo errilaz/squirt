@@ -31,7 +31,7 @@
   "dependencies": {
     "@danielx/civet": "^0.5.73",
     "@squirt/markup": "workspace:*",
-    "inwatch": "0.0.6",
+    "inwatch": "0.0.7",
     "regexparam": "^2.0.1",
     "serve-static-bun": "^0.5.0",
     "split": "^1.0.1",

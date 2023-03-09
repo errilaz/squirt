@@ -12,6 +12,28 @@ Bun.plugin({
 })
 
 Bun.plugin({
+  name: "string",
+  async setup(builder) {
+    const { readFileSync } = await import("fs")
+    const { resolve, dirname } = await import("path")
+
+    builder.onResolve({ namespace: "string", filter: /.*/ }, ({ path, importer }) => {
+      return {
+        path: resolve(dirname(importer), path),
+        namespace: "string",
+      }
+    })
+
+    builder.onLoad({ namespace: "string", filter: /.*/ }, ({ path }) => {
+      return {
+        loader: "object",
+        exports: { default: readFileSync(path, "utf8") }
+      }
+    })
+  },
+})
+
+Bun.plugin({
   name: "assets",
   async setup(builder) {
     const { readFileSync, statSync, readdirSync } = await import("fs")
@@ -34,7 +56,7 @@ Bun.plugin({
       }
       const files = readdirSync(path)
         .filter(file => statSync(resolve(path, file)).isFile())
-        .map(file => [file.replace(/\..+$/, ""), readFileSync(resolve(path, file), "utf8")])
+        .map(file => [file.replace(/\.[^.]+$/, ""), readFileSync(resolve(path, file), "utf8")])
       return {
         loader: "object",
         exports: { default: Object.fromEntries(files) }

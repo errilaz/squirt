@@ -2,6 +2,21 @@ lockfileVersion: 5.4
 
 importers:
 
+  ../inwatch:
+    specifiers:
+      '@types/node': ^18.13.0
+      '@types/split': ^1.0.2
+      split: ^1.0.1
+      typed-emitter: ^2.1.0
+      typescript: 4.6.2
+    dependencies:
+      split: 1.0.1
+      typed-emitter: 2.1.0
+    devDependencies:
+      '@types/node': 18.13.0
+      '@types/split': 1.0.2
+      typescript: 4.6.2
+
   packages/example:
     specifiers:
       '@squirt/markup': workspace:*
@@ -51,7 +66,7 @@ importers:
       '@squirt/markup': workspace:*
       '@types/split': ^1.0.2
       bun-types: ^0.5.6
-      inwatch: 0.0.6
+      inwatch: 0.0.7
       regexparam: ^2.0.1
       serve-static-bun: ^0.5.0
       split: ^1.0.1
@@ -59,7 +74,7 @@ importers:
     dependencies:
       '@danielx/civet': 0.5.73
       '@squirt/markup': link:../markup
-      inwatch: 0.0.6
+      inwatch: 0.0.7
       regexparam: 2.0.1
       serve-static-bun: 0.5.0
       split: 1.0.1
@@ -136,8 +151,8 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /inwatch/0.0.6:
-    resolution: {integrity: sha512-SAasnDYG0PrZlLN8idTo/E5UHMiszhQOjxGdykcDGXowdxcHDfbzx6Cr5rJCesr1gDZmJWufUJLkcuvcvwtqyw==}
+  /inwatch/0.0.7:
+    resolution: {integrity: sha512-4e1toIwj+hMK9PXbz+FgpZ56CfWmrpLJghPrJ3aIVWz/8b+4PdnNU1xyAF+KFeBU+IN8NRLxqDsDaWaNATWLKw==}
     dependencies:
       split: 1.0.1
       typed-emitter: 2.1.0
@@ -197,3 +212,9 @@ packages:
     optionalDependencies:
       rxjs: 7.8.0
     dev: false
+
+  /typescript/4.6.2:
+    resolution: {integrity: sha512-HM/hFigTBHZhLXshn9sN37H085+hQGeJHJ/X7LpBWLID/fbc2acUMfU+lGD98X81sKP+pFa9f0DZmCwB9GnbAg==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
