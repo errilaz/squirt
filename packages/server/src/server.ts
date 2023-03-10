@@ -9,7 +9,6 @@ import defineGlobals from "./globals"
 import serveStatic from "serve-static-bun"
 import errorPage from "./error"
 
-const sourcePattern = /\.(tsx?|jsx?|civet|json|toml)$/
 const globalPattern = /\.global\.(ts|js|civet)$/
 
 export interface ServerOptions {
@@ -22,7 +21,6 @@ export interface ServerOptions {
 export default async function createServer({ root, production, hostname, port }: ServerOptions) {
   const loader = createLoader()
   const router = await createRouter(root, loader, production)
-  const globalExtensions: Map<string, Set<string>> = new Map()
   const fetchPublic = serveStatic("public")
 
   defineGlobals(root, production)
@@ -43,7 +41,7 @@ export default async function createServer({ root, production, hostname, port }:
   console.log(`🌭 Squirt listening on :${server.port} at "${root}"`)
   
   if (!production) setTimeout(() => {
-    server.publish("_live_reload_", "reload")
+    liveReload()
   }, 2100)
 
   return server
@@ -95,66 +93,42 @@ export default async function createServer({ root, production, hostname, port }:
       reject: /\/\./,
     })
 
-    watcher.on("add", ({ path }) => {
+    watcher.on("add", async ({ path }) => {
       if (globalPattern.test(path)) {
-        addGlobal(absolute(path))
+        await loader.addGlobal(absolute(path))
       }
       else {
         router.addFile(path)
       }
     })
 
-    watcher.on("change", ({ path }) => {
-      const [, type] = globalPattern.exec(path) || []
+    watcher.on("change", async ({ path }) => {
       if (globalPattern.test(path)) {
-        changeGlobal(absolute(path))
+        await loader.changeGlobal(absolute(path))
       }
-      else if (sourcePattern.test(path)) {
-        loader.expire(absolute(path))
+      else {
+        await loader.expire(absolute(path))
       }
-      if (!production) server.publish("_live_reload_", "reload")
+      liveReload()
     })
 
-    watcher.on("remove", ({ path }) => {
-      const [, type] = globalPattern.exec(path) || []
+    watcher.on("remove", async ({ path }) => {
       if (globalPattern.test(path)) {
-        removeGlobal(absolute(path))
+        await loader.removeGlobal(absolute(path))
       }
-      else if (sourcePattern.test(path)) {
+      else {
         path = absolute(path)
-        loader.expire(path)
+        await loader.expire(path)
         router.removeFile(path)
       }
-      if (!production) server.publish("_live_reload_", "reload")
+      liveReload()
     })
   }
 
-  async function addGlobal(path: string) {
-    const module = await loader.module(path)
-    const globals = new Set<string>()
-    globalExtensions.set(path, globals)
-    const dictionary = module.default ?? module
-    for (const key in dictionary) {
-      globals.add(key)
-      Object.defineProperty(globalThis, key, {
-        configurable: true,
-        value: dictionary[key],
-      })
+  function liveReload() {
+    if (!production) {
+      server.publish("_live_reload_", "reload")
     }
-  }
-
-  function changeGlobal(path: string) {
-    removeGlobal(path)
-    addGlobal(path)
-  }
-
-  function removeGlobal(path: string) {
-    const globals = globalExtensions.get(path)!
-    for (const key of globals) {
-      delete (globalThis as any)[key]
-    }
-    globalExtensions.delete(path)
-    loader.expire(path)
   }
 
   function absolute(path: string) {
