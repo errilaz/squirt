@@ -2,7 +2,10 @@
 
 # Squirt
 
-> HTML OVER THE WIRE ON THE BUN 
+<a href="https://www.npmjs.com/package/@squirt/server"><img src="https://img.shields.io/npm/v/@squirt/server?label=%40squirt%2Fserver&style=flat-square"></a>
+<a href="https://www.npmjs.com/package/@squirt/markup"><img src="https://img.shields.io/npm/v/@squirt/markup?label=%40squirt%2Fmarkup&style=flat-square"></a>
+
+> HTML Over The Wire On The Bun
 
 Squirt is a (🚧 pre-alpha 🚧) do-everything SSR/HOTW/AHAH server and framework built on [Bun](https://bun.sh).
 
