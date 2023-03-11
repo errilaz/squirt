@@ -61,6 +61,13 @@ async function generateCss() {
   types += `import type { Property, AtRule } from "../dom"\n\n`
   define += `import { Factory } from "../factory"\n\n`
 
+  // Colors
+  define += `const colorNames = [\n`
+  for (const color of colors) {
+    define += `  "${color}",\n`
+  }
+  define += `]\n\n`
+
   // Module
   types += `declare global {\n`
   define += `export default function defineCssGlobals() {\n`
@@ -90,8 +97,10 @@ async function generateCss() {
         else if (value.type === "color") {
           for (const color of colors) {
             types += `    const ${color}: Property\n`
-            define += `  Object.defineProperty((globalThis as any).${property.jsName}, "${color}", { value: Factory.propertyValue("${property.name}", "${color}") })\n`
           }
+          define += `  for (const color of colorNames) {\n`
+          define += `    Object.defineProperty((globalThis as any).${property.jsName}, color, { value: Factory.propertyValue("${property.name}", color) })\n`
+          define += `  }\n`
         }
       }
       types += `  }\n`
