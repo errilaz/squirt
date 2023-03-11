@@ -58,13 +58,21 @@ export class Property {
   }
 }
 
+export type RuleContent =
+| Property
+| Rule
+| undefined
+| null
+| false
+| RuleContent[]
+
 /** Representation of a CSS rule. */
 export class Rule {
   selector: string
   properties: { [name: string]: string } = {}
   rules: Rule[] = []
 
-  constructor(selector: string | ElementBuilder, contents: (Property | Rule | any[])[]) {
+  constructor(selector: string | ElementBuilder, contents: RuleContent[]) {
     if (typeof selector === "string") {
       this.selector = selector
     }
@@ -76,7 +84,7 @@ export class Rule {
     }
   }
 
-  add(content: Property | Rule | any[]) {
+  add(content: RuleContent) {
     if (Array.isArray(content)) {
       for (const piece of content) {
         this.add(piece)

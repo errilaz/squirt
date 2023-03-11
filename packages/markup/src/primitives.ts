@@ -1,5 +1,5 @@
 import cssesc from "cssesc"
-import { Element, Property, Raw, Rule } from "./dom"
+import { Element, Property, Raw, Rule, RuleContent } from "./dom"
 
 export module Primitives {
 
@@ -13,12 +13,12 @@ export module Primitives {
     get: createClassRule
   })
 
-  function createRule(selector: string, ...contents: (Property | Rule)[]) {
+  function createRule(selector: string, ...contents: RuleContent[]) {
     return new Rule(selector, contents)
   }
 
   function createClassRule(obj: any, cssClass: string) {
-    return function createClassRule(...contents: (Property | Rule)[]) {
+    return function createClassRule(...contents: RuleContent[]) {
       return new Rule(`.${cssClass}`, contents)
     }
   }
