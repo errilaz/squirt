@@ -268,15 +268,24 @@ TypeScript/JavaScript example:
 div(
   span("Password: "),
   input({ type: "password" })
+  style(
+    rule.someClass(
+      color.red,
+    ),
+  ),
 )
 ```
 
 Civet example:
 
-```civet
+```coffee
 div [
   span "Password: "
   input { type: "password" }
+  style [
+    rule ".some-class",
+      color.red
+  ]
 ]
 ```
 
